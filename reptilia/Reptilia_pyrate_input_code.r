@@ -3,8 +3,9 @@ extract.ages.pbdb(file="/Users/shelleywang/Documents/PU RSII/BDNN_Arielli/data/R
 
 # Created /Users/shelleywang/Documents/PU RSII/BDNN_Arielli/data/Reptilia_cleaned_pyrate_input_PyRate.py
 
-# MCMC PyRate run (not BDNN): python PyRate.py reptilia/Reptilia_cleaned_pyrate_input_PyRate.py -qShift 
-# data/Time_bins_ByStages.txt -mG -fixShift data/Time_bins_CrossStage.txt 
+# CoVar Model (not BDNN): python PyRate.py reptilia/Reptilia_cleaned_pyrate_input_PyRate.py -trait_file data/Reptilia_ohe_per_species.txt -mCov 5 -logT 1 -pC 0
+# -fixShift data/Time_bins_CrossStage.txt -qShift data/Time_bins_ByStages.txt -mG -A 0 -n 20000000 -s 2000
+# This is: a Covar BD model with fixed times of rate shifts, log transformed traits, TPP and Gamma preservation model, parameter estimation MCMC
 
 # BDNN run: python PyRate.py reptilia/Reptilia_cleaned_pyrate_input_PyRate.py -j 1 -fixShift data/Time_bins_CrossStage.txt 
 # -BDNNmodel 1 -trait_file data/Reptilia_ohe_per_species.txt -qShift data/Time_bins_ByStages.txt -mG -A 0 -n 20000000 -s 2000
