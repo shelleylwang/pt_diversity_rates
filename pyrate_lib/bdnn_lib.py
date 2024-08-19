@@ -2177,14 +2177,37 @@ class BdSimulator():
         root = np.abs(root)
         timesL = np.array([root, 0.])
         timesM = np.array([root, 0.])
-        L = self._rs.uniform(np.min(self.rangeL), np.max(self.rangeL), 1)
-        M = self._rs.uniform(np.min(self.rangeM), np.max(self.rangeM), 1)
-        # Speciation should be higher than extinction
-#        LM = np.sort(np.array([L, M]))
-#        L = LM[1]
-#        M = LM[0]
+        # Print statements to show the range of L and M
+        print("Range for L (speciation rate):")
+        print(f"  Minimum: {np.min(self.rangeL)}")
+        print(f"  Maximum: {np.max(self.rangeL)}")
+        print(f"  Range: {np.max(self.rangeL) - np.min(self.rangeL)}")
+
+        print("\nRange for M (extinction rate):")
+        print(f"  Minimum: {np.min(self.rangeM)}")
+        print(f"  Maximum: {np.max(self.rangeM)}")
+        print(f"  Range: {np.max(self.rangeM) - np.min(self.rangeM)}")
+
+        # Try-except block to catch and print any errors
+        try:
+            L = self._rs.uniform(np.min(self.rangeL), np.max(self.rangeL), 1)
+        except Exception as e:
+            print(f"\nError generating L: {str(e)}")
+            raise
+
+        try:
+            M = self._rs.uniform(np.min(self.rangeM), np.max(self.rangeM), 1)
+        except Exception as e:
+            print(f"\nError generating M: {str(e)}")
+            raise
+
         if L < M and num_trial > max_trial/2:
             L = M * 1.1
+
+        print(f"\nGenerated values:")
+        print(f"  L: {L}")
+        print(f"  M: {M}")
+
         return timesL, timesM, L, M
 
 
@@ -2560,13 +2583,21 @@ def get_CV_from_sim_i(arg):
 
 #    # Random seed
 #    rs = np.random.default_rng(None)
-    
+    print("rangeL before passing to BdSimulator:", rangeL)
+    print("rangeM before passing to BdSimulator:", rangeM)
+
     sim_bd = BdSimulator(s_species=1,
                          rangeSP=rangeSP,
                          rangeL=rangeL,
                          rangeM=rangeM,
                          root_r=root_age,
                          seed=rep)
+    print("BdSimulator initialized with:")
+    print(f"  rangeSP: {sim_bd.rangeSP}")
+    print(f"  rangeL: {sim_bd.rangeL}")
+    print(f"  rangeM: {sim_bd.rangeM}")
+    print(f"  root_r: {sim_bd.root_r}")
+
     sp_x = sim_bd.run_simulation(print_res=False)
     cv = np.full(2, np.nan)
     
