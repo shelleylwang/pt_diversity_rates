@@ -27,6 +27,6 @@ Paleobiology, doi: 10.1017/pab.2019.23.
         Numpy version: 1.26.4
         Scipy version: 1.13.1
 
-        Random seed: 9544 
+        Random seed: 5887 
 Using module FastPyRateC
         
