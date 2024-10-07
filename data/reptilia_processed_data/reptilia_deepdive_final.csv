@@ -969,7 +969,7 @@ Acrodenta,Marrakech-Tensift-Al Haouz,259.51,254.14,1
 Labidosaurikos,Logan,283.5,273.01,1
 Kapes,Orenburg,251.2,247.2,1
 Libognathus,Garza,227.0,208.5,1
-Nycteroleter,Mezen,273.01,264.28,1
+Nycteroleter,Mezen',273.01,264.28,1
 Nyctiboetus,Slobodskoi,276.5,266.9,1
 Macroleter,Orenburg,266.9,264.28,1
 Saurodektes,Middelburg,251.902,251.2,1
@@ -1299,10 +1299,10 @@ Phaanthosaurus,Vetluga,251.902,251.2,1
 Phaanthosaurus,Krasnye Baki,251.902,251.2,1
 Anomoiodon,Hildburghausen,247.2,245.5,1
 Anomoiodon,Hildburghausen,247.2,245.5,1
-Nyctiphruretus,Mezen,273.01,264.28,1
-Nyctiphruretus,Mezen,273.01,264.28,1
-Nyctiphruretus,Mezen,273.01,264.28,1
-Nyctiphruretus,Mezen,273.01,264.28,1
+Nyctiphruretus,Mezen',273.01,264.28,1
+Nyctiphruretus,Mezen',273.01,264.28,1
+Nyctiphruretus,Mezen',273.01,264.28,1
+Nyctiphruretus,Mezen',273.01,264.28,1
 Macroleter,Blaine,273.01,264.28,1
 Pareiasuchus,Lundazi,259.51,254.14,1
 Archosaurus,Vyazniki,259.51,256.8,1
@@ -1928,8 +1928,8 @@ Leptosuchus,Apache,227.0,208.5,1
 Leptosuchus,Apache,227.0,208.5,1
 Leptosuchus,Apache,227.0,208.5,1
 Calyptosuchus,Apache,227.0,208.5,1
-Kapes,Sol-Iletsk,247.2,242.0,1
-Dorosuchus,Sol-Iletsk,247.2,242.0,1
+Kapes,Sol'-Iletsk,247.2,242.0,1
+Dorosuchus,Sol'-Iletsk,247.2,242.0,1
 Kapes,Ust-Vymskii,251.2,247.2,1
 Chasmatosuchus,Nikolsk,251.2,247.2,1
 Microcnemus,Nikolsk,251.2,247.2,1
@@ -2157,7 +2157,7 @@ Procolophon,Inxuba Yethemba,251.902,247.2,1
 Procolophon,Inxuba Yethemba,251.902,247.2,1
 Leptosuchus,Apache,227.0,208.5,1
 Procolophon,Kopanong,251.902,247.2,1
-Tichvinskia,Sol-Iletsk,251.2,247.2,1
+Tichvinskia,Sol'-Iletsk,251.2,247.2,1
 Eucoelophysis,Rio Arriba,208.5,201.4,1
 Krzyzanowskisaurus,Apache,227.0,208.5,1
 Trilophosaurus,Crosby,227.0,208.5,1
@@ -2217,17 +2217,17 @@ Placodus,Gelderland,247.2,242.0,1
 Amotosaurus,Gelderland,247.2,242.0,1
 Procolophonichnium,Gelderland,247.2,242.0,1
 Bergamodactylus,Bergamo,216.7,213.2,1
-Sarmatosuchus,Sol-Iletsk,247.2,242.0,1
-Vjushkovisaurus,Sol-Iletsk,247.2,242.0,1
-Uralosaurus,Sol-Iletskiy,247.2,242.0,1
-Uralosaurus,Sol-Iletsk,247.2,242.0,1
-Chalishevia,Sol-Iletsk,242.0,237.0,1
-Dorosuchus,Sol-Iletsk,247.2,242.0,1
-Dongusuchus,Sol-Iletsk,247.2,242.0,1
-Chalishevia,Sol-Iletsk,242.0,237.0,1
-Malutinisuchus,Sol-Iletsk,242.0,237.0,1
-Chalishevia,Sol-Iletsk,242.0,237.0,1
-Energosuchus,Sol-Iletsk,242.0,237.0,1
+Sarmatosuchus,Sol'-Iletsk,247.2,242.0,1
+Vjushkovisaurus,Sol'-Iletsk,247.2,242.0,1
+Uralosaurus,Sol'-Iletskiy,247.2,242.0,1
+Uralosaurus,Sol'-Iletsk,247.2,242.0,1
+Chalishevia,Sol'-Iletsk,242.0,237.0,1
+Dorosuchus,Sol'-Iletsk,247.2,242.0,1
+Dongusuchus,Sol'-Iletsk,247.2,242.0,1
+Chalishevia,Sol'-Iletsk,242.0,237.0,1
+Malutinisuchus,Sol'-Iletsk,242.0,237.0,1
+Chalishevia,Sol'-Iletsk,242.0,237.0,1
+Energosuchus,Sol'-Iletsk,242.0,237.0,1
 Dongusuchus,Bashkortostan,247.2,242.0,1
 Uralosaurus,Bashkortostan,247.2,242.0,1
 Vjushkovisaurus,Bashkortostan,247.2,242.0,1
@@ -3615,8 +3615,8 @@ Garjainia,Orenburg,248.9,247.2,1
 Garjainia,Orenburg,248.9,247.2,1
 Garjainia,Orenburg,248.9,247.2,1
 Garjainia,Orenburg,248.9,247.2,1
-Garjainia,Sol-Iletsk,248.9,247.2,1
-Chasmatosuchus,Sol-Iletsk,248.9,247.2,1
+Garjainia,Sol'-Iletsk,248.9,247.2,1
+Chasmatosuchus,Sol'-Iletsk,248.9,247.2,1
 Chasmatosuchus,Orenburg,251.2,247.2,1
 Tichvinskia,Orenburg,251.2,247.2,1
 Chasmatosuchus,Orenburg,251.2,247.2,1
@@ -3636,7 +3636,7 @@ Chasmatosuchus,Borskii,248.9,247.2,1
 Chasmatosuchus,Borskii,251.2,248.9,1
 Phaanthosaurus,Borskii,251.902,251.2,1
 Glaurung,Mansfelder Land,259.51,254.14,1
-Scutosaurus,Sol-Iletsk,264.28,256.8,1
+Scutosaurus,Sol'-Iletsk,264.28,256.8,1
 Scutosaurus,Grachevskii,264.28,259.51,1
 Askeptosaurus,Luoping,239.7,237.0,1
 Keichousaurus,Luoping,239.7,237.0,1
@@ -4145,7 +4145,7 @@ Hyperodapedon,Cerrito,227.0,208.5,1
 Procolophon,Rincao dos Weiss,251.2,247.2,1
 Hyperodapedon,Cerrito,227.0,208.5,1
 Provelosaurus,Acegua,266.9,264.3,1
-Clevosaurus,Sesmaria,227.0,208.5,1
+Clevosaurus,Sesmaria do Pinhal 1,227.0,208.5,1
 Prestosuchus,Pinheiro,242.0,237.0,1
 Hyperodapedon,Cerrito,227.0,208.5,1
 Hyperodapedon,Buriol,227.0,208.5,1
@@ -4166,7 +4166,7 @@ Procolophon,RS,251.2,247.2,1
 Procolophon,RS,251.2,247.2,1
 Teyumbaita,RS,227.0,208.5,1
 Maehary,Linha Sao Luiz,227.0,208.5,1
-Guaibasaurus,Sesmaria,227.0,208.5,1
+Guaibasaurus,Sesmaria do Pinhal 2,227.0,208.5,1
 Guaibasaurus,Linha Sao Luiz,227.0,208.5,1
 Saturnalia,Cerrito,227.0,208.5,1
 Nhandumirim,Cerrito,227.0,208.5,1
