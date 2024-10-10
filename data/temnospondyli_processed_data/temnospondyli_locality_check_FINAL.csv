@@ -1,4 +1,4 @@
-,occurrence_no_x,locality,county_original,state,cc,notes,id,genus,age_max,age_min
+index,occurrence_no_x,locality,county_original,state,cc,notes,id,genus,age_max,age_min
 0,146665,New Mexico,Rio Arriba,New Mexico,US,,2247,Anconastes,305.9,298.9
 1,147563,Texas,Baylor,Texas,US,,2246,Broiliellus,283.5,273.01
 2,147564,Texas,Clay,Texas,US,,2245,Broiliellus,298.9,286.1
@@ -8,14 +8,14 @@
 6,148246,Texas,Archer,Texas,US,,2241,Trimerorhachis,290.1,283.5
 7,149740,Utah,San Juan,Utah,US,,2240,Eryops,298.9,290.1
 8,149741,Utah,San Juan,Utah,US,,2239,Platyhystrix,298.9,290.1
-9,149920,Texas,Garza,Texas,US,,2238,Rileymillerus,227.0,208.5
-10,149923,Texas,Garza,Texas,US,,2237,Apachesaurus,227.0,208.5
+9,149920,Texas,Garza,Texas,US,,2238,Rileymillerus,227,208.5
+10,149923,Texas,Garza,Texas,US,,2237,Apachesaurus,227,208.5
 11,157307,Oklahoma,Seminole,Oklahoma,US,,2236,Eryops,303.7,298.9
 12,219910,Texas,,Texas,US,,2235,Eryops,298.9,286.1
-17,220039,Texas,Scurry,Texas,US,,2230,Metoposaurus,237.0,208.5
+17,220039,Texas,Scurry,Texas,US,,2230,Metoposaurus,237,208.5
 18,220192,Texas,Wichita,Texas,US,,2229,Trimerorhachis,290.1,283.5
 19,220193,Texas,Wichita,Texas,US,,2228,Eryops,290.1,283.5
-20,220202,New Mexico,Santa Fe,New Mexico,US,,2227,Anaschisma,237.0,227.0
+20,220202,New Mexico,Santa Fe,New Mexico,US,,2227,Anaschisma,237,227
 21,221286,Texas,Jones,Texas,US,,2195,Trimerorhachis,283.5,273.01
 22,221286,Texas,Jones,Texas,US,,2196,Trimerorhachis,283.5,273.01
 23,221286,Texas,Jones,Texas,US,,2197,Trimerorhachis,283.5,273.01
@@ -52,10 +52,10 @@
 54,229270,Texas,,Texas,US,,2193,Acheloma,290.1,283.5
 55,229271,Texas,,Texas,US,,2192,Parioxys,290.1,283.5
 56,229273,Texas,,Texas,US,,2191,Dissorophus,283.5,273.01
-57,229327,Arizona,,Arizona,US,,2190,Anaschisma,227.0,208.5
-58,229336,Texas,Howard,Texas,US,,2189,Anaschisma,237.0,208.5
-59,283817,East Greenland,,East Greenland,GL,,2188,Gerrothorax,227.0,208.5
-60,283818,East Greenland,,East Greenland,GL,,2187,Cyclotosaurus,227.0,208.5
+57,229327,Arizona,,Arizona,US,,2190,Anaschisma,227,208.5
+58,229336,Texas,Howard,Texas,US,,2189,Anaschisma,237,208.5
+59,283817,East Greenland,,East Greenland,GL,,2188,Gerrothorax,227,208.5
+60,283818,East Greenland,,East Greenland,GL,,2187,Cyclotosaurus,227,208.5
 61,286238,Kashmir,,Kashmir,IN,,2186,Lysipterygium,298.9,290.1
 62,286240,Kashmir,,Kashmir,IN,,2185,Kashmirosaurus,298.9,290.1
 63,287720,Oklahoma,Blaine,Oklahoma,US,,2184,Nannospondylus,273.01,264.28
@@ -398,7 +398,7 @@
 400,297926,Evenk Autonomous District,Amo-Tura region,Evenk Autonomous District,RU,,1847,Tungussogyrinus,259.51,247.2
 401,297945,Evenk Autonomous District,Amo-Tura region,Evenk Autonomous District,RU,,1846,Tungussogyrinus,259.51,247.2
 402,297946,Evenk Autonomous District,Amo-Tura region,Evenk Autonomous District,RU,,1845,Tungussogyrinus,259.51,247.2
-403,299698,Orenburg,Sol'-Iletsk,Orenburg,RU,,1844,Eryosuchus,247.2,242.0
+403,299698,Orenburg,Sol'-Iletsk,Orenburg,RU,,1844,Eryosuchus,247.2,242
 404,346290,Texas,Archer,Texas,US,,1843,Eryops,298.9,290.1
 405,367864,Allier,Allier,Allier,FR,,1842,Actinodon,298.9,290.1
 406,368039,KwaZulu-Natal,Bergville,KwaZulu-Natal,ZA,,1841,Lydekkerina,251.902,247.2
@@ -412,48 +412,48 @@
 414,388988,Archangelsk,,Archangelsk,RU,,1833,Dvinosaurus,259.51,256.8
 415,388989,Archangelsk,,Archangelsk,RU,,1832,Dvinosaurus,259.51,256.8
 416,388990,Archangelsk,,Archangelsk,RU,,1831,Dvinosaurus,259.51,256.8
-417,399460,New South Wales,,New South Wales,AU,,1830,Paracyclotosaurus,247.2,242.0
+417,399460,New South Wales,,New South Wales,AU,,1830,Paracyclotosaurus,247.2,242
 418,401594,Malopolskie,Krakowski,Malopolskie,PL,,1829,Czatkobatrachus,251.2,247.2
 419,401598,Malopolskie,Krakowski,Malopolskie,PL,,1828,Parotosuchus,251.2,247.2
-420,406870,Arizona,Apache,Arizona,US,,1827,Anaschisma,227.0,208.5
-421,407765,Arizona,Apache,Arizona,US,,1826,Anaschisma,227.0,208.5
-422,407774,Arizona,Apache,Arizona,US,,1825,Anaschisma,227.0,208.5
-423,410770,Texas,Crosby,Texas,US,,1824,Metoposaurus,237.0,201.4
-424,410787,Texas,Crosby,Texas,US,,1823,Metoposaurus,237.0,201.4
+420,406870,Arizona,Apache,Arizona,US,,1827,Anaschisma,227,208.5
+421,407765,Arizona,Apache,Arizona,US,,1826,Anaschisma,227,208.5
+422,407774,Arizona,Apache,Arizona,US,,1825,Anaschisma,227,208.5
+423,410770,Texas,Crosby,Texas,US,,1824,Metoposaurus,237,201.4
+424,410787,Texas,Crosby,Texas,US,,1823,Metoposaurus,237,201.4
 425,411694,Komi,,Komi,RU,,1822,Wetlugasaurus,251.2,247.2
 426,411695,Komi,,Komi,RU,,1821,Angusaurus,251.2,247.2
 427,411696,Komi,,Komi,RU,,1820,Vyborosaurus,251.2,247.2
 428,477613,Primorye,,Primorye,RU,,1819,Aphaneramma,248.9,247.2
 429,477681,Primorye,,Primorye,RU,,1818,Aphaneramma,248.9,247.2
-430,483852,Arizona,Apache,Arizona,US,,1817,Apachesaurus,227.0,208.5
-431,483857,Arizona,Apache,Arizona,US,,1816,Apachesaurus,227.0,208.5
+430,483852,Arizona,Apache,Arizona,US,,1817,Apachesaurus,227,208.5
+431,483857,Arizona,Apache,Arizona,US,,1816,Apachesaurus,227,208.5
 432,486123,Lorraine,Meuthe-et-Moselle,Lorraine,FR,,1815,Metoposaurus,208.5,201.4
 433,486124,Lorraine,Meuthe-et-Moselle,Lorraine,FR,,1814,Plagiosaurus,208.5,201.4
-434,517579,Arizona,Apache,Arizona,US,,1813,Apachesaurus,227.0,208.5
-435,517599,Arizona,Apache,Arizona,US,,1812,Anaschisma,227.0,208.5
-436,517604,Arizona,Apache,Arizona,US,,1811,Anaschisma,227.0,208.5
-437,517607,Arizona,Navajo,Arizona,US,,1810,Anaschisma,227.0,208.5
+434,517579,Arizona,Apache,Arizona,US,,1813,Apachesaurus,227,208.5
+435,517599,Arizona,Apache,Arizona,US,,1812,Anaschisma,227,208.5
+436,517604,Arizona,Apache,Arizona,US,,1811,Anaschisma,227,208.5
+437,517607,Arizona,Navajo,Arizona,US,,1810,Anaschisma,227,208.5
 438,517728,Saxony,Weisseritzkreis,Saxony,DE,,1809,Onchiodon,293.52,290.1
 439,517729,Saxony,Weisseritzkreis,Saxony,DE,,1808,Onchiodon,293.52,290.1
 440,517730,Saxony,Weisseritzkreis,Saxony,DE,,1807,Apateon,293.52,290.1
 441,517731,Saxony,Weisseritzkreis,Saxony,DE,,1806,Branchierpeton,293.52,290.1
 442,517732,Saxony,Weisseritzkreis,Saxony,DE,,1805,Acanthostomatops,293.52,290.1
-443,533987,New Mexico,McKinley,New Mexico,US,,1804,Anaschisma,227.0,208.5
+443,533987,New Mexico,McKinley,New Mexico,US,,1804,Anaschisma,227,208.5
 444,538734,Luxembourg,,Diekirch,LU,,1803,Plagiosaurus,216.7,213.2
 445,538735,Luxembourg,,Diekirch,LU,,1802,Cyclotosaurus,216.7,213.2
-446,558338,England,Warwickshire,England,UK,,1801,Cyclotosaurus,247.2,242.0
-447,558339,England,Warwickshire,England,UK,,1800,Cyclotosaurus,247.2,242.0
-448,558340,England,Warwickshire,England,UK,,1799,Mastodonsaurus,247.2,242.0
+446,558338,England,Warwickshire,England,UK,,1801,Cyclotosaurus,247.2,242
+447,558339,England,Warwickshire,England,UK,,1800,Cyclotosaurus,247.2,242
+448,558340,England,Warwickshire,England,UK,,1799,Mastodonsaurus,247.2,242
 449,559541,Czechia,,Boheme,CZ,,1798,Apateon,283.5,259.51
-450,562849,Arizona,Apache,Arizona,US,,1797,Anaschisma,227.0,208.5
-451,572543,Arizona,Apache,Arizona,US,,1796,Anaschisma,227.0,208.5
-452,572544,Arizona,Apache,Arizona,US,,1795,Apachesaurus,227.0,208.5
-453,572574,Arizona,,Arizona,US,,1794,Apachesaurus,227.0,208.5
-454,572583,New Mexico,McKinley,New Mexico,US,,1793,Apachesaurus,227.0,208.5
-455,584069,Opole,,Opole,PL,,1792,Cyclotosaurus,237.0,208.5
-456,584070,Opole,,Opole,PL,,1791,Metoposaurus,237.0,208.5
-457,584075,Opole,,Opole,PL,,1790,Cyclotosaurus,233.4,227.0
-458,590154,New Mexico,Rio Arriba,New Mexico,US,,1789,Anaschisma,227.0,208.5
+450,562849,Arizona,Apache,Arizona,US,,1797,Anaschisma,227,208.5
+451,572543,Arizona,Apache,Arizona,US,,1796,Anaschisma,227,208.5
+452,572544,Arizona,Apache,Arizona,US,,1795,Apachesaurus,227,208.5
+453,572574,Arizona,,Arizona,US,,1794,Apachesaurus,227,208.5
+454,572583,New Mexico,McKinley,New Mexico,US,,1793,Apachesaurus,227,208.5
+455,584069,Opole,,Opole,PL,,1792,Cyclotosaurus,237,208.5
+456,584070,Opole,,Opole,PL,,1791,Metoposaurus,237,208.5
+457,584075,Opole,,Opole,PL,,1790,Cyclotosaurus,233.4,227
+458,590154,New Mexico,Rio Arriba,New Mexico,US,,1789,Anaschisma,227,208.5
 459,629466,Oklahoma,Comanche,Oklahoma,US,,1782,Cacops,290.1,283.5
 460,629466,Oklahoma,Comanche,Oklahoma,US,,1783,Cacops,290.1,283.5
 461,629466,Oklahoma,Comanche,Oklahoma,US,,1784,Cacops,290.1,283.5
@@ -470,36 +470,36 @@
 472,631439,Oklahoma,Tillman,Oklahoma,US,,1775,Tersomius,283.5,273.01
 473,632371,Agadez,Arlit,Agadez,NE,,1774,Saharastega,254.14,251.902
 474,632372,Agadez,Arlit,Agadez,NE,,1773,Nigerpeton,254.14,251.902
-475,667875,Texas,Crosby,Texas,US,,1764,Anaschisma,237.0,208.5
-476,667875,Texas,Crosby,Texas,US,,1765,Anaschisma,237.0,208.5
-477,667875,Texas,Crosby,Texas,US,,1766,Anaschisma,237.0,208.5
-478,667875,Texas,Crosby,Texas,US,,1767,Anaschisma,237.0,208.5
-479,667875,Texas,Crosby,Texas,US,,1768,Anaschisma,237.0,208.5
-480,667875,Texas,Crosby,Texas,US,,1769,Anaschisma,237.0,208.5
-481,667875,Texas,Crosby,Texas,US,,1770,Anaschisma,237.0,208.5
-482,667875,Texas,Crosby,Texas,US,,1771,Anaschisma,237.0,208.5
-483,667875,Texas,Crosby,Texas,US,,1772,Anaschisma,237.0,208.5
+475,667875,Texas,Crosby,Texas,US,,1764,Anaschisma,237,208.5
+476,667875,Texas,Crosby,Texas,US,,1765,Anaschisma,237,208.5
+477,667875,Texas,Crosby,Texas,US,,1766,Anaschisma,237,208.5
+478,667875,Texas,Crosby,Texas,US,,1767,Anaschisma,237,208.5
+479,667875,Texas,Crosby,Texas,US,,1768,Anaschisma,237,208.5
+480,667875,Texas,Crosby,Texas,US,,1769,Anaschisma,237,208.5
+481,667875,Texas,Crosby,Texas,US,,1770,Anaschisma,237,208.5
+482,667875,Texas,Crosby,Texas,US,,1771,Anaschisma,237,208.5
+483,667875,Texas,Crosby,Texas,US,,1772,Anaschisma,237,208.5
 484,670355,Wales,Penarth,Wales,UK,,1763,Mastodonsaurus,208.5,201.4
 485,670358,Wales,Penarth,Wales,UK,,1762,Trematosaurus,208.5,201.4
-486,690409,England,Warwickshire,England,UK,,1761,Mastodonsaurus,247.2,242.0
-487,690410,England,Warwickshire,England,UK,,1760,Mastodonsaurus,247.2,237.0
-488,690411,England,Warwickshire,England,UK,,1759,Stenotosaurus,247.2,237.0
-489,705334,New Mexico,McKinley,New Mexico,US,,1758,Anaschisma,227.0,208.5
-490,705335,New Mexico,McKinley,New Mexico,US,,1757,Anaschisma,227.0,208.5
-491,705362,New Mexico,McKinley,New Mexico,US,,1756,Anaschisma,227.0,208.5
-492,705368,New Mexico,McKinley,New Mexico,US,,1755,Anaschisma,227.0,208.5
+486,690409,England,Warwickshire,England,UK,,1761,Mastodonsaurus,247.2,242
+487,690410,England,Warwickshire,England,UK,,1760,Mastodonsaurus,247.2,237
+488,690411,England,Warwickshire,England,UK,,1759,Stenotosaurus,247.2,237
+489,705334,New Mexico,McKinley,New Mexico,US,,1758,Anaschisma,227,208.5
+490,705335,New Mexico,McKinley,New Mexico,US,,1757,Anaschisma,227,208.5
+491,705362,New Mexico,McKinley,New Mexico,US,,1756,Anaschisma,227,208.5
+492,705368,New Mexico,McKinley,New Mexico,US,,1755,Anaschisma,227,208.5
 493,728366,Baden-Wurttemberg,,Baden-Wurttemberg,DE,,1754,Gerrothorax,216.7,213.2
 494,739841,Oklahoma,Cleveland,Oklahoma,US,,1753,Tersomius,283.5,273.01
 495,749055,Utah,San Juan,Utah,US,,1752,Eryops,298.9,273.01
 496,753719,Texas,Knox,Texas,US,,1751,Slaugenhopia,283.5,266.9
-497,773340,Portugal,Loule,Algarve,PT,,1750,Metoposaurus,237.0,208.5
-498,773661,Opole,,Opole,PL,,1749,Metoposaurus,233.4,227.0
-499,778928,New Mexico,Guadalupe,New Mexico,US,,1748,Apachesaurus,227.0,208.5
-500,778945,New Mexico,Quay,New Mexico,US,,1747,Apachesaurus,227.0,208.5
-501,778963,Texas,Howard,Texas,US,,1746,Anaschisma,237.0,208.5
-502,782139,Arizona,Navajo,Arizona,US,,1745,Apachesaurus,227.0,208.5
-503,782172,Arizona,Navajo,Arizona,US,,1744,Anaschisma,227.0,208.5
-504,782200,Texas,Potter,Texas,US,,1743,Anaschisma,237.0,227.0
+497,773340,Portugal,Loule,Algarve,PT,,1750,Metoposaurus,237,208.5
+498,773661,Opole,,Opole,PL,,1749,Metoposaurus,233.4,227
+499,778928,New Mexico,Guadalupe,New Mexico,US,,1748,Apachesaurus,227,208.5
+500,778945,New Mexico,Quay,New Mexico,US,,1747,Apachesaurus,227,208.5
+501,778963,Texas,Howard,Texas,US,,1746,Anaschisma,237,208.5
+502,782139,Arizona,Navajo,Arizona,US,,1745,Apachesaurus,227,208.5
+503,782172,Arizona,Navajo,Arizona,US,,1744,Anaschisma,227,208.5
+504,782200,Texas,Potter,Texas,US,,1743,Anaschisma,237,227
 505,785869,Tatarstan,Mamadysh,Tatarstan,RU,,1742,Melosaurus,276.5,266.9
 506,786933,Texas,Foard,Texas,US,,1741,Trimerorhachis,286.1,273.01
 507,786936,Texas,Knox,Texas,US,,1740,Trimerorhachis,283.5,273.01
@@ -523,8 +523,8 @@
 525,789761,Orenburg,,Orenburg,RU,,1722,Parotosuchus,251.2,247.2
 526,789762,Orenburg,,Orenburg,RU,,1721,Yarengia,251.2,247.2
 527,789765,Orenburg,,Orenburg,RU,,1720,Eryosuchus,251.2,247.2
-528,789768,Bashkortostan,,Bashkortostan,RU,,1719,Mastodonsaurus,242.0,237.0
-529,789770,Bashkortostan,,Bashkortostan,RU,,1718,Plagioscutum,242.0,237.0
+528,789768,Bashkortostan,,Bashkortostan,RU,,1719,Mastodonsaurus,242,237
+529,789770,Bashkortostan,,Bashkortostan,RU,,1718,Plagioscutum,242,237
 530,789965,Texas,Archer,Texas,US,,1717,Eryops,298.9,286.1
 531,789966,Texas,Archer,Texas,US,,1716,Zatrachys,298.9,286.1
 532,789967,Texas,Archer,Texas,US,,1715,Acheloma,298.9,286.1
@@ -539,7 +539,7 @@
 541,790501,Texas,Archer,Texas,US,,1706,Trimerorhachis,298.9,290.1
 542,790525,New Mexico,Rio Arriba,New Mexico,US,,1705,Chenoprosopus,298.9,286.1
 543,795306,Vladimir,Vyazniki,Vladimir,RU,,1704,Dvinosaurus,259.51,256.8
-544,796034,Uruguay,,Cerro Largo,UY,,1703,Uruyiella,237.0,201.4
+544,796034,Uruguay,,Cerro Largo,UY,,1703,Uruyiella,237,201.4
 545,799672,Kirov,Slobodskoi,Kirov,RU,,1702,Platyoposaurus,276.5,266.9
 546,799681,Orenburg,Oktyabrskoe,Orenburg,RU,,1701,Platyoposaurus,266.9,264.28
 547,799682,Kirov,Malmysh,Kirov,RU,,1700,Platyoposaurus,266.9,264.28
@@ -550,76 +550,76 @@
 552,799813,Kirov,Slobodskoi,Kirov,RU,,1695,Zygosaurus,276.5,266.9
 553,800079,Komi,Inta,Komi,RU,,1694,Intasuchus,276.5,273.01
 554,800080,Komi,Inta,Komi,RU,,1693,Syndyodosuchus,276.5,273.01
-555,806471,Texas,Garza,Texas,US,,1692,Rileymillerus,227.0,208.5
-556,811357,England,Devon,England,UK,,1691,Eocyclotosaurus,247.2,242.0
-557,811358,England,Devon,England,UK,,1690,Eocyclotosaurus,247.2,242.0
+555,806471,Texas,Garza,Texas,US,,1692,Rileymillerus,227,208.5
+556,811357,England,Devon,England,UK,,1691,Eocyclotosaurus,247.2,242
+557,811358,England,Devon,England,UK,,1690,Eocyclotosaurus,247.2,242
 558,814162,Kirov,Kotelnich,Kirov,RU,,1689,Dvinosaurus,264.28,259.51
 559,814505,Oklahoma,Cotton,Oklahoma,US,,1688,Eryops,290.1,273.01
-560,818655,Thailand,Thung Luilai,Chaiyaphum,TH,,1687,Cyclotosaurus,227.0,208.5
+560,818655,Thailand,Thung Luilai,Chaiyaphum,TH,,1687,Cyclotosaurus,227,208.5
 561,821549,Queensland,,Queensland,AU,,1686,Lapillopsis,251.902,251.2
-562,821550,Eastern Cape,Maletswai,Eastern Cape,ZA,,1685,Batrachosuchus,247.2,242.0
+562,821550,Eastern Cape,Maletswai,Eastern Cape,ZA,,1685,Batrachosuchus,247.2,242
 563,825243,Oklahoma,Comanche,Oklahoma,US,,1683,Pasawioops,290.1,283.5
 564,825243,Oklahoma,Comanche,Oklahoma,US,,1684,Pasawioops,290.1,283.5
 565,825283,Thuringia,Gotha,Thuringia,DE,,1682,Tambachia,290.1,283.5
 566,825943,Texas,Baylor,Texas,US,,1681,Gerobatrachus,283.5,273.01
-567,829759,Wyoming,Fremont,Wyoming,US,,1680,Anaschisma,237.0,227.0
-568,829815,Wyoming,Fremont,Wyoming,US,,1678,Anaschisma,237.0,227.0
-569,829815,Wyoming,Fremont,Wyoming,US,,1679,Anaschisma,237.0,227.0
-570,829817,Wyoming,Fremont,Wyoming,US,,1675,Anaschisma,237.0,227.0
-571,829817,Wyoming,Fremont,Wyoming,US,,1676,Anaschisma,237.0,227.0
-572,829817,Wyoming,Fremont,Wyoming,US,,1677,Anaschisma,237.0,227.0
-573,829818,Wyoming,Hot Springs,Wyoming,US,,1674,Anaschisma,237.0,227.0
-574,829821,Wyoming,Fremont,Wyoming,US,,1673,Anaschisma,237.0,227.0
-575,829824,Wyoming,Fremont,Wyoming,US,,1672,Anaschisma,237.0,227.0
-576,831024,Wyoming,Fremont,Wyoming,US,,1671,Anaschisma,237.0,227.0
-577,831025,Wyoming,Fremont,Wyoming,US,,1670,Anaschisma,237.0,227.0
+567,829759,Wyoming,Fremont,Wyoming,US,,1680,Anaschisma,237,227
+568,829815,Wyoming,Fremont,Wyoming,US,,1678,Anaschisma,237,227
+569,829815,Wyoming,Fremont,Wyoming,US,,1679,Anaschisma,237,227
+570,829817,Wyoming,Fremont,Wyoming,US,,1675,Anaschisma,237,227
+571,829817,Wyoming,Fremont,Wyoming,US,,1676,Anaschisma,237,227
+572,829817,Wyoming,Fremont,Wyoming,US,,1677,Anaschisma,237,227
+573,829818,Wyoming,Hot Springs,Wyoming,US,,1674,Anaschisma,237,227
+574,829821,Wyoming,Fremont,Wyoming,US,,1673,Anaschisma,237,227
+575,829824,Wyoming,Fremont,Wyoming,US,,1672,Anaschisma,237,227
+576,831024,Wyoming,Fremont,Wyoming,US,,1671,Anaschisma,237,227
+577,831025,Wyoming,Fremont,Wyoming,US,,1670,Anaschisma,237,227
 578,831989,Diana,Ambilobe,Diana,MG,,1669,Triadobatrachus,251.902,248.9
-579,832058,New Mexico,Quay,New Mexico,US,,1668,Apachesaurus,227.0,213.2
-580,832693,Arizona,Apache,Arizona,US,,1667,Anaschisma,227.0,208.5
-581,837087,Arizona,Apache,Arizona,US,,1666,Anaschisma,227.0,208.5
-582,837165,Arizona,Navajo,Arizona,US,,1665,Anaschisma,227.0,208.5
-583,837211,Arizona,Apache,Arizona,US,,1664,Anaschisma,227.0,208.5
-584,837212,Arizona,Apache,Arizona,US,,1663,Apachesaurus,227.0,208.5
-585,837354,Arizona,Apache,Arizona,US,,1662,Anaschisma,227.0,208.5
-586,837355,Arizona,Apache,Arizona,US,,1661,Apachesaurus,227.0,208.5
-587,837393,Arizona,Apache,Arizona,US,,1660,Apachesaurus,227.0,208.5
-588,837394,Arizona,Apache,Arizona,US,,1659,Apachesaurus,227.0,208.5
-589,837399,Arizona,Apache,Arizona,US,,1658,Anaschisma,227.0,208.5
-590,837553,Arizona,Apache,Arizona,US,,1657,Apachesaurus,227.0,208.5
-591,837554,Arizona,Apache,Arizona,US,,1656,Anaschisma,227.0,208.5
-592,837555,Arizona,Apache,Arizona,US,,1655,Anaschisma,227.0,208.5
-593,837557,Arizona,Apache,Arizona,US,,1654,Anaschisma,227.0,208.5
-594,837561,Arizona,Apache,Arizona,US,,1653,Anaschisma,227.0,208.5
-595,837564,Arizona,Apache,Arizona,US,,1652,Anaschisma,227.0,208.5
-596,837592,Arizona,Navajo,Arizona,US,,1651,Anaschisma,227.0,208.5
-597,837634,Arizona,Navajo,Arizona,US,,1650,Anaschisma,227.0,208.5
-598,837636,Arizona,Navajo,Arizona,US,,1649,Anaschisma,227.0,208.5
-599,837641,Arizona,Navajo,Arizona,US,,1648,Anaschisma,227.0,208.5
-600,838831,Arizona,Navajo,Arizona,US,,1647,Anaschisma,227.0,208.5
-601,838833,Arizona,Navajo,Arizona,US,,1646,Anaschisma,227.0,208.5
-602,838835,Arizona,Apache,Arizona,US,,1645,Anaschisma,227.0,208.5
-603,838836,Arizona,Apache,Arizona,US,,1644,Apachesaurus,227.0,208.5
-604,838863,Arizona,Apache,Arizona,US,,1643,Anaschisma,227.0,208.5
-605,838888,Arizona,Navajo,Arizona,US,,1636,Anaschisma,227.0,208.5
-606,838888,Arizona,Navajo,Arizona,US,,1637,Anaschisma,227.0,208.5
-607,838888,Arizona,Navajo,Arizona,US,,1638,Anaschisma,227.0,208.5
-608,838888,Arizona,Navajo,Arizona,US,,1639,Anaschisma,227.0,208.5
-609,838888,Arizona,Navajo,Arizona,US,,1640,Anaschisma,227.0,208.5
-610,838888,Arizona,Navajo,Arizona,US,,1641,Anaschisma,227.0,208.5
-611,838888,Arizona,Navajo,Arizona,US,,1642,Anaschisma,227.0,208.5
-612,838889,Arizona,Navajo,Arizona,US,,1635,Apachesaurus,227.0,208.5
-613,838915,Arizona,Apache,Arizona,US,,1634,Anaschisma,227.0,208.5
-614,838923,Arizona,Apache,Arizona,US,,1633,Anaschisma,227.0,208.5
-615,838931,Arizona,Apache,Arizona,US,,1629,Anaschisma,227.0,208.5
-616,838931,Arizona,Apache,Arizona,US,,1630,Anaschisma,227.0,208.5
-617,838931,Arizona,Apache,Arizona,US,,1631,Anaschisma,227.0,208.5
-618,838931,Arizona,Apache,Arizona,US,,1632,Anaschisma,227.0,208.5
-619,838934,Arizona,Apache,Arizona,US,,1628,Anaschisma,227.0,208.5
-620,838962,Arizona,Apache,Arizona,US,,1627,Anaschisma,227.0,208.5
-621,838968,Arizona,Apache,Arizona,US,,1626,Anaschisma,227.0,208.5
-622,838996,Arizona,Apache,Arizona,US,,1625,Anaschisma,227.0,208.5
-623,838997,Arizona,Apache,Arizona,US,,1624,Apachesaurus,227.0,208.5
-624,839582,Orenburg,Sol'-Iletsk,Orenburg,RU,,1623,Plagioscutum,247.2,242.0
+579,832058,New Mexico,Quay,New Mexico,US,,1668,Apachesaurus,227,213.2
+580,832693,Arizona,Apache,Arizona,US,,1667,Anaschisma,227,208.5
+581,837087,Arizona,Apache,Arizona,US,,1666,Anaschisma,227,208.5
+582,837165,Arizona,Navajo,Arizona,US,,1665,Anaschisma,227,208.5
+583,837211,Arizona,Apache,Arizona,US,,1664,Anaschisma,227,208.5
+584,837212,Arizona,Apache,Arizona,US,,1663,Apachesaurus,227,208.5
+585,837354,Arizona,Apache,Arizona,US,,1662,Anaschisma,227,208.5
+586,837355,Arizona,Apache,Arizona,US,,1661,Apachesaurus,227,208.5
+587,837393,Arizona,Apache,Arizona,US,,1660,Apachesaurus,227,208.5
+588,837394,Arizona,Apache,Arizona,US,,1659,Apachesaurus,227,208.5
+589,837399,Arizona,Apache,Arizona,US,,1658,Anaschisma,227,208.5
+590,837553,Arizona,Apache,Arizona,US,,1657,Apachesaurus,227,208.5
+591,837554,Arizona,Apache,Arizona,US,,1656,Anaschisma,227,208.5
+592,837555,Arizona,Apache,Arizona,US,,1655,Anaschisma,227,208.5
+593,837557,Arizona,Apache,Arizona,US,,1654,Anaschisma,227,208.5
+594,837561,Arizona,Apache,Arizona,US,,1653,Anaschisma,227,208.5
+595,837564,Arizona,Apache,Arizona,US,,1652,Anaschisma,227,208.5
+596,837592,Arizona,Navajo,Arizona,US,,1651,Anaschisma,227,208.5
+597,837634,Arizona,Navajo,Arizona,US,,1650,Anaschisma,227,208.5
+598,837636,Arizona,Navajo,Arizona,US,,1649,Anaschisma,227,208.5
+599,837641,Arizona,Navajo,Arizona,US,,1648,Anaschisma,227,208.5
+600,838831,Arizona,Navajo,Arizona,US,,1647,Anaschisma,227,208.5
+601,838833,Arizona,Navajo,Arizona,US,,1646,Anaschisma,227,208.5
+602,838835,Arizona,Apache,Arizona,US,,1645,Anaschisma,227,208.5
+603,838836,Arizona,Apache,Arizona,US,,1644,Apachesaurus,227,208.5
+604,838863,Arizona,Apache,Arizona,US,,1643,Anaschisma,227,208.5
+605,838888,Arizona,Navajo,Arizona,US,,1636,Anaschisma,227,208.5
+606,838888,Arizona,Navajo,Arizona,US,,1637,Anaschisma,227,208.5
+607,838888,Arizona,Navajo,Arizona,US,,1638,Anaschisma,227,208.5
+608,838888,Arizona,Navajo,Arizona,US,,1639,Anaschisma,227,208.5
+609,838888,Arizona,Navajo,Arizona,US,,1640,Anaschisma,227,208.5
+610,838888,Arizona,Navajo,Arizona,US,,1641,Anaschisma,227,208.5
+611,838888,Arizona,Navajo,Arizona,US,,1642,Anaschisma,227,208.5
+612,838889,Arizona,Navajo,Arizona,US,,1635,Apachesaurus,227,208.5
+613,838915,Arizona,Apache,Arizona,US,,1634,Anaschisma,227,208.5
+614,838923,Arizona,Apache,Arizona,US,,1633,Anaschisma,227,208.5
+615,838931,Arizona,Apache,Arizona,US,,1629,Anaschisma,227,208.5
+616,838931,Arizona,Apache,Arizona,US,,1630,Anaschisma,227,208.5
+617,838931,Arizona,Apache,Arizona,US,,1631,Anaschisma,227,208.5
+618,838931,Arizona,Apache,Arizona,US,,1632,Anaschisma,227,208.5
+619,838934,Arizona,Apache,Arizona,US,,1628,Anaschisma,227,208.5
+620,838962,Arizona,Apache,Arizona,US,,1627,Anaschisma,227,208.5
+621,838968,Arizona,Apache,Arizona,US,,1626,Anaschisma,227,208.5
+622,838996,Arizona,Apache,Arizona,US,,1625,Anaschisma,227,208.5
+623,838997,Arizona,Apache,Arizona,US,,1624,Apachesaurus,227,208.5
+624,839582,Orenburg,Sol'-Iletsk,Orenburg,RU,,1623,Plagioscutum,247.2,242
 625,840352,Orenburg,Totskoe,Orenburg,RU,,1622,Wetlugasaurus,251.2,247.2
 626,840357,Orenburg,Totskoe,Orenburg,RU,,1621,Benthosuchus,251.2,247.2
 627,840366,Orenburg,Belyaevka,Orenburg,RU,,1620,Parotosuchus,251.2,247.2
@@ -627,64 +627,64 @@
 629,840368,Orenburg,Belyaevka,Orenburg,RU,,1618,Rhytidosteus,251.2,247.2
 630,840369,Orenburg,Belyaevka,Orenburg,RU,,1617,Batrachosuchoides,251.2,247.2
 631,840370,Orenburg,Belyaevka,Orenburg,RU,,1616,Melanopelta,251.2,247.2
-632,840616,Arizona,Apache,Arizona,US,,1615,Anaschisma,227.0,208.5
-633,840620,Arizona,Apache,Arizona,US,,1614,Anaschisma,227.0,208.5
-634,840721,Arizona,Apache,Arizona,US,,1613,Anaschisma,227.0,208.5
-635,840766,Arizona,Navajo,Arizona,US,,1612,Anaschisma,227.0,208.5
-636,841814,Arizona,Apache,Arizona,US,,1611,Anaschisma,227.0,208.5
-637,841815,Arizona,Apache,Arizona,US,,1610,Anaschisma,227.0,208.5
-638,841819,Arizona,Apache,Arizona,US,,1609,Anaschisma,227.0,208.5
-639,841823,Arizona,Navajo,Arizona,US,,1608,Anaschisma,227.0,208.5
-640,841826,Arizona,Navajo,Arizona,US,,1607,Anaschisma,227.0,208.5
-641,841830,Arizona,Apache,Arizona,US,,1606,Anaschisma,227.0,208.5
-642,841832,Arizona,Apache,Arizona,US,,1600,Anaschisma,227.0,208.5
-643,841832,Arizona,Apache,Arizona,US,,1601,Anaschisma,227.0,208.5
-644,841832,Arizona,Apache,Arizona,US,,1602,Anaschisma,227.0,208.5
-645,841832,Arizona,Apache,Arizona,US,,1603,Anaschisma,227.0,208.5
-646,841832,Arizona,Apache,Arizona,US,,1604,Anaschisma,227.0,208.5
-647,841832,Arizona,Apache,Arizona,US,,1605,Anaschisma,227.0,208.5
-648,841835,Arizona,Apache,Arizona,US,,1596,Anaschisma,227.0,208.5
-649,841835,Arizona,Apache,Arizona,US,,1597,Anaschisma,227.0,208.5
-650,841835,Arizona,Apache,Arizona,US,,1598,Anaschisma,227.0,208.5
-651,841835,Arizona,Apache,Arizona,US,,1599,Anaschisma,227.0,208.5
-652,841837,Arizona,Apache,Arizona,US,,1595,Anaschisma,227.0,208.5
-653,842080,Arizona,Apache,Arizona,US,,1594,Apachesaurus,227.0,208.5
-654,842087,Arizona,Apache,Arizona,US,,1593,Apachesaurus,227.0,208.5
-655,842098,Arizona,,Arizona,US,,1592,Apachesaurus,227.0,208.5
-656,842102,Arizona,Apache,Arizona,US,,1591,Apachesaurus,227.0,208.5
-657,842108,Arizona,Apache,Arizona,US,,1590,Anaschisma,227.0,208.5
-658,842111,Arizona,Apache,Arizona,US,,1589,Anaschisma,227.0,208.5
-659,842118,Arizona,Apache,Arizona,US,,1588,Anaschisma,227.0,208.5
-660,842119,Arizona,Apache,Arizona,US,,1587,Apachesaurus,227.0,208.5
-661,842143,Arizona,Apache,Arizona,US,,1586,Apachesaurus,227.0,208.5
-662,842188,Arizona,Apache,Arizona,US,,1585,Apachesaurus,227.0,208.5
-663,842192,Arizona,Apache,Arizona,US,,1584,Anaschisma,227.0,208.5
-664,842215,Arizona,Apache,Arizona,US,,1583,Anaschisma,227.0,208.5
-665,842344,Arizona,Apache,Arizona,US,,1582,Apachesaurus,227.0,208.5
+632,840616,Arizona,Apache,Arizona,US,,1615,Anaschisma,227,208.5
+633,840620,Arizona,Apache,Arizona,US,,1614,Anaschisma,227,208.5
+634,840721,Arizona,Apache,Arizona,US,,1613,Anaschisma,227,208.5
+635,840766,Arizona,Navajo,Arizona,US,,1612,Anaschisma,227,208.5
+636,841814,Arizona,Apache,Arizona,US,,1611,Anaschisma,227,208.5
+637,841815,Arizona,Apache,Arizona,US,,1610,Anaschisma,227,208.5
+638,841819,Arizona,Apache,Arizona,US,,1609,Anaschisma,227,208.5
+639,841823,Arizona,Navajo,Arizona,US,,1608,Anaschisma,227,208.5
+640,841826,Arizona,Navajo,Arizona,US,,1607,Anaschisma,227,208.5
+641,841830,Arizona,Apache,Arizona,US,,1606,Anaschisma,227,208.5
+642,841832,Arizona,Apache,Arizona,US,,1600,Anaschisma,227,208.5
+643,841832,Arizona,Apache,Arizona,US,,1601,Anaschisma,227,208.5
+644,841832,Arizona,Apache,Arizona,US,,1602,Anaschisma,227,208.5
+645,841832,Arizona,Apache,Arizona,US,,1603,Anaschisma,227,208.5
+646,841832,Arizona,Apache,Arizona,US,,1604,Anaschisma,227,208.5
+647,841832,Arizona,Apache,Arizona,US,,1605,Anaschisma,227,208.5
+648,841835,Arizona,Apache,Arizona,US,,1596,Anaschisma,227,208.5
+649,841835,Arizona,Apache,Arizona,US,,1597,Anaschisma,227,208.5
+650,841835,Arizona,Apache,Arizona,US,,1598,Anaschisma,227,208.5
+651,841835,Arizona,Apache,Arizona,US,,1599,Anaschisma,227,208.5
+652,841837,Arizona,Apache,Arizona,US,,1595,Anaschisma,227,208.5
+653,842080,Arizona,Apache,Arizona,US,,1594,Apachesaurus,227,208.5
+654,842087,Arizona,Apache,Arizona,US,,1593,Apachesaurus,227,208.5
+655,842098,Arizona,,Arizona,US,,1592,Apachesaurus,227,208.5
+656,842102,Arizona,Apache,Arizona,US,,1591,Apachesaurus,227,208.5
+657,842108,Arizona,Apache,Arizona,US,,1590,Anaschisma,227,208.5
+658,842111,Arizona,Apache,Arizona,US,,1589,Anaschisma,227,208.5
+659,842118,Arizona,Apache,Arizona,US,,1588,Anaschisma,227,208.5
+660,842119,Arizona,Apache,Arizona,US,,1587,Apachesaurus,227,208.5
+661,842143,Arizona,Apache,Arizona,US,,1586,Apachesaurus,227,208.5
+662,842188,Arizona,Apache,Arizona,US,,1585,Apachesaurus,227,208.5
+663,842192,Arizona,Apache,Arizona,US,,1584,Anaschisma,227,208.5
+664,842215,Arizona,Apache,Arizona,US,,1583,Anaschisma,227,208.5
+665,842344,Arizona,Apache,Arizona,US,,1582,Apachesaurus,227,208.5
 666,842664,Arizona,Coconino,Arizona,US,,1581,Apachesaurus,208.5,201.4
 667,842693,Arizona,Coconino,Arizona,US,,1580,Anaschisma,208.5,201.4
-668,842768,Arizona,Coconino,Arizona,US,,1579,Anaschisma,227.0,208.5
-669,842769,Arizona,Coconino,Arizona,US,,1578,Apachesaurus,227.0,208.5
-670,842955,Arizona,Coconino,Arizona,US,,1577,Anaschisma,227.0,208.5
-671,842963,Arizona,Apache,Arizona,US,,1576,Anaschisma,227.0,208.5
-672,842969,New Mexico,Cibola,New Mexico,US,,1575,Apachesaurus,227.0,208.5
-673,842980,New Mexico,Cibola,New Mexico,US,,1574,Apachesaurus,227.0,208.5
-674,843211,New Mexico,Quay,New Mexico,US,,1573,Apachesaurus,227.0,208.5
-675,843239,New Mexico,Quay,New Mexico,US,,1572,Apachesaurus,227.0,208.5
-676,843254,New Mexico,Quay,New Mexico,US,,1571,Apachesaurus,227.0,208.5
-677,843296,New Mexico,Quay,New Mexico,US,,1570,Apachesaurus,227.0,208.5
+668,842768,Arizona,Coconino,Arizona,US,,1579,Anaschisma,227,208.5
+669,842769,Arizona,Coconino,Arizona,US,,1578,Apachesaurus,227,208.5
+670,842955,Arizona,Coconino,Arizona,US,,1577,Anaschisma,227,208.5
+671,842963,Arizona,Apache,Arizona,US,,1576,Anaschisma,227,208.5
+672,842969,New Mexico,Cibola,New Mexico,US,,1575,Apachesaurus,227,208.5
+673,842980,New Mexico,Cibola,New Mexico,US,,1574,Apachesaurus,227,208.5
+674,843211,New Mexico,Quay,New Mexico,US,,1573,Apachesaurus,227,208.5
+675,843239,New Mexico,Quay,New Mexico,US,,1572,Apachesaurus,227,208.5
+676,843254,New Mexico,Quay,New Mexico,US,,1571,Apachesaurus,227,208.5
+677,843296,New Mexico,Quay,New Mexico,US,,1570,Apachesaurus,227,208.5
 678,843497,Texas,Baylor/Willbarger,Texas,US,,1569,Isodectes,283.5,273.01
-679,845877,Oklahoma,Cimarron,Oklahoma,US,,1568,Anaschisma,233.4,227.0
-680,845918,New Mexico,Union,New Mexico,US,,1567,Apachesaurus,227.0,208.5
+679,845877,Oklahoma,Cimarron,Oklahoma,US,,1568,Anaschisma,233.4,227
+680,845918,New Mexico,Union,New Mexico,US,,1567,Apachesaurus,227,208.5
 681,846842,Orenburg,Belyaevka,Orenburg,RU,,1566,Benthosuchus,251.902,251.2
 682,847014,Archangelsk,Nenetsia,Archangelsk,RU,,1565,Wetlugasaurus,251.2,247.2
 683,847022,Archangelsk,Nenetsia,Archangelsk,RU,,1564,Wetlugasaurus,251.2,247.2
 684,848405,Orenburg,Sol'-Iletsk,Orenburg,RU,,1563,Parotosuchus,251.2,247.2
-685,850014,Texas,Crosby,Texas,US,,1562,Anaschisma,227.0,208.5
+685,850014,Texas,Crosby,Texas,US,,1562,Anaschisma,227,208.5
 686,850612,Queensland,,Queensland,AU,,1561,Warrenisuchus,251.902,251.2
-687,853399,Madhya Pradesh,Shadol,Madhya Pradesh,IN,,1560,Metoposaurus,237.0,227.0
-688,853403,New Mexico,Quay,New Mexico,US,,1559,Apachesaurus,227.0,208.5
-689,853404,New Mexico,Quay,New Mexico,US,,1558,Apachesaurus,227.0,208.5
+687,853399,Madhya Pradesh,Shadol,Madhya Pradesh,IN,,1560,Metoposaurus,237,227
+688,853403,New Mexico,Quay,New Mexico,US,,1559,Apachesaurus,227,208.5
+689,853404,New Mexico,Quay,New Mexico,US,,1558,Apachesaurus,227,208.5
 690,855632,Arizona,Coconino,Arizona,US,,1557,Stanocephalosaurus,248.9,247.2
 691,855737,Arizona,Apache,Arizona,US,,1556,Eocyclotosaurus,247.2,244.7
 692,855738,Arizona,Coconino,Arizona,US,,1555,Eocyclotosaurus,247.2,244.7
@@ -699,137 +699,137 @@
 701,855789,Arizona,Coconino,Arizona,US,,1546,Wellesaurus,248.9,247.2
 702,855795,Arizona,Coconino,Arizona,US,,1545,Eocyclotosaurus,247.2,244.7
 703,856130,Arizona,Navajo,Arizona,US,,1544,Vigilius,247.2,244.7
-704,868560,Eastern Cape,Sterkstroom,Eastern Cape,ZA,,1543,Paracyclotosaurus,247.2,242.0
-705,868561,Free State,Wepener,Free State,ZA,,1542,Jammerbergia,247.2,242.0
-706,868562,Eastern Cape,Ukhahlamba,Eastern Cape,ZA,,1541,Vanastega,247.2,242.0
-707,868564,Eastern Cape,Ukhahlamba,Eastern Cape,ZA,,1540,Xenotosuchus,247.2,242.0
-708,877596,Orenburg,Sol'-Iletsk,Orenburg,RU,,1539,Eryosuchus,247.2,242.0
-709,877600,Orenburg,Sol'-Iletsk,Orenburg,RU,,1538,Eryosuchus,247.2,242.0
-710,877603,Orenburg,Sol'-Iletsk,Orenburg,RU,,1537,Plagioscutum,247.2,242.0
-711,877608,Orenburg,Sol'-Iletskiy,Orenburg,RU,,1536,Eryosuchus,247.2,242.0
-712,877609,Orenburg,Sol'-Iletskiy,Orenburg,RU,,1535,Plagiorophus,247.2,242.0
-713,877614,Orenburg,Sol'-Iletsk,Orenburg,RU,,1534,Bukobaja,242.0,237.0
-714,877630,Bashkortostan,,Bashkortostan,RU,,1533,Plagioscutum,247.2,242.0
-715,877635,Bashkortostan,,Bashkortostan,RU,,1532,Eryosuchus,247.2,242.0
-716,877636,Bashkortostan,,Bashkortostan,RU,,1531,Plagioscutum,247.2,242.0
-717,877637,Bashkortostan,,Bashkortostan,RU,,1530,Plagiorophus,247.2,242.0
-718,877649,Bashkortostan,,Bashkortostan,RU,,1529,Eryosuchus,247.2,242.0
-719,877650,Bashkortostan,,Bashkortostan,RU,,1528,Plagiorophus,247.2,242.0
-720,877689,Orenburg,Sol'-Iletsk,Orenburg,RU,,1527,Mastodonsaurus,242.0,237.0
-721,877795,Orenburg,Sol'-Iletsk,Orenburg,RU,,1526,Mastodonsaurus,242.0,237.0
-722,877796,Orenburg,Sol'-Iletsk,Orenburg,RU,,1525,Bukobaja,242.0,237.0
-723,877797,Orenburg,Sol'-Iletsk,Orenburg,RU,,1524,Cyclotosaurus,242.0,237.0
-724,880669,Orenburg,,Orenburg,RU,,1523,Eryosuchus,247.2,242.0
-725,880671,Hubei,Yuanan,Hubei,CN,,1522,Yuanansuchus,247.2,242.0
-726,880678,England,Worcestershire,England,UK,,1521,Mastodonsaurus,247.2,242.0
-727,880679,England,Worcestershire,England,UK,,1520,Cyclotosaurus,247.2,242.0
-728,880951,Bavaria,Bamberg,Bavaria,DE,,1519,Metoposaurus,237.0,227.0
-729,881085,Bavaria,Bamberg,Bavaria,DE,,1518,Metoposaurus,237.0,227.0
-730,881089,Bavaria,Bamberg,Bavaria,DE,,1517,Metoposaurus,237.0,227.0
-731,881090,Bavaria,Bamberg,Bavaria,DE,,1516,Cyclotosaurus,237.0,227.0
-732,881093,Bavaria,Bamberg,Bavaria,DE,,1515,Metoposaurus,237.0,227.0
-733,881094,Bavaria,Bamberg,Bavaria,DE,,1514,Gerrothorax,237.0,227.0
+704,868560,Eastern Cape,Sterkstroom,Eastern Cape,ZA,,1543,Paracyclotosaurus,247.2,242
+705,868561,Free State,Wepener,Free State,ZA,,1542,Jammerbergia,247.2,242
+706,868562,Eastern Cape,Ukhahlamba,Eastern Cape,ZA,,1541,Vanastega,247.2,242
+707,868564,Eastern Cape,Ukhahlamba,Eastern Cape,ZA,,1540,Xenotosuchus,247.2,242
+708,877596,Orenburg,Sol'-Iletsk,Orenburg,RU,,1539,Eryosuchus,247.2,242
+709,877600,Orenburg,Sol'-Iletsk,Orenburg,RU,,1538,Eryosuchus,247.2,242
+710,877603,Orenburg,Sol'-Iletsk,Orenburg,RU,,1537,Plagioscutum,247.2,242
+711,877608,Orenburg,Sol'-Iletskiy,Orenburg,RU,,1536,Eryosuchus,247.2,242
+712,877609,Orenburg,Sol'-Iletskiy,Orenburg,RU,,1535,Plagiorophus,247.2,242
+713,877614,Orenburg,Sol'-Iletsk,Orenburg,RU,,1534,Bukobaja,242,237
+714,877630,Bashkortostan,,Bashkortostan,RU,,1533,Plagioscutum,247.2,242
+715,877635,Bashkortostan,,Bashkortostan,RU,,1532,Eryosuchus,247.2,242
+716,877636,Bashkortostan,,Bashkortostan,RU,,1531,Plagioscutum,247.2,242
+717,877637,Bashkortostan,,Bashkortostan,RU,,1530,Plagiorophus,247.2,242
+718,877649,Bashkortostan,,Bashkortostan,RU,,1529,Eryosuchus,247.2,242
+719,877650,Bashkortostan,,Bashkortostan,RU,,1528,Plagiorophus,247.2,242
+720,877689,Orenburg,Sol'-Iletsk,Orenburg,RU,,1527,Mastodonsaurus,242,237
+721,877795,Orenburg,Sol'-Iletsk,Orenburg,RU,,1526,Mastodonsaurus,242,237
+722,877796,Orenburg,Sol'-Iletsk,Orenburg,RU,,1525,Bukobaja,242,237
+723,877797,Orenburg,Sol'-Iletsk,Orenburg,RU,,1524,Cyclotosaurus,242,237
+724,880669,Orenburg,,Orenburg,RU,,1523,Eryosuchus,247.2,242
+725,880671,Hubei,Yuanan,Hubei,CN,,1522,Yuanansuchus,247.2,242
+726,880678,England,Worcestershire,England,UK,,1521,Mastodonsaurus,247.2,242
+727,880679,England,Worcestershire,England,UK,,1520,Cyclotosaurus,247.2,242
+728,880951,Bavaria,Bamberg,Bavaria,DE,,1519,Metoposaurus,237,227
+729,881085,Bavaria,Bamberg,Bavaria,DE,,1518,Metoposaurus,237,227
+730,881089,Bavaria,Bamberg,Bavaria,DE,,1517,Metoposaurus,237,227
+731,881090,Bavaria,Bamberg,Bavaria,DE,,1516,Cyclotosaurus,237,227
+732,881093,Bavaria,Bamberg,Bavaria,DE,,1515,Metoposaurus,237,227
+733,881094,Bavaria,Bamberg,Bavaria,DE,,1514,Gerrothorax,237,227
 734,882294,Bavaria,Kronach,Bavaria,DE,,1513,Stenotosaurus,247.2,244.7
-735,882295,Austria,Bludenz,Vorarlberg,AT,,1512,Tatrasuchus,242.0,237.0
+735,882295,Austria,Bludenz,Vorarlberg,AT,,1512,Tatrasuchus,242,237
 736,895253,Rio Grande do Sul,,Rio Grande do Sul,BR,,1511,Sangaia,251.902,247.2
-737,896222,Eastern,,Eastern,ZM,,1510,Cherninia,247.2,242.0
-738,896224,Eastern,,Eastern,ZM,,1509,Batrachosuchus,247.2,242.0
-739,896257,Eastern,,Eastern,ZM,,1508,Stanocephalosaurus,247.2,242.0
-740,906409,Baden-Wurttemberg,Schwabisch Hall,Baden-Wurttemberg,DE,,1507,Callistomordax,239.7,237.0
-741,906411,Baden-Wurttemberg,Schwabisch Hall,Baden-Wurttemberg,DE,,1506,Trematolestes,239.7,237.0
-742,906412,Baden-Wurttemberg,Schwabisch Hall,Baden-Wurttemberg,DE,,1505,Mastodonsaurus,239.7,237.0
-743,908229,Catalonia,,Catalonia,ES,,1504,Calmasuchus,247.2,242.0
-744,921164,Ruvuma,,Ruvuma,TZ,,1503,Stanocephalosaurus,247.2,242.0
+737,896222,Eastern,,Eastern,ZM,,1510,Cherninia,247.2,242
+738,896224,Eastern,,Eastern,ZM,,1509,Batrachosuchus,247.2,242
+739,896257,Eastern,,Eastern,ZM,,1508,Stanocephalosaurus,247.2,242
+740,906409,Baden-Wurttemberg,Schwabisch Hall,Baden-Wurttemberg,DE,,1507,Callistomordax,239.7,237
+741,906411,Baden-Wurttemberg,Schwabisch Hall,Baden-Wurttemberg,DE,,1506,Trematolestes,239.7,237
+742,906412,Baden-Wurttemberg,Schwabisch Hall,Baden-Wurttemberg,DE,,1505,Mastodonsaurus,239.7,237
+743,908229,Catalonia,,Catalonia,ES,,1504,Calmasuchus,247.2,242
+744,921164,Ruvuma,,Ruvuma,TZ,,1503,Stanocephalosaurus,247.2,242
 745,922673,Free State,Maluti-A-Phofung,Free State,ZA,,1502,Lydekkerina,251.902,247.2
-746,924744,Pennsylvania,York,Pennsylvania,US,,1501,Anaschisma,227.0,208.5
-747,929764,Baden-Wurttemberg,Schwabisch Hall,Baden-Wurttemberg,DE,,1500,Trematolestes,239.7,237.0
-748,929765,Baden-Wurttemberg,Schwabisch Hall,Baden-Wurttemberg,DE,,1499,Gerrothorax,239.7,237.0
-749,929766,Baden-Wurttemberg,Schwabisch Hall,Baden-Wurttemberg,DE,,1498,Mastodonsaurus,239.7,237.0
-750,929771,Baden-Wurttemberg,Schwabisch Hall,Baden-Wurttemberg,DE,,1497,Plagiosuchus,239.7,237.0
-751,929772,Baden-Wurttemberg,Schwabisch Hall,Baden-Wurttemberg,DE,,1496,Plagiosuchus,239.7,237.0
-752,929773,Baden-Wurttemberg,Schwabisch Hall,Baden-Wurttemberg,DE,,1495,Plagiosuchus,239.7,237.0
-753,929774,Baden-Wurttemberg,Schwabisch Hall,Baden-Wurttemberg,DE,,1494,Plagiosuchus,239.7,237.0
-754,929775,Thuringia,Ilm-Kreis,Thuringia,DE,,1493,Plagiosuchus,239.7,237.0
-755,929776,Baden-Wurttemberg,Schwabisch Hall,Baden-Wurttemberg,DE,,1492,Trematolestes,239.7,237.0
-756,929777,Baden-Wurttemberg,Hohenlohekreis,Baden-Wurttemberg,DE,,1491,Tatrasuchus,239.7,237.0
-757,929780,Baden-Wurttemberg,Hohenlohekreis,Baden-Wurttemberg,DE,,1490,Plagiosuchus,239.7,237.0
-758,929781,Baden-Wurttemberg,Hohenlohekreis,Baden-Wurttemberg,DE,,1489,Gerrothorax,239.7,237.0
-759,929782,Baden-Wurttemberg,Hohenlohekreis,Baden-Wurttemberg,DE,,1488,Mastodonsaurus,239.7,237.0
-760,929783,Baden-Wurttemberg,Hohenlohekreis,Baden-Wurttemberg,DE,,1487,Trematolestes,239.7,237.0
-761,929795,Baden-Wurttemberg,Hohenlohekreis,Baden-Wurttemberg,DE,,1486,Callistomordax,239.7,237.0
-762,929799,Baden-Wurttemberg,Schwabisch Hall,Baden-Wurttemberg,DE,,1485,Mastodonsaurus,239.7,237.0
-763,929800,Baden-Wurttemberg,Schwabisch Hall,Baden-Wurttemberg,DE,,1484,Mastodonsaurus,239.7,237.0
-764,929801,Baden-Wurttemberg,Ludwigsburg,Baden-Wurttemberg,DE,,1483,Mastodonsaurus,239.7,237.0
-765,929802,Baden-Wurttemberg,Ludwigsburg,Baden-Wurttemberg,DE,,1481,Mastodonsaurus,239.7,237.0
-766,929802,Baden-Wurttemberg,Ludwigsburg,Baden-Wurttemberg,DE,,1482,Mastodonsaurus,239.7,237.0
-767,929803,Baden-Wurttemberg,Ludwigsburg,Baden-Wurttemberg,DE,,1480,Mastodonsaurus,239.7,237.0
-769,929808,Thuringia,Erfurt,Thuringia,DE,,1478,Mastodonsaurus,239.7,237.0
-770,929809,Thuringia,,Thuringia,DE,,1477,Mastodonsaurus,239.7,237.0
-771,929812,Thuringia,Hildburghausen,Thuringia,DE,,1476,Mastodonsaurus,239.7,237.0
-772,930385,Baden-Wurttemberg,Stuttgart,Baden-Wurttemberg,DE,,1475,Metoposaurus,237.0,227.0
-773,930387,Baden-Wurttemberg,Stuttgart,Baden-Wurttemberg,DE,,1474,Metoposaurus,237.0,227.0
-774,930388,Baden-Wurttemberg,Heilbronn,Baden-Wurttemberg,DE,,1473,Metoposaurus,237.0,227.0
-775,930389,Baden-Wurttemberg,Heilbronn,Baden-Wurttemberg,DE,,1471,Hyperokynodon,237.0,227.0
-776,930389,Baden-Wurttemberg,Heilbronn,Baden-Wurttemberg,DE,,1472,Hyperokynodon,237.0,227.0
-777,930391,Baden-Wurttemberg,Stuttgart,Baden-Wurttemberg,DE,,1449,Cyclotosaurus,237.0,227.0
-778,930391,Baden-Wurttemberg,Stuttgart,Baden-Wurttemberg,DE,,1450,Cyclotosaurus,237.0,227.0
-779,930391,Baden-Wurttemberg,Stuttgart,Baden-Wurttemberg,DE,,1451,Cyclotosaurus,237.0,227.0
-780,930391,Baden-Wurttemberg,Stuttgart,Baden-Wurttemberg,DE,,1452,Cyclotosaurus,237.0,227.0
-781,930391,Baden-Wurttemberg,Stuttgart,Baden-Wurttemberg,DE,,1453,Cyclotosaurus,237.0,227.0
-782,930391,Baden-Wurttemberg,Stuttgart,Baden-Wurttemberg,DE,,1454,Cyclotosaurus,237.0,227.0
-783,930391,Baden-Wurttemberg,Stuttgart,Baden-Wurttemberg,DE,,1455,Cyclotosaurus,237.0,227.0
-784,930391,Baden-Wurttemberg,Stuttgart,Baden-Wurttemberg,DE,,1456,Cyclotosaurus,237.0,227.0
-785,930391,Baden-Wurttemberg,Stuttgart,Baden-Wurttemberg,DE,,1457,Cyclotosaurus,237.0,227.0
-786,930391,Baden-Wurttemberg,Stuttgart,Baden-Wurttemberg,DE,,1458,Cyclotosaurus,237.0,227.0
-787,930391,Baden-Wurttemberg,Stuttgart,Baden-Wurttemberg,DE,,1459,Cyclotosaurus,237.0,227.0
-788,930391,Baden-Wurttemberg,Stuttgart,Baden-Wurttemberg,DE,,1460,Cyclotosaurus,237.0,227.0
-789,930391,Baden-Wurttemberg,Stuttgart,Baden-Wurttemberg,DE,,1461,Cyclotosaurus,237.0,227.0
-790,930391,Baden-Wurttemberg,Stuttgart,Baden-Wurttemberg,DE,,1462,Cyclotosaurus,237.0,227.0
-791,930391,Baden-Wurttemberg,Stuttgart,Baden-Wurttemberg,DE,,1463,Cyclotosaurus,237.0,227.0
-792,930391,Baden-Wurttemberg,Stuttgart,Baden-Wurttemberg,DE,,1464,Cyclotosaurus,237.0,227.0
-793,930391,Baden-Wurttemberg,Stuttgart,Baden-Wurttemberg,DE,,1465,Cyclotosaurus,237.0,227.0
-794,930391,Baden-Wurttemberg,Stuttgart,Baden-Wurttemberg,DE,,1466,Cyclotosaurus,237.0,227.0
-795,930391,Baden-Wurttemberg,Stuttgart,Baden-Wurttemberg,DE,,1467,Cyclotosaurus,237.0,227.0
-796,930391,Baden-Wurttemberg,Stuttgart,Baden-Wurttemberg,DE,,1468,Cyclotosaurus,237.0,227.0
-797,930391,Baden-Wurttemberg,Stuttgart,Baden-Wurttemberg,DE,,1469,Cyclotosaurus,237.0,227.0
-798,930391,Baden-Wurttemberg,Stuttgart,Baden-Wurttemberg,DE,,1470,Cyclotosaurus,237.0,227.0
-799,930392,Baden-Wurttemberg,Tubingen,Baden-Wurttemberg,DE,,1448,Cyclotosaurus,237.0,227.0
-800,930393,Baden-Wurttemberg,Schwabisch Hall,Baden-Wurttemberg,DE,,1447,Metoposaurus,237.0,227.0
-801,930394,Baden-Wurttemberg,Stuttgart,Baden-Wurttemberg,DE,,1446,Metoposaurus,237.0,227.0
-802,930395,Baden-Wurttemberg,Heilbronn,Baden-Wurttemberg,DE,,1445,Metoposaurus,237.0,227.0
+746,924744,Pennsylvania,York,Pennsylvania,US,,1501,Anaschisma,227,208.5
+747,929764,Baden-Wurttemberg,Schwabisch Hall,Baden-Wurttemberg,DE,,1500,Trematolestes,239.7,237
+748,929765,Baden-Wurttemberg,Schwabisch Hall,Baden-Wurttemberg,DE,,1499,Gerrothorax,239.7,237
+749,929766,Baden-Wurttemberg,Schwabisch Hall,Baden-Wurttemberg,DE,,1498,Mastodonsaurus,239.7,237
+750,929771,Baden-Wurttemberg,Schwabisch Hall,Baden-Wurttemberg,DE,,1497,Plagiosuchus,239.7,237
+751,929772,Baden-Wurttemberg,Schwabisch Hall,Baden-Wurttemberg,DE,,1496,Plagiosuchus,239.7,237
+752,929773,Baden-Wurttemberg,Schwabisch Hall,Baden-Wurttemberg,DE,,1495,Plagiosuchus,239.7,237
+753,929774,Baden-Wurttemberg,Schwabisch Hall,Baden-Wurttemberg,DE,,1494,Plagiosuchus,239.7,237
+754,929775,Thuringia,Ilm-Kreis,Thuringia,DE,,1493,Plagiosuchus,239.7,237
+755,929776,Baden-Wurttemberg,Schwabisch Hall,Baden-Wurttemberg,DE,,1492,Trematolestes,239.7,237
+756,929777,Baden-Wurttemberg,Hohenlohekreis,Baden-Wurttemberg,DE,,1491,Tatrasuchus,239.7,237
+757,929780,Baden-Wurttemberg,Hohenlohekreis,Baden-Wurttemberg,DE,,1490,Plagiosuchus,239.7,237
+758,929781,Baden-Wurttemberg,Hohenlohekreis,Baden-Wurttemberg,DE,,1489,Gerrothorax,239.7,237
+759,929782,Baden-Wurttemberg,Hohenlohekreis,Baden-Wurttemberg,DE,,1488,Mastodonsaurus,239.7,237
+760,929783,Baden-Wurttemberg,Hohenlohekreis,Baden-Wurttemberg,DE,,1487,Trematolestes,239.7,237
+761,929795,Baden-Wurttemberg,Hohenlohekreis,Baden-Wurttemberg,DE,,1486,Callistomordax,239.7,237
+762,929799,Baden-Wurttemberg,Schwabisch Hall,Baden-Wurttemberg,DE,,1485,Mastodonsaurus,239.7,237
+763,929800,Baden-Wurttemberg,Schwabisch Hall,Baden-Wurttemberg,DE,,1484,Mastodonsaurus,239.7,237
+764,929801,Baden-Wurttemberg,Ludwigsburg,Baden-Wurttemberg,DE,,1483,Mastodonsaurus,239.7,237
+765,929802,Baden-Wurttemberg,Ludwigsburg,Baden-Wurttemberg,DE,,1481,Mastodonsaurus,239.7,237
+766,929802,Baden-Wurttemberg,Ludwigsburg,Baden-Wurttemberg,DE,,1482,Mastodonsaurus,239.7,237
+767,929803,Baden-Wurttemberg,Ludwigsburg,Baden-Wurttemberg,DE,,1480,Mastodonsaurus,239.7,237
+769,929808,Thuringia,Erfurt,Thuringia,DE,,1478,Mastodonsaurus,239.7,237
+770,929809,Thuringia,,Thuringia,DE,,1477,Mastodonsaurus,239.7,237
+771,929812,Thuringia,Hildburghausen,Thuringia,DE,,1476,Mastodonsaurus,239.7,237
+772,930385,Baden-Wurttemberg,Stuttgart,Baden-Wurttemberg,DE,,1475,Metoposaurus,237,227
+773,930387,Baden-Wurttemberg,Stuttgart,Baden-Wurttemberg,DE,,1474,Metoposaurus,237,227
+774,930388,Baden-Wurttemberg,Heilbronn,Baden-Wurttemberg,DE,,1473,Metoposaurus,237,227
+775,930389,Baden-Wurttemberg,Heilbronn,Baden-Wurttemberg,DE,,1471,Hyperokynodon,237,227
+776,930389,Baden-Wurttemberg,Heilbronn,Baden-Wurttemberg,DE,,1472,Hyperokynodon,237,227
+777,930391,Baden-Wurttemberg,Stuttgart,Baden-Wurttemberg,DE,,1449,Cyclotosaurus,237,227
+778,930391,Baden-Wurttemberg,Stuttgart,Baden-Wurttemberg,DE,,1450,Cyclotosaurus,237,227
+779,930391,Baden-Wurttemberg,Stuttgart,Baden-Wurttemberg,DE,,1451,Cyclotosaurus,237,227
+780,930391,Baden-Wurttemberg,Stuttgart,Baden-Wurttemberg,DE,,1452,Cyclotosaurus,237,227
+781,930391,Baden-Wurttemberg,Stuttgart,Baden-Wurttemberg,DE,,1453,Cyclotosaurus,237,227
+782,930391,Baden-Wurttemberg,Stuttgart,Baden-Wurttemberg,DE,,1454,Cyclotosaurus,237,227
+783,930391,Baden-Wurttemberg,Stuttgart,Baden-Wurttemberg,DE,,1455,Cyclotosaurus,237,227
+784,930391,Baden-Wurttemberg,Stuttgart,Baden-Wurttemberg,DE,,1456,Cyclotosaurus,237,227
+785,930391,Baden-Wurttemberg,Stuttgart,Baden-Wurttemberg,DE,,1457,Cyclotosaurus,237,227
+786,930391,Baden-Wurttemberg,Stuttgart,Baden-Wurttemberg,DE,,1458,Cyclotosaurus,237,227
+787,930391,Baden-Wurttemberg,Stuttgart,Baden-Wurttemberg,DE,,1459,Cyclotosaurus,237,227
+788,930391,Baden-Wurttemberg,Stuttgart,Baden-Wurttemberg,DE,,1460,Cyclotosaurus,237,227
+789,930391,Baden-Wurttemberg,Stuttgart,Baden-Wurttemberg,DE,,1461,Cyclotosaurus,237,227
+790,930391,Baden-Wurttemberg,Stuttgart,Baden-Wurttemberg,DE,,1462,Cyclotosaurus,237,227
+791,930391,Baden-Wurttemberg,Stuttgart,Baden-Wurttemberg,DE,,1463,Cyclotosaurus,237,227
+792,930391,Baden-Wurttemberg,Stuttgart,Baden-Wurttemberg,DE,,1464,Cyclotosaurus,237,227
+793,930391,Baden-Wurttemberg,Stuttgart,Baden-Wurttemberg,DE,,1465,Cyclotosaurus,237,227
+794,930391,Baden-Wurttemberg,Stuttgart,Baden-Wurttemberg,DE,,1466,Cyclotosaurus,237,227
+795,930391,Baden-Wurttemberg,Stuttgart,Baden-Wurttemberg,DE,,1467,Cyclotosaurus,237,227
+796,930391,Baden-Wurttemberg,Stuttgart,Baden-Wurttemberg,DE,,1468,Cyclotosaurus,237,227
+797,930391,Baden-Wurttemberg,Stuttgart,Baden-Wurttemberg,DE,,1469,Cyclotosaurus,237,227
+798,930391,Baden-Wurttemberg,Stuttgart,Baden-Wurttemberg,DE,,1470,Cyclotosaurus,237,227
+799,930392,Baden-Wurttemberg,Tubingen,Baden-Wurttemberg,DE,,1448,Cyclotosaurus,237,227
+800,930393,Baden-Wurttemberg,Schwabisch Hall,Baden-Wurttemberg,DE,,1447,Metoposaurus,237,227
+801,930394,Baden-Wurttemberg,Stuttgart,Baden-Wurttemberg,DE,,1446,Metoposaurus,237,227
+802,930395,Baden-Wurttemberg,Heilbronn,Baden-Wurttemberg,DE,,1445,Metoposaurus,237,227
 803,930782,Oklahoma,Comanche,Oklahoma,US,,1444,Acheloma,290.1,283.5
-804,930821,Baden-Wurttemberg,,Baden-Wurttemberg,DE,,1443,Metoposaurus,227.0,208.5
-805,930826,Tirol,,Tirol,IT,,1442,Metoposaurus,237.0,227.0
-806,931096,East Greenland,,East Greenland,GL,,1441,Gerrothorax,227.0,208.5
-807,931097,East Greenland,,East Greenland,GL,,1439,Gerrothorax,227.0,208.5
-808,931097,East Greenland,,East Greenland,GL,,1440,Gerrothorax,227.0,208.5
-809,932452,Baden-Wurttemberg,Rems-Murr-Kreis,Baden-Wurttemberg,DE,,1438,Metoposaurus,237.0,227.0
+804,930821,Baden-Wurttemberg,,Baden-Wurttemberg,DE,,1443,Metoposaurus,227,208.5
+805,930826,Tirol,,Tirol,IT,,1442,Metoposaurus,237,227
+806,931096,East Greenland,,East Greenland,GL,,1441,Gerrothorax,227,208.5
+807,931097,East Greenland,,East Greenland,GL,,1439,Gerrothorax,227,208.5
+808,931097,East Greenland,,East Greenland,GL,,1440,Gerrothorax,227,208.5
+809,932452,Baden-Wurttemberg,Rems-Murr-Kreis,Baden-Wurttemberg,DE,,1438,Metoposaurus,237,227
 810,933157,Skane,,Skane,SE,,1437,Gerrothorax,208.5,201.4
-811,933166,Illizi,,Illizi,DZ,,1435,Odenwaldia,248.9,242.0
-812,933166,Illizi,,Illizi,DZ,,1436,Odenwaldia,248.9,242.0
-813,933492,Nova Scotia,,Nova Scotia,CA,,1434,Metoposaurus,237.0,227.0
-814,933980,Wyoming,Fremont,Wyoming,US,,1433,Anaschisma,237.0,227.0
-815,933981,Wyoming,Fremont,Wyoming,US,,1432,Anaschisma,237.0,227.0
-816,934043,Pennsylvania,Bucks,Pennsylvania,US,,1431,Calamops,227.0,208.5
-817,959358,Telangana,Adilabad,Telangana,IN,,1430,Panthasaurus,237.0,208.5
+811,933166,Illizi,,Illizi,DZ,,1435,Odenwaldia,248.9,242
+812,933166,Illizi,,Illizi,DZ,,1436,Odenwaldia,248.9,242
+813,933492,Nova Scotia,,Nova Scotia,CA,,1434,Metoposaurus,237,227
+814,933980,Wyoming,Fremont,Wyoming,US,,1433,Anaschisma,237,227
+815,933981,Wyoming,Fremont,Wyoming,US,,1432,Anaschisma,237,227
+816,934043,Pennsylvania,Bucks,Pennsylvania,US,,1431,Calamops,227,208.5
+817,959358,Telangana,Adilabad,Telangana,IN,,1430,Panthasaurus,237,208.5
 818,963873,Illinois,Grundy/Will,Illinois,US,,1429,Amphibamus,309.8,307.4
 819,963874,Ohio,Jefferson,Ohio,US,,1428,Erpetosaurus,309.8,307.4
 820,963875,Ohio,Jefferson,Ohio,US,,1427,Erpetosaurus,309.8,307.4
 821,964693,Texas,Clay,Texas,US,,1426,Rubeostratilia,298.9,290.1
-822,968279,Texas,Howard,Texas,US,,1425,Anaschisma,237.0,208.5
-823,968280,Texas,Howard,Texas,US,,1424,Anaschisma,237.0,208.5
-824,968281,Texas,Crosby,Texas,US,,1423,Anaschisma,237.0,208.5
-825,970671,Batken,,Batken,KG,,1422,Triassurus,242.0,227.0
+822,968279,Texas,Howard,Texas,US,,1425,Anaschisma,237,208.5
+823,968280,Texas,Howard,Texas,US,,1424,Anaschisma,237,208.5
+824,968281,Texas,Crosby,Texas,US,,1423,Anaschisma,237,208.5
+825,970671,Batken,,Batken,KG,,1422,Triassurus,242,227
 826,984553,Malopolskie,Krakowski,Malopolskie,PL,,1421,Batrachosuchoides,251.2,247.2
 827,984559,Swietoryzskie,Ostrowiec,Swietoryzskie,PL,,1420,Parotosuchus,248.9,247.2
 828,985111,Baden-Wurttemberg,Freudenstadt,Baden-Wurttemberg,DE,,1419,Meyerosuchus,248.9,247.2
 829,985112,Baden-Wurttemberg,Calw,Baden-Wurttemberg,DE,,1418,Meyerosuchus,248.9,247.2
 830,985128,Baden-Wurttemberg,Neckar-Odenwald-Kreis,Baden-Wurttemberg,DE,,1417,Odenwaldia,248.9,247.2
 831,985129,Baden-Wurttemberg,Freudenstadt,Baden-Wurttemberg,DE,,1416,Odenwaldia,248.9,247.2
-832,1016311,Bavaria,Mittelfranken,Bavaria,DE,,1415,Cyclotosaurus,237.0,227.0
-833,1016312,Bavaria,Mittelfranken,Bavaria,DE,,1414,Metoposaurus,237.0,227.0
-834,1016313,Bavaria,Mittelfranken,Bavaria,DE,,1413,Gerrothorax,237.0,227.0
-835,1016314,Bavaria,Mittelfranken,Bavaria,DE,,1412,Cyclotosaurus,237.0,227.0
+832,1016311,Bavaria,Mittelfranken,Bavaria,DE,,1415,Cyclotosaurus,237,227
+833,1016312,Bavaria,Mittelfranken,Bavaria,DE,,1414,Metoposaurus,237,227
+834,1016313,Bavaria,Mittelfranken,Bavaria,DE,,1413,Gerrothorax,237,227
+835,1016314,Bavaria,Mittelfranken,Bavaria,DE,,1412,Cyclotosaurus,237,227
 836,1016620,Thuringia,Gotha,Thuringia,DE,,1411,Rotaryus,290.1,283.5
 837,1021845,West Virginia,Ohio,West Virginia,US,,1410,Zatrachys,303.7,298.9
 838,1037998,West Virginia,Monongalia,West Virginia,US,,1409,Zatrachys,298.9,286.1
@@ -853,11 +853,11 @@
 858,1087081,Tasmania,Hobart,Tasmania,AU,,1389,Rotaurisaurus,251.902,251.2
 859,1087082,Queensland,,Queensland,AU,,1388,Tirraturhinus,251.902,251.2
 860,1087087,Queensland,,Queensland,AU,,1387,Lydekkerina,251.902,251.2
-861,1087247,New South Wales,,New South Wales,AU,,1386,Microposaurus,247.2,242.0
+861,1087247,New South Wales,,New South Wales,AU,,1386,Microposaurus,247.2,242
 862,1087277,New South Wales,,New South Wales,AU,,1385,Platycepsion,248.9,244.7
-863,1087300,New South Wales,,New South Wales,AU,,1384,Notobrachyops,247.2,242.0
+863,1087300,New South Wales,,New South Wales,AU,,1384,Notobrachyops,247.2,242
 864,1087301,New South Wales,,New South Wales,AU,,1383,Bulgosuchus,251.4,247.2
-865,1087308,New South Wales,,New South Wales,AU,,1382,Subcyclotosaurus,247.2,242.0
+865,1087308,New South Wales,,New South Wales,AU,,1382,Subcyclotosaurus,247.2,242
 866,1087312,New South Wales,,New South Wales,AU,,1381,Trucheosaurus,259.51,254.14
 867,1087518,Western Australia,,Western Australia,AU,,1380,Deltasaurus,251.902,247.2
 868,1087519,Western Australia,,Western Australia,AU,,1379,Deltasaurus,251.902,247.2
@@ -904,23 +904,23 @@
 909,1087685,Tasmania,,Tasmania,AU,,1348,Bothriceps,259.51,251.2
 910,1087685,Tasmania,,Tasmania,AU,,1349,Bothriceps,259.51,251.2
 911,1087685,Tasmania,,Tasmania,AU,,1350,Bothriceps,259.51,251.2
-912,1087832,Madhya Pradesh,Chhindwara,Madhya Pradesh,IN,,1335,Cherninia,247.2,242.0
-913,1087835,Madhya Pradesh,Chhindwara,Madhya Pradesh,IN,,1334,Paracyclotosaurus,247.2,242.0
-914,1087838,Andhra Pradesh,,Andhra Pradesh,IN,,1333,Eryosuchus,247.2,242.0
-915,1087840,Andhra Pradesh,Adilabad,Andhra Pradesh,IN,,1332,Eryosuchus,247.2,242.0
+912,1087832,Madhya Pradesh,Chhindwara,Madhya Pradesh,IN,,1335,Cherninia,247.2,242
+913,1087835,Madhya Pradesh,Chhindwara,Madhya Pradesh,IN,,1334,Paracyclotosaurus,247.2,242
+914,1087838,Andhra Pradesh,,Andhra Pradesh,IN,,1333,Eryosuchus,247.2,242
+915,1087840,Andhra Pradesh,Adilabad,Andhra Pradesh,IN,,1332,Eryosuchus,247.2,242
 916,1087841,Maharashtra,,Maharashtra,IN,,1331,Brachyops,251.902,247.2
-917,1089186,Andhra Pradesh,Adilabad,Andhra Pradesh,IN,,1330,Panthasaurus,237.0,208.5
-918,1089187,Andhra Pradesh,Adilabad,Andhra Pradesh,IN,,1329,Panthasaurus,237.0,208.5
-919,1089188,Andhra Pradesh,Adilabad,Andhra Pradesh,IN,,1328,Panthasaurus,237.0,208.5
-920,1089196,Andhra Pradesh,,Andhra Pradesh,IN,,1327,Compsocerops,227.0,208.5
-921,1089197,Andhra Pradesh,,Andhra Pradesh,IN,,1324,Kuttycephalus,227.0,208.5
-922,1089197,Andhra Pradesh,,Andhra Pradesh,IN,,1325,Kuttycephalus,227.0,208.5
-923,1089197,Andhra Pradesh,,Andhra Pradesh,IN,,1326,Kuttycephalus,227.0,208.5
-924,1091731,Baden-Wurttemberg,,Baden-Wurttemberg,DE,,1323,Mastodonsaurus,247.2,237.0
-925,1091732,Baden-Wurttemberg,,Baden-Wurttemberg,DE,,1322,Plagiosternum,247.2,237.0
-926,1099423,Baden-Wurttemberg,Stuttgart,Baden-Wurttemberg,DE,,1321,Cyclotosaurus,227.0,208.5
-927,1099958,Baden-Wurttemberg,Stuttgart,Baden-Wurttemberg,DE,,1320,Plagiosternum,237.0,227.0
-928,1100726,New Mexico,Santa Fe,New Mexico,US,,1319,Apachesaurus,237.0,227.0
+917,1089186,Andhra Pradesh,Adilabad,Andhra Pradesh,IN,,1330,Panthasaurus,237,208.5
+918,1089187,Andhra Pradesh,Adilabad,Andhra Pradesh,IN,,1329,Panthasaurus,237,208.5
+919,1089188,Andhra Pradesh,Adilabad,Andhra Pradesh,IN,,1328,Panthasaurus,237,208.5
+920,1089196,Andhra Pradesh,,Andhra Pradesh,IN,,1327,Compsocerops,227,208.5
+921,1089197,Andhra Pradesh,,Andhra Pradesh,IN,,1324,Kuttycephalus,227,208.5
+922,1089197,Andhra Pradesh,,Andhra Pradesh,IN,,1325,Kuttycephalus,227,208.5
+923,1089197,Andhra Pradesh,,Andhra Pradesh,IN,,1326,Kuttycephalus,227,208.5
+924,1091731,Baden-Wurttemberg,,Baden-Wurttemberg,DE,,1323,Mastodonsaurus,247.2,237
+925,1091732,Baden-Wurttemberg,,Baden-Wurttemberg,DE,,1322,Plagiosternum,247.2,237
+926,1099423,Baden-Wurttemberg,Stuttgart,Baden-Wurttemberg,DE,,1321,Cyclotosaurus,227,208.5
+927,1099958,Baden-Wurttemberg,Stuttgart,Baden-Wurttemberg,DE,,1320,Plagiosternum,237,227
+928,1100726,New Mexico,Santa Fe,New Mexico,US,,1319,Apachesaurus,237,227
 929,1104070,Sachsen-Anhalt,,Sachsen-Anhalt,DE,,1318,Hemiprichisaurus,208.5,201.4
 930,1104073,Sachsen-Anhalt,,Sachsen-Anhalt,DE,,1317,Plagiosaurus,208.5,201.4
 931,1104074,Sachsen-Anhalt,,Sachsen-Anhalt,DE,,1316,Cyclotosaurus,208.5,201.4
@@ -933,7 +933,7 @@
 938,1113545,Yaroslavl,Rybinsk,Yaroslavl,RU,,1309,Benthosuchus,251.2,247.2
 939,1113595,Bashkortostan,Kuyurgazinskii,Bashkortostan,RU,,1308,Benthosuchus,251.902,247.2
 940,1113638,Samara,Borskii,Samara,RU,,1307,Benthosuchus,251.902,247.2
-941,1116262,Eastern Cape,,Eastern Cape,ZA,,1306,Xenotosuchus,247.2,242.0
+941,1116262,Eastern Cape,,Eastern Cape,ZA,,1306,Xenotosuchus,247.2,242
 942,1127412,Volgograd,Ilovlya,Volgograd,RU,,1305,Parotosuchus,251.2,247.2
 943,1127413,Volgograd,Ilovlya,Volgograd,RU,,1304,Batrachosuchoides,251.2,247.2
 944,1127434,Kirov,Nagorsk,Kirov,RU,,1303,Batrachosuchoides,251.2,247.2
@@ -994,13 +994,13 @@
 999,1132152,Diana,Ambilobe,Diana,MG,,1248,Tertremoides,251.902,248.9
 1000,1132252,Diana,Ambilobe,Diana,MG,,1247,Tertremoides,251.902,248.9
 1001,1132254,Diana,Ambilobe,Diana,MG,,1246,Edingerella,251.902,248.9
-1002,1132297,Eastern Cape,Engcobo,Eastern Cape,ZA,,1245,Laidleria,247.2,242.0
+1002,1132297,Eastern Cape,Engcobo,Eastern Cape,ZA,,1245,Laidleria,247.2,242
 1003,1132307,Eastern Cape,Chris Hani,Eastern Cape,ZA,,1244,Pneumatostega,251.902,251.2
 1004,1132308,Northern Cape,Pixley ka Seme,Northern Cape,ZA,,1243,Pneumatostega,251.902,251.2
 1005,1133423,Eastern Cape,,Eastern Cape,ZA,,1242,Rhinesuchoides,259.51,254.14
 1006,1133445,Eastern Cape,,Eastern Cape,ZA,,1241,Laccosaurus,259.51,254.14
 1007,1134100,Free State,Thabo Mofutsanyane,Free State,ZA,,1240,Kestrosaurus,248.9,247.2
-1008,1134114,Eastern Cape,,Eastern Cape,ZA,,1239,Microposaurus,247.2,242.0
+1008,1134114,Eastern Cape,,Eastern Cape,ZA,,1239,Microposaurus,247.2,242
 1009,1134116,Eastern Cape,Graaff-Reinet,Eastern Cape,ZA,,1238,Micropholis,251.902,251.2
 1010,1134117,Eastern Cape,Chris Hani,Eastern Cape,ZA,,1229,Micropholis,251.902,247.2
 1011,1134117,Eastern Cape,Chris Hani,Eastern Cape,ZA,,1230,Micropholis,251.902,247.2
@@ -1026,20 +1026,20 @@
 1031,1134137,Eastern Cape,,Eastern Cape,ZA,,1215,Trematosuchus,248.9,247.2
 1032,1134137,Eastern Cape,,Eastern Cape,ZA,,1216,Trematosuchus,248.9,247.2
 1033,1134138,Free State,Thabo Mofutsanyane,Free State,ZA,,1214,Trematosuchoides,248.9,247.2
-1034,1134176,Free State,,Free State,ZA,,1213,Xenotosuchus,247.2,242.0
-1035,1134194,Free State,,Free State,ZA,,1212,Microposaurus,247.2,242.0
-1036,1134210,Eastern Cape,Maletswai,Eastern Cape,ZA,,1211,Microposaurus,247.2,242.0
-1037,1142020,Eastern Cape,,Eastern Cape,ZA,,1210,Batrachosuchus,247.2,242.0
+1034,1134176,Free State,,Free State,ZA,,1213,Xenotosuchus,247.2,242
+1035,1134194,Free State,,Free State,ZA,,1212,Microposaurus,247.2,242
+1036,1134210,Eastern Cape,Maletswai,Eastern Cape,ZA,,1211,Microposaurus,247.2,242
+1037,1142020,Eastern Cape,,Eastern Cape,ZA,,1210,Batrachosuchus,247.2,242
 1038,1142024,Eastern Cape,Chris Hani,Eastern Cape,ZA,,1209,Micropholis,251.902,247.2
 1039,1142138,Eastern Cape,,Eastern Cape,ZA,,1208,Trematosuchus,251.2,247.2
 1040,1142822,Free State,Mangaung,Free State,ZA,,1207,Thabanchuia,251.902,251.2
 1041,1142839,Free State,Thabo Mofutsanyana,Free State,ZA,,1206,Kestrosaurus,251.2,247.2
 1042,1142840,Free State,Thabo Mofutsanyana,Free State,ZA,,1205,Kestrosaurus,251.2,247.2
 1043,1142844,Free State,Thabo Mofutsanyana,Free State,ZA,,1204,Bathignathus,251.2,247.2
-1044,1142847,Eastern Cape,Ukhahlamba,Eastern Cape,ZA,,1203,Xenotosuchus,247.2,242.0
+1044,1142847,Eastern Cape,Ukhahlamba,Eastern Cape,ZA,,1203,Xenotosuchus,247.2,242
 1045,1143559,Free State,Rouxville,Free State,ZA,,1202,Kestrosaurus,251.2,247.2
 1046,1143569,Eastern Cape,,Eastern Cape,ZA,,1201,Watsonisuchus,248.9,247.2
-1047,1143595,Eastern Cape,Ukhahlamba,Eastern Cape,ZA,,1200,Xenotosuchus,247.2,242.0
+1047,1143595,Eastern Cape,Ukhahlamba,Eastern Cape,ZA,,1200,Xenotosuchus,247.2,242
 1048,1143608,Eastern Cape,Venterstad,Eastern Cape,ZA,,1199,Watsonisuchus,251.902,251.2
 1049,1143834,Free State,Senekal,Free State,ZA,,1198,Kestrosaurus,248.9,247.2
 1050,1143835,Free State,Senekal,Free State,ZA,,1197,Kestrosaurus,248.9,247.2
@@ -1052,7 +1052,7 @@
 1057,1221322,Kirov,,Kirov,RU,,1190,Rhinesuchus,251.902,247.2
 1058,1237952,Oklahoma,Noble,Oklahoma,US,,1189,Perryella,286.1,273.01
 1059,1242744,Texas,Baylor/Willbarger,Texas,US,,1188,Eryops,283.5,273.01
-1060,1264414,England,Staffordshire,England,UK,,1187,Stenotosaurus,237.0,201.4
+1060,1264414,England,Staffordshire,England,UK,,1187,Stenotosaurus,237,201.4
 1062,1300960,Texas,Clay,Texas,US,,1185,Scapanops,298.9,293.52
 1063,1301296,New Mexico,Rio Arriba,New Mexico,US,,1184,Conjunctio,298.9,290.1
 1064,1301297,New Mexico,Rio Arriba,New Mexico,US,,1183,Conjunctio,303.7,286.1
@@ -1097,7 +1097,7 @@
 1104,1328481,Texas,Taylor,Texas,US,,1143,Eryops,283.5,273.01
 1105,1328492,Texas,Haskell ,Texas,US,,1142,Trimerorhachis,286.1,273.01
 1106,1328493,Texas,Haskell ,Texas,US,,1141,Trimerorhachis,286.1,273.01
-1107,1330179,New Mexico,Sandoval,New Mexico,US,,1140,Apachesaurus,227.0,208.5
+1107,1330179,New Mexico,Sandoval,New Mexico,US,,1140,Apachesaurus,227,208.5
 1108,1330336,Rhineland-Palatinate,Bad Kreuznach,Rhineland-Palatinate,DE,,1139,Micromelerpeton,298.9,283.5
 1109,1330421,Saxony,Bockelwitz,Saxony,DE,,1138,Leptorophus,298.9,283.5
 1110,1332794,Kansas,Riley,Kansas,US,,1137,Acroplous,293.52,290.1
@@ -1233,7 +1233,7 @@
 1241,1338632,Rhineland-Palatinate,Kusel,Rhineland-Palatinate,DE,,1006,Apateon,300.3,297.7
 1242,1338633,Rhineland-Palatinate,Kusel,Rhineland-Palatinate,DE,,1005,Apateon,298.9,293.52
 1243,1338634,Rhineland-Palatinate,,Rhineland-Palatinate,DE,,1004,Apateon,298.9,293.52
-1244,1338636,Baden-Wurttemberg,Schwabisch Hall,Baden-Wurttemberg,DE,,1003,Megalophthalma,239.7,237.0
+1244,1338636,Baden-Wurttemberg,Schwabisch Hall,Baden-Wurttemberg,DE,,1003,Megalophthalma,239.7,237
 1245,1338643,Maranhao,Timon,Maranhao,BR,,1002,Timonya,283.5,273.01
 1246,1338644,Piaui,Nazaria,Piaui,BR,,1001,Timonya,298.9,273.01
 1247,1338645,Piaui,Nazaria,Piaui,BR,,1000,Procuhy,298.9,273.01
@@ -1838,21 +1838,21 @@
 1847,1341681,Pennsylvania,Allegheny,Pennsylvania,US,,400,Glaukerpeton,307.4,300.3
 1848,1342750,Czechia,Semily District,Liberec,CZ,,399,Cheliderpeton,298.9,293.52
 1849,1342751,Czechia,Semily District,Liberec,CZ,,398,Archegosaurus,298.9,293.52
-1850,1347764,Rio Grande do Sul,Sao Joao do Polesine,Rio Grande do Sul,BR,,397,Compsocerops,237.0,227.0
+1850,1347764,Rio Grande do Sul,Sao Joao do Polesine,Rio Grande do Sul,BR,,397,Compsocerops,237,227
 1851,1354748,Nizhegorod,Tonshaevo,Nizhegorod,RU,,396,Dvinosaurus,259.51,256.8
 1852,1354749,Vladimir,Vyaznikovskii,Vladimir,RU,,395,Dvinosaurus,264.28,256.8
 1853,1354929,Nizhegorod,Vetluga,Nizhegorod,RU,,394,Tupilakosaurus,251.902,251.2
-1854,1355921,Free State,,Free State,ZA,,393,Batrachosuchus,247.2,242.0
+1854,1355921,Free State,,Free State,ZA,,393,Batrachosuchus,247.2,242
 1855,1357107,Santa Catarina ,,Santa Catarina ,BR,,392,Parapytanga,273.01,254.14
 1856,1364550,Parana,Ortigueira,Parana,BR,,391,Australerpeton,266.9,254.14
 1857,1364551,Parana,Ortigueira,Parana,BR,,390,Konzhukovia,266.9,254.14
-1858,1367333,Colorado,Garfield,Colorado,US,,389,Chinlestegophis,227.0,201.4
-1859,1367334,Colorado,Eagle,Colorado,US,,388,Chinlestegophis,227.0,208.5
+1858,1367333,Colorado,Garfield,Colorado,US,,389,Chinlestegophis,227,201.4
+1859,1367334,Colorado,Eagle,Colorado,US,,388,Chinlestegophis,227,208.5
 1860,1368853,Parana,,Parana,BR,,387,Australerpeton,266.9,254.14
 1861,1368857,Rio Grande do Sul,Sao Gabriel,Rio Grande do Sul,BR,,386,Konzhukovia,266.9,259.51
 1862,1368861,Rio Grande do Sul,,Rio Grande do Sul,BR,,385,Bageherpeton,273.01,259.51
 1863,1368952,Western Cape,Prince Albert,Western Cape,ZA,,384,Rhinesuchus,264.28,259.51
-1864,1370351,Austria,,,AT,,383,Mastodonsaurus,244.7,242.0
+1864,1370351,Austria,,,AT,,383,Mastodonsaurus,244.7,242
 1865,1371060,Bashkortostan,Belebei,Bashkortostan,RU,,382,Bashkirosaurus,266.9,264.28
 1866,1371062,Orenburg,,Orenburg,RU,,381,Uralosuchus,266.9,259.51
 1867,1371067,Orenburg,Krasnogvardeiskii,Orenburg,RU,,380,Konzhukovia,266.9,259.51
@@ -1865,8 +1865,8 @@
 1874,1374731,Perm,Ocher,Perm,RU,,373,Collidosuchus,266.9,264.28
 1875,1374732,Perm,Ocher,Perm,RU,,371,Konzhukovia,266.9,264.28
 1876,1374732,Perm,Ocher,Perm,RU,,372,Konzhukovia,266.9,264.28
-1877,1375739,Ruvuma,,Ruvuma,TZ,,369,Stanocephalosaurus,247.2,242.0
-1878,1375739,Ruvuma,,Ruvuma,TZ,,370,Stanocephalosaurus,247.2,242.0
+1877,1375739,Ruvuma,,Ruvuma,TZ,,369,Stanocephalosaurus,247.2,242
+1878,1375739,Ruvuma,,Ruvuma,TZ,,370,Stanocephalosaurus,247.2,242
 1879,1381587,Tatarstan,Apastovo,Tatarstan,RU,,368,Tryphosuchus,266.9,259.51
 1880,1381598,Bashkortostan,Belebei,Bashkortostan,RU,,367,Platyoposaurus,266.9,264.28
 1881,1382082,Orenburg,Sorochinsk,Orenburg,RU,,366,Dvinosaurus,264.28,256.8
@@ -1884,25 +1884,25 @@
 1893,1383092,Archangelsk,Kotlas,Archangelsk,RU,,354,Dvinosaurus,264.28,256.8
 1894,1383093,Archangelsk,Kotlas,Archangelsk,RU,,353,Dvinosaurus,264.28,256.8
 1895,1383176,Texas,Baylor/Willbarger,Texas,US,,352,Aspidosaurus,283.5,273.01
-1896,1383177,Orenburg,,Orenburg,RU,,351,Plagioscutum,247.2,242.0
-1897,1383180,Orenburg,,Orenburg,RU,,350,Eryosuchus,247.2,242.0
-1898,1383181,Orenburg,,Orenburg,RU,,349,Eryosuchus,247.2,242.0
-1899,1383182,Orenburg,,Orenburg,RU,,348,Bukobaja,247.2,242.0
-1900,1383184,Kazakhstan,,,KZ,what is KZ?,347,Plagioscutum,242.0,237.0
-1901,1383185,Kazakhstan,,,KZ,what is KZ?,346,Plagioscutum,247.2,237.0
+1896,1383177,Orenburg,,Orenburg,RU,,351,Plagioscutum,247.2,242
+1897,1383180,Orenburg,,Orenburg,RU,,350,Eryosuchus,247.2,242
+1898,1383181,Orenburg,,Orenburg,RU,,349,Eryosuchus,247.2,242
+1899,1383182,Orenburg,,Orenburg,RU,,348,Bukobaja,247.2,242
+1900,1383184,Kazakhstan,,,KZ,what is KZ?,347,Plagioscutum,242,237
+1901,1383185,Kazakhstan,,,KZ,what is KZ?,346,Plagioscutum,247.2,237
 1903,1383187,Archangelsk,,Archangelsk,RU,,344,Melanopelta,251.2,247.2
 1904,1383188,Kirov,Nagorsk,Kirov,RU,,343,Melanopelta,251.2,247.2
-1905,1383189,Bashkortostan,,Bashkortostan,RU,,342,Plagiorophus,242.0,237.0
+1905,1383189,Bashkortostan,,Bashkortostan,RU,,342,Plagiorophus,242,237
 1906,1383193,Sakha Republic,Bulunsky,Sakha Republic,RU,,341,Boreopelta,251.2,247.2
 1907,1383409,Orenburg,,Orenburg,RU,,340,Platyoposaurus,273.01,266.9
-1908,1389774,Grand Est,Meurthe-et-Moselle,Grand Est,FR,,339,Mastodonsaurus,242.0,237.0
+1908,1389774,Grand Est,Meurthe-et-Moselle,Grand Est,FR,,339,Mastodonsaurus,242,237
 1909,1393307,Western Cape,Beaufort West,Western Cape,ZA,,338,Rhinesuchoides,264.28,259.51
 1910,1393310,Western Cape,Central Karoo,Western Cape,ZA,,336,Lydekkerina,259.51,251.902
 1911,1393310,Western Cape,Central Karoo,Western Cape,ZA,,337,Lydekkerina,259.51,251.902
 1912,1395191,Maranhao,,Maranhao,BR,,335,Prionosuchus,283.5,273.01
-1913,1395196,Mendoza,,Mendoza,AR,,334,Pelorocephalus,237.0,208.5
-1914,1395197,Mendoza,Las Heras,Mendoza,AR,,333,Pelorocephalus,237.0,208.5
-1915,1395198,Mendoza,,Mendoza,AR,,332,Pelorocephalus,237.0,208.5
+1913,1395196,Mendoza,,Mendoza,AR,,334,Pelorocephalus,237,208.5
+1914,1395197,Mendoza,Las Heras,Mendoza,AR,,333,Pelorocephalus,237,208.5
+1915,1395198,Mendoza,,Mendoza,AR,,332,Pelorocephalus,237,208.5
 1916,1395227,Orenburg,,Orenburg,RU,,331,Syrtosuchus,251.902,251.2
 1917,1395235,Nizhegorod,,Nizhegorod,RU,,330,Wetlugasaurus,251.2,247.2
 1918,1395236,Orenburg,,Orenburg,RU,,329,Wetlugasaurus,251.2,247.2
@@ -1910,15 +1910,15 @@
 1920,1395970,Ruvuma,Songea,Ruvuma,TZ,,325,Peltobatrachus,259.51,254.14
 1921,1395970,Ruvuma,Songea,Ruvuma,TZ,,326,Peltobatrachus,259.51,254.14
 1922,1395970,Ruvuma,Songea,Ruvuma,TZ,,327,Peltobatrachus,259.51,254.14
-1923,1395971,Uruguay,,Cerro Largo,UY,,324,Arachana,237.0,201.4
+1923,1395971,Uruguay,,Cerro Largo,UY,,324,Arachana,237,201.4
 1924,1396073,Rio Grande do Sul,,Rio Grande do Sul,BR,,323,Tomeia,251.902,247.2
-1925,1396074,Westphalia,"Sieker,",Westphalia,DE,,322,Cyclotosaurus,237.0,227.0
+1925,1396074,Westphalia,"Sieker,",Westphalia,DE,,322,Cyclotosaurus,237,227
 1926,1396075,Czechia,,,CZ,,321,Sclerocephalus,298.9,290.1
 1927,1396076,Diana,Ambilobe,Diana,MG,,320,Aphaneramma,251.902,248.9
-1928,1396077,Hubei,Yuanan,Hubei,CN,,319,Yuanansuchus,247.2,242.0
+1928,1396077,Hubei,Yuanan,Hubei,CN,,319,Yuanansuchus,247.2,242
 1930,1412898,Yaroslavl,Rybinsk,Yaroslavl,RU,,317,Thoosuchus,251.2,247.2
-1931,1415671,Arizona,,Arizona,US,,316,Apachesaurus,227.0,208.5
-1932,1415764,Eastern Cape,,Eastern Cape,ZA,,315,Bathignathus,247.2,242.0
+1931,1415671,Arizona,,Arizona,US,,316,Apachesaurus,227,208.5
+1932,1415764,Eastern Cape,,Eastern Cape,ZA,,315,Bathignathus,247.2,242
 1933,1416046,Samara,,Samara,RU,,314,Qantas,251.2,247.2
 1934,1416146,Samara,,Samara,RU,,313,Benthosuchus,251.2,247.2
 1935,1416151,Samara,,Samara,RU,,312,Syrtosuchus,251.902,251.2
@@ -1961,7 +1961,7 @@
 1972,1416251,Orenburg,,Orenburg,RU,,275,Parotosuchus,248.9,247.2
 1973,1416252,Orenburg,,Orenburg,RU,,274,Rhytidosteus,248.9,247.2
 1974,1416253,Orenburg,,Orenburg,RU,,273,Batrachosuchoides,248.9,247.2
-1975,1416271,Orenburg,Sol'-Iletsk,Orenburg,RU,,272,Plagioscutum,247.2,242.0
+1975,1416271,Orenburg,Sol'-Iletsk,Orenburg,RU,,272,Plagioscutum,247.2,242
 1976,1416274,Orenburg,Sol'-Iletsk,Orenburg,RU,,271,Parotosuchus,248.9,247.2
 1977,1416275,Orenburg,Sol'-Iletsk,Orenburg,RU,,270,Batrachosuchoides,248.9,247.2
 1978,1416279,Orenburg,,Orenburg,RU,,269,Tupilakosaurus,251.902,251.2
@@ -2052,15 +2052,15 @@
 2063,1417245,Orenburg,,Orenburg,RU,,184,Tryphosuchus,266.9,256.8
 2064,1417350,Orenburg,,Orenburg,RU,,183,Dvinosaurus,266.9,256.8
 2065,1417386,Orenburg,Grachevskii,Orenburg,RU,,182,Dvinosaurus,264.28,259.51
-2066,1417829,New Mexico,Guadalupe,New Mexico,US,,181,Eocyclotosaurus,247.2,242.0
-2067,1418479,Texas,Potter,Texas,US,,180,Apachesaurus,237.0,227.0
-2068,1418491,Texas,Potter,Texas,US,,179,Anaschisma,237.0,208.5
-2069,1418492,Texas,Potter,Texas,US,,178,Apachesaurus,237.0,208.5
+2066,1417829,New Mexico,Guadalupe,New Mexico,US,,181,Eocyclotosaurus,247.2,242
+2067,1418479,Texas,Potter,Texas,US,,180,Apachesaurus,237,227
+2068,1418491,Texas,Potter,Texas,US,,179,Anaschisma,237,208.5
+2069,1418492,Texas,Potter,Texas,US,,178,Apachesaurus,237,208.5
 2070,1418497,Western Cape,Central Karoo,Western Cape,ZA,,177,Rhinesuchus,259.51,251.902
 2071,1418697,Diana,Ambilobe,Diana,MG,,176,Mahavisaurus,251.902,248.9
 2072,1418698,Diana,Ambilobe,Diana,MG,,175,Mahavisaurus,251.902,248.9
-2074,1418701,Baden-Wurttemberg,,Baden-Wurttemberg,DE,,173,Mastodonsaurus,247.2,242.0
-2075,1419100,In Amenas,,In Amenas,DZ,,172,Stanocephalosaurus,251.902,237.0
+2074,1418701,Baden-Wurttemberg,,Baden-Wurttemberg,DE,,173,Mastodonsaurus,247.2,242
+2075,1419100,In Amenas,,In Amenas,DZ,,172,Stanocephalosaurus,251.902,237
 2076,1419107,Sachsen-Anhalt,Salzlandkreis,Sachsen-Anhalt,DE,,171,Parotosuchus,248.9,247.2
 2077,1419108,Sachsen-Anhalt,Salzlandkreis,Sachsen-Anhalt,DE,,170,Trematosaurus,248.9,247.2
 2078,1419111,Komi,Ust-Vymskii,Komi,RU,,169,Parotosuchus,251.2,247.2
@@ -2069,49 +2069,49 @@
 2081,1419233,Northern Cape,Fraserburg,Northern Cape,ZA,,166,Rhinesuchus,264.28,259.51
 2082,1419234,Western Cape,Beaufort West,Western Cape,ZA,,165,Rhinesuchus,259.51,254.14
 2083,1419235,Free State,,Free State,ZA,,164,Uranocentrodon,259.51,251.902
-2084,1419585,Baden-Wurttemberg,Schwabisch Hall,Baden-Wurttemberg,DE,,163,Plagiosternum,239.7,237.0
-2085,1419586,Thuringia,Erfurt,Thuringia,DE,,162,Plagiosternum,239.7,237.0
-2086,1419587,Thuringia,Hildburghausen,Thuringia,DE,,161,Plagiosternum,239.7,237.0
-2087,1419588,Thuringia,,Thuringia,DE,,160,Plagiosternum,239.7,237.0
-2088,1419589,Thuringia,,Thuringia,DE,,159,Plagiosternum,239.7,237.0
-2089,1419590,Thuringia,,Thuringia,DE,,158,Plagiosternum,242.0,237.0
-2090,1419591,Thuringia,,Thuringia,DE,,157,Plagiosternum,242.0,227.0
-2091,1419592,Thuringia,,Thuringia,DE,,156,Plagiosuchus,242.0,227.0
-2092,1419593,Thuringia,Hildburghausen,Thuringia,DE,,155,Plagiosuchus,239.7,237.0
-2093,1419594,Baden-Wurttemberg,,Baden-Wurttemberg,DE,,154,Gerrothorax,247.2,237.0
-2094,1419595,Grand Est,Meurthe-et-Moselle,Grand Est,FR,,153,Gerrothorax,242.0,237.0
-2095,1419596,Thuringia,,Thuringia,DE,,152,Gerrothorax,242.0,237.0
-2096,1419597,Baden-Wurttemberg,Stuttgart,Baden-Wurttemberg,DE,,151,Gerrothorax,237.0,227.0
-2097,1419611,Marrakech,,Marrakech-Safi,MA,,150,Almasaurus,237.0,227.0
-2098,1419634,Schwarzwald,,Baden-Wurttemberg,DE,,149,Mastodonsaurus,247.2,242.0
+2084,1419585,Baden-Wurttemberg,Schwabisch Hall,Baden-Wurttemberg,DE,,163,Plagiosternum,239.7,237
+2085,1419586,Thuringia,Erfurt,Thuringia,DE,,162,Plagiosternum,239.7,237
+2086,1419587,Thuringia,Hildburghausen,Thuringia,DE,,161,Plagiosternum,239.7,237
+2087,1419588,Thuringia,,Thuringia,DE,,160,Plagiosternum,239.7,237
+2088,1419589,Thuringia,,Thuringia,DE,,159,Plagiosternum,239.7,237
+2089,1419590,Thuringia,,Thuringia,DE,,158,Plagiosternum,242,237
+2090,1419591,Thuringia,,Thuringia,DE,,157,Plagiosternum,242,227
+2091,1419592,Thuringia,,Thuringia,DE,,156,Plagiosuchus,242,227
+2092,1419593,Thuringia,Hildburghausen,Thuringia,DE,,155,Plagiosuchus,239.7,237
+2093,1419594,Baden-Wurttemberg,,Baden-Wurttemberg,DE,,154,Gerrothorax,247.2,237
+2094,1419595,Grand Est,Meurthe-et-Moselle,Grand Est,FR,,153,Gerrothorax,242,237
+2095,1419596,Thuringia,,Thuringia,DE,,152,Gerrothorax,242,237
+2096,1419597,Baden-Wurttemberg,Stuttgart,Baden-Wurttemberg,DE,,151,Gerrothorax,237,227
+2097,1419611,Marrakech,,Marrakech-Safi,MA,,150,Almasaurus,237,227
+2098,1419634,Schwarzwald,,Baden-Wurttemberg,DE,,149,Mastodonsaurus,247.2,242
 2099,1419635,Baden-Wurttemberg,Waldshut,Baden-Wurttemberg,DE,,148,Mastodonsaurus,247.2,244.7
-2100,1419641,Bavaria,,Bavaria,DE,,147,Mastodonsaurus,247.2,242.0
-2101,1419642,Baden-Wurttemberg,Schwabisch Hall,Baden-Wurttemberg,DE,,146,Tatrasuchus,239.7,237.0
-2102,1419643,Baden-Wurttemberg,Schwabisch Hall,Baden-Wurttemberg,DE,,145,Tatrasuchus,239.7,237.0
-2103,1419644,Baden-Wurttemberg,Schwabisch Hall,Baden-Wurttemberg,DE,,144,Tatrasuchus,239.7,237.0
-2104,1419645,Baden-Wurttemberg,,Baden-Wurttemberg,DE,,143,Eocyclotosaurus,247.2,242.0
-2105,1419646,Baden-Wurttemberg,,Baden-Wurttemberg,DE,,142,Heptasaurus,247.2,242.0
+2100,1419641,Bavaria,,Bavaria,DE,,147,Mastodonsaurus,247.2,242
+2101,1419642,Baden-Wurttemberg,Schwabisch Hall,Baden-Wurttemberg,DE,,146,Tatrasuchus,239.7,237
+2102,1419643,Baden-Wurttemberg,Schwabisch Hall,Baden-Wurttemberg,DE,,145,Tatrasuchus,239.7,237
+2103,1419644,Baden-Wurttemberg,Schwabisch Hall,Baden-Wurttemberg,DE,,144,Tatrasuchus,239.7,237
+2104,1419645,Baden-Wurttemberg,,Baden-Wurttemberg,DE,,143,Eocyclotosaurus,247.2,242
+2105,1419646,Baden-Wurttemberg,,Baden-Wurttemberg,DE,,142,Heptasaurus,247.2,242
 2106,1419647,Baden-Wurttemberg,Calw,Baden-Wurttemberg,DE,,141,Eocyclotosaurus,247.2,244.7
 2107,1419648,Baden-Wurttemberg,Freudenstadt,Baden-Wurttemberg,DE,,140,Eocyclotosaurus,247.2,244.7
 2108,1419649,Baden-Wurttemberg,,Baden-Wurttemberg,DE,,139,Stenotosaurus,248.9,245.5
 2109,1419650,Baden-Wurttemberg,,Baden-Wurttemberg,DE,,138,Cyclotosaurus,216.7,213.2
-2110,1419651,Baden-Wurttemberg,Stuttgart,Baden-Wurttemberg,DE,,137,Cyclotosaurus,227.0,208.5
+2110,1419651,Baden-Wurttemberg,Stuttgart,Baden-Wurttemberg,DE,,137,Cyclotosaurus,227,208.5
 2111,1419653,Sachsen-Anhalt,,Sachsen-Anhalt,DE,,136,Cyclotosaurus,208.5,201.4
 2112,1419842,Orenburg,,Orenburg,RU,,135,Anthichnium,266.9,256.8
 2113,1420185,Arizona,,Arizona,US,,134,Vigilius,247.2,244.7
-2114,1420186,Eastern Cape,,Eastern Cape,ZA,,133,Xenotosuchus,247.2,242.0
-2115,1420190,Free State,,Free State,ZA,,132,Xenotosuchus,247.2,242.0
-2117,1423589,Opole,,Opole,PL,,130,Mentosaurus,247.2,242.0
-2118,1423590,Opole,,Opole,PL,,129,Eurycervix,247.2,242.0
-2119,1423607,Austria,Baden,Lower Austria,AT,,128,Metoposaurus,237.0,233.4
+2114,1420186,Eastern Cape,,Eastern Cape,ZA,,133,Xenotosuchus,247.2,242
+2115,1420190,Free State,,Free State,ZA,,132,Xenotosuchus,247.2,242
+2117,1423589,Opole,,Opole,PL,,130,Mentosaurus,247.2,242
+2118,1423590,Opole,,Opole,PL,,129,Eurycervix,247.2,242
+2119,1423607,Austria,Baden,Lower Austria,AT,,128,Metoposaurus,237,233.4
 2120,1423609,Archangelsk,,Archangelsk,RU,,127,Komatosuchus,251.2,247.2
 2121,1423614,Kostroma,,Kostroma,RU,,126,Benthosuchus,251.2,247.2
 2122,1423615,Volgograd,Nikolsk,Volgograd,RU,,125,Benthosuchus,251.2,247.2
-2123,1423616,Vosges,,Vosges,FR,,124,Eocyclotosaurus,247.2,242.0
-2124,1423617,Bas-Rhin,,Bas-Rhin,FR,,123,Eocyclotosaurus,247.2,242.0
-2125,1423618,Baden-Wurttemberg,,Baden-Wurttemberg,DE,,122,Cyclotosaurus,242.0,237.0
-2126,1423653,San Juan,Valle Fertil,San Juan,AR,,121,Promastodonsaurus,237.0,208.5
-2127,1423654,Westphalia,,Westphalia,DE,,120,Mastodonsaurus,247.2,242.0
+2123,1423616,Vosges,,Vosges,FR,,124,Eocyclotosaurus,247.2,242
+2124,1423617,Bas-Rhin,,Bas-Rhin,FR,,123,Eocyclotosaurus,247.2,242
+2125,1423618,Baden-Wurttemberg,,Baden-Wurttemberg,DE,,122,Cyclotosaurus,242,237
+2126,1423653,San Juan,Valle Fertil,San Juan,AR,,121,Promastodonsaurus,237,208.5
+2127,1423654,Westphalia,,Westphalia,DE,,120,Mastodonsaurus,247.2,242
 2128,1423655,Archangelsk,,Archangelsk,RU,,119,Yarengia,251.2,247.2
 2129,1423663,Kirov,,Kirov,RU,,118,Vladlenosaurus,251.902,247.2
 2130,1423664,Saxony,Weisseritzkreis,Saxony,DE,,117,Archegosaurus,293.52,290.1
@@ -2131,20 +2131,20 @@
 2144,1425288,Czechia,Pilsen-North,Pilsen,CZ,,103,Limnerpeton,309.8,307.4
 2145,1425289,Czechia,Pilsen-North,Pilsen,CZ,,102,Limnerpeton,309.8,307.4
 2146,1425291,Czechia,Pilsen-North,Pilsen,CZ,,101,Sparagmites,309.8,307.4
-2147,1425294,Pennsylvania,Alleghany,Pennsylvania,US,,100,Branchiosaurus,307.0,298.9
+2147,1425294,Pennsylvania,Alleghany,Pennsylvania,US,,100,Branchiosaurus,307,298.9
 2148,1428417,Western Cape,Prince Albert,Western Cape,ZA,,99,Rhinesuchus,264.28,259.51
 2149,1428991,Western Cape,,Western Cape,ZA,,98,Rhinesuchoides,264.28,259.51
 2150,1429155,Texas,,Texas,US,,97,Zatrachys,290.1,283.5
 2151,1429156,Texas,,Texas,US,,96,Eryops,290.1,283.5
 2152,1429175,Texas,Taylor,Texas,US,,95,Cacops,283.5,273.01
-2154,1491277,Texas,Crosby,Texas,US,,93,Anaschisma,237.0,208.5
+2154,1491277,Texas,Crosby,Texas,US,,93,Anaschisma,237,208.5
 2155,1491392,Texas,Clay,Texas,US,,92,Eryops,298.9,286.1
 2156,1491648,Texas,Clay,Texas,US,,91,Eryops,298.9,290.1
 2157,1491819,Texas,Clay,Texas,US,,90,Eryops,298.9,293.52
 2158,1491824,Texas,Montague,Texas,US,,89,Eryops,298.9,293.52
-2159,1494771,Madhya Pradesh,Shahdol,Madhya Pradesh,IN,,88,Eodiscoglossus,237.0,227.0
-2160,1494775,Madhya Pradesh,Shahdol,Madhya Pradesh,IN,,87,Metoposaurus,237.0,227.0
-2161,1494788,Madhya Pradesh,Shahdol,Madhya Pradesh,IN,,86,Metoposaurus,237.0,227.0
+2159,1494771,Madhya Pradesh,Shahdol,Madhya Pradesh,IN,,88,Eodiscoglossus,237,227
+2160,1494775,Madhya Pradesh,Shahdol,Madhya Pradesh,IN,,87,Metoposaurus,237,227
+2161,1494788,Madhya Pradesh,Shahdol,Madhya Pradesh,IN,,86,Metoposaurus,237,227
 2162,1517672,Svalbard,,,SJ,what is SJ?,85,Lyrocephaliscus,251.2,248.9
 2163,1535404,Kansas,Greenwood County,Kansas,US,,84,Eryops,303.7,298.9
 2164,1535408,Kansas,Greenwood County,Kansas,US,,83,Trimerorhachis,303.7,298.9
@@ -2153,7 +2153,7 @@
 2167,1545818,Colorado,San Miguel,Colorado,US,,80,Conjunctio,298.9,286.1
 2168,1545820,Burgundy,,Burgundy,FR,,79,Nyranerpeton,301.4,300.3
 2169,1545821,Illinois,,Illinois,US,,78,Amphibamus,309.8,307.4
-2170,1546518,Arizona,Apache,Arizona,US,,77,Anaschisma,227.0,208.5
+2170,1546518,Arizona,Apache,Arizona,US,,77,Anaschisma,227,208.5
 2171,1546563,Oklahoma,Blaine,Oklahoma,US,,76,Nooxobeia,273.01,264.28
 2172,1546564,Allier,,Allier,FR,,75,Anthracobamus,300.9,300.3
 2173,1546565,Allier,,Allier,FR,,74,Branchiosaurus,300.9,300.3
@@ -2163,9 +2163,9 @@
 2177,1546693,Thuringia,,Thuringia,DE,,70,Apateon,298.9,293.52
 2178,1546694,Thuringia,,Thuringia,DE,,69,Melanerpeton,298.9,293.52
 2179,1546695,Thuringia,,Thuringia,DE,,68,Sclerocephalus,298.9,293.52
-2180,1546803,Texas,Garza,Texas,US,,67,Metoposaurus,227.0,208.5
+2180,1546803,Texas,Garza,Texas,US,,67,Metoposaurus,227,208.5
 2181,1546983,Westphalia,,Westphalia,DE,,66,Cyclotosaurus,208.5,201.4
-2182,1547000,Utah,,Utah,US,,65,Eryops,307.0,273.01
+2182,1547000,Utah,,Utah,US,,65,Eryops,307,273.01
 2183,1547018,New Mexico,Cibola,New Mexico,US,,64,Eryops,293.52,283.5
 2184,1547077,New Mexico,Rio Arriba,New Mexico,US,,63,Zatrachys,298.9,286.1
 2185,1547082,West Bengal,,West Bengal,IN,,62,Capulomala,251.902,248.9
@@ -2174,7 +2174,7 @@
 2188,1547197,Queensland,,Queensland,AU,,59,Capulomala,251.902,251.2
 2189,1547198,Volgograd,Nikolsky District,Volgograd,RU,,58,Benthosuchus,251.902,247.2
 2190,1558355,New Mexico,Bernalillo,New Mexico,US,,57,Bermanerpeton,303.7,298.9
-2191,1558912,Netherland,,Gelderland,NL,,56,Capitosauroides,247.2,242.0
+2191,1558912,Netherland,,Gelderland,NL,,56,Capitosauroides,247.2,242
 2193,1564214,Oklahoma,Noble,Oklahoma,US,,54,Trimerorhachis,290.1,283.5
 2194,1567343,Oklahoma,Tillman,Oklahoma,US,,53,Trimerorhachis,298.9,251.902
 2195,1567353,Oklahoma,Tillman,Oklahoma,US,,52,Trimerorhachis,298.9,251.902
@@ -2185,15 +2185,15 @@
 2200,1567393,Oklahoma,Tillman,Oklahoma,US,,47,Eryops,298.9,251.902
 2201,1567394,Oklahoma,Tillman,Oklahoma,US,,46,Acheloma,298.9,251.902
 2202,1567399,Saarland,,Saarland,DE,,45,Sclerocephalus,303.7,293.52
-2203,1576258,Marrakech,,Marrakech-Safi,MA,,44,Metoposaurus,237.0,227.0
-2204,1576259,Marrakech,,Marrakech-Safi,MA,,43,Metoposaurus,237.0,227.0
-2205,1576261,Marrakech,,Marrakech-Safi,MA,,42,Dutuitosaurus,237.0,227.0
-2206,1578935,Arizona,Apache,Arizona,US,,41,Apachesaurus,227.0,208.5
+2203,1576258,Marrakech,,Marrakech-Safi,MA,,44,Metoposaurus,237,227
+2204,1576259,Marrakech,,Marrakech-Safi,MA,,43,Metoposaurus,237,227
+2205,1576261,Marrakech,,Marrakech-Safi,MA,,42,Dutuitosaurus,237,227
+2206,1578935,Arizona,Apache,Arizona,US,,41,Apachesaurus,227,208.5
 2207,1584331,Saarland,Lebach/Saar,Saarland,DE,,40,Archegosaurus,298.9,283.5
-2208,1589314,New Mexico,Rio Arriba,New Mexico,US,,39,Anaschisma,227.0,208.5
-2210,1626336,Arizona,,Arizona,US,,37,Funcusvermis,227.0,208.5
+2208,1589314,New Mexico,Rio Arriba,New Mexico,US,,39,Anaschisma,227,208.5
+2210,1626336,Arizona,,Arizona,US,,37,Funcusvermis,227,208.5
 2211,1639000,Bavaria,,Bavaria,DE,,36,Trematosaurus,259.51,251.902
-2212,1639001,Thuringia,,Thuringia,DE,,35,Cyclotosaurus,242.0,237.0
+2212,1639001,Thuringia,,Thuringia,DE,,35,Cyclotosaurus,242,237
 2213,1639800,New South Wales,,New South Wales,AU,,34,Arenaerpeton,251.902,247.2
 2214,1640636,Perm,,Perm,RU,,33,Clamorosaurus,283.5,273.01
 2215,1640654,Samara,,Samara,RU,,32,Platyoposaurus,273.01,266.9
@@ -2215,8 +2215,8 @@
 2231,1646274,Volgograd,,Volgograd,RU,,16,Dvinosaurus,259.51,254.14
 2232,1646560,Yaroslavl,Rybinsk,Yaroslavl,RU,,15,Wetlugasaurus,251.2,247.2
 2233,N1,Parana,Sao Jeronimo da Serra,Parana,BR,,14,Australerpeton,266.9,264.3
-2234,N10,Rio Grande do Sul,Pivetta,Rio Grande do Sul,BR,,13,Compsocerops,227.0,208.5
-2235,N11,Rio Grande do Sul,Pivetta,Rio Grande do Sul,BR,,12,Compsocerops,227.0,208.5
+2234,N10,Rio Grande do Sul,Pivetta,Rio Grande do Sul,BR,,13,Compsocerops,227,208.5
+2235,N11,Rio Grande do Sul,Pivetta,Rio Grande do Sul,BR,,12,Compsocerops,227,208.5
 2236,N12,Parana,Serra do Cadeado,Parana,BR,,11,Australerpeton,266.9,264.3
 2237,N13,Rio Grande do Sul,-,Rio Grande do Sul,BR,,10,Kwatisuchus,251.2,247.2
 2238,N14,Rio Grande do Sul,Toroqua,Rio Grande do Sul,BR,,9,Tomeia,251.2,247.2
@@ -2226,5 +2226,5 @@
 2242,N5,Parana,Morro do Mulato,Parana,BR,,5,Rastosuchus,266.9,264.3
 2243,N6,Parana,Morro do Mulato,Parana,BR,,4,Rastosuchus,266.9,264.3
 2244,N7,Parana,Morro do Mulato,Parana,BR,,3,Rastosuchus,266.9,264.3
-2245,N8,Rio Grande do Sul,Buriol,Rio Grande do Sul,BR,,2,Compsocerops,227.0,208.5
-2246,N9,Rio Grande do Sul,Buriol,Rio Grande do Sul,BR,,1,Compsocerops,227.0,208.5
+2245,N8,Rio Grande do Sul,Buriol,Rio Grande do Sul,BR,,2,Compsocerops,227,208.5
+2246,N9,Rio Grande do Sul,Buriol,Rio Grande do Sul,BR,,1,Compsocerops,227,208.5
