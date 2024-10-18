@@ -1,10 +1,10 @@
-index,occurrence_no_x,locality,county_original,state,cc,notes,id,genus,age_max,age_min
+,occurrence_no_x,locality,county_original,state,cc,notes,id,genus,age_max,age_min
 0,147591,West Virginia,Ohio,West Virginia,US,,3422,Edaphosaurus,303.7,298.9
 1,148250,Texas,Archer,Texas,US,,3421,Ophiacodon,290.1,283.5
-2,149619,Rio Grande do Sul,Santa Maria,Rio Grande do Sul,BR,,3420,Therioherpeton,237,208.5
+2,149619,Rio Grande do Sul,Santa Maria,Rio Grande do Sul,BR,,3420,Therioherpeton,237.0,208.5
 3,149745,Utah,San Juan,Utah,US,,3419,Ophiacodon,298.9,290.1
-4,149837,Texas,Crosby,Texas,US,,3418,Adelobasileus,227,208.5
-5,149868,La Rioja,,La Rioja,AR,,3417,Massetognathus,242,237
+4,149837,Texas,Crosby,Texas,US,,3418,Adelobasileus,227.0,208.5
+5,149868,La Rioja,,La Rioja,AR,,3417,Massetognathus,242.0,237.0
 6,157309,Oklahoma,Seminole,Oklahoma,US,,3416,Ophiacodon,303.7,298.9
 7,219912,Texas,,Texas,US,,3415,Edaphosaurus,298.9,286.1
 8,220196,Texas,Wichita,Texas,US,,3414,Ophiacodon,290.1,283.5
@@ -21,14 +21,14 @@ index,occurrence_no_x,locality,county_original,state,cc,notes,id,genus,age_max,a
 19,229267,Western Cape,Beaufort West,Western Cape,ZA,,3410,Diictodon,259.51,254.14
 20,229267,Western Cape,Beaufort West,Western Cape,ZA,,3411,Diictodon,259.51,254.14
 21,229267,Western Cape,Beaufort West,Western Cape,ZA,,3412,Diictodon,259.51,254.14
-23,256438,San Juan,,San Juan,AR,,3399,Ischigualastia,237,227
-24,256439,San Juan,,San Juan,AR,,3398,Exaeretodon,237,227
-25,272315,La Rioja,,La Rioja,AR,,3397,Dinodontosaurus,242,237
-26,272316,La Rioja,,La Rioja,AR,,3396,Jachaleria,242,237
-27,272317,La Rioja,,La Rioja,AR,,3395,Dinodontosaurus,242,237
-28,272318,La Rioja,,La Rioja,AR,,3394,Chiniquodon,242,237
-29,272319,La Rioja,,La Rioja,AR,,3393,Massetognathus,242,237
-30,272320,La Rioja,,La Rioja,AR,,3392,Probainognathus,242,237
+23,256438,San Juan,,San Juan,AR,,3399,Ischigualastia,237.0,227.0
+24,256439,San Juan,,San Juan,AR,,3398,Exaeretodon,237.0,227.0
+25,272315,La Rioja,,La Rioja,AR,,3397,Dinodontosaurus,242.0,237.0
+26,272316,La Rioja,,La Rioja,AR,,3396,Jachaleria,242.0,237.0
+27,272317,La Rioja,,La Rioja,AR,,3395,Dinodontosaurus,242.0,237.0
+28,272318,La Rioja,,La Rioja,AR,,3394,Chiniquodon,242.0,237.0
+29,272319,La Rioja,,La Rioja,AR,,3393,Massetognathus,242.0,237.0
+30,272320,La Rioja,,La Rioja,AR,,3392,Probainognathus,242.0,237.0
 35,287317,Oklahoma,Blaine,Oklahoma,US,,3387,Cotylorhynchus,273.01,264.28
 36,287346,Oklahoma,Blaine,Oklahoma,US,,3386,Cotylorhynchus,273.01,264.28
 37,287347,Oklahoma,Blaine,Oklahoma,US,,3385,Angelosaurus,273.01,264.28
@@ -117,20 +117,20 @@ index,occurrence_no_x,locality,county_original,state,cc,notes,id,genus,age_max,a
 120,296134,Texas,Baylor,Texas,US,,3302,Ophiacodon,283.5,273.01
 121,296137,Texas,Baylor,Texas,US,,3301,Ophiacodon,283.5,273.01
 122,296145,Texas,Archer,Texas,US,,3300,Dimetrodon,293.52,283.5
-123,299696,Orenburg,Sol'-Iletsk,Orenburg,RU,,3299,Rhadiodromus,247.2,242
+123,299696,Orenburg,Sol'-Iletsk,Orenburg,RU,,3299,Rhadiodromus,247.2,242.0
 124,299717,Tatarstan,Tetyushi,Tatarstan,RU,,3298,Inostrancevia,264.28,254.14
 125,299718,Tatarstan,Tetyushi,Tatarstan,RU,,3297,Vivaxosaurus,264.28,254.14
 126,338260,Western Cape,Beaufort West,Western Cape,ZA,,3296,Gorgonops,264.28,259.51
-127,343884,North Carolina,Durham,North Carolina,US,,3295,Plinthogomphodon,237,208.5
+127,343884,North Carolina,Durham,North Carolina,US,,3295,Plinthogomphodon,237.0,208.5
 128,346292,Texas,Archer,Texas,US,,3294,Edaphosaurus,298.9,290.1
 129,346293,Texas,Archer,Texas,US,,3293,Dimetrodon,298.9,290.1
-130,366211,Marrakech,,Marrakech,MA,,3291,Moghreberia,237,201.4
-131,366211,Marrakech,,Marrakech,MA,,3292,Moghreberia,237,201.4
-132,366442,San Juan,,San Juan,AR,,3286,Ischigualastia,237,227
-133,366442,San Juan,,San Juan,AR,,3287,Ischigualastia,237,227
-134,366442,San Juan,,San Juan,AR,,3288,Ischigualastia,237,227
-135,366442,San Juan,,San Juan,AR,,3289,Ischigualastia,237,227
-136,366442,San Juan,,San Juan,AR,,3290,Ischigualastia,237,227
+130,366211,Marrakech,,Marrakech,MA,,3291,Moghreberia,237.0,201.4
+131,366211,Marrakech,,Marrakech,MA,,3292,Moghreberia,237.0,201.4
+132,366442,San Juan,,San Juan,AR,,3286,Ischigualastia,237.0,227.0
+133,366442,San Juan,,San Juan,AR,,3287,Ischigualastia,237.0,227.0
+134,366442,San Juan,,San Juan,AR,,3288,Ischigualastia,237.0,227.0
+135,366442,San Juan,,San Juan,AR,,3289,Ischigualastia,237.0,227.0
+136,366442,San Juan,,San Juan,AR,,3290,Ischigualastia,237.0,227.0
 137,367509,Texas,Baylor,Texas,US,,3285,Dimetrodon,283.5,273.01
 138,367510,New Mexico,Rio Arriba,New Mexico,US,,3284,Elcabrosaurus,303.7,298.9
 139,367591,New Mexico,Rio Arriba,New Mexico,US,,3275,Ophiacodon,303.7,298.9
@@ -146,21 +146,21 @@ index,occurrence_no_x,locality,county_original,state,cc,notes,id,genus,age_max,a
 149,368040,KwaZulu-Natal,Bergville,KwaZulu-Natal,ZA,,3273,Thrinaxodon,251.902,247.2
 150,368042,KwaZulu-Natal,Bergville,KwaZulu-Natal,ZA,,3272,Tetracynodon,251.902,247.2
 151,380706,Lorraine,Meuthe-et-Moselle,Lorraine,FR,,3271,Brachyzostrodon,208.5,201.4
-152,382160,Rio Grande do Sul,,Rio Grande do Sul,BR,,3270,Stahleckeria,242,237
-153,382161,Rio Grande do Sul,,Rio Grande do Sul,BR,,3269,Dinodontosaurus,242,237
+152,382160,Rio Grande do Sul,,Rio Grande do Sul,BR,,3270,Stahleckeria,242.0,237.0
+153,382161,Rio Grande do Sul,,Rio Grande do Sul,BR,,3269,Dinodontosaurus,242.0,237.0
 154,387718,Western Cape,Beaufort West,Western Cape,ZA,,3268,Pristerognathus,264.28,259.51
 155,387719,Western Cape,Beaufort West,Western Cape,ZA,,3267,Diictodon,264.28,259.51
 156,395922,Ruvuma,Songea,Ruvuma,TZ,,3266,Dicynodon,259.51,254.14
 157,395948,Ruvuma,Songea,Ruvuma,TZ,,3265,Platypodosaurus,259.51,254.14
-158,406850,Virginia,Chesterfield,Virginia,US,,3264,Boreogomphodon,237,227
-159,406853,Virginia,Chesterfield,Virginia,US,,3263,Microconodon,237,227
-160,406862,Arizona,Apache,Arizona,US,,3262,Placerias,227,208.5
+158,406850,Virginia,Chesterfield,Virginia,US,,3264,Boreogomphodon,237.0,227.0
+159,406853,Virginia,Chesterfield,Virginia,US,,3263,Microconodon,237.0,227.0
+160,406862,Arizona,Apache,Arizona,US,,3262,Placerias,227.0,208.5
 161,463420,Sachsen-Anhalt,,Sachsen-Anhalt,DE,,3261,Thomasia,208.5,201.4
-162,468649,North Carolina,Chatham,North Carolina,US,,3260,Placerias,237,227
-163,474118,San Juan,,San Juan,AR,,3259,Chiniquodon,237,227
-164,483886,Texas,Crosby,Texas,US,,3258,Rewaconodon,227,208.5
-165,486190,Rio Grande do Sul,,Rio Grande do Sul,BR,,3257,Stahleckeria,242,237
-166,486191,Rio Grande do Sul,,Rio Grande do Sul,BR,,3256,Exaeretodon,242,237
+162,468649,North Carolina,Chatham,North Carolina,US,,3260,Placerias,237.0,227.0
+163,474118,San Juan,,San Juan,AR,,3259,Chiniquodon,237.0,227.0
+164,483886,Texas,Crosby,Texas,US,,3258,Rewaconodon,227.0,208.5
+165,486190,Rio Grande do Sul,,Rio Grande do Sul,BR,,3257,Stahleckeria,242.0,237.0
+166,486191,Rio Grande do Sul,,Rio Grande do Sul,BR,,3256,Exaeretodon,242.0,237.0
 167,487397,Prince Edward Island,,Prince Edward Island,CA,,3255,Dimetrodon,290.1,283.5
 168,490771,Lorraine,Meuthe-et-Moselle,Lorraine,FR,,3254,Theroteinus,208.5,201.4
 169,504264,Schaffhausen,,Schaffhausen,CH,,3253,Tricuspes,208.5,201.4
@@ -173,25 +173,25 @@ index,occurrence_no_x,locality,county_original,state,cc,notes,id,genus,age_max,a
 176,504273,Schaffhausen,,Schaffhausen,CH,,3246,Morganucodon,208.5,201.4
 177,504274,Schaffhausen,,Schaffhausen,CH,,3245,Helvetiodon,208.5,201.4
 178,504275,Schaffhausen,,Schaffhausen,CH,,3244,Hallautherium,208.5,201.4
-179,517589,Arizona,Apache,Arizona,US,,3243,Placerias,227,208.5
-180,518728,San Juan,Valle Fertil,San Juan,AR,,3240,Exaeretodon,237,227
-181,518728,San Juan,Valle Fertil,San Juan,AR,,3241,Exaeretodon,237,227
-182,518728,San Juan,Valle Fertil,San Juan,AR,,3242,Exaeretodon,237,227
-183,534102,Colorado,Mesa,Colorado,US,,3239,Pentasauropus,227,208.5
-184,536061,Rio Grande do Sul,,Rio Grande do Sul,BR,,3238,Riograndia,227,208.5
+179,517589,Arizona,Apache,Arizona,US,,3243,Placerias,227.0,208.5
+180,518728,San Juan,Valle Fertil,San Juan,AR,,3240,Exaeretodon,237.0,227.0
+181,518728,San Juan,Valle Fertil,San Juan,AR,,3241,Exaeretodon,237.0,227.0
+182,518728,San Juan,Valle Fertil,San Juan,AR,,3242,Exaeretodon,237.0,227.0
+183,534102,Colorado,Mesa,Colorado,US,,3239,Pentasauropus,227.0,208.5
+184,536061,Rio Grande do Sul,,Rio Grande do Sul,BR,,3238,Riograndia,227.0,208.5
 185,538743,Luxemburg,,Diekirch,LU,,3237,Pseudotriconodon,216.7,213.2
 186,538744,Luxemburg,,Diekirch,LU,,3236,Tricuspes,216.7,213.2
 187,538745,Luxemburg,,Diekirch,LU,,3235,Gaumia,216.7,213.2
-188,539479,Rio Grande do Sul,,Rio Grande do Sul,BR,,3234,Gomphodontosuchus,237,208.5
-189,562011,Marrakech,,Marrakech,MA,,3233,Moghreberia,237,227
-190,562012,Marrakech,,Marrakech,MA,,3232,Moghreberia,237,227
-191,562013,Marrakech,,Marrakech,MA,,3231,Moghreberia,237,227
-192,573790,La Rioja,,La Rioja,AR,,3230,Chiniquodon,242,237
-193,573791,La Rioja,,La Rioja,AR,,3229,Probainognathus,242,237
-194,573796,La Rioja,,La Rioja,AR,,3228,Massetognathus,242,237
-195,573797,La Rioja,,La Rioja,AR,,3227,Massetognathus,242,237
-196,573798,La Rioja,,La Rioja,AR,,3226,Massetognathus,242,237
-197,573799,La Rioja,,La Rioja,AR,,3225,Massetognathus,242,237
+188,539479,Rio Grande do Sul,,Rio Grande do Sul,BR,,3234,Gomphodontosuchus,237.0,208.5
+189,562011,Marrakech,,Marrakech,MA,,3233,Moghreberia,237.0,227.0
+190,562012,Marrakech,,Marrakech,MA,,3232,Moghreberia,237.0,227.0
+191,562013,Marrakech,,Marrakech,MA,,3231,Moghreberia,237.0,227.0
+192,573790,La Rioja,,La Rioja,AR,,3230,Chiniquodon,242.0,237.0
+193,573791,La Rioja,,La Rioja,AR,,3229,Probainognathus,242.0,237.0
+194,573796,La Rioja,,La Rioja,AR,,3228,Massetognathus,242.0,237.0
+195,573797,La Rioja,,La Rioja,AR,,3227,Massetognathus,242.0,237.0
+196,573798,La Rioja,,La Rioja,AR,,3226,Massetognathus,242.0,237.0
+197,573799,La Rioja,,La Rioja,AR,,3225,Massetognathus,242.0,237.0
 198,575713,Franche-Comte,,Franche-Comte,FR,,3224,Thomasia,208.5,201.4
 199,628181,Texas,Taylor,Texas,US,,3223,Dimetrodon,283.5,273.01
 200,629484,Oklahoma,Comanche,Oklahoma,US,,3222,Oromycter,290.1,283.5
@@ -208,17 +208,17 @@ index,occurrence_no_x,locality,county_original,state,cc,notes,id,genus,age_max,a
 211,631449,Oklahoma,Tillman,Oklahoma,US,,3211,Edaphosaurus,283.5,273.01
 212,633270,Texas,Taylor,Texas,US,,3210,Varanops,286.1,273.01
 213,639660,Belgium,,Gaume,BE,,3209,Habayia,208.5,201.4
-214,645111,Eastern Cape,,Eastern Cape,ZA,,3208,Lumkuia,247.2,242
+214,645111,Eastern Cape,,Eastern Cape,ZA,,3208,Lumkuia,247.2,242.0
 215,665544,Texas,Baylor,Texas,US,,3207,Mycterosaurus,290.1,273.01
-216,668171,Rio Grande do Sul,,Rio Grande do Sul,BR,,3206,Chiniquodon,242,237
-217,668534,Rio Grande do Sul,,Rio Grande do Sul,BR,,3205,Gomphodontosuchus,237,208.5
-218,668696,Rio Grande do Sul,,Rio Grande do Sul,BR,,3204,Stahleckeria,242,237
-219,668717,Rio Grande do Sul,,Rio Grande do Sul,BR,,3203,Traversodon,242,237
+216,668171,Rio Grande do Sul,,Rio Grande do Sul,BR,,3206,Chiniquodon,242.0,237.0
+217,668534,Rio Grande do Sul,,Rio Grande do Sul,BR,,3205,Gomphodontosuchus,237.0,208.5
+218,668696,Rio Grande do Sul,,Rio Grande do Sul,BR,,3204,Stahleckeria,242.0,237.0
+219,668717,Rio Grande do Sul,,Rio Grande do Sul,BR,,3203,Traversodon,242.0,237.0
 220,690415,Lorraine,Meuthe-et-Moselle,Lorraine,FR,,3202,Meurthodon,208.5,201.4
 221,702798,Eastern Cape,Janesville,Eastern Cape,ZA,,3201,Pachydectes,264.28,259.51
 222,702799,Eastern Cape,,Eastern Cape,ZA,,3200,Patranomodon,266.9,264.28
 223,702800,Eastern Cape,Prince Albert,Eastern Cape,ZA,,3199,Eodicynodon,273.01,259.51
-224,741856,Rio Grande do Sul,,Rio Grande do Sul,BR,,3198,Brasilitherium,227,208.5
+224,741856,Rio Grande do Sul,,Rio Grande do Sul,BR,,3198,Brasilitherium,227.0,208.5
 225,748675,Texas,Knox,Texas,US,,3197,Dimetrodon,283.5,273.01
 226,752530,Texas,Archer,Texas,US,,3196,Eothyris,290.1,283.5
 227,752568,Texas,Foard,Texas,US,,3195,Casea,286.1,273.01
@@ -248,12 +248,12 @@ index,occurrence_no_x,locality,county_original,state,cc,notes,id,genus,age_max,a
 251,755453,Ohio,Monroe,Ohio,US,,3171,Ctenospondylus,293.52,290.1
 252,755725,Texas,Knox,Texas,US,,3170,Cotylorhynchus,283.5,266.9
 253,758320,Illinois,Jasper,Illinois,US,,3169,Milosaurus,307.4,298.9
-254,778597,New Mexico,Quay,New Mexico,US,,3168,Ameghinichnus,227,208.5
-255,778929,New Mexico,Guadalupe,New Mexico,US,,3167,Pseudotriconodon,227,208.5
-256,779001,New Mexico,Quay,New Mexico,US,,3166,Redondagnathus,227,208.5
-257,780852,Lesotho,,,LS,,3165,Pentasauropus,237,208.5
-258,780926,Lesotho,,Mohale's Hoek,LS,,3164,Pentasauropus,227,201.4
-259,782163,Arizona,Navajo,Arizona,US,,3163,Placerias,227,208.5
+254,778597,New Mexico,Quay,New Mexico,US,,3168,Ameghinichnus,227.0,208.5
+255,778929,New Mexico,Guadalupe,New Mexico,US,,3167,Pseudotriconodon,227.0,208.5
+256,779001,New Mexico,Quay,New Mexico,US,,3166,Redondagnathus,227.0,208.5
+257,780852,Lesotho,,,LS,,3165,Pentasauropus,237.0,208.5
+258,780926,Lesotho,,Mohale's Hoek,LS,,3164,Pentasauropus,227.0,201.4
+259,782163,Arizona,Navajo,Arizona,US,,3163,Placerias,227.0,208.5
 260,786380,Hesse,Waldeck-Frankenberg,Hesse,DE,,3162,Procynosuchus,259.51,254.14
 261,786799,Oklahoma,Logan,Oklahoma,US,,3161,Dimetrodon,283.5,273.01
 262,787182,New Mexico,Rio Arriba,New Mexico,US,,3157,Oedaleops,303.7,286.1
@@ -401,7 +401,7 @@ index,occurrence_no_x,locality,county_original,state,cc,notes,id,genus,age_max,a
 404,789745,Texas,Baylor,Texas,US,,3017,Varanosaurus,283.5,273.01
 405,789745,Texas,Baylor,Texas,US,,3018,Varanosaurus,283.5,273.01
 406,789757,Texas,Baylor,Texas,US,,3016,Secodontosaurus,283.5,273.01
-407,789774,Bashkortostan,,Bashkortostan,RU,,3015,Elephantosaurus,242,237
+407,789774,Bashkortostan,,Bashkortostan,RU,,3015,Elephantosaurus,242.0,237.0
 408,789818,Illinois,Vermilion,Illinois,US,,3014,Clepsydrops,305.9,303.7
 409,789819,Illinois,Vermilion,Illinois,US,,3013,Clepsydrops,305.9,303.7
 410,789820,Illinois,Vermilion,Illinois,US,,3012,Clepsydrops,305.9,303.7
@@ -672,8 +672,8 @@ index,occurrence_no_x,locality,county_original,state,cc,notes,id,genus,age_max,a
 677,807747,Free State,Kopanong,Free State,ZA,,2748,Thrinaxodon,251.902,247.2
 678,807747,Free State,Kopanong,Free State,ZA,,2749,Thrinaxodon,251.902,247.2
 679,811550,England,Somerset,England,UK,,2743,Hypsiprymnopsis,208.5,201.4
-680,811669,Nova Scotia,Hants County,Nova Scotia,CA,,2742,Arctotraversodon,237,227
-681,811680,Nova Scotia,Kings County,Nova Scotia,CA,,2741,Arctotraversodon,237,227
+680,811669,Nova Scotia,Hants County,Nova Scotia,CA,,2742,Arctotraversodon,237.0,227.0
+681,811680,Nova Scotia,Kings County,Nova Scotia,CA,,2741,Arctotraversodon,237.0,227.0
 682,814160,Northern Cape,Karoo Hoogland,Northern Cape,ZA,,2736,Microvaranops,264.28,259.51
 683,814160,Northern Cape,Karoo Hoogland,Northern Cape,ZA,,2737,Microvaranops,264.28,259.51
 684,814160,Northern Cape,Karoo Hoogland,Northern Cape,ZA,,2738,Microvaranops,264.28,259.51
@@ -689,8 +689,8 @@ index,occurrence_no_x,locality,county_original,state,cc,notes,id,genus,age_max,a
 694,817103,New Mexico,Rio Arriba,New Mexico,US,,2728,Oedaleops,303.7,286.1
 695,821617,Texas,Knox,Texas,US,,2727,Driveria,283.5,266.9
 696,821619,Texas,Knox,Texas,US,,2726,Tappenosaurus,283.5,266.9
-697,829992,Wyoming,Fremont,Wyoming,US,,2725,Eubrachiosaurus,237,227
-698,832695,Arizona,Apache,Arizona,US,,2724,Placerias,227,208.5
+697,829992,Wyoming,Fremont,Wyoming,US,,2725,Eubrachiosaurus,237.0,227.0
+698,832695,Arizona,Apache,Arizona,US,,2724,Placerias,227.0,208.5
 699,832700,Scotland,Moray,Scotland,UK,,2723,Gordonia,254.14,251.902
 700,832701,Scotland,Moray,Scotland,UK,,2722,Gordonia,254.14,251.902
 701,832702,Scotland,Moray,Scotland,UK,,2721,Gordonia,254.14,251.902
@@ -698,18 +698,18 @@ index,occurrence_no_x,locality,county_original,state,cc,notes,id,genus,age_max,a
 703,832704,Scotland,Moray,Scotland,UK,,2719,Gordonia,254.14,251.902
 704,832706,Scotland,Moray,Scotland,UK,,2718,Gordonia,254.14,251.902
 705,832707,Scotland,Moray,Scotland,UK,,2717,Geikia,254.14,251.902
-706,837170,Arizona,Navajo,Arizona,US,,2716,Placerias,227,208.5
-707,838921,Arizona,Apache,Arizona,US,,2715,Placerias,227,208.5
-708,838926,Arizona,Apache,Arizona,US,,2714,Placerias,227,208.5
-709,838957,Arizona,Apache,Arizona,US,,2713,Placerias,227,208.5
-710,839584,Orenburg,Sol'-Iletsk,Orenburg,RU,,2712,Antecosuchus,247.2,242
-711,839585,Orenburg,Sol'-Iletsk,Orenburg,RU,,2711,Rhadiodromus,247.2,242
-712,839586,Orenburg,Sol'-Iletsk,Orenburg,RU,,2710,Rhinodicynodon,247.2,242
-713,842376,Arizona,Coconino,Arizona,US,,2709,Placerias,227,208.5
-714,842777,Arizona,Coconino,Arizona,US,,2708,Placerias,227,208.5
-715,842787,Arizona,Coconino,Arizona,US,,2707,Placerias,227,208.5
-716,843112,North Carolina,Montgomery,North Carolina,US,,2706,Placerias,237,227
-717,843441,Rio Grande do Sul,,Rio Grande do Sul,BR,,2705,Protheriodon,242,237
+706,837170,Arizona,Navajo,Arizona,US,,2716,Placerias,227.0,208.5
+707,838921,Arizona,Apache,Arizona,US,,2715,Placerias,227.0,208.5
+708,838926,Arizona,Apache,Arizona,US,,2714,Placerias,227.0,208.5
+709,838957,Arizona,Apache,Arizona,US,,2713,Placerias,227.0,208.5
+710,839584,Orenburg,Sol'-Iletsk,Orenburg,RU,,2712,Antecosuchus,247.2,242.0
+711,839585,Orenburg,Sol'-Iletsk,Orenburg,RU,,2711,Rhadiodromus,247.2,242.0
+712,839586,Orenburg,Sol'-Iletsk,Orenburg,RU,,2710,Rhinodicynodon,247.2,242.0
+713,842376,Arizona,Coconino,Arizona,US,,2709,Placerias,227.0,208.5
+714,842777,Arizona,Coconino,Arizona,US,,2708,Placerias,227.0,208.5
+715,842787,Arizona,Coconino,Arizona,US,,2707,Placerias,227.0,208.5
+716,843112,North Carolina,Montgomery,North Carolina,US,,2706,Placerias,237.0,227.0
+717,843441,Rio Grande do Sul,,Rio Grande do Sul,BR,,2705,Protheriodon,242.0,237.0
 718,846857,Lorraine,Meurthe-et-Moselle,Lorraine,FR,,2704,Thomasia,208.5,201.4
 719,846858,Lorraine,Meurthe-et-Moselle,Lorraine,FR,,2703,Thomasia,208.5,201.4
 720,846859,Lorraine,Meurthe-et-Moselle,Lorraine,FR,,2702,Sinoconodon,208.5,201.4
@@ -730,27 +730,27 @@ index,occurrence_no_x,locality,county_original,state,cc,notes,id,genus,age_max,a
 735,853384,Western Cape,Prince Albert,Western Cape,ZA,,2687,Eodicynodon,266.9,264.28
 736,853657,Ohio,Monroe,Ohio,US,,2686,Ophiacodon,293.52,290.1
 737,853659,Oklahoma,Comanche,Oklahoma,US,,2685,Mesenosaurus,290.1,283.5
-738,868180,Toliara,,Toliara,MG,,2684,Menadon,242,227
-739,868181,Toliara,,Toliara,MG,,2683,Menadon,242,227
-740,868182,Toliara,,Toliara,MG,,2681,Menadon,242,227
-741,868182,Toliara,,Toliara,MG,,2682,Menadon,242,227
-742,868183,Toliara,,Toliara,MG,,2679,Dadadon,242,227
-743,868183,Toliara,,Toliara,MG,,2680,Dadadon,242,227
-744,868563,Eastern Cape,Ukhahlamba,Eastern Cape,ZA,,2678,Kannemeyeria,247.2,242
-745,877606,Orenburg,Sol'-Iletsk,Orenburg,RU,,2677,Nothogomphodon,247.2,242
-746,877607,Orenburg,Sol'-Iletsk,Orenburg,RU,,2676,Antecosuchus,247.2,242
-747,877611,Orenburg,Sol'-Iletskiy,Orenburg,RU,,2675,Antecosuchus,247.2,242
-748,877612,Orenburg,Sol'-Iletskiy,Orenburg,RU,,2674,Uralokannemeyeria,247.2,242
-749,877613,Orenburg,Sol'-Iletskiy,Orenburg,RU,,2673,Uralokannemeyeria,247.2,242
-750,877641,Bashkortostan,,Bashkortostan,RU,,2672,Rhadiodromus,247.2,242
-751,877642,Bashkortostan,,Bashkortostan,RU,,2671,Rabidosaurus,247.2,242
-752,879455,Orenburg,Sol'-Iletsk,Orenburg,RU,,2670,Rabidosaurus,247.2,242
-753,890994,Rio Grande do Sul,,Rio Grande do Sul,BR,,2669,Santacruzodon,237,227
+738,868180,Toliara,,Toliara,MG,,2684,Menadon,242.0,227.0
+739,868181,Toliara,,Toliara,MG,,2683,Menadon,242.0,227.0
+740,868182,Toliara,,Toliara,MG,,2681,Menadon,242.0,227.0
+741,868182,Toliara,,Toliara,MG,,2682,Menadon,242.0,227.0
+742,868183,Toliara,,Toliara,MG,,2679,Dadadon,242.0,227.0
+743,868183,Toliara,,Toliara,MG,,2680,Dadadon,242.0,227.0
+744,868563,Eastern Cape,Ukhahlamba,Eastern Cape,ZA,,2678,Kannemeyeria,247.2,242.0
+745,877606,Orenburg,Sol'-Iletsk,Orenburg,RU,,2677,Nothogomphodon,247.2,242.0
+746,877607,Orenburg,Sol'-Iletsk,Orenburg,RU,,2676,Antecosuchus,247.2,242.0
+747,877611,Orenburg,Sol'-Iletskiy,Orenburg,RU,,2675,Antecosuchus,247.2,242.0
+748,877612,Orenburg,Sol'-Iletskiy,Orenburg,RU,,2674,Uralokannemeyeria,247.2,242.0
+749,877613,Orenburg,Sol'-Iletskiy,Orenburg,RU,,2673,Uralokannemeyeria,247.2,242.0
+750,877641,Bashkortostan,,Bashkortostan,RU,,2672,Rhadiodromus,247.2,242.0
+751,877642,Bashkortostan,,Bashkortostan,RU,,2671,Rabidosaurus,247.2,242.0
+752,879455,Orenburg,Sol'-Iletsk,Orenburg,RU,,2670,Rabidosaurus,247.2,242.0
+753,890994,Rio Grande do Sul,,Rio Grande do Sul,BR,,2669,Santacruzodon,237.0,227.0
 754,890996,Eastern Cape,Graaff-Reinet,Eastern Cape,ZA,,2668,Progalesaurus,251.902,251.2
-755,891052,Mendoza,,Mendoza,AR,,2664,Pascualgnathus,237,227
-756,891052,Mendoza,,Mendoza,AR,,2665,Pascualgnathus,237,227
-757,891052,Mendoza,,Mendoza,AR,,2666,Pascualgnathus,237,227
-758,891052,Mendoza,,Mendoza,AR,,2667,Pascualgnathus,237,227
+755,891052,Mendoza,,Mendoza,AR,,2664,Pascualgnathus,237.0,227.0
+756,891052,Mendoza,,Mendoza,AR,,2665,Pascualgnathus,237.0,227.0
+757,891052,Mendoza,,Mendoza,AR,,2666,Pascualgnathus,237.0,227.0
+758,891052,Mendoza,,Mendoza,AR,,2667,Pascualgnathus,237.0,227.0
 759,891091,Free State,Paul Roux,Free State,ZA,,2663,Langbergia,251.2,247.2
 760,891092,Free State,Paul Roux,Free State,ZA,,2662,Langbergia,251.2,247.2
 761,891093,Free State,Kestell,Free State,ZA,,2661,Langbergia,251.2,247.2
@@ -762,132 +762,132 @@ index,occurrence_no_x,locality,county_original,state,cc,notes,id,genus,age_max,a
 767,891098,Free State,Rouxville,Free State,ZA,,2655,Langbergia,251.2,247.2
 768,891099,Free State,Rouxville,Free State,ZA,,2654,Langbergia,251.2,247.2
 769,891100,Eastern Cape,Tarkastad,Eastern Cape,ZA,,2653,Langbergia,251.2,247.2
-770,891101,San Juan,,San Juan,AR,,2652,Ecteninion,237,227
-771,891102,Rio Grande do Sul,Agudo,Rio Grande do Sul,BR,,2651,Trucidocynodon,237,208.5
+770,891101,San Juan,,San Juan,AR,,2652,Ecteninion,237.0,227.0
+771,891102,Rio Grande do Sul,Agudo,Rio Grande do Sul,BR,,2651,Trucidocynodon,237.0,208.5
 772,891104,West Bengal,,West Bengal,IN,,2650,Lystrosaurus,251.902,248.9
-773,891116,Andhra Pradesh,Adilabad,Andhra Pradesh,IN,,2649,Exaeretodon,237,208.5
-774,891132,Mendoza,,Mendoza,AR,,2648,Diademodon,237,227
-775,895278,Rio Grande do Sul,Santa Maria,Rio Grande do Sul,BR,,2647,Prozostrodon,237,208.5
-776,895280,Rio Grande do Sul,,Rio Grande do Sul,BR,,2646,Dinodontosaurus,242,237
-777,895281,Rio Grande do Sul,,Rio Grande do Sul,BR,,2645,Massetognathus,242,237
-778,895283,Rio Grande do Sul,,Rio Grande do Sul,BR,,2644,Chiniquodon,237,227
-779,895285,Rio Grande do Sul,,Rio Grande do Sul,BR,,2643,Menadon,237,227
-780,895286,Rio Grande do Sul,,Rio Grande do Sul,BR,,2642,Probainognathus,237,227
-781,895287,Rio Grande do Sul,,Rio Grande do Sul,BR,,2641,Massetognathus,237,227
-782,895290,Rio Grande do Sul,Novo Cabrais,Rio Grande do Sul,BR,,2640,Dinodontosaurus,242,237
-783,895293,Rio Grande do Sul,Novo Cabrais,Rio Grande do Sul,BR,,2639,Protuberum,242,237
-784,895296,Rio Grande do Sul,Paraiso do Sul,Rio Grande do Sul,BR,,2638,Protuberum,242,237
-785,895297,Rio Grande do Sul,Paraiso do Sul,Rio Grande do Sul,BR,,2637,Massetognathus,242,237
-786,895298,Rio Grande do Sul,Paraiso do Sul,Rio Grande do Sul,BR,,2636,Chiniquodon,242,237
-787,895299,Rio Grande do Sul,Paraiso do Sul,Rio Grande do Sul,BR,,2635,Dinodontosaurus,242,237
-788,895943,Rio Grande do Sul,,Rio Grande do Sul,BR,,2634,Stahleckeria,242,237
-789,895946,Rio Grande do Sul,,Rio Grande do Sul,BR,,2633,Stahleckeria,242,237
-790,896004,Rio Grande do Sul,,Rio Grande do Sul,BR,,2632,Dicynodon,242,237
-791,896010,Madhya Pradesh,Shadol,Madhya Pradesh,IN,,2631,Gondwanadon,237,227
-792,896143,Rio Grande do Sul,,Rio Grande do Sul,BR,,2630,Chiniquodon,242,237
-793,896149,Rio Grande do Sul,,Rio Grande do Sul,BR,,2629,Traversodon,242,237
-794,896158,Rio Grande do Sul,,Rio Grande do Sul,BR,,2628,Chiniquodon,242,237
-795,896160,Rio Grande do Sul,,Rio Grande do Sul,BR,,2627,Chiniquodon,242,237
-796,896161,Rio Grande do Sul,,Rio Grande do Sul,BR,,2626,Traversodon,242,237
-797,896162,Rio Grande do Sul,,Rio Grande do Sul,BR,,2625,Exaeretodon,242,237
-798,896166,Baden-Wurttemberg,Schwabisch Hall,Baden-Wurttemberg,DE,,2624,Nanogomphodon,239.7,237
-799,896173,North Carolina,Chatham,North Carolina,US,,2623,Microconodon,227,208.5
-800,896174,North Carolina,Chatham,North Carolina,US,,2622,Dromatherium,227,208.5
-803,896216,Zambia,,,ZM,,2619,Dolichuranus,247.2,242
-804,896217,Zambia,,,ZM,,2618,Diademodon,247.2,242
-805,896219,Zambia,,Eastern,ZM,,2617,Trirachodon,247.2,242
-806,896220,Zambia,,Eastern,ZM,,2614,Luangwa,247.2,242
-807,896220,Zambia,,Eastern,ZM,,2615,Luangwa,247.2,242
-808,896220,Zambia,,Eastern,ZM,,2616,Luangwa,247.2,242
-809,896221,Zambia,,Eastern,ZM,,2613,Sangusaurus,247.2,242
-810,896225,Zambia,,,ZM,,2612,Kannemeyeria,247.2,242
-811,896241,Zambia,,Eastern,ZM,,2611,Zambiasaurus,247.2,242
-831,897131,North Carolina,Chatham,North Carolina,US,,2591,Boreogomphodon,227,208.5
-832,897132,North Carolina,Chatham,North Carolina,US,,2590,Microconodon,227,208.5
-840,897913,Eastern Cape,,Eastern Cape,ZA,,2582,Bauria,247.2,242
-841,900033,Toliara,,Toliara,MG,,2581,Chiniquodon,242,227
-842,900034,Toliara,,Toliara,MG,,2580,Dadadon,242,227
-843,902066,Shaanxi,,Shaanxi,CN,,2579,Parakannemeyeria,247.2,242
-844,902402,Shaanxi,,Shaanxi,CN,,2577,Shansiodon,247.2,242
-845,902402,Shaanxi,,Shaanxi,CN,,2578,Shansiodon,247.2,242
-846,902403,Shaanxi,,Shaanxi,CN,,2576,Sinognathus,247.2,242
-847,902404,Shaanxi,,Shaanxi,CN,,2575,Sinokannemeyeria,247.2,242
-848,902405,Shaanxi,,Shaanxi,CN,,2574,Parakannemeyeria,247.2,242
-849,902406,Shaanxi,,Shaanxi,CN,,2573,Shansiodon,247.2,242
-850,902408,Shaanxi,,Shaanxi,CN,,2572,Parakannemeyeria,247.2,242
-851,902409,Shaanxi,Yushe,Shaanxi,CN,,2571,Sinokannemeyeria,247.2,242
-852,902410,Shaanxi,Yushe,Shaanxi,CN,,2570,Shansiodon,247.2,242
-853,902411,Shaanxi,,Shaanxi,CN,,2569,Parakannemeyeria,247.2,242
-854,902412,Shaanxi,,Shaanxi,CN,,2568,Parakannemeyeria,247.2,242
-855,902413,Shaanxi,,Shaanxi,CN,,2567,Parakannemeyeria,247.2,242
-856,902416,Shaanxi,,Shaanxi,CN,,2566,Parakannemeyeria,247.2,242
-857,902419,Shaanxi,,Shaanxi,CN,,2565,Shansiodon,247.2,242
-858,902420,Shaanxi,,Shaanxi,CN,,2564,Sinokannemeyeria,247.2,242
-859,906216,Mendoza,,Mendoza,AR,,2563,Andescynodon,247.2,242
-860,906217,Mendoza,,Mendoza,AR,,2562,Andescynodon,247.2,242
-861,906797,Eastern Cape,,Eastern Cape,ZA,,2561,Bauria,247.2,242
-862,906799,Eastern Cape,,Eastern Cape,ZA,,2560,Bauria,247.2,242
-863,906802,Eastern Cape,,Eastern Cape,ZA,,2559,Bauria,247.2,242
-864,906808,Eastern Cape,,Eastern Cape,ZA,,2558,Bauria,247.2,242
-865,906809,Eastern Cape,,Eastern Cape,ZA,,2557,Diademodon,247.2,242
-866,906810,Eastern Cape,,Eastern Cape,ZA,,2556,Bauria,247.2,242
-867,907014,La Rioja,,La Rioja,AR,,2555,Chaliminia,227,208.5
-868,907133,Rio Grande do Sul,Faxinal do Soturno County,Rio Grande do Sul,BR,,2552,Brasilodon,227,208.5
-869,907133,Rio Grande do Sul,Faxinal do Soturno County,Rio Grande do Sul,BR,,2553,Brasilodon,227,208.5
-870,907133,Rio Grande do Sul,Faxinal do Soturno County,Rio Grande do Sul,BR,,2554,Brasilodon,227,208.5
-871,907152,Rio Grande do Sul,Faxinal do Soturno County,Rio Grande do Sul,BR,,2546,Brasilitherium,227,208.5
-872,907152,Rio Grande do Sul,Faxinal do Soturno County,Rio Grande do Sul,BR,,2547,Brasilitherium,227,208.5
-873,907152,Rio Grande do Sul,Faxinal do Soturno County,Rio Grande do Sul,BR,,2548,Brasilitherium,227,208.5
-874,907152,Rio Grande do Sul,Faxinal do Soturno County,Rio Grande do Sul,BR,,2549,Brasilitherium,227,208.5
-875,907152,Rio Grande do Sul,Faxinal do Soturno County,Rio Grande do Sul,BR,,2550,Brasilitherium,227,208.5
-876,907152,Rio Grande do Sul,Faxinal do Soturno County,Rio Grande do Sul,BR,,2551,Brasilitherium,227,208.5
-877,907153,Rio Grande do Sul,Faxinal do Soturno County,Rio Grande do Sul,BR,,2539,Riograndia,227,208.5
-878,907153,Rio Grande do Sul,Faxinal do Soturno County,Rio Grande do Sul,BR,,2540,Riograndia,227,208.5
-879,907153,Rio Grande do Sul,Faxinal do Soturno County,Rio Grande do Sul,BR,,2541,Riograndia,227,208.5
-880,907153,Rio Grande do Sul,Faxinal do Soturno County,Rio Grande do Sul,BR,,2542,Riograndia,227,208.5
-881,907153,Rio Grande do Sul,Faxinal do Soturno County,Rio Grande do Sul,BR,,2543,Riograndia,227,208.5
-882,907153,Rio Grande do Sul,Faxinal do Soturno County,Rio Grande do Sul,BR,,2544,Riograndia,227,208.5
-883,907153,Rio Grande do Sul,Faxinal do Soturno County,Rio Grande do Sul,BR,,2545,Riograndia,227,208.5
-884,920916,Andhra Pradesh,,Andhra Pradesh,IN,,2538,Rechnisaurus,247.2,242
-885,920917,Andhra Pradesh,,Andhra Pradesh,IN,,2537,Wadiasaurus,247.2,242
-886,920919,Mendoza,,Mendoza,AR,,2536,Acratophorus,237,227
-887,920920,Mendoza,,Mendoza,AR,,2535,Cynognathus,237,227
-888,920921,Mendoza,,Mendoza,AR,,2532,Vinceria,247.2,242
-889,920921,Mendoza,,Mendoza,AR,,2533,Vinceria,247.2,242
-890,920921,Mendoza,,Mendoza,AR,,2534,Vinceria,247.2,242
-891,920923,Mendoza,,Mendoza,AR,,2531,Cromptodon,247.2,242
-892,920925,Mendoza,,Mendoza,AR,,2530,Acratophorus,242,227
-893,921143,Madhya Pradesh,Shahdol,Madhya Pradesh,IN,,2529,Tikitherium,237,227
-894,921144,Eastern Cape,Sterkstroom,Eastern Cape,ZA,,2525,Cricodon,247.2,242
-895,921144,Eastern Cape,Sterkstroom,Eastern Cape,ZA,,2526,Cricodon,247.2,242
-896,921144,Eastern Cape,Sterkstroom,Eastern Cape,ZA,,2527,Cricodon,247.2,242
-897,921144,Eastern Cape,Sterkstroom,Eastern Cape,ZA,,2528,Cricodon,247.2,242
-898,921145,Eastern Cape,Sterkstroom,Eastern Cape,ZA,,2524,Diademodon,247.2,242
-899,921146,Eastern Cape,Sterkstroom,Eastern Cape,ZA,,2523,Cynognathus,247.2,242
-900,921148,Eastern Cape,Sterkstroom,Eastern Cape,ZA,,2522,Diademodon,247.2,242
-901,921149,Eastern Cape,Sterkstroom,Eastern Cape,ZA,,2521,Cricodon,247.2,242
-902,921150,Eastern Cape,,Eastern Cape,ZA,,2520,Cynognathus,247.2,242
-903,921151,Eastern Cape,,Eastern Cape,ZA,,2519,Cynognathus,247.2,242
-904,921152,Eastern Cape,,Eastern Cape,ZA,,2518,Cynognathus,247.2,242
-905,921153,Eastern Cape,,Eastern Cape,ZA,,2517,Cynognathus,247.2,242
-906,921154,Eastern Cape,,Eastern Cape,ZA,,2516,Bolotridon,247.2,242
-909,921160,Iringa,,Iringa,TZ,,2513,Cricodon,247.2,242
-910,921161,Ruvuma,,Ruvuma,TZ,,2512,Scalenodon,247.2,242
-911,921166,Ruvuma,,Ruvuma,TZ,,2511,Aleodon,247.2,242
-912,921168,Ruvuma,,Ruvuma,TZ,,2510,Scalenodon,247.2,242
-913,921172,Eastern Cape,,Eastern Cape,ZA,,2509,Diademodon,247.2,242
-914,921173,San Juan,,San Juan,AR,,2508,Chiniquodon,237,227
-915,922058,Rio Grande do Sul,,Rio Grande do Sul,BR,,2507,Dinodontosaurus,242,237
-916,922059,Rio Grande do Sul,,Rio Grande do Sul,BR,,2506,Dinodontosaurus,242,237
-917,922060,Rio Grande do Sul,,Rio Grande do Sul,BR,,2505,Dinodontosaurus,242,237
-918,922061,Rio Grande do Sul,,Rio Grande do Sul,BR,,2504,Dinodontosaurus,242,237
-919,922130,Rio Grande do Sul,,Rio Grande do Sul,BR,,2503,Chiniquodon,242,237
-920,922131,Rio Grande do Sul,,Rio Grande do Sul,BR,,2501,Chiniquodon,242,237
-921,922131,Rio Grande do Sul,,Rio Grande do Sul,BR,,2502,Chiniquodon,242,237
-922,922132,Rio Grande do Sul,,Rio Grande do Sul,BR,,2500,Irajatherium,227,208.5
-923,922133,La Rioja,,La Rioja,AR,,2499,Dinodontosaurus,242,237
-924,922154,La Rioja,,La Rioja,AR,,2498,Dinodontosaurus,242,237
-925,922155,La Rioja,,La Rioja,AR,,2497,Jachaleria,242,237
+773,891116,Andhra Pradesh,Adilabad,Andhra Pradesh,IN,,2649,Exaeretodon,237.0,208.5
+774,891132,Mendoza,,Mendoza,AR,,2648,Diademodon,237.0,227.0
+775,895278,Rio Grande do Sul,Santa Maria,Rio Grande do Sul,BR,,2647,Prozostrodon,237.0,208.5
+776,895280,Rio Grande do Sul,,Rio Grande do Sul,BR,,2646,Dinodontosaurus,242.0,237.0
+777,895281,Rio Grande do Sul,,Rio Grande do Sul,BR,,2645,Massetognathus,242.0,237.0
+778,895283,Rio Grande do Sul,,Rio Grande do Sul,BR,,2644,Chiniquodon,237.0,227.0
+779,895285,Rio Grande do Sul,,Rio Grande do Sul,BR,,2643,Menadon,237.0,227.0
+780,895286,Rio Grande do Sul,,Rio Grande do Sul,BR,,2642,Probainognathus,237.0,227.0
+781,895287,Rio Grande do Sul,,Rio Grande do Sul,BR,,2641,Massetognathus,237.0,227.0
+782,895290,Rio Grande do Sul,Novo Cabrais,Rio Grande do Sul,BR,,2640,Dinodontosaurus,242.0,237.0
+783,895293,Rio Grande do Sul,Novo Cabrais,Rio Grande do Sul,BR,,2639,Protuberum,242.0,237.0
+784,895296,Rio Grande do Sul,Paraiso do Sul,Rio Grande do Sul,BR,,2638,Protuberum,242.0,237.0
+785,895297,Rio Grande do Sul,Paraiso do Sul,Rio Grande do Sul,BR,,2637,Massetognathus,242.0,237.0
+786,895298,Rio Grande do Sul,Paraiso do Sul,Rio Grande do Sul,BR,,2636,Chiniquodon,242.0,237.0
+787,895299,Rio Grande do Sul,Paraiso do Sul,Rio Grande do Sul,BR,,2635,Dinodontosaurus,242.0,237.0
+788,895943,Rio Grande do Sul,,Rio Grande do Sul,BR,,2634,Stahleckeria,242.0,237.0
+789,895946,Rio Grande do Sul,,Rio Grande do Sul,BR,,2633,Stahleckeria,242.0,237.0
+790,896004,Rio Grande do Sul,,Rio Grande do Sul,BR,,2632,Dicynodon,242.0,237.0
+791,896010,Madhya Pradesh,Shadol,Madhya Pradesh,IN,,2631,Gondwanadon,237.0,227.0
+792,896143,Rio Grande do Sul,,Rio Grande do Sul,BR,,2630,Chiniquodon,242.0,237.0
+793,896149,Rio Grande do Sul,,Rio Grande do Sul,BR,,2629,Traversodon,242.0,237.0
+794,896158,Rio Grande do Sul,,Rio Grande do Sul,BR,,2628,Chiniquodon,242.0,237.0
+795,896160,Rio Grande do Sul,,Rio Grande do Sul,BR,,2627,Chiniquodon,242.0,237.0
+796,896161,Rio Grande do Sul,,Rio Grande do Sul,BR,,2626,Traversodon,242.0,237.0
+797,896162,Rio Grande do Sul,,Rio Grande do Sul,BR,,2625,Exaeretodon,242.0,237.0
+798,896166,Baden-Wurttemberg,Schwabisch Hall,Baden-Wurttemberg,DE,,2624,Nanogomphodon,239.7,237.0
+799,896173,North Carolina,Chatham,North Carolina,US,,2623,Microconodon,227.0,208.5
+800,896174,North Carolina,Chatham,North Carolina,US,,2622,Dromatherium,227.0,208.5
+803,896216,Zambia,,,ZM,,2619,Dolichuranus,247.2,242.0
+804,896217,Zambia,,,ZM,,2618,Diademodon,247.2,242.0
+805,896219,Zambia,,Eastern,ZM,,2617,Trirachodon,247.2,242.0
+806,896220,Zambia,,Eastern,ZM,,2614,Luangwa,247.2,242.0
+807,896220,Zambia,,Eastern,ZM,,2615,Luangwa,247.2,242.0
+808,896220,Zambia,,Eastern,ZM,,2616,Luangwa,247.2,242.0
+809,896221,Zambia,,Eastern,ZM,,2613,Sangusaurus,247.2,242.0
+810,896225,Zambia,,,ZM,,2612,Kannemeyeria,247.2,242.0
+811,896241,Zambia,,Eastern,ZM,,2611,Zambiasaurus,247.2,242.0
+831,897131,North Carolina,Chatham,North Carolina,US,,2591,Boreogomphodon,227.0,208.5
+832,897132,North Carolina,Chatham,North Carolina,US,,2590,Microconodon,227.0,208.5
+840,897913,Eastern Cape,,Eastern Cape,ZA,,2582,Bauria,247.2,242.0
+841,900033,Toliara,,Toliara,MG,,2581,Chiniquodon,242.0,227.0
+842,900034,Toliara,,Toliara,MG,,2580,Dadadon,242.0,227.0
+843,902066,Shaanxi,,Shaanxi,CN,,2579,Parakannemeyeria,247.2,242.0
+844,902402,Shaanxi,,Shaanxi,CN,,2577,Shansiodon,247.2,242.0
+845,902402,Shaanxi,,Shaanxi,CN,,2578,Shansiodon,247.2,242.0
+846,902403,Shaanxi,,Shaanxi,CN,,2576,Sinognathus,247.2,242.0
+847,902404,Shaanxi,,Shaanxi,CN,,2575,Sinokannemeyeria,247.2,242.0
+848,902405,Shaanxi,,Shaanxi,CN,,2574,Parakannemeyeria,247.2,242.0
+849,902406,Shaanxi,,Shaanxi,CN,,2573,Shansiodon,247.2,242.0
+850,902408,Shaanxi,,Shaanxi,CN,,2572,Parakannemeyeria,247.2,242.0
+851,902409,Shaanxi,Yushe,Shaanxi,CN,,2571,Sinokannemeyeria,247.2,242.0
+852,902410,Shaanxi,Yushe,Shaanxi,CN,,2570,Shansiodon,247.2,242.0
+853,902411,Shaanxi,,Shaanxi,CN,,2569,Parakannemeyeria,247.2,242.0
+854,902412,Shaanxi,,Shaanxi,CN,,2568,Parakannemeyeria,247.2,242.0
+855,902413,Shaanxi,,Shaanxi,CN,,2567,Parakannemeyeria,247.2,242.0
+856,902416,Shaanxi,,Shaanxi,CN,,2566,Parakannemeyeria,247.2,242.0
+857,902419,Shaanxi,,Shaanxi,CN,,2565,Shansiodon,247.2,242.0
+858,902420,Shaanxi,,Shaanxi,CN,,2564,Sinokannemeyeria,247.2,242.0
+859,906216,Mendoza,,Mendoza,AR,,2563,Andescynodon,247.2,242.0
+860,906217,Mendoza,,Mendoza,AR,,2562,Andescynodon,247.2,242.0
+861,906797,Eastern Cape,,Eastern Cape,ZA,,2561,Bauria,247.2,242.0
+862,906799,Eastern Cape,,Eastern Cape,ZA,,2560,Bauria,247.2,242.0
+863,906802,Eastern Cape,,Eastern Cape,ZA,,2559,Bauria,247.2,242.0
+864,906808,Eastern Cape,,Eastern Cape,ZA,,2558,Bauria,247.2,242.0
+865,906809,Eastern Cape,,Eastern Cape,ZA,,2557,Diademodon,247.2,242.0
+866,906810,Eastern Cape,,Eastern Cape,ZA,,2556,Bauria,247.2,242.0
+867,907014,La Rioja,,La Rioja,AR,,2555,Chaliminia,227.0,208.5
+868,907133,Rio Grande do Sul,Faxinal do Soturno County,Rio Grande do Sul,BR,,2552,Brasilodon,227.0,208.5
+869,907133,Rio Grande do Sul,Faxinal do Soturno County,Rio Grande do Sul,BR,,2553,Brasilodon,227.0,208.5
+870,907133,Rio Grande do Sul,Faxinal do Soturno County,Rio Grande do Sul,BR,,2554,Brasilodon,227.0,208.5
+871,907152,Rio Grande do Sul,Faxinal do Soturno County,Rio Grande do Sul,BR,,2546,Brasilitherium,227.0,208.5
+872,907152,Rio Grande do Sul,Faxinal do Soturno County,Rio Grande do Sul,BR,,2547,Brasilitherium,227.0,208.5
+873,907152,Rio Grande do Sul,Faxinal do Soturno County,Rio Grande do Sul,BR,,2548,Brasilitherium,227.0,208.5
+874,907152,Rio Grande do Sul,Faxinal do Soturno County,Rio Grande do Sul,BR,,2549,Brasilitherium,227.0,208.5
+875,907152,Rio Grande do Sul,Faxinal do Soturno County,Rio Grande do Sul,BR,,2550,Brasilitherium,227.0,208.5
+876,907152,Rio Grande do Sul,Faxinal do Soturno County,Rio Grande do Sul,BR,,2551,Brasilitherium,227.0,208.5
+877,907153,Rio Grande do Sul,Faxinal do Soturno County,Rio Grande do Sul,BR,,2539,Riograndia,227.0,208.5
+878,907153,Rio Grande do Sul,Faxinal do Soturno County,Rio Grande do Sul,BR,,2540,Riograndia,227.0,208.5
+879,907153,Rio Grande do Sul,Faxinal do Soturno County,Rio Grande do Sul,BR,,2541,Riograndia,227.0,208.5
+880,907153,Rio Grande do Sul,Faxinal do Soturno County,Rio Grande do Sul,BR,,2542,Riograndia,227.0,208.5
+881,907153,Rio Grande do Sul,Faxinal do Soturno County,Rio Grande do Sul,BR,,2543,Riograndia,227.0,208.5
+882,907153,Rio Grande do Sul,Faxinal do Soturno County,Rio Grande do Sul,BR,,2544,Riograndia,227.0,208.5
+883,907153,Rio Grande do Sul,Faxinal do Soturno County,Rio Grande do Sul,BR,,2545,Riograndia,227.0,208.5
+884,920916,Andhra Pradesh,,Andhra Pradesh,IN,,2538,Rechnisaurus,247.2,242.0
+885,920917,Andhra Pradesh,,Andhra Pradesh,IN,,2537,Wadiasaurus,247.2,242.0
+886,920919,Mendoza,,Mendoza,AR,,2536,Acratophorus,237.0,227.0
+887,920920,Mendoza,,Mendoza,AR,,2535,Cynognathus,237.0,227.0
+888,920921,Mendoza,,Mendoza,AR,,2532,Vinceria,247.2,242.0
+889,920921,Mendoza,,Mendoza,AR,,2533,Vinceria,247.2,242.0
+890,920921,Mendoza,,Mendoza,AR,,2534,Vinceria,247.2,242.0
+891,920923,Mendoza,,Mendoza,AR,,2531,Cromptodon,247.2,242.0
+892,920925,Mendoza,,Mendoza,AR,,2530,Acratophorus,242.0,227.0
+893,921143,Madhya Pradesh,Shahdol,Madhya Pradesh,IN,,2529,Tikitherium,237.0,227.0
+894,921144,Eastern Cape,Sterkstroom,Eastern Cape,ZA,,2525,Cricodon,247.2,242.0
+895,921144,Eastern Cape,Sterkstroom,Eastern Cape,ZA,,2526,Cricodon,247.2,242.0
+896,921144,Eastern Cape,Sterkstroom,Eastern Cape,ZA,,2527,Cricodon,247.2,242.0
+897,921144,Eastern Cape,Sterkstroom,Eastern Cape,ZA,,2528,Cricodon,247.2,242.0
+898,921145,Eastern Cape,Sterkstroom,Eastern Cape,ZA,,2524,Diademodon,247.2,242.0
+899,921146,Eastern Cape,Sterkstroom,Eastern Cape,ZA,,2523,Cynognathus,247.2,242.0
+900,921148,Eastern Cape,Sterkstroom,Eastern Cape,ZA,,2522,Diademodon,247.2,242.0
+901,921149,Eastern Cape,Sterkstroom,Eastern Cape,ZA,,2521,Cricodon,247.2,242.0
+902,921150,Eastern Cape,,Eastern Cape,ZA,,2520,Cynognathus,247.2,242.0
+903,921151,Eastern Cape,,Eastern Cape,ZA,,2519,Cynognathus,247.2,242.0
+904,921152,Eastern Cape,,Eastern Cape,ZA,,2518,Cynognathus,247.2,242.0
+905,921153,Eastern Cape,,Eastern Cape,ZA,,2517,Cynognathus,247.2,242.0
+906,921154,Eastern Cape,,Eastern Cape,ZA,,2516,Bolotridon,247.2,242.0
+909,921160,Iringa,,Iringa,TZ,,2513,Cricodon,247.2,242.0
+910,921161,Ruvuma,,Ruvuma,TZ,,2512,Scalenodon,247.2,242.0
+911,921166,Ruvuma,,Ruvuma,TZ,,2511,Aleodon,247.2,242.0
+912,921168,Ruvuma,,Ruvuma,TZ,,2510,Scalenodon,247.2,242.0
+913,921172,Eastern Cape,,Eastern Cape,ZA,,2509,Diademodon,247.2,242.0
+914,921173,San Juan,,San Juan,AR,,2508,Chiniquodon,237.0,227.0
+915,922058,Rio Grande do Sul,,Rio Grande do Sul,BR,,2507,Dinodontosaurus,242.0,237.0
+916,922059,Rio Grande do Sul,,Rio Grande do Sul,BR,,2506,Dinodontosaurus,242.0,237.0
+917,922060,Rio Grande do Sul,,Rio Grande do Sul,BR,,2505,Dinodontosaurus,242.0,237.0
+918,922061,Rio Grande do Sul,,Rio Grande do Sul,BR,,2504,Dinodontosaurus,242.0,237.0
+919,922130,Rio Grande do Sul,,Rio Grande do Sul,BR,,2503,Chiniquodon,242.0,237.0
+920,922131,Rio Grande do Sul,,Rio Grande do Sul,BR,,2501,Chiniquodon,242.0,237.0
+921,922131,Rio Grande do Sul,,Rio Grande do Sul,BR,,2502,Chiniquodon,242.0,237.0
+922,922132,Rio Grande do Sul,,Rio Grande do Sul,BR,,2500,Irajatherium,227.0,208.5
+923,922133,La Rioja,,La Rioja,AR,,2499,Dinodontosaurus,242.0,237.0
+924,922154,La Rioja,,La Rioja,AR,,2498,Dinodontosaurus,242.0,237.0
+925,922155,La Rioja,,La Rioja,AR,,2497,Jachaleria,242.0,237.0
 928,922661,Free State,Maluti-A-Phofung,Free State,ZA,,2485,Myosaurus,251.902,247.2
 929,922661,Free State,Maluti-A-Phofung,Free State,ZA,,2486,Myosaurus,251.902,247.2
 930,922661,Free State,Maluti-A-Phofung,Free State,ZA,,2487,Myosaurus,251.902,247.2
@@ -914,7 +914,7 @@ index,occurrence_no_x,locality,county_original,state,cc,notes,id,genus,age_max,a
 951,922682,Kwazulu-Natal,Uthukela,Kwazulu-Natal,ZA,,2471,Lystrosaurus,251.902,247.2
 952,922683,Kwazulu-Natal,Uthukela,Kwazulu-Natal,ZA,,2470,Lystrosaurus,251.902,247.2
 953,922684,Kwazulu-Natal,Uthukela,Kwazulu-Natal,ZA,,2469,Lystrosaurus,251.902,247.2
-954,922686,Rio Grande do Sul,Bom Retiro do Sul,Rio Grande do Sul,BR,,2468,Dinodontosaurus,242,237
+954,922686,Rio Grande do Sul,Bom Retiro do Sul,Rio Grande do Sul,BR,,2468,Dinodontosaurus,242.0,237.0
 955,922698,Eastern Cape,Drakensburg,Eastern Cape,ZA,,2467,Lystrosaurus,251.902,247.2
 956,922699,Eastern Cape,Drakensburg,Eastern Cape,ZA,,2466,Lystrosaurus,251.902,247.2
 957,922700,Eastern Cape,Drakensburg,Eastern Cape,ZA,,2465,Lystrosaurus,251.902,247.2
@@ -945,53 +945,53 @@ index,occurrence_no_x,locality,county_original,state,cc,notes,id,genus,age_max,a
 982,922727,Eastern Cape,,Eastern Cape,ZA,,2440,Scaloposaurus,251.902,247.2
 983,922728,Eastern Cape,,Eastern Cape,ZA,,2439,Galesaurus,251.902,247.2
 984,922729,Eastern Cape,,Eastern Cape,ZA,,2438,Thrinaxodon,251.902,247.2
-985,923079,Rio Grande do Sul,,Rio Grande do Sul,BR,,2433,Riograndia,227,208.5
-986,923079,Rio Grande do Sul,,Rio Grande do Sul,BR,,2434,Riograndia,227,208.5
-987,923079,Rio Grande do Sul,,Rio Grande do Sul,BR,,2435,Riograndia,227,208.5
-988,923079,Rio Grande do Sul,,Rio Grande do Sul,BR,,2436,Riograndia,227,208.5
-989,923079,Rio Grande do Sul,,Rio Grande do Sul,BR,,2437,Riograndia,227,208.5
-990,923084,La Rioja,General Lavalle,La Rioja,AR,,2432,Chaliminia,227,208.5
-991,923099,San Juan,,San Juan,AR,,2431,Jachaleria,227,208.5
-992,923100,Ruvuma,,Ruvuma,TZ,,2430,Angonisaurus,247.2,242
+985,923079,Rio Grande do Sul,,Rio Grande do Sul,BR,,2433,Riograndia,227.0,208.5
+986,923079,Rio Grande do Sul,,Rio Grande do Sul,BR,,2434,Riograndia,227.0,208.5
+987,923079,Rio Grande do Sul,,Rio Grande do Sul,BR,,2435,Riograndia,227.0,208.5
+988,923079,Rio Grande do Sul,,Rio Grande do Sul,BR,,2436,Riograndia,227.0,208.5
+989,923079,Rio Grande do Sul,,Rio Grande do Sul,BR,,2437,Riograndia,227.0,208.5
+990,923084,La Rioja,General Lavalle,La Rioja,AR,,2432,Chaliminia,227.0,208.5
+991,923099,San Juan,,San Juan,AR,,2431,Jachaleria,227.0,208.5
+992,923100,Ruvuma,,Ruvuma,TZ,,2430,Angonisaurus,247.2,242.0
 993,923120,East Greenland,,East Greenland,GL,,2428,Haramiyavia,208.5,201.4
 994,923120,East Greenland,,East Greenland,GL,,2429,Haramiyavia,208.5,201.4
 995,923198,Northern Cape,Noupoort,Northern Cape,ZA,,2427,Tetracynodon,251.902,251.2
 996,923199,Northern Cape,Noupoort,Northern Cape,ZA,,2426,Lystrosaurus,251.902,251.2
 997,923200,Northern Cape,Noupoort,Northern Cape,ZA,,2425,Lystrosaurus,251.902,251.2
-998,923777,Eastern Cape,,Eastern Cape,ZA,,2424,Kannemeyeria,247.2,242
-999,923778,Eastern Cape,,Eastern Cape,ZA,,2423,Bauria,247.2,242
-1000,923779,Eastern Cape,,Eastern Cape,ZA,,2422,Trirachodon,247.2,242
-1001,923780,Eastern Cape,,Eastern Cape,ZA,,2420,Kombuisia,247.2,242
-1002,923780,Eastern Cape,,Eastern Cape,ZA,,2421,Kombuisia,247.2,242
-1003,923781,Eastern Cape,,Eastern Cape,ZA,,2419,Kannemeyeria,247.2,242
-1004,923782,Eastern Cape,,Eastern Cape,ZA,,2418,Microgomphodon,247.2,242
-1005,923783,Eastern Cape,,Eastern Cape,ZA,,2417,Cynognathus,247.2,242
-1006,923784,Eastern Cape,,Eastern Cape,ZA,,2416,Diademodon,247.2,242
-1007,923786,Eastern Cape,,Eastern Cape,ZA,,2415,Kannemeyeria,247.2,242
-1008,923787,Eastern Cape,,Eastern Cape,ZA,,2414,Cynognathus,247.2,242
-1009,923797,Lesotho,,Mohale's Hoek,LS,,2412,Scalenodontoides,227,201.4
-1010,923797,Lesotho,,Mohale's Hoek,LS,,2413,Scalenodontoides,227,201.4
-1011,923799,Eastern Cape,Sterkstroom,Eastern Cape,ZA,,2409,Scalenodontoides,227,201.4
-1012,923799,Eastern Cape,Sterkstroom,Eastern Cape,ZA,,2410,Scalenodontoides,227,201.4
-1013,923799,Eastern Cape,Sterkstroom,Eastern Cape,ZA,,2411,Scalenodontoides,227,201.4
-1014,924723,Rio Grande do Sul,,Rio Grande do Sul,BR,,2408,Chiniquodon,242,237
-1015,924731,Rio Grande do Sul,,Rio Grande do Sul,BR,,2404,Jachaleria,227,208.5
-1016,924731,Rio Grande do Sul,,Rio Grande do Sul,BR,,2405,Jachaleria,227,208.5
-1017,924731,Rio Grande do Sul,,Rio Grande do Sul,BR,,2406,Jachaleria,227,208.5
-1018,924731,Rio Grande do Sul,,Rio Grande do Sul,BR,,2407,Jachaleria,227,208.5
-1019,924733,Rio Grande do Sul,,Rio Grande do Sul,BR,,2403,Riograndia,227,208.5
-1020,930803,Rio Grande do Sul,,Rio Grande do Sul,BR,,2402,Luangwa,247.2,237
-1021,930808,Rio Grande do Sul,,Rio Grande do Sul,BR,,2401,Brasilitherium,227,208.5
-1022,930810,Rio Grande do Sul,Faxinal do Soturno County,Rio Grande do Sul,BR,,2400,Irajatherium,227,208.5
-1023,930811,Rio Grande do Sul,Faxinal do Soturno County,Rio Grande do Sul,BR,,2399,Minicynodon,227,208.5
+998,923777,Eastern Cape,,Eastern Cape,ZA,,2424,Kannemeyeria,247.2,242.0
+999,923778,Eastern Cape,,Eastern Cape,ZA,,2423,Bauria,247.2,242.0
+1000,923779,Eastern Cape,,Eastern Cape,ZA,,2422,Trirachodon,247.2,242.0
+1001,923780,Eastern Cape,,Eastern Cape,ZA,,2420,Kombuisia,247.2,242.0
+1002,923780,Eastern Cape,,Eastern Cape,ZA,,2421,Kombuisia,247.2,242.0
+1003,923781,Eastern Cape,,Eastern Cape,ZA,,2419,Kannemeyeria,247.2,242.0
+1004,923782,Eastern Cape,,Eastern Cape,ZA,,2418,Microgomphodon,247.2,242.0
+1005,923783,Eastern Cape,,Eastern Cape,ZA,,2417,Cynognathus,247.2,242.0
+1006,923784,Eastern Cape,,Eastern Cape,ZA,,2416,Diademodon,247.2,242.0
+1007,923786,Eastern Cape,,Eastern Cape,ZA,,2415,Kannemeyeria,247.2,242.0
+1008,923787,Eastern Cape,,Eastern Cape,ZA,,2414,Cynognathus,247.2,242.0
+1009,923797,Lesotho,,Mohale's Hoek,LS,,2412,Scalenodontoides,227.0,201.4
+1010,923797,Lesotho,,Mohale's Hoek,LS,,2413,Scalenodontoides,227.0,201.4
+1011,923799,Eastern Cape,Sterkstroom,Eastern Cape,ZA,,2409,Scalenodontoides,227.0,201.4
+1012,923799,Eastern Cape,Sterkstroom,Eastern Cape,ZA,,2410,Scalenodontoides,227.0,201.4
+1013,923799,Eastern Cape,Sterkstroom,Eastern Cape,ZA,,2411,Scalenodontoides,227.0,201.4
+1014,924723,Rio Grande do Sul,,Rio Grande do Sul,BR,,2408,Chiniquodon,242.0,237.0
+1015,924731,Rio Grande do Sul,,Rio Grande do Sul,BR,,2404,Jachaleria,227.0,208.5
+1016,924731,Rio Grande do Sul,,Rio Grande do Sul,BR,,2405,Jachaleria,227.0,208.5
+1017,924731,Rio Grande do Sul,,Rio Grande do Sul,BR,,2406,Jachaleria,227.0,208.5
+1018,924731,Rio Grande do Sul,,Rio Grande do Sul,BR,,2407,Jachaleria,227.0,208.5
+1019,924733,Rio Grande do Sul,,Rio Grande do Sul,BR,,2403,Riograndia,227.0,208.5
+1020,930803,Rio Grande do Sul,,Rio Grande do Sul,BR,,2402,Luangwa,247.2,237.0
+1021,930808,Rio Grande do Sul,,Rio Grande do Sul,BR,,2401,Brasilitherium,227.0,208.5
+1022,930810,Rio Grande do Sul,Faxinal do Soturno County,Rio Grande do Sul,BR,,2400,Irajatherium,227.0,208.5
+1023,930811,Rio Grande do Sul,Faxinal do Soturno County,Rio Grande do Sul,BR,,2399,Minicynodon,227.0,208.5
 1024,931101,Rio Grande do Sul,Sao Gabriel,Rio Grande do Sul,BR,,2398,Tiarajudens,273.01,259.51
 1025,931102,East Greenland,,East Greenland,GL,,2397,Mitredon,208.5,201.4
-1026,931126,Lesotho,,Leribe,LS,,2396,Scalenodontoides,227,201.4
-1027,934036,North Carolina,Chatham,North Carolina,US,,2395,Boreogomphodon,237,227
+1026,931126,Lesotho,,Leribe,LS,,2396,Scalenodontoides,227.0,201.4
+1027,934036,North Carolina,Chatham,North Carolina,US,,2395,Boreogomphodon,237.0,227.0
 1028,945307,Rhineland-Palatinate,Kusel,Rhineland-Palatinate,DE,,2394,Cryptovenator,303.7,293.52
 1029,959272,Xinjiang,,Xinjiang,CN,,2393,Lystrosaurus,251.902,251.2
-1030,961539,Madhya Pradesh,Shahdol,Madhya Pradesh,IN,,2392,Rewaconodon,237,227
-1031,965831,Marrakech,,Marrakech,MA,,2391,Moghreberia,237,201.4
+1030,961539,Madhya Pradesh,Shahdol,Madhya Pradesh,IN,,2392,Rewaconodon,237.0,227.0
+1031,965831,Marrakech,,Marrakech,MA,,2391,Moghreberia,237.0,201.4
 1032,966757,Belgium,,Gaume,BE,,2390,Pseudotriconodon,208.5,201.4
 1033,966758,Belgium,,Gaume,BE,,2389,Gaumia,208.5,201.4
 1034,966759,Belgium,,Gaume,BE,,2388,Gaumia,208.5,201.4
@@ -1003,7 +1003,7 @@ index,occurrence_no_x,locality,county_original,state,cc,notes,id,genus,age_max,a
 1040,968514,Eastern Cape,Graaff-Reinet,Eastern Cape,ZA,,2382,Emydops,259.51,254.14
 1041,968981,Kansas,Anderson,Kansas,US,,2381,Ianthodon,305.9,303.7
 1042,969252,Eastern Cape,Graaff-Reinet,Eastern Cape,ZA,,2380,Pelanomodon,259.51,251.902
-1043,970672,Batken,,Batken,KG,,2379,Madysaurus,242,227
+1043,970672,Batken,,Batken,KG,,2379,Madysaurus,242.0,227.0
 1044,976212,Western Cape,Murraysburg,Western Cape,ZA,,2378,Pristerodon,259.51,254.14
 1045,976213,Western Cape,Murraysburg,Western Cape,ZA,,2377,Pristerodon,259.51,254.14
 1046,980037,Eastern Cape,Stormberg,Eastern Cape,ZA,,2376,Lystrosaurus,251.902,247.2
@@ -1016,14 +1016,14 @@ index,occurrence_no_x,locality,county_original,state,cc,notes,id,genus,age_max,a
 1053,980063,Eastern Cape,,Eastern Cape,ZA,,2369,Lystrosaurus,251.902,247.2
 1054,980070,West Bengal,,West Bengal,IN,,2368,Lystrosaurus,251.902,248.9
 1055,980075,West Bengal,,West Bengal,IN,,2367,Lystrosaurus,251.902,248.9
-1056,983910,Rio Grande do Sul,Candelaria,Rio Grande do Sul,BR,,2366,Candelariodon,242,237
-1057,983911,Rio Grande do Sul,Candelaria,Rio Grande do Sul,BR,,2365,Massetognathus,242,237
-1058,986757,Eastern Cape,Ukhahlamba,Eastern Cape,ZA,,2364,Bauria,247.2,242
-1059,986759,Eastern Cape,Ukhahlamba,Eastern Cape,ZA,,2362,Kannemeyeria,247.2,242
-1060,986759,Eastern Cape,Ukhahlamba,Eastern Cape,ZA,,2363,Kannemeyeria,247.2,242
-1061,986760,Eastern Cape,Ukhahlamba,Eastern Cape,ZA,,2361,Cynognathus,247.2,242
-1062,986761,Eastern Cape,Ukhahlamba,Eastern Cape,ZA,,2360,Diademodon,247.2,242
-1063,986762,Eastern Cape,Ukhahlamba,Eastern Cape,ZA,,2359,Trirachodon,247.2,242
+1056,983910,Rio Grande do Sul,Candelaria,Rio Grande do Sul,BR,,2366,Candelariodon,242.0,237.0
+1057,983911,Rio Grande do Sul,Candelaria,Rio Grande do Sul,BR,,2365,Massetognathus,242.0,237.0
+1058,986757,Eastern Cape,Ukhahlamba,Eastern Cape,ZA,,2364,Bauria,247.2,242.0
+1059,986759,Eastern Cape,Ukhahlamba,Eastern Cape,ZA,,2362,Kannemeyeria,247.2,242.0
+1060,986759,Eastern Cape,Ukhahlamba,Eastern Cape,ZA,,2363,Kannemeyeria,247.2,242.0
+1061,986760,Eastern Cape,Ukhahlamba,Eastern Cape,ZA,,2361,Cynognathus,247.2,242.0
+1062,986761,Eastern Cape,Ukhahlamba,Eastern Cape,ZA,,2360,Diademodon,247.2,242.0
+1063,986762,Eastern Cape,Ukhahlamba,Eastern Cape,ZA,,2359,Trirachodon,247.2,242.0
 1064,992442,Kirov,Kotelnichskii,Kirov,RU,,2357,Australobarbarus,264.28,259.51
 1065,992442,Kirov,Kotelnichskii,Kirov,RU,,2358,Australobarbarus,264.28,259.51
 1066,992443,Kirov,Kotelnichskii,Kirov,RU,,2356,Australobarbarus,264.28,259.51
@@ -1058,7 +1058,7 @@ index,occurrence_no_x,locality,county_original,state,cc,notes,id,genus,age_max,a
 1095,1063536,Belgium,,Gaume,BE,,2327,Thomasia,208.5,201.4
 1096,1063537,Baden-Wurttemberg,Tubingen,Baden-Wurttemberg,DE,,2326,Thomasia,208.5,201.4
 1097,1063538,Baden-Wurttemberg,Tubingen,Baden-Wurttemberg,DE,,2325,Thomasia,208.5,201.4
-1098,1071624,Rio Grande do Sul,Agudo,Rio Grande do Sul,BR,,2324,Exaeretodon,237,208.5
+1098,1071624,Rio Grande do Sul,Agudo,Rio Grande do Sul,BR,,2324,Exaeretodon,237.0,208.5
 1099,1081099,Ruvuma,Songea,Ruvuma,TZ,,2323,Procynosuchus,259.51,254.14
 1100,1081100,Ruvuma,Songea,Ruvuma,TZ,,2322,Theriognathus,259.51,254.14
 1101,1081101,Ruvuma,Songea,Ruvuma,TZ,,2321,Dicynodon,259.51,254.14
@@ -1096,7 +1096,7 @@ index,occurrence_no_x,locality,county_original,state,cc,notes,id,genus,age_max,a
 1133,1087554,West Bengal,,West Bengal,IN,,2290,Lystrosaurus,251.902,248.9
 1134,1087554,West Bengal,,West Bengal,IN,,2291,Lystrosaurus,251.902,248.9
 1135,1087563,West Bengal,,West Bengal,IN,,2287,Panchetocynodon,251.902,248.9
-1136,1089128,Ruvuma,,Ruvuma,TZ,,2286,Scalenodon,247.2,242
+1136,1089128,Ruvuma,,Ruvuma,TZ,,2286,Scalenodon,247.2,242.0
 1137,1091172,Texas,Archer,Texas,US,,2285,Lupeosaurus,298.9,293.52
 1138,1091175,Texas,Baylor,Texas,US,,2284,Dimetrodon,283.5,273.01
 1139,1099935,Baden-Wurttemberg,Tubingen,Baden-Wurttemberg,DE,,2283,Thomasia,208.5,201.4
@@ -1105,69 +1105,69 @@ index,occurrence_no_x,locality,county_original,state,cc,notes,id,genus,age_max,a
 1142,1104077,Sachsen-Anhalt,,Sachsen-Anhalt,DE,,2280,Eoraetia,208.5,201.4
 1143,1127578,Orenburg,Ilekskii,Orenburg,RU,,2279,Silphedosuchus,251.2,247.2
 1144,1127596,Komi,Usinsk,Komi,RU,,2278,Scalopognathus,251.902,251.2
-1145,1127600,Orenburg,Sol'-Iletsk,Orenburg,RU,,2277,Antecosuchus,247.2,242
+1145,1127600,Orenburg,Sol'-Iletsk,Orenburg,RU,,2277,Antecosuchus,247.2,242.0
 1146,1127602,Xinjiang,,Xinjiang,CN,,2276,Urumchia,251.902,251.2
-1147,1127724,Nei Mongol,Zhuengeerqi,Nei Mongol,CN,,2275,Yikezhaogia,247.2,242
+1147,1127724,Nei Mongol,Zhuengeerqi,Nei Mongol,CN,,2275,Yikezhaogia,247.2,242.0
 1148,1129488,Gansu,,Gansu,CN,,2274,Beishanodon,251.2,247.2
-1149,1129494,Henan,,Henan,CN,,2273,Traversodontoides,247.2,242
-1150,1129496,Shaanxi,Baode,Shaanxi,CN,,2272,Ordosiodon,247.2,242
-1151,1129543,Nei Mongol,Zhuengeerqi,Nei Mongol,CN,,2271,Ordosiodon,247.2,242
-1152,1129555,Shaanxi,Fugu,Shaanxi,CN,,2270,Hazhenia,251.2,242
-1153,1129613,Xinjiang,,Xinjiang,CN,,2260,Xiyukannemeyeria,247.2,237
-1154,1129613,Xinjiang,,Xinjiang,CN,,2261,Xiyukannemeyeria,247.2,237
-1155,1129613,Xinjiang,,Xinjiang,CN,,2262,Xiyukannemeyeria,247.2,237
-1156,1129613,Xinjiang,,Xinjiang,CN,,2263,Xiyukannemeyeria,247.2,237
-1157,1129613,Xinjiang,,Xinjiang,CN,,2264,Xiyukannemeyeria,247.2,237
-1158,1129613,Xinjiang,,Xinjiang,CN,,2265,Xiyukannemeyeria,247.2,237
-1159,1129613,Xinjiang,,Xinjiang,CN,,2266,Xiyukannemeyeria,247.2,237
-1160,1129613,Xinjiang,,Xinjiang,CN,,2267,Xiyukannemeyeria,247.2,237
-1161,1129613,Xinjiang,,Xinjiang,CN,,2268,Xiyukannemeyeria,247.2,237
-1162,1129613,Xinjiang,,Xinjiang,CN,,2269,Xiyukannemeyeria,247.2,237
-1163,1129616,Xinjiang,Turfan,Xinjiang,CN,,2259,Xiyukannemeyeria,247.2,242
-1164,1129819,Nei Mongol,,Nei Mongol,CN,,2258,Shaanbeikannemeyeria,247.2,242
-1165,1129820,Shaanxi,Fugu,Shaanxi,CN,,2257,Shaanbeikannemeyeria,247.2,242
-1166,1129822,Ruvuma,,Ruvuma,TZ,,2256,Rechnisaurus,247.2,242
-1167,1129827,Shaanxi,,Shaanxi,CN,,2255,Parakannemeyeria,247.2,242
-1168,1129896,Shaanxi,,Shaanxi,CN,,2254,Sinokannemeyeria,247.2,242
-1169,1129904,Shaanxi,,Shaanxi,CN,,2253,Parakannemeyeria,247.2,242
-1170,1129930,Xinjiang,,Xinjiang,CN,,2252,Parakannemeyeria,247.2,237
-1171,1129958,Shaanxi,,Shaanxi,CN,,2251,Shansiodon,247.2,242
-1172,1129960,Shaanxi,,Shaanxi,CN,,2250,Shansiodon,247.2,242
-1173,1129967,Shaanxi,,Shaanxi,CN,,2249,Shansiodon,247.2,242
-1174,1129970,Shaanxi,,Shaanxi,CN,,2248,Sinokannemeyeria,247.2,242
+1149,1129494,Henan,,Henan,CN,,2273,Traversodontoides,247.2,242.0
+1150,1129496,Shaanxi,Baode,Shaanxi,CN,,2272,Ordosiodon,247.2,242.0
+1151,1129543,Nei Mongol,Zhuengeerqi,Nei Mongol,CN,,2271,Ordosiodon,247.2,242.0
+1152,1129555,Shaanxi,Fugu,Shaanxi,CN,,2270,Hazhenia,251.2,242.0
+1153,1129613,Xinjiang,,Xinjiang,CN,,2260,Xiyukannemeyeria,247.2,237.0
+1154,1129613,Xinjiang,,Xinjiang,CN,,2261,Xiyukannemeyeria,247.2,237.0
+1155,1129613,Xinjiang,,Xinjiang,CN,,2262,Xiyukannemeyeria,247.2,237.0
+1156,1129613,Xinjiang,,Xinjiang,CN,,2263,Xiyukannemeyeria,247.2,237.0
+1157,1129613,Xinjiang,,Xinjiang,CN,,2264,Xiyukannemeyeria,247.2,237.0
+1158,1129613,Xinjiang,,Xinjiang,CN,,2265,Xiyukannemeyeria,247.2,237.0
+1159,1129613,Xinjiang,,Xinjiang,CN,,2266,Xiyukannemeyeria,247.2,237.0
+1160,1129613,Xinjiang,,Xinjiang,CN,,2267,Xiyukannemeyeria,247.2,237.0
+1161,1129613,Xinjiang,,Xinjiang,CN,,2268,Xiyukannemeyeria,247.2,237.0
+1162,1129613,Xinjiang,,Xinjiang,CN,,2269,Xiyukannemeyeria,247.2,237.0
+1163,1129616,Xinjiang,Turfan,Xinjiang,CN,,2259,Xiyukannemeyeria,247.2,242.0
+1164,1129819,Nei Mongol,,Nei Mongol,CN,,2258,Shaanbeikannemeyeria,247.2,242.0
+1165,1129820,Shaanxi,Fugu,Shaanxi,CN,,2257,Shaanbeikannemeyeria,247.2,242.0
+1166,1129822,Ruvuma,,Ruvuma,TZ,,2256,Rechnisaurus,247.2,242.0
+1167,1129827,Shaanxi,,Shaanxi,CN,,2255,Parakannemeyeria,247.2,242.0
+1168,1129896,Shaanxi,,Shaanxi,CN,,2254,Sinokannemeyeria,247.2,242.0
+1169,1129904,Shaanxi,,Shaanxi,CN,,2253,Parakannemeyeria,247.2,242.0
+1170,1129930,Xinjiang,,Xinjiang,CN,,2252,Parakannemeyeria,247.2,237.0
+1171,1129958,Shaanxi,,Shaanxi,CN,,2251,Shansiodon,247.2,242.0
+1172,1129960,Shaanxi,,Shaanxi,CN,,2250,Shansiodon,247.2,242.0
+1173,1129967,Shaanxi,,Shaanxi,CN,,2249,Shansiodon,247.2,242.0
+1174,1129970,Shaanxi,,Shaanxi,CN,,2248,Sinokannemeyeria,247.2,242.0
 1175,1130045,Xinjiang,,Xinjiang,CN,,2247,Lystrosaurus,251.902,251.2
 1176,1130046,Xinjiang,,Xinjiang,CN,,2246,Lystrosaurus,251.902,251.2
 1177,1130056,Xinjiang,,Xinjiang,CN,,2245,Lystrosaurus,251.902,251.2
 1178,1130060,Xinjiang,Turfan,Xinjiang,CN,,2244,Lystrosaurus,251.902,251.2
-1179,1130081,Shaanxi,,Shaanxi,CN,,2243,Parakannemeyeria,247.2,242
-1180,1130082,Shaanxi,,Shaanxi,CN,,2242,Sinokannemeyeria,247.2,242
-1181,1132298,Eastern Cape,Engcobo,Eastern Cape,ZA,,2241,Diademodon,247.2,242
+1179,1130081,Shaanxi,,Shaanxi,CN,,2243,Parakannemeyeria,247.2,242.0
+1180,1130082,Shaanxi,,Shaanxi,CN,,2242,Sinokannemeyeria,247.2,242.0
+1181,1132298,Eastern Cape,Engcobo,Eastern Cape,ZA,,2241,Diademodon,247.2,242.0
 1182,1134141,Free State,,Free State,ZA,,2240,Lystrosaurus,251.902,251.2
-1183,1134183,Eastern Cape,,Eastern Cape,ZA,,2239,Cynognathus,247.2,242
-1184,1134184,Eastern Cape,,Eastern Cape,ZA,,2238,Diademodon,247.2,242
-1185,1134185,Eastern Cape,,Eastern Cape,ZA,,2237,Kannemeyeria,247.2,242
+1183,1134183,Eastern Cape,,Eastern Cape,ZA,,2239,Cynognathus,247.2,242.0
+1184,1134184,Eastern Cape,,Eastern Cape,ZA,,2238,Diademodon,247.2,242.0
+1185,1134185,Eastern Cape,,Eastern Cape,ZA,,2237,Kannemeyeria,247.2,242.0
 1186,1135798,Eastern Cape,Cacadu,Eastern Cape,ZA,,2236,Paraburnetia,259.51,254.14
-1187,1143578,Eastern Cape,,Eastern Cape,ZA,,2235,Sysphinctostoma,247.2,242
+1187,1143578,Eastern Cape,,Eastern Cape,ZA,,2235,Sysphinctostoma,247.2,242.0
 1188,1144137,KwaZulu-Natal,Bergville,KwaZulu-Natal,ZA,,2234,Tetracynodon,251.902,247.2
 1189,1144138,Free State,Thabo Mofutsanyane,Free State,ZA,,2233,Tetracynodon,251.902,251.2
 1190,1144139,Free State,,Free State,ZA,,2232,Tetracynodon,251.902,247.2
 1191,1163743,Tatarstan,Tetyushi,Tatarstan,RU,,2231,Sauroctonus,264.28,259.51
-1192,1164061,Free State,Ladybrand,Free State,ZA,,2230,Tritylodon,227,201.4
+1192,1164061,Free State,Ladybrand,Free State,ZA,,2230,Tritylodon,227.0,201.4
 1194,1168375,Rio Negro,,Rio Negro,AR,,2228,Dicynodontipus,259.51,247.2
 1195,1180055,England,Somerset,England,UK,,2227,Eozostrodon,208.5,201.4
 1196,1180056,England,Somerset,England,UK,,2226,Eozostrodon,208.5,201.4
 1197,1202387,Kansas,Greenwood,Kansas,US,,2225,Eocasea,303.7,298.9
-1198,1220771,Eastern Cape,Sterkstroom,Eastern Cape,ZA,,2224,Ufudocyclops,247.2,242
-1199,1220772,Eastern Cape,Sterkstroom,Eastern Cape,ZA,,2223,Ufudocyclops,247.2,242
-1200,1220773,Eastern Cape,Sterkstroom,Eastern Cape,ZA,,2222,Shansiodon,247.2,242
-1201,1220780,Ruvuma,,Ruvuma,TZ,,2220,Mandagomphodon,247.2,242
-1202,1220780,Ruvuma,,Ruvuma,TZ,,2221,Mandagomphodon,247.2,242
-1203,1220781,Ruvuma,Songea,Ruvuma,TZ,,2219,Scalenodon,247.2,242
+1198,1220771,Eastern Cape,Sterkstroom,Eastern Cape,ZA,,2224,Ufudocyclops,247.2,242.0
+1199,1220772,Eastern Cape,Sterkstroom,Eastern Cape,ZA,,2223,Ufudocyclops,247.2,242.0
+1200,1220773,Eastern Cape,Sterkstroom,Eastern Cape,ZA,,2222,Shansiodon,247.2,242.0
+1201,1220780,Ruvuma,,Ruvuma,TZ,,2220,Mandagomphodon,247.2,242.0
+1202,1220780,Ruvuma,,Ruvuma,TZ,,2221,Mandagomphodon,247.2,242.0
+1203,1220781,Ruvuma,Songea,Ruvuma,TZ,,2219,Scalenodon,247.2,242.0
 1204,1226616,Sardinia,Alghero,Sardinia,IT,,2218,Alierasaurus,283.5,266.9
-1205,1267002,Shaanxi,Liulin,Shaanxi,CN,,2217,Nothogomphodon,247.2,242
-1206,1284946,Free State,,Free State,ZA,,2216,Trirachodon,247.2,242
-1207,1284947,Free State,,Free State,ZA,,2215,Kannemeyeria,247.2,242
-1208,1284948,Free State,,Free State,ZA,,2214,Microgomphodon,247.2,242
+1205,1267002,Shaanxi,Liulin,Shaanxi,CN,,2217,Nothogomphodon,247.2,242.0
+1206,1284946,Free State,,Free State,ZA,,2216,Trirachodon,247.2,242.0
+1207,1284947,Free State,,Free State,ZA,,2215,Kannemeyeria,247.2,242.0
+1208,1284948,Free State,,Free State,ZA,,2214,Microgomphodon,247.2,242.0
 1209,1285179,Eastern Cape,Cacadu,Eastern Cape,ZA,,2213,Dicynodontoides,259.51,251.902
 1210,1285180,Eastern Cape,Cacadu,Eastern Cape,ZA,,2212,Ictidosuchops,259.51,251.902
 1211,1285181,Eastern Cape,Cacadu,Eastern Cape,ZA,,2211,Procynosuchus,259.51,251.902
@@ -1185,10 +1185,10 @@ index,occurrence_no_x,locality,county_original,state,cc,notes,id,genus,age_max,a
 1224,1297470,Ruvuma,,Ruvuma,TZ,,2198,Endothiodon,264.28,259.51
 1225,1297471,Ruvuma,,Ruvuma,TZ,,2197,Endothiodon,264.28,259.51
 1226,1300959,Xinjiang,,Xinjiang,CN,,2196,Sungeodon,251.902,251.4
-1227,1300961,Madhya Pradesh,,Madhya Pradesh,IN,,2195,Ruberodon,237,227
+1227,1300961,Madhya Pradesh,,Madhya Pradesh,IN,,2195,Ruberodon,237.0,227.0
 1228,1301948,Pennsylvania,Pittsburgh,Pennsylvania,US,,2194,Clepsydrops,305.9,298.9
-1229,1302445,Andhra Pradesh,Adilabad,Andhra Pradesh,IN,,2193,Deccanodon,237,208.5
-1230,1302507,Mendoza,,Mendoza,AR,,2192,Acratophorus,237,227
+1229,1302445,Andhra Pradesh,Adilabad,Andhra Pradesh,IN,,2193,Deccanodon,237.0,208.5
+1230,1302507,Mendoza,,Mendoza,AR,,2192,Acratophorus,237.0,227.0
 1231,1303961,Western Cape,Beaufort West,Western Cape,ZA,,2191,Tropidostoma,259.51,254.14
 1232,1304070,Eastern Cape,Graaff-Reinet,Eastern Cape,ZA,,2190,Tropidostoma,264.28,254.14
 1233,1304071,Northern Cape,Fraserburg,Northern Cape,ZA,,2189,Tropidostoma,259.51,254.14
@@ -1386,15 +1386,15 @@ index,occurrence_no_x,locality,county_original,state,cc,notes,id,genus,age_max,a
 1425,1308695,Western Cape,Murraysburg,Western Cape,ZA,,1997,Oudenodon,259.51,251.902
 1426,1308697,Western Cape,Murraysburg,Western Cape,ZA,,1996,Oudenodon,259.51,254.14
 1427,1308703,Eastern Cape,,Eastern Cape,ZA,,1995,Oudenodon,259.51,254.14
-1428,1308721,Rio Grande do Sul,Candelaria,Rio Grande do Sul,BR,,1992,Exaeretodon,237,208.5
-1429,1308721,Rio Grande do Sul,Candelaria,Rio Grande do Sul,BR,,1993,Exaeretodon,237,208.5
-1430,1308721,Rio Grande do Sul,Candelaria,Rio Grande do Sul,BR,,1994,Exaeretodon,237,208.5
-1431,1308723,Rio Grande do Sul,Candelaria,Rio Grande do Sul,BR,,1991,Charruodon,237,208.5
-1432,1308742,Rio Grande do Sul,,Rio Grande do Sul,BR,,1990,Botucaraitherium,227,208.5
-1433,1308745,Rio Grande do Sul,,Rio Grande do Sul,BR,,1989,Massetognathus,242,237
-1434,1308747,Shaanxi,Linxian,Shaanxi,CN,,1988,Sinokannemeyeria,247.2,237
-1435,1308748,Shaanxi,Linxian,Shaanxi,CN,,1987,Parakannemeyeria,247.2,237
-1436,1308766,Marrakech,,Marrakech,MA,,1986,Moghreberia,237,227
+1428,1308721,Rio Grande do Sul,Candelaria,Rio Grande do Sul,BR,,1992,Exaeretodon,237.0,208.5
+1429,1308721,Rio Grande do Sul,Candelaria,Rio Grande do Sul,BR,,1993,Exaeretodon,237.0,208.5
+1430,1308721,Rio Grande do Sul,Candelaria,Rio Grande do Sul,BR,,1994,Exaeretodon,237.0,208.5
+1431,1308723,Rio Grande do Sul,Candelaria,Rio Grande do Sul,BR,,1991,Charruodon,237.0,208.5
+1432,1308742,Rio Grande do Sul,,Rio Grande do Sul,BR,,1990,Botucaraitherium,227.0,208.5
+1433,1308745,Rio Grande do Sul,,Rio Grande do Sul,BR,,1989,Massetognathus,242.0,237.0
+1434,1308747,Shaanxi,Linxian,Shaanxi,CN,,1988,Sinokannemeyeria,247.2,237.0
+1435,1308748,Shaanxi,Linxian,Shaanxi,CN,,1987,Parakannemeyeria,247.2,237.0
+1436,1308766,Marrakech,,Marrakech,MA,,1986,Moghreberia,237.0,227.0
 1437,1308851,Western Cape,Beaufort West,Western Cape,ZA,,1985,Struthiocephalus,264.28,259.51
 1438,1308852,Western Cape,Beaufort West,Western Cape,ZA,,1984,Galeops,264.28,259.51
 1439,1308853,Western Cape,Beaufort West,Western Cape,ZA,,1983,Pristerodon,264.28,259.51
@@ -1637,13 +1637,13 @@ index,occurrence_no_x,locality,county_original,state,cc,notes,id,genus,age_max,a
 1676,1317982,Texas,Knox,Texas,US,,1746,Dimetrodon,283.5,273.01
 1677,1317989,Texas,Baylor,Texas,US,,1745,Dimetrodon,283.5,273.01
 1678,1317991,Western Cape,Beaufort West,Western Cape,ZA,,1744,Dicynodon,259.51,251.902
-1679,1317995,Eastern Cape,Aliwal North,Eastern Cape,ZA,,1743,Kannemeyeria,247.2,242
-1680,1317998,Eastern Cape,,Eastern Cape,ZA,,1742,Kannemeyeria,247.2,242
-1681,1317999,Eastern Cape,,Eastern Cape,ZA,,1741,Cynognathus,247.2,242
-1682,1318000,Eastern Cape,,Eastern Cape,ZA,,1740,Diademodon,247.2,242
-1683,1318001,Eastern Cape,,Eastern Cape,ZA,,1739,Trirachodon,247.2,242
-1684,1318002,Eastern Cape,,Eastern Cape,ZA,,1738,Diademodon,247.2,242
-1685,1318003,Eastern Cape,,Eastern Cape,ZA,,1737,Cricodon,247.2,242
+1679,1317995,Eastern Cape,Aliwal North,Eastern Cape,ZA,,1743,Kannemeyeria,247.2,242.0
+1680,1317998,Eastern Cape,,Eastern Cape,ZA,,1742,Kannemeyeria,247.2,242.0
+1681,1317999,Eastern Cape,,Eastern Cape,ZA,,1741,Cynognathus,247.2,242.0
+1682,1318000,Eastern Cape,,Eastern Cape,ZA,,1740,Diademodon,247.2,242.0
+1683,1318001,Eastern Cape,,Eastern Cape,ZA,,1739,Trirachodon,247.2,242.0
+1684,1318002,Eastern Cape,,Eastern Cape,ZA,,1738,Diademodon,247.2,242.0
+1685,1318003,Eastern Cape,,Eastern Cape,ZA,,1737,Cricodon,247.2,242.0
 1686,1318005,Eastern Cape,Graaff-Reinet,Eastern Cape,ZA,,1736,Lystrosaurus,251.902,251.2
 1687,1318075,Eastern Cape,Graaff-Reinet,Eastern Cape,ZA,,1735,Daptocephalus,259.51,251.902
 1688,1318076,Eastern Cape,South Africa,Eastern Cape,ZA,,1734,Daptocephalus,259.51,251.902
@@ -1683,7 +1683,7 @@ index,occurrence_no_x,locality,county_original,state,cc,notes,id,genus,age_max,a
 1722,1320597,Eastern Cape,Graaff-Reinet,Eastern Cape,ZA,,1700,Aulacephalodon,259.51,251.902
 1723,1320598,Eastern Cape,Graaff-Reinet,Eastern Cape,ZA,,1699,Oudenodon,259.51,251.902
 1724,1320599,Eastern Cape,Graaff-Reinet,Eastern Cape,ZA,,1698,Cyonosaurus,259.51,251.902
-1725,1320602,Ruvuma,,Ruvuma,TZ,,1697,Tetragonias,247.2,242
+1725,1320602,Ruvuma,,Ruvuma,TZ,,1697,Tetragonias,247.2,242.0
 1726,1320668,Eastern Cape,Graaff-Reinet,Eastern Cape,ZA,,1696,Daptocephalus,259.51,251.902
 1727,1320669,Eastern Cape,Graaff-Reinet,Eastern Cape,ZA,,1695,Daptocephalus,259.51,251.902
 1728,1320670,Eastern Cape,Graaff-Reinet,Eastern Cape,ZA,,1694,Moschorhinus,259.51,251.902
@@ -1933,12 +1933,12 @@ index,occurrence_no_x,locality,county_original,state,cc,notes,id,genus,age_max,a
 1972,1332736,Eastern Cape,,Eastern Cape,ZA,,1450,Tetracynodon,259.51,251.902
 1973,1332737,Eastern Cape,,Eastern Cape,ZA,,1449,Tetracynodon,259.51,251.902
 1974,1332738,Eastern Cape,,Eastern Cape,ZA,,1448,Homodontosaurus,259.51,251.902
-1975,1332739,Eastern Cape,,Eastern Cape,ZA,,1447,Diademodon,247.2,242
-1976,1332740,Eastern Cape,,Eastern Cape,ZA,,1446,Sesamondontoides,247.2,242
-1977,1332741,Eastern Cape,,Eastern Cape,ZA,,1445,Sysphinctostoma,247.2,242
-1978,1332743,Eastern Cape,,Eastern Cape,ZA,,1444,Bauria,247.2,242
-1979,1332744,Eastern Cape,,Eastern Cape,ZA,,1443,Cynognathus,247.2,242
-1980,1332745,Eastern Cape,,Eastern Cape,ZA,,1442,Diademodon,247.2,242
+1975,1332739,Eastern Cape,,Eastern Cape,ZA,,1447,Diademodon,247.2,242.0
+1976,1332740,Eastern Cape,,Eastern Cape,ZA,,1446,Sesamondontoides,247.2,242.0
+1977,1332741,Eastern Cape,,Eastern Cape,ZA,,1445,Sysphinctostoma,247.2,242.0
+1978,1332743,Eastern Cape,,Eastern Cape,ZA,,1444,Bauria,247.2,242.0
+1979,1332744,Eastern Cape,,Eastern Cape,ZA,,1443,Cynognathus,247.2,242.0
+1980,1332745,Eastern Cape,,Eastern Cape,ZA,,1442,Diademodon,247.2,242.0
 1981,1332747,Northern Cape,,Northern Cape,ZA,,1441,Polycynodon,259.51,254.14
 1982,1332749,Northern Cape,,Northern Cape,ZA,,1440,Cryptocynodon,259.51,254.14
 1983,1332750,Northern Cape,,Northern Cape,ZA,,1439,Cistecephalus,259.51,254.14
@@ -1970,7 +1970,7 @@ index,occurrence_no_x,locality,county_original,state,cc,notes,id,genus,age_max,a
 2009,1332996,Eastern Cape,,Eastern Cape,ZA,,1413,Aulacephalodon,259.51,251.902
 2010,1332997,Eastern Cape,,Eastern Cape,ZA,,1412,Oudenodon,259.51,251.902
 2011,1332998,Western Cape,,Western Cape,ZA,,1411,Lycosuchus,264.28,259.51
-2012,1332999,Eastern Cape,Maletswai,Eastern Cape,ZA,,1410,Cynognathus,247.2,242
+2012,1332999,Eastern Cape,Maletswai,Eastern Cape,ZA,,1410,Cynognathus,247.2,242.0
 2013,1333000,Northern Cape,,Northern Cape,ZA,,1409,Scylacosaurus,259.51,254.14
 2014,1333001,Western Cape,,Western Cape,ZA,,1408,Ictidosaurus,264.28,259.51
 2015,1333002,Western Cape,,Western Cape,ZA,,1407,Delphinognathus,264.28,259.51
@@ -1979,10 +1979,10 @@ index,occurrence_no_x,locality,county_original,state,cc,notes,id,genus,age_max,a
 2018,1333005,Western Cape,,Western Cape,ZA,,1404,Emydops,264.28,259.51
 2019,1333006,Western Cape,,Western Cape,ZA,,1403,Scymnosaurus,264.28,259.51
 2020,1333007,Western Cape,,Western Cape,ZA,,1402,Scylacosaurus,264.28,259.51
-2021,1333237,Eastern Cape,Maletswai,Eastern Cape,ZA,,1401,Trirachodon,247.2,242
-2022,1333249,Eastern Cape,Maletswai,Eastern Cape,ZA,,1399,Microgomphodon,247.2,242
-2023,1333249,Eastern Cape,Maletswai,Eastern Cape,ZA,,1400,Microgomphodon,247.2,242
-2024,1333250,Eastern Cape,Maletswai,Eastern Cape,ZA,,1398,Microgomphodon,247.2,242
+2021,1333237,Eastern Cape,Maletswai,Eastern Cape,ZA,,1401,Trirachodon,247.2,242.0
+2022,1333249,Eastern Cape,Maletswai,Eastern Cape,ZA,,1399,Microgomphodon,247.2,242.0
+2023,1333249,Eastern Cape,Maletswai,Eastern Cape,ZA,,1400,Microgomphodon,247.2,242.0
+2024,1333250,Eastern Cape,Maletswai,Eastern Cape,ZA,,1398,Microgomphodon,247.2,242.0
 2025,1333252,Eastern Cape,Camdeboo,Eastern Cape,ZA,,1397,Procynosuchus,259.51,251.902
 2026,1333253,Eastern Cape,,Eastern Cape,ZA,,1396,Cynosaurus,259.51,251.902
 2027,1333264,Eastern Cape,,Eastern Cape,ZA,,1395,Oudenodon,259.51,251.902
@@ -2506,12 +2506,12 @@ index,occurrence_no_x,locality,county_original,state,cc,notes,id,genus,age_max,a
 2545,1382115,Lorraine,Meuthe-et-Moselle,Lorraine,FR,,877,Thomasia,208.5,201.4
 2546,1382116,Lorraine,Meuthe-et-Moselle,Lorraine,FR,,876,Thomasia,208.5,201.4
 2547,1382117,Lorraine,Meuthe-et-Moselle,Lorraine,FR,,875,Kuehneotherium,208.5,201.4
-2548,1382118,Belgium,,,BE,,874,Thomasia,227,201.4
+2548,1382118,Belgium,,,BE,,874,Thomasia,227.0,201.4
 2549,1382164,Kirov,Malmyzh,Kirov,RU,,873,Molybdopygus,266.9,264.28
 2550,1382165,Orenburg,,Orenburg,RU,,872,Syodon,266.9,259.51
 2551,1382176,Perm,Ocher,Perm,RU,,871,Chthomaloporus,266.9,264.28
 2552,1382413,Nizhni Novgorod,,Nizhni Novgorod,RU,,870,Lystrosaurus,251.902,251.2
-2553,1382824,Komi,Usinskii,Komi,RU,,869,Planitorostris,242,237
+2553,1382824,Komi,Usinskii,Komi,RU,,869,Planitorostris,242.0,237.0
 2554,1382825,Vologda,Ilovlya,Vologda,RU,,868,Putillosaurus,251.2,247.2
 2555,1382851,Orenburg,Buguruslanskii,Orenburg,RU,,867,Suminia,264.28,259.51
 2559,1383406,Orenburg,Tyul'ganskii,Orenburg,RU,,863,Davletkulia,273.01,266.9
@@ -2622,29 +2622,29 @@ index,occurrence_no_x,locality,county_original,state,cc,notes,id,genus,age_max,a
 2676,1387430,Ruvuma,Songea,Ruvuma,TZ,,746,Sycosaurus,259.51,254.14
 2677,1387431,Ruvuma,Songea,Ruvuma,TZ,,745,Sycosaurus,259.51,254.14
 2678,1387432,Ruvuma,Songea,Ruvuma,TZ,,744,Sycosaurus,259.51,254.14
-2679,1395229,Eastern Cape,,Eastern Cape,ZA,,743,Pentasaurus,227,201.4
-2680,1397335,Zambia,,Eastern,ZM,,742,Cricodon,247.2,227
-2681,1397639,Zambia,,Eastern,ZM,,741,Cynognathus,247.2,242
-2682,1397640,Ruvuma,Songea,Ruvuma,TZ,,739,Cynognathus,247.2,242
-2683,1397640,Ruvuma,Songea,Ruvuma,TZ,,740,Cynognathus,247.2,242
-2684,1397641,Ruvuma,,Ruvuma,TZ,,738,Cricodon,247.2,242
-2685,1397642,Ruvuma,Songea,Ruvuma,TZ,,737,Cricodon,247.2,242
+2679,1395229,Eastern Cape,,Eastern Cape,ZA,,743,Pentasaurus,227.0,201.4
+2680,1397335,Zambia,,Eastern,ZM,,742,Cricodon,247.2,227.0
+2681,1397639,Zambia,,Eastern,ZM,,741,Cynognathus,247.2,242.0
+2682,1397640,Ruvuma,Songea,Ruvuma,TZ,,739,Cynognathus,247.2,242.0
+2683,1397640,Ruvuma,Songea,Ruvuma,TZ,,740,Cynognathus,247.2,242.0
+2684,1397641,Ruvuma,,Ruvuma,TZ,,738,Cricodon,247.2,242.0
+2685,1397642,Ruvuma,Songea,Ruvuma,TZ,,737,Cricodon,247.2,242.0
 2686,1397695,Zambia,,Southern,ZM,,736,Abajudon,266.9,259.51
 2687,1397696,Zambia,,Southern,ZM,,735,Abajudon,266.9,259.51
 2688,1397697,Zambia,,Southern,ZM,,734,Abajudon,266.9,259.51
 2689,1397698,Zambia,,Southern,ZM,,733,Abajudon,266.9,259.51
 2690,1397699,Zambia,,Southern,ZM,,732,Abajudon,266.9,259.51
 2691,1400567,Northern Cape,Fraserburg,Northern Cape,ZA,,731,Leucocephalus,259.51,254.14
-2692,1405276,Rio Grande do Sul,Paraiso do Sul,Rio Grande do Sul,BR,,730,Scalenodon,242,237
-2693,1405852,Rio Grande do Sul,,Rio Grande do Sul,BR,,729,Santacruzgnathus,237,227
-2694,1405853,Rio Grande do Sul,,Rio Grande do Sul,BR,,728,Bonacynodon,237,233.4
-2695,1406764,Ruvuma,,Ruvuma,TZ,,727,Tetragonias,247.2,242
-2696,1406774,Rio Grande do Sul,,Rio Grande do Sul,BR,,726,Alemoatherium,237,208.5
-2697,1406777,Silesia,,Silesia,PL,,725,Polonodon,237,227
-2698,1406780,Rio Grande do Sul,,Rio Grande do Sul,BR,,724,Aleodon,242,227
-2699,1406781,Rio Grande do Sul,,Rio Grande do Sul,BR,,723,Aleodon,242,227
-2700,1406784,Rio Grande do Sul,,Rio Grande do Sul,BR,,722,Aleodon,242,227
-2701,1406786,Rio Grande do Sul,,Rio Grande do Sul,BR,,721,Aleodon,242,227
+2692,1405276,Rio Grande do Sul,Paraiso do Sul,Rio Grande do Sul,BR,,730,Scalenodon,242.0,237.0
+2693,1405852,Rio Grande do Sul,,Rio Grande do Sul,BR,,729,Santacruzgnathus,237.0,227.0
+2694,1405853,Rio Grande do Sul,,Rio Grande do Sul,BR,,728,Bonacynodon,237.0,233.4
+2695,1406764,Ruvuma,,Ruvuma,TZ,,727,Tetragonias,247.2,242.0
+2696,1406774,Rio Grande do Sul,,Rio Grande do Sul,BR,,726,Alemoatherium,237.0,208.5
+2697,1406777,Silesia,,Silesia,PL,,725,Polonodon,237.0,227.0
+2698,1406780,Rio Grande do Sul,,Rio Grande do Sul,BR,,724,Aleodon,242.0,227.0
+2699,1406781,Rio Grande do Sul,,Rio Grande do Sul,BR,,723,Aleodon,242.0,227.0
+2700,1406784,Rio Grande do Sul,,Rio Grande do Sul,BR,,722,Aleodon,242.0,227.0
+2701,1406786,Rio Grande do Sul,,Rio Grande do Sul,BR,,721,Aleodon,242.0,227.0
 2707,1406822,Lorraine,Meuthe-et-Moselle,Lorraine,FR,,715,Kuehneotherium,208.5,201.4
 2708,1406823,Lorraine,Meuthe-et-Moselle,Lorraine,FR,,714,Fluctuodon,208.5,201.4
 2709,1406824,Kirov,Kotelnich,Kirov,RU,,713,Nochnitsa,264.28,259.51
@@ -2673,12 +2673,12 @@ index,occurrence_no_x,locality,county_original,state,cc,notes,id,genus,age_max,a
 2732,1417830,Northern Cape,Victoria West (Ubuntu),Northern Cape,ZA,,690,Eosimops,264.28,259.51
 2733,1417831,Western Cape,Prince Albert,Western Cape,ZA,,689,Eosimops,264.28,259.51
 2734,1417833,Free State,,Free State,ZA,,688,Eosimops,264.28,259.51
-2735,1417923,San Juan,,San Juan,AR,,687,Exaeretodon,237,227
-2736,1417956,La Rioja,,La Rioja,AR,,686,Exaeretodon,237,227
-2737,1417957,La Rioja,,La Rioja,AR,,685,Massetognathus,242,237
-2738,1417966,Mendoza,,Mendoza,AR,,684,Andescynodon,237,208.5
-2739,1417967,San Juan,Valle Fertil,San Juan,AR,,683,Chiniquodon,237,208.5
-2740,1417968,La Rioja,,La Rioja,AR,,682,Chiniquodon,242,237
+2735,1417923,San Juan,,San Juan,AR,,687,Exaeretodon,237.0,227.0
+2736,1417956,La Rioja,,La Rioja,AR,,686,Exaeretodon,237.0,227.0
+2737,1417957,La Rioja,,La Rioja,AR,,685,Massetognathus,242.0,237.0
+2738,1417966,Mendoza,,Mendoza,AR,,684,Andescynodon,237.0,208.5
+2739,1417967,San Juan,Valle Fertil,San Juan,AR,,683,Chiniquodon,237.0,208.5
+2740,1417968,La Rioja,,La Rioja,AR,,682,Chiniquodon,242.0,237.0
 2741,1418081,KwaZulu-Natal,,KwaZulu-Natal,ZA,,681,Galesaurus,251.902,247.2
 2742,1418083,Free State,,Free State,ZA,,680,Galesaurus,251.902,247.2
 2743,1418085,Eastern Cape,Drakensburg,Eastern Cape,ZA,,679,Galesaurus,251.902,247.2
@@ -2708,7 +2708,7 @@ index,occurrence_no_x,locality,county_original,state,cc,notes,id,genus,age_max,a
 2767,1418155,Eastern Cape,,Eastern Cape,ZA,,655,Procynosuchus,251.902,247.2
 2768,1418156,Eastern Cape,Graaff-Reinet,Eastern Cape,ZA,,654,Diictodon,259.51,254.14
 2769,1418157,Eastern Cape,Camdeboo,Eastern Cape,ZA,,653,Pristerodon,259.51,254.14
-2770,1418348,Ruvuma,,Ruvuma,TZ,,652,Kannemeyeria,247.2,242
+2770,1418348,Ruvuma,,Ruvuma,TZ,,652,Kannemeyeria,247.2,242.0
 2771,1418349,Eastern Cape,,Eastern Cape,ZA,,651,Kannemeyeria,251.902,247.2
 2772,1418582,Eastern Cape,Graaff-Reinet,Eastern Cape,ZA,,650,Lystrosaurus,259.51,251.902
 2773,1418583,Free State,Maluti-A-Phofung,Free State,ZA,,649,Lystrosaurus,251.902,247.2
@@ -2729,13 +2729,13 @@ index,occurrence_no_x,locality,county_original,state,cc,notes,id,genus,age_max,a
 2789,1418635,Xinjiang,,Xinjiang,CN,,633,Lystrosaurus,251.902,251.2
 2790,1418636,Eastern Cape,,Eastern Cape,ZA,,632,Lystrosaurus,251.902,247.2
 2791,1418637,Free State,Maluti-A-Phofung,Free State,ZA,,631,Lystrosaurus,251.902,247.2
-2792,1418702,Eastern Cape,Maletswai,Eastern Cape,ZA,,630,Microgomphodon,247.2,242
-2793,1418703,Eastern Cape,,Eastern Cape,ZA,,629,Microhelodon,247.2,242
-2794,1418750,Free State,Xhariep,Free State,ZA,,628,Microgomphodon,247.2,242
+2792,1418702,Eastern Cape,Maletswai,Eastern Cape,ZA,,630,Microgomphodon,247.2,242.0
+2793,1418703,Eastern Cape,,Eastern Cape,ZA,,629,Microhelodon,247.2,242.0
+2794,1418750,Free State,Xhariep,Free State,ZA,,628,Microgomphodon,247.2,242.0
 2795,1418751,Free State,Rouxville,Free State,ZA,,627,Microgomphodon,251.2,247.2
 2796,1418753,Free State,Kestell,Free State,ZA,,626,Microgomphodon,251.2,247.2
-2797,1418754,Eastern Cape,,Eastern Cape,ZA,,625,Bauria,248.9,242
-2798,1418755,Free State,,Free State,ZA,,624,Bauria,247.2,242
+2797,1418754,Eastern Cape,,Eastern Cape,ZA,,625,Bauria,248.9,242.0
+2798,1418755,Free State,,Free State,ZA,,624,Bauria,247.2,242.0
 2799,1418756,Western Cape,,Western Cape,ZA,,623,Mirotenthes,259.51,254.14
 2800,1418814,Free State,,Free State,ZA,,622,Moschorhinus,251.902,247.2
 2802,1418816,Free State,,Free State,ZA,,620,Moschorhinus,251.902,251.2
@@ -2756,22 +2756,22 @@ index,occurrence_no_x,locality,county_original,state,cc,notes,id,genus,age_max,a
 2817,1418987,Eastern Cape,Inxuba Yethemba,Eastern Cape,ZA,,605,Olivierosuchus,251.902,247.2
 2818,1419113,Northern Cape,,Northern Cape,ZA,,604,Pelanomodon,259.51,254.14
 2819,1419114,Eastern Cape,,Eastern Cape,ZA,,603,Pelanomodon,259.51,251.902
-2820,1419204,Rio Grande do Sul,,Rio Grande do Sul,BR,,602,Prozostrodon,233.4,227
+2820,1419204,Rio Grande do Sul,,Rio Grande do Sul,BR,,602,Prozostrodon,233.4,227.0
 2821,1419218,Free State,,Free State,ZA,,601,Regisaurus,251.902,247.2
-2822,1419294,Ruvuma,,Ruvuma,TZ,,600,Sangusaurus,247.2,242
-2823,1419295,Ruvuma,,Ruvuma,TZ,,599,Sangusaurus,247.2,242
-2824,1419296,Ruvuma,,Ruvuma,TZ,,598,Scalenodon,247.2,242
-2825,1419298,Rio Grande do Sul,,Rio Grande do Sul,BR,,597,Siriusgnathus,237,227
+2822,1419294,Ruvuma,,Ruvuma,TZ,,600,Sangusaurus,247.2,242.0
+2823,1419295,Ruvuma,,Ruvuma,TZ,,599,Sangusaurus,247.2,242.0
+2824,1419296,Ruvuma,,Ruvuma,TZ,,598,Scalenodon,247.2,242.0
+2825,1419298,Rio Grande do Sul,,Rio Grande do Sul,BR,,597,Siriusgnathus,237.0,227.0
 2826,1419306,Eastern Cape,,Eastern Cape,ZA,,596,Scaloporhinus,259.51,251.902
 2827,1419308,Free State,Maluti-A-Phofung,Free State,ZA,,595,Scaloposaurus,251.902,247.2
 2828,1419530,Northern Cape,Colesberg,Northern Cape,ZA,,594,Euchambersia,259.51,254.14
-2829,1419583,Rio Grande do Sul,,Rio Grande do Sul,BR,,593,Stahleckeria,247.2,237
+2829,1419583,Rio Grande do Sul,,Rio Grande do Sul,BR,,593,Stahleckeria,247.2,237.0
 2830,1419970,Western Cape,,Western Cape,ZA,,592,Theriognathus,259.51,254.14
 2831,1419971,Northern Cape,,Northern Cape,ZA,,591,Theriognathus,259.51,254.14
 2832,1419972,Eastern Cape,,Eastern Cape,ZA,,590,Theriognathus,259.51,251.902
 2833,1419973,Northern Cape,,Northern Cape,ZA,,589,Theriognathus,259.51,254.14
 2834,1419974,Ruvuma,Songea,Ruvuma,TZ,,588,Theriognathus,259.51,254.14
-2835,1419975,Ruvuma,,Ruvuma,TZ,,587,Theriognathus,247.2,242
+2835,1419975,Ruvuma,,Ruvuma,TZ,,587,Theriognathus,247.2,242.0
 2836,1419976,Zambia,,,ZM,,586,Theriognathus,259.51,254.14
 2837,1419977,Zambia,,,ZM,,585,Theriognathus,259.51,254.14
 2838,1419978,Zambia,,,ZM,,584,Theriognathus,259.51,254.14
@@ -2788,8 +2788,8 @@ index,occurrence_no_x,locality,county_original,state,cc,notes,id,genus,age_max,a
 2849,1419989,Western Cape,,Western Cape,ZA,,573,Theriognathus,259.51,251.902
 2850,1419990,Northern Cape,,Northern Cape,ZA,,572,Theriognathus,259.51,251.902
 2851,1419991,Western Cape,Central Karoo,Western Cape,ZA,,571,Theriognathus,259.51,251.902
-2852,1420187,Eastern Cape,,Eastern Cape,ZA,,570,Diademodon,247.2,242
-2853,1420188,Eastern Cape,,Eastern Cape,ZA,,569,Kannemeyeria,247.2,242
+2852,1420187,Eastern Cape,,Eastern Cape,ZA,,570,Diademodon,247.2,242.0
+2853,1420188,Eastern Cape,,Eastern Cape,ZA,,569,Kannemeyeria,247.2,242.0
 2854,1428088,Western Cape,Prince Albert,Western Cape,ZA,,568,Titanosuchus,264.28,259.51
 2855,1428089,Northern Cape,,Northern Cape,ZA,,567,Jonkeria,259.51,254.14
 2856,1428090,Western Cape,Beaufort West,Western Cape,ZA,,566,Struthiocephalus,264.28,259.51
@@ -2918,9 +2918,9 @@ index,occurrence_no_x,locality,county_original,state,cc,notes,id,genus,age_max,a
 2979,1432023,Herault,,Herault,FR,,443,Brontopus,259.51,251.902
 2980,1432024,Herault,,Herault,FR,,442,Brontopus,259.51,251.902
 2981,1432042,Eastern Cape,Amatole,Eastern Cape,ZA,,441,Lystrosaurus,251.2,247.2
-2982,1433362,Eastern Cape,Maletswai,Eastern Cape,ZA,,440,Nythosaurus,247.2,242
+2982,1433362,Eastern Cape,Maletswai,Eastern Cape,ZA,,440,Nythosaurus,247.2,242.0
 2983,1433561,Baden-Wurttemberg,,Baden-Wurttemberg,DE,,439,Chalepotherium,208.5,201.4
-2984,1433562,Eastern Cape,Maletswai,Eastern Cape,ZA,,438,Aelurosuchus,247.2,242
+2984,1433562,Eastern Cape,Maletswai,Eastern Cape,ZA,,438,Aelurosuchus,247.2,242.0
 2985,1433563,Northern Cape,Victoria West (Ubuntu),Northern Cape,ZA,,437,Lystrosaurus,264.28,259.51
 2986,1433565,Northern Cape,Victoria West (Ubuntu),Northern Cape,ZA,,436,Dicynodon,264.28,259.51
 2987,1433566,Northern Cape,,Northern Cape,ZA,,435,Colobodectes,259.51,251.902
@@ -2932,23 +2932,23 @@ index,occurrence_no_x,locality,county_original,state,cc,notes,id,genus,age_max,a
 2993,1442948,Laos,,,LA,what is LA?,429,Counillonia,251.902,247.2
 2994,1442949,Laos,,,LA,what is LA?,428,Repelinosaurus,251.902,247.2
 2995,1448624,Mari El Republic,Gornomariiskii,Mari El Republic,RU,,427,Julognathus,264.28,259.51
-2996,1456922,San Juan,,San Juan,AR,,426,Pseudotherium,237,227
+2996,1456922,San Juan,,San Juan,AR,,426,Pseudotherium,237.0,227.0
 2997,1456930,KwaZulu-Natal,,KwaZulu-Natal,ZA,,425,Vetusodon,259.51,251.902
-2998,1459723,Rio Grande do Sul,Candelaria,Rio Grande do Sul,BR,,424,Exaeretodon,237,227
-2999,1459724,Rio Grande do Sul,Candelaria,Rio Grande do Sul,BR,,423,Trucidocynodon,237,227
-3000,1463589,Eastern Cape,,Eastern Cape,ZA,,422,Cistecynodon,247.2,242
+2998,1459723,Rio Grande do Sul,Candelaria,Rio Grande do Sul,BR,,424,Exaeretodon,237.0,227.0
+2999,1459724,Rio Grande do Sul,Candelaria,Rio Grande do Sul,BR,,423,Trucidocynodon,237.0,227.0
+3000,1463589,Eastern Cape,,Eastern Cape,ZA,,422,Cistecynodon,247.2,242.0
 3001,1475018,Mari El Republic,Gornomariiskii,Mari El Republic,RU,,421,Gorynychus,264.28,259.51
 3002,1475024,Rhineland-Palatinate,Kusel,Rhineland-Palatinate,DE,,420,Remigiomontanus,303.7,293.52
-3003,1475025,Rio Grande do Sul,,Rio Grande do Sul,BR,,419,Siriusgnathus,227,208.5
-3004,1475026,Rio Grande do Sul,,Rio Grande do Sul,BR,,418,Siriusgnathus,227,208.5
+3003,1475025,Rio Grande do Sul,,Rio Grande do Sul,BR,,419,Siriusgnathus,227.0,208.5
+3004,1475026,Rio Grande do Sul,,Rio Grande do Sul,BR,,418,Siriusgnathus,227.0,208.5
 3005,1475790,Zambia,,,ZM,,417,Kembawacela,259.51,254.14
-3006,1477305,Mendoza,,Mendoza,AR,,416,Dicynodontipus,247.2,237
-3007,1484826,Lesotho,,Maseru,LS,,415,Pentasauropus,227,208.5
+3006,1477305,Mendoza,,Mendoza,AR,,416,Dicynodontipus,247.2,237.0
+3007,1484826,Lesotho,,Maseru,LS,,415,Pentasauropus,227.0,208.5
 3008,1487605,Baden-Wurttemberg,Tubingen,Baden-Wurttemberg,DE,,414,Mucrotherium,208.5,201.4
 3009,1487606,Baden-Wurttemberg,Tubingen,Baden-Wurttemberg,DE,,413,Bolodon,208.5,201.4
 3010,1487610,Baden-Wurttemberg,Tubingen,Baden-Wurttemberg,DE,,412,Thomasia,208.5,201.4
 3011,1487611,Baden-Wurttemberg,Tubingen,Baden-Wurttemberg,DE,,411,Uniserium,208.5,201.4
-3012,1491278,San Juan,,San Juan,AR,,410,Diegocanis,237,227
+3012,1491278,San Juan,,San Juan,AR,,410,Diegocanis,237.0,227.0
 3013,1491390,Texas,Clay,Texas,US,,409,Dimetrodon,298.9,293.52
 3014,1491391,Texas,Clay,Texas,US,,408,Edaphosaurus,298.9,293.52
 3015,1491393,Texas,Clay,Texas,US,,407,Edaphosaurus,298.9,286.1
@@ -2957,31 +2957,31 @@ index,occurrence_no_x,locality,county_original,state,cc,notes,id,genus,age_max,a
 3018,1491820,Texas,Montague,Texas,US,,404,Dimetrodon,298.9,293.52
 3019,1491821,Texas,Montague,Texas,US,,403,Edaphosaurus,298.9,293.52
 3020,1491825,Texas,Archer,Texas,US,,402,Edaphosaurus,298.9,290.1
-3021,1494769,Madhya Pradesh,Shahdol,Madhya Pradesh,IN,,401,Rewaconodon,237,227
+3021,1494769,Madhya Pradesh,Shahdol,Madhya Pradesh,IN,,401,Rewaconodon,237.0,227.0
 3022,1499321,Thuringia,Gotha,Thuringia,DE,,400,Martensius,290.1,283.5
-3023,1503128,Silesia,Lubliniecki,Silesia,PL,,399,Lisowicia,227,201.4
+3023,1503128,Silesia,Lubliniecki,Silesia,PL,,399,Lisowicia,227.0,201.4
 3025,1528467,Shaanxi,,Shaanxi,CN,,397,Taoheodon,259.51,251.902
-3026,1528991,Rio Grande do Sul,,Rio Grande do Sul,BR,,396,Dinodontosaurus,242,227
-3027,1528992,Rio Grande do Sul,,Rio Grande do Sul,BR,,395,Chiniquodon,242,227
-3028,1528993,Rio Grande do Sul,,Rio Grande do Sul,BR,,394,Luangwa,242,227
-3029,1534129,Arizona,,Arizona,US,,393,Kataigidodon,227,208.5
+3026,1528991,Rio Grande do Sul,,Rio Grande do Sul,BR,,396,Dinodontosaurus,242.0,227.0
+3027,1528992,Rio Grande do Sul,,Rio Grande do Sul,BR,,395,Chiniquodon,242.0,227.0
+3028,1528993,Rio Grande do Sul,,Rio Grande do Sul,BR,,394,Luangwa,242.0,227.0
+3029,1534129,Arizona,,Arizona,US,,393,Kataigidodon,227.0,208.5
 3030,1534414,Zambia,,Muchinga,ZM,,392,Nshimbodon,259.51,254.14
 3031,1535405,Kansas,Greenwood County,Kansas,US,,391,Ophiacodon,303.7,298.9
-3032,1539173,Rio Grande do Sul,Faxinal do Soturno,Rio Grande do Sul,BR,,390,Jachaleria,227,208.5
+3032,1539173,Rio Grande do Sul,Faxinal do Soturno,Rio Grande do Sul,BR,,390,Jachaleria,227.0,208.5
 3033,1545287,Oklahoma,Comanche,Oklahoma,US,,389,Arisierpeton,290.1,283.5
 3034,1545881,Thuringia,Gotha District,Thuringia,DE,,388,Cabarzia,298.9,293.52
 3035,1545882,Oklahoma,Comanche,Oklahoma,US,,387,Dimetrodon,290.1,283.5
 3036,1546988,Westphalia,,Westphalia,DE,,386,Lepagia,208.5,201.4
-3037,1547001,Utah,,Utah,US,,385,Ophiacodon,307,273.01
-3038,1547002,Utah,,Utah,US,,384,Edaphosaurus,307,273.01
-3039,1547003,Utah,,Utah,US,,383,Sphenacodon,307,273.01
+3037,1547001,Utah,,Utah,US,,385,Ophiacodon,307.0,273.01
+3038,1547002,Utah,,Utah,US,,384,Edaphosaurus,307.0,273.01
+3039,1547003,Utah,,Utah,US,,383,Sphenacodon,307.0,273.01
 3040,1547013,New Mexico,Sandoval,New Mexico,US,,382,Sphenacodon,298.9,286.1
 3041,1547014,New Mexico,Sandoval,New Mexico,US,,381,Ophiacodon,298.9,286.1
 3042,1547020,New Mexico,Cibola,New Mexico,US,,380,Edaphosaurus,293.52,283.5
 3043,1547022,New Mexico,Socorro,New Mexico,US,,379,Dimetrodon,298.9,286.1
-3044,1558904,Mendoza,,Mendoza,AR,,377,Pentasauropus,242,237
-3045,1558904,Mendoza,,Mendoza,AR,,378,Pentasauropus,242,237
-3046,1558907,Mendoza,,Mendoza,AR,,376,Dicynodontipus,242,237
+3044,1558904,Mendoza,,Mendoza,AR,,377,Pentasauropus,242.0,237.0
+3045,1558904,Mendoza,,Mendoza,AR,,378,Pentasauropus,242.0,237.0
+3046,1558907,Mendoza,,Mendoza,AR,,376,Dicynodontipus,242.0,237.0
 3047,1564215,Oklahoma,Noble,Oklahoma,US,,375,Dimetrodon,290.1,283.5
 3048,1564217,Oklahoma,Noble,Oklahoma,US,,374,Ophiacodon,290.1,283.5
 3049,1567377,Oklahoma,Tillman,Oklahoma,US,,373,Dimetrodon,298.9,251.902
@@ -2989,11 +2989,11 @@ index,occurrence_no_x,locality,county_original,state,cc,notes,id,genus,age_max,a
 3051,1567379,Oklahoma,Tillman,Oklahoma,US,,371,Ophiacodon,298.9,251.902
 3052,1567398,Oklahoma,Tillman,Oklahoma,US,,370,Dimetrodon,298.9,251.902
 3053,1567490,Western Cape,Prince Albert,Western Cape,ZA,,369,Patranomodon,266.9,264.28
-3055,1569234,Eastern Cape,Sterkstroom,Eastern Cape,ZA,,367,Ufudocyclops,247.2,242
-3056,1583880,La Rioja,,La Rioja,AR,,366,Stahleckeria,247.2,237
+3055,1569234,Eastern Cape,Sterkstroom,Eastern Cape,ZA,,367,Ufudocyclops,247.2,242.0
+3056,1583880,La Rioja,,La Rioja,AR,,366,Stahleckeria,247.2,237.0
 3057,1583882,Northern Cape,Victoria West,Northern Cape,ZA,,365,Eriphostoma,259.51,254.14
 3058,1584323,Eastern Cape,,Eastern Cape,ZA,,364,Aelurognathus,259.51,251.902
-3059,1584554,Utah,,Utah,US,,363,Shashajaia,307,273.01
+3059,1584554,Utah,,Utah,US,,363,Shashajaia,307.0,273.01
 3060,1587694,Zambia,,Muchinga,ZM,,362,Diictodon,259.51,254.14
 3061,1587695,Xinjiang,,Xinjiang,CN,,361,Lystrosaurus,251.902,247.2
 3063,1587700,Zambia,,Muchinga,ZM,,359,Isengops,259.51,254.14
@@ -3007,18 +3007,18 @@ index,occurrence_no_x,locality,county_original,state,cc,notes,id,genus,age_max,a
 3071,1589228,Nei Mongol,,Nei Mongol,CN,,351,Caodeyao,259.51,251.902
 3073,1607103,Zambia,,,ZM,,349,Dicynodon,298.9,251.902
 3074,1607105,Mozambique ,,,MZ,,348,Dicynodon,298.9,251.902
-3075,1607307,La Rioja,Independencia,La Rioja,AR,,347,Tessellatia,227,208.5
-3076,1607428,Eastern Cape,Sterkstroom,Eastern Cape,ZA,,346,Impidens,247.2,242
+3075,1607307,La Rioja,Independencia,La Rioja,AR,,347,Tessellatia,227.0,208.5
+3076,1607428,Eastern Cape,Sterkstroom,Eastern Cape,ZA,,346,Impidens,247.2,242.0
 3077,1607804,Texas,,Texas,US,,345,Edaphosaurus,298.9,273.01
 3078,1607817,Texas,,Texas,US,,344,Edaphosaurus,298.9,273.01
 3079,1609864,Northern Region,Rumphi,Northern Region,MW,,343,Kembawacela,259.51,254.14
-3080,1611417,Nova Scotia,,Nova Scotia,CA,,342,Exaeretodon,247.2,242
-3081,1627052,Silesia,,Silesia,PL,,341,Woznikella,237,227
-3082,1627053,Bavaria,Mittelfranken,Bavaria,DE,,340,Woznikella,237,227
+3080,1611417,Nova Scotia,,Nova Scotia,CA,,342,Exaeretodon,247.2,242.0
+3081,1627052,Silesia,,Silesia,PL,,341,Woznikella,237.0,227.0
+3082,1627053,Bavaria,Mittelfranken,Bavaria,DE,,340,Woznikella,237.0,227.0
 3083,1627266,Western Cape,Prince Albert,Western Cape,ZA,,339,Tapinocaninus,266.9,264.28
 3084,1627275,Northern Cape,Hantam,Northern Cape,ZA,,338,Jonkeria,264.28,259.51
 3085,1627335,Catalonia,Lleida,Catalonia,ES,,337,Ennatosaurus,266.9,259.51
-3086,1638999,Thuringia,,Thuringia,DE,,336,Dicynodontipus,251.2,242
+3086,1638999,Thuringia,,Thuringia,DE,,336,Dicynodontipus,251.2,242.0
 3087,1640198,Western Cape,,Western Cape,ZA,,335,Colobodectes,264.28,259.51
 3088,1640224,Northern Cape,,Northern Cape,ZA,,334,Colobodectes,259.51,251.902
 3089,1640225,Northern Cape,,Northern Cape,ZA,,333,Colobodectes,259.51,251.902
@@ -3028,8 +3028,8 @@ index,occurrence_no_x,locality,county_original,state,cc,notes,id,genus,age_max,a
 3093,1640547,Orenburg,Sorochinsk,Orenburg,RU,,329,Peramodon,264.28,256.8
 3094,1640656,Samara,,Samara,RU,,328,Phthinosaurus,273.01,266.9
 3095,1642297,Nei Mongol,,Nei Mongol,CN,,327,Jimusaria,259.51,251.902
-3096,1645217,La Rioja,,La Rioja,AR,,326,Riojanodon,242,227
-3097,1645218,Rio Grande do Sul,,Rio Grande do Sul,BR,,325,Paratraversodon,242,227
+3096,1645217,La Rioja,,La Rioja,AR,,326,Riojanodon,242.0,227.0
+3097,1645218,Rio Grande do Sul,,Rio Grande do Sul,BR,,325,Paratraversodon,242.0,227.0
 3098,1646171,Vologda,,Vologda,RU,,324,Sludica,264.28,259.51
 3099,1646299,Vologda,Velikoustyugskii,Vologda,RU,,323,Inostrancevia,264.28,256.8
 3100,1651600,Ruvuma,Songea,Ruvuma,TZ,,322,Inostrancevia,259.51,254.14
@@ -3047,186 +3047,186 @@ index,occurrence_no_x,locality,county_original,state,cc,notes,id,genus,age_max,a
 3112,N201,Western Cape,-,Western Cape,ZA,,310,Anteosaurus,264.3,259.5
 3113,N202,Northern Cape,-,Northern Cape,ZA,,309,Styracocephalus,264.3,259.5
 3114,N203,Northern Cape,-,Northern Cape,ZA,,308,Styracocephalus,264.3,259.5
-3115,N204,Rio Grande do Sul,Novo Cabrais,Rio Grande do Sul,BR,,307,Exaeretodon,227,208.5
-3116,N205,Rio Grande do Sul,Vila Estancia Nova,Rio Grande do Sul,BR,,306,Santacruzodon,237,227
-3117,N206,Rio Grande do Sul,Linha Sao Luiz,Rio Grande do Sul,BR,,305,Brasilodon,227,208.5
-3118,N207,Rio Grande do Sul,Linha Sao Luiz,Rio Grande do Sul,BR,,304,Brasilodon,227,208.5
-3119,N208,Rio Grande do Sul,Linha Sao Luiz,Rio Grande do Sul,BR,,303,Brasilodon,227,208.5
-3120,N209,Rio Grande do Sul,Linha Sao Luiz,Rio Grande do Sul,BR,,302,Brasilodon,227,208.5
-3121,N210,Rio Grande do Sul,Sesmaria do Pinhal 1,Rio Grande do Sul,BR,,301,Brasilodon,227,208.5
-3122,N211,Rio Grande do Sul,Linha Sao Luiz,Rio Grande do Sul,BR,,300,Brasilodon,227,208.5
-3123,N212,Rio Grande do Sul,Linha Sao Luiz,Rio Grande do Sul,BR,,299,Brasilodon,227,208.5
-3124,N213,Rio Grande do Sul,Linha Sao Luiz,Rio Grande do Sul,BR,,298,Brasilodon,227,208.5
-3125,N214,Rio Grande do Sul,Linha Sao Luiz,Rio Grande do Sul,BR,,297,Brasilodon,227,208.5
-3126,N215,Rio Grande do Sul,Linha Sao Luiz,Rio Grande do Sul,BR,,296,Brasilodon,227,208.5
-3127,N216,Rio Grande do Sul,Linha Sao Luiz,Rio Grande do Sul,BR,,295,Brasilodon,227,208.5
-3128,N217,Rio Grande do Sul,Linha Sao Luiz,Rio Grande do Sul,BR,,294,Brasilodon,227,208.5
-3129,N218,Rio Grande do Sul,Pinheiro,Rio Grande do Sul,BR,,293,Dinodontosaurus,242,237
-3130,N219,Rio Grande do Sul,Pinheiro,Rio Grande do Sul,BR,,292,Dinodontosaurus,242,237
-3131,N220,Rio Grande do Sul,Varzea do Agudo,Rio Grande do Sul,BR,,291,Exaeretodon,227,208.5
-3132,N221,Rio Grande do Sul,Varzea do Agudo,Rio Grande do Sul,BR,,290,Exaeretodon,227,208.5
-3133,N222,Rio Grande do Sul,Varzea do Agudo,Rio Grande do Sul,BR,,289,Exaeretodon,227,208.5
-3134,N223,Rio Grande do Sul,Varzea do Agudo,Rio Grande do Sul,BR,,288,Exaeretodon,227,208.5
-3135,N224,Rio Grande do Sul,Varzea do Agudo,Rio Grande do Sul,BR,,287,Exaeretodon,227,208.5
-3136,N225,Rio Grande do Sul,Varzea do Agudo,Rio Grande do Sul,BR,,286,Exaeretodon,227,208.5
-3137,N226,Rio Grande do Sul,Varzea do Agudo,Rio Grande do Sul,BR,,285,Exaeretodon,227,208.5
-3138,N227,Rio Grande do Sul,Varzea do Agudo,Rio Grande do Sul,BR,,284,Exaeretodon,227,208.5
-3139,N228,Rio Grande do Sul,Varzea do Agudo,Rio Grande do Sul,BR,,283,Exaeretodon,227,208.5
-3140,N229,Rio Grande do Sul,Varzea do Agudo,Rio Grande do Sul,BR,,282,Exaeretodon,227,208.5
-3141,N230,Rio Grande do Sul,Varzea do Agudo,Rio Grande do Sul,BR,,281,Exaeretodon,227,208.5
-3142,N231,Rio Grande do Sul,Varzea do Agudo,Rio Grande do Sul,BR,,280,Exaeretodon,227,208.5
-3143,N232,Rio Grande do Sul,Varzea do Agudo,Rio Grande do Sul,BR,,279,Exaeretodon,227,208.5
-3144,N233,Rio Grande do Sul,Varzea do Agudo,Rio Grande do Sul,BR,,278,Exaeretodon,227,208.5
-3145,N234,Rio Grande do Sul,Varzea do Agudo,Rio Grande do Sul,BR,,277,Exaeretodon,227,208.5
-3146,N235,Rio Grande do Sul,Varzea do Agudo,Rio Grande do Sul,BR,,276,Exaeretodon,227,208.5
-3147,N236,Rio Grande do Sul,Varzea do Agudo,Rio Grande do Sul,BR,,275,Exaeretodon,227,208.5
-3148,N237,Rio Grande do Sul,Varzea do Agudo,Rio Grande do Sul,BR,,274,Exaeretodon,227,208.5
-3149,N238,Rio Grande do Sul,vicinity of Santana da Boa Vista and Amaral Ferrador,Rio Grande do Sul,BR,,273,Exaeretodon,227,208.5
-3150,N239,Rio Grande do Sul,Bom Retiro,Rio Grande do Sul,BR,,272,Sangusaurus,242,237
-3151,N240,Rio Grande do Sul,Cerrito,Rio Grande do Sul,BR,,271,Prozostrodon,227,208.5
-3152,N241,Rio Grande do Sul,-,Rio Grande do Sul,BR,,270,Paratraversodon,242,237
-3153,N242,Rio Grande do Sul,Pinheiro,Rio Grande do Sul,BR,,269,Dinodontosaurus,242,237
-3154,N243,Rio Grande do Sul,Pinheiro,Rio Grande do Sul,BR,,268,Dinodontosaurus,242,237
-3155,N244,Rio Grande do Sul,Botucara,Rio Grande do Sul,BR,,267,Jachaleria,227,208.5
-3156,N245,Rio Grande do Sul,Vila Melos,Rio Grande do Sul,BR,,266,Massetognathus,242,237
-3157,N246,Rio Grande do Sul,Pinheiro,Rio Grande do Sul,BR,,265,Massetognathus,242,237
-3158,N247,Rio Grande do Sul,Pinheiro,Rio Grande do Sul,BR,,264,Massetognathus,242,237
-3159,N248,Rio Grande do Sul,Rincao do Pinhal,Rio Grande do Sul,BR,,263,Dinodontosaurus,242,237
-3160,N249,Rio Grande do Sul,Pinheiro,Rio Grande do Sul,BR,,262,Dinodontosaurus,242,237
-3161,N250,Rio Grande do Sul,Linha Varzea 2,Rio Grande do Sul,BR,,261,Dinodontosaurus,242,237
-3162,N251,Rio Grande do Sul,Linha Varzea 1,Rio Grande do Sul,BR,,260,Dinodontosaurus,242,237
-3163,N252,Rio Grande do Sul,Linha Varzea 1,Rio Grande do Sul,BR,,259,Dinodontosaurus,242,237
-3164,N253,Rio Grande do Sul,Linha Varzea 1,Rio Grande do Sul,BR,,258,Dinodontosaurus,242,237
-3165,N254,Rio Grande do Sul,Rincao do Semiao,Rio Grande do Sul,BR,,257,Aleodon,242,237
-3166,N255,Rio Grande do Sul,Sanga Nicanor,Rio Grande do Sul,BR,,256,Aleodon,242,237
-3167,N256,Rio Grande do Sul,Porto Mariante 2,Rio Grande do Sul,BR,,255,Aleodon,242,237
-3168,N257,Rio Grande do Sul,Pinheiro,Rio Grande do Sul,BR,,254,Bonacynodon ,242,237
-3169,N258,Rio Grande do Sul,Pinheiro,Rio Grande do Sul,BR,,253,Bonacynodon ,242,237
-3170,N259,Rio Grande do Sul,Cria Farm,Rio Grande do Sul,BR,,252,Luangwa,242,237
-3171,N260,Rio Grande do Sul,Vera Cruz,Rio Grande do Sul,BR,,251,Santacruzodon,237,227
-3172,N261,Rio Grande do Sul,Rincao da Porta,Rio Grande do Sul,BR,,250,Dinodontosaurus,242,237
-3173,N262,Rio Grande do Sul,Rincao da Porta,Rio Grande do Sul,BR,,249,Dinodontosaurus,242,237
-3174,N263,Rio Grande do Sul,Vila Melos,Rio Grande do Sul,BR,,248,Dinodontosaurus,242,237
-3175,N264,Rio Grande do Sul,Pinheiro,Rio Grande do Sul,BR,,247,Dinodontosaurus,242,237
-3176,N265,Rio Grande do Sul,Bom Retiro,Rio Grande do Sul,BR,,246,Dinodontosaurus,242,237
-3177,N266,Rio Grande do Sul,Bom Retiro,Rio Grande do Sul,BR,,245,Dinodontosaurus,242,237
-3178,N267,Rio Grande do Sul,Bom Retiro,Rio Grande do Sul,BR,,244,Dinodontosaurus,242,237
-3179,N268,Rio Grande do Sul,Bom Retiro,Rio Grande do Sul,BR,,243,Dinodontosaurus,242,237
-3180,N269,Rio Grande do Sul,Bom Retiro,Rio Grande do Sul,BR,,242,Dinodontosaurus,242,237
-3181,N270,Rio Grande do Sul,Bom Retiro,Rio Grande do Sul,BR,,241,Dinodontosaurus,242,237
-3182,N271,Rio Grande do Sul,Bom Retiro,Rio Grande do Sul,BR,,240,Dinodontosaurus,242,237
-3183,N272,Rio Grande do Sul,Bom Retiro,Rio Grande do Sul,BR,,239,Dinodontosaurus,242,237
-3184,N273,Rio Grande do Sul,Bom Retiro,Rio Grande do Sul,BR,,238,Dinodontosaurus,242,237
-3185,N274,Rio Grande do Sul,Bom Retiro,Rio Grande do Sul,BR,,237,Dinodontosaurus,242,237
-3186,N275,Rio Grande do Sul,Rincao do Pinhal,Rio Grande do Sul,BR,,236,Dinodontosaurus,242,237
-3187,N276,Rio Grande do Sul,Linha Sao Luiz,Rio Grande do Sul,BR,,235,Brasilodon,227,208.5
+3115,N204,Rio Grande do Sul,Novo Cabrais,Rio Grande do Sul,BR,,307,Exaeretodon,227.0,208.5
+3116,N205,Rio Grande do Sul,Vila Estancia Nova,Rio Grande do Sul,BR,,306,Santacruzodon,237.0,227.0
+3117,N206,Rio Grande do Sul,Linha Sao Luiz,Rio Grande do Sul,BR,,305,Brasilodon,227.0,208.5
+3118,N207,Rio Grande do Sul,Linha Sao Luiz,Rio Grande do Sul,BR,,304,Brasilodon,227.0,208.5
+3119,N208,Rio Grande do Sul,Linha Sao Luiz,Rio Grande do Sul,BR,,303,Brasilodon,227.0,208.5
+3120,N209,Rio Grande do Sul,Linha Sao Luiz,Rio Grande do Sul,BR,,302,Brasilodon,227.0,208.5
+3121,N210,Rio Grande do Sul,Sesmaria do Pinhal 1,Rio Grande do Sul,BR,,301,Brasilodon,227.0,208.5
+3122,N211,Rio Grande do Sul,Linha Sao Luiz,Rio Grande do Sul,BR,,300,Brasilodon,227.0,208.5
+3123,N212,Rio Grande do Sul,Linha Sao Luiz,Rio Grande do Sul,BR,,299,Brasilodon,227.0,208.5
+3124,N213,Rio Grande do Sul,Linha Sao Luiz,Rio Grande do Sul,BR,,298,Brasilodon,227.0,208.5
+3125,N214,Rio Grande do Sul,Linha Sao Luiz,Rio Grande do Sul,BR,,297,Brasilodon,227.0,208.5
+3126,N215,Rio Grande do Sul,Linha Sao Luiz,Rio Grande do Sul,BR,,296,Brasilodon,227.0,208.5
+3127,N216,Rio Grande do Sul,Linha Sao Luiz,Rio Grande do Sul,BR,,295,Brasilodon,227.0,208.5
+3128,N217,Rio Grande do Sul,Linha Sao Luiz,Rio Grande do Sul,BR,,294,Brasilodon,227.0,208.5
+3129,N218,Rio Grande do Sul,Pinheiro,Rio Grande do Sul,BR,,293,Dinodontosaurus,242.0,237.0
+3130,N219,Rio Grande do Sul,Pinheiro,Rio Grande do Sul,BR,,292,Dinodontosaurus,242.0,237.0
+3131,N220,Rio Grande do Sul,Varzea do Agudo,Rio Grande do Sul,BR,,291,Exaeretodon,227.0,208.5
+3132,N221,Rio Grande do Sul,Varzea do Agudo,Rio Grande do Sul,BR,,290,Exaeretodon,227.0,208.5
+3133,N222,Rio Grande do Sul,Varzea do Agudo,Rio Grande do Sul,BR,,289,Exaeretodon,227.0,208.5
+3134,N223,Rio Grande do Sul,Varzea do Agudo,Rio Grande do Sul,BR,,288,Exaeretodon,227.0,208.5
+3135,N224,Rio Grande do Sul,Varzea do Agudo,Rio Grande do Sul,BR,,287,Exaeretodon,227.0,208.5
+3136,N225,Rio Grande do Sul,Varzea do Agudo,Rio Grande do Sul,BR,,286,Exaeretodon,227.0,208.5
+3137,N226,Rio Grande do Sul,Varzea do Agudo,Rio Grande do Sul,BR,,285,Exaeretodon,227.0,208.5
+3138,N227,Rio Grande do Sul,Varzea do Agudo,Rio Grande do Sul,BR,,284,Exaeretodon,227.0,208.5
+3139,N228,Rio Grande do Sul,Varzea do Agudo,Rio Grande do Sul,BR,,283,Exaeretodon,227.0,208.5
+3140,N229,Rio Grande do Sul,Varzea do Agudo,Rio Grande do Sul,BR,,282,Exaeretodon,227.0,208.5
+3141,N230,Rio Grande do Sul,Varzea do Agudo,Rio Grande do Sul,BR,,281,Exaeretodon,227.0,208.5
+3142,N231,Rio Grande do Sul,Varzea do Agudo,Rio Grande do Sul,BR,,280,Exaeretodon,227.0,208.5
+3143,N232,Rio Grande do Sul,Varzea do Agudo,Rio Grande do Sul,BR,,279,Exaeretodon,227.0,208.5
+3144,N233,Rio Grande do Sul,Varzea do Agudo,Rio Grande do Sul,BR,,278,Exaeretodon,227.0,208.5
+3145,N234,Rio Grande do Sul,Varzea do Agudo,Rio Grande do Sul,BR,,277,Exaeretodon,227.0,208.5
+3146,N235,Rio Grande do Sul,Varzea do Agudo,Rio Grande do Sul,BR,,276,Exaeretodon,227.0,208.5
+3147,N236,Rio Grande do Sul,Varzea do Agudo,Rio Grande do Sul,BR,,275,Exaeretodon,227.0,208.5
+3148,N237,Rio Grande do Sul,Varzea do Agudo,Rio Grande do Sul,BR,,274,Exaeretodon,227.0,208.5
+3149,N238,Rio Grande do Sul,vicinity of Santana da Boa Vista and Amaral Ferrador,Rio Grande do Sul,BR,,273,Exaeretodon,227.0,208.5
+3150,N239,Rio Grande do Sul,Bom Retiro,Rio Grande do Sul,BR,,272,Sangusaurus,242.0,237.0
+3151,N240,Rio Grande do Sul,Cerrito,Rio Grande do Sul,BR,,271,Prozostrodon,227.0,208.5
+3152,N241,Rio Grande do Sul,-,Rio Grande do Sul,BR,,270,Paratraversodon,242.0,237.0
+3153,N242,Rio Grande do Sul,Pinheiro,Rio Grande do Sul,BR,,269,Dinodontosaurus,242.0,237.0
+3154,N243,Rio Grande do Sul,Pinheiro,Rio Grande do Sul,BR,,268,Dinodontosaurus,242.0,237.0
+3155,N244,Rio Grande do Sul,Botucara,Rio Grande do Sul,BR,,267,Jachaleria,227.0,208.5
+3156,N245,Rio Grande do Sul,Vila Melos,Rio Grande do Sul,BR,,266,Massetognathus,242.0,237.0
+3157,N246,Rio Grande do Sul,Pinheiro,Rio Grande do Sul,BR,,265,Massetognathus,242.0,237.0
+3158,N247,Rio Grande do Sul,Pinheiro,Rio Grande do Sul,BR,,264,Massetognathus,242.0,237.0
+3159,N248,Rio Grande do Sul,Rincao do Pinhal,Rio Grande do Sul,BR,,263,Dinodontosaurus,242.0,237.0
+3160,N249,Rio Grande do Sul,Pinheiro,Rio Grande do Sul,BR,,262,Dinodontosaurus,242.0,237.0
+3161,N250,Rio Grande do Sul,Linha Varzea 2,Rio Grande do Sul,BR,,261,Dinodontosaurus,242.0,237.0
+3162,N251,Rio Grande do Sul,Linha Varzea 1,Rio Grande do Sul,BR,,260,Dinodontosaurus,242.0,237.0
+3163,N252,Rio Grande do Sul,Linha Varzea 1,Rio Grande do Sul,BR,,259,Dinodontosaurus,242.0,237.0
+3164,N253,Rio Grande do Sul,Linha Varzea 1,Rio Grande do Sul,BR,,258,Dinodontosaurus,242.0,237.0
+3165,N254,Rio Grande do Sul,Rincao do Semiao,Rio Grande do Sul,BR,,257,Aleodon,242.0,237.0
+3166,N255,Rio Grande do Sul,Sanga Nicanor,Rio Grande do Sul,BR,,256,Aleodon,242.0,237.0
+3167,N256,Rio Grande do Sul,Porto Mariante 2,Rio Grande do Sul,BR,,255,Aleodon,242.0,237.0
+3168,N257,Rio Grande do Sul,Pinheiro,Rio Grande do Sul,BR,,254,Bonacynodon ,242.0,237.0
+3169,N258,Rio Grande do Sul,Pinheiro,Rio Grande do Sul,BR,,253,Bonacynodon ,242.0,237.0
+3170,N259,Rio Grande do Sul,Cria Farm,Rio Grande do Sul,BR,,252,Luangwa,242.0,237.0
+3171,N260,Rio Grande do Sul,Vera Cruz,Rio Grande do Sul,BR,,251,Santacruzodon,237.0,227.0
+3172,N261,Rio Grande do Sul,Rincao da Porta,Rio Grande do Sul,BR,,250,Dinodontosaurus,242.0,237.0
+3173,N262,Rio Grande do Sul,Rincao da Porta,Rio Grande do Sul,BR,,249,Dinodontosaurus,242.0,237.0
+3174,N263,Rio Grande do Sul,Vila Melos,Rio Grande do Sul,BR,,248,Dinodontosaurus,242.0,237.0
+3175,N264,Rio Grande do Sul,Pinheiro,Rio Grande do Sul,BR,,247,Dinodontosaurus,242.0,237.0
+3176,N265,Rio Grande do Sul,Bom Retiro,Rio Grande do Sul,BR,,246,Dinodontosaurus,242.0,237.0
+3177,N266,Rio Grande do Sul,Bom Retiro,Rio Grande do Sul,BR,,245,Dinodontosaurus,242.0,237.0
+3178,N267,Rio Grande do Sul,Bom Retiro,Rio Grande do Sul,BR,,244,Dinodontosaurus,242.0,237.0
+3179,N268,Rio Grande do Sul,Bom Retiro,Rio Grande do Sul,BR,,243,Dinodontosaurus,242.0,237.0
+3180,N269,Rio Grande do Sul,Bom Retiro,Rio Grande do Sul,BR,,242,Dinodontosaurus,242.0,237.0
+3181,N270,Rio Grande do Sul,Bom Retiro,Rio Grande do Sul,BR,,241,Dinodontosaurus,242.0,237.0
+3182,N271,Rio Grande do Sul,Bom Retiro,Rio Grande do Sul,BR,,240,Dinodontosaurus,242.0,237.0
+3183,N272,Rio Grande do Sul,Bom Retiro,Rio Grande do Sul,BR,,239,Dinodontosaurus,242.0,237.0
+3184,N273,Rio Grande do Sul,Bom Retiro,Rio Grande do Sul,BR,,238,Dinodontosaurus,242.0,237.0
+3185,N274,Rio Grande do Sul,Bom Retiro,Rio Grande do Sul,BR,,237,Dinodontosaurus,242.0,237.0
+3186,N275,Rio Grande do Sul,Rincao do Pinhal,Rio Grande do Sul,BR,,236,Dinodontosaurus,242.0,237.0
+3187,N276,Rio Grande do Sul,Linha Sao Luiz,Rio Grande do Sul,BR,,235,Brasilodon,227.0,208.5
 3188,N277,Rio Grande do Sul,Catuaba,Rio Grande do Sul,BR,,234,Pampaphoneus,266.9,264.3
-3189,N278,Rio Grande do Sul,Varzea do Agudo,Rio Grande do Sul,BR,,233,Exaeretodon,227,208.5
-3190,N279,Rio Grande do Sul,Varzea do Agudo,Rio Grande do Sul,BR,,232,Exaeretodon,227,208.5
-3191,N280,Rio Grande do Sul,Varzea do Agudo,Rio Grande do Sul,BR,,231,Exaeretodon,227,208.5
-3192,N281,Rio Grande do Sul,Varzea do Agudo,Rio Grande do Sul,BR,,230,Exaeretodon,227,208.5
-3193,N282,Rio Grande do Sul,Varzea do Agudo,Rio Grande do Sul,BR,,229,Exaeretodon,227,208.5
-3194,N283,Rio Grande do Sul,-,Rio Grande do Sul,BR,,228,Santagnathus,227,208.5
-3195,N284,Rio Grande do Sul,-,Rio Grande do Sul,BR,,227,Santagnathus,227,208.5
-3196,N285,Rio Grande do Sul,-,Rio Grande do Sul,BR,,226,Santagnathus,227,208.5
-3197,N286,Rio Grande do Sul,-,Rio Grande do Sul,BR,,225,Santagnathus,227,208.5
-3198,N287,Rio Grande do Sul,-,Rio Grande do Sul,BR,,224,Santagnathus,227,208.5
-3199,N288,Rio Grande do Sul,-,Rio Grande do Sul,BR,,223,Santagnathus,227,208.5
-3200,N289,Rio Grande do Sul,-,Rio Grande do Sul,BR,,222,Santagnathus,227,208.5
-3201,N290,Rio Grande do Sul,-,Rio Grande do Sul,BR,,221,Santagnathus,227,208.5
-3202,N291,Rio Grande do Sul,-,Rio Grande do Sul,BR,,220,Santagnathus,227,208.5
-3203,N292,Rio Grande do Sul,-,Rio Grande do Sul,BR,,219,Santagnathus,227,208.5
-3204,N293,Rio Grande do Sul,-,Rio Grande do Sul,BR,,218,Santagnathus,227,208.5
-3205,N294,Rio Grande do Sul,-,Rio Grande do Sul,BR,,217,Santagnathus,227,208.5
-3206,N295,Rio Grande do Sul,-,Rio Grande do Sul,BR,,216,Santagnathus,227,208.5
-3207,N296,Rio Grande do Sul,-,Rio Grande do Sul,BR,,215,Santagnathus,227,208.5
-3208,N297,Rio Grande do Sul,-,Rio Grande do Sul,BR,,214,Santagnathus,227,208.5
-3209,N298,Rio Grande do Sul,-,Rio Grande do Sul,BR,,213,Santagnathus,227,208.5
-3210,N299,Rio Grande do Sul,-,Rio Grande do Sul,BR,,212,Santagnathus,227,208.5
-3211,N300,Rio Grande do Sul,-,Rio Grande do Sul,BR,,211,Santagnathus,227,208.5
-3212,N301,Rio Grande do Sul,-,Rio Grande do Sul,BR,,210,Santagnathus,227,208.5
-3213,N302,Rio Grande do Sul,-,Rio Grande do Sul,BR,,209,Santagnathus,227,208.5
-3214,N303,Rio Grande do Sul,-,Rio Grande do Sul,BR,,208,Santagnathus,227,208.5
-3215,N304,Rio Grande do Sul,-,Rio Grande do Sul,BR,,207,Santagnathus,227,208.5
-3216,N305,Rio Grande do Sul,-,Rio Grande do Sul,BR,,206,Santagnathus,227,208.5
-3217,N306,Rio Grande do Sul,-,Rio Grande do Sul,BR,,205,Santagnathus,227,208.5
-3218,N307,Rio Grande do Sul,-,Rio Grande do Sul,BR,,204,Santagnathus,227,208.5
-3219,N308,Rio Grande do Sul,-,Rio Grande do Sul,BR,,203,Santagnathus,227,208.5
-3220,N309,Rio Grande do Sul,-,Rio Grande do Sul,BR,,202,Santagnathus,227,208.5
-3221,N310,Rio Grande do Sul,-,Rio Grande do Sul,BR,,201,Santagnathus,227,208.5
-3222,N311,Rio Grande do Sul,-,Rio Grande do Sul,BR,,200,Santagnathus,227,208.5
-3223,N312,Rio Grande do Sul,-,Rio Grande do Sul,BR,,199,Santagnathus,227,208.5
-3224,N313,Rio Grande do Sul,-,Rio Grande do Sul,BR,,198,Santagnathus,227,208.5
-3225,N314,Rio Grande do Sul,-,Rio Grande do Sul,BR,,197,Santagnathus,227,208.5
-3226,N315,Rio Grande do Sul,-,Rio Grande do Sul,BR,,196,Santagnathus,227,208.5
-3227,N316,Rio Grande do Sul,-,Rio Grande do Sul,BR,,195,Santagnathus,227,208.5
-3228,N317,Rio Grande do Sul,-,Rio Grande do Sul,BR,,194,Santagnathus,227,208.5
-3229,N318,Rio Grande do Sul,-,Rio Grande do Sul,BR,,193,Santagnathus,227,208.5
-3230,N319,Rio Grande do Sul,-,Rio Grande do Sul,BR,,192,Santagnathus,227,208.5
-3231,N320,Rio Grande do Sul,-,Rio Grande do Sul,BR,,191,Santagnathus,227,208.5
-3232,N321,Rio Grande do Sul,-,Rio Grande do Sul,BR,,190,Santagnathus,227,208.5
-3233,N322,Rio Grande do Sul,-,Rio Grande do Sul,BR,,189,Santagnathus,227,208.5
-3234,N323,Rio Grande do Sul,-,Rio Grande do Sul,BR,,188,Santagnathus,227,208.5
-3235,N324,Rio Grande do Sul,-,Rio Grande do Sul,BR,,187,Santagnathus,227,208.5
-3236,N325,Rio Grande do Sul,-,Rio Grande do Sul,BR,,186,Santagnathus,227,208.5
-3237,N326,Rio Grande do Sul,-,Rio Grande do Sul,BR,,185,Santagnathus,227,208.5
-3238,N327,Rio Grande do Sul,-,Rio Grande do Sul,BR,,184,Santagnathus,227,208.5
-3239,N328,Rio Grande do Sul,-,Rio Grande do Sul,BR,,183,Santagnathus,227,208.5
-3240,N329,Rio Grande do Sul,-,Rio Grande do Sul,BR,,182,Santagnathus,227,208.5
-3241,N330,Rio Grande do Sul,-,Rio Grande do Sul,BR,,181,Santagnathus,227,208.5
-3242,N331,Rio Grande do Sul,-,Rio Grande do Sul,BR,,180,Santagnathus,227,208.5
-3243,N332,Rio Grande do Sul,-,Rio Grande do Sul,BR,,179,Santagnathus,227,208.5
-3244,N333,Rio Grande do Sul,-,Rio Grande do Sul,BR,,178,Santagnathus,227,208.5
-3245,N334,Rio Grande do Sul,-,Rio Grande do Sul,BR,,177,Santagnathus,227,208.5
-3246,N335,Rio Grande do Sul,-,Rio Grande do Sul,BR,,176,Santagnathus,227,208.5
-3247,N336,Rio Grande do Sul,-,Rio Grande do Sul,BR,,175,Santagnathus,227,208.5
-3248,N337,Rio Grande do Sul,-,Rio Grande do Sul,BR,,174,Santagnathus,227,208.5
-3249,N338,Rio Grande do Sul,-,Rio Grande do Sul,BR,,173,Santagnathus,227,208.5
-3250,N339,Rio Grande do Sul,-,Rio Grande do Sul,BR,,172,Santagnathus,227,208.5
-3251,N340,Rio Grande do Sul,-,Rio Grande do Sul,BR,,171,Santagnathus,227,208.5
-3252,N341,Rio Grande do Sul,-,Rio Grande do Sul,BR,,170,Santagnathus,227,208.5
-3253,N342,Rio Grande do Sul,-,Rio Grande do Sul,BR,,169,Santagnathus,227,208.5
-3254,N343,Rio Grande do Sul,-,Rio Grande do Sul,BR,,168,Santagnathus,227,208.5
-3255,N344,Rio Grande do Sul,-,Rio Grande do Sul,BR,,167,Santagnathus,227,208.5
-3256,N345,Rio Grande do Sul,-,Rio Grande do Sul,BR,,166,Santagnathus,227,208.5
-3257,N346,Rio Grande do Sul,-,Rio Grande do Sul,BR,,165,Santagnathus,227,208.5
-3258,N347,Rio Grande do Sul,-,Rio Grande do Sul,BR,,164,Santagnathus,227,208.5
-3259,N348,Rio Grande do Sul,Varzea do Agudo,Rio Grande do Sul,BR,,163,Trucidocynodon,227,208.5
-3260,N349,Rio Grande do Sul,-,Rio Grande do Sul,BR,,162,Dinodontosaurus,242,237
-3261,N350,Rio Grande do Sul,Varzea do Agudo,Rio Grande do Sul,BR,,161,Exaeretodon,227,208.5
-3262,N351,Rio Grande do Sul,-,Rio Grande do Sul,BR,,160,Dinodontosaurus,242,237
-3263,N352,Rio Grande do Sul,Varzea do Agudo,Rio Grande do Sul,BR,,159,Exaeretodon,227,208.5
-3264,N353,Rio Grande do Sul,-,Rio Grande do Sul,BR,,158,Dinodontosaurus,242,237
-3265,N354,Rio Grande do Sul,-,Rio Grande do Sul,BR,,157,Dinodontosaurus,242,237
-3266,N355,Rio Grande do Sul,-,Rio Grande do Sul,BR,,156,Dinodontosaurus,242,237
-3267,N356,Rio Grande do Sul,-,Rio Grande do Sul,BR,,155,Dinodontosaurus,242,237
-3268,N357,Rio Grande do Sul,- ,Rio Grande do Sul,BR,,154,Dinodontosaurus,242,237
-3269,N358,Rio Grande do Sul,-,Rio Grande do Sul,BR,,153,Aleodon,242,237
-3270,N359,Rio Grande do Sul,-,Rio Grande do Sul,BR,,152,Massetognathus,242,237
-3271,N360,Rio Grande do Sul,-,Rio Grande do Sul,BR,,151,Riograndia,227,208.5
-3272,N361,Rio Grande do Sul,Semaria III Poste do outro lado,Rio Grande do Sul,BR,,150,Brasilodon,227,208.5
-3273,N362,Rio Grande do Sul,-,Rio Grande do Sul,BR,,149,Exaeretodon,227,208.5
-3274,N363,Rio Grande do Sul,-,Rio Grande do Sul,BR,,148,Dinodontosaurus,242,237
-3275,N364,Rio Grande do Sul,Rincao da Porta,Rio Grande do Sul,BR,,147,Dinodontosaurus,242,237
-3276,N365,Rio Grande do Sul,Bom Retiro,Rio Grande do Sul,BR,,146,Dinodontosaurus,242,237
-3277,N366,Rio Grande do Sul,-,Rio Grande do Sul,BR,,145,Dinodontosaurus,242,237
-3278,N367,Rio Grande do Sul,-,Rio Grande do Sul,BR,,144,Dinodontosaurus,242,237
-3279,N368,Rio Grande do Sul,-,Rio Grande do Sul,BR,,143,Dinodontosaurus,242,237
-3280,N369,Rio Grande do Sul,Rincao do Semiao,Rio Grande do Sul,BR,,142,Protuberum,242,237
-3281,N370,Rio Grande do Sul,Rincao do Semiao,Rio Grande do Sul,BR,,141,Dinodontosaurus,242,237
-3282,N371,Rio Grande do Sul,-,Rio Grande do Sul,BR,,140,Dinodontosaurus,242,237
-3283,N372,Rio Grande do Sul,-,Rio Grande do Sul,BR,,139,Dinodontosaurus,242,237
-3284,N373,Rio Grande do Sul,-,Rio Grande do Sul,BR,,138,Dinodontosaurus,242,237
-3285,N374,Rio Grande do Sul,-,Rio Grande do Sul,BR,,137,Dinodontosaurus,242,237
-3286,N375,Rio Grande do Sul,-,Rio Grande do Sul,BR,,136,Dinodontosaurus,242,237
-3287,N376,Rio Grande do Sul,-,Rio Grande do Sul,BR,,135,Dinodontosaurus,242,237
-3288,N377,Rio Grande do Sul,BR 158 federal road,Rio Grande do Sul,BR,,134,Dinodontosaurus,242,237
-3289,N378,Rio Grande do Sul,-,Rio Grande do Sul,BR,,133,Dinodontosaurus,242,237
-3290,N379,Rio Grande do Sul,BR 158 federal road,Rio Grande do Sul,BR,,132,Dinodontosaurus,242,237
-3291,N380,Rio Grande do Sul,Linha Facao,Rio Grande do Sul,BR,,131,Exaeretodon,227,208.5
-3292,N381,Rio Grande do Sul,Rincao do Semiao,Rio Grande do Sul,BR,,130,Dinodontosaurus,242,237
-3293,N382,Rio Grande do Sul,Sesmaria do Pinhal,Rio Grande do Sul,BR,,129,Jachaleria,227,208.5
-3294,N383,Rio Grande do Sul,Sesmaria do Pinhal,Rio Grande do Sul,BR,,128,Jachaleria,227,208.5
+3189,N278,Rio Grande do Sul,Varzea do Agudo,Rio Grande do Sul,BR,,233,Exaeretodon,227.0,208.5
+3190,N279,Rio Grande do Sul,Varzea do Agudo,Rio Grande do Sul,BR,,232,Exaeretodon,227.0,208.5
+3191,N280,Rio Grande do Sul,Varzea do Agudo,Rio Grande do Sul,BR,,231,Exaeretodon,227.0,208.5
+3192,N281,Rio Grande do Sul,Varzea do Agudo,Rio Grande do Sul,BR,,230,Exaeretodon,227.0,208.5
+3193,N282,Rio Grande do Sul,Varzea do Agudo,Rio Grande do Sul,BR,,229,Exaeretodon,227.0,208.5
+3194,N283,Rio Grande do Sul,-,Rio Grande do Sul,BR,,228,Santagnathus,227.0,208.5
+3195,N284,Rio Grande do Sul,-,Rio Grande do Sul,BR,,227,Santagnathus,227.0,208.5
+3196,N285,Rio Grande do Sul,-,Rio Grande do Sul,BR,,226,Santagnathus,227.0,208.5
+3197,N286,Rio Grande do Sul,-,Rio Grande do Sul,BR,,225,Santagnathus,227.0,208.5
+3198,N287,Rio Grande do Sul,-,Rio Grande do Sul,BR,,224,Santagnathus,227.0,208.5
+3199,N288,Rio Grande do Sul,-,Rio Grande do Sul,BR,,223,Santagnathus,227.0,208.5
+3200,N289,Rio Grande do Sul,-,Rio Grande do Sul,BR,,222,Santagnathus,227.0,208.5
+3201,N290,Rio Grande do Sul,-,Rio Grande do Sul,BR,,221,Santagnathus,227.0,208.5
+3202,N291,Rio Grande do Sul,-,Rio Grande do Sul,BR,,220,Santagnathus,227.0,208.5
+3203,N292,Rio Grande do Sul,-,Rio Grande do Sul,BR,,219,Santagnathus,227.0,208.5
+3204,N293,Rio Grande do Sul,-,Rio Grande do Sul,BR,,218,Santagnathus,227.0,208.5
+3205,N294,Rio Grande do Sul,-,Rio Grande do Sul,BR,,217,Santagnathus,227.0,208.5
+3206,N295,Rio Grande do Sul,-,Rio Grande do Sul,BR,,216,Santagnathus,227.0,208.5
+3207,N296,Rio Grande do Sul,-,Rio Grande do Sul,BR,,215,Santagnathus,227.0,208.5
+3208,N297,Rio Grande do Sul,-,Rio Grande do Sul,BR,,214,Santagnathus,227.0,208.5
+3209,N298,Rio Grande do Sul,-,Rio Grande do Sul,BR,,213,Santagnathus,227.0,208.5
+3210,N299,Rio Grande do Sul,-,Rio Grande do Sul,BR,,212,Santagnathus,227.0,208.5
+3211,N300,Rio Grande do Sul,-,Rio Grande do Sul,BR,,211,Santagnathus,227.0,208.5
+3212,N301,Rio Grande do Sul,-,Rio Grande do Sul,BR,,210,Santagnathus,227.0,208.5
+3213,N302,Rio Grande do Sul,-,Rio Grande do Sul,BR,,209,Santagnathus,227.0,208.5
+3214,N303,Rio Grande do Sul,-,Rio Grande do Sul,BR,,208,Santagnathus,227.0,208.5
+3215,N304,Rio Grande do Sul,-,Rio Grande do Sul,BR,,207,Santagnathus,227.0,208.5
+3216,N305,Rio Grande do Sul,-,Rio Grande do Sul,BR,,206,Santagnathus,227.0,208.5
+3217,N306,Rio Grande do Sul,-,Rio Grande do Sul,BR,,205,Santagnathus,227.0,208.5
+3218,N307,Rio Grande do Sul,-,Rio Grande do Sul,BR,,204,Santagnathus,227.0,208.5
+3219,N308,Rio Grande do Sul,-,Rio Grande do Sul,BR,,203,Santagnathus,227.0,208.5
+3220,N309,Rio Grande do Sul,-,Rio Grande do Sul,BR,,202,Santagnathus,227.0,208.5
+3221,N310,Rio Grande do Sul,-,Rio Grande do Sul,BR,,201,Santagnathus,227.0,208.5
+3222,N311,Rio Grande do Sul,-,Rio Grande do Sul,BR,,200,Santagnathus,227.0,208.5
+3223,N312,Rio Grande do Sul,-,Rio Grande do Sul,BR,,199,Santagnathus,227.0,208.5
+3224,N313,Rio Grande do Sul,-,Rio Grande do Sul,BR,,198,Santagnathus,227.0,208.5
+3225,N314,Rio Grande do Sul,-,Rio Grande do Sul,BR,,197,Santagnathus,227.0,208.5
+3226,N315,Rio Grande do Sul,-,Rio Grande do Sul,BR,,196,Santagnathus,227.0,208.5
+3227,N316,Rio Grande do Sul,-,Rio Grande do Sul,BR,,195,Santagnathus,227.0,208.5
+3228,N317,Rio Grande do Sul,-,Rio Grande do Sul,BR,,194,Santagnathus,227.0,208.5
+3229,N318,Rio Grande do Sul,-,Rio Grande do Sul,BR,,193,Santagnathus,227.0,208.5
+3230,N319,Rio Grande do Sul,-,Rio Grande do Sul,BR,,192,Santagnathus,227.0,208.5
+3231,N320,Rio Grande do Sul,-,Rio Grande do Sul,BR,,191,Santagnathus,227.0,208.5
+3232,N321,Rio Grande do Sul,-,Rio Grande do Sul,BR,,190,Santagnathus,227.0,208.5
+3233,N322,Rio Grande do Sul,-,Rio Grande do Sul,BR,,189,Santagnathus,227.0,208.5
+3234,N323,Rio Grande do Sul,-,Rio Grande do Sul,BR,,188,Santagnathus,227.0,208.5
+3235,N324,Rio Grande do Sul,-,Rio Grande do Sul,BR,,187,Santagnathus,227.0,208.5
+3236,N325,Rio Grande do Sul,-,Rio Grande do Sul,BR,,186,Santagnathus,227.0,208.5
+3237,N326,Rio Grande do Sul,-,Rio Grande do Sul,BR,,185,Santagnathus,227.0,208.5
+3238,N327,Rio Grande do Sul,-,Rio Grande do Sul,BR,,184,Santagnathus,227.0,208.5
+3239,N328,Rio Grande do Sul,-,Rio Grande do Sul,BR,,183,Santagnathus,227.0,208.5
+3240,N329,Rio Grande do Sul,-,Rio Grande do Sul,BR,,182,Santagnathus,227.0,208.5
+3241,N330,Rio Grande do Sul,-,Rio Grande do Sul,BR,,181,Santagnathus,227.0,208.5
+3242,N331,Rio Grande do Sul,-,Rio Grande do Sul,BR,,180,Santagnathus,227.0,208.5
+3243,N332,Rio Grande do Sul,-,Rio Grande do Sul,BR,,179,Santagnathus,227.0,208.5
+3244,N333,Rio Grande do Sul,-,Rio Grande do Sul,BR,,178,Santagnathus,227.0,208.5
+3245,N334,Rio Grande do Sul,-,Rio Grande do Sul,BR,,177,Santagnathus,227.0,208.5
+3246,N335,Rio Grande do Sul,-,Rio Grande do Sul,BR,,176,Santagnathus,227.0,208.5
+3247,N336,Rio Grande do Sul,-,Rio Grande do Sul,BR,,175,Santagnathus,227.0,208.5
+3248,N337,Rio Grande do Sul,-,Rio Grande do Sul,BR,,174,Santagnathus,227.0,208.5
+3249,N338,Rio Grande do Sul,-,Rio Grande do Sul,BR,,173,Santagnathus,227.0,208.5
+3250,N339,Rio Grande do Sul,-,Rio Grande do Sul,BR,,172,Santagnathus,227.0,208.5
+3251,N340,Rio Grande do Sul,-,Rio Grande do Sul,BR,,171,Santagnathus,227.0,208.5
+3252,N341,Rio Grande do Sul,-,Rio Grande do Sul,BR,,170,Santagnathus,227.0,208.5
+3253,N342,Rio Grande do Sul,-,Rio Grande do Sul,BR,,169,Santagnathus,227.0,208.5
+3254,N343,Rio Grande do Sul,-,Rio Grande do Sul,BR,,168,Santagnathus,227.0,208.5
+3255,N344,Rio Grande do Sul,-,Rio Grande do Sul,BR,,167,Santagnathus,227.0,208.5
+3256,N345,Rio Grande do Sul,-,Rio Grande do Sul,BR,,166,Santagnathus,227.0,208.5
+3257,N346,Rio Grande do Sul,-,Rio Grande do Sul,BR,,165,Santagnathus,227.0,208.5
+3258,N347,Rio Grande do Sul,-,Rio Grande do Sul,BR,,164,Santagnathus,227.0,208.5
+3259,N348,Rio Grande do Sul,Varzea do Agudo,Rio Grande do Sul,BR,,163,Trucidocynodon,227.0,208.5
+3260,N349,Rio Grande do Sul,-,Rio Grande do Sul,BR,,162,Dinodontosaurus,242.0,237.0
+3261,N350,Rio Grande do Sul,Varzea do Agudo,Rio Grande do Sul,BR,,161,Exaeretodon,227.0,208.5
+3262,N351,Rio Grande do Sul,-,Rio Grande do Sul,BR,,160,Dinodontosaurus,242.0,237.0
+3263,N352,Rio Grande do Sul,Varzea do Agudo,Rio Grande do Sul,BR,,159,Exaeretodon,227.0,208.5
+3264,N353,Rio Grande do Sul,-,Rio Grande do Sul,BR,,158,Dinodontosaurus,242.0,237.0
+3265,N354,Rio Grande do Sul,-,Rio Grande do Sul,BR,,157,Dinodontosaurus,242.0,237.0
+3266,N355,Rio Grande do Sul,-,Rio Grande do Sul,BR,,156,Dinodontosaurus,242.0,237.0
+3267,N356,Rio Grande do Sul,-,Rio Grande do Sul,BR,,155,Dinodontosaurus,242.0,237.0
+3268,N357,Rio Grande do Sul,- ,Rio Grande do Sul,BR,,154,Dinodontosaurus,242.0,237.0
+3269,N358,Rio Grande do Sul,-,Rio Grande do Sul,BR,,153,Aleodon,242.0,237.0
+3270,N359,Rio Grande do Sul,-,Rio Grande do Sul,BR,,152,Massetognathus,242.0,237.0
+3271,N360,Rio Grande do Sul,-,Rio Grande do Sul,BR,,151,Riograndia,227.0,208.5
+3272,N361,Rio Grande do Sul,Semaria III Poste do outro lado,Rio Grande do Sul,BR,,150,Brasilodon,227.0,208.5
+3273,N362,Rio Grande do Sul,-,Rio Grande do Sul,BR,,149,Exaeretodon,227.0,208.5
+3274,N363,Rio Grande do Sul,-,Rio Grande do Sul,BR,,148,Dinodontosaurus,242.0,237.0
+3275,N364,Rio Grande do Sul,Rincao da Porta,Rio Grande do Sul,BR,,147,Dinodontosaurus,242.0,237.0
+3276,N365,Rio Grande do Sul,Bom Retiro,Rio Grande do Sul,BR,,146,Dinodontosaurus,242.0,237.0
+3277,N366,Rio Grande do Sul,-,Rio Grande do Sul,BR,,145,Dinodontosaurus,242.0,237.0
+3278,N367,Rio Grande do Sul,-,Rio Grande do Sul,BR,,144,Dinodontosaurus,242.0,237.0
+3279,N368,Rio Grande do Sul,-,Rio Grande do Sul,BR,,143,Dinodontosaurus,242.0,237.0
+3280,N369,Rio Grande do Sul,Rincao do Semiao,Rio Grande do Sul,BR,,142,Protuberum,242.0,237.0
+3281,N370,Rio Grande do Sul,Rincao do Semiao,Rio Grande do Sul,BR,,141,Dinodontosaurus,242.0,237.0
+3282,N371,Rio Grande do Sul,-,Rio Grande do Sul,BR,,140,Dinodontosaurus,242.0,237.0
+3283,N372,Rio Grande do Sul,-,Rio Grande do Sul,BR,,139,Dinodontosaurus,242.0,237.0
+3284,N373,Rio Grande do Sul,-,Rio Grande do Sul,BR,,138,Dinodontosaurus,242.0,237.0
+3285,N374,Rio Grande do Sul,-,Rio Grande do Sul,BR,,137,Dinodontosaurus,242.0,237.0
+3286,N375,Rio Grande do Sul,-,Rio Grande do Sul,BR,,136,Dinodontosaurus,242.0,237.0
+3287,N376,Rio Grande do Sul,-,Rio Grande do Sul,BR,,135,Dinodontosaurus,242.0,237.0
+3288,N377,Rio Grande do Sul,BR 158 federal road,Rio Grande do Sul,BR,,134,Dinodontosaurus,242.0,237.0
+3289,N378,Rio Grande do Sul,-,Rio Grande do Sul,BR,,133,Dinodontosaurus,242.0,237.0
+3290,N379,Rio Grande do Sul,BR 158 federal road,Rio Grande do Sul,BR,,132,Dinodontosaurus,242.0,237.0
+3291,N380,Rio Grande do Sul,Linha Facao,Rio Grande do Sul,BR,,131,Exaeretodon,227.0,208.5
+3292,N381,Rio Grande do Sul,Rincao do Semiao,Rio Grande do Sul,BR,,130,Dinodontosaurus,242.0,237.0
+3293,N382,Rio Grande do Sul,Sesmaria do Pinhal,Rio Grande do Sul,BR,,129,Jachaleria,227.0,208.5
+3294,N383,Rio Grande do Sul,Sesmaria do Pinhal,Rio Grande do Sul,BR,,128,Jachaleria,227.0,208.5
 3295,N384,Free State,-,Free State,ZA,,127,Lystrosaurus,251.9,251.2
 3296,N385,Western Cape,-,Western Cape,ZA,,126,Struthiocephalus,264.3,259.5
 3297,N386,Free State,-,Free State,ZA,,125,Dicynodon,259.5,254.1
@@ -3236,121 +3236,121 @@ index,occurrence_no_x,locality,county_original,state,cc,notes,id,genus,age_max,a
 3301,N390,Free State,-,Free State,ZA,,121,Lystrosaurus,251.9,251.2
 3302,N391,Eastern Cape,-,Eastern Cape,ZA,,120,Robertia,264.3,259.5
 3303,N392,Western Cape,-,Western Cape,ZA,,119,Robertia,264.3,259.5
-3304,N393,San Juan,Ischigualasto,San Juan,AR,,118,Ischigualastia,237,227
-3305,N394,San Juan,Ischigualasto,San Juan,AR,,117,Ischigualastia,237,227
-3306,N395,Rio Grande do Sul,-,Rio Grande do Sul,BR,,116,Dinodontosaurus,242,237
-3307,N396,Rio Grande do Sul,-,Rio Grande do Sul,BR,,115,Dinodontosaurus,242,237
-3308,N397,Rio Grande do Sul,-,Rio Grande do Sul,BR,,114,Dinodontosaurus,242,237
-3309,N398,Rio Grande do Sul,Pinheiros,Rio Grande do Sul,BR,,113,Dinodontosaurus,242,237
-3310,N399,Rio Grande do Sul,Bom Retiro,Rio Grande do Sul,BR,,112,Dinodontosaurus,242,237
-3311,N400,Rio Grande do Sul,Pinheiro,Rio Grande do Sul,BR,,111,Dinodontosaurus,242,237
-3312,N401,Rio Grande do Sul,Pinheiros,Rio Grande do Sul,BR,,110,Dinodontosaurus,242,237
-3313,N402,Rio Grande do Sul,-,Rio Grande do Sul,BR,,109,Dinodontosaurus,242,237
-3314,N403,Rio Grande do Sul,-,Rio Grande do Sul,BR,,108,Chiniquodon,242,237
-3315,N404,Rio Grande do Sul,Pinheiros,Rio Grande do Sul,BR,,107,Dinodontosaurus,242,237
-3316,N405,Rio Grande do Sul,Bom Retiro,Rio Grande do Sul,BR,,106,Dinodontosaurus,242,237
-3317,N406,Rio Grande do Sul,Pinheiros,Rio Grande do Sul,BR,,105,Dinodontosaurus,242,237
-3318,N407,Rio Grande do Sul,Pinheiros,Rio Grande do Sul,BR,,104,Dinodontosaurus,242,237
-3319,N408,Rio Grande do Sul,-,Rio Grande do Sul,BR,,103,Dinodontosaurus,242,237
-3320,N409,Rio Grande do Sul,-,Rio Grande do Sul,BR,,102,Jachaleria,227,208.5
-3321,N410,Rio Grande do Sul,Dona Francisca,Rio Grande do Sul,BR,,101,Dinodontosaurus,242,237
-3322,N411,Rio Grande do Sul,Vila Melos,Rio Grande do Sul,BR,,100,Dinodontosaurus,242,237
-3323,N412,Rio Grande do Sul,Pinheiros,Rio Grande do Sul,BR,,99,Dinodontosaurus,242,237
-3324,N413,Rio Grande do Sul,Vila Melo,Rio Grande do Sul,BR,,98,Dinodontosaurus,242,237
-3325,N414,Rio Grande do Sul,-,Rio Grande do Sul,BR,,97,Dinodontosaurus,242,237
-3326,N415,Rio Grande do Sul,Dona Francisca,Rio Grande do Sul,BR,,96,Dinodontosaurus,242,237
-3327,N416,Rio Grande do Sul,Dona Francisca,Rio Grande do Sul,BR,,95,Dinodontosaurus,242,237
-3328,N417,Rio Grande do Sul,-,Rio Grande do Sul,BR,,94,Dinodontosaurus,242,237
-3329,N418,Rio Grande do Sul,-,Rio Grande do Sul,BR,,93,Dinodontosaurus,242,237
-3330,N419,Rio Grande do Sul,Bom Retiro,Rio Grande do Sul,BR,,92,Dinodontosaurus,242,237
-3331,N420,Rio Grande do Sul,Bom Retiro,Rio Grande do Sul,BR,,91,Dinodontosaurus,242,237
-3332,N421,Rio Grande do Sul,-,Rio Grande do Sul,BR,,90,Dinodontosaurus,242,237
-3333,N422,Rio Grande do Sul,-,Rio Grande do Sul,BR,,89,Dinodontosaurus,242,237
-3334,N423,Rio Grande do Sul,-,Rio Grande do Sul,BR,,88,Dinodontosaurus,242,237
-3335,N424,Rio Grande do Sul,-,Rio Grande do Sul,BR,,87,Dinodontosaurus,242,237
-3336,N425,Rio Grande do Sul,Vila Melo,Rio Grande do Sul,BR,,86,Dinodontosaurus,242,237
-3337,N426,Rio Grande do Sul,Vila Melo,Rio Grande do Sul,BR,,85,Dinodontosaurus,242,237
-3338,N427,Rio Grande do Sul,-,Rio Grande do Sul,BR,,84,Jachaleria,227,208.5
-3339,N428,Rio Grande do Sul,-,Rio Grande do Sul,BR,,83,Dinodontosaurus,242,237
-3340,N429,Rio Grande do Sul,-,Rio Grande do Sul,BR,,82,Dinodontosaurus,242,237
-3341,N430,Rio Grande do Sul,Pinheiro,Rio Grande do Sul,BR,,81,Dinodontosaurus,242,237
-3342,N431,Rio Grande do Sul,Chinique,Rio Grande do Sul,BR,,80,Stahleckeria,242,237
-3343,N432,Rio Grande do Sul,Chinique,Rio Grande do Sul,BR,,79,Stahleckeria,242,237
-3344,N433,Rio Grande do Sul,Pinheiro,Rio Grande do Sul,BR,,78,Chiniquodon,242,237
-3345,N434,Rio Grande do Sul,-,Rio Grande do Sul,BR,,77,Dinodontosaurus,242,237
-3346,N435,Rio Grande do Sul,Porto Mariante 2,Rio Grande do Sul,BR,,76,Dinodontosaurus,242,237
-3347,N436,Rio Grande do Sul,Porto Mariante 2,Rio Grande do Sul,BR,,75,Dinodontosaurus,242,237
-3348,N437,Rio Grande do Sul,Pinheiro,Rio Grande do Sul,BR,,74,Dinodontosaurus,242,237
-3349,N438,Rio Grande do Sul,Pinheiro,Rio Grande do Sul,BR,,73,Dinodontosaurus,242,237
-3350,N439,Rio Grande do Sul,Pinheiro,Rio Grande do Sul,BR,,72,Dinodontosaurus,242,237
-3351,N440,Rio Grande do Sul,Pinheiro,Rio Grande do Sul,BR,,71,Dinodontosaurus,242,237
-3352,N441,Rio Grande do Sul,Pinheiro,Rio Grande do Sul,BR,,70,Dinodontosaurus,242,237
-3353,N442,Rio Grande do Sul,Pinheiro,Rio Grande do Sul,BR,,69,Dinodontosaurus,242,237
-3354,N443,Rio Grande do Sul,Pinheiro,Rio Grande do Sul,BR,,68,Dinodontosaurus,242,237
-3355,N444,Rio Grande do Sul,Pinheiro,Rio Grande do Sul,BR,,67,Dinodontosaurus,242,237
-3356,N445,Rio Grande do Sul,Pinheiro,Rio Grande do Sul,BR,,66,Dinodontosaurus,242,237
-3357,N446,Rio Grande do Sul,Pinheiro,Rio Grande do Sul,BR,,65,Dinodontosaurus,242,237
-3358,N447,Rio Grande do Sul,Pinheiro,Rio Grande do Sul,BR,,64,Dinodontosaurus,242,237
-3359,N448,Rio Grande do Sul,Pinheiro,Rio Grande do Sul,BR,,63,Dinodontosaurus,242,237
-3360,N449,Rio Grande do Sul,Pinheiro,Rio Grande do Sul,BR,,62,Dinodontosaurus,242,237
-3361,N450,Rio Grande do Sul,Pinheiro,Rio Grande do Sul,BR,,61,Dinodontosaurus,242,237
-3362,N451,Rio Grande do Sul,Pinheiro,Rio Grande do Sul,BR,,60,Dinodontosaurus,242,237
-3363,N452,Rio Grande do Sul,Pinheiro,Rio Grande do Sul,BR,,59,Dinodontosaurus,242,237
-3364,N453,Rio Grande do Sul,Pinheiro,Rio Grande do Sul,BR,,58,Dinodontosaurus,242,237
-3365,N454,Rio Grande do Sul,Pinheiro,Rio Grande do Sul,BR,,57,Dinodontosaurus,242,237
-3366,N455,Rio Grande do Sul,Pinheiro,Rio Grande do Sul,BR,,56,Dinodontosaurus,242,237
-3367,N456,Rio Grande do Sul,Pinheiro,Rio Grande do Sul,BR,,55,Dinodontosaurus,242,237
-3368,N457,Rio Grande do Sul,Pinheiro,Rio Grande do Sul,BR,,54,Dinodontosaurus,242,237
-3369,N458,Rio Grande do Sul,Pinheiro,Rio Grande do Sul,BR,,53,Dinodontosaurus,242,237
-3370,N459,Rio Grande do Sul,Pinheiro,Rio Grande do Sul,BR,,52,Dinodontosaurus,242,237
-3371,N460,Rio Grande do Sul,Pinheiro,Rio Grande do Sul,BR,,51,Dinodontosaurus,242,237
-3372,N461,Rio Grande do Sul,Pinheiro,Rio Grande do Sul,BR,,50,Dinodontosaurus,242,237
-3373,N462,Rio Grande do Sul,Pinheiro,Rio Grande do Sul,BR,,49,Massetognathus,242,237
-3374,N463,Rio Grande do Sul,Pinheiro,Rio Grande do Sul,BR,,48,Dinodontosaurus,242,237
-3375,N464,Rio Grande do Sul,Pinheiro,Rio Grande do Sul,BR,,47,Dinodontosaurus,242,237
-3376,N465,Rio Grande do Sul,Pinheiro,Rio Grande do Sul,BR,,46,Dinodontosaurus,242,237
-3377,N466,Rio Grande do Sul,Pinheiro,Rio Grande do Sul,BR,,45,Dinodontosaurus,242,237
-3378,N467,Rio Grande do Sul,Pinheiro,Rio Grande do Sul,BR,,44,Dinodontosaurus,242,237
-3379,N468,Rio Grande do Sul,Pinheiro,Rio Grande do Sul,BR,,43,Protuberum,242,237
-3380,N469,Rio Grande do Sul,Pinheiro,Rio Grande do Sul,BR,,42,Dinodontosaurus,242,237
-3381,N470,Rio Grande do Sul,Pinheiro,Rio Grande do Sul,BR,,41,Dinodontosaurus,242,237
-3382,N471,Rio Grande do Sul,Pinheiro,Rio Grande do Sul,BR,,40,Dinodontosaurus,242,237
-3383,N472,Rio Grande do Sul,Pinheiro,Rio Grande do Sul,BR,,39,Dinodontosaurus,242,237
-3384,N473,Rio Grande do Sul,Pinheiro,Rio Grande do Sul,BR,,38,Dinodontosaurus,242,237
-3385,N474,Rio Grande do Sul,Pinheiro,Rio Grande do Sul,BR,,37,Dinodontosaurus,242,237
-3386,N475,Rio Grande do Sul,Pinheiro,Rio Grande do Sul,BR,,36,Dinodontosaurus,242,237
-3387,N476,Rio Grande do Sul,Pinheiro,Rio Grande do Sul,BR,,35,Dinodontosaurus,242,237
-3388,N477,Rio Grande do Sul,Pinheiro,Rio Grande do Sul,BR,,34,Dinodontosaurus,242,237
-3389,N478,Rio Grande do Sul,Pinheiro,Rio Grande do Sul,BR,,33,Dinodontosaurus,242,237
-3390,N479,Rio Grande do Sul,Pinheiro,Rio Grande do Sul,BR,,32,Dinodontosaurus,242,237
-3391,N480,Rio Grande do Sul,Pinheiro,Rio Grande do Sul,BR,,31,Dinodontosaurus,242,237
-3392,N481,Rio Grande do Sul,Pinheiro,Rio Grande do Sul,BR,,30,Dinodontosaurus,242,237
-3393,N482,Rio Grande do Sul,Pinheiro,Rio Grande do Sul,BR,,29,Dinodontosaurus,242,237
-3394,N483,Rio Grande do Sul,Pinheiro,Rio Grande do Sul,BR,,28,Dinodontosaurus,242,237
-3395,N484,Rio Grande do Sul,Pinheiro,Rio Grande do Sul,BR,,27,Dinodontosaurus,242,237
-3396,N485,Rio Grande do Sul,Pinheiro,Rio Grande do Sul,BR,,26,Dinodontosaurus,242,237
-3397,N486,Rio Grande do Sul,Pinheiro,Rio Grande do Sul,BR,,25,Dinodontosaurus,242,237
-3398,N487,Rio Grande do Sul,Pinheiro,Rio Grande do Sul,BR,,24,Dinodontosaurus,242,237
-3399,N488,Rio Grande do Sul,Pinheiro,Rio Grande do Sul,BR,,23,Dinodontosaurus,242,237
-3400,N489,Rio Grande do Sul,Pinheiro,Rio Grande do Sul,BR,,22,Dinodontosaurus,242,237
-3401,N490,Rio Grande do Sul,Pinheiro,Rio Grande do Sul,BR,,21,Dinodontosaurus,242,237
-3402,N491,Rio Grande do Sul,Pinheiro,Rio Grande do Sul,BR,,20,Dinodontosaurus,242,237
-3403,N492,Rio Grande do Sul,Pinheiro,Rio Grande do Sul,BR,,19,Dinodontosaurus,242,237
-3404,N493,Rio Grande do Sul,Pinheiro,Rio Grande do Sul,BR,,18,Dinodontosaurus,242,237
-3405,N494,Rio Grande do Sul,-,Rio Grande do Sul,BR,,17,Dinodontosaurus,242,237
-3406,N495,Rio Grande do Sul,Pinheiro,Rio Grande do Sul,BR,,16,Dinodontosaurus,242,237
-3407,N496,Rio Grande do Sul,Pinheiro,Rio Grande do Sul,BR,,15,Dinodontosaurus,242,237
-3408,N497,Rio Grande do Sul,Pinheiro,Rio Grande do Sul,BR,,14,Dinodontosaurus,242,237
-3409,N498,Rio Grande do Sul,Pinheiro,Rio Grande do Sul,BR,,13,Dinodontosaurus,242,237
-3410,N499,Rio Grande do Sul,Pinheiro,Rio Grande do Sul,BR,,12,Dinodontosaurus,242,237
-3411,N500,Rio Grande do Sul,Pinheiro,Rio Grande do Sul,BR,,11,Dinodontosaurus,242,237
-3412,N501,Rio Grande do Sul,-,Rio Grande do Sul,BR,,10,Dinodontosaurus,242,237
-3413,N502,Rio Grande do Sul,Pinheiro,Rio Grande do Sul,BR,,9,Dinodontosaurus,242,237
-3414,N503,Rio Grande do Sul,-,Rio Grande do Sul,BR,,8,Dinodontosaurus,242,237
-3415,N504,Rio Grande do Sul,-,Rio Grande do Sul,BR,,7,Dinodontosaurus,242,237
-3416,N505,Rio Grande do Sul,Pinheiro,Rio Grande do Sul,BR,,6,Protuberum,242,237
-3417,N506,Rio Grande do Sul,Schoenstatt,Rio Grande do Sul,BR,,5,Santacruzodon,237,227
-3418,N507,Rio Grande do Sul,Schoenstatt,Rio Grande do Sul,BR,,4,Santacruzodon,237,227
-3419,N508,Rio Grande do Sul,Pinheiro,Rio Grande do Sul,BR,,3,Dinodontosaurus,242,237
-3420,N509,Rio Grande do Sul,Porto Mariante 2,Rio Grande do Sul,BR,,2,Dinodontosaurus,242,237
-3421,N510,Rio Grande do Sul,Rincao do Semiao,Rio Grande do Sul,BR,,1,Massetognathus,242,237
+3304,N393,San Juan,Ischigualasto,San Juan,AR,,118,Ischigualastia,237.0,227.0
+3305,N394,San Juan,Ischigualasto,San Juan,AR,,117,Ischigualastia,237.0,227.0
+3306,N395,Rio Grande do Sul,-,Rio Grande do Sul,BR,,116,Dinodontosaurus,242.0,237.0
+3307,N396,Rio Grande do Sul,-,Rio Grande do Sul,BR,,115,Dinodontosaurus,242.0,237.0
+3308,N397,Rio Grande do Sul,-,Rio Grande do Sul,BR,,114,Dinodontosaurus,242.0,237.0
+3309,N398,Rio Grande do Sul,Pinheiros,Rio Grande do Sul,BR,,113,Dinodontosaurus,242.0,237.0
+3310,N399,Rio Grande do Sul,Bom Retiro,Rio Grande do Sul,BR,,112,Dinodontosaurus,242.0,237.0
+3311,N400,Rio Grande do Sul,Pinheiro,Rio Grande do Sul,BR,,111,Dinodontosaurus,242.0,237.0
+3312,N401,Rio Grande do Sul,Pinheiros,Rio Grande do Sul,BR,,110,Dinodontosaurus,242.0,237.0
+3313,N402,Rio Grande do Sul,-,Rio Grande do Sul,BR,,109,Dinodontosaurus,242.0,237.0
+3314,N403,Rio Grande do Sul,-,Rio Grande do Sul,BR,,108,Chiniquodon,242.0,237.0
+3315,N404,Rio Grande do Sul,Pinheiros,Rio Grande do Sul,BR,,107,Dinodontosaurus,242.0,237.0
+3316,N405,Rio Grande do Sul,Bom Retiro,Rio Grande do Sul,BR,,106,Dinodontosaurus,242.0,237.0
+3317,N406,Rio Grande do Sul,Pinheiros,Rio Grande do Sul,BR,,105,Dinodontosaurus,242.0,237.0
+3318,N407,Rio Grande do Sul,Pinheiros,Rio Grande do Sul,BR,,104,Dinodontosaurus,242.0,237.0
+3319,N408,Rio Grande do Sul,-,Rio Grande do Sul,BR,,103,Dinodontosaurus,242.0,237.0
+3320,N409,Rio Grande do Sul,-,Rio Grande do Sul,BR,,102,Jachaleria,227.0,208.5
+3321,N410,Rio Grande do Sul,Dona Francisca,Rio Grande do Sul,BR,,101,Dinodontosaurus,242.0,237.0
+3322,N411,Rio Grande do Sul,Vila Melos,Rio Grande do Sul,BR,,100,Dinodontosaurus,242.0,237.0
+3323,N412,Rio Grande do Sul,Pinheiros,Rio Grande do Sul,BR,,99,Dinodontosaurus,242.0,237.0
+3324,N413,Rio Grande do Sul,Vila Melo,Rio Grande do Sul,BR,,98,Dinodontosaurus,242.0,237.0
+3325,N414,Rio Grande do Sul,-,Rio Grande do Sul,BR,,97,Dinodontosaurus,242.0,237.0
+3326,N415,Rio Grande do Sul,Dona Francisca,Rio Grande do Sul,BR,,96,Dinodontosaurus,242.0,237.0
+3327,N416,Rio Grande do Sul,Dona Francisca,Rio Grande do Sul,BR,,95,Dinodontosaurus,242.0,237.0
+3328,N417,Rio Grande do Sul,-,Rio Grande do Sul,BR,,94,Dinodontosaurus,242.0,237.0
+3329,N418,Rio Grande do Sul,-,Rio Grande do Sul,BR,,93,Dinodontosaurus,242.0,237.0
+3330,N419,Rio Grande do Sul,Bom Retiro,Rio Grande do Sul,BR,,92,Dinodontosaurus,242.0,237.0
+3331,N420,Rio Grande do Sul,Bom Retiro,Rio Grande do Sul,BR,,91,Dinodontosaurus,242.0,237.0
+3332,N421,Rio Grande do Sul,-,Rio Grande do Sul,BR,,90,Dinodontosaurus,242.0,237.0
+3333,N422,Rio Grande do Sul,-,Rio Grande do Sul,BR,,89,Dinodontosaurus,242.0,237.0
+3334,N423,Rio Grande do Sul,-,Rio Grande do Sul,BR,,88,Dinodontosaurus,242.0,237.0
+3335,N424,Rio Grande do Sul,-,Rio Grande do Sul,BR,,87,Dinodontosaurus,242.0,237.0
+3336,N425,Rio Grande do Sul,Vila Melo,Rio Grande do Sul,BR,,86,Dinodontosaurus,242.0,237.0
+3337,N426,Rio Grande do Sul,Vila Melo,Rio Grande do Sul,BR,,85,Dinodontosaurus,242.0,237.0
+3338,N427,Rio Grande do Sul,-,Rio Grande do Sul,BR,,84,Jachaleria,227.0,208.5
+3339,N428,Rio Grande do Sul,-,Rio Grande do Sul,BR,,83,Dinodontosaurus,242.0,237.0
+3340,N429,Rio Grande do Sul,-,Rio Grande do Sul,BR,,82,Dinodontosaurus,242.0,237.0
+3341,N430,Rio Grande do Sul,Pinheiro,Rio Grande do Sul,BR,,81,Dinodontosaurus,242.0,237.0
+3342,N431,Rio Grande do Sul,Chinique,Rio Grande do Sul,BR,,80,Stahleckeria,242.0,237.0
+3343,N432,Rio Grande do Sul,Chinique,Rio Grande do Sul,BR,,79,Stahleckeria,242.0,237.0
+3344,N433,Rio Grande do Sul,Pinheiro,Rio Grande do Sul,BR,,78,Chiniquodon,242.0,237.0
+3345,N434,Rio Grande do Sul,-,Rio Grande do Sul,BR,,77,Dinodontosaurus,242.0,237.0
+3346,N435,Rio Grande do Sul,Porto Mariante 2,Rio Grande do Sul,BR,,76,Dinodontosaurus,242.0,237.0
+3347,N436,Rio Grande do Sul,Porto Mariante 2,Rio Grande do Sul,BR,,75,Dinodontosaurus,242.0,237.0
+3348,N437,Rio Grande do Sul,Pinheiro,Rio Grande do Sul,BR,,74,Dinodontosaurus,242.0,237.0
+3349,N438,Rio Grande do Sul,Pinheiro,Rio Grande do Sul,BR,,73,Dinodontosaurus,242.0,237.0
+3350,N439,Rio Grande do Sul,Pinheiro,Rio Grande do Sul,BR,,72,Dinodontosaurus,242.0,237.0
+3351,N440,Rio Grande do Sul,Pinheiro,Rio Grande do Sul,BR,,71,Dinodontosaurus,242.0,237.0
+3352,N441,Rio Grande do Sul,Pinheiro,Rio Grande do Sul,BR,,70,Dinodontosaurus,242.0,237.0
+3353,N442,Rio Grande do Sul,Pinheiro,Rio Grande do Sul,BR,,69,Dinodontosaurus,242.0,237.0
+3354,N443,Rio Grande do Sul,Pinheiro,Rio Grande do Sul,BR,,68,Dinodontosaurus,242.0,237.0
+3355,N444,Rio Grande do Sul,Pinheiro,Rio Grande do Sul,BR,,67,Dinodontosaurus,242.0,237.0
+3356,N445,Rio Grande do Sul,Pinheiro,Rio Grande do Sul,BR,,66,Dinodontosaurus,242.0,237.0
+3357,N446,Rio Grande do Sul,Pinheiro,Rio Grande do Sul,BR,,65,Dinodontosaurus,242.0,237.0
+3358,N447,Rio Grande do Sul,Pinheiro,Rio Grande do Sul,BR,,64,Dinodontosaurus,242.0,237.0
+3359,N448,Rio Grande do Sul,Pinheiro,Rio Grande do Sul,BR,,63,Dinodontosaurus,242.0,237.0
+3360,N449,Rio Grande do Sul,Pinheiro,Rio Grande do Sul,BR,,62,Dinodontosaurus,242.0,237.0
+3361,N450,Rio Grande do Sul,Pinheiro,Rio Grande do Sul,BR,,61,Dinodontosaurus,242.0,237.0
+3362,N451,Rio Grande do Sul,Pinheiro,Rio Grande do Sul,BR,,60,Dinodontosaurus,242.0,237.0
+3363,N452,Rio Grande do Sul,Pinheiro,Rio Grande do Sul,BR,,59,Dinodontosaurus,242.0,237.0
+3364,N453,Rio Grande do Sul,Pinheiro,Rio Grande do Sul,BR,,58,Dinodontosaurus,242.0,237.0
+3365,N454,Rio Grande do Sul,Pinheiro,Rio Grande do Sul,BR,,57,Dinodontosaurus,242.0,237.0
+3366,N455,Rio Grande do Sul,Pinheiro,Rio Grande do Sul,BR,,56,Dinodontosaurus,242.0,237.0
+3367,N456,Rio Grande do Sul,Pinheiro,Rio Grande do Sul,BR,,55,Dinodontosaurus,242.0,237.0
+3368,N457,Rio Grande do Sul,Pinheiro,Rio Grande do Sul,BR,,54,Dinodontosaurus,242.0,237.0
+3369,N458,Rio Grande do Sul,Pinheiro,Rio Grande do Sul,BR,,53,Dinodontosaurus,242.0,237.0
+3370,N459,Rio Grande do Sul,Pinheiro,Rio Grande do Sul,BR,,52,Dinodontosaurus,242.0,237.0
+3371,N460,Rio Grande do Sul,Pinheiro,Rio Grande do Sul,BR,,51,Dinodontosaurus,242.0,237.0
+3372,N461,Rio Grande do Sul,Pinheiro,Rio Grande do Sul,BR,,50,Dinodontosaurus,242.0,237.0
+3373,N462,Rio Grande do Sul,Pinheiro,Rio Grande do Sul,BR,,49,Massetognathus,242.0,237.0
+3374,N463,Rio Grande do Sul,Pinheiro,Rio Grande do Sul,BR,,48,Dinodontosaurus,242.0,237.0
+3375,N464,Rio Grande do Sul,Pinheiro,Rio Grande do Sul,BR,,47,Dinodontosaurus,242.0,237.0
+3376,N465,Rio Grande do Sul,Pinheiro,Rio Grande do Sul,BR,,46,Dinodontosaurus,242.0,237.0
+3377,N466,Rio Grande do Sul,Pinheiro,Rio Grande do Sul,BR,,45,Dinodontosaurus,242.0,237.0
+3378,N467,Rio Grande do Sul,Pinheiro,Rio Grande do Sul,BR,,44,Dinodontosaurus,242.0,237.0
+3379,N468,Rio Grande do Sul,Pinheiro,Rio Grande do Sul,BR,,43,Protuberum,242.0,237.0
+3380,N469,Rio Grande do Sul,Pinheiro,Rio Grande do Sul,BR,,42,Dinodontosaurus,242.0,237.0
+3381,N470,Rio Grande do Sul,Pinheiro,Rio Grande do Sul,BR,,41,Dinodontosaurus,242.0,237.0
+3382,N471,Rio Grande do Sul,Pinheiro,Rio Grande do Sul,BR,,40,Dinodontosaurus,242.0,237.0
+3383,N472,Rio Grande do Sul,Pinheiro,Rio Grande do Sul,BR,,39,Dinodontosaurus,242.0,237.0
+3384,N473,Rio Grande do Sul,Pinheiro,Rio Grande do Sul,BR,,38,Dinodontosaurus,242.0,237.0
+3385,N474,Rio Grande do Sul,Pinheiro,Rio Grande do Sul,BR,,37,Dinodontosaurus,242.0,237.0
+3386,N475,Rio Grande do Sul,Pinheiro,Rio Grande do Sul,BR,,36,Dinodontosaurus,242.0,237.0
+3387,N476,Rio Grande do Sul,Pinheiro,Rio Grande do Sul,BR,,35,Dinodontosaurus,242.0,237.0
+3388,N477,Rio Grande do Sul,Pinheiro,Rio Grande do Sul,BR,,34,Dinodontosaurus,242.0,237.0
+3389,N478,Rio Grande do Sul,Pinheiro,Rio Grande do Sul,BR,,33,Dinodontosaurus,242.0,237.0
+3390,N479,Rio Grande do Sul,Pinheiro,Rio Grande do Sul,BR,,32,Dinodontosaurus,242.0,237.0
+3391,N480,Rio Grande do Sul,Pinheiro,Rio Grande do Sul,BR,,31,Dinodontosaurus,242.0,237.0
+3392,N481,Rio Grande do Sul,Pinheiro,Rio Grande do Sul,BR,,30,Dinodontosaurus,242.0,237.0
+3393,N482,Rio Grande do Sul,Pinheiro,Rio Grande do Sul,BR,,29,Dinodontosaurus,242.0,237.0
+3394,N483,Rio Grande do Sul,Pinheiro,Rio Grande do Sul,BR,,28,Dinodontosaurus,242.0,237.0
+3395,N484,Rio Grande do Sul,Pinheiro,Rio Grande do Sul,BR,,27,Dinodontosaurus,242.0,237.0
+3396,N485,Rio Grande do Sul,Pinheiro,Rio Grande do Sul,BR,,26,Dinodontosaurus,242.0,237.0
+3397,N486,Rio Grande do Sul,Pinheiro,Rio Grande do Sul,BR,,25,Dinodontosaurus,242.0,237.0
+3398,N487,Rio Grande do Sul,Pinheiro,Rio Grande do Sul,BR,,24,Dinodontosaurus,242.0,237.0
+3399,N488,Rio Grande do Sul,Pinheiro,Rio Grande do Sul,BR,,23,Dinodontosaurus,242.0,237.0
+3400,N489,Rio Grande do Sul,Pinheiro,Rio Grande do Sul,BR,,22,Dinodontosaurus,242.0,237.0
+3401,N490,Rio Grande do Sul,Pinheiro,Rio Grande do Sul,BR,,21,Dinodontosaurus,242.0,237.0
+3402,N491,Rio Grande do Sul,Pinheiro,Rio Grande do Sul,BR,,20,Dinodontosaurus,242.0,237.0
+3403,N492,Rio Grande do Sul,Pinheiro,Rio Grande do Sul,BR,,19,Dinodontosaurus,242.0,237.0
+3404,N493,Rio Grande do Sul,Pinheiro,Rio Grande do Sul,BR,,18,Dinodontosaurus,242.0,237.0
+3405,N494,Rio Grande do Sul,-,Rio Grande do Sul,BR,,17,Dinodontosaurus,242.0,237.0
+3406,N495,Rio Grande do Sul,Pinheiro,Rio Grande do Sul,BR,,16,Dinodontosaurus,242.0,237.0
+3407,N496,Rio Grande do Sul,Pinheiro,Rio Grande do Sul,BR,,15,Dinodontosaurus,242.0,237.0
+3408,N497,Rio Grande do Sul,Pinheiro,Rio Grande do Sul,BR,,14,Dinodontosaurus,242.0,237.0
+3409,N498,Rio Grande do Sul,Pinheiro,Rio Grande do Sul,BR,,13,Dinodontosaurus,242.0,237.0
+3410,N499,Rio Grande do Sul,Pinheiro,Rio Grande do Sul,BR,,12,Dinodontosaurus,242.0,237.0
+3411,N500,Rio Grande do Sul,Pinheiro,Rio Grande do Sul,BR,,11,Dinodontosaurus,242.0,237.0
+3412,N501,Rio Grande do Sul,-,Rio Grande do Sul,BR,,10,Dinodontosaurus,242.0,237.0
+3413,N502,Rio Grande do Sul,Pinheiro,Rio Grande do Sul,BR,,9,Dinodontosaurus,242.0,237.0
+3414,N503,Rio Grande do Sul,-,Rio Grande do Sul,BR,,8,Dinodontosaurus,242.0,237.0
+3415,N504,Rio Grande do Sul,-,Rio Grande do Sul,BR,,7,Dinodontosaurus,242.0,237.0
+3416,N505,Rio Grande do Sul,Pinheiro,Rio Grande do Sul,BR,,6,Protuberum,242.0,237.0
+3417,N506,Rio Grande do Sul,Schoenstatt,Rio Grande do Sul,BR,,5,Santacruzodon,237.0,227.0
+3418,N507,Rio Grande do Sul,Schoenstatt,Rio Grande do Sul,BR,,4,Santacruzodon,237.0,227.0
+3419,N508,Rio Grande do Sul,Pinheiro,Rio Grande do Sul,BR,,3,Dinodontosaurus,242.0,237.0
+3420,N509,Rio Grande do Sul,Porto Mariante 2,Rio Grande do Sul,BR,,2,Dinodontosaurus,242.0,237.0
+3421,N510,Rio Grande do Sul,Rincao do Semiao,Rio Grande do Sul,BR,,1,Massetognathus,242.0,237.0
