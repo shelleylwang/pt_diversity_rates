@@ -56,8 +56,6 @@ id,Rotated Lat,Rotated Lon,genus,locality
 2189,-1.3878,-41.1268,Anaschisma,Texas
 2188,40.0893,-9.3354,Gerrothorax,East Greenland
 2187,40.0893,-9.3354,Cyclotosaurus,East Greenland
-2186,-9999.0,-9999.0,Lysipterygium,Kashmir
-2185,-9999.0,-9999.0,Kashmirosaurus,Kashmir
 2184,2.6894,-35.9903,Nannospondylus,Oklahoma
 2182,2.6894,-35.9903,Fayella,Oklahoma
 2183,2.6894,-35.9903,Fayella,Oklahoma
@@ -1115,7 +1113,6 @@ id,Rotated Lat,Rotated Lon,genus,locality
 1125,2.4804,-43.1405,Milnererpeton,New Mexico
 1124,3.8135,-29.3192,Amphibamus,Illinois
 1123,1.7029,-36.6404,Eoscopus,Kansas
-1122,-9999.0,-9999.0,Iberospondylus,Castilla-La Manacha
 1121,-0.73,-37.6741,Tersomius,Oklahoma
 1120,2.4804,-43.1405,Ecolsonia,New Mexico
 1119,2.4804,-43.1405,Chenoprosopus,New Mexico
@@ -1239,7 +1236,6 @@ id,Rotated Lat,Rotated Lon,genus,locality
 1000,-33.9084,-13.7416,Procuhy,Piaui
 999,13.1412,15.7725,Eryops,Rhineland-Palatinate
 998,13.1412,15.7725,Palatinerpeton,Rhineland-Palatinate
-997,-9999.0,-9999.0,Lysipterygium,Kashmir
 995,13.1412,15.7725,Sclerocephalus,Rhineland-Palatinate
 994,13.647,15.5968,Sclerocephalus,Rhineland-Palatinate
 993,13.1412,15.7725,Sclerocephalus,Rhineland-Palatinate
@@ -1274,9 +1270,6 @@ id,Rotated Lat,Rotated Lon,genus,locality
 964,13.1412,15.7725,Archegosaurus,Saarland
 963,13.647,15.5968,Archegosaurus,Rhineland-Palatinate
 962,13.647,15.5968,Archegosaurus,Rhineland-Palatinate
-961,-9999.0,-9999.0,Kashmirosaurus,Jammu and Kashmir
-960,-9999.0,-9999.0,Kashmirosaurus,Kashmir
-959,-9999.0,-9999.0,Kashmirosaurus,Kashmir
 958,13.1412,15.7725,Glanochthon,Rhineland-Palatinate
 957,13.647,15.5968,Glanochthon,Saarland
 956,13.647,15.5968,Glanochthon,Rhineland-Palatinate
