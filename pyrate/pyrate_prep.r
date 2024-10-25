@@ -2,18 +2,19 @@
 
 # Load utilities
 source("../PyRate/pyrate_utilities.r")
+setwd("C:\\Users\\SimoesLabAdmin\\Documents\\BDNN_Arielli")
 
 # Parse raw data and generate PyRate input files
-extract.ages(file="../data/reptilia_processed_data/reptilia_pyrate.txt", replicates=10)
-extract.ages(file="../data/synapsida_processed_data/synapsida_pyrate.txt", replicates=10)
-extract.ages(file="../data/temnospondylia_processed_data/temnospondylia_pyrate.txt", replicates=10)
+extract.ages(file="data/reptilia_processed_data/reptilia_pyrate.txt", replicates=10)
+extract.ages(file="data/synapsida_processed_data/synapsida_pyrate.txt", replicates=10)
+extract.ages(file="data/temnospondyli_processed_data/temnospondyli_pyrate.txt", replicates=10)
 # Outputs: *_PyRate.py (input for later models), *_TaxonList.txt
 
 
 ### Terminal Commands ###
 
 # ## Check for species name spelling
-# system(python ../PyRate/PyRate.py -check_names pyrate/*_TaxonList.txt)
+system(python ../PyRate/PyRate.py -check_names data/reptilia_processed_data/reptilia_pyrate_TaxonList.txt)
 #     # Output: *_TaxonList_scores.txt
 
 
