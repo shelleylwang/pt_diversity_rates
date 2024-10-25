@@ -148,12 +148,6 @@ id,Rotated Lat,Rotated Lon,genus,locality
 4259,-48.4091,123.5564,Grallator,Queensland
 4258,44.3876,33.3665,Deltavjatia,Kirov
 4257,45.0092,37.7433,Scutosaurus,Tatarstan
-4256,-9999.0,-9999.0,Neusticosaurus,Provence-Alpes-Cote d'Azur Region
-4255,-9999.0,-9999.0,Cymatosaurus,Provence-Alpes-Cote d'Azur Region
-4254,-9999.0,-9999.0,Termatosaurus,Provence-Alpes-Cote d'Azur Region
-4253,-9999.0,-9999.0,Ichthyosaurus,Provence-Alpes-Cote d'Azur Region
-4252,-9999.0,-9999.0,Termatosaurus,Provence-Alpes-Cote d'Azur Region
-4251,-9999.0,-9999.0,Ichthyosaurus,Provence-Alpes-Cote d'Azur Region
 4250,-2.7466,-38.9219,Bolosaurus,Texas
 4249,-50.4972,-22.4201,Zupaysaurus,La Rioja
 4247,17.3463,-49.8163,Omphalosaurus,Nevada
@@ -1370,7 +1364,6 @@ id,Rotated Lat,Rotated Lon,genus,locality
 3034,1.0593,-36.5887,Captorhinikos,Oklahoma
 3031,1.0593,-36.5887,Captorhinikos,Oklahoma
 3030,32.0407,152.6085,Utatsusaurus,Miyagi
-3029,-9999.0,-9999.0,Kenyasaurus,Kaloleni
 3024,20.0114,-14.2092,Eubrontes,Massachusetts
 3023,37.6253,13.0683,Raeticodactylus,Switzerland
 3022,39.5102,15.2333,Caviramus,Switzerland
@@ -2867,7 +2860,6 @@ id,Rotated Lat,Rotated Lon,genus,locality
 1455,32.5932,9.3339,Tanystropheus,Baden-Wurttemberg
 1454,35.7836,10.8986,Plesiosaurus,Champagne-Ardenne
 1453,27.0113,118.5458,Guanlingsaurus,Guizhou
-1452,-9999.0,-9999.0,Shastasaurus,Oregon
 1451,36.2945,10.4603,Temnodontosaurus,Somerset
 1450,36.2945,10.4603,Leptonectes,Somerset
 1449,35.9688,2.1884,Plesiosaurus,England
@@ -2905,7 +2897,6 @@ id,Rotated Lat,Rotated Lon,genus,locality
 1417,20.9379,22.0121,Mixosaurus,Switzerland
 1416,12.9243,20.6392,Tholodus,Vares
 1415,20.9379,22.0121,Besanosaurus,Switzerland
-1414,-9999.0,-9999.0,Californosaurus,California
 1413,20.9379,22.0121,Mikadocephalus,Switzerland
 1412,20.9379,22.0121,Wimanius,Switzerland
 1411,19.1131,-61.1649,Hudsonelpidia,British Columbia
@@ -2949,10 +2940,6 @@ id,Rotated Lat,Rotated Lon,genus,locality
 1363,-47.7841,17.7482,Aenigmastropheus,Ruvuma
 1362,-52.0012,-29.5316,Ignotosaurus,San Juan
 1361,-52.0012,-29.5316,Hyperodapedon,San Juan
-1360,-9999.0,-9999.0,Nectosaurus,California
-1359,-9999.0,-9999.0,Nectosaurus,California
-1358,-9999.0,-9999.0,Shastasaurus,California
-1357,-9999.0,-9999.0,Thalattosaurus,California
 1356,31.618,-40.9603,Paralonectes,British Columbia
 1355,31.618,-40.9603,Paralonectes,British Columbia
 1354,30.4196,-41.7441,Paralonectes,British Columbia
@@ -3535,12 +3522,6 @@ id,Rotated Lat,Rotated Lon,genus,locality
 765,42.6876,20.3569,Bashkyroleter,Arkhangelsk
 764,42.6876,20.3569,Macroleter,Arkhangelsk
 763,-60.8508,-19.3342,Pareiasaurus,Northern Cape
-762,-9999.0,-9999.0,Thalattosaurus,California
-761,-9999.0,-9999.0,Nectosaurus,California
-760,-9999.0,-9999.0,Nectosaurus,California
-759,-9999.0,-9999.0,Nectosaurus,California
-758,-9999.0,-9999.0,Nectosaurus,California
-757,-9999.0,-9999.0,Nectosaurus,California
 756,24.2134,17.2823,Simosaurus,Grand Est
 755,42.9649,19.49,Plateosaurus,Bavaria
 754,37.5366,8.5285,Clevosaurus,Gaume
@@ -3776,11 +3757,8 @@ id,Rotated Lat,Rotated Lon,genus,locality
 514,27.7242,17.4803,Horaffia,Baden-Wurttemberg
 513,-49.4771,-10.0175,Erythrovenator,Rio Grande do Sul
 512,28.4265,19.2638,Serpianosaurus,Sachsen-Anhalt
-511,-9999.0,-9999.0,Shastasaurus,California
-510,-9999.0,-9999.0,Shastasaurus,California
 509,48.4578,0.5752,Grippia,Svalbard
 508,-10.6025,117.3256,Thaisaurus,Thailand
-507,-9999.0,-9999.0,Californosaurus,California
 506,7.8874,-52.1791,Shonisaurus,Nevada
 505,7.8874,-52.1791,Shonisaurus,Nevada
 504,47.2969,-1.9218,Pessopteryx,Svalbard
@@ -3893,7 +3871,6 @@ id,Rotated Lat,Rotated Lon,genus,locality
 384,47.8035,-0.1441,Omphalosaurus,Svalbard
 383,31.618,-40.9603,Phalarodon,British Columbia
 382,31.618,-40.9603,Phalarodon,British Columbia
-381,-9999.0,-9999.0,Nothosaurus,California
 380,21.0544,12.2826,Feralisaurus,England
 379,-9.6503,31.2677,Psephosauriscus,Israel
 378,35.9688,2.1884,Haligonia,Wales
@@ -4041,7 +4018,6 @@ id,Rotated Lat,Rotated Lon,genus,locality
 232,22.3004,19.0343,Lariosaurus,Switzerland
 231,22.3004,19.0343,Askeptosaurus,Switzerland
 230,22.3004,19.0343,Helveticosaurus,Switzerland
-229,-9999.0,-9999.0,Toretocnemus,California
 228,-12.3838,5.057,Moradisaurus,Agadez
 227,9.648,120.1408,Baisesaurus,Guangxi
 226,30.9826,11.6474,Plateosaurus,Switzerland
