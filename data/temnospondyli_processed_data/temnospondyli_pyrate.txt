@@ -1,2223 +1,2223 @@
-id	Species	min_age	max_age	Status
-2247	Anconastes	298.9	305.9	extant
-2246	Broiliellus	273.01	283.5	extant
-2245	Broiliellus	286.1	298.9	extant
-2244	Eryops	283.5	290.1	extant
-2243	Aspidosaurus_Tropical_S	283.5	290.1	extant
-2242	Zatrachys	283.5	290.1	extant
-2241	Trimerorhachis	283.5	290.1	extant
-2240	Eryops	290.1	298.9	extant
-2239	Platyhystrix	290.1	298.9	extant
-2238	Rileymillerus	208.5	227.0	extant
-2237	Apachesaurus	208.5	227.0	extant
-2236	Eryops	298.9	303.7	extant
-2235	Eryops	286.1	298.9	extant
-2230	Metoposaurus_Tropical_S	208.5	237.0	extant
-2229	Trimerorhachis	283.5	290.1	extant
-2228	Eryops	283.5	290.1	extant
-2227	Anaschisma	227.0	237.0	extant
-2195	Trimerorhachis	273.01	283.5	extant
-2196	Trimerorhachis	273.01	283.5	extant
-2197	Trimerorhachis	273.01	283.5	extant
-2198	Trimerorhachis	273.01	283.5	extant
-2199	Trimerorhachis	273.01	283.5	extant
-2200	Trimerorhachis	273.01	283.5	extant
-2201	Trimerorhachis	273.01	283.5	extant
-2202	Trimerorhachis	273.01	283.5	extant
-2203	Trimerorhachis	273.01	283.5	extant
-2204	Trimerorhachis	273.01	283.5	extant
-2205	Trimerorhachis	273.01	283.5	extant
-2206	Trimerorhachis	273.01	283.5	extant
-2207	Trimerorhachis	273.01	283.5	extant
-2208	Trimerorhachis	273.01	283.5	extant
-2209	Trimerorhachis	273.01	283.5	extant
-2210	Trimerorhachis	273.01	283.5	extant
-2211	Trimerorhachis	273.01	283.5	extant
-2212	Trimerorhachis	273.01	283.5	extant
-2213	Trimerorhachis	273.01	283.5	extant
-2214	Trimerorhachis	273.01	283.5	extant
-2215	Trimerorhachis	273.01	283.5	extant
-2216	Trimerorhachis	273.01	283.5	extant
-2217	Trimerorhachis	273.01	283.5	extant
-2218	Trimerorhachis	273.01	283.5	extant
-2219	Trimerorhachis	273.01	283.5	extant
-2220	Trimerorhachis	273.01	283.5	extant
-2221	Trimerorhachis	273.01	283.5	extant
-2222	Trimerorhachis	273.01	283.5	extant
-2223	Trimerorhachis	273.01	283.5	extant
-2224	Trimerorhachis	273.01	283.5	extant
-2225	Trimerorhachis	273.01	283.5	extant
-2226	Trimerorhachis	273.01	283.5	extant
-2194	Parioxys	290.1	298.9	extant
-2193	Acheloma	283.5	290.1	extant
-2192	Parioxys	283.5	290.1	extant
-2191	Dissorophus	273.01	283.5	extant
-2190	Anaschisma	208.5	227.0	extant
-2189	Anaschisma	208.5	237.0	extant
-2188	Gerrothorax_Temperate_N	208.5	227.0	extant
-2187	Cyclotosaurus_Temperate_N	208.5	227.0	extant
-2184	Nannospondylus	264.28	273.01	extant
-2182	Fayella	264.28	273.01	extant
-2183	Fayella	264.28	273.01	extant
-2181	Eryops	286.1	298.9	extant
-2180	Eryops	290.1	293.52	extant
-2179	Eryops	290.1	293.52	extant
-2178	Eryops	290.1	293.52	extant
-2177	Eryops	290.1	293.52	extant
-2176	Zatrachys	290.1	293.52	extant
-2175	Eryops	290.1	293.52	extant
-2174	Eryops	290.1	293.52	extant
-2173	Eryops	283.5	290.1	extant
-2172	Trimerorhachis	283.5	290.1	extant
-2171	Eryops	283.5	290.1	extant
-2170	Eryops	283.5	290.1	extant
-2169	Trimerorhachis	283.5	290.1	extant
-2168	Parioxys	283.5	290.1	extant
-2167	Eryops	283.5	290.1	extant
-2166	Trimerorhachis	283.5	290.1	extant
-2165	Eryops	283.5	290.1	extant
-2164	Trimerorhachis	283.5	290.1	extant
-2163	Eryops	283.5	290.1	extant
-2162	Aspidosaurus_Tropical_S	283.5	290.1	extant
-2161	Trimerorhachis	283.5	290.1	extant
-2160	Eryops	283.5	290.1	extant
-2159	Eryops	283.5	290.1	extant
-2158	Trimerorhachis	283.5	290.1	extant
-2157	Tersomius	283.5	290.1	extant
-2156	Eryops	283.5	290.1	extant
-2155	Zatrachys	283.5	290.1	extant
-2154	Trimerorhachis	283.5	290.1	extant
-2153	Eryops	283.5	290.1	extant
-2152	Aspidosaurus_Tropical_S	283.5	290.1	extant
-2151	Trimerorhachis	283.5	290.1	extant
-2150	Eryops	283.5	290.1	extant
-2149	Trimerorhachis	283.5	290.1	extant
-2148	Eryops	283.5	290.1	extant
-2147	Eryops	283.5	290.1	extant
-2146	Eryops	273.01	290.1	extant
-2145	Trimerorhachis	273.01	290.1	extant
-2144	Broiliellus	273.01	290.1	extant
-2143	Eryops	273.01	290.1	extant
-2142	Broiliellus	273.01	290.1	extant
-2141	Trimerorhachis	273.01	290.1	extant
-2140	Eryops	273.01	283.5	extant
-2139	Trimerorhachis	273.01	283.5	extant
-2138	Eryops	273.01	290.1	extant
-2137	Eryops	273.01	290.1	extant
-2136	Eryops	273.01	290.1	extant
-2135	Eryops	273.01	283.5	extant
-2134	Dissorophus	273.01	283.5	extant
-2133	Aspidosaurus_Tropical_S	273.01	283.5	extant
-2132	Dasyceps	273.01	283.5	extant
-2131	Trimerorhachis	273.01	283.5	extant
-2130	Eryops	273.01	283.5	extant
-2129	Cacops	273.01	283.5	extant
-2128	Trimerorhachis	273.01	283.5	extant
-2127	Isodectes	273.01	283.5	extant
-2126	Eryops	273.01	283.5	extant
-2125	Dissorophus	273.01	283.5	extant
-2124	Dissorophus	273.01	283.5	extant
-2123	Eryops	273.01	283.5	extant
-2122	Zatrachys	273.01	283.5	extant
-2121	Trimerorhachis	273.01	283.5	extant
-2120	Eryops	273.01	283.5	extant
-2119	Acheloma	273.01	283.5	extant
-2118	Eryops	273.01	283.5	extant
-2117	Dissorophus	273.01	283.5	extant
-2116	Trimerorhachis	273.01	283.5	extant
-2115	Eryops	273.01	283.5	extant
-2114	Trimerorhachis	273.01	283.5	extant
-2113	Trimerorhachis	273.01	283.5	extant
-2112	Zatrachys	273.01	283.5	extant
-2111	Eryops	273.01	283.5	extant
-2110	Eryops	283.5	293.52	extant
-2109	Trimerorhachis	283.5	293.52	extant
-2108	Anisodexis	273.01	283.5	extant
-2107	Acheloma	273.01	283.5	extant
-2106	Isodectes	273.01	283.5	extant
-2105	Zatrachys	286.1	298.9	extant
-2104	Apateon	251.902	298.9	extant
-2103	Apateon	251.902	298.9	extant
-2102	Apateon	251.902	298.9	extant
-2101	Eryops	290.1	293.52	extant
-2100	Volgosuchus	247.2	251.902	extant
-2099	Thoosuchus	247.2	251.902	extant
-1849	Benthosuchus	247.2	251.2	extant
-1850	Benthosuchus	247.2	251.2	extant
-1851	Benthosuchus	247.2	251.2	extant
-1852	Benthosuchus	247.2	251.2	extant
-1853	Benthosuchus	247.2	251.2	extant
-1854	Benthosuchus	247.2	251.2	extant
-1855	Benthosuchus	247.2	251.2	extant
-1856	Benthosuchus	247.2	251.2	extant
-1857	Benthosuchus	247.2	251.2	extant
-1858	Benthosuchus	247.2	251.2	extant
-1859	Benthosuchus	247.2	251.2	extant
-1860	Benthosuchus	247.2	251.2	extant
-1861	Benthosuchus	247.2	251.2	extant
-1862	Benthosuchus	247.2	251.2	extant
-1863	Benthosuchus	247.2	251.2	extant
-1864	Benthosuchus	247.2	251.2	extant
-1865	Benthosuchus	247.2	251.2	extant
-1866	Benthosuchus	247.2	251.2	extant
-1867	Benthosuchus	247.2	251.2	extant
-1868	Benthosuchus	247.2	251.2	extant
-1869	Benthosuchus	247.2	251.2	extant
-1870	Benthosuchus	247.2	251.2	extant
-1871	Benthosuchus	247.2	251.2	extant
-1872	Benthosuchus	247.2	251.2	extant
-1873	Benthosuchus	247.2	251.2	extant
-1874	Benthosuchus	247.2	251.2	extant
-1875	Benthosuchus	247.2	251.2	extant
-1876	Benthosuchus	247.2	251.2	extant
-1877	Benthosuchus	247.2	251.2	extant
-1878	Benthosuchus	247.2	251.2	extant
-1879	Benthosuchus	247.2	251.2	extant
-1880	Benthosuchus	247.2	251.2	extant
-1881	Benthosuchus	247.2	251.2	extant
-1882	Benthosuchus	247.2	251.2	extant
-1883	Benthosuchus	247.2	251.2	extant
-1884	Benthosuchus	247.2	251.2	extant
-1885	Benthosuchus	247.2	251.2	extant
-1886	Benthosuchus	247.2	251.2	extant
-1887	Benthosuchus	247.2	251.2	extant
-1888	Benthosuchus	247.2	251.2	extant
-1889	Benthosuchus	247.2	251.2	extant
-1890	Benthosuchus	247.2	251.2	extant
-1891	Benthosuchus	247.2	251.2	extant
-1892	Benthosuchus	247.2	251.2	extant
-1893	Benthosuchus	247.2	251.2	extant
-1894	Benthosuchus	247.2	251.2	extant
-1895	Benthosuchus	247.2	251.2	extant
-1896	Benthosuchus	247.2	251.2	extant
-1897	Benthosuchus	247.2	251.2	extant
-1898	Benthosuchus	247.2	251.2	extant
-1899	Benthosuchus	247.2	251.2	extant
-1900	Benthosuchus	247.2	251.2	extant
-1901	Benthosuchus	247.2	251.2	extant
-1902	Benthosuchus	247.2	251.2	extant
-1903	Benthosuchus	247.2	251.2	extant
-1904	Benthosuchus	247.2	251.2	extant
-1905	Benthosuchus	247.2	251.2	extant
-1906	Benthosuchus	247.2	251.2	extant
-1907	Benthosuchus	247.2	251.2	extant
-1908	Benthosuchus	247.2	251.2	extant
-1909	Benthosuchus	247.2	251.2	extant
-1910	Benthosuchus	247.2	251.2	extant
-1911	Benthosuchus	247.2	251.2	extant
-1912	Benthosuchus	247.2	251.2	extant
-1913	Benthosuchus	247.2	251.2	extant
-1914	Benthosuchus	247.2	251.2	extant
-1915	Benthosuchus	247.2	251.2	extant
-1916	Benthosuchus	247.2	251.2	extant
-1917	Benthosuchus	247.2	251.2	extant
-1918	Benthosuchus	247.2	251.2	extant
-1919	Benthosuchus	247.2	251.2	extant
-1920	Benthosuchus	247.2	251.2	extant
-1921	Benthosuchus	247.2	251.2	extant
-1922	Benthosuchus	247.2	251.2	extant
-1923	Benthosuchus	247.2	251.2	extant
-1924	Benthosuchus	247.2	251.2	extant
-1925	Benthosuchus	247.2	251.2	extant
-1926	Benthosuchus	247.2	251.2	extant
-1927	Benthosuchus	247.2	251.2	extant
-1928	Benthosuchus	247.2	251.2	extant
-1929	Benthosuchus	247.2	251.2	extant
-1930	Benthosuchus	247.2	251.2	extant
-1931	Benthosuchus	247.2	251.2	extant
-1932	Benthosuchus	247.2	251.2	extant
-1933	Benthosuchus	247.2	251.2	extant
-1934	Benthosuchus	247.2	251.2	extant
-1935	Benthosuchus	247.2	251.2	extant
-1936	Benthosuchus	247.2	251.2	extant
-1937	Benthosuchus	247.2	251.2	extant
-1938	Benthosuchus	247.2	251.2	extant
-1939	Benthosuchus	247.2	251.2	extant
-1940	Benthosuchus	247.2	251.2	extant
-1941	Benthosuchus	247.2	251.2	extant
-1942	Benthosuchus	247.2	251.2	extant
-1943	Benthosuchus	247.2	251.2	extant
-1944	Benthosuchus	247.2	251.2	extant
-1945	Benthosuchus	247.2	251.2	extant
-1946	Benthosuchus	247.2	251.2	extant
-1947	Benthosuchus	247.2	251.2	extant
-1948	Benthosuchus	247.2	251.2	extant
-1949	Benthosuchus	247.2	251.2	extant
-1950	Benthosuchus	247.2	251.2	extant
-1951	Benthosuchus	247.2	251.2	extant
-1952	Benthosuchus	247.2	251.2	extant
-1953	Benthosuchus	247.2	251.2	extant
-1954	Benthosuchus	247.2	251.2	extant
-1955	Benthosuchus	247.2	251.2	extant
-1956	Benthosuchus	247.2	251.2	extant
-1957	Benthosuchus	247.2	251.2	extant
-1958	Benthosuchus	247.2	251.2	extant
-1959	Benthosuchus	247.2	251.2	extant
-1960	Benthosuchus	247.2	251.2	extant
-1961	Benthosuchus	247.2	251.2	extant
-1962	Benthosuchus	247.2	251.2	extant
-1963	Benthosuchus	247.2	251.2	extant
-1964	Benthosuchus	247.2	251.2	extant
-1965	Benthosuchus	247.2	251.2	extant
-1966	Benthosuchus	247.2	251.2	extant
-1967	Benthosuchus	247.2	251.2	extant
-1968	Benthosuchus	247.2	251.2	extant
-1969	Benthosuchus	247.2	251.2	extant
-1970	Benthosuchus	247.2	251.2	extant
-1971	Benthosuchus	247.2	251.2	extant
-1972	Benthosuchus	247.2	251.2	extant
-1973	Benthosuchus	247.2	251.2	extant
-1974	Benthosuchus	247.2	251.2	extant
-1975	Benthosuchus	247.2	251.2	extant
-1976	Benthosuchus	247.2	251.2	extant
-1977	Benthosuchus	247.2	251.2	extant
-1978	Benthosuchus	247.2	251.2	extant
-1979	Benthosuchus	247.2	251.2	extant
-1980	Benthosuchus	247.2	251.2	extant
-1981	Benthosuchus	247.2	251.2	extant
-1982	Benthosuchus	247.2	251.2	extant
-1983	Benthosuchus	247.2	251.2	extant
-1984	Benthosuchus	247.2	251.2	extant
-1985	Benthosuchus	247.2	251.2	extant
-1986	Benthosuchus	247.2	251.2	extant
-1987	Benthosuchus	247.2	251.2	extant
-1988	Benthosuchus	247.2	251.2	extant
-1989	Benthosuchus	247.2	251.2	extant
-1990	Benthosuchus	247.2	251.2	extant
-1991	Benthosuchus	247.2	251.2	extant
-1992	Benthosuchus	247.2	251.2	extant
-1993	Benthosuchus	247.2	251.2	extant
-1994	Benthosuchus	247.2	251.2	extant
-1995	Benthosuchus	247.2	251.2	extant
-1996	Benthosuchus	247.2	251.2	extant
-1997	Benthosuchus	247.2	251.2	extant
-1998	Benthosuchus	247.2	251.2	extant
-1999	Benthosuchus	247.2	251.2	extant
-2000	Benthosuchus	247.2	251.2	extant
-2001	Benthosuchus	247.2	251.2	extant
-2002	Benthosuchus	247.2	251.2	extant
-2003	Benthosuchus	247.2	251.2	extant
-2004	Benthosuchus	247.2	251.2	extant
-2005	Benthosuchus	247.2	251.2	extant
-2006	Benthosuchus	247.2	251.2	extant
-2007	Benthosuchus	247.2	251.2	extant
-2008	Benthosuchus	247.2	251.2	extant
-2009	Benthosuchus	247.2	251.2	extant
-2010	Benthosuchus	247.2	251.2	extant
-2011	Benthosuchus	247.2	251.2	extant
-2012	Benthosuchus	247.2	251.2	extant
-2013	Benthosuchus	247.2	251.2	extant
-2014	Benthosuchus	247.2	251.2	extant
-2015	Benthosuchus	247.2	251.2	extant
-2016	Benthosuchus	247.2	251.2	extant
-2017	Benthosuchus	247.2	251.2	extant
-2018	Benthosuchus	247.2	251.2	extant
-2019	Benthosuchus	247.2	251.2	extant
-2020	Benthosuchus	247.2	251.2	extant
-2021	Benthosuchus	247.2	251.2	extant
-2022	Benthosuchus	247.2	251.2	extant
-2023	Benthosuchus	247.2	251.2	extant
-2024	Benthosuchus	247.2	251.2	extant
-2025	Benthosuchus	247.2	251.2	extant
-2026	Benthosuchus	247.2	251.2	extant
-2027	Benthosuchus	247.2	251.2	extant
-2028	Benthosuchus	247.2	251.2	extant
-2029	Benthosuchus	247.2	251.2	extant
-2030	Benthosuchus	247.2	251.2	extant
-2031	Benthosuchus	247.2	251.2	extant
-2032	Benthosuchus	247.2	251.2	extant
-2033	Benthosuchus	247.2	251.2	extant
-2034	Benthosuchus	247.2	251.2	extant
-2035	Benthosuchus	247.2	251.2	extant
-2036	Benthosuchus	247.2	251.2	extant
-2037	Benthosuchus	247.2	251.2	extant
-2038	Benthosuchus	247.2	251.2	extant
-2039	Benthosuchus	247.2	251.2	extant
-2040	Benthosuchus	247.2	251.2	extant
-2041	Benthosuchus	247.2	251.2	extant
-2042	Benthosuchus	247.2	251.2	extant
-2043	Benthosuchus	247.2	251.2	extant
-2044	Benthosuchus	247.2	251.2	extant
-2045	Benthosuchus	247.2	251.2	extant
-2046	Benthosuchus	247.2	251.2	extant
-2047	Benthosuchus	247.2	251.2	extant
-2048	Benthosuchus	247.2	251.2	extant
-2049	Benthosuchus	247.2	251.2	extant
-2050	Benthosuchus	247.2	251.2	extant
-2051	Benthosuchus	247.2	251.2	extant
-2052	Benthosuchus	247.2	251.2	extant
-2053	Benthosuchus	247.2	251.2	extant
-2054	Benthosuchus	247.2	251.2	extant
-2055	Benthosuchus	247.2	251.2	extant
-2056	Benthosuchus	247.2	251.2	extant
-2057	Benthosuchus	247.2	251.2	extant
-2058	Benthosuchus	247.2	251.2	extant
-2059	Benthosuchus	247.2	251.2	extant
-2060	Benthosuchus	247.2	251.2	extant
-2061	Benthosuchus	247.2	251.2	extant
-2062	Benthosuchus	247.2	251.2	extant
-2063	Benthosuchus	247.2	251.2	extant
-2064	Benthosuchus	247.2	251.2	extant
-2065	Benthosuchus	247.2	251.2	extant
-2066	Benthosuchus	247.2	251.2	extant
-2067	Benthosuchus	247.2	251.2	extant
-2068	Benthosuchus	247.2	251.2	extant
-2069	Benthosuchus	247.2	251.2	extant
-2070	Benthosuchus	247.2	251.2	extant
-2071	Benthosuchus	247.2	251.2	extant
-2072	Benthosuchus	247.2	251.2	extant
-2073	Benthosuchus	247.2	251.2	extant
-2074	Benthosuchus	247.2	251.2	extant
-2075	Benthosuchus	247.2	251.2	extant
-2076	Benthosuchus	247.2	251.2	extant
-2077	Benthosuchus	247.2	251.2	extant
-2078	Benthosuchus	247.2	251.2	extant
-2079	Benthosuchus	247.2	251.2	extant
-2080	Benthosuchus	247.2	251.2	extant
-2081	Benthosuchus	247.2	251.2	extant
-2082	Benthosuchus	247.2	251.2	extant
-2083	Benthosuchus	247.2	251.2	extant
-2084	Benthosuchus	247.2	251.2	extant
-2085	Benthosuchus	247.2	251.2	extant
-2086	Benthosuchus	247.2	251.2	extant
-2087	Benthosuchus	247.2	251.2	extant
-2088	Benthosuchus	247.2	251.2	extant
-2089	Benthosuchus	247.2	251.2	extant
-2090	Benthosuchus	247.2	251.2	extant
-2091	Benthosuchus	247.2	251.2	extant
-2092	Benthosuchus	247.2	251.2	extant
-2093	Benthosuchus	247.2	251.2	extant
-2094	Benthosuchus	247.2	251.2	extant
-2095	Benthosuchus	247.2	251.2	extant
-2096	Benthosuchus	247.2	251.2	extant
-2097	Benthosuchus	247.2	251.2	extant
-2098	Benthosuchus	247.2	251.2	extant
-1848	Thoosuchus	247.2	251.2	extant
-1847	Tungussogyrinus	247.2	259.51	extant
-1846	Tungussogyrinus	247.2	259.51	extant
-1845	Tungussogyrinus	247.2	259.51	extant
-1844	Eryosuchus_Temperate_N	242.0	247.2	extant
-1843	Eryops	290.1	298.9	extant
-1842	Actinodon	290.1	298.9	extant
-1841	Lydekkerina	247.2	251.902	extant
-1840	Hadrokkosaurus	244.7	247.2	extant
-1839	Eocyclotosaurus	244.7	247.2	extant
-1838	Rhadalognathus	244.7	247.2	extant
-1837	Platyoposaurus	259.51	266.9	extant
-1836	Tryphosuchus	259.51	266.9	extant
-1835	Cacops	273.01	283.5	extant
-1834	Melosaurus	266.9	276.5	extant
-1833	Dvinosaurus	256.8	259.51	extant
-1832	Dvinosaurus	256.8	259.51	extant
-1831	Dvinosaurus	256.8	259.51	extant
-1830	Paracyclotosaurus_Temperate_S	242.0	247.2	extant
-1829	Czatkobatrachus	247.2	251.2	extant
-1828	Parotosuchus_Temperate_N	247.2	251.2	extant
-1827	Anaschisma	208.5	227.0	extant
-1826	Anaschisma	208.5	227.0	extant
-1825	Anaschisma	208.5	227.0	extant
-1824	Metoposaurus_Tropical_S	201.4	237.0	extant
-1823	Metoposaurus_Tropical_S	201.4	237.0	extant
-1822	Wetlugasaurus	247.2	251.2	extant
-1821	Angusaurus	247.2	251.2	extant
-1820	Vyborosaurus	247.2	251.2	extant
-1819	Aphaneramma_Temperate_N	247.2	248.9	extant
-1818	Aphaneramma_Temperate_N	247.2	248.9	extant
-1817	Apachesaurus	208.5	227.0	extant
-1816	Apachesaurus	208.5	227.0	extant
-1815	Metoposaurus_Tropical_S	201.4	208.5	extant
-1814	Plagiosaurus	201.4	208.5	extant
-1813	Apachesaurus	208.5	227.0	extant
-1812	Anaschisma	208.5	227.0	extant
-1811	Anaschisma	208.5	227.0	extant
-1810	Anaschisma	208.5	227.0	extant
-1809	Onchiodon	290.1	293.52	extant
-1808	Onchiodon	290.1	293.52	extant
-1807	Apateon	290.1	293.52	extant
-1806	Branchierpeton	290.1	293.52	extant
-1805	Acanthostomatops	290.1	293.52	extant
-1804	Anaschisma	208.5	227.0	extant
-1803	Plagiosaurus	213.2	216.7	extant
-1802	Cyclotosaurus_Temperate_N	213.2	216.7	extant
-1801	Cyclotosaurus_Temperate_N	242.0	247.2	extant
-1800	Cyclotosaurus_Temperate_N	242.0	247.2	extant
-1799	Mastodonsaurus_Temperate_N	242.0	247.2	extant
-1798	Apateon	259.51	283.5	extant
-1797	Anaschisma	208.5	227.0	extant
-1796	Anaschisma	208.5	227.0	extant
-1795	Apachesaurus	208.5	227.0	extant
-1794	Apachesaurus	208.5	227.0	extant
-1793	Apachesaurus	208.5	227.0	extant
-1792	Cyclotosaurus_Temperate_N	208.5	237.0	extant
-1791	Metoposaurus_Tropical_S	208.5	237.0	extant
-1790	Cyclotosaurus_Temperate_N	227.0	233.4	extant
-1789	Anaschisma	208.5	227.0	extant
-1782	Cacops	283.5	290.1	extant
-1783	Cacops	283.5	290.1	extant
-1784	Cacops	283.5	290.1	extant
-1785	Cacops	283.5	290.1	extant
-1786	Cacops	283.5	290.1	extant
-1787	Cacops	283.5	290.1	extant
-1788	Cacops	283.5	290.1	extant
-1781	Doleserpeton	283.5	290.1	extant
-1780	Tersomius	283.5	290.1	extant
-1778	Acheloma	283.5	290.1	extant
-1779	Acheloma	283.5	290.1	extant
-1777	Cacops	283.5	290.1	extant
-1776	Trimerorhachis	273.01	283.5	extant
-1775	Tersomius	273.01	283.5	extant
-1774	Saharastega	251.902	254.14	extant
-1773	Nigerpeton	251.902	254.14	extant
-1764	Anaschisma	208.5	237.0	extant
-1765	Anaschisma	208.5	237.0	extant
-1766	Anaschisma	208.5	237.0	extant
-1767	Anaschisma	208.5	237.0	extant
-1768	Anaschisma	208.5	237.0	extant
-1769	Anaschisma	208.5	237.0	extant
-1770	Anaschisma	208.5	237.0	extant
-1771	Anaschisma	208.5	237.0	extant
-1772	Anaschisma	208.5	237.0	extant
-1763	Mastodonsaurus_Temperate_N	201.4	208.5	extant
-1762	Trematosaurus_Temperate_N	201.4	208.5	extant
-1761	Mastodonsaurus_Temperate_N	242.0	247.2	extant
-1760	Mastodonsaurus_Temperate_N	237.0	247.2	extant
-1759	Stenotosaurus	237.0	247.2	extant
-1758	Anaschisma	208.5	227.0	extant
-1757	Anaschisma	208.5	227.0	extant
-1756	Anaschisma	208.5	227.0	extant
-1755	Anaschisma	208.5	227.0	extant
-1754	Gerrothorax_Temperate_N	213.2	216.7	extant
-1753	Tersomius	273.01	283.5	extant
-1752	Eryops	273.01	298.9	extant
-1751	Slaugenhopia	266.9	283.5	extant
-1750	Metoposaurus_Tropical_S	208.5	237.0	extant
-1749	Metoposaurus_Tropical_S	227.0	233.4	extant
-1748	Apachesaurus	208.5	227.0	extant
-1747	Apachesaurus	208.5	227.0	extant
-1746	Anaschisma	208.5	237.0	extant
-1745	Apachesaurus	208.5	227.0	extant
-1744	Anaschisma	208.5	227.0	extant
-1743	Anaschisma	227.0	237.0	extant
-1742	Melosaurus	266.9	276.5	extant
-1741	Trimerorhachis	273.01	286.1	extant
-1740	Trimerorhachis	273.01	283.5	extant
-1739	Trimerorhachis	283.5	290.1	extant
-1738	Eryops	283.5	290.1	extant
-1737	Trimerorhachis	273.01	286.1	extant
-1736	Trimerorhachis	273.01	286.1	extant
-1735	Eryops	273.01	286.1	extant
-1734	Eryops	273.01	286.1	extant
-1733	Trimerorhachis	283.5	290.1	extant
-1732	Doleserpeton	273.01	286.1	extant
-1731	Slaugenhopia	266.9	283.5	extant
-1730	Isodectes	307.4	309.8	extant
-1729	Isodectes	307.4	309.8	extant
-1728	Trimerorhachis	273.01	290.1	extant
-1727	Trimerorhachis	273.01	290.1	extant
-1726	Eryops	273.01	290.1	extant
-1725	Nigerpeton	251.902	254.14	extant
-1724	Anakamacops	266.9	273.01	extant
-1723	Parotosuchus_Temperate_N	247.2	251.2	extant
-1722	Parotosuchus_Temperate_N	247.2	251.2	extant
-1721	Yarengia	247.2	251.2	extant
-1720	Eryosuchus_Temperate_N	247.2	251.2	extant
-1719	Mastodonsaurus_Temperate_N	237.0	242.0	extant
-1718	Plagioscutum	237.0	242.0	extant
-1717	Eryops	286.1	298.9	extant
-1716	Zatrachys	286.1	298.9	extant
-1715	Acheloma	286.1	298.9	extant
-1714	Phonerpeton	286.1	298.9	extant
-1713	Eryops	286.1	298.9	extant
-1712	Platyhystrix	286.1	298.9	extant
-1711	Georgenthalia	283.5	290.1	extant
-1710	Konzhukovia_Temperate_N	264.28	266.9	extant
-1709	Trimerorhachis	273.01	286.1	extant
-1708	Eryops	273.01	286.1	extant
-1707	Zatrachys	290.1	298.9	extant
-1706	Trimerorhachis	290.1	298.9	extant
-1705	Chenoprosopus	286.1	298.9	extant
-1704	Dvinosaurus	256.8	259.51	extant
-1703	Uruyiella	201.4	237.0	extant
-1702	Platyoposaurus	266.9	276.5	extant
-1701	Platyoposaurus	264.28	266.9	extant
-1700	Platyoposaurus	264.28	266.9	extant
-1699	Melosaurus	264.28	266.9	extant
-1698	Eryops	273.01	286.1	extant
-1697	Trimerorhachis	273.01	286.1	extant
-1696	Melosaurus	266.9	276.5	extant
-1695	Zygosaurus	266.9	276.5	extant
-1694	Intasuchus	273.01	276.5	extant
-1693	Syndyodosuchus	273.01	276.5	extant
-1692	Rileymillerus	208.5	227.0	extant
-1691	Eocyclotosaurus	242.0	247.2	extant
-1690	Eocyclotosaurus	242.0	247.2	extant
-1689	Dvinosaurus	259.51	264.28	extant
-1688	Eryops	273.01	290.1	extant
-1687	Cyclotosaurus_Temperate_N	208.5	227.0	extant
-1686	Lapillopsis	251.2	251.902	extant
-1685	Batrachosuchus_Temperate_S	242.0	247.2	extant
-1683	Pasawioops	283.5	290.1	extant
-1684	Pasawioops	283.5	290.1	extant
-1682	Tambachia	283.5	290.1	extant
-1681	Gerobatrachus	273.01	283.5	extant
-1680	Anaschisma	227.0	237.0	extant
-1678	Anaschisma	227.0	237.0	extant
-1679	Anaschisma	227.0	237.0	extant
-1675	Anaschisma	227.0	237.0	extant
-1676	Anaschisma	227.0	237.0	extant
-1677	Anaschisma	227.0	237.0	extant
-1674	Anaschisma	227.0	237.0	extant
-1673	Anaschisma	227.0	237.0	extant
-1672	Anaschisma	227.0	237.0	extant
-1671	Anaschisma	227.0	237.0	extant
-1670	Anaschisma	227.0	237.0	extant
-1669	Triadobatrachus	248.9	251.902	extant
-1668	Apachesaurus	213.2	227.0	extant
-1667	Anaschisma	208.5	227.0	extant
-1666	Anaschisma	208.5	227.0	extant
-1665	Anaschisma	208.5	227.0	extant
-1664	Anaschisma	208.5	227.0	extant
-1663	Apachesaurus	208.5	227.0	extant
-1662	Anaschisma	208.5	227.0	extant
-1661	Apachesaurus	208.5	227.0	extant
-1660	Apachesaurus	208.5	227.0	extant
-1659	Apachesaurus	208.5	227.0	extant
-1658	Anaschisma	208.5	227.0	extant
-1657	Apachesaurus	208.5	227.0	extant
-1656	Anaschisma	208.5	227.0	extant
-1655	Anaschisma	208.5	227.0	extant
-1654	Anaschisma	208.5	227.0	extant
-1653	Anaschisma	208.5	227.0	extant
-1652	Anaschisma	208.5	227.0	extant
-1651	Anaschisma	208.5	227.0	extant
-1650	Anaschisma	208.5	227.0	extant
-1649	Anaschisma	208.5	227.0	extant
-1648	Anaschisma	208.5	227.0	extant
-1647	Anaschisma	208.5	227.0	extant
-1646	Anaschisma	208.5	227.0	extant
-1645	Anaschisma	208.5	227.0	extant
-1644	Apachesaurus	208.5	227.0	extant
-1643	Anaschisma	208.5	227.0	extant
-1636	Anaschisma	208.5	227.0	extant
-1637	Anaschisma	208.5	227.0	extant
-1638	Anaschisma	208.5	227.0	extant
-1639	Anaschisma	208.5	227.0	extant
-1640	Anaschisma	208.5	227.0	extant
-1641	Anaschisma	208.5	227.0	extant
-1642	Anaschisma	208.5	227.0	extant
-1635	Apachesaurus	208.5	227.0	extant
-1634	Anaschisma	208.5	227.0	extant
-1633	Anaschisma	208.5	227.0	extant
-1629	Anaschisma	208.5	227.0	extant
-1630	Anaschisma	208.5	227.0	extant
-1631	Anaschisma	208.5	227.0	extant
-1632	Anaschisma	208.5	227.0	extant
-1628	Anaschisma	208.5	227.0	extant
-1627	Anaschisma	208.5	227.0	extant
-1626	Anaschisma	208.5	227.0	extant
-1625	Anaschisma	208.5	227.0	extant
-1624	Apachesaurus	208.5	227.0	extant
-1623	Plagioscutum	242.0	247.2	extant
-1622	Wetlugasaurus	247.2	251.2	extant
-1621	Benthosuchus	247.2	251.2	extant
-1620	Parotosuchus_Temperate_N	247.2	251.2	extant
-1619	Wetlugasaurus	247.2	251.2	extant
-1618	Rhytidosteus_Temperate_N	247.2	251.2	extant
-1617	Batrachosuchoides_Temperate_N	247.2	251.2	extant
-1616	Melanopelta	247.2	251.2	extant
-1615	Anaschisma	208.5	227.0	extant
-1614	Anaschisma	208.5	227.0	extant
-1613	Anaschisma	208.5	227.0	extant
-1612	Anaschisma	208.5	227.0	extant
-1611	Anaschisma	208.5	227.0	extant
-1610	Anaschisma	208.5	227.0	extant
-1609	Anaschisma	208.5	227.0	extant
-1608	Anaschisma	208.5	227.0	extant
-1607	Anaschisma	208.5	227.0	extant
-1606	Anaschisma	208.5	227.0	extant
-1600	Anaschisma	208.5	227.0	extant
-1601	Anaschisma	208.5	227.0	extant
-1602	Anaschisma	208.5	227.0	extant
-1603	Anaschisma	208.5	227.0	extant
-1604	Anaschisma	208.5	227.0	extant
-1605	Anaschisma	208.5	227.0	extant
-1596	Anaschisma	208.5	227.0	extant
-1597	Anaschisma	208.5	227.0	extant
-1598	Anaschisma	208.5	227.0	extant
-1599	Anaschisma	208.5	227.0	extant
-1595	Anaschisma	208.5	227.0	extant
-1594	Apachesaurus	208.5	227.0	extant
-1593	Apachesaurus	208.5	227.0	extant
-1592	Apachesaurus	208.5	227.0	extant
-1591	Apachesaurus	208.5	227.0	extant
-1590	Anaschisma	208.5	227.0	extant
-1589	Anaschisma	208.5	227.0	extant
-1588	Anaschisma	208.5	227.0	extant
-1587	Apachesaurus	208.5	227.0	extant
-1586	Apachesaurus	208.5	227.0	extant
-1585	Apachesaurus	208.5	227.0	extant
-1584	Anaschisma	208.5	227.0	extant
-1583	Anaschisma	208.5	227.0	extant
-1582	Apachesaurus	208.5	227.0	extant
-1581	Apachesaurus	201.4	208.5	extant
-1580	Anaschisma	201.4	208.5	extant
-1579	Anaschisma	208.5	227.0	extant
-1578	Apachesaurus	208.5	227.0	extant
-1577	Anaschisma	208.5	227.0	extant
-1576	Anaschisma	208.5	227.0	extant
-1575	Apachesaurus	208.5	227.0	extant
-1574	Apachesaurus	208.5	227.0	extant
-1573	Apachesaurus	208.5	227.0	extant
-1572	Apachesaurus	208.5	227.0	extant
-1571	Apachesaurus	208.5	227.0	extant
-1570	Apachesaurus	208.5	227.0	extant
-1569	Isodectes	273.01	283.5	extant
-1568	Anaschisma	227.0	233.4	extant
-1567	Apachesaurus	208.5	227.0	extant
-1566	Benthosuchus	251.2	251.902	extant
-1565	Wetlugasaurus	247.2	251.2	extant
-1564	Wetlugasaurus	247.2	251.2	extant
-1563	Parotosuchus_Temperate_N	247.2	251.2	extant
-1562	Anaschisma	208.5	227.0	extant
-1561	Warrenisuchus	251.2	251.902	extant
-1560	Metoposaurus_Tropical_S	227.0	237.0	extant
-1559	Apachesaurus	208.5	227.0	extant
-1558	Apachesaurus	208.5	227.0	extant
-1557	Stanocephalosaurus_Tropical_N	247.2	248.9	extant
-1556	Eocyclotosaurus	244.7	247.2	extant
-1555	Eocyclotosaurus	244.7	247.2	extant
-1554	Eocyclotosaurus	244.7	247.2	extant
-1553	Eocyclotosaurus	244.7	247.2	extant
-1552	Quasicyclotosaurus	244.7	247.2	extant
-1551	Quasicyclotosaurus	244.7	247.2	extant
-1550	Stanocephalosaurus_Tropical_N	244.7	247.2	extant
-1549	Wellesaurus	247.2	248.9	extant
-1548	Cosgriffius	247.2	248.9	extant
-1547	Wellesaurus	247.2	248.9	extant
-1546	Wellesaurus	247.2	248.9	extant
-1545	Eocyclotosaurus	244.7	247.2	extant
-1544	Vigilius	244.7	247.2	extant
-1543	Paracyclotosaurus_Temperate_S	242.0	247.2	extant
-1542	Jammerbergia	242.0	247.2	extant
-1541	Vanastega	242.0	247.2	extant
-1540	Xenotosuchus	242.0	247.2	extant
-1539	Eryosuchus_Temperate_N	242.0	247.2	extant
-1538	Eryosuchus_Temperate_N	242.0	247.2	extant
-1537	Plagioscutum	242.0	247.2	extant
-1536	Eryosuchus_Temperate_N	242.0	247.2	extant
-1535	Plagiorophus	242.0	247.2	extant
-1534	Bukobaja	237.0	242.0	extant
-1533	Plagioscutum	242.0	247.2	extant
-1532	Eryosuchus_Temperate_N	242.0	247.2	extant
-1531	Plagioscutum	242.0	247.2	extant
-1530	Plagiorophus	242.0	247.2	extant
-1529	Eryosuchus_Temperate_N	242.0	247.2	extant
-1528	Plagiorophus	242.0	247.2	extant
-1527	Mastodonsaurus_Temperate_N	237.0	242.0	extant
-1526	Mastodonsaurus_Temperate_N	237.0	242.0	extant
-1525	Bukobaja	237.0	242.0	extant
-1524	Cyclotosaurus_Temperate_N	237.0	242.0	extant
-1523	Eryosuchus_Temperate_N	242.0	247.2	extant
-1522	Yuanansuchus	242.0	247.2	extant
-1521	Mastodonsaurus_Temperate_N	242.0	247.2	extant
-1520	Cyclotosaurus_Temperate_N	242.0	247.2	extant
-1519	Metoposaurus_Tropical_S	227.0	237.0	extant
-1518	Metoposaurus_Tropical_S	227.0	237.0	extant
-1517	Metoposaurus_Tropical_S	227.0	237.0	extant
-1516	Cyclotosaurus_Temperate_N	227.0	237.0	extant
-1515	Metoposaurus_Tropical_S	227.0	237.0	extant
-1514	Gerrothorax_Temperate_N	227.0	237.0	extant
-1513	Stenotosaurus	244.7	247.2	extant
-1512	Tatrasuchus	237.0	242.0	extant
-1511	Sangaia	247.2	251.902	extant
-1510	Cherninia	242.0	247.2	extant
-1509	Batrachosuchus_Temperate_S	242.0	247.2	extant
-1508	Stanocephalosaurus_Tropical_N	242.0	247.2	extant
-1507	Callistomordax	237.0	239.7	extant
-1506	Trematolestes	237.0	239.7	extant
-1505	Mastodonsaurus_Temperate_N	237.0	239.7	extant
-1504	Calmasuchus	242.0	247.2	extant
-1503	Stanocephalosaurus_Tropical_N	242.0	247.2	extant
-1502	Lydekkerina	247.2	251.902	extant
-1501	Anaschisma	208.5	227.0	extant
-1500	Trematolestes	237.0	239.7	extant
-1499	Gerrothorax_Temperate_N	237.0	239.7	extant
-1498	Mastodonsaurus_Temperate_N	237.0	239.7	extant
-1497	Plagiosuchus	237.0	239.7	extant
-1496	Plagiosuchus	237.0	239.7	extant
-1495	Plagiosuchus	237.0	239.7	extant
-1494	Plagiosuchus	237.0	239.7	extant
-1493	Plagiosuchus	237.0	239.7	extant
-1492	Trematolestes	237.0	239.7	extant
-1491	Tatrasuchus	237.0	239.7	extant
-1490	Plagiosuchus	237.0	239.7	extant
-1489	Gerrothorax_Temperate_N	237.0	239.7	extant
-1488	Mastodonsaurus_Temperate_N	237.0	239.7	extant
-1487	Trematolestes	237.0	239.7	extant
-1486	Callistomordax	237.0	239.7	extant
-1485	Mastodonsaurus_Temperate_N	237.0	239.7	extant
-1484	Mastodonsaurus_Temperate_N	237.0	239.7	extant
-1483	Mastodonsaurus_Temperate_N	237.0	239.7	extant
-1481	Mastodonsaurus_Temperate_N	237.0	239.7	extant
-1482	Mastodonsaurus_Temperate_N	237.0	239.7	extant
-1480	Mastodonsaurus_Temperate_N	237.0	239.7	extant
-1478	Mastodonsaurus_Temperate_N	237.0	239.7	extant
-1477	Mastodonsaurus_Temperate_N	237.0	239.7	extant
-1476	Mastodonsaurus_Temperate_N	237.0	239.7	extant
-1475	Metoposaurus_Tropical_S	227.0	237.0	extant
-1474	Metoposaurus_Tropical_S	227.0	237.0	extant
-1473	Metoposaurus_Tropical_S	227.0	237.0	extant
-1471	Hyperokynodon	227.0	237.0	extant
-1472	Hyperokynodon	227.0	237.0	extant
-1449	Cyclotosaurus_Temperate_N	227.0	237.0	extant
-1450	Cyclotosaurus_Temperate_N	227.0	237.0	extant
-1451	Cyclotosaurus_Temperate_N	227.0	237.0	extant
-1452	Cyclotosaurus_Temperate_N	227.0	237.0	extant
-1453	Cyclotosaurus_Temperate_N	227.0	237.0	extant
-1454	Cyclotosaurus_Temperate_N	227.0	237.0	extant
-1455	Cyclotosaurus_Temperate_N	227.0	237.0	extant
-1456	Cyclotosaurus_Temperate_N	227.0	237.0	extant
-1457	Cyclotosaurus_Temperate_N	227.0	237.0	extant
-1458	Cyclotosaurus_Temperate_N	227.0	237.0	extant
-1459	Cyclotosaurus_Temperate_N	227.0	237.0	extant
-1460	Cyclotosaurus_Temperate_N	227.0	237.0	extant
-1461	Cyclotosaurus_Temperate_N	227.0	237.0	extant
-1462	Cyclotosaurus_Temperate_N	227.0	237.0	extant
-1463	Cyclotosaurus_Temperate_N	227.0	237.0	extant
-1464	Cyclotosaurus_Temperate_N	227.0	237.0	extant
-1465	Cyclotosaurus_Temperate_N	227.0	237.0	extant
-1466	Cyclotosaurus_Temperate_N	227.0	237.0	extant
-1467	Cyclotosaurus_Temperate_N	227.0	237.0	extant
-1468	Cyclotosaurus_Temperate_N	227.0	237.0	extant
-1469	Cyclotosaurus_Temperate_N	227.0	237.0	extant
-1470	Cyclotosaurus_Temperate_N	227.0	237.0	extant
-1448	Cyclotosaurus_Temperate_N	227.0	237.0	extant
-1447	Metoposaurus_Tropical_S	227.0	237.0	extant
-1446	Metoposaurus_Tropical_S	227.0	237.0	extant
-1445	Metoposaurus_Tropical_S	227.0	237.0	extant
-1444	Acheloma	283.5	290.1	extant
-1443	Metoposaurus_Tropical_S	208.5	227.0	extant
-1442	Metoposaurus_Tropical_S	227.0	237.0	extant
-1441	Gerrothorax_Temperate_N	208.5	227.0	extant
-1439	Gerrothorax_Temperate_N	208.5	227.0	extant
-1440	Gerrothorax_Temperate_N	208.5	227.0	extant
-1438	Metoposaurus_Tropical_S	227.0	237.0	extant
-1437	Gerrothorax_Temperate_N	201.4	208.5	extant
-1435	Odenwaldia_Tropical_S	242.0	248.9	extant
-1436	Odenwaldia_Tropical_S	242.0	248.9	extant
-1434	Metoposaurus_Tropical_S	227.0	237.0	extant
-1433	Anaschisma	227.0	237.0	extant
-1432	Anaschisma	227.0	237.0	extant
-1431	Calamops	208.5	227.0	extant
-1430	Panthasaurus	208.5	237.0	extant
-1429	Amphibamus	307.4	309.8	extant
-1428	Erpetosaurus	307.4	309.8	extant
-1427	Erpetosaurus	307.4	309.8	extant
-1426	Rubeostratilia	290.1	298.9	extant
-1425	Anaschisma	208.5	237.0	extant
-1424	Anaschisma	208.5	237.0	extant
-1423	Anaschisma	208.5	237.0	extant
-1422	Triassurus	227.0	242.0	extant
-1421	Batrachosuchoides_Temperate_N	247.2	251.2	extant
-1420	Parotosuchus_Temperate_N	247.2	248.9	extant
-1419	Meyerosuchus	247.2	248.9	extant
-1418	Meyerosuchus	247.2	248.9	extant
-1417	Odenwaldia_Tropical_S	247.2	248.9	extant
-1416	Odenwaldia_Tropical_S	247.2	248.9	extant
-1415	Cyclotosaurus_Temperate_N	227.0	237.0	extant
-1414	Metoposaurus_Tropical_S	227.0	237.0	extant
-1413	Gerrothorax_Temperate_N	227.0	237.0	extant
-1412	Cyclotosaurus_Temperate_N	227.0	237.0	extant
-1411	Rotaryus	283.5	290.1	extant
-1410	Zatrachys	298.9	303.7	extant
-1409	Zatrachys	286.1	298.9	extant
-1408	Sclerothorax	248.9	251.2	extant
-1407	Sclerothorax	247.2	248.9	extant
-1406	Parotosuchus_Temperate_N	248.9	251.2	extant
-1405	Trematosaurus_Temperate_N	247.2	251.2	extant
-1404	Parotosuchus_Temperate_N	248.9	251.2	extant
-1401	Peltobatrachus	254.14	259.51	extant
-1400	Watsonisuchus_Temperate_S	244.7	248.9	extant
-1399	Watsonisuchus_Temperate_S	251.2	251.902	extant
-1398	Watsonisuchus_Temperate_S	251.2	251.902	extant
-1397	Keratobrachyops	251.2	251.902	extant
-1396	Xenobrachyops	251.2	251.902	extant
-1394	Rewana	251.2	251.902	extant
-1395	Rewana	251.2	251.902	extant
-1393	Rewana	251.2	251.902	extant
-1392	Plagiobatrachus	251.2	251.902	extant
-1391	Acerastea	251.2	251.902	extant
-1390	Nanolania	251.2	251.902	extant
-1389	Rotaurisaurus	251.2	251.902	extant
-1388	Tirraturhinus	251.2	251.902	extant
-1387	Lydekkerina	251.2	251.902	extant
-1386	Microposaurus	242.0	247.2	extant
-1385	Platycepsion	244.7	248.9	extant
-1384	Notobrachyops	242.0	247.2	extant
-1383	Bulgosuchus	247.2	251.4	extant
-1382	Subcyclotosaurus	242.0	247.2	extant
-1381	Trucheosaurus	254.14	259.51	extant
-1380	Deltasaurus_Temperate_S	247.2	251.902	extant
-1379	Deltasaurus_Temperate_S	247.2	251.902	extant
-1378	Deltasaurus_Temperate_S	247.2	251.902	extant
-1377	Deltasaurus_Temperate_S	247.2	251.902	extant
-1376	Deltasaurus_Temperate_S	247.2	251.902	extant
-1375	Watsonisuchus_Temperate_S	247.2	251.902	extant
-1374	Deltasaurus_Temperate_S	247.2	251.902	extant
-1373	Indobrachyops	248.9	251.902	extant
-1372	Manubrantlia	248.9	251.902	extant
-1371	Aphaneramma_Temperate_N	251.2	251.902	extant
-1370	Batrachosuchus_Temperate_S	247.2	251.902	extant
-1369	Batrachosuchus_Temperate_S	247.2	251.902	extant
-1368	Banksiops	251.2	251.902	extant
-1367	Chomatobatrachus	251.2	251.902	extant
-1366	Banksiops	251.2	251.902	extant
-1365	Chomatobatrachus	251.2	251.902	extant
-1364	Derwentia	251.2	251.902	extant
-1363	Banksiops	251.2	251.902	extant
-1362	Chomatobatrachus	251.2	251.902	extant
-1361	Deltasaurus_Temperate_S	251.2	251.902	extant
-1360	Banksiops	251.2	251.902	extant
-1359	Chomatobatrachus	251.2	251.902	extant
-1358	Deltasaurus_Temperate_S	251.2	251.902	extant
-1357	Derwentia	251.2	251.902	extant
-1356	Chomatobatrachus	251.2	251.902	extant
-1355	Banksiops	251.2	251.902	extant
-1354	Chomatobatrachus	251.2	251.902	extant
-1353	Deltasaurus_Temperate_S	251.2	251.902	extant
-1352	Watsonisuchus_Temperate_S	251.2	251.902	extant
-1351	Watsonisuchus_Temperate_S	251.2	251.902	extant
-1336	Bothriceps	251.2	259.51	extant
-1337	Bothriceps	251.2	259.51	extant
-1338	Bothriceps	251.2	259.51	extant
-1339	Bothriceps	251.2	259.51	extant
-1340	Bothriceps	251.2	259.51	extant
-1341	Bothriceps	251.2	259.51	extant
-1342	Bothriceps	251.2	259.51	extant
-1343	Bothriceps	251.2	259.51	extant
-1344	Bothriceps	251.2	259.51	extant
-1345	Bothriceps	251.2	259.51	extant
-1346	Bothriceps	251.2	259.51	extant
-1347	Bothriceps	251.2	259.51	extant
-1348	Bothriceps	251.2	259.51	extant
-1349	Bothriceps	251.2	259.51	extant
-1350	Bothriceps	251.2	259.51	extant
-1335	Cherninia	242.0	247.2	extant
-1334	Paracyclotosaurus_Temperate_S	242.0	247.2	extant
-1333	Eryosuchus_Temperate_N	242.0	247.2	extant
-1332	Eryosuchus_Temperate_N	242.0	247.2	extant
-1331	Brachyops	247.2	251.902	extant
-1330	Panthasaurus	208.5	237.0	extant
-1329	Panthasaurus	208.5	237.0	extant
-1328	Panthasaurus	208.5	237.0	extant
-1327	Compsocerops_Temperate_S	208.5	227.0	extant
-1324	Kuttycephalus	208.5	227.0	extant
-1325	Kuttycephalus	208.5	227.0	extant
-1326	Kuttycephalus	208.5	227.0	extant
-1323	Mastodonsaurus_Temperate_N	237.0	247.2	extant
-1322	Plagiosternum	237.0	247.2	extant
-1321	Cyclotosaurus_Temperate_N	208.5	227.0	extant
-1320	Plagiosternum	227.0	237.0	extant
-1319	Apachesaurus	227.0	237.0	extant
-1318	Hemiprichisaurus	201.4	208.5	extant
-1317	Plagiosaurus	201.4	208.5	extant
-1316	Cyclotosaurus_Temperate_N	201.4	208.5	extant
-1315	Metoposaurus_Tropical_S	201.4	208.5	extant
-1314	Gerrothorax_Temperate_N	201.4	208.5	extant
-1313	Plagiosaurus	201.4	208.5	extant
-1312	Gerrothorax_Temperate_N	201.4	208.5	extant
-1311	Cyclotosaurus_Temperate_N	201.4	208.5	extant
-1310	Trematosaurus_Temperate_N	247.2	251.2	extant
-1309	Benthosuchus	247.2	251.2	extant
-1308	Benthosuchus	247.2	251.902	extant
-1307	Benthosuchus	247.2	251.902	extant
-1306	Xenotosuchus	242.0	247.2	extant
-1305	Parotosuchus_Temperate_N	247.2	251.2	extant
-1304	Batrachosuchoides_Temperate_N	247.2	251.2	extant
-1303	Batrachosuchoides_Temperate_N	247.2	251.2	extant
-1302	Parotosuchus_Temperate_N	247.2	251.2	extant
-1301	Erythrobatrachus	247.2	251.902	extant
-1300	Eolydekkerina	247.2	251.902	extant
-1299	Lydekkerina	251.2	251.902	extant
-1298	Broomistega	247.2	251.902	extant
-1297	Lydekkerina	247.2	251.902	extant
-1296	Lydekkerina	247.2	251.902	extant
-1295	Broomistega	247.2	251.902	extant
-1294	Broomistega	251.2	251.902	extant
-1293	Lydekkerina	251.2	251.902	extant
-1292	Lydekkerina	247.2	251.902	extant
-1291	Lydekkerina	247.2	251.902	extant
-1290	Selenocara	251.2	251.902	extant
-1289	Stoschiosaurus	251.2	251.902	extant
-1288	Stoschiosaurus	251.2	251.902	extant
-1287	Stoschiosaurus	251.2	251.902	extant
-1286	Luzocephalus	251.2	251.902	extant
-1285	Luzocephalus	251.2	251.902	extant
-1284	Luzocephalus	251.2	251.902	extant
-1283	Luzocephalus	251.2	251.902	extant
-1282	Tupilakosaurus	251.2	251.902	extant
-1281	Tupilakosaurus	251.2	251.902	extant
-1280	Aphaneramma_Temperate_N	248.9	251.2	extant
-1279	Aphaneramma_Temperate_N	248.9	251.2	extant
-1278	Deltacephalus	248.9	251.902	extant
-1277	Lyrocephaliscus	248.9	251.2	extant
-1276	Lyrocephaliscus	248.9	251.2	extant
-1275	Lyrocephaliscus	248.9	251.2	extant
-1274	Lyrocephaliscus	248.9	251.2	extant
-1273	Aphaneramma_Temperate_N	248.9	251.2	extant
-1272	Aphaneramma_Temperate_N	248.9	251.2	extant
-1271	Aphaneramma_Temperate_N	248.9	251.2	extant
-1270	Aphaneramma_Temperate_N	248.9	251.2	extant
-1269	Aphaneramma_Temperate_N	248.9	251.2	extant
-1268	Aphaneramma_Temperate_N	248.9	251.2	extant
-1267	Platystega	248.9	251.2	extant
-1266	Tertrema	248.9	251.2	extant
-1265	Peltostega	248.9	251.2	extant
-1264	Tertrema	248.9	251.2	extant
-1263	Aphaneramma_Temperate_N	248.9	251.2	extant
-1262	Aphaneramma_Temperate_N	248.9	251.2	extant
-1261	Aphaneramma_Temperate_N	248.9	251.2	extant
-1260	Lyrocephaliscus	248.9	251.2	extant
-1259	Peltostega	248.9	251.2	extant
-1258	Peltostega	248.9	251.2	extant
-1257	Wantzosaurus	248.9	251.902	extant
-1256	Edingerella	248.9	251.902	extant
-1255	Edingerella	248.9	251.902	extant
-1254	Edingerella	248.9	251.902	extant
-1253	Mahavisaurus	248.9	251.902	extant
-1252	Mahavisaurus	248.9	251.902	extant
-1251	Tertremoides	248.9	251.902	extant
-1250	Wantzosaurus	248.9	251.902	extant
-1249	Wantzosaurus	248.9	251.902	extant
-1248	Tertremoides	248.9	251.902	extant
-1247	Tertremoides	248.9	251.902	extant
-1246	Edingerella	248.9	251.902	extant
-1245	Laidleria	242.0	247.2	extant
-1244	Pneumatostega	251.2	251.902	extant
-1243	Pneumatostega	251.2	251.902	extant
-1242	Rhinesuchoides	254.14	259.51	extant
-1241	Laccosaurus	254.14	259.51	extant
-1240	Kestrosaurus	247.2	248.9	extant
-1239	Microposaurus	242.0	247.2	extant
-1238	Micropholis	251.2	251.902	extant
-1229	Micropholis	247.2	251.902	extant
-1230	Micropholis	247.2	251.902	extant
-1231	Micropholis	247.2	251.902	extant
-1232	Micropholis	247.2	251.902	extant
-1233	Micropholis	247.2	251.902	extant
-1234	Micropholis	247.2	251.902	extant
-1235	Micropholis	247.2	251.902	extant
-1236	Micropholis	247.2	251.902	extant
-1237	Micropholis	247.2	251.902	extant
-1227	Micropholis	251.2	251.902	extant
-1228	Micropholis	251.2	251.902	extant
-1226	Micropholis	251.2	251.902	extant
-1224	Micropholis	247.2	251.902	extant
-1225	Micropholis	247.2	251.902	extant
-1223	Micropholis	251.2	251.902	extant
-1222	Micropholis	251.2	251.902	extant
-1221	Micropholis	251.2	251.902	extant
-1220	Micropholis	247.2	251.902	extant
-1218	Micropholis	251.2	251.902	extant
-1219	Micropholis	251.2	251.902	extant
-1217	Micropholis	251.2	251.902	extant
-1215	Trematosuchus	247.2	248.9	extant
-1216	Trematosuchus	247.2	248.9	extant
-1214	Trematosuchoides	247.2	248.9	extant
-1213	Xenotosuchus	242.0	247.2	extant
-1212	Microposaurus	242.0	247.2	extant
-1211	Microposaurus	242.0	247.2	extant
-1210	Batrachosuchus_Temperate_S	242.0	247.2	extant
-1209	Micropholis	247.2	251.902	extant
-1208	Trematosuchus	247.2	251.2	extant
-1207	Thabanchuia	251.2	251.902	extant
-1206	Kestrosaurus	247.2	251.2	extant
-1205	Kestrosaurus	247.2	251.2	extant
-1204	Bathignathus	247.2	251.2	extant
-1203	Xenotosuchus	242.0	247.2	extant
-1202	Kestrosaurus	247.2	251.2	extant
-1201	Watsonisuchus_Temperate_S	247.2	248.9	extant
-1200	Xenotosuchus	242.0	247.2	extant
-1199	Watsonisuchus_Temperate_S	251.2	251.902	extant
-1198	Kestrosaurus	247.2	248.9	extant
-1197	Kestrosaurus	247.2	248.9	extant
-1196	Rhytidosteus_Temperate_N	248.9	251.902	extant
-1195	Dvinosaurus	259.51	264.28	extant
-1194	Rhinesuchus_Temperate_S	251.902	259.51	extant
-1193	Inflectosaurus	247.2	248.9	extant
-1192	Rhinesuchus_Temperate_S	247.2	251.902	extant
-1191	Rhinesuchus_Temperate_S	247.2	251.902	extant
-1190	Rhinesuchus_Temperate_S	247.2	251.902	extant
-1189	Perryella	273.01	286.1	extant
-1188	Eryops	273.01	283.5	extant
-1187	Stenotosaurus	201.4	237.0	extant
-1185	Scapanops	293.52	298.9	extant
-1184	Conjunctio	290.1	298.9	extant
-1183	Conjunctio	286.1	303.7	extant
-1182	Rhinesuchoides	254.14	259.51	extant
-1181	Indobrachyops	248.9	251.902	extant
-1180	Dasyceps	293.52	298.9	extant
-1179	Adamanterpeton	307.4	309.8	extant
-1178	Astreptorhachis	298.9	303.7	extant
-1177	Rhineceps	254.14	259.51	extant
-1175	Neldasaurus	286.1	298.9	extant
-1176	Neldasaurus	286.1	298.9	extant
-1174	Neldasaurus	286.1	298.9	extant
-1173	Neldasaurus	273.01	298.9	extant
-1172	Neldasaurus	286.1	298.9	extant
-1171	Edops	286.1	303.7	extant
-1170	Edops	286.1	298.9	extant
-1169	Edops	293.52	298.9	extant
-1168	Edops	293.52	298.9	extant
-1167	Edops	273.01	298.9	extant
-1166	Edops	290.1	293.52	extant
-1165	Chenoprosopus	286.1	303.7	extant
-1164	Lafonius	298.9	303.7	extant
-1163	Dawsonerpeton	300.9	301.4	extant
-1162	Branchierpeton	293.52	298.9	extant
-1161	Branchierpeton	283.5	298.9	extant
-1160	Branchierpeton	300.3	307.4	extant
-1159	Branchierpeton	283.5	307.4	extant
-1157	Branchierpeton	300.3	300.9	extant
-1156	Limnerpeton	298.9	303.7	extant
-1155	Micromelerpeton	283.5	298.9	extant
-1154	Nyranerpeton	307.4	309.8	extant
-1153	Cochleosaurus	307.4	309.8	extant
-1152	Eryops	273.01	283.5	extant
-1151	Trimerorhachis	273.01	283.5	extant
-1150	Trimerorhachis	273.01	286.1	extant
-1149	Trimerorhachis	273.01	283.5	extant
-1148	Trimerorhachis	273.01	283.5	extant
-1147	Eryops	273.01	283.5	extant
-1146	Erpetosaurus	307.4	309.8	extant
-1145	Eryops	273.01	283.5	extant
-1144	Trimerorhachis	273.01	283.5	extant
-1143	Eryops	273.01	283.5	extant
-1142	Trimerorhachis	273.01	286.1	extant
-1141	Trimerorhachis	273.01	286.1	extant
-1140	Apachesaurus	208.5	227.0	extant
-1139	Micromelerpeton	283.5	298.9	extant
-1138	Leptorophus	283.5	298.9	extant
-1137	Acroplous	290.1	293.52	extant
-1136	Acroplous	293.52	298.9	extant
-1135	Acroplous	293.52	298.9	extant
-1134	Micromelerpeton	298.9	303.7	extant
-1133	Dvinosaurus	256.8	264.28	extant
-1132	Konzhukovia_Temperate_N	264.28	266.9	extant
-1131	Plemmyradytes	293.52	298.9	extant
-1130	Fedexia	298.9	303.7	extant
-1129	Broiliellus	286.1	298.9	extant
-1128	Broiliellus	286.1	298.9	extant
-1127	Schoenfelderpeton	283.5	298.9	extant
-1126	Eumicrerpeton	307.4	309.8	extant
-1125	Milnererpeton	298.9	303.7	extant
-1124	Amphibamus	307.4	309.8	extant
-1123	Eoscopus	298.9	303.7	extant
-1121	Tersomius	283.5	290.1	extant
-1120	Ecolsonia	286.1	298.9	extant
-1119	Chenoprosopus	286.1	298.9	extant
-1118	Eryops	286.1	298.9	extant
-1117	Zatrachys	286.1	298.9	extant
-1116	Platyhystrix	286.1	298.9	extant
-1115	Ecolsonia	286.1	298.9	extant
-1114	Actiobates	303.7	305.9	extant
-1113	Chenoprosopus	286.1	298.9	extant
-1112	Eryops	286.1	298.9	extant
-1111	Zatrachys	286.1	298.9	extant
-1110	Platyhystrix	286.1	298.9	extant
-1109	Dawsonerpeton	300.9	301.4	extant
-1108	Branchiosaurus	307.4	309.8	extant
-1107	Branchiosaurus	300.3	301.4	extant
-1106	Leptorophus	283.5	298.9	extant
-1105	Nanobamus	286.1	298.9	extant
-1104	Phonerpeton	283.5	290.1	extant
-1103	Cacops	283.5	290.1	extant
-1102	Parioxys	286.1	298.9	extant
-1101	Ecolsonia	286.1	298.9	extant
-1100	Eryops	286.1	298.9	extant
-1099	Chenoprosopus	286.1	298.9	extant
-1098	Eryops	286.1	298.9	extant
-1097	Platyhystrix	286.1	298.9	extant
-1096	Chenoprosopus	286.1	298.9	extant
-1095	Eryops	286.1	298.9	extant
-1094	Zatrachys	286.1	298.9	extant
-1093	Platyhystrix	286.1	298.9	extant
-1092	Lafonius	298.9	303.7	extant
-1091	Brevidorsum	290.1	298.9	extant
-1090	Parioxys	273.01	293.52	extant
-1089	Parioxys	283.5	290.1	extant
-1088	Limnogyrinus	307.4	309.8	extant
-1087	Aspidosaurus_Tropical_S	298.9	303.7	extant
-1086	Conjunctio	293.52	298.9	extant
-1085	Trimerorhachis	273.01	283.5	extant
-1084	Trimerorhachis	286.1	298.9	extant
-1083	Isodectes	307.4	309.8	extant
-1082	Isodectes	307.4	309.8	extant
-1081	Isodectes	307.4	309.8	extant
-1080	Isodectes	273.01	283.5	extant
-1079	Isodectes	273.01	283.5	extant
-1078	Eimerisaurus	290.1	293.52	extant
-1077	Eimerisaurus	290.1	293.52	extant
-1076	Amphibamus	307.4	309.8	extant
-1075	Miobatrachus	307.4	309.8	extant
-1074	Aspidosaurus_Tropical_S	266.9	276.5	extant
-1073	Aspidosaurus_Tropical_S	273.01	290.1	extant
-1072	Aspidosaurus_Tropical_S	298.9	303.7	extant
-1071	Aspidosaurus_Tropical_S	298.9	303.7	extant
-1070	Branchiosaurus	300.3	300.9	extant
-1069	Platyrhinops	307.4	309.8	extant
-1068	Platyrhinops	307.4	309.8	extant
-1067	Platyrhinops	307.4	309.8	extant
-1066	Platyrhinops	307.4	309.8	extant
-1065	Platyhystrix	283.5	290.1	extant
-1064	Platyhystrix	283.5	290.1	extant
-1063	Platyhystrix	298.9	303.7	extant
-1062	Stegops	307.4	309.8	extant
-1061	Stegops	307.4	309.8	extant
-1060	Iratusaurus	264.28	266.9	extant
-1059	Macrerpeton	307.4	309.8	extant
-1058	Dasyceps	283.5	298.9	extant
-1057	Capetus	307.4	309.8	extant
-1056	Clamorosaurus	273.01	276.5	extant
-1055	Clamorosaurus	273.01	276.5	extant
-1053	Porierpeton	300.9	301.4	extant
-1052	Pleuronoura	283.5	298.9	extant
-1051	Actinodon	283.5	298.9	extant
-1050	Actinodon	283.5	298.9	extant
-1049	Actinodon	283.5	298.9	extant
-1048	Apateon	298.9	303.7	extant
-1047	Eryops	293.52	298.9	extant
-1046	Onchiodon	298.9	303.7	extant
-1045	Onchiodon	298.9	303.7	extant
-1044	Onchiodon	293.52	298.9	extant
-1043	Melanerpeton	259.51	283.5	extant
-1042	Melanerpeton	298.9	303.7	extant
-1041	Melanerpeton	293.52	298.9	extant
-1040	Melanerpeton	290.1	293.52	extant
-1039	Onchiodon	290.1	293.52	extant
-1038	Onchiodon	293.52	298.9	extant
-1037	Onchiodon	290.1	298.9	extant
-1036	Onchiodon	259.51	283.5	extant
-1035	Onchiodon	283.5	298.9	extant
-1034	Onchiodon	273.01	298.9	extant
-1033	Melanerpeton	283.5	298.9	extant
-1032	Melanerpeton	293.52	298.9	extant
-1031	Melanerpeton	293.52	298.9	extant
-1028	Apateon	293.52	298.9	extant
-1029	Apateon	293.52	298.9	extant
-1030	Apateon	293.52	298.9	extant
-1027	Apateon	290.1	298.9	extant
-1026	Apateon	273.01	298.9	extant
-1025	Apateon	293.52	298.9	extant
-1024	Apateon	283.5	298.9	extant
-1023	Apateon	298.9	303.7	extant
-1022	Apateon	283.5	298.9	extant
-1021	Apateon	290.1	293.52	extant
-1020	Apateon	290.1	293.52	extant
-1019	Apateon	283.5	298.9	extant
-1018	Apateon	293.52	298.9	extant
-1017	Apateon	293.52	298.9	extant
-1016	Apateon	290.1	298.9	extant
-1015	Apateon	293.52	303.7	extant
-1014	Apateon	290.1	298.9	extant
-1013	Apateon	293.52	298.9	extant
-1012	Apateon	283.5	298.9	extant
-1011	Apateon	293.52	298.9	extant
-1010	Apateon	290.1	298.9	extant
-1009	Apateon	283.5	298.9	extant
-1008	Apateon	283.5	298.9	extant
-1007	Apateon	293.52	298.9	extant
-1006	Apateon	297.7	300.3	extant
-1005	Apateon	293.52	298.9	extant
-1004	Apateon	293.52	298.9	extant
-1003	Megalophthalma	237.0	239.7	extant
-1002	Timonya	273.01	283.5	extant
-1001	Timonya	273.01	298.9	extant
-1000	Procuhy	273.01	298.9	extant
-999	Eryops	290.1	298.9	extant
-998	Palatinerpeton	290.1	298.9	extant
-995	Sclerocephalus	290.1	298.9	extant
-994	Sclerocephalus	283.5	298.9	extant
-993	Sclerocephalus	293.52	298.9	extant
-992	Sclerocephalus	293.52	298.9	extant
-991	Apateon	290.1	298.9	extant
-990	Sclerocephalus	290.1	298.9	extant
-989	Sclerocephalus	293.52	298.9	extant
-988	Sclerocephalus	290.1	298.9	extant
-987	Sclerocephalus	283.5	298.9	extant
-986	Sclerocephalus	283.5	298.9	extant
-985	Sclerocephalus	283.5	298.9	extant
-984	Sclerocephalus	283.5	298.9	extant
-983	Sclerocephalus	293.52	298.9	extant
-982	Sclerocephalus	283.5	298.9	extant
-981	Sclerocephalus	283.5	298.9	extant
-980	Cheliderpeton	283.5	298.9	extant
-979	Sclerocephalus	293.52	298.9	extant
-978	Melanerpeton	293.52	298.9	extant
-977	Sclerocephalus	293.52	298.9	extant
-976	Sclerocephalus	293.52	298.9	extant
-975	Sclerocephalus	293.52	298.9	extant
-974	Sclerocephalus	293.52	298.9	extant
-973	Sclerocephalus	293.52	298.9	extant
-972	Sclerocephalus	293.52	298.9	extant
-971	Sclerocephalus	293.52	298.9	extant
-970	Sclerocephalus	293.52	298.9	extant
-969	Sclerocephalus	293.52	298.9	extant
-968	Sclerocephalus	293.52	298.9	extant
-967	Sclerocephalus	293.52	298.9	extant
-966	Cheliderpeton	259.51	283.5	extant
-965	Cheliderpeton	283.5	298.9	extant
-964	Archegosaurus	293.52	298.9	extant
-963	Archegosaurus	283.5	298.9	extant
-962	Archegosaurus	283.5	298.9	extant
-958	Glanochthon	293.52	298.9	extant
-957	Glanochthon	283.5	298.9	extant
-956	Glanochthon	283.5	298.9	extant
-955	Glanochthon	290.1	298.9	extant
-954	Glanochthon	293.52	298.9	extant
-953	Glanochthon	293.52	298.9	extant
-952	Chenoprosopus	298.9	303.7	extant
-951	Eryops	303.7	305.9	extant
-950	Chenoprosopus	286.1	298.9	extant
-949	Zatrachys	286.1	298.9	extant
-948	Platyhystrix	286.1	298.9	extant
-947	Eryops	286.1	298.9	extant
-946	Platyhystrix	286.1	298.9	extant
-945	Dissorophus	273.01	298.9	extant
-944	Zatrachys	273.01	283.5	extant
-943	Zatrachys	286.1	298.9	extant
-942	Zatrachys	286.1	298.9	extant
-941	Isodectes	300.3	307.4	extant
-940	Eryops	300.3	307.4	extant
-939	Platyhystrix	298.9	303.7	extant
-938	Edops	298.9	303.7	extant
-937	Trimerorhachis	286.1	298.9	extant
-936	Trimerorhachis	286.1	298.9	extant
-935	Eryops	286.1	298.9	extant
-934	Platyhystrix	286.1	298.9	extant
-933	Zatrachys	286.1	298.9	extant
-932	Eryops	286.1	303.7	extant
-931	Zatrachys	286.1	303.7	extant
-930	Aspidosaurus_Tropical_S	286.1	303.7	extant
-929	Eryops	283.5	290.1	extant
-928	Zatrachys	283.5	290.1	extant
-927	Trimerorhachis	283.5	290.1	extant
-926	Eryops	286.1	298.9	extant
-925	Acroplous	290.1	293.52	extant
-924	Trimerorhachis	283.5	293.52	extant
-923	Trimerorhachis	273.01	286.1	extant
-922	Eryops	273.01	286.1	extant
-921	Trimerorhachis	273.01	286.1	extant
-920	Eryops	273.01	286.1	extant
-919	Eryops	266.9	290.1	extant
-918	Eryops	286.1	298.9	extant
-917	Zatrachys	286.1	298.9	extant
-916	Trimerorhachis	286.1	298.9	extant
-915	Onchiodon	286.1	298.9	extant
-914	Eryops	290.1	303.7	extant
-913	Platyhystrix	290.1	303.7	extant
-912	Edops	286.1	298.9	extant
-911	Platyhystrix	286.1	298.9	extant
-910	Trimerorhachis	286.1	298.9	extant
-909	Trimerorhachis	286.1	298.9	extant
-908	Platyhystrix	286.1	298.9	extant
-907	Broiliellus	290.1	298.9	extant
-906	Dissorophus	273.01	283.5	extant
-406	Apateon	293.52	298.9	extant
-407	Apateon	293.52	298.9	extant
-408	Apateon	293.52	298.9	extant
-409	Apateon	293.52	298.9	extant
-410	Apateon	293.52	298.9	extant
-411	Apateon	293.52	298.9	extant
-412	Apateon	293.52	298.9	extant
-413	Apateon	293.52	298.9	extant
-414	Apateon	293.52	298.9	extant
-415	Apateon	293.52	298.9	extant
-416	Apateon	293.52	298.9	extant
-417	Apateon	293.52	298.9	extant
-418	Apateon	293.52	298.9	extant
-419	Apateon	293.52	298.9	extant
-420	Apateon	293.52	298.9	extant
-421	Apateon	293.52	298.9	extant
-422	Apateon	293.52	298.9	extant
-423	Apateon	293.52	298.9	extant
-424	Apateon	293.52	298.9	extant
-425	Apateon	293.52	298.9	extant
-426	Apateon	293.52	298.9	extant
-427	Apateon	293.52	298.9	extant
-428	Apateon	293.52	298.9	extant
-429	Apateon	293.52	298.9	extant
-430	Apateon	293.52	298.9	extant
-431	Apateon	293.52	298.9	extant
-432	Apateon	293.52	298.9	extant
-433	Apateon	293.52	298.9	extant
-434	Apateon	293.52	298.9	extant
-435	Apateon	293.52	298.9	extant
-436	Apateon	293.52	298.9	extant
-437	Apateon	293.52	298.9	extant
-438	Apateon	293.52	298.9	extant
-439	Apateon	293.52	298.9	extant
-440	Apateon	293.52	298.9	extant
-441	Apateon	293.52	298.9	extant
-442	Apateon	293.52	298.9	extant
-443	Apateon	293.52	298.9	extant
-444	Apateon	293.52	298.9	extant
-445	Apateon	293.52	298.9	extant
-446	Apateon	293.52	298.9	extant
-447	Apateon	293.52	298.9	extant
-448	Apateon	293.52	298.9	extant
-449	Apateon	293.52	298.9	extant
-450	Apateon	293.52	298.9	extant
-451	Apateon	293.52	298.9	extant
-452	Apateon	293.52	298.9	extant
-453	Apateon	293.52	298.9	extant
-454	Apateon	293.52	298.9	extant
-455	Apateon	293.52	298.9	extant
-456	Apateon	293.52	298.9	extant
-457	Apateon	293.52	298.9	extant
-458	Apateon	293.52	298.9	extant
-459	Apateon	293.52	298.9	extant
-460	Apateon	293.52	298.9	extant
-461	Apateon	293.52	298.9	extant
-462	Apateon	293.52	298.9	extant
-463	Apateon	293.52	298.9	extant
-464	Apateon	293.52	298.9	extant
-465	Apateon	293.52	298.9	extant
-466	Apateon	293.52	298.9	extant
-467	Apateon	293.52	298.9	extant
-468	Apateon	293.52	298.9	extant
-469	Apateon	293.52	298.9	extant
-470	Apateon	293.52	298.9	extant
-471	Apateon	293.52	298.9	extant
-472	Apateon	293.52	298.9	extant
-473	Apateon	293.52	298.9	extant
-474	Apateon	293.52	298.9	extant
-475	Apateon	293.52	298.9	extant
-476	Apateon	293.52	298.9	extant
-477	Apateon	293.52	298.9	extant
-478	Apateon	293.52	298.9	extant
-479	Apateon	293.52	298.9	extant
-480	Apateon	293.52	298.9	extant
-481	Apateon	293.52	298.9	extant
-482	Apateon	293.52	298.9	extant
-483	Apateon	293.52	298.9	extant
-484	Apateon	293.52	298.9	extant
-485	Apateon	293.52	298.9	extant
-486	Apateon	293.52	298.9	extant
-487	Apateon	293.52	298.9	extant
-488	Apateon	293.52	298.9	extant
-489	Apateon	293.52	298.9	extant
-490	Apateon	293.52	298.9	extant
-491	Apateon	293.52	298.9	extant
-492	Apateon	293.52	298.9	extant
-493	Apateon	293.52	298.9	extant
-494	Apateon	293.52	298.9	extant
-495	Apateon	293.52	298.9	extant
-496	Apateon	293.52	298.9	extant
-497	Apateon	293.52	298.9	extant
-498	Apateon	293.52	298.9	extant
-499	Apateon	293.52	298.9	extant
-500	Apateon	293.52	298.9	extant
-501	Apateon	293.52	298.9	extant
-502	Apateon	293.52	298.9	extant
-503	Apateon	293.52	298.9	extant
-504	Apateon	293.52	298.9	extant
-505	Apateon	293.52	298.9	extant
-506	Apateon	293.52	298.9	extant
-507	Apateon	293.52	298.9	extant
-508	Apateon	293.52	298.9	extant
-509	Apateon	293.52	298.9	extant
-510	Apateon	293.52	298.9	extant
-511	Apateon	293.52	298.9	extant
-512	Apateon	293.52	298.9	extant
-513	Apateon	293.52	298.9	extant
-514	Apateon	293.52	298.9	extant
-515	Apateon	293.52	298.9	extant
-516	Apateon	293.52	298.9	extant
-517	Apateon	293.52	298.9	extant
-518	Apateon	293.52	298.9	extant
-519	Apateon	293.52	298.9	extant
-520	Apateon	293.52	298.9	extant
-521	Apateon	293.52	298.9	extant
-522	Apateon	293.52	298.9	extant
-523	Apateon	293.52	298.9	extant
-524	Apateon	293.52	298.9	extant
-525	Apateon	293.52	298.9	extant
-526	Apateon	293.52	298.9	extant
-527	Apateon	293.52	298.9	extant
-528	Apateon	293.52	298.9	extant
-529	Apateon	293.52	298.9	extant
-530	Apateon	293.52	298.9	extant
-531	Apateon	293.52	298.9	extant
-532	Apateon	293.52	298.9	extant
-533	Apateon	293.52	298.9	extant
-534	Apateon	293.52	298.9	extant
-535	Apateon	293.52	298.9	extant
-536	Apateon	293.52	298.9	extant
-537	Apateon	293.52	298.9	extant
-538	Apateon	293.52	298.9	extant
-539	Apateon	293.52	298.9	extant
-540	Apateon	293.52	298.9	extant
-541	Apateon	293.52	298.9	extant
-542	Apateon	293.52	298.9	extant
-543	Apateon	293.52	298.9	extant
-544	Apateon	293.52	298.9	extant
-545	Apateon	293.52	298.9	extant
-546	Apateon	293.52	298.9	extant
-547	Apateon	293.52	298.9	extant
-548	Apateon	293.52	298.9	extant
-549	Apateon	293.52	298.9	extant
-550	Apateon	293.52	298.9	extant
-551	Apateon	293.52	298.9	extant
-552	Apateon	293.52	298.9	extant
-553	Apateon	293.52	298.9	extant
-554	Apateon	293.52	298.9	extant
-555	Apateon	293.52	298.9	extant
-556	Apateon	293.52	298.9	extant
-557	Apateon	293.52	298.9	extant
-558	Apateon	293.52	298.9	extant
-559	Apateon	293.52	298.9	extant
-560	Apateon	293.52	298.9	extant
-561	Apateon	293.52	298.9	extant
-562	Apateon	293.52	298.9	extant
-563	Apateon	293.52	298.9	extant
-564	Apateon	293.52	298.9	extant
-565	Apateon	293.52	298.9	extant
-566	Apateon	293.52	298.9	extant
-567	Apateon	293.52	298.9	extant
-568	Apateon	293.52	298.9	extant
-569	Apateon	293.52	298.9	extant
-570	Apateon	293.52	298.9	extant
-571	Apateon	293.52	298.9	extant
-572	Apateon	293.52	298.9	extant
-573	Apateon	293.52	298.9	extant
-574	Apateon	293.52	298.9	extant
-575	Apateon	293.52	298.9	extant
-576	Apateon	293.52	298.9	extant
-577	Apateon	293.52	298.9	extant
-578	Apateon	293.52	298.9	extant
-579	Apateon	293.52	298.9	extant
-580	Apateon	293.52	298.9	extant
-581	Apateon	293.52	298.9	extant
-582	Apateon	293.52	298.9	extant
-583	Apateon	293.52	298.9	extant
-584	Apateon	293.52	298.9	extant
-585	Apateon	293.52	298.9	extant
-586	Apateon	293.52	298.9	extant
-587	Apateon	293.52	298.9	extant
-588	Apateon	293.52	298.9	extant
-589	Apateon	293.52	298.9	extant
-590	Apateon	293.52	298.9	extant
-591	Apateon	293.52	298.9	extant
-592	Apateon	293.52	298.9	extant
-593	Apateon	293.52	298.9	extant
-594	Apateon	293.52	298.9	extant
-595	Apateon	293.52	298.9	extant
-596	Apateon	293.52	298.9	extant
-597	Apateon	293.52	298.9	extant
-598	Apateon	293.52	298.9	extant
-599	Apateon	293.52	298.9	extant
-600	Apateon	293.52	298.9	extant
-601	Apateon	293.52	298.9	extant
-602	Apateon	293.52	298.9	extant
-603	Apateon	293.52	298.9	extant
-604	Apateon	293.52	298.9	extant
-605	Apateon	293.52	298.9	extant
-606	Apateon	293.52	298.9	extant
-607	Apateon	293.52	298.9	extant
-608	Apateon	293.52	298.9	extant
-609	Apateon	293.52	298.9	extant
-610	Apateon	293.52	298.9	extant
-611	Apateon	293.52	298.9	extant
-612	Apateon	293.52	298.9	extant
-613	Apateon	293.52	298.9	extant
-614	Apateon	293.52	298.9	extant
-615	Apateon	293.52	298.9	extant
-616	Apateon	293.52	298.9	extant
-617	Apateon	293.52	298.9	extant
-618	Apateon	293.52	298.9	extant
-619	Apateon	293.52	298.9	extant
-620	Apateon	293.52	298.9	extant
-621	Apateon	293.52	298.9	extant
-622	Apateon	293.52	298.9	extant
-623	Apateon	293.52	298.9	extant
-624	Apateon	293.52	298.9	extant
-625	Apateon	293.52	298.9	extant
-626	Apateon	293.52	298.9	extant
-627	Apateon	293.52	298.9	extant
-628	Apateon	293.52	298.9	extant
-629	Apateon	293.52	298.9	extant
-630	Apateon	293.52	298.9	extant
-631	Apateon	293.52	298.9	extant
-632	Apateon	293.52	298.9	extant
-633	Apateon	293.52	298.9	extant
-634	Apateon	293.52	298.9	extant
-635	Apateon	293.52	298.9	extant
-636	Apateon	293.52	298.9	extant
-637	Apateon	293.52	298.9	extant
-638	Apateon	293.52	298.9	extant
-639	Apateon	293.52	298.9	extant
-640	Apateon	293.52	298.9	extant
-641	Apateon	293.52	298.9	extant
-642	Apateon	293.52	298.9	extant
-643	Apateon	293.52	298.9	extant
-644	Apateon	293.52	298.9	extant
-645	Apateon	293.52	298.9	extant
-646	Apateon	293.52	298.9	extant
-647	Apateon	293.52	298.9	extant
-648	Apateon	293.52	298.9	extant
-649	Apateon	293.52	298.9	extant
-650	Apateon	293.52	298.9	extant
-651	Apateon	293.52	298.9	extant
-652	Apateon	293.52	298.9	extant
-653	Apateon	293.52	298.9	extant
-654	Apateon	293.52	298.9	extant
-655	Apateon	293.52	298.9	extant
-656	Apateon	293.52	298.9	extant
-657	Apateon	293.52	298.9	extant
-658	Apateon	293.52	298.9	extant
-659	Apateon	293.52	298.9	extant
-660	Apateon	293.52	298.9	extant
-661	Apateon	293.52	298.9	extant
-662	Apateon	293.52	298.9	extant
-663	Apateon	293.52	298.9	extant
-664	Apateon	293.52	298.9	extant
-665	Apateon	293.52	298.9	extant
-666	Apateon	293.52	298.9	extant
-667	Apateon	293.52	298.9	extant
-668	Apateon	293.52	298.9	extant
-669	Apateon	293.52	298.9	extant
-670	Apateon	293.52	298.9	extant
-671	Apateon	293.52	298.9	extant
-672	Apateon	293.52	298.9	extant
-673	Apateon	293.52	298.9	extant
-674	Apateon	293.52	298.9	extant
-675	Apateon	293.52	298.9	extant
-676	Apateon	293.52	298.9	extant
-677	Apateon	293.52	298.9	extant
-678	Apateon	293.52	298.9	extant
-679	Apateon	293.52	298.9	extant
-680	Apateon	293.52	298.9	extant
-681	Apateon	293.52	298.9	extant
-682	Apateon	293.52	298.9	extant
-683	Apateon	293.52	298.9	extant
-684	Apateon	293.52	298.9	extant
-685	Apateon	293.52	298.9	extant
-686	Apateon	293.52	298.9	extant
-687	Apateon	293.52	298.9	extant
-688	Apateon	293.52	298.9	extant
-689	Apateon	293.52	298.9	extant
-690	Apateon	293.52	298.9	extant
-691	Apateon	293.52	298.9	extant
-692	Apateon	293.52	298.9	extant
-693	Apateon	293.52	298.9	extant
-694	Apateon	293.52	298.9	extant
-695	Apateon	293.52	298.9	extant
-696	Apateon	293.52	298.9	extant
-697	Apateon	293.52	298.9	extant
-698	Apateon	293.52	298.9	extant
-699	Apateon	293.52	298.9	extant
-700	Apateon	293.52	298.9	extant
-701	Apateon	293.52	298.9	extant
-702	Apateon	293.52	298.9	extant
-703	Apateon	293.52	298.9	extant
-704	Apateon	293.52	298.9	extant
-705	Apateon	293.52	298.9	extant
-706	Apateon	293.52	298.9	extant
-707	Apateon	293.52	298.9	extant
-708	Apateon	293.52	298.9	extant
-709	Apateon	293.52	298.9	extant
-710	Apateon	293.52	298.9	extant
-711	Apateon	293.52	298.9	extant
-712	Apateon	293.52	298.9	extant
-713	Apateon	293.52	298.9	extant
-714	Apateon	293.52	298.9	extant
-715	Apateon	293.52	298.9	extant
-716	Apateon	293.52	298.9	extant
-717	Apateon	293.52	298.9	extant
-718	Apateon	293.52	298.9	extant
-719	Apateon	293.52	298.9	extant
-720	Apateon	293.52	298.9	extant
-721	Apateon	293.52	298.9	extant
-722	Apateon	293.52	298.9	extant
-723	Apateon	293.52	298.9	extant
-724	Apateon	293.52	298.9	extant
-725	Apateon	293.52	298.9	extant
-726	Apateon	293.52	298.9	extant
-727	Apateon	293.52	298.9	extant
-728	Apateon	293.52	298.9	extant
-729	Apateon	293.52	298.9	extant
-730	Apateon	293.52	298.9	extant
-731	Apateon	293.52	298.9	extant
-732	Apateon	293.52	298.9	extant
-733	Apateon	293.52	298.9	extant
-734	Apateon	293.52	298.9	extant
-735	Apateon	293.52	298.9	extant
-736	Apateon	293.52	298.9	extant
-737	Apateon	293.52	298.9	extant
-738	Apateon	293.52	298.9	extant
-739	Apateon	293.52	298.9	extant
-740	Apateon	293.52	298.9	extant
-741	Apateon	293.52	298.9	extant
-742	Apateon	293.52	298.9	extant
-743	Apateon	293.52	298.9	extant
-744	Apateon	293.52	298.9	extant
-745	Apateon	293.52	298.9	extant
-746	Apateon	293.52	298.9	extant
-747	Apateon	293.52	298.9	extant
-748	Apateon	293.52	298.9	extant
-749	Apateon	293.52	298.9	extant
-750	Apateon	293.52	298.9	extant
-751	Apateon	293.52	298.9	extant
-752	Apateon	293.52	298.9	extant
-753	Apateon	293.52	298.9	extant
-754	Apateon	293.52	298.9	extant
-755	Apateon	293.52	298.9	extant
-756	Apateon	293.52	298.9	extant
-757	Apateon	293.52	298.9	extant
-758	Apateon	293.52	298.9	extant
-759	Apateon	293.52	298.9	extant
-760	Apateon	293.52	298.9	extant
-761	Apateon	293.52	298.9	extant
-762	Apateon	293.52	298.9	extant
-763	Apateon	293.52	298.9	extant
-764	Apateon	293.52	298.9	extant
-765	Apateon	293.52	298.9	extant
-766	Apateon	293.52	298.9	extant
-767	Apateon	293.52	298.9	extant
-768	Apateon	293.52	298.9	extant
-769	Apateon	293.52	298.9	extant
-770	Apateon	293.52	298.9	extant
-771	Apateon	293.52	298.9	extant
-772	Apateon	293.52	298.9	extant
-773	Apateon	293.52	298.9	extant
-774	Apateon	293.52	298.9	extant
-775	Apateon	293.52	298.9	extant
-776	Apateon	293.52	298.9	extant
-777	Apateon	293.52	298.9	extant
-778	Apateon	293.52	298.9	extant
-779	Apateon	293.52	298.9	extant
-780	Apateon	293.52	298.9	extant
-781	Apateon	293.52	298.9	extant
-782	Apateon	293.52	298.9	extant
-783	Apateon	293.52	298.9	extant
-784	Apateon	293.52	298.9	extant
-785	Apateon	293.52	298.9	extant
-786	Apateon	293.52	298.9	extant
-787	Apateon	293.52	298.9	extant
-788	Apateon	293.52	298.9	extant
-789	Apateon	293.52	298.9	extant
-790	Apateon	293.52	298.9	extant
-791	Apateon	293.52	298.9	extant
-792	Apateon	293.52	298.9	extant
-793	Apateon	293.52	298.9	extant
-794	Apateon	293.52	298.9	extant
-795	Apateon	293.52	298.9	extant
-796	Apateon	293.52	298.9	extant
-797	Apateon	293.52	298.9	extant
-798	Apateon	293.52	298.9	extant
-799	Apateon	293.52	298.9	extant
-800	Apateon	293.52	298.9	extant
-801	Apateon	293.52	298.9	extant
-802	Apateon	293.52	298.9	extant
-803	Apateon	293.52	298.9	extant
-804	Apateon	293.52	298.9	extant
-805	Apateon	293.52	298.9	extant
-806	Apateon	293.52	298.9	extant
-807	Apateon	293.52	298.9	extant
-808	Apateon	293.52	298.9	extant
-809	Apateon	293.52	298.9	extant
-810	Apateon	293.52	298.9	extant
-811	Apateon	293.52	298.9	extant
-812	Apateon	293.52	298.9	extant
-813	Apateon	293.52	298.9	extant
-814	Apateon	293.52	298.9	extant
-815	Apateon	293.52	298.9	extant
-816	Apateon	293.52	298.9	extant
-817	Apateon	293.52	298.9	extant
-818	Apateon	293.52	298.9	extant
-819	Apateon	293.52	298.9	extant
-820	Apateon	293.52	298.9	extant
-821	Apateon	293.52	298.9	extant
-822	Apateon	293.52	298.9	extant
-823	Apateon	293.52	298.9	extant
-824	Apateon	293.52	298.9	extant
-825	Apateon	293.52	298.9	extant
-826	Apateon	293.52	298.9	extant
-827	Apateon	293.52	298.9	extant
-828	Apateon	293.52	298.9	extant
-829	Apateon	293.52	298.9	extant
-830	Apateon	293.52	298.9	extant
-831	Apateon	293.52	298.9	extant
-832	Apateon	293.52	298.9	extant
-833	Apateon	293.52	298.9	extant
-834	Apateon	293.52	298.9	extant
-835	Apateon	293.52	298.9	extant
-836	Apateon	293.52	298.9	extant
-837	Apateon	293.52	298.9	extant
-838	Apateon	293.52	298.9	extant
-839	Apateon	293.52	298.9	extant
-840	Apateon	293.52	298.9	extant
-841	Apateon	293.52	298.9	extant
-842	Apateon	293.52	298.9	extant
-843	Apateon	293.52	298.9	extant
-844	Apateon	293.52	298.9	extant
-845	Apateon	293.52	298.9	extant
-846	Apateon	293.52	298.9	extant
-847	Apateon	293.52	298.9	extant
-848	Apateon	293.52	298.9	extant
-849	Apateon	293.52	298.9	extant
-850	Apateon	293.52	298.9	extant
-851	Apateon	293.52	298.9	extant
-852	Apateon	293.52	298.9	extant
-853	Apateon	293.52	298.9	extant
-854	Apateon	293.52	298.9	extant
-855	Apateon	293.52	298.9	extant
-856	Apateon	293.52	298.9	extant
-857	Apateon	293.52	298.9	extant
-858	Apateon	293.52	298.9	extant
-859	Apateon	293.52	298.9	extant
-860	Apateon	293.52	298.9	extant
-861	Apateon	293.52	298.9	extant
-862	Apateon	293.52	298.9	extant
-863	Apateon	293.52	298.9	extant
-864	Apateon	293.52	298.9	extant
-865	Apateon	293.52	298.9	extant
-866	Apateon	293.52	298.9	extant
-867	Apateon	293.52	298.9	extant
-868	Apateon	293.52	298.9	extant
-869	Apateon	293.52	298.9	extant
-870	Apateon	293.52	298.9	extant
-871	Apateon	293.52	298.9	extant
-872	Apateon	293.52	298.9	extant
-873	Apateon	293.52	298.9	extant
-874	Apateon	293.52	298.9	extant
-875	Apateon	293.52	298.9	extant
-876	Apateon	293.52	298.9	extant
-877	Apateon	293.52	298.9	extant
-878	Apateon	293.52	298.9	extant
-879	Apateon	293.52	298.9	extant
-880	Apateon	293.52	298.9	extant
-881	Apateon	293.52	298.9	extant
-882	Apateon	293.52	298.9	extant
-883	Apateon	293.52	298.9	extant
-884	Apateon	293.52	298.9	extant
-885	Apateon	293.52	298.9	extant
-886	Apateon	293.52	298.9	extant
-887	Apateon	293.52	298.9	extant
-888	Apateon	293.52	298.9	extant
-889	Apateon	293.52	298.9	extant
-890	Apateon	293.52	298.9	extant
-891	Apateon	293.52	298.9	extant
-892	Apateon	293.52	298.9	extant
-893	Apateon	293.52	298.9	extant
-894	Apateon	293.52	298.9	extant
-895	Apateon	293.52	298.9	extant
-896	Apateon	293.52	298.9	extant
-897	Apateon	293.52	298.9	extant
-898	Apateon	293.52	298.9	extant
-899	Apateon	293.52	298.9	extant
-900	Apateon	293.52	298.9	extant
-901	Apateon	293.52	298.9	extant
-902	Apateon	293.52	298.9	extant
-903	Apateon	293.52	298.9	extant
-904	Apateon	293.52	298.9	extant
-905	Apateon	293.52	298.9	extant
-405	Apateon	293.52	298.9	extant
-404	Apateon	283.5	298.9	extant
-403	Apateon	293.52	298.9	extant
-402	Apateon	293.52	298.9	extant
-401	Eryops	293.52	298.9	extant
-400	Glaukerpeton	300.3	307.4	extant
-399	Cheliderpeton	293.52	298.9	extant
-398	Archegosaurus	293.52	298.9	extant
-397	Compsocerops_Temperate_S	227.0	237.0	extant
-396	Dvinosaurus	256.8	259.51	extant
-395	Dvinosaurus	256.8	264.28	extant
-394	Tupilakosaurus	251.2	251.902	extant
-393	Batrachosuchus_Temperate_S	242.0	247.2	extant
-392	Parapytanga	254.14	273.01	extant
-391	Australerpeton	254.14	266.9	extant
-390	Konzhukovia_Temperate_N	254.14	266.9	extant
-389	Chinlestegophis	201.4	227.0	extant
-388	Chinlestegophis	208.5	227.0	extant
-387	Australerpeton	254.14	266.9	extant
-386	Konzhukovia_Temperate_N	259.51	266.9	extant
-385	Bageherpeton	259.51	273.01	extant
-384	Rhinesuchus_Temperate_S	259.51	264.28	extant
-383	Mastodonsaurus_Temperate_N	242.0	244.7	extant
-382	Bashkirosaurus	264.28	266.9	extant
-381	Uralosuchus	259.51	266.9	extant
-380	Konzhukovia_Temperate_N	259.51	266.9	extant
-379	Melosaurus	266.9	276.5	extant
-378	Koinia	266.9	276.5	extant
-377	Melosaurus	266.9	276.5	extant
-376	Platyoposaurus	266.9	276.5	extant
-375	Kamacops	264.28	266.9	extant
-374	Kamacops	264.28	266.9	extant
-373	Collidosuchus	264.28	266.9	extant
-371	Konzhukovia_Temperate_N	264.28	266.9	extant
-372	Konzhukovia_Temperate_N	264.28	266.9	extant
-369	Stanocephalosaurus_Tropical_N	242.0	247.2	extant
-370	Stanocephalosaurus_Tropical_N	242.0	247.2	extant
-368	Tryphosuchus	259.51	266.9	extant
-367	Platyoposaurus	264.28	266.9	extant
-366	Dvinosaurus	256.8	264.28	extant
-365	Dvinosaurus	256.8	264.28	extant
-364	Dvinosaurus	256.8	264.28	extant
-363	Dvinosaurus	256.8	259.51	extant
-362	Dvinosaurus	256.8	264.28	extant
-361	Dvinosaurus	259.51	264.28	extant
-360	Zygosaurus	264.28	266.9	extant
-359	Luzocephalus	247.2	251.902	extant
-358	Batrachosuchoides_Temperate_N	247.2	251.2	extant
-357	Batrachosuchoides_Temperate_N	247.2	251.2	extant
-356	Dvinosaurus	256.8	264.28	extant
-355	Dvinosaurus	256.8	264.28	extant
-354	Dvinosaurus	256.8	264.28	extant
-353	Dvinosaurus	256.8	264.28	extant
-352	Aspidosaurus_Tropical_S	273.01	283.5	extant
-351	Plagioscutum	242.0	247.2	extant
-350	Eryosuchus_Temperate_N	242.0	247.2	extant
-349	Eryosuchus_Temperate_N	242.0	247.2	extant
-348	Bukobaja	242.0	247.2	extant
-347	Plagioscutum	237.0	242.0	extant
-346	Plagioscutum	237.0	247.2	extant
-344	Melanopelta	247.2	251.2	extant
-343	Melanopelta	247.2	251.2	extant
-342	Plagiorophus	237.0	242.0	extant
-341	Boreopelta	247.2	251.2	extant
-340	Platyoposaurus	266.9	273.01	extant
-339	Mastodonsaurus_Temperate_N	237.0	242.0	extant
-338	Rhinesuchoides	259.51	264.28	extant
-336	Lydekkerina	251.902	259.51	extant
-337	Lydekkerina	251.902	259.51	extant
-335	Prionosuchus	273.01	283.5	extant
-334	Pelorocephalus	208.5	237.0	extant
-333	Pelorocephalus	208.5	237.0	extant
-332	Pelorocephalus	208.5	237.0	extant
-331	Syrtosuchus	251.2	251.902	extant
-330	Wetlugasaurus	247.2	251.2	extant
-329	Wetlugasaurus	247.2	251.2	extant
-328	Wetlugasaurus	247.2	251.2	extant
-325	Peltobatrachus	254.14	259.51	extant
-326	Peltobatrachus	254.14	259.51	extant
-327	Peltobatrachus	254.14	259.51	extant
-324	Arachana	201.4	237.0	extant
-323	Tomeia	247.2	251.902	extant
-322	Cyclotosaurus_Temperate_N	227.0	237.0	extant
-321	Sclerocephalus	290.1	298.9	extant
-320	Aphaneramma_Temperate_N	248.9	251.902	extant
-319	Yuanansuchus	242.0	247.2	extant
-317	Thoosuchus	247.2	251.2	extant
-316	Apachesaurus	208.5	227.0	extant
-315	Bathignathus	242.0	247.2	extant
-314	Qantas	247.2	251.2	extant
-313	Benthosuchus	247.2	251.2	extant
-312	Syrtosuchus	251.2	251.902	extant
-311	Prothoosuchus	247.2	251.2	extant
-310	Thoosuchus	247.2	251.2	extant
-309	Qantas	247.2	251.2	extant
-308	Benthosuchus	247.2	251.2	extant
-307	Inflectosaurus	247.2	248.9	extant
-306	Trematosaurus_Temperate_N	247.2	251.2	extant
-305	Angusaurus	248.9	251.2	extant
-304	Angusaurus	248.9	251.2	extant
-303	Angusaurus	247.2	251.902	extant
-302	Angusaurus	247.2	251.2	extant
-301	Tupilakosaurus	251.2	251.902	extant
-300	Qantas	251.2	251.902	extant
-299	Selenocara	251.2	251.902	extant
-298	Samarabatrachus	251.2	251.902	extant
-297	Syrtosuchus	247.2	251.902	extant
-296	Trematotegmen	251.2	251.902	extant
-295	Yarengia	247.2	248.9	extant
-294	Parotosuchus_Temperate_N	247.2	248.9	extant
-293	Wetlugasaurus	247.2	251.2	extant
-292	Benthosuchus	247.2	251.2	extant
-291	Parotosuchus_Temperate_N	247.2	248.9	extant
-290	Parotosuchus_Temperate_N	247.2	248.9	extant
-289	Tupilakosaurus	251.2	251.902	extant
-288	Yarengia	247.2	248.9	extant
-287	Parotosuchus_Temperate_N	247.2	248.9	extant
-286	Parotosuchus_Temperate_N	247.2	248.9	extant
-285	Parotosuchus_Temperate_N	247.2	248.9	extant
-284	Parotosuchus_Temperate_N	247.2	248.9	extant
-283	Wetlugasaurus	247.2	248.9	extant
-282	Benthosuchus	248.9	251.2	extant
-281	Benthosuchus	248.9	251.2	extant
-280	Wetlugasaurus	247.2	251.2	extant
-279	Tupilakosaurus	251.2	251.902	extant
-278	Benthosuchus	248.9	251.2	extant
-277	Benthosuchus	248.9	251.2	extant
-276	Wetlugasaurus	247.2	251.2	extant
-275	Parotosuchus_Temperate_N	247.2	248.9	extant
-274	Rhytidosteus_Temperate_N	247.2	248.9	extant
-273	Batrachosuchoides_Temperate_N	247.2	248.9	extant
-272	Plagioscutum	242.0	247.2	extant
-271	Parotosuchus_Temperate_N	247.2	248.9	extant
-270	Batrachosuchoides_Temperate_N	247.2	248.9	extant
-269	Tupilakosaurus	251.2	251.902	extant
-268	Benthosuchus	248.9	251.2	extant
-267	Wetlugasaurus	247.2	251.2	extant
-266	Wetlugasaurus	247.2	251.2	extant
-265	Trematosaurus_Temperate_N	247.2	251.2	extant
-264	Benthosuchus	248.9	251.2	extant
-263	Thoosuchus	247.2	251.2	extant
-262	Wetlugasaurus	247.2	251.2	extant
-261	Wetlugasaurus	247.2	251.2	extant
-260	Tupilakosaurus	251.2	251.902	extant
-259	Benthosuchus	248.9	251.2	extant
-258	Parotosuchus_Temperate_N	247.2	248.9	extant
-257	Benthosuchus	248.9	251.2	extant
-256	Wetlugasaurus	247.2	251.2	extant
-255	Wetlugasaurus	247.2	251.2	extant
-254	Trematosaurus_Temperate_N	247.2	251.2	extant
-253	Benthosuchus	248.9	251.2	extant
-252	Thoosuchus	247.2	251.2	extant
-251	Benthosuchus	248.9	251.2	extant
-250	Thoosuchus	248.9	251.2	extant
-249	Benthosuchus	247.2	251.2	extant
-248	Tupilakosaurus	251.2	251.902	extant
-247	Parotosuchus_Temperate_N	247.2	248.9	extant
-246	Benthosuchus	248.9	251.2	extant
-245	Syrtosuchus	247.2	251.902	extant
-244	Benthosuchus	247.2	251.902	extant
-243	Wetlugasaurus	248.9	251.2	extant
-242	Thoosuchus	248.9	251.2	extant
-241	Syrtosuchus	251.2	251.902	extant
-240	Benthosuchus	248.9	251.2	extant
-239	Thoosuchus	247.2	251.2	extant
-238	Wetlugasaurus	247.2	251.2	extant
-237	Syrtosuchus	251.2	251.902	extant
-236	Benthosuchus	248.9	251.2	extant
-235	Thoosuchus	248.9	251.2	extant
-234	Benthosuchus	248.9	251.2	extant
-233	Syrtosuchus	251.2	251.902	extant
-232	Benthosuchus	248.9	251.2	extant
-231	Thoosuchus	248.9	251.2	extant
-230	Benthosuchus	248.9	251.2	extant
-229	Thoosuchus	247.2	251.2	extant
-228	Wetlugasaurus	247.2	251.2	extant
-227	Angusaurus	247.2	248.9	extant
-226	Tupilakosaurus	251.2	251.902	extant
-225	Tupilakosaurus	251.2	251.902	extant
-224	Thoosuchus	247.2	251.2	extant
-223	Benthosuchus	248.9	251.2	extant
-222	Thoosuchus	248.9	251.2	extant
-221	Trematotegmen	248.9	251.2	extant
-220	Benthosuchus	248.9	251.2	extant
-219	Benthosuchus	248.9	251.2	extant
-218	Trematosaurus_Temperate_N	247.2	248.9	extant
-217	Parotosuchus_Temperate_N	247.2	248.9	extant
-216	Wetlugasaurus	251.2	251.902	extant
-215	Tupilakosaurus	251.2	251.902	extant
-214	Benthosuchus	248.9	251.2	extant
-213	Tupilakosaurus	251.2	251.902	extant
-212	Benthosuchus	248.9	251.2	extant
-211	Syrtosuchus	251.2	251.902	extant
-210	Syrtosuchus	251.2	251.902	extant
-209	Tupilakosaurus	251.2	251.902	extant
-208	Syrtosuchus	251.2	251.902	extant
-207	Syrtosuchus	251.2	251.902	extant
-206	Benthosuchus	248.9	251.2	extant
-205	Trematosaurus_Temperate_N	247.2	248.9	extant
-204	Benthosuchus	248.9	251.2	extant
-203	Benthosuchus	248.9	251.2	extant
-202	Benthosuchus	248.9	251.2	extant
-201	Benthosuchus	248.9	251.2	extant
-200	Wetlugasaurus	247.2	251.2	extant
-199	Angusaurus	247.2	248.9	extant
-198	Wetlugasaurus	247.2	251.2	extant
-197	Prothoosuchus	247.2	251.2	extant
-196	Wetlugasaurus	247.2	251.902	extant
-195	Thoosuchus	247.2	251.902	extant
-194	Thoosuchus	247.2	251.2	extant
-193	Angusaurus	247.2	248.9	extant
-192	Benthosuchus	248.9	251.2	extant
-191	Thoosuchus	248.9	251.2	extant
-190	Qantas	248.9	251.2	extant
-189	Tupilakosaurus	251.2	251.902	extant
-188	Prothoosuchus	247.2	248.9	extant
-187	Tupilakosaurus	251.2	251.902	extant
-186	Benthosphenus	248.9	251.2	extant
-185	Platyoposaurus	256.8	266.9	extant
-184	Tryphosuchus	256.8	266.9	extant
-183	Dvinosaurus	256.8	266.9	extant
-182	Dvinosaurus	259.51	264.28	extant
-181	Eocyclotosaurus	242.0	247.2	extant
-180	Apachesaurus	227.0	237.0	extant
-179	Anaschisma	208.5	237.0	extant
-178	Apachesaurus	208.5	237.0	extant
-177	Rhinesuchus_Temperate_S	251.902	259.51	extant
-176	Mahavisaurus	248.9	251.902	extant
-175	Mahavisaurus	248.9	251.902	extant
-173	Mastodonsaurus_Temperate_N	242.0	247.2	extant
-172	Stanocephalosaurus_Tropical_N	237.0	251.902	extant
-171	Parotosuchus_Temperate_N	247.2	248.9	extant
-170	Trematosaurus_Temperate_N	247.2	248.9	extant
-169	Parotosuchus_Temperate_N	247.2	251.2	extant
-168	Parotosuchus_Temperate_N	247.2	248.9	extant
-167	Rhinesuchus_Temperate_S	259.51	264.28	extant
-166	Rhinesuchus_Temperate_S	259.51	264.28	extant
-165	Rhinesuchus_Temperate_S	254.14	259.51	extant
-164	Uranocentrodon	251.902	259.51	extant
-163	Plagiosternum	237.0	239.7	extant
-162	Plagiosternum	237.0	239.7	extant
-161	Plagiosternum	237.0	239.7	extant
-160	Plagiosternum	237.0	239.7	extant
-159	Plagiosternum	237.0	239.7	extant
-158	Plagiosternum	237.0	242.0	extant
-157	Plagiosternum	227.0	242.0	extant
-156	Plagiosuchus	227.0	242.0	extant
-155	Plagiosuchus	237.0	239.7	extant
-154	Gerrothorax_Temperate_N	237.0	247.2	extant
-153	Gerrothorax_Temperate_N	237.0	242.0	extant
-152	Gerrothorax_Temperate_N	237.0	242.0	extant
-151	Gerrothorax_Temperate_N	227.0	237.0	extant
-150	Almasaurus	227.0	237.0	extant
-149	Mastodonsaurus_Temperate_N	242.0	247.2	extant
-148	Mastodonsaurus_Temperate_N	244.7	247.2	extant
-147	Mastodonsaurus_Temperate_N	242.0	247.2	extant
-146	Tatrasuchus	237.0	239.7	extant
-145	Tatrasuchus	237.0	239.7	extant
-144	Tatrasuchus	237.0	239.7	extant
-143	Eocyclotosaurus	242.0	247.2	extant
-142	Heptasaurus	242.0	247.2	extant
-141	Eocyclotosaurus	244.7	247.2	extant
-140	Eocyclotosaurus	244.7	247.2	extant
-139	Stenotosaurus	245.5	248.9	extant
-138	Cyclotosaurus_Temperate_N	213.2	216.7	extant
-137	Cyclotosaurus_Temperate_N	208.5	227.0	extant
-136	Cyclotosaurus_Temperate_N	201.4	208.5	extant
-135	Anthichnium	256.8	266.9	extant
-134	Vigilius	244.7	247.2	extant
-133	Xenotosuchus	242.0	247.2	extant
-132	Xenotosuchus	242.0	247.2	extant
-130	Mentosaurus	242.0	247.2	extant
-129	Eurycervix	242.0	247.2	extant
-128	Metoposaurus_Tropical_S	233.4	237.0	extant
-127	Komatosuchus	247.2	251.2	extant
-126	Benthosuchus	247.2	251.2	extant
-125	Benthosuchus	247.2	251.2	extant
-124	Eocyclotosaurus	242.0	247.2	extant
-123	Eocyclotosaurus	242.0	247.2	extant
-122	Cyclotosaurus_Temperate_N	237.0	242.0	extant
-121	Promastodonsaurus	208.5	237.0	extant
-120	Mastodonsaurus_Temperate_N	242.0	247.2	extant
-119	Yarengia	247.2	251.2	extant
-118	Vladlenosaurus	247.2	251.902	extant
-117	Archegosaurus	290.1	293.52	extant
-116	Limnogyrinus	283.5	298.9	extant
-115	Tersomius	286.1	298.9	extant
-114	Pasawioops	286.1	298.9	extant
-113	Reiszerpeton	290.1	298.9	extant
-112	Cochleosaurus	307.4	309.8	extant
-111	Chelydosaurus	259.51	283.5	extant
-110	Sclerocephalus	283.5	298.9	extant
-109	Potamochoston	307.4	309.8	extant
-108	Stegops	307.4	309.8	extant
-107	Melanerpeton	273.01	298.9	extant
-106	Mordex	307.4	309.8	extant
-105	Cochleosaurus	307.4	309.8	extant
-104	Macromerium	307.4	309.8	extant
-103	Limnerpeton	307.4	309.8	extant
-102	Limnerpeton	307.4	309.8	extant
-101	Sparagmites	307.4	309.8	extant
-100	Branchiosaurus	298.9	307.0	extant
-99	Rhinesuchus_Temperate_S	259.51	264.28	extant
-98	Rhinesuchoides	259.51	264.28	extant
-97	Zatrachys	283.5	290.1	extant
-96	Eryops	283.5	290.1	extant
-95	Cacops	273.01	283.5	extant
-93	Anaschisma	208.5	237.0	extant
-92	Eryops	286.1	298.9	extant
-91	Eryops	290.1	298.9	extant
-90	Eryops	293.52	298.9	extant
-89	Eryops	293.52	298.9	extant
-88	Eodiscoglossus	227.0	237.0	extant
-87	Metoposaurus_Tropical_S	227.0	237.0	extant
-86	Metoposaurus_Tropical_S	227.0	237.0	extant
-85	Lyrocephaliscus	248.9	251.2	extant
-84	Eryops	298.9	303.7	extant
-83	Trimerorhachis	298.9	303.7	extant
-82	Aspidosaurus_Tropical_S	283.5	290.1	extant
-81	Dissorophus	283.5	290.1	extant
-80	Conjunctio	286.1	298.9	extant
-79	Nyranerpeton	300.3	301.4	extant
-78	Amphibamus	307.4	309.8	extant
-77	Anaschisma	208.5	227.0	extant
-76	Nooxobeia	264.28	273.01	extant
-75	Anthracobamus	300.3	300.9	extant
-74	Branchiosaurus	300.3	300.9	extant
-73	Korkonterpeton	293.52	298.9	extant
-72	Schoenfelderpeton	293.52	298.9	extant
-71	Glanochthon	293.52	298.9	extant
-70	Apateon	293.52	298.9	extant
-69	Melanerpeton	293.52	298.9	extant
-68	Sclerocephalus	293.52	298.9	extant
-67	Metoposaurus_Tropical_S	208.5	227.0	extant
-66	Cyclotosaurus_Temperate_N	201.4	208.5	extant
-65	Eryops	273.01	307.0	extant
-64	Eryops	283.5	293.52	extant
-63	Zatrachys	286.1	298.9	extant
-62	Capulomala	248.9	251.902	extant
-61	Capulomala	251.2	251.902	extant
-60	Capulomala	251.2	251.902	extant
-59	Capulomala	251.2	251.902	extant
-58	Benthosuchus	247.2	251.902	extant
-57	Bermanerpeton	298.9	303.7	extant
-56	Capitosauroides	242.0	247.2	extant
-54	Trimerorhachis	283.5	290.1	extant
-53	Trimerorhachis	251.902	298.9	extant
-52	Trimerorhachis	251.902	298.9	extant
-51	Trimerorhachis	251.902	298.9	extant
-50	Eryops	251.902	298.9	extant
-49	Acheloma	251.902	298.9	extant
-48	Trimerorhachis	251.902	298.9	extant
-47	Eryops	251.902	298.9	extant
-46	Acheloma	251.902	298.9	extant
-45	Sclerocephalus	293.52	303.7	extant
-44	Metoposaurus_Tropical_S	227.0	237.0	extant
-43	Metoposaurus_Tropical_S	227.0	237.0	extant
-42	Dutuitosaurus	227.0	237.0	extant
-41	Apachesaurus	208.5	227.0	extant
-40	Archegosaurus	283.5	298.9	extant
-39	Anaschisma	208.5	227.0	extant
-37	Funcusvermis	208.5	227.0	extant
-36	Trematosaurus_Temperate_N	251.902	259.51	extant
-35	Cyclotosaurus_Temperate_N	237.0	242.0	extant
-34	Arenaerpeton	247.2	251.902	extant
-33	Clamorosaurus	273.01	283.5	extant
-32	Platyoposaurus	266.9	273.01	extant
-31	Koinia	266.9	273.01	extant
-30	Archegosaurus	293.52	298.9	extant
-29	Cheliderpeton	293.52	298.9	extant
-28	Melanerpeton	293.52	298.9	extant
-27	Apateon	293.52	298.9	extant
-26	Branchiosaurus	293.52	298.9	extant
-25	Stenokranio	293.52	303.7	extant
-24	Trypanognathus	293.52	303.7	extant
-23	Archegosaurus	293.52	298.9	extant
-22	Branchiosaurus	293.52	298.9	extant
-21	Melanerpeton	293.52	298.9	extant
-20	Melanerpeton	293.52	298.9	extant
-19	Melanerpeton	293.52	298.9	extant
-18	Dvinosaurus	259.51	264.28	extant
-17	Dvinosaurus	259.51	264.28	extant
-16	Dvinosaurus	254.14	259.51	extant
-15	Wetlugasaurus	247.2	251.2	extant
-14	Australerpeton	264.3	266.9	extant
-13	Compsocerops_Temperate_S	208.5	227.0	extant
-12	Compsocerops_Temperate_S	208.5	227.0	extant
-11	Australerpeton	264.3	266.9	extant
-10	Kwatisuchus	247.2	251.2	extant
-9	Tomeia	247.2	251.2	extant
-8	Rastosuchus	264.3	266.9	extant
-7	Rastosuchus	264.3	266.9	extant
-6	Rastosuchus	264.3	266.9	extant
-5	Rastosuchus	264.3	266.9	extant
-4	Rastosuchus	264.3	266.9	extant
-3	Rastosuchus	264.3	266.9	extant
-2	Compsocerops_Temperate_S	208.5	227.0	extant
-1	Compsocerops_Temperate_S	208.5	227.0	extant
+Species	Status	min_age	max_age
+Anconastes	extinct	298.9	305.9
+Broiliellus	extinct	273.01	283.5
+Broiliellus	extinct	286.1	298.9
+Eryops	extinct	283.5	290.1
+Aspidosaurus_Tropical_S	extinct	283.5	290.1
+Zatrachys	extinct	283.5	290.1
+Trimerorhachis	extinct	283.5	290.1
+Eryops	extinct	290.1	298.9
+Platyhystrix	extinct	290.1	298.9
+Rileymillerus	extinct	208.5	227.0
+Apachesaurus	extinct	208.5	227.0
+Eryops	extinct	298.9	303.7
+Eryops	extinct	286.1	298.9
+Metoposaurus_Tropical_S	extinct	208.5	237.0
+Trimerorhachis	extinct	283.5	290.1
+Eryops	extinct	283.5	290.1
+Anaschisma	extinct	227.0	237.0
+Trimerorhachis	extinct	273.01	283.5
+Trimerorhachis	extinct	273.01	283.5
+Trimerorhachis	extinct	273.01	283.5
+Trimerorhachis	extinct	273.01	283.5
+Trimerorhachis	extinct	273.01	283.5
+Trimerorhachis	extinct	273.01	283.5
+Trimerorhachis	extinct	273.01	283.5
+Trimerorhachis	extinct	273.01	283.5
+Trimerorhachis	extinct	273.01	283.5
+Trimerorhachis	extinct	273.01	283.5
+Trimerorhachis	extinct	273.01	283.5
+Trimerorhachis	extinct	273.01	283.5
+Trimerorhachis	extinct	273.01	283.5
+Trimerorhachis	extinct	273.01	283.5
+Trimerorhachis	extinct	273.01	283.5
+Trimerorhachis	extinct	273.01	283.5
+Trimerorhachis	extinct	273.01	283.5
+Trimerorhachis	extinct	273.01	283.5
+Trimerorhachis	extinct	273.01	283.5
+Trimerorhachis	extinct	273.01	283.5
+Trimerorhachis	extinct	273.01	283.5
+Trimerorhachis	extinct	273.01	283.5
+Trimerorhachis	extinct	273.01	283.5
+Trimerorhachis	extinct	273.01	283.5
+Trimerorhachis	extinct	273.01	283.5
+Trimerorhachis	extinct	273.01	283.5
+Trimerorhachis	extinct	273.01	283.5
+Trimerorhachis	extinct	273.01	283.5
+Trimerorhachis	extinct	273.01	283.5
+Trimerorhachis	extinct	273.01	283.5
+Trimerorhachis	extinct	273.01	283.5
+Trimerorhachis	extinct	273.01	283.5
+Parioxys	extinct	290.1	298.9
+Acheloma	extinct	283.5	290.1
+Parioxys	extinct	283.5	290.1
+Dissorophus	extinct	273.01	283.5
+Anaschisma	extinct	208.5	227.0
+Anaschisma	extinct	208.5	237.0
+Gerrothorax_Temperate_N	extinct	208.5	227.0
+Cyclotosaurus_Temperate_N	extinct	208.5	227.0
+Nannospondylus	extinct	264.28	273.01
+Fayella	extinct	264.28	273.01
+Fayella	extinct	264.28	273.01
+Eryops	extinct	286.1	298.9
+Eryops	extinct	290.1	293.52
+Eryops	extinct	290.1	293.52
+Eryops	extinct	290.1	293.52
+Eryops	extinct	290.1	293.52
+Zatrachys	extinct	290.1	293.52
+Eryops	extinct	290.1	293.52
+Eryops	extinct	290.1	293.52
+Eryops	extinct	283.5	290.1
+Trimerorhachis	extinct	283.5	290.1
+Eryops	extinct	283.5	290.1
+Eryops	extinct	283.5	290.1
+Trimerorhachis	extinct	283.5	290.1
+Parioxys	extinct	283.5	290.1
+Eryops	extinct	283.5	290.1
+Trimerorhachis	extinct	283.5	290.1
+Eryops	extinct	283.5	290.1
+Trimerorhachis	extinct	283.5	290.1
+Eryops	extinct	283.5	290.1
+Aspidosaurus_Tropical_S	extinct	283.5	290.1
+Trimerorhachis	extinct	283.5	290.1
+Eryops	extinct	283.5	290.1
+Eryops	extinct	283.5	290.1
+Trimerorhachis	extinct	283.5	290.1
+Tersomius	extinct	283.5	290.1
+Eryops	extinct	283.5	290.1
+Zatrachys	extinct	283.5	290.1
+Trimerorhachis	extinct	283.5	290.1
+Eryops	extinct	283.5	290.1
+Aspidosaurus_Tropical_S	extinct	283.5	290.1
+Trimerorhachis	extinct	283.5	290.1
+Eryops	extinct	283.5	290.1
+Trimerorhachis	extinct	283.5	290.1
+Eryops	extinct	283.5	290.1
+Eryops	extinct	283.5	290.1
+Eryops	extinct	273.01	290.1
+Trimerorhachis	extinct	273.01	290.1
+Broiliellus	extinct	273.01	290.1
+Eryops	extinct	273.01	290.1
+Broiliellus	extinct	273.01	290.1
+Trimerorhachis	extinct	273.01	290.1
+Eryops	extinct	273.01	283.5
+Trimerorhachis	extinct	273.01	283.5
+Eryops	extinct	273.01	290.1
+Eryops	extinct	273.01	290.1
+Eryops	extinct	273.01	290.1
+Eryops	extinct	273.01	283.5
+Dissorophus	extinct	273.01	283.5
+Aspidosaurus_Tropical_S	extinct	273.01	283.5
+Dasyceps	extinct	273.01	283.5
+Trimerorhachis	extinct	273.01	283.5
+Eryops	extinct	273.01	283.5
+Cacops	extinct	273.01	283.5
+Trimerorhachis	extinct	273.01	283.5
+Isodectes	extinct	273.01	283.5
+Eryops	extinct	273.01	283.5
+Dissorophus	extinct	273.01	283.5
+Dissorophus	extinct	273.01	283.5
+Eryops	extinct	273.01	283.5
+Zatrachys	extinct	273.01	283.5
+Trimerorhachis	extinct	273.01	283.5
+Eryops	extinct	273.01	283.5
+Acheloma	extinct	273.01	283.5
+Eryops	extinct	273.01	283.5
+Dissorophus	extinct	273.01	283.5
+Trimerorhachis	extinct	273.01	283.5
+Eryops	extinct	273.01	283.5
+Trimerorhachis	extinct	273.01	283.5
+Trimerorhachis	extinct	273.01	283.5
+Zatrachys	extinct	273.01	283.5
+Eryops	extinct	273.01	283.5
+Eryops	extinct	283.5	293.52
+Trimerorhachis	extinct	283.5	293.52
+Anisodexis	extinct	273.01	283.5
+Acheloma	extinct	273.01	283.5
+Isodectes	extinct	273.01	283.5
+Zatrachys	extinct	286.1	298.9
+Apateon	extinct	251.902	298.9
+Apateon	extinct	251.902	298.9
+Apateon	extinct	251.902	298.9
+Eryops	extinct	290.1	293.52
+Volgosuchus	extinct	247.2	251.902
+Thoosuchus	extinct	247.2	251.902
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Thoosuchus	extinct	247.2	251.2
+Tungussogyrinus	extinct	247.2	259.51
+Tungussogyrinus	extinct	247.2	259.51
+Tungussogyrinus	extinct	247.2	259.51
+Eryosuchus_Temperate_N	extinct	242.0	247.2
+Eryops	extinct	290.1	298.9
+Actinodon	extinct	290.1	298.9
+Lydekkerina	extinct	247.2	251.902
+Hadrokkosaurus	extinct	244.7	247.2
+Eocyclotosaurus	extinct	244.7	247.2
+Rhadalognathus	extinct	244.7	247.2
+Platyoposaurus	extinct	259.51	266.9
+Tryphosuchus	extinct	259.51	266.9
+Cacops	extinct	273.01	283.5
+Melosaurus	extinct	266.9	276.5
+Dvinosaurus	extinct	256.8	259.51
+Dvinosaurus	extinct	256.8	259.51
+Dvinosaurus	extinct	256.8	259.51
+Paracyclotosaurus_Temperate_S	extinct	242.0	247.2
+Czatkobatrachus	extinct	247.2	251.2
+Parotosuchus_Temperate_N	extinct	247.2	251.2
+Anaschisma	extinct	208.5	227.0
+Anaschisma	extinct	208.5	227.0
+Anaschisma	extinct	208.5	227.0
+Metoposaurus_Tropical_S	extinct	201.4	237.0
+Metoposaurus_Tropical_S	extinct	201.4	237.0
+Wetlugasaurus	extinct	247.2	251.2
+Angusaurus	extinct	247.2	251.2
+Vyborosaurus	extinct	247.2	251.2
+Aphaneramma_Temperate_N	extinct	247.2	248.9
+Aphaneramma_Temperate_N	extinct	247.2	248.9
+Apachesaurus	extinct	208.5	227.0
+Apachesaurus	extinct	208.5	227.0
+Metoposaurus_Tropical_S	extinct	201.4	208.5
+Plagiosaurus	extinct	201.4	208.5
+Apachesaurus	extinct	208.5	227.0
+Anaschisma	extinct	208.5	227.0
+Anaschisma	extinct	208.5	227.0
+Anaschisma	extinct	208.5	227.0
+Onchiodon	extinct	290.1	293.52
+Onchiodon	extinct	290.1	293.52
+Apateon	extinct	290.1	293.52
+Branchierpeton	extinct	290.1	293.52
+Acanthostomatops	extinct	290.1	293.52
+Anaschisma	extinct	208.5	227.0
+Plagiosaurus	extinct	213.2	216.7
+Cyclotosaurus_Temperate_N	extinct	213.2	216.7
+Cyclotosaurus_Temperate_N	extinct	242.0	247.2
+Cyclotosaurus_Temperate_N	extinct	242.0	247.2
+Mastodonsaurus_Temperate_N	extinct	242.0	247.2
+Apateon	extinct	259.51	283.5
+Anaschisma	extinct	208.5	227.0
+Anaschisma	extinct	208.5	227.0
+Apachesaurus	extinct	208.5	227.0
+Apachesaurus	extinct	208.5	227.0
+Apachesaurus	extinct	208.5	227.0
+Cyclotosaurus_Temperate_N	extinct	208.5	237.0
+Metoposaurus_Tropical_S	extinct	208.5	237.0
+Cyclotosaurus_Temperate_N	extinct	227.0	233.4
+Anaschisma	extinct	208.5	227.0
+Cacops	extinct	283.5	290.1
+Cacops	extinct	283.5	290.1
+Cacops	extinct	283.5	290.1
+Cacops	extinct	283.5	290.1
+Cacops	extinct	283.5	290.1
+Cacops	extinct	283.5	290.1
+Cacops	extinct	283.5	290.1
+Doleserpeton	extinct	283.5	290.1
+Tersomius	extinct	283.5	290.1
+Acheloma	extinct	283.5	290.1
+Acheloma	extinct	283.5	290.1
+Cacops	extinct	283.5	290.1
+Trimerorhachis	extinct	273.01	283.5
+Tersomius	extinct	273.01	283.5
+Saharastega	extinct	251.902	254.14
+Nigerpeton	extinct	251.902	254.14
+Anaschisma	extinct	208.5	237.0
+Anaschisma	extinct	208.5	237.0
+Anaschisma	extinct	208.5	237.0
+Anaschisma	extinct	208.5	237.0
+Anaschisma	extinct	208.5	237.0
+Anaschisma	extinct	208.5	237.0
+Anaschisma	extinct	208.5	237.0
+Anaschisma	extinct	208.5	237.0
+Anaschisma	extinct	208.5	237.0
+Mastodonsaurus_Temperate_N	extinct	201.4	208.5
+Trematosaurus_Temperate_N	extinct	201.4	208.5
+Mastodonsaurus_Temperate_N	extinct	242.0	247.2
+Mastodonsaurus_Temperate_N	extinct	237.0	247.2
+Stenotosaurus	extinct	237.0	247.2
+Anaschisma	extinct	208.5	227.0
+Anaschisma	extinct	208.5	227.0
+Anaschisma	extinct	208.5	227.0
+Anaschisma	extinct	208.5	227.0
+Gerrothorax_Temperate_N	extinct	213.2	216.7
+Tersomius	extinct	273.01	283.5
+Eryops	extinct	273.01	298.9
+Slaugenhopia	extinct	266.9	283.5
+Metoposaurus_Tropical_S	extinct	208.5	237.0
+Metoposaurus_Tropical_S	extinct	227.0	233.4
+Apachesaurus	extinct	208.5	227.0
+Apachesaurus	extinct	208.5	227.0
+Anaschisma	extinct	208.5	237.0
+Apachesaurus	extinct	208.5	227.0
+Anaschisma	extinct	208.5	227.0
+Anaschisma	extinct	227.0	237.0
+Melosaurus	extinct	266.9	276.5
+Trimerorhachis	extinct	273.01	286.1
+Trimerorhachis	extinct	273.01	283.5
+Trimerorhachis	extinct	283.5	290.1
+Eryops	extinct	283.5	290.1
+Trimerorhachis	extinct	273.01	286.1
+Trimerorhachis	extinct	273.01	286.1
+Eryops	extinct	273.01	286.1
+Eryops	extinct	273.01	286.1
+Trimerorhachis	extinct	283.5	290.1
+Doleserpeton	extinct	273.01	286.1
+Slaugenhopia	extinct	266.9	283.5
+Isodectes	extinct	307.4	309.8
+Isodectes	extinct	307.4	309.8
+Trimerorhachis	extinct	273.01	290.1
+Trimerorhachis	extinct	273.01	290.1
+Eryops	extinct	273.01	290.1
+Nigerpeton	extinct	251.902	254.14
+Anakamacops	extinct	266.9	273.01
+Parotosuchus_Temperate_N	extinct	247.2	251.2
+Parotosuchus_Temperate_N	extinct	247.2	251.2
+Yarengia	extinct	247.2	251.2
+Eryosuchus_Temperate_N	extinct	247.2	251.2
+Mastodonsaurus_Temperate_N	extinct	237.0	242.0
+Plagioscutum	extinct	237.0	242.0
+Eryops	extinct	286.1	298.9
+Zatrachys	extinct	286.1	298.9
+Acheloma	extinct	286.1	298.9
+Phonerpeton	extinct	286.1	298.9
+Eryops	extinct	286.1	298.9
+Platyhystrix	extinct	286.1	298.9
+Georgenthalia	extinct	283.5	290.1
+Konzhukovia_Temperate_N	extinct	264.28	266.9
+Trimerorhachis	extinct	273.01	286.1
+Eryops	extinct	273.01	286.1
+Zatrachys	extinct	290.1	298.9
+Trimerorhachis	extinct	290.1	298.9
+Chenoprosopus	extinct	286.1	298.9
+Dvinosaurus	extinct	256.8	259.51
+Uruyiella	extinct	201.4	237.0
+Platyoposaurus	extinct	266.9	276.5
+Platyoposaurus	extinct	264.28	266.9
+Platyoposaurus	extinct	264.28	266.9
+Melosaurus	extinct	264.28	266.9
+Eryops	extinct	273.01	286.1
+Trimerorhachis	extinct	273.01	286.1
+Melosaurus	extinct	266.9	276.5
+Zygosaurus	extinct	266.9	276.5
+Intasuchus	extinct	273.01	276.5
+Syndyodosuchus	extinct	273.01	276.5
+Rileymillerus	extinct	208.5	227.0
+Eocyclotosaurus	extinct	242.0	247.2
+Eocyclotosaurus	extinct	242.0	247.2
+Dvinosaurus	extinct	259.51	264.28
+Eryops	extinct	273.01	290.1
+Cyclotosaurus_Temperate_N	extinct	208.5	227.0
+Lapillopsis	extinct	251.2	251.902
+Batrachosuchus_Temperate_S	extinct	242.0	247.2
+Pasawioops	extinct	283.5	290.1
+Pasawioops	extinct	283.5	290.1
+Tambachia	extinct	283.5	290.1
+Gerobatrachus	extinct	273.01	283.5
+Anaschisma	extinct	227.0	237.0
+Anaschisma	extinct	227.0	237.0
+Anaschisma	extinct	227.0	237.0
+Anaschisma	extinct	227.0	237.0
+Anaschisma	extinct	227.0	237.0
+Anaschisma	extinct	227.0	237.0
+Anaschisma	extinct	227.0	237.0
+Anaschisma	extinct	227.0	237.0
+Anaschisma	extinct	227.0	237.0
+Anaschisma	extinct	227.0	237.0
+Anaschisma	extinct	227.0	237.0
+Triadobatrachus	extinct	248.9	251.902
+Apachesaurus	extinct	213.2	227.0
+Anaschisma	extinct	208.5	227.0
+Anaschisma	extinct	208.5	227.0
+Anaschisma	extinct	208.5	227.0
+Anaschisma	extinct	208.5	227.0
+Apachesaurus	extinct	208.5	227.0
+Anaschisma	extinct	208.5	227.0
+Apachesaurus	extinct	208.5	227.0
+Apachesaurus	extinct	208.5	227.0
+Apachesaurus	extinct	208.5	227.0
+Anaschisma	extinct	208.5	227.0
+Apachesaurus	extinct	208.5	227.0
+Anaschisma	extinct	208.5	227.0
+Anaschisma	extinct	208.5	227.0
+Anaschisma	extinct	208.5	227.0
+Anaschisma	extinct	208.5	227.0
+Anaschisma	extinct	208.5	227.0
+Anaschisma	extinct	208.5	227.0
+Anaschisma	extinct	208.5	227.0
+Anaschisma	extinct	208.5	227.0
+Anaschisma	extinct	208.5	227.0
+Anaschisma	extinct	208.5	227.0
+Anaschisma	extinct	208.5	227.0
+Anaschisma	extinct	208.5	227.0
+Apachesaurus	extinct	208.5	227.0
+Anaschisma	extinct	208.5	227.0
+Anaschisma	extinct	208.5	227.0
+Anaschisma	extinct	208.5	227.0
+Anaschisma	extinct	208.5	227.0
+Anaschisma	extinct	208.5	227.0
+Anaschisma	extinct	208.5	227.0
+Anaschisma	extinct	208.5	227.0
+Anaschisma	extinct	208.5	227.0
+Apachesaurus	extinct	208.5	227.0
+Anaschisma	extinct	208.5	227.0
+Anaschisma	extinct	208.5	227.0
+Anaschisma	extinct	208.5	227.0
+Anaschisma	extinct	208.5	227.0
+Anaschisma	extinct	208.5	227.0
+Anaschisma	extinct	208.5	227.0
+Anaschisma	extinct	208.5	227.0
+Anaschisma	extinct	208.5	227.0
+Anaschisma	extinct	208.5	227.0
+Anaschisma	extinct	208.5	227.0
+Apachesaurus	extinct	208.5	227.0
+Plagioscutum	extinct	242.0	247.2
+Wetlugasaurus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Parotosuchus_Temperate_N	extinct	247.2	251.2
+Wetlugasaurus	extinct	247.2	251.2
+Rhytidosteus_Temperate_N	extinct	247.2	251.2
+Batrachosuchoides_Temperate_N	extinct	247.2	251.2
+Melanopelta	extinct	247.2	251.2
+Anaschisma	extinct	208.5	227.0
+Anaschisma	extinct	208.5	227.0
+Anaschisma	extinct	208.5	227.0
+Anaschisma	extinct	208.5	227.0
+Anaschisma	extinct	208.5	227.0
+Anaschisma	extinct	208.5	227.0
+Anaschisma	extinct	208.5	227.0
+Anaschisma	extinct	208.5	227.0
+Anaschisma	extinct	208.5	227.0
+Anaschisma	extinct	208.5	227.0
+Anaschisma	extinct	208.5	227.0
+Anaschisma	extinct	208.5	227.0
+Anaschisma	extinct	208.5	227.0
+Anaschisma	extinct	208.5	227.0
+Anaschisma	extinct	208.5	227.0
+Anaschisma	extinct	208.5	227.0
+Anaschisma	extinct	208.5	227.0
+Anaschisma	extinct	208.5	227.0
+Anaschisma	extinct	208.5	227.0
+Anaschisma	extinct	208.5	227.0
+Anaschisma	extinct	208.5	227.0
+Apachesaurus	extinct	208.5	227.0
+Apachesaurus	extinct	208.5	227.0
+Apachesaurus	extinct	208.5	227.0
+Apachesaurus	extinct	208.5	227.0
+Anaschisma	extinct	208.5	227.0
+Anaschisma	extinct	208.5	227.0
+Anaschisma	extinct	208.5	227.0
+Apachesaurus	extinct	208.5	227.0
+Apachesaurus	extinct	208.5	227.0
+Apachesaurus	extinct	208.5	227.0
+Anaschisma	extinct	208.5	227.0
+Anaschisma	extinct	208.5	227.0
+Apachesaurus	extinct	208.5	227.0
+Apachesaurus	extinct	201.4	208.5
+Anaschisma	extinct	201.4	208.5
+Anaschisma	extinct	208.5	227.0
+Apachesaurus	extinct	208.5	227.0
+Anaschisma	extinct	208.5	227.0
+Anaschisma	extinct	208.5	227.0
+Apachesaurus	extinct	208.5	227.0
+Apachesaurus	extinct	208.5	227.0
+Apachesaurus	extinct	208.5	227.0
+Apachesaurus	extinct	208.5	227.0
+Apachesaurus	extinct	208.5	227.0
+Apachesaurus	extinct	208.5	227.0
+Isodectes	extinct	273.01	283.5
+Anaschisma	extinct	227.0	233.4
+Apachesaurus	extinct	208.5	227.0
+Benthosuchus	extinct	251.2	251.902
+Wetlugasaurus	extinct	247.2	251.2
+Wetlugasaurus	extinct	247.2	251.2
+Parotosuchus_Temperate_N	extinct	247.2	251.2
+Anaschisma	extinct	208.5	227.0
+Warrenisuchus	extinct	251.2	251.902
+Metoposaurus_Tropical_S	extinct	227.0	237.0
+Apachesaurus	extinct	208.5	227.0
+Apachesaurus	extinct	208.5	227.0
+Stanocephalosaurus_Tropical_N	extinct	247.2	248.9
+Eocyclotosaurus	extinct	244.7	247.2
+Eocyclotosaurus	extinct	244.7	247.2
+Eocyclotosaurus	extinct	244.7	247.2
+Eocyclotosaurus	extinct	244.7	247.2
+Quasicyclotosaurus	extinct	244.7	247.2
+Quasicyclotosaurus	extinct	244.7	247.2
+Stanocephalosaurus_Tropical_N	extinct	244.7	247.2
+Wellesaurus	extinct	247.2	248.9
+Cosgriffius	extinct	247.2	248.9
+Wellesaurus	extinct	247.2	248.9
+Wellesaurus	extinct	247.2	248.9
+Eocyclotosaurus	extinct	244.7	247.2
+Vigilius	extinct	244.7	247.2
+Paracyclotosaurus_Temperate_S	extinct	242.0	247.2
+Jammerbergia	extinct	242.0	247.2
+Vanastega	extinct	242.0	247.2
+Xenotosuchus	extinct	242.0	247.2
+Eryosuchus_Temperate_N	extinct	242.0	247.2
+Eryosuchus_Temperate_N	extinct	242.0	247.2
+Plagioscutum	extinct	242.0	247.2
+Eryosuchus_Temperate_N	extinct	242.0	247.2
+Plagiorophus	extinct	242.0	247.2
+Bukobaja	extinct	237.0	242.0
+Plagioscutum	extinct	242.0	247.2
+Eryosuchus_Temperate_N	extinct	242.0	247.2
+Plagioscutum	extinct	242.0	247.2
+Plagiorophus	extinct	242.0	247.2
+Eryosuchus_Temperate_N	extinct	242.0	247.2
+Plagiorophus	extinct	242.0	247.2
+Mastodonsaurus_Temperate_N	extinct	237.0	242.0
+Mastodonsaurus_Temperate_N	extinct	237.0	242.0
+Bukobaja	extinct	237.0	242.0
+Cyclotosaurus_Temperate_N	extinct	237.0	242.0
+Eryosuchus_Temperate_N	extinct	242.0	247.2
+Yuanansuchus	extinct	242.0	247.2
+Mastodonsaurus_Temperate_N	extinct	242.0	247.2
+Cyclotosaurus_Temperate_N	extinct	242.0	247.2
+Metoposaurus_Tropical_S	extinct	227.0	237.0
+Metoposaurus_Tropical_S	extinct	227.0	237.0
+Metoposaurus_Tropical_S	extinct	227.0	237.0
+Cyclotosaurus_Temperate_N	extinct	227.0	237.0
+Metoposaurus_Tropical_S	extinct	227.0	237.0
+Gerrothorax_Temperate_N	extinct	227.0	237.0
+Stenotosaurus	extinct	244.7	247.2
+Tatrasuchus	extinct	237.0	242.0
+Sangaia	extinct	247.2	251.902
+Cherninia	extinct	242.0	247.2
+Batrachosuchus_Temperate_S	extinct	242.0	247.2
+Stanocephalosaurus_Tropical_N	extinct	242.0	247.2
+Callistomordax	extinct	237.0	239.7
+Trematolestes	extinct	237.0	239.7
+Mastodonsaurus_Temperate_N	extinct	237.0	239.7
+Calmasuchus	extinct	242.0	247.2
+Stanocephalosaurus_Tropical_N	extinct	242.0	247.2
+Lydekkerina	extinct	247.2	251.902
+Anaschisma	extinct	208.5	227.0
+Trematolestes	extinct	237.0	239.7
+Gerrothorax_Temperate_N	extinct	237.0	239.7
+Mastodonsaurus_Temperate_N	extinct	237.0	239.7
+Plagiosuchus	extinct	237.0	239.7
+Plagiosuchus	extinct	237.0	239.7
+Plagiosuchus	extinct	237.0	239.7
+Plagiosuchus	extinct	237.0	239.7
+Plagiosuchus	extinct	237.0	239.7
+Trematolestes	extinct	237.0	239.7
+Tatrasuchus	extinct	237.0	239.7
+Plagiosuchus	extinct	237.0	239.7
+Gerrothorax_Temperate_N	extinct	237.0	239.7
+Mastodonsaurus_Temperate_N	extinct	237.0	239.7
+Trematolestes	extinct	237.0	239.7
+Callistomordax	extinct	237.0	239.7
+Mastodonsaurus_Temperate_N	extinct	237.0	239.7
+Mastodonsaurus_Temperate_N	extinct	237.0	239.7
+Mastodonsaurus_Temperate_N	extinct	237.0	239.7
+Mastodonsaurus_Temperate_N	extinct	237.0	239.7
+Mastodonsaurus_Temperate_N	extinct	237.0	239.7
+Mastodonsaurus_Temperate_N	extinct	237.0	239.7
+Mastodonsaurus_Temperate_N	extinct	237.0	239.7
+Mastodonsaurus_Temperate_N	extinct	237.0	239.7
+Mastodonsaurus_Temperate_N	extinct	237.0	239.7
+Metoposaurus_Tropical_S	extinct	227.0	237.0
+Metoposaurus_Tropical_S	extinct	227.0	237.0
+Metoposaurus_Tropical_S	extinct	227.0	237.0
+Hyperokynodon	extinct	227.0	237.0
+Hyperokynodon	extinct	227.0	237.0
+Cyclotosaurus_Temperate_N	extinct	227.0	237.0
+Cyclotosaurus_Temperate_N	extinct	227.0	237.0
+Cyclotosaurus_Temperate_N	extinct	227.0	237.0
+Cyclotosaurus_Temperate_N	extinct	227.0	237.0
+Cyclotosaurus_Temperate_N	extinct	227.0	237.0
+Cyclotosaurus_Temperate_N	extinct	227.0	237.0
+Cyclotosaurus_Temperate_N	extinct	227.0	237.0
+Cyclotosaurus_Temperate_N	extinct	227.0	237.0
+Cyclotosaurus_Temperate_N	extinct	227.0	237.0
+Cyclotosaurus_Temperate_N	extinct	227.0	237.0
+Cyclotosaurus_Temperate_N	extinct	227.0	237.0
+Cyclotosaurus_Temperate_N	extinct	227.0	237.0
+Cyclotosaurus_Temperate_N	extinct	227.0	237.0
+Cyclotosaurus_Temperate_N	extinct	227.0	237.0
+Cyclotosaurus_Temperate_N	extinct	227.0	237.0
+Cyclotosaurus_Temperate_N	extinct	227.0	237.0
+Cyclotosaurus_Temperate_N	extinct	227.0	237.0
+Cyclotosaurus_Temperate_N	extinct	227.0	237.0
+Cyclotosaurus_Temperate_N	extinct	227.0	237.0
+Cyclotosaurus_Temperate_N	extinct	227.0	237.0
+Cyclotosaurus_Temperate_N	extinct	227.0	237.0
+Cyclotosaurus_Temperate_N	extinct	227.0	237.0
+Cyclotosaurus_Temperate_N	extinct	227.0	237.0
+Metoposaurus_Tropical_S	extinct	227.0	237.0
+Metoposaurus_Tropical_S	extinct	227.0	237.0
+Metoposaurus_Tropical_S	extinct	227.0	237.0
+Acheloma	extinct	283.5	290.1
+Metoposaurus_Tropical_S	extinct	208.5	227.0
+Metoposaurus_Tropical_S	extinct	227.0	237.0
+Gerrothorax_Temperate_N	extinct	208.5	227.0
+Gerrothorax_Temperate_N	extinct	208.5	227.0
+Gerrothorax_Temperate_N	extinct	208.5	227.0
+Metoposaurus_Tropical_S	extinct	227.0	237.0
+Gerrothorax_Temperate_N	extinct	201.4	208.5
+Odenwaldia_Tropical_S	extinct	242.0	248.9
+Odenwaldia_Tropical_S	extinct	242.0	248.9
+Metoposaurus_Tropical_S	extinct	227.0	237.0
+Anaschisma	extinct	227.0	237.0
+Anaschisma	extinct	227.0	237.0
+Calamops	extinct	208.5	227.0
+Panthasaurus	extinct	208.5	237.0
+Amphibamus	extinct	307.4	309.8
+Erpetosaurus	extinct	307.4	309.8
+Erpetosaurus	extinct	307.4	309.8
+Rubeostratilia	extinct	290.1	298.9
+Anaschisma	extinct	208.5	237.0
+Anaschisma	extinct	208.5	237.0
+Anaschisma	extinct	208.5	237.0
+Triassurus	extinct	227.0	242.0
+Batrachosuchoides_Temperate_N	extinct	247.2	251.2
+Parotosuchus_Temperate_N	extinct	247.2	248.9
+Meyerosuchus	extinct	247.2	248.9
+Meyerosuchus	extinct	247.2	248.9
+Odenwaldia_Tropical_S	extinct	247.2	248.9
+Odenwaldia_Tropical_S	extinct	247.2	248.9
+Cyclotosaurus_Temperate_N	extinct	227.0	237.0
+Metoposaurus_Tropical_S	extinct	227.0	237.0
+Gerrothorax_Temperate_N	extinct	227.0	237.0
+Cyclotosaurus_Temperate_N	extinct	227.0	237.0
+Rotaryus	extinct	283.5	290.1
+Zatrachys	extinct	298.9	303.7
+Zatrachys	extinct	286.1	298.9
+Sclerothorax	extinct	248.9	251.2
+Sclerothorax	extinct	247.2	248.9
+Parotosuchus_Temperate_N	extinct	248.9	251.2
+Trematosaurus_Temperate_N	extinct	247.2	251.2
+Parotosuchus_Temperate_N	extinct	248.9	251.2
+Peltobatrachus	extinct	254.14	259.51
+Watsonisuchus_Temperate_S	extinct	244.7	248.9
+Watsonisuchus_Temperate_S	extinct	251.2	251.902
+Watsonisuchus_Temperate_S	extinct	251.2	251.902
+Keratobrachyops	extinct	251.2	251.902
+Xenobrachyops	extinct	251.2	251.902
+Rewana	extinct	251.2	251.902
+Rewana	extinct	251.2	251.902
+Rewana	extinct	251.2	251.902
+Plagiobatrachus	extinct	251.2	251.902
+Acerastea	extinct	251.2	251.902
+Nanolania	extinct	251.2	251.902
+Rotaurisaurus	extinct	251.2	251.902
+Tirraturhinus	extinct	251.2	251.902
+Lydekkerina	extinct	251.2	251.902
+Microposaurus	extinct	242.0	247.2
+Platycepsion	extinct	244.7	248.9
+Notobrachyops	extinct	242.0	247.2
+Bulgosuchus	extinct	247.2	251.4
+Subcyclotosaurus	extinct	242.0	247.2
+Trucheosaurus	extinct	254.14	259.51
+Deltasaurus_Temperate_S	extinct	247.2	251.902
+Deltasaurus_Temperate_S	extinct	247.2	251.902
+Deltasaurus_Temperate_S	extinct	247.2	251.902
+Deltasaurus_Temperate_S	extinct	247.2	251.902
+Deltasaurus_Temperate_S	extinct	247.2	251.902
+Watsonisuchus_Temperate_S	extinct	247.2	251.902
+Deltasaurus_Temperate_S	extinct	247.2	251.902
+Indobrachyops	extinct	248.9	251.902
+Manubrantlia	extinct	248.9	251.902
+Aphaneramma_Temperate_N	extinct	251.2	251.902
+Batrachosuchus_Temperate_S	extinct	247.2	251.902
+Batrachosuchus_Temperate_S	extinct	247.2	251.902
+Banksiops	extinct	251.2	251.902
+Chomatobatrachus	extinct	251.2	251.902
+Banksiops	extinct	251.2	251.902
+Chomatobatrachus	extinct	251.2	251.902
+Derwentia	extinct	251.2	251.902
+Banksiops	extinct	251.2	251.902
+Chomatobatrachus	extinct	251.2	251.902
+Deltasaurus_Temperate_S	extinct	251.2	251.902
+Banksiops	extinct	251.2	251.902
+Chomatobatrachus	extinct	251.2	251.902
+Deltasaurus_Temperate_S	extinct	251.2	251.902
+Derwentia	extinct	251.2	251.902
+Chomatobatrachus	extinct	251.2	251.902
+Banksiops	extinct	251.2	251.902
+Chomatobatrachus	extinct	251.2	251.902
+Deltasaurus_Temperate_S	extinct	251.2	251.902
+Watsonisuchus_Temperate_S	extinct	251.2	251.902
+Watsonisuchus_Temperate_S	extinct	251.2	251.902
+Bothriceps	extinct	251.2	259.51
+Bothriceps	extinct	251.2	259.51
+Bothriceps	extinct	251.2	259.51
+Bothriceps	extinct	251.2	259.51
+Bothriceps	extinct	251.2	259.51
+Bothriceps	extinct	251.2	259.51
+Bothriceps	extinct	251.2	259.51
+Bothriceps	extinct	251.2	259.51
+Bothriceps	extinct	251.2	259.51
+Bothriceps	extinct	251.2	259.51
+Bothriceps	extinct	251.2	259.51
+Bothriceps	extinct	251.2	259.51
+Bothriceps	extinct	251.2	259.51
+Bothriceps	extinct	251.2	259.51
+Bothriceps	extinct	251.2	259.51
+Cherninia	extinct	242.0	247.2
+Paracyclotosaurus_Temperate_S	extinct	242.0	247.2
+Eryosuchus_Temperate_N	extinct	242.0	247.2
+Eryosuchus_Temperate_N	extinct	242.0	247.2
+Brachyops	extinct	247.2	251.902
+Panthasaurus	extinct	208.5	237.0
+Panthasaurus	extinct	208.5	237.0
+Panthasaurus	extinct	208.5	237.0
+Compsocerops_Temperate_S	extinct	208.5	227.0
+Kuttycephalus	extinct	208.5	227.0
+Kuttycephalus	extinct	208.5	227.0
+Kuttycephalus	extinct	208.5	227.0
+Mastodonsaurus_Temperate_N	extinct	237.0	247.2
+Plagiosternum	extinct	237.0	247.2
+Cyclotosaurus_Temperate_N	extinct	208.5	227.0
+Plagiosternum	extinct	227.0	237.0
+Apachesaurus	extinct	227.0	237.0
+Hemiprichisaurus	extinct	201.4	208.5
+Plagiosaurus	extinct	201.4	208.5
+Cyclotosaurus_Temperate_N	extinct	201.4	208.5
+Metoposaurus_Tropical_S	extinct	201.4	208.5
+Gerrothorax_Temperate_N	extinct	201.4	208.5
+Plagiosaurus	extinct	201.4	208.5
+Gerrothorax_Temperate_N	extinct	201.4	208.5
+Cyclotosaurus_Temperate_N	extinct	201.4	208.5
+Trematosaurus_Temperate_N	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.902
+Benthosuchus	extinct	247.2	251.902
+Xenotosuchus	extinct	242.0	247.2
+Parotosuchus_Temperate_N	extinct	247.2	251.2
+Batrachosuchoides_Temperate_N	extinct	247.2	251.2
+Batrachosuchoides_Temperate_N	extinct	247.2	251.2
+Parotosuchus_Temperate_N	extinct	247.2	251.2
+Erythrobatrachus	extinct	247.2	251.902
+Eolydekkerina	extinct	247.2	251.902
+Lydekkerina	extinct	251.2	251.902
+Broomistega	extinct	247.2	251.902
+Lydekkerina	extinct	247.2	251.902
+Lydekkerina	extinct	247.2	251.902
+Broomistega	extinct	247.2	251.902
+Broomistega	extinct	251.2	251.902
+Lydekkerina	extinct	251.2	251.902
+Lydekkerina	extinct	247.2	251.902
+Lydekkerina	extinct	247.2	251.902
+Selenocara	extinct	251.2	251.902
+Stoschiosaurus	extinct	251.2	251.902
+Stoschiosaurus	extinct	251.2	251.902
+Stoschiosaurus	extinct	251.2	251.902
+Luzocephalus	extinct	251.2	251.902
+Luzocephalus	extinct	251.2	251.902
+Luzocephalus	extinct	251.2	251.902
+Luzocephalus	extinct	251.2	251.902
+Tupilakosaurus	extinct	251.2	251.902
+Tupilakosaurus	extinct	251.2	251.902
+Aphaneramma_Temperate_N	extinct	248.9	251.2
+Aphaneramma_Temperate_N	extinct	248.9	251.2
+Deltacephalus	extinct	248.9	251.902
+Lyrocephaliscus	extinct	248.9	251.2
+Lyrocephaliscus	extinct	248.9	251.2
+Lyrocephaliscus	extinct	248.9	251.2
+Lyrocephaliscus	extinct	248.9	251.2
+Aphaneramma_Temperate_N	extinct	248.9	251.2
+Aphaneramma_Temperate_N	extinct	248.9	251.2
+Aphaneramma_Temperate_N	extinct	248.9	251.2
+Aphaneramma_Temperate_N	extinct	248.9	251.2
+Aphaneramma_Temperate_N	extinct	248.9	251.2
+Aphaneramma_Temperate_N	extinct	248.9	251.2
+Platystega	extinct	248.9	251.2
+Tertrema	extinct	248.9	251.2
+Peltostega	extinct	248.9	251.2
+Tertrema	extinct	248.9	251.2
+Aphaneramma_Temperate_N	extinct	248.9	251.2
+Aphaneramma_Temperate_N	extinct	248.9	251.2
+Aphaneramma_Temperate_N	extinct	248.9	251.2
+Lyrocephaliscus	extinct	248.9	251.2
+Peltostega	extinct	248.9	251.2
+Peltostega	extinct	248.9	251.2
+Wantzosaurus	extinct	248.9	251.902
+Edingerella	extinct	248.9	251.902
+Edingerella	extinct	248.9	251.902
+Edingerella	extinct	248.9	251.902
+Mahavisaurus	extinct	248.9	251.902
+Mahavisaurus	extinct	248.9	251.902
+Tertremoides	extinct	248.9	251.902
+Wantzosaurus	extinct	248.9	251.902
+Wantzosaurus	extinct	248.9	251.902
+Tertremoides	extinct	248.9	251.902
+Tertremoides	extinct	248.9	251.902
+Edingerella	extinct	248.9	251.902
+Laidleria	extinct	242.0	247.2
+Pneumatostega	extinct	251.2	251.902
+Pneumatostega	extinct	251.2	251.902
+Rhinesuchoides	extinct	254.14	259.51
+Laccosaurus	extinct	254.14	259.51
+Kestrosaurus	extinct	247.2	248.9
+Microposaurus	extinct	242.0	247.2
+Micropholis	extinct	251.2	251.902
+Micropholis	extinct	247.2	251.902
+Micropholis	extinct	247.2	251.902
+Micropholis	extinct	247.2	251.902
+Micropholis	extinct	247.2	251.902
+Micropholis	extinct	247.2	251.902
+Micropholis	extinct	247.2	251.902
+Micropholis	extinct	247.2	251.902
+Micropholis	extinct	247.2	251.902
+Micropholis	extinct	247.2	251.902
+Micropholis	extinct	251.2	251.902
+Micropholis	extinct	251.2	251.902
+Micropholis	extinct	251.2	251.902
+Micropholis	extinct	247.2	251.902
+Micropholis	extinct	247.2	251.902
+Micropholis	extinct	251.2	251.902
+Micropholis	extinct	251.2	251.902
+Micropholis	extinct	251.2	251.902
+Micropholis	extinct	247.2	251.902
+Micropholis	extinct	251.2	251.902
+Micropholis	extinct	251.2	251.902
+Micropholis	extinct	251.2	251.902
+Trematosuchus	extinct	247.2	248.9
+Trematosuchus	extinct	247.2	248.9
+Trematosuchoides	extinct	247.2	248.9
+Xenotosuchus	extinct	242.0	247.2
+Microposaurus	extinct	242.0	247.2
+Microposaurus	extinct	242.0	247.2
+Batrachosuchus_Temperate_S	extinct	242.0	247.2
+Micropholis	extinct	247.2	251.902
+Trematosuchus	extinct	247.2	251.2
+Thabanchuia	extinct	251.2	251.902
+Kestrosaurus	extinct	247.2	251.2
+Kestrosaurus	extinct	247.2	251.2
+Bathignathus	extinct	247.2	251.2
+Xenotosuchus	extinct	242.0	247.2
+Kestrosaurus	extinct	247.2	251.2
+Watsonisuchus_Temperate_S	extinct	247.2	248.9
+Xenotosuchus	extinct	242.0	247.2
+Watsonisuchus_Temperate_S	extinct	251.2	251.902
+Kestrosaurus	extinct	247.2	248.9
+Kestrosaurus	extinct	247.2	248.9
+Rhytidosteus_Temperate_N	extinct	248.9	251.902
+Dvinosaurus	extinct	259.51	264.28
+Rhinesuchus_Temperate_S	extinct	251.902	259.51
+Inflectosaurus	extinct	247.2	248.9
+Rhinesuchus_Temperate_S	extinct	247.2	251.902
+Rhinesuchus_Temperate_S	extinct	247.2	251.902
+Rhinesuchus_Temperate_S	extinct	247.2	251.902
+Perryella	extinct	273.01	286.1
+Eryops	extinct	273.01	283.5
+Stenotosaurus	extinct	201.4	237.0
+Scapanops	extinct	293.52	298.9
+Conjunctio	extinct	290.1	298.9
+Conjunctio	extinct	286.1	303.7
+Rhinesuchoides	extinct	254.14	259.51
+Indobrachyops	extinct	248.9	251.902
+Dasyceps	extinct	293.52	298.9
+Adamanterpeton	extinct	307.4	309.8
+Astreptorhachis	extinct	298.9	303.7
+Rhineceps	extinct	254.14	259.51
+Neldasaurus	extinct	286.1	298.9
+Neldasaurus	extinct	286.1	298.9
+Neldasaurus	extinct	286.1	298.9
+Neldasaurus	extinct	273.01	298.9
+Neldasaurus	extinct	286.1	298.9
+Edops	extinct	286.1	303.7
+Edops	extinct	286.1	298.9
+Edops	extinct	293.52	298.9
+Edops	extinct	293.52	298.9
+Edops	extinct	273.01	298.9
+Edops	extinct	290.1	293.52
+Chenoprosopus	extinct	286.1	303.7
+Lafonius	extinct	298.9	303.7
+Dawsonerpeton	extinct	300.9	301.4
+Branchierpeton	extinct	293.52	298.9
+Branchierpeton	extinct	283.5	298.9
+Branchierpeton	extinct	300.3	307.4
+Branchierpeton	extinct	283.5	307.4
+Branchierpeton	extinct	300.3	300.9
+Limnerpeton	extinct	298.9	303.7
+Micromelerpeton	extinct	283.5	298.9
+Nyranerpeton	extinct	307.4	309.8
+Cochleosaurus	extinct	307.4	309.8
+Eryops	extinct	273.01	283.5
+Trimerorhachis	extinct	273.01	283.5
+Trimerorhachis	extinct	273.01	286.1
+Trimerorhachis	extinct	273.01	283.5
+Trimerorhachis	extinct	273.01	283.5
+Eryops	extinct	273.01	283.5
+Erpetosaurus	extinct	307.4	309.8
+Eryops	extinct	273.01	283.5
+Trimerorhachis	extinct	273.01	283.5
+Eryops	extinct	273.01	283.5
+Trimerorhachis	extinct	273.01	286.1
+Trimerorhachis	extinct	273.01	286.1
+Apachesaurus	extinct	208.5	227.0
+Micromelerpeton	extinct	283.5	298.9
+Leptorophus	extinct	283.5	298.9
+Acroplous	extinct	290.1	293.52
+Acroplous	extinct	293.52	298.9
+Acroplous	extinct	293.52	298.9
+Micromelerpeton	extinct	298.9	303.7
+Dvinosaurus	extinct	256.8	264.28
+Konzhukovia_Temperate_N	extinct	264.28	266.9
+Plemmyradytes	extinct	293.52	298.9
+Fedexia	extinct	298.9	303.7
+Broiliellus	extinct	286.1	298.9
+Broiliellus	extinct	286.1	298.9
+Schoenfelderpeton	extinct	283.5	298.9
+Eumicrerpeton	extinct	307.4	309.8
+Milnererpeton	extinct	298.9	303.7
+Amphibamus	extinct	307.4	309.8
+Eoscopus	extinct	298.9	303.7
+Tersomius	extinct	283.5	290.1
+Ecolsonia	extinct	286.1	298.9
+Chenoprosopus	extinct	286.1	298.9
+Eryops	extinct	286.1	298.9
+Zatrachys	extinct	286.1	298.9
+Platyhystrix	extinct	286.1	298.9
+Ecolsonia	extinct	286.1	298.9
+Actiobates	extinct	303.7	305.9
+Chenoprosopus	extinct	286.1	298.9
+Eryops	extinct	286.1	298.9
+Zatrachys	extinct	286.1	298.9
+Platyhystrix	extinct	286.1	298.9
+Dawsonerpeton	extinct	300.9	301.4
+Branchiosaurus	extinct	307.4	309.8
+Branchiosaurus	extinct	300.3	301.4
+Leptorophus	extinct	283.5	298.9
+Nanobamus	extinct	286.1	298.9
+Phonerpeton	extinct	283.5	290.1
+Cacops	extinct	283.5	290.1
+Parioxys	extinct	286.1	298.9
+Ecolsonia	extinct	286.1	298.9
+Eryops	extinct	286.1	298.9
+Chenoprosopus	extinct	286.1	298.9
+Eryops	extinct	286.1	298.9
+Platyhystrix	extinct	286.1	298.9
+Chenoprosopus	extinct	286.1	298.9
+Eryops	extinct	286.1	298.9
+Zatrachys	extinct	286.1	298.9
+Platyhystrix	extinct	286.1	298.9
+Lafonius	extinct	298.9	303.7
+Brevidorsum	extinct	290.1	298.9
+Parioxys	extinct	273.01	293.52
+Parioxys	extinct	283.5	290.1
+Limnogyrinus	extinct	307.4	309.8
+Aspidosaurus_Tropical_S	extinct	298.9	303.7
+Conjunctio	extinct	293.52	298.9
+Trimerorhachis	extinct	273.01	283.5
+Trimerorhachis	extinct	286.1	298.9
+Isodectes	extinct	307.4	309.8
+Isodectes	extinct	307.4	309.8
+Isodectes	extinct	307.4	309.8
+Isodectes	extinct	273.01	283.5
+Isodectes	extinct	273.01	283.5
+Eimerisaurus	extinct	290.1	293.52
+Eimerisaurus	extinct	290.1	293.52
+Amphibamus	extinct	307.4	309.8
+Miobatrachus	extinct	307.4	309.8
+Aspidosaurus_Tropical_S	extinct	266.9	276.5
+Aspidosaurus_Tropical_S	extinct	273.01	290.1
+Aspidosaurus_Tropical_S	extinct	298.9	303.7
+Aspidosaurus_Tropical_S	extinct	298.9	303.7
+Branchiosaurus	extinct	300.3	300.9
+Platyrhinops	extinct	307.4	309.8
+Platyrhinops	extinct	307.4	309.8
+Platyrhinops	extinct	307.4	309.8
+Platyrhinops	extinct	307.4	309.8
+Platyhystrix	extinct	283.5	290.1
+Platyhystrix	extinct	283.5	290.1
+Platyhystrix	extinct	298.9	303.7
+Stegops	extinct	307.4	309.8
+Stegops	extinct	307.4	309.8
+Iratusaurus	extinct	264.28	266.9
+Macrerpeton	extinct	307.4	309.8
+Dasyceps	extinct	283.5	298.9
+Capetus	extinct	307.4	309.8
+Clamorosaurus	extinct	273.01	276.5
+Clamorosaurus	extinct	273.01	276.5
+Porierpeton	extinct	300.9	301.4
+Pleuronoura	extinct	283.5	298.9
+Actinodon	extinct	283.5	298.9
+Actinodon	extinct	283.5	298.9
+Actinodon	extinct	283.5	298.9
+Apateon	extinct	298.9	303.7
+Eryops	extinct	293.52	298.9
+Onchiodon	extinct	298.9	303.7
+Onchiodon	extinct	298.9	303.7
+Onchiodon	extinct	293.52	298.9
+Melanerpeton	extinct	259.51	283.5
+Melanerpeton	extinct	298.9	303.7
+Melanerpeton	extinct	293.52	298.9
+Melanerpeton	extinct	290.1	293.52
+Onchiodon	extinct	290.1	293.52
+Onchiodon	extinct	293.52	298.9
+Onchiodon	extinct	290.1	298.9
+Onchiodon	extinct	259.51	283.5
+Onchiodon	extinct	283.5	298.9
+Onchiodon	extinct	273.01	298.9
+Melanerpeton	extinct	283.5	298.9
+Melanerpeton	extinct	293.52	298.9
+Melanerpeton	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	290.1	298.9
+Apateon	extinct	273.01	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	283.5	298.9
+Apateon	extinct	298.9	303.7
+Apateon	extinct	283.5	298.9
+Apateon	extinct	290.1	293.52
+Apateon	extinct	290.1	293.52
+Apateon	extinct	283.5	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	290.1	298.9
+Apateon	extinct	293.52	303.7
+Apateon	extinct	290.1	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	283.5	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	290.1	298.9
+Apateon	extinct	283.5	298.9
+Apateon	extinct	283.5	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	297.7	300.3
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Megalophthalma	extinct	237.0	239.7
+Timonya	extinct	273.01	283.5
+Timonya	extinct	273.01	298.9
+Procuhy	extinct	273.01	298.9
+Eryops	extinct	290.1	298.9
+Palatinerpeton	extinct	290.1	298.9
+Sclerocephalus	extinct	290.1	298.9
+Sclerocephalus	extinct	283.5	298.9
+Sclerocephalus	extinct	293.52	298.9
+Sclerocephalus	extinct	293.52	298.9
+Apateon	extinct	290.1	298.9
+Sclerocephalus	extinct	290.1	298.9
+Sclerocephalus	extinct	293.52	298.9
+Sclerocephalus	extinct	290.1	298.9
+Sclerocephalus	extinct	283.5	298.9
+Sclerocephalus	extinct	283.5	298.9
+Sclerocephalus	extinct	283.5	298.9
+Sclerocephalus	extinct	283.5	298.9
+Sclerocephalus	extinct	293.52	298.9
+Sclerocephalus	extinct	283.5	298.9
+Sclerocephalus	extinct	283.5	298.9
+Cheliderpeton	extinct	283.5	298.9
+Sclerocephalus	extinct	293.52	298.9
+Melanerpeton	extinct	293.52	298.9
+Sclerocephalus	extinct	293.52	298.9
+Sclerocephalus	extinct	293.52	298.9
+Sclerocephalus	extinct	293.52	298.9
+Sclerocephalus	extinct	293.52	298.9
+Sclerocephalus	extinct	293.52	298.9
+Sclerocephalus	extinct	293.52	298.9
+Sclerocephalus	extinct	293.52	298.9
+Sclerocephalus	extinct	293.52	298.9
+Sclerocephalus	extinct	293.52	298.9
+Sclerocephalus	extinct	293.52	298.9
+Sclerocephalus	extinct	293.52	298.9
+Cheliderpeton	extinct	259.51	283.5
+Cheliderpeton	extinct	283.5	298.9
+Archegosaurus	extinct	293.52	298.9
+Archegosaurus	extinct	283.5	298.9
+Archegosaurus	extinct	283.5	298.9
+Glanochthon	extinct	293.52	298.9
+Glanochthon	extinct	283.5	298.9
+Glanochthon	extinct	283.5	298.9
+Glanochthon	extinct	290.1	298.9
+Glanochthon	extinct	293.52	298.9
+Glanochthon	extinct	293.52	298.9
+Chenoprosopus	extinct	298.9	303.7
+Eryops	extinct	303.7	305.9
+Chenoprosopus	extinct	286.1	298.9
+Zatrachys	extinct	286.1	298.9
+Platyhystrix	extinct	286.1	298.9
+Eryops	extinct	286.1	298.9
+Platyhystrix	extinct	286.1	298.9
+Dissorophus	extinct	273.01	298.9
+Zatrachys	extinct	273.01	283.5
+Zatrachys	extinct	286.1	298.9
+Zatrachys	extinct	286.1	298.9
+Isodectes	extinct	300.3	307.4
+Eryops	extinct	300.3	307.4
+Platyhystrix	extinct	298.9	303.7
+Edops	extinct	298.9	303.7
+Trimerorhachis	extinct	286.1	298.9
+Trimerorhachis	extinct	286.1	298.9
+Eryops	extinct	286.1	298.9
+Platyhystrix	extinct	286.1	298.9
+Zatrachys	extinct	286.1	298.9
+Eryops	extinct	286.1	303.7
+Zatrachys	extinct	286.1	303.7
+Aspidosaurus_Tropical_S	extinct	286.1	303.7
+Eryops	extinct	283.5	290.1
+Zatrachys	extinct	283.5	290.1
+Trimerorhachis	extinct	283.5	290.1
+Eryops	extinct	286.1	298.9
+Acroplous	extinct	290.1	293.52
+Trimerorhachis	extinct	283.5	293.52
+Trimerorhachis	extinct	273.01	286.1
+Eryops	extinct	273.01	286.1
+Trimerorhachis	extinct	273.01	286.1
+Eryops	extinct	273.01	286.1
+Eryops	extinct	266.9	290.1
+Eryops	extinct	286.1	298.9
+Zatrachys	extinct	286.1	298.9
+Trimerorhachis	extinct	286.1	298.9
+Onchiodon	extinct	286.1	298.9
+Eryops	extinct	290.1	303.7
+Platyhystrix	extinct	290.1	303.7
+Edops	extinct	286.1	298.9
+Platyhystrix	extinct	286.1	298.9
+Trimerorhachis	extinct	286.1	298.9
+Trimerorhachis	extinct	286.1	298.9
+Platyhystrix	extinct	286.1	298.9
+Broiliellus	extinct	290.1	298.9
+Dissorophus	extinct	273.01	283.5
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	283.5	298.9
+Apateon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Eryops	extinct	293.52	298.9
+Glaukerpeton	extinct	300.3	307.4
+Cheliderpeton	extinct	293.52	298.9
+Archegosaurus	extinct	293.52	298.9
+Compsocerops_Temperate_S	extinct	227.0	237.0
+Dvinosaurus	extinct	256.8	259.51
+Dvinosaurus	extinct	256.8	264.28
+Tupilakosaurus	extinct	251.2	251.902
+Batrachosuchus_Temperate_S	extinct	242.0	247.2
+Parapytanga	extinct	254.14	273.01
+Australerpeton	extinct	254.14	266.9
+Konzhukovia_Temperate_N	extinct	254.14	266.9
+Chinlestegophis	extinct	201.4	227.0
+Chinlestegophis	extinct	208.5	227.0
+Australerpeton	extinct	254.14	266.9
+Konzhukovia_Temperate_N	extinct	259.51	266.9
+Bageherpeton	extinct	259.51	273.01
+Rhinesuchus_Temperate_S	extinct	259.51	264.28
+Mastodonsaurus_Temperate_N	extinct	242.0	244.7
+Bashkirosaurus	extinct	264.28	266.9
+Uralosuchus	extinct	259.51	266.9
+Konzhukovia_Temperate_N	extinct	259.51	266.9
+Melosaurus	extinct	266.9	276.5
+Koinia	extinct	266.9	276.5
+Melosaurus	extinct	266.9	276.5
+Platyoposaurus	extinct	266.9	276.5
+Kamacops	extinct	264.28	266.9
+Kamacops	extinct	264.28	266.9
+Collidosuchus	extinct	264.28	266.9
+Konzhukovia_Temperate_N	extinct	264.28	266.9
+Konzhukovia_Temperate_N	extinct	264.28	266.9
+Stanocephalosaurus_Tropical_N	extinct	242.0	247.2
+Stanocephalosaurus_Tropical_N	extinct	242.0	247.2
+Tryphosuchus	extinct	259.51	266.9
+Platyoposaurus	extinct	264.28	266.9
+Dvinosaurus	extinct	256.8	264.28
+Dvinosaurus	extinct	256.8	264.28
+Dvinosaurus	extinct	256.8	264.28
+Dvinosaurus	extinct	256.8	259.51
+Dvinosaurus	extinct	256.8	264.28
+Dvinosaurus	extinct	259.51	264.28
+Zygosaurus	extinct	264.28	266.9
+Luzocephalus	extinct	247.2	251.902
+Batrachosuchoides_Temperate_N	extinct	247.2	251.2
+Batrachosuchoides_Temperate_N	extinct	247.2	251.2
+Dvinosaurus	extinct	256.8	264.28
+Dvinosaurus	extinct	256.8	264.28
+Dvinosaurus	extinct	256.8	264.28
+Dvinosaurus	extinct	256.8	264.28
+Aspidosaurus_Tropical_S	extinct	273.01	283.5
+Plagioscutum	extinct	242.0	247.2
+Eryosuchus_Temperate_N	extinct	242.0	247.2
+Eryosuchus_Temperate_N	extinct	242.0	247.2
+Bukobaja	extinct	242.0	247.2
+Plagioscutum	extinct	237.0	242.0
+Plagioscutum	extinct	237.0	247.2
+Melanopelta	extinct	247.2	251.2
+Melanopelta	extinct	247.2	251.2
+Plagiorophus	extinct	237.0	242.0
+Boreopelta	extinct	247.2	251.2
+Platyoposaurus	extinct	266.9	273.01
+Mastodonsaurus_Temperate_N	extinct	237.0	242.0
+Rhinesuchoides	extinct	259.51	264.28
+Lydekkerina	extinct	251.902	259.51
+Lydekkerina	extinct	251.902	259.51
+Prionosuchus	extinct	273.01	283.5
+Pelorocephalus	extinct	208.5	237.0
+Pelorocephalus	extinct	208.5	237.0
+Pelorocephalus	extinct	208.5	237.0
+Syrtosuchus	extinct	251.2	251.902
+Wetlugasaurus	extinct	247.2	251.2
+Wetlugasaurus	extinct	247.2	251.2
+Wetlugasaurus	extinct	247.2	251.2
+Peltobatrachus	extinct	254.14	259.51
+Peltobatrachus	extinct	254.14	259.51
+Peltobatrachus	extinct	254.14	259.51
+Arachana	extinct	201.4	237.0
+Tomeia	extinct	247.2	251.902
+Cyclotosaurus_Temperate_N	extinct	227.0	237.0
+Sclerocephalus	extinct	290.1	298.9
+Aphaneramma_Temperate_N	extinct	248.9	251.902
+Yuanansuchus	extinct	242.0	247.2
+Thoosuchus	extinct	247.2	251.2
+Apachesaurus	extinct	208.5	227.0
+Bathignathus	extinct	242.0	247.2
+Qantas	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Syrtosuchus	extinct	251.2	251.902
+Prothoosuchus	extinct	247.2	251.2
+Thoosuchus	extinct	247.2	251.2
+Qantas	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Inflectosaurus	extinct	247.2	248.9
+Trematosaurus_Temperate_N	extinct	247.2	251.2
+Angusaurus	extinct	248.9	251.2
+Angusaurus	extinct	248.9	251.2
+Angusaurus	extinct	247.2	251.902
+Angusaurus	extinct	247.2	251.2
+Tupilakosaurus	extinct	251.2	251.902
+Qantas	extinct	251.2	251.902
+Selenocara	extinct	251.2	251.902
+Samarabatrachus	extinct	251.2	251.902
+Syrtosuchus	extinct	247.2	251.902
+Trematotegmen	extinct	251.2	251.902
+Yarengia	extinct	247.2	248.9
+Parotosuchus_Temperate_N	extinct	247.2	248.9
+Wetlugasaurus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Parotosuchus_Temperate_N	extinct	247.2	248.9
+Parotosuchus_Temperate_N	extinct	247.2	248.9
+Tupilakosaurus	extinct	251.2	251.902
+Yarengia	extinct	247.2	248.9
+Parotosuchus_Temperate_N	extinct	247.2	248.9
+Parotosuchus_Temperate_N	extinct	247.2	248.9
+Parotosuchus_Temperate_N	extinct	247.2	248.9
+Parotosuchus_Temperate_N	extinct	247.2	248.9
+Wetlugasaurus	extinct	247.2	248.9
+Benthosuchus	extinct	248.9	251.2
+Benthosuchus	extinct	248.9	251.2
+Wetlugasaurus	extinct	247.2	251.2
+Tupilakosaurus	extinct	251.2	251.902
+Benthosuchus	extinct	248.9	251.2
+Benthosuchus	extinct	248.9	251.2
+Wetlugasaurus	extinct	247.2	251.2
+Parotosuchus_Temperate_N	extinct	247.2	248.9
+Rhytidosteus_Temperate_N	extinct	247.2	248.9
+Batrachosuchoides_Temperate_N	extinct	247.2	248.9
+Plagioscutum	extinct	242.0	247.2
+Parotosuchus_Temperate_N	extinct	247.2	248.9
+Batrachosuchoides_Temperate_N	extinct	247.2	248.9
+Tupilakosaurus	extinct	251.2	251.902
+Benthosuchus	extinct	248.9	251.2
+Wetlugasaurus	extinct	247.2	251.2
+Wetlugasaurus	extinct	247.2	251.2
+Trematosaurus_Temperate_N	extinct	247.2	251.2
+Benthosuchus	extinct	248.9	251.2
+Thoosuchus	extinct	247.2	251.2
+Wetlugasaurus	extinct	247.2	251.2
+Wetlugasaurus	extinct	247.2	251.2
+Tupilakosaurus	extinct	251.2	251.902
+Benthosuchus	extinct	248.9	251.2
+Parotosuchus_Temperate_N	extinct	247.2	248.9
+Benthosuchus	extinct	248.9	251.2
+Wetlugasaurus	extinct	247.2	251.2
+Wetlugasaurus	extinct	247.2	251.2
+Trematosaurus_Temperate_N	extinct	247.2	251.2
+Benthosuchus	extinct	248.9	251.2
+Thoosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	248.9	251.2
+Thoosuchus	extinct	248.9	251.2
+Benthosuchus	extinct	247.2	251.2
+Tupilakosaurus	extinct	251.2	251.902
+Parotosuchus_Temperate_N	extinct	247.2	248.9
+Benthosuchus	extinct	248.9	251.2
+Syrtosuchus	extinct	247.2	251.902
+Benthosuchus	extinct	247.2	251.902
+Wetlugasaurus	extinct	248.9	251.2
+Thoosuchus	extinct	248.9	251.2
+Syrtosuchus	extinct	251.2	251.902
+Benthosuchus	extinct	248.9	251.2
+Thoosuchus	extinct	247.2	251.2
+Wetlugasaurus	extinct	247.2	251.2
+Syrtosuchus	extinct	251.2	251.902
+Benthosuchus	extinct	248.9	251.2
+Thoosuchus	extinct	248.9	251.2
+Benthosuchus	extinct	248.9	251.2
+Syrtosuchus	extinct	251.2	251.902
+Benthosuchus	extinct	248.9	251.2
+Thoosuchus	extinct	248.9	251.2
+Benthosuchus	extinct	248.9	251.2
+Thoosuchus	extinct	247.2	251.2
+Wetlugasaurus	extinct	247.2	251.2
+Angusaurus	extinct	247.2	248.9
+Tupilakosaurus	extinct	251.2	251.902
+Tupilakosaurus	extinct	251.2	251.902
+Thoosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	248.9	251.2
+Thoosuchus	extinct	248.9	251.2
+Trematotegmen	extinct	248.9	251.2
+Benthosuchus	extinct	248.9	251.2
+Benthosuchus	extinct	248.9	251.2
+Trematosaurus_Temperate_N	extinct	247.2	248.9
+Parotosuchus_Temperate_N	extinct	247.2	248.9
+Wetlugasaurus	extinct	251.2	251.902
+Tupilakosaurus	extinct	251.2	251.902
+Benthosuchus	extinct	248.9	251.2
+Tupilakosaurus	extinct	251.2	251.902
+Benthosuchus	extinct	248.9	251.2
+Syrtosuchus	extinct	251.2	251.902
+Syrtosuchus	extinct	251.2	251.902
+Tupilakosaurus	extinct	251.2	251.902
+Syrtosuchus	extinct	251.2	251.902
+Syrtosuchus	extinct	251.2	251.902
+Benthosuchus	extinct	248.9	251.2
+Trematosaurus_Temperate_N	extinct	247.2	248.9
+Benthosuchus	extinct	248.9	251.2
+Benthosuchus	extinct	248.9	251.2
+Benthosuchus	extinct	248.9	251.2
+Benthosuchus	extinct	248.9	251.2
+Wetlugasaurus	extinct	247.2	251.2
+Angusaurus	extinct	247.2	248.9
+Wetlugasaurus	extinct	247.2	251.2
+Prothoosuchus	extinct	247.2	251.2
+Wetlugasaurus	extinct	247.2	251.902
+Thoosuchus	extinct	247.2	251.902
+Thoosuchus	extinct	247.2	251.2
+Angusaurus	extinct	247.2	248.9
+Benthosuchus	extinct	248.9	251.2
+Thoosuchus	extinct	248.9	251.2
+Qantas	extinct	248.9	251.2
+Tupilakosaurus	extinct	251.2	251.902
+Prothoosuchus	extinct	247.2	248.9
+Tupilakosaurus	extinct	251.2	251.902
+Benthosphenus	extinct	248.9	251.2
+Platyoposaurus	extinct	256.8	266.9
+Tryphosuchus	extinct	256.8	266.9
+Dvinosaurus	extinct	256.8	266.9
+Dvinosaurus	extinct	259.51	264.28
+Eocyclotosaurus	extinct	242.0	247.2
+Apachesaurus	extinct	227.0	237.0
+Anaschisma	extinct	208.5	237.0
+Apachesaurus	extinct	208.5	237.0
+Rhinesuchus_Temperate_S	extinct	251.902	259.51
+Mahavisaurus	extinct	248.9	251.902
+Mahavisaurus	extinct	248.9	251.902
+Mastodonsaurus_Temperate_N	extinct	242.0	247.2
+Stanocephalosaurus_Tropical_N	extinct	237.0	251.902
+Parotosuchus_Temperate_N	extinct	247.2	248.9
+Trematosaurus_Temperate_N	extinct	247.2	248.9
+Parotosuchus_Temperate_N	extinct	247.2	251.2
+Parotosuchus_Temperate_N	extinct	247.2	248.9
+Rhinesuchus_Temperate_S	extinct	259.51	264.28
+Rhinesuchus_Temperate_S	extinct	259.51	264.28
+Rhinesuchus_Temperate_S	extinct	254.14	259.51
+Uranocentrodon	extinct	251.902	259.51
+Plagiosternum	extinct	237.0	239.7
+Plagiosternum	extinct	237.0	239.7
+Plagiosternum	extinct	237.0	239.7
+Plagiosternum	extinct	237.0	239.7
+Plagiosternum	extinct	237.0	239.7
+Plagiosternum	extinct	237.0	242.0
+Plagiosternum	extinct	227.0	242.0
+Plagiosuchus	extinct	227.0	242.0
+Plagiosuchus	extinct	237.0	239.7
+Gerrothorax_Temperate_N	extinct	237.0	247.2
+Gerrothorax_Temperate_N	extinct	237.0	242.0
+Gerrothorax_Temperate_N	extinct	237.0	242.0
+Gerrothorax_Temperate_N	extinct	227.0	237.0
+Almasaurus	extinct	227.0	237.0
+Mastodonsaurus_Temperate_N	extinct	242.0	247.2
+Mastodonsaurus_Temperate_N	extinct	244.7	247.2
+Mastodonsaurus_Temperate_N	extinct	242.0	247.2
+Tatrasuchus	extinct	237.0	239.7
+Tatrasuchus	extinct	237.0	239.7
+Tatrasuchus	extinct	237.0	239.7
+Eocyclotosaurus	extinct	242.0	247.2
+Heptasaurus	extinct	242.0	247.2
+Eocyclotosaurus	extinct	244.7	247.2
+Eocyclotosaurus	extinct	244.7	247.2
+Stenotosaurus	extinct	245.5	248.9
+Cyclotosaurus_Temperate_N	extinct	213.2	216.7
+Cyclotosaurus_Temperate_N	extinct	208.5	227.0
+Cyclotosaurus_Temperate_N	extinct	201.4	208.5
+Anthichnium	extinct	256.8	266.9
+Vigilius	extinct	244.7	247.2
+Xenotosuchus	extinct	242.0	247.2
+Xenotosuchus	extinct	242.0	247.2
+Mentosaurus	extinct	242.0	247.2
+Eurycervix	extinct	242.0	247.2
+Metoposaurus_Tropical_S	extinct	233.4	237.0
+Komatosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Benthosuchus	extinct	247.2	251.2
+Eocyclotosaurus	extinct	242.0	247.2
+Eocyclotosaurus	extinct	242.0	247.2
+Cyclotosaurus_Temperate_N	extinct	237.0	242.0
+Promastodonsaurus	extinct	208.5	237.0
+Mastodonsaurus_Temperate_N	extinct	242.0	247.2
+Yarengia	extinct	247.2	251.2
+Vladlenosaurus	extinct	247.2	251.902
+Archegosaurus	extinct	290.1	293.52
+Limnogyrinus	extinct	283.5	298.9
+Tersomius	extinct	286.1	298.9
+Pasawioops	extinct	286.1	298.9
+Reiszerpeton	extinct	290.1	298.9
+Cochleosaurus	extinct	307.4	309.8
+Chelydosaurus	extinct	259.51	283.5
+Sclerocephalus	extinct	283.5	298.9
+Potamochoston	extinct	307.4	309.8
+Stegops	extinct	307.4	309.8
+Melanerpeton	extinct	273.01	298.9
+Mordex	extinct	307.4	309.8
+Cochleosaurus	extinct	307.4	309.8
+Macromerium	extinct	307.4	309.8
+Limnerpeton	extinct	307.4	309.8
+Limnerpeton	extinct	307.4	309.8
+Sparagmites	extinct	307.4	309.8
+Branchiosaurus	extinct	298.9	307.0
+Rhinesuchus_Temperate_S	extinct	259.51	264.28
+Rhinesuchoides	extinct	259.51	264.28
+Zatrachys	extinct	283.5	290.1
+Eryops	extinct	283.5	290.1
+Cacops	extinct	273.01	283.5
+Anaschisma	extinct	208.5	237.0
+Eryops	extinct	286.1	298.9
+Eryops	extinct	290.1	298.9
+Eryops	extinct	293.52	298.9
+Eryops	extinct	293.52	298.9
+Eodiscoglossus	extinct	227.0	237.0
+Metoposaurus_Tropical_S	extinct	227.0	237.0
+Metoposaurus_Tropical_S	extinct	227.0	237.0
+Lyrocephaliscus	extinct	248.9	251.2
+Eryops	extinct	298.9	303.7
+Trimerorhachis	extinct	298.9	303.7
+Aspidosaurus_Tropical_S	extinct	283.5	290.1
+Dissorophus	extinct	283.5	290.1
+Conjunctio	extinct	286.1	298.9
+Nyranerpeton	extinct	300.3	301.4
+Amphibamus	extinct	307.4	309.8
+Anaschisma	extinct	208.5	227.0
+Nooxobeia	extinct	264.28	273.01
+Anthracobamus	extinct	300.3	300.9
+Branchiosaurus	extinct	300.3	300.9
+Korkonterpeton	extinct	293.52	298.9
+Schoenfelderpeton	extinct	293.52	298.9
+Glanochthon	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Melanerpeton	extinct	293.52	298.9
+Sclerocephalus	extinct	293.52	298.9
+Metoposaurus_Tropical_S	extinct	208.5	227.0
+Cyclotosaurus_Temperate_N	extinct	201.4	208.5
+Eryops	extinct	273.01	307.0
+Eryops	extinct	283.5	293.52
+Zatrachys	extinct	286.1	298.9
+Capulomala	extinct	248.9	251.902
+Capulomala	extinct	251.2	251.902
+Capulomala	extinct	251.2	251.902
+Capulomala	extinct	251.2	251.902
+Benthosuchus	extinct	247.2	251.902
+Bermanerpeton	extinct	298.9	303.7
+Capitosauroides	extinct	242.0	247.2
+Trimerorhachis	extinct	283.5	290.1
+Trimerorhachis	extinct	251.902	298.9
+Trimerorhachis	extinct	251.902	298.9
+Trimerorhachis	extinct	251.902	298.9
+Eryops	extinct	251.902	298.9
+Acheloma	extinct	251.902	298.9
+Trimerorhachis	extinct	251.902	298.9
+Eryops	extinct	251.902	298.9
+Acheloma	extinct	251.902	298.9
+Sclerocephalus	extinct	293.52	303.7
+Metoposaurus_Tropical_S	extinct	227.0	237.0
+Metoposaurus_Tropical_S	extinct	227.0	237.0
+Dutuitosaurus	extinct	227.0	237.0
+Apachesaurus	extinct	208.5	227.0
+Archegosaurus	extinct	283.5	298.9
+Anaschisma	extinct	208.5	227.0
+Funcusvermis	extinct	208.5	227.0
+Trematosaurus_Temperate_N	extinct	251.902	259.51
+Cyclotosaurus_Temperate_N	extinct	237.0	242.0
+Arenaerpeton	extinct	247.2	251.902
+Clamorosaurus	extinct	273.01	283.5
+Platyoposaurus	extinct	266.9	273.01
+Koinia	extinct	266.9	273.01
+Archegosaurus	extinct	293.52	298.9
+Cheliderpeton	extinct	293.52	298.9
+Melanerpeton	extinct	293.52	298.9
+Apateon	extinct	293.52	298.9
+Branchiosaurus	extinct	293.52	298.9
+Stenokranio	extinct	293.52	303.7
+Trypanognathus	extinct	293.52	303.7
+Archegosaurus	extinct	293.52	298.9
+Branchiosaurus	extinct	293.52	298.9
+Melanerpeton	extinct	293.52	298.9
+Melanerpeton	extinct	293.52	298.9
+Melanerpeton	extinct	293.52	298.9
+Dvinosaurus	extinct	259.51	264.28
+Dvinosaurus	extinct	259.51	264.28
+Dvinosaurus	extinct	254.14	259.51
+Wetlugasaurus	extinct	247.2	251.2
+Australerpeton	extinct	264.3	266.9
+Compsocerops_Temperate_S	extinct	208.5	227.0
+Compsocerops_Temperate_S	extinct	208.5	227.0
+Australerpeton	extinct	264.3	266.9
+Kwatisuchus	extinct	247.2	251.2
+Tomeia	extinct	247.2	251.2
+Rastosuchus	extinct	264.3	266.9
+Rastosuchus	extinct	264.3	266.9
+Rastosuchus	extinct	264.3	266.9
+Rastosuchus	extinct	264.3	266.9
+Rastosuchus	extinct	264.3	266.9
+Rastosuchus	extinct	264.3	266.9
+Compsocerops_Temperate_S	extinct	208.5	227.0
+Compsocerops_Temperate_S	extinct	208.5	227.0
