@@ -19,11 +19,12 @@ system(python ../PyRate/PyRate.py -check_names data/reptilia_processed_data/rept
 
 
 # ## Model Likelihood Test
-# system(python ../PyRate/PyRate.py pyrate/*_PyRate.py -qShift data/Time_bins_ByStages.txt -PPmodeltest)
+# system(python ../PyRate/PyRate.py data/*_PyRate.py -qShift data/Time_bins_ByStages.txt -PPmodeltest)
 
 # ## Basic RJMCMC PyRate (no trait file)
-# system(python ../PyRate/PyRate.py pyrate/*_PyRate.py -A 4, -qShift data/Time_bins_ByStages.txt -mG
-# -n 100000000 -s 10000, -p 1000)
+python ..\PyRate\PyRate.py .\data\reptilia_processed_data\reptilia_pyrate_PyRate.py -A 4 -qShift .\data\Time_bins_ByStages.txt -mG -n 100000000 -s 10000 -p 1000
+python ../PyRate/PyRate.py .\data\synapsida_processed_data\synapsida_pyrate_PyRate.py -A 4 -qShift .\data\Time_bins_ByStages.txt -mG -n 100000000 -s 10000 -p 1000
+python ../PyRate/PyRate.py .\data\temnospondyli_processed_data\temnospondyli_pyrate_PyRate.py -qShift data/Time_bins_ByStages.txt -mG -n 100000000 -s 10000 -p 1000
 # # Migh need to specify -j # (replicate #)
 # # Run once per replicate
 # # Outputs: *_sum.txt, *_mcmc.log, *_sp_rates.log, *_ex_rates.log
