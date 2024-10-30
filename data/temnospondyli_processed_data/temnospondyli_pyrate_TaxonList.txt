@@ -18,9 +18,12 @@ Anthracobamus	extinct
 Apachesaurus	extinct
 Apateon	extinct
 Aphaneramma_Temperate_N	extinct
+Aphaneramma_Temperate_S	extinct
 Arachana	extinct
 Archegosaurus	extinct
 Arenaerpeton	extinct
+Aspidosaurus_Temperate_N	extinct
+Aspidosaurus_Tropical_N	extinct
 Aspidosaurus_Tropical_S	extinct
 Astreptorhachis	extinct
 Australerpeton	extinct
@@ -63,10 +66,12 @@ Compsocerops_Temperate_S	extinct
 Conjunctio	extinct
 Cosgriffius	extinct
 Cyclotosaurus_Temperate_N	extinct
+Cyclotosaurus_Tropical_N	extinct
 Czatkobatrachus	extinct
 Dasyceps	extinct
 Dawsonerpeton	extinct
 Deltacephalus	extinct
+Deltasaurus_Antarctic	extinct
 Deltasaurus_Temperate_S	extinct
 Derwentia	extinct
 Dissorophus	extinct
@@ -84,6 +89,7 @@ Eoscopus	extinct
 Erpetosaurus	extinct
 Eryops	extinct
 Eryosuchus_Temperate_N	extinct
+Eryosuchus_Temperate_S	extinct
 Erythrobatrachus	extinct
 Eumicrerpeton	extinct
 Eurycervix	extinct
@@ -111,6 +117,7 @@ Kestrosaurus	extinct
 Koinia	extinct
 Komatosuchus	extinct
 Konzhukovia_Temperate_N	extinct
+Konzhukovia_Temperate_S	extinct
 Korkonterpeton	extinct
 Kuttycephalus	extinct
 Kwatisuchus	extinct
@@ -129,11 +136,15 @@ Macromerium	extinct
 Mahavisaurus	extinct
 Manubrantlia	extinct
 Mastodonsaurus_Temperate_N	extinct
+Mastodonsaurus_Tropical_N	extinct
 Megalophthalma	extinct
 Melanerpeton	extinct
 Melanopelta	extinct
 Melosaurus	extinct
 Mentosaurus	extinct
+Metoposaurus_Temperate_N	extinct
+Metoposaurus_Temperate_S	extinct
+Metoposaurus_Tropical_N	extinct
 Metoposaurus_Tropical_S	extinct
 Meyerosuchus	extinct
 Micromelerpeton	extinct
@@ -150,6 +161,8 @@ Nigerpeton	extinct
 Nooxobeia	extinct
 Notobrachyops	extinct
 Nyranerpeton	extinct
+Odenwaldia_Temperate_N	extinct
+Odenwaldia_Tropical_N	extinct
 Odenwaldia_Tropical_S	extinct
 Onchiodon	extinct
 Palatinerpeton	extinct
@@ -158,6 +171,7 @@ Paracyclotosaurus_Temperate_S	extinct
 Parapytanga	extinct
 Parioxys	extinct
 Parotosuchus_Temperate_N	extinct
+Parotosuchus_Tropical_N	extinct
 Pasawioops	extinct
 Pelorocephalus	extinct
 Peltobatrachus	extinct
@@ -192,8 +206,10 @@ Rewana	extinct
 Rhadalognathus	extinct
 Rhineceps	extinct
 Rhinesuchoides	extinct
+Rhinesuchus_Temperate_N	extinct
 Rhinesuchus_Temperate_S	extinct
 Rhytidosteus_Temperate_N	extinct
+Rhytidosteus_Temperate_S	extinct
 Rileymillerus	extinct
 Rotaryus	extinct
 Rotaurisaurus	extinct
@@ -208,7 +224,9 @@ Sclerothorax	extinct
 Selenocara	extinct
 Slaugenhopia	extinct
 Sparagmites	extinct
+Stanocephalosaurus_Temperate_S	extinct
 Stanocephalosaurus_Tropical_N	extinct
+Stanocephalosaurus_Tropical_S	extinct
 Stegops	extinct
 Stenokranio	extinct
 Stenotosaurus	extinct
@@ -249,6 +267,7 @@ Volgosuchus	extinct
 Vyborosaurus	extinct
 Wantzosaurus	extinct
 Warrenisuchus	extinct
+Watsonisuchus_Antarctic	extinct
 Watsonisuchus_Temperate_S	extinct
 Wellesaurus	extinct
 Wetlugasaurus	extinct

@@ -26,6 +26,7 @@ Annatherapsidus	extinct
 Anningia	extinct
 Anomocephalus	extinct
 Antecosuchus	extinct
+Anteosaurus_Temperate_N	extinct
 Anteosaurus_Temperate_S	extinct
 Apsisaurus	extinct
 Archaeosyodon	extinct
@@ -113,11 +114,14 @@ Delectosaurus	extinct
 Delphinognathus	extinct
 Deuterosaurus	extinct
 Diademodon	extinct
+Dicynodon_Temperate_N	extinct
 Dicynodon_Temperate_S	extinct
+Dicynodontipus_Temperate_N	extinct
 Dicynodontipus_Temperate_S	extinct
 Dicynodontoides_Temperate_S	extinct
 Diegocanis	extinct
 Digalodon	extinct
+Diictodon_Temperate_N	extinct
 Diictodon_Temperate_S	extinct
 Diictodontoides	extinct
 Dimacrodon	extinct
@@ -143,7 +147,9 @@ Emydorhinus	extinct
 Emydorhynchus	extinct
 Emyduranus	extinct
 Endothiodon_Temperate_S	extinct
+Endothiodon_Tropical_S	extinct
 Ennatosaurus_Temperate_N	extinct
+Ennatosaurus_Tropical_N	extinct
 Eocasea	extinct
 Eodicynodon	extinct
 Eoraetia	extinct
@@ -158,12 +164,14 @@ Euchambersia	extinct
 Euptychognathus	extinct
 Euromycter	extinct
 Exaeretodon_Temperate_S	extinct
+Exaeretodon_Tropical_N	extinct
 Fluctuodon	extinct
 Galechirus	extinct
 Galeops	extinct
 Galesaurus	extinct
 Gaumia	extinct
 Geikia_Temperate_N	extinct
+Geikia_Temperate_S	extinct
 Glanosuchus	extinct
 Glaucosaurus	extinct
 Gomphodontosuchus	extinct
@@ -202,6 +210,7 @@ Ictidosuchus	extinct
 Idelesaurus	extinct
 Impidens	extinct
 Inostrancevia_Temperate_N	extinct
+Inostrancevia_Temperate_S	extinct
 Interpresosaurus	extinct
 Irajatherium	extinct
 Ischigualastia	extinct
@@ -249,6 +258,7 @@ Lycedops	extinct
 Lycideops	extinct
 Lycosaurus	extinct
 Lycosuchus	extinct
+Lystrosaurus_Temperate_N	extinct
 Lystrosaurus_Temperate_S	extinct
 Macromerion	extinct
 Madysaurus	extinct
@@ -262,6 +272,7 @@ Megawhaitsia	extinct
 Melanedaphodon	extinct
 Menadon	extinct
 Mesenosaurus_Temperate_N	extinct
+Mesenosaurus_Tropical_S	extinct
 Meurthodon	extinct
 Microconodon	extinct
 Microgomphodon	extinct
@@ -332,6 +343,7 @@ Pascualgnathus	extinct
 Patranomodon	extinct
 Pelanomodon	extinct
 Pelictosuchus	extinct
+Pentasauropus_Temperate_S	extinct
 Pentasauropus_Tropical_N	extinct
 Pentasaurus	extinct
 Peramodon	extinct
@@ -356,6 +368,7 @@ Pristerosaurus	extinct
 Probainognathus	extinct
 Proburnetia	extinct
 Procynosuchus_Temperate_N	extinct
+Procynosuchus_Temperate_S	extinct
 Prodicynodon	extinct
 Progalesaurus	extinct
 Promoschorhynchus	extinct
@@ -365,6 +378,7 @@ Protuberum	extinct
 Prozostrodon	extinct
 Pseudotherium	extinct
 Pseudotriconodon_Temperate_N	extinct
+Pseudotriconodon_Tropical_N	extinct
 Ptomalestes	extinct
 Purlovia	extinct
 Putillosaurus	extinct
@@ -378,6 +392,7 @@ Regisaurus	extinct
 Reiszia	extinct
 Remigiomontanus	extinct
 Repelinosaurus	extinct
+Rewaconodon_Temperate_S	extinct
 Rewaconodon_Tropical_S	extinct
 Rhachiocephalus	extinct
 Rhadiodromus	extinct
@@ -398,6 +413,7 @@ Santacruzgnathus	extinct
 Santacruzodon	extinct
 Santagnathus	extinct
 Sauroctonus_Temperate_N	extinct
+Sauroctonus_Temperate_S	extinct
 Sauroscaptor	extinct
 Scalenodon	extinct
 Scalenodontoides	extinct
@@ -416,6 +432,7 @@ Secodontosaurus	extinct
 Sesamondontoides	extinct
 Shaanbeikannemeyeria	extinct
 Shansiodon_Temperate_N	extinct
+Shansiodon_Temperate_S	extinct
 Shashajaia	extinct
 Shiguaignathus	extinct
 Silphedosuchus	extinct
