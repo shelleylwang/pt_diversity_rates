@@ -22,14 +22,11 @@ system(python ../PyRate/PyRate.py -check_names data/reptilia_processed_data/rept
 # system(python ../PyRate/PyRate.py data/*_PyRate.py -qShift data/Time_bins_ByStages.txt -PPmodeltest)
 
 # ## Basic RJMCMC PyRate (no trait file)
-python ..\PyRate\PyRate.py .\data\reptilia_processed_data\reptilia_pyrate_PyRate.py -A 4 
--qShift .\data\Time_bins_ByStages.txt -mG -n 100000000 -s 10000 -p 1000 -wd .\pyrate\ -out "_reptilia"
+python ..\PyRate\PyRate.py .\data\reptilia_processed_data\reptilia_pyrate_PyRate.py -A 4 -qShift .\data\Time_bins_ByStages.txt -mG -n 200000000 -s 20000 -p 2000 -wd .\reptilia\ -j 
 
-python ../PyRate/PyRate.py .\data\synapsida_processed_data\synapsida_pyrate_PyRate.py -A 4 
--qShift .\data\Time_bins_ByStages.txt -mG -n 100000000 -s 10000 -p 1000 -wd .\pyrate\ -out "_synapsida"
+python ..\PyRate\PyRate.py .\data\synapsida_processed_data\synapsida_pyrate_PyRate.py -A 4 -qShift .\data\Time_bins_ByStages.txt -mG -n 200000000 -s 20000 -p 2000 -wd .\synapsida\ -j 
 
-python ../PyRate/PyRate.py .\data\temnospondyli_processed_data\temnospondyli_pyrate_PyRate.py -A 4
--qShift data/Time_bins_ByStages.txt -mG -n 100000000 -s 10000 -p 1000 -wd .\pyrate\ -out "_temnospondyli"
+python ..\PyRate\PyRate.py .\data\temnospondyli_processed_data\temnospondyli_pyrate_PyRate.py -A 4 -qShift data/Time_bins_ByStages.txt -mG -n 200000000 -s 20000 -p 2000 -wd .\temnospondyli\  -j 
 
 # Subsequent runs need to specify different -j values
 # # Outputs: *_sum.txt, *_mcmc.log, *_sp_rates.log, *_ex_rates.log
