@@ -1,15 +1,15 @@
 #!/bin/bash
-#SBATCH --job-name=RJMCMC       # create a short name for your job
+#SBATCH --job-name=BDNN_nopreds       # create a short name for your job
 #SBATCH --nodes=1                 # node count
-#SBATCH --ntasks=15                # total number of tasks across all nodes
+#SBATCH --ntasks=30                # total number of tasks across all nodes
 #SBATCH --cpus-per-task=1         # cpu-cores per task (>1 if multi-threaded tasks)
 #SBATCH --mem-per-cpu=4G          # memory per cpu-core (4G is default)
 #SBATCH --time=1-01:00:00       # days-hh:mm:ss
 #SBATCH --mail-type=begin         # send email when job begins
 #SBATCH --mail-type=end           # send email when job ends
 #SBATCH --mail-user=sw8569@princeton.edu
-#SBATCH --output=/scratch/gpfs/sw8569/rjmcmc_%j.out
-#SBATCH --error=/scratch/gpfs/sw8569/rjmcmc_%j.err
+#SBATCH --output=/scratch/gpfs/sw8569/bdnn_nopreds_%j.out
+#SBATCH --error=/scratch/gpfs/sw8569/bdnn_nopreds_%j.err
 
 #SBATCH --no-requeue                     #What to do in case of failure
 
