@@ -15,23 +15,31 @@
 
 #SBATCH --ntasks-per-node=16                    #1 job per chain
 
-#SBATCH -C cascade
-##^ This might not support GPU's, so check
-##^ make add GPU
-
 # Change to the directory where the script should run
-cd /home/sw8569/BDNN_Arielli
+cd /scratch/gpfs/sw8569/BDNN_Arielli
 
 # Load any necessary modules (you may need to adjust this based on your cluster setup)
 module purge
 module load anaconda3/2024.2
 
-# Activate your Python environment if you're using one (uncomment if needed)
+# Activate Python environment
 # conda activate your_environment_name
 
-# Run the BDNN command
-python ..\PyRate\PyRate.py .\data\reptilia_processed_data\reptilia_pyrate_PyRate.py -A 4 -qShift .\data\Time_bins_ByStages.txt -mG -n 200000000 -s 20000 -p 2000 -wd .\reptilia\ -j 
+# Run the RJMCMC command
+python ../PyRate/PyRate.py ./data/reptilia_processed_data/reptilia_pyrate_PyRate.py -A 4 -qShift ./data/Time_bins_ByStages.txt -mG -n 200000000 -s 20000 -p 2000 -wd ./reptilia/ -j 6
+python ../PyRate/PyRate.py ./data/reptilia_processed_data/reptilia_pyrate_PyRate.py -A 4 -qShift ./data/Time_bins_ByStages.txt -mG -n 200000000 -s 20000 -p 2000 -wd ./reptilia/ -j 7
+python ../PyRate/PyRate.py ./data/reptilia_processed_data/reptilia_pyrate_PyRate.py -A 4 -qShift ./data/Time_bins_ByStages.txt -mG -n 200000000 -s 20000 -p 2000 -wd ./reptilia/ -j 8
+python ../PyRate/PyRate.py ./data/reptilia_processed_data/reptilia_pyrate_PyRate.py -A 4 -qShift ./data/Time_bins_ByStages.txt -mG -n 200000000 -s 20000 -p 2000 -wd ./reptilia/ -j 9
+python ../PyRate/PyRate.py ./data/reptilia_processed_data/reptilia_pyrate_PyRate.py -A 4 -qShift ./data/Time_bins_ByStages.txt -mG -n 200000000 -s 20000 -p 2000 -wd ./reptilia/ -j 10
 
-python ..\PyRate\PyRate.py .\data\synapsida_processed_data\synapsida_pyrate_PyRate.py -A 4 -qShift .\data\Time_bins_ByStages.txt -mG -n 200000000 -s 20000 -p 2000 -wd .\synapsida\ -j 
+python ../PyRate/PyRate.py ./data/synapsida_processed_data/synapsida_pyrate_PyRate.py -A 4 -qShift ./data/Time_bins_ByStages.txt -mG -n 200000000 -s 20000 -p 2000 -wd ./synapsida/ -j 6
+python ../PyRate/PyRate.py ./data/synapsida_processed_data/synapsida_pyrate_PyRate.py -A 4 -qShift ./data/Time_bins_ByStages.txt -mG -n 200000000 -s 20000 -p 2000 -wd ./synapsida/ -j 7
+python ../PyRate/PyRate.py ./data/synapsida_processed_data/synapsida_pyrate_PyRate.py -A 4 -qShift ./data/Time_bins_ByStages.txt -mG -n 200000000 -s 20000 -p 2000 -wd ./synapsida/ -j 8
+python ../PyRate/PyRate.py ./data/synapsida_processed_data/synapsida_pyrate_PyRate.py -A 4 -qShift ./data/Time_bins_ByStages.txt -mG -n 200000000 -s 20000 -p 2000 -wd ./synapsida/ -j 9
+python ../PyRate/PyRate.py ./data/synapsida_processed_data/synapsida_pyrate_PyRate.py -A 4 -qShift ./data/Time_bins_ByStages.txt -mG -n 200000000 -s 20000 -p 2000 -wd ./synapsida/ -j 10
 
-python ..\PyRate\PyRate.py .\data\temnospondyli_processed_data\temnospondyli_pyrate_PyRate.py -A 4 -qShift data/Time_bins_ByStages.txt -mG -n 200000000 -s 20000 -p 2000 -wd .\temnospondyli\  -j 
+python ../PyRate/PyRate.py ./data/temnospondyli_processed_data/temnospondyli_pyrate_PyRate.py -A 4 -qShift data/Time_bins_ByStages.txt -mG -n 200000000 -s 20000 -p 2000 -wd ./temnospondyli/  -j 6
+python ../PyRate/PyRate.py ./data/temnospondyli_processed_data/temnospondyli_pyrate_PyRate.py -A 4 -qShift data/Time_bins_ByStages.txt -mG -n 200000000 -s 20000 -p 2000 -wd ./temnospondyli/  -j 7
+python ../PyRate/PyRate.py ./data/temnospondyli_processed_data/temnospondyli_pyrate_PyRate.py -A 4 -qShift data/Time_bins_ByStages.txt -mG -n 200000000 -s 20000 -p 2000 -wd ./temnospondyli/  -j 8
+python ../PyRate/PyRate.py ./data/temnospondyli_processed_data/temnospondyli_pyrate_PyRate.py -A 4 -qShift data/Time_bins_ByStages.txt -mG -n 200000000 -s 20000 -p 2000 -wd ./temnospondyli/  -j 9
+python ../PyRate/PyRate.py ./data/temnospondyli_processed_data/temnospondyli_pyrate_PyRate.py -A 4 -qShift data/Time_bins_ByStages.txt -mG -n 200000000 -s 20000 -p 2000 -wd ./temnospondyli/  -j 10
