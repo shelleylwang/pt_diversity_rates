@@ -28,9 +28,9 @@ module load anaconda3/2024.2
 # Define a function to run the BDNN command
 run_bdnn() {
     local job_number=$1
-    python ../PyRate/PyRate.py ./data/reptilia_processed_data/reptilia_pyrate_PyRate.py -BDNNmodel 1 -qShift ./data/Time_bins_ByStages.txt -mG -translate 175.0 -n 100000000 -s 10000 -p 2000 -BDNNnodes 8 4 -wd /reptilia/ -j "$job_number"
-    python ../PyRate/PyRate.py ./data/synapsida_processed_data/synapsida_pyrate_PyRate.py -BDNNmodel 1 -qShift ./data/Time_bins_ByStages.txt -mG -translate 175.0 -n 100000000 -s 10000 -p 2000 -BDNNnodes 8 4 -wd /synapsida/ -j "$job_number"
-    python ../PyRate/PyRate.py ./data/temnospondyli_processed_data/temnospondyli_pyrate_PyRate.py -BDNNmodel 1 -qShift ./data/Time_bins_ByStages.txt -mG -translate 175.0 -n 100000000 -s 10000 -p 2000 -BDNNnodes 8 4 -wd /temnospondyli/ -j "$job_number"
+    python ../PyRate/PyRate.py ./data/reptilia_processed_data/reptilia_pyrate_PyRate.py -BDNNmodel 1 -qShift ./data/Time_bins_ByStages.txt -mG -translate 175.0 -n 100000000 -s 10000 -p 2000 -BDNNnodes 8 4 -wd ./reptilia/ -j "$job_number"
+    python ../PyRate/PyRate.py ./data/synapsida_processed_data/synapsida_pyrate_PyRate.py -BDNNmodel 1 -qShift ./data/Time_bins_ByStages.txt -mG -translate 175.0 -n 100000000 -s 10000 -p 2000 -BDNNnodes 8 4 -wd ./synapsida/ -j "$job_number"
+    python ../PyRate/PyRate.py ./data/temnospondyli_processed_data/temnospondyli_pyrate_PyRate.py -BDNNmodel 1 -qShift ./data/Time_bins_ByStages.txt -mG -translate 175.0 -n 100000000 -s 10000 -p 2000 -BDNNnodes 8 4 -wd ./temnospondyli/ -j "$job_number"
 }
 
 # Run the RJMCMC command using the function
