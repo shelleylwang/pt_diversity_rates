@@ -1,14 +1,14 @@
 #!/bin/bash
-#SBATCH --job-name=covar_RJMCMC_rep_r4          # Job name
+#SBATCH --job-name=covar_RJMCMC_rep          # Job name
 #SBATCH --array=0-4                     # Array with 5 independent tasks
-#SBATCH --cpus-per-task=4               # CPUs per task, enough for multithreading (-thread 2 0 and -r 2)
+#SBATCH --cpus-per-task=4               # CPUs per task, enough for multithreading (-r 4)
 #SBATCH --mem-per-cpu=16G                # Memory per CPU core (adjust if needed)
 #SBATCH --time=5-00:00:00               # Time limit, e.g., 1 day and 1 hour
 #SBATCH --mail-type=begin               # Send email when job begins
 #SBATCH --mail-type=end                 # Send email when job ends
 #SBATCH --mail-user=sw8569@princeton.edu
-#SBATCH --output=/scratch/gpfs/sw8569/covar_rjmcmc_rep_r4_%j_%A_%a.out
-#SBATCH --error=/scratch/gpfs/sw8569/covar_rjmcmc_rep_%j_r4_%A_%a.err
+#SBATCH --output=/scratch/gpfs/sw8569/covar_rjmcmc_rep_%j_%A_%a.out
+#SBATCH --error=/scratch/gpfs/sw8569/covar_rjmcmc_rep_%j_%A_%a.err
 #SBATCH --no-requeue                    # Disable requeue
 
 # Change to the directory where the script should run
