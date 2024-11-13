@@ -20,16 +20,16 @@ module load anaconda3/2024.2
 
 # Define a list of commands with varying `-j` values
 commands=(
-    "python ..\PyRate\PyRate.py .\data\synapsida_processed_data\synapsida_pyrate_PyRate.py -A 2 -qShift .\data\Time_bins_ByStages.txt -mG -n 100000000 -s 10000 -p 2000 -wd .\synapsida\ -thread 2 0 -r 4 -j 1 -out "_bdmcmc""
-    "python ..\PyRate\PyRate.py .\data\synapsida_processed_data\synapsida_pyrate_PyRate.py -A 2 -qShift .\data\Time_bins_ByStages.txt -mG -n 100000000 -s 10000 -p 2000 -wd .\synapsida\ -thread 2 0 -r 4 -j 2 -out "_bdmcmc""
-    "python ..\PyRate\PyRate.py .\data\synapsida_processed_data\synapsida_pyrate_PyRate.py -A 2 -qShift .\data\Time_bins_ByStages.txt -mG -n 100000000 -s 10000 -p 2000 -wd .\synapsida\ -thread 2 0 -r 4 -j 3 -out "_bdmcmc""
-    "python ..\PyRate\PyRate.py .\data\synapsida_processed_data\synapsida_pyrate_PyRate.py -A 2 -qShift .\data\Time_bins_ByStages.txt -mG -n 100000000 -s 10000 -p 2000 -wd .\synapsida\ -thread 2 0 -r 4 -j 4 -out "_bdmcmc""
-    "python ..\PyRate\PyRate.py .\data\synapsida_processed_data\synapsida_pyrate_PyRate.py -A 2 -qShift .\data\Time_bins_ByStages.txt -mG -n 100000000 -s 10000 -p 2000 -wd .\synapsida\ -thread 2 0 -r 4 -j 5 -out "_bdmcmc""
-    "python ..\PyRate\PyRate.py .\data\synapsida_processed_data\synapsida_pyrate_PyRate.py -A 2 -qShift .\data\Time_bins_ByStages.txt -mG -n 100000000 -s 10000 -p 2000 -wd .\synapsida\ -thread 2 0 -r 4 -j 6 -out "_bdmcmc""
-    "python ..\PyRate\PyRate.py .\data\synapsida_processed_data\synapsida_pyrate_PyRate.py -A 2 -qShift .\data\Time_bins_ByStages.txt -mG -n 100000000 -s 10000 -p 2000 -wd .\synapsida\ -thread 2 0 -r 4 -j 7 -out "_bdmcmc""
-    "python ..\PyRate\PyRate.py .\data\synapsida_processed_data\synapsida_pyrate_PyRate.py -A 2 -qShift .\data\Time_bins_ByStages.txt -mG -n 100000000 -s 10000 -p 2000 -wd .\synapsida\ -thread 2 0 -r 4 -j 8 -out "_bdmcmc""
-    "python ..\PyRate\PyRate.py .\data\synapsida_processed_data\synapsida_pyrate_PyRate.py -A 2 -qShift .\data\Time_bins_ByStages.txt -mG -n 100000000 -s 10000 -p 2000 -wd .\synapsida\ -thread 2 0 -r 4 -j 9 -out "_bdmcmc""
-    "python ..\PyRate\PyRate.py .\data\synapsida_processed_data\synapsida_pyrate_PyRate.py -A 2 -qShift .\data\Time_bins_ByStages.txt -mG -n 100000000 -s 10000 -p 2000 -wd .\synapsida\ -thread 2 0 -r 4 -j 10 -out "_bdmcmc""
+    "python ../PyRate/PyRate.py ./data/synapsida_processed_data/synapsida_pyrate_PyRate.py -A 2 -qShift ./data/Time_bins_ByStages.txt -mG -n 100000000 -s 10000 -p 2000 -wd ./synapsida/ -thread 2 0 -r 4 -j 1 -out '_bdmcmc'"
+    "python ../PyRate/PyRate.py ./data/synapsida_processed_data/synapsida_pyrate_PyRate.py -A 2 -qShift ./data/Time_bins_ByStages.txt -mG -n 100000000 -s 10000 -p 2000 -wd ./synapsida/ -thread 2 0 -r 4 -j 2 -out '_bdmcmc'"
+    "python ../PyRate/PyRate.py ./data/synapsida_processed_data/synapsida_pyrate_PyRate.py -A 2 -qShift ./data/Time_bins_ByStages.txt -mG -n 100000000 -s 10000 -p 2000 -wd ./synapsida/ -thread 2 0 -r 4 -j 3 -out '_bdmcmc'"
+    "python ../PyRate/PyRate.py ./data/synapsida_processed_data/synapsida_pyrate_PyRate.py -A 2 -qShift ./data/Time_bins_ByStages.txt -mG -n 100000000 -s 10000 -p 2000 -wd ./synapsida/ -thread 2 0 -r 4 -j 4 -out '_bdmcmc'"
+    "python ../PyRate/PyRate.py ./data/synapsida_processed_data/synapsida_pyrate_PyRate.py -A 2 -qShift ./data/Time_bins_ByStages.txt -mG -n 100000000 -s 10000 -p 2000 -wd ./synapsida/ -thread 2 0 -r 4 -j 5 -out '_bdmcmc'"
+    "python ../PyRate/PyRate.py ./data/synapsida_processed_data/synapsida_pyrate_PyRate.py -A 2 -qShift ./data/Time_bins_ByStages.txt -mG -n 100000000 -s 10000 -p 2000 -wd ./synapsida/ -thread 2 0 -r 4 -j 6 -out '_bdmcmc'"
+    "python ../PyRate/PyRate.py ./data/synapsida_processed_data/synapsida_pyrate_PyRate.py -A 2 -qShift ./data/Time_bins_ByStages.txt -mG -n 100000000 -s 10000 -p 2000 -wd ./synapsida/ -thread 2 0 -r 4 -j 7 -out '_bdmcmc'"
+    "python ../PyRate/PyRate.py ./data/synapsida_processed_data/synapsida_pyrate_PyRate.py -A 2 -qShift ./data/Time_bins_ByStages.txt -mG -n 100000000 -s 10000 -p 2000 -wd ./synapsida/ -thread 2 0 -r 4 -j 8 -out '_bdmcmc'"
+    "python ../PyRate/PyRate.py ./data/synapsida_processed_data/synapsida_pyrate_PyRate.py -A 2 -qShift ./data/Time_bins_ByStages.txt -mG -n 100000000 -s 10000 -p 2000 -wd ./synapsida/ -thread 2 0 -r 4 -j 9 -out '_bdmcmc'"
+    "python ../PyRate/PyRate.py ./data/synapsida_processed_data/synapsida_pyrate_PyRate.py -A 2 -qShift ./data/Time_bins_ByStages.txt -mG -n 100000000 -s 10000 -p 2000 -wd ./synapsida/ -thread 2 0 -r 4 -j 10 -out '_bdmcmc'"
 )
 
 # Run the command corresponding to the current array index
