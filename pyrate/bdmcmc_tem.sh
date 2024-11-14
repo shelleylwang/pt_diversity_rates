@@ -1,7 +1,7 @@
 #!/bin/bash
 #SBATCH --job-name=bdmcmc_tem          # Job name
 #SBATCH --array=0-9                     # Array with 5 independent tasks
-#SBATCH --cpus-per-task=4               # CPUs per task, enough for multithreading (-r 4)
+#SBATCH --cpus-per-task=2               # CPUs per task, enough for multithreading (-r 4)
 #SBATCH --mem-per-cpu=16G                # Memory per CPU core (adjust if needed)
 #SBATCH --time=4-00:00:00               # Time limit, e.g., 1 day and 1 hour
 #SBATCH --mail-type=begin               # Send email when job begins
