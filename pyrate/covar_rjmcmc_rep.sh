@@ -1,9 +1,9 @@
 #!/bin/bash
 #SBATCH --job-name=covar_RJMCMC_rep          # Job name
 #SBATCH --array=0-4                     # Array with 5 independent tasks
-#SBATCH --cpus-per-task=4               # CPUs per task, enough for multithreading (-r 4)
+#SBATCH --cpus-per-task=2               # CPUs per task, enough for multithreading (-r 4)
 #SBATCH --mem-per-cpu=16G                # Memory per CPU core (adjust if needed)
-#SBATCH --time=5-00:00:00               # Time limit, e.g., 1 day and 1 hour
+#SBATCH --time=3-00:00:00               # Time limit, e.g., 1 day and 1 hour
 #SBATCH --mail-type=begin               # Send email when job begins
 #SBATCH --mail-type=end                 # Send email when job ends
 #SBATCH --mail-user=sw8569@princeton.edu
@@ -20,11 +20,11 @@ module load anaconda3/2024.2
 
 # Define a list of commands with varying `-j` values
 commands=(
-    "python ../PyRate/PyRate.py ./data/reptilia_processed_data/reptilia_pyrate_PyRate.py -trait_file ./data/reptilia_processed_data/reptilia_bdnn_trait_file.txt -mCov 5 -pC 0 -n 100000000 -s 10000 -p 1000 -A 4 -thread 2 0 -r 4 -j 6"
-    "python ../PyRate/PyRate.py ./data/reptilia_processed_data/reptilia_pyrate_PyRate.py -trait_file ./data/reptilia_processed_data/reptilia_bdnn_trait_file.txt -mCov 5 -pC 0 -n 100000000 -s 10000 -p 1000 -A 4 -thread 2 0 -r 4 -j 7"
-    "python ../PyRate/PyRate.py ./data/reptilia_processed_data/reptilia_pyrate_PyRate.py -trait_file ./data/reptilia_processed_data/reptilia_bdnn_trait_file.txt -mCov 5 -pC 0 -n 100000000 -s 10000 -p 1000 -A 4 -thread 2 0 -r 4 -j 8"
-    "python ../PyRate/PyRate.py ./data/reptilia_processed_data/reptilia_pyrate_PyRate.py -trait_file ./data/reptilia_processed_data/reptilia_bdnn_trait_file.txt -mCov 5 -pC 0 -n 100000000 -s 10000 -p 1000 -A 4 -thread 2 0 -r 4 -j 9"
-    "python ../PyRate/PyRate.py ./data/reptilia_processed_data/reptilia_pyrate_PyRate.py -trait_file ./data/reptilia_processed_data/reptilia_bdnn_trait_file.txt -mCov 5 -pC 0 -n 100000000 -s 10000 -p 1000 -A 4 -thread 2 0 -r 4 -j 10"
+    "python ../PyRate/PyRate.py ./data/reptilia_processed_data/reptilia_pyrate_PyRate.py -trait_file ./data/reptilia_processed_data/reptilia_bdnn_trait_file.txt -mCov 5 -pC 0 -n 100000000 -s 10000 -p 1000 -A 4 -thread 2 0 -r 4 -j 1"
+    "python ../PyRate/PyRate.py ./data/reptilia_processed_data/reptilia_pyrate_PyRate.py -trait_file ./data/reptilia_processed_data/reptilia_bdnn_trait_file.txt -mCov 5 -pC 0 -n 100000000 -s 10000 -p 1000 -A 4 -thread 2 0 -r 4 -j 2"
+    "python ../PyRate/PyRate.py ./data/reptilia_processed_data/reptilia_pyrate_PyRate.py -trait_file ./data/reptilia_processed_data/reptilia_bdnn_trait_file.txt -mCov 5 -pC 0 -n 100000000 -s 10000 -p 1000 -A 4 -thread 2 0 -r 4 -j 3"
+    "python ../PyRate/PyRate.py ./data/reptilia_processed_data/reptilia_pyrate_PyRate.py -trait_file ./data/reptilia_processed_data/reptilia_bdnn_trait_file.txt -mCov 5 -pC 0 -n 100000000 -s 10000 -p 1000 -A 4 -thread 2 0 -r 4 -j 4"
+    "python ../PyRate/PyRate.py ./data/reptilia_processed_data/reptilia_pyrate_PyRate.py -trait_file ./data/reptilia_processed_data/reptilia_bdnn_trait_file.txt -mCov 5 -pC 0 -n 100000000 -s 10000 -p 1000 -A 4 -thread 2 0 -r 4 -j 5"
 )
 
 # Run the command corresponding to the current array index
