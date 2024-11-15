@@ -14,7 +14,7 @@
 # Change to the directory where the script should run
 cd /scratch/gpfs/sw8569/BDNN_Arielli
 
-# Load necessary modules
+# Load necessary modules 
 module purge
 module load anaconda3/2024.2
 
