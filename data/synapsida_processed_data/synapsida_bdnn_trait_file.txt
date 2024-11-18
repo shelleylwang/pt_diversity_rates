@@ -52,8 +52,7 @@ Blattoidealestes	-0.74
 Bohemiclavulus	1.34
 Bolodon	1.91
 Bolotridon	-0.76
-Bonacynodon	-0.38
-Bonacynodon 	-0.38
+Bonacynodon	-0.38000000000000006
 Boreogomphodon	0.94
 Botucaraitherium	-0.3
 Brachyprosopus	-0.75
