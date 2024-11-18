@@ -4205,7 +4205,7 @@ Guaibasaurus	extinct	208.5	227.0
 Saturnalia	extinct	208.5	227.0
 Nhandumirim	extinct	208.5	227.0
 Buriolestes	extinct	208.5	227.0
-Stenoscelida¬ò	extinct	208.5	227.0
+Stenoscelida	extinct	208.5	227.0
 Pampadromaeus	extinct	208.5	227.0
 Candelaria	extinct	237.0	242.0
 Buriolestes	extinct	208.5	227.0

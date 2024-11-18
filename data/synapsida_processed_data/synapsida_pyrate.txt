@@ -3098,8 +3098,8 @@ Dinodontosaurus	extinct	237.0	242.0
 Aleodon	extinct	237.0	242.0
 Aleodon	extinct	237.0	242.0
 Aleodon	extinct	237.0	242.0
-Bonacynodon 	extinct	237.0	242.0
-Bonacynodon 	extinct	237.0	242.0
+Bonacynodon	extinct	237.0	242.0
+Bonacynodon	extinct	237.0	242.0
 Luangwa	extinct	237.0	242.0
 Santacruzodon	extinct	227.0	237.0
 Dinodontosaurus	extinct	237.0	242.0
