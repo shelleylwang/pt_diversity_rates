@@ -656,7 +656,7 @@ Stauromatodon	0.84
 Stegomus	0.27
 Stenaulorhynchus	-1.305
 Stenomyti	0.23
-Stenoscelida¬ò	-1.28
+Stenoscelida	-1.28
 Stereosternum_Antarctic	-1.93
 Stereosternum_Temperate_S	-1.3963636363636363
 Styracocephalus	-1.76
