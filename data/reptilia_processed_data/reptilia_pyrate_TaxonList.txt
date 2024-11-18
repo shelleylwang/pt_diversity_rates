@@ -656,7 +656,7 @@ Stauromatodon	extinct
 Stegomus	extinct
 Stenaulorhynchus	extinct
 Stenomyti	extinct
-Stenoscelida¬ò	extinct
+Stenoscelida	extinct
 Stereosternum_Antarctic	extinct
 Stereosternum_Temperate_S	extinct
 Styracocephalus	extinct
