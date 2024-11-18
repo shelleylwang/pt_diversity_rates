@@ -1,7 +1,7 @@
 #!/bin/bash
 #SBATCH --job-name=BDNN_rep_nopreds    # Job name
 #SBATCH --array=0-9                    # Array with 10 separate jobs
-#SBATCH --mem-per-cpu=124G             # Memory per CPU core
+#SBATCH --mem-per-cpu=128G             # Memory per CPU core
 #SBATCH --time=6-00:00:00              # days-hh:mm:ss
 #SBATCH --mail-type=begin              # Send email when job begins
 #SBATCH --mail-type=end                # Send email when job ends
