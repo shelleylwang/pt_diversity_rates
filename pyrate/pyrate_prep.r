@@ -1,8 +1,8 @@
 ### Preparing *_PyRate.py input file ###
 
 # Load utilities
-source("../PyRate/pyrate_utilities.r")
 setwd("C:\\Users\\SimoesLabAdmin\\Documents\\BDNN_Arielli")
+source("../PyRate/pyrate_utilities.r")
 
 # Parse raw data and generate PyRate input files
 extract.ages(file="data/reptilia_processed_data/reptilia_pyrate.txt", replicates=10)
