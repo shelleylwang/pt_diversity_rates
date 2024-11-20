@@ -1,8 +1,7 @@
 #!/bin/bash
 #SBATCH --job-name=ade_tem          # Job name
-#SBATCH --array=0-9                     # Array with 5 independent tasks
-#SBATCH --cpus-per-task=1               # CPUs per task, enough for multithreading (-r 4)
-#SBATCH --mem-per-cpu=6G                # Memory per CPU core (adjust if needed)
+#SBATCH --array=0-9                     # Array with 10 independent tasks
+#SBATCH --mem-per-cpu=4G                # Memory per CPU core (adjust if needed)
 #SBATCH --time=6-00:00:00               # Time limit, e.g., 1 day and 1 hour
 #SBATCH --mail-type=begin               # Send email when job begins
 #SBATCH --mail-type=end                 # Send email when job ends
@@ -20,16 +19,16 @@ module load anaconda3/2024.2
 
 # Define a list of commands with varying `-j` values
 commands=(
-    "python ../PyRate/PyRate.py ./data/temnospondyli_processed_data/temnospondyli_pyrate_PyRate.py -ADE 1 -qShift ./data/Time_bins_ByStages.txt -mG -wd ./temnospondyli/ -n 100000000 -s 10000 -p 2000 -j 1 -thread 4 0"
-    "python ../PyRate/PyRate.py ./data/temnospondyli_processed_data/temnospondyli_pyrate_PyRate.py -ADE 1 -qShift ./data/Time_bins_ByStages.txt -mG -wd ./temnospondyli/ -n 100000000 -s 10000 -p 2000 -j 2"
-    "python ../PyRate/PyRate.py ./data/temnospondyli_processed_data/temnospondyli_pyrate_PyRate.py -ADE 1 -qShift ./data/Time_bins_ByStages.txt -mG -wd ./temnospondyli/ -n 100000000 -s 10000 -p 2000 -j 3"
-    "python ../PyRate/PyRate.py ./data/temnospondyli_processed_data/temnospondyli_pyrate_PyRate.py -ADE 1 -qShift ./data/Time_bins_ByStages.txt -mG -wd ./temnospondyli/ -n 100000000 -s 10000 -p 2000 -j 4"
-    "python ../PyRate/PyRate.py ./data/temnospondyli_processed_data/temnospondyli_pyrate_PyRate.py -ADE 1 -qShift ./data/Time_bins_ByStages.txt -mG -wd ./temnospondyli/ -n 100000000 -s 10000 -p 2000 -j 5"
-    "python ../PyRate/PyRate.py ./data/temnospondyli_processed_data/temnospondyli_pyrate_PyRate.py -ADE 1 -qShift ./data/Time_bins_ByStages.txt -mG -wd ./temnospondyli/ -n 100000000 -s 10000 -p 2000 -j 6"
-    "python ../PyRate/PyRate.py ./data/temnospondyli_processed_data/temnospondyli_pyrate_PyRate.py -ADE 1 -qShift ./data/Time_bins_ByStages.txt -mG -wd ./temnospondyli/ -n 100000000 -s 10000 -p 2000 -j 7"
-    "python ../PyRate/PyRate.py ./data/temnospondyli_processed_data/temnospondyli_pyrate_PyRate.py -ADE 1 -qShift ./data/Time_bins_ByStages.txt -mG -wd ./temnospondyli/ -n 100000000 -s 10000 -p 2000 -j 8"
-    "python ../PyRate/PyRate.py ./data/temnospondyli_processed_data/temnospondyli_pyrate_PyRate.py -ADE 1 -qShift ./data/Time_bins_ByStages.txt -mG -wd ./temnospondyli/ -n 100000000 -s 10000 -p 2000 -j 9"
-    "python ../PyRate/PyRate.py ./data/temnospondyli_processed_data/temnospondyli_pyrate_PyRate.py -ADE 1 -qShift ./data/Time_bins_ByStages.txt -mG -wd ./temnospondyli/ -n 100000000 -s 10000 -p 2000 -j 10"
+   "python ../PyRate/PyRate.py ./data/temnospondyli_processed_data/temnospondyli_pyrate_PyRate.py -fixShift ./data/Time_bins_ByStages.txt -qShift ./data/Time_bins_ByStages.txt -ADE 1 -mG -translate -175.0 -wd ./temnospondyli/ -n 100000000 -s 10000 -p 2000 -j 1"
+    "python ../PyRate/PyRate.py ./data/temnospondyli_processed_data/temnospondyli_pyrate_PyRate.py -fixShift ./data/Time_bins_ByStages.txt -qShift ./data/Time_bins_ByStages.txt -ADE 1 -mG -translate -175.0 -wd ./temnospondyli/ -n 100000000 -s 10000 -p 2000 -j 2"
+    "python ../PyRate/PyRate.py ./data/temnospondyli_processed_data/temnospondyli_pyrate_PyRate.py -fixShift ./data/Time_bins_ByStages.txt -qShift ./data/Time_bins_ByStages.txt -ADE 1 -mG -translate -175.0 -wd ./temnospondyli/ -n 100000000 -s 10000 -p 2000 -j 3"
+    "python ../PyRate/PyRate.py ./data/temnospondyli_processed_data/temnospondyli_pyrate_PyRate.py -fixShift ./data/Time_bins_ByStages.txt -qShift ./data/Time_bins_ByStages.txt -ADE 1 -mG -translate -175.0 -wd ./temnospondyli/ -n 100000000 -s 10000 -p 2000 -j 4"
+    "python ../PyRate/PyRate.py ./data/temnospondyli_processed_data/temnospondyli_pyrate_PyRate.py -fixShift ./data/Time_bins_ByStages.txt -qShift ./data/Time_bins_ByStages.txt -ADE 1 -mG -translate -175.0 -wd ./temnospondyli/ -n 100000000 -s 10000 -p 2000 -j 5"
+    "python ../PyRate/PyRate.py ./data/temnospondyli_processed_data/temnospondyli_pyrate_PyRate.py -fixShift ./data/Time_bins_ByStages.txt -qShift ./data/Time_bins_ByStages.txt -ADE 1 -mG -translate -175.0 -wd ./temnospondyli/ -n 100000000 -s 10000 -p 2000 -j 6"
+    "python ../PyRate/PyRate.py ./data/temnospondyli_processed_data/temnospondyli_pyrate_PyRate.py -fixShift ./data/Time_bins_ByStages.txt -qShift ./data/Time_bins_ByStages.txt -ADE 1 -mG -translate -175.0 -wd ./temnospondyli/ -n 100000000 -s 10000 -p 2000 -j 7"
+    "python ../PyRate/PyRate.py ./data/temnospondyli_processed_data/temnospondyli_pyrate_PyRate.py -fixShift ./data/Time_bins_ByStages.txt -qShift ./data/Time_bins_ByStages.txt -ADE 1 -mG -translate -175.0 -wd ./temnospondyli/ -n 100000000 -s 10000 -p 2000 -j 8"
+    "python ../PyRate/PyRate.py ./data/temnospondyli_processed_data/temnospondyli_pyrate_PyRate.py -fixShift ./data/Time_bins_ByStages.txt -qShift ./data/Time_bins_ByStages.txt -ADE 1 -mG -translate -175.0 -wd ./temnospondyli/ -n 100000000 -s 10000 -p 2000 -j 9"
+    "python ../PyRate/PyRate.py ./data/temnospondyli_processed_data/temnospondyli_pyrate_PyRate.py -fixShift ./data/Time_bins_ByStages.txt -qShift ./data/Time_bins_ByStages.txt -ADE 1 -mG -translate -175.0 -wd ./temnospondyli/ -n 100000000 -s 10000 -p 2000 -j 10"
 )
 # Run the command corresponding to the current array index
 eval "${commands[$SLURM_ARRAY_TASK_ID]}"
