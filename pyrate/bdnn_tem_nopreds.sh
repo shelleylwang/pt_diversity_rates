@@ -19,16 +19,16 @@ module load anaconda3/2024.2
 
 # Define a list of commands with varying `-j` values
 commands=(
-    "python ../PyRate/PyRate.py ./data/temnospondyli_processed_data/temnospondyli_pyrate_PyRate.py -BDNNmodel 1 -qShift ./data/Time_bins_ByStages.txt -mG -translate 175.0 -n 100000000 -s 10000 -p 2000 -BDNNnodes 8 4 -wd ./temnospondyli/ -j 1"
-    "python ../PyRate/PyRate.py ./data/temnospondyli_processed_data/temnospondyli_pyrate_PyRate.py -BDNNmodel 1 -qShift ./data/Time_bins_ByStages.txt -mG -translate 175.0 -n 100000000 -s 10000 -p 2000 -BDNNnodes 8 4 -wd ./temnospondyli/ -j 2"
-    "python ../PyRate/PyRate.py ./data/temnospondyli_processed_data/temnospondyli_pyrate_PyRate.py -BDNNmodel 1 -qShift ./data/Time_bins_ByStages.txt -mG -translate 175.0 -n 100000000 -s 10000 -p 2000 -BDNNnodes 8 4 -wd ./temnospondyli/ -j 3"
-    "python ../PyRate/PyRate.py ./data/temnospondyli_processed_data/temnospondyli_pyrate_PyRate.py -BDNNmodel 1 -qShift ./data/Time_bins_ByStages.txt -mG -translate 175.0 -n 100000000 -s 10000 -p 2000 -BDNNnodes 8 4 -wd ./temnospondyli/ -j 4"
-    "python ../PyRate/PyRate.py ./data/temnospondyli_processed_data/temnospondyli_pyrate_PyRate.py -BDNNmodel 1 -qShift ./data/Time_bins_ByStages.txt -mG -translate 175.0 -n 100000000 -s 10000 -p 2000 -BDNNnodes 8 4 -wd ./temnospondyli/ -j 5"
-    "python ../PyRate/PyRate.py ./data/temnospondyli_processed_data/temnospondyli_pyrate_PyRate.py -BDNNmodel 1 -qShift ./data/Time_bins_ByStages.txt -mG -translate 175.0 -n 100000000 -s 10000 -p 2000 -BDNNnodes 8 4 -wd ./temnospondyli/ -j 6"
-    "python ../PyRate/PyRate.py ./data/temnospondyli_processed_data/temnospondyli_pyrate_PyRate.py -BDNNmodel 1 -qShift ./data/Time_bins_ByStages.txt -mG -translate 175.0 -n 100000000 -s 10000 -p 2000 -BDNNnodes 8 4 -wd ./temnospondyli/ -j 7"
-    "python ../PyRate/PyRate.py ./data/temnospondyli_processed_data/temnospondyli_pyrate_PyRate.py -BDNNmodel 1 -qShift ./data/Time_bins_ByStages.txt -mG -translate 175.0 -n 100000000 -s 10000 -p 2000 -BDNNnodes 8 4 -wd ./temnospondyli/ -j 8"
-    "python ../PyRate/PyRate.py ./data/temnospondyli_processed_data/temnospondyli_pyrate_PyRate.py -BDNNmodel 1 -qShift ./data/Time_bins_ByStages.txt -mG -translate 175.0 -n 100000000 -s 10000 -p 2000 -BDNNnodes 8 4 -wd ./temnospondyli/ -j 9"
-    "python ../PyRate/PyRate.py ./data/temnospondyli_processed_data/temnospondyli_pyrate_PyRate.py -BDNNmodel 1 -qShift ./data/Time_bins_ByStages.txt -mG -translate 175.0 -n 100000000 -s 10000 -p 2000 -BDNNnodes 8 4 -wd ./temnospondyli/ -j 10"
+    "python ../PyRate/PyRate.py ./data/temnospondyli_processed_data/temnospondyli_pyrate_PyRate.py -BDNNmodel 1 -qShift ./data/Time_bins_ByStages.txt -mG -translate -175.0 -n 100000000 -s 10000 -p 2000 -BDNNnodes 8 4 -wd ./temnospondyli/ -j 1"
+    "python ../PyRate/PyRate.py ./data/temnospondyli_processed_data/temnospondyli_pyrate_PyRate.py -BDNNmodel 1 -qShift ./data/Time_bins_ByStages.txt -mG -translate -175.0 -n 100000000 -s 10000 -p 2000 -BDNNnodes 8 4 -wd ./temnospondyli/ -j 2"
+    "python ../PyRate/PyRate.py ./data/temnospondyli_processed_data/temnospondyli_pyrate_PyRate.py -BDNNmodel 1 -qShift ./data/Time_bins_ByStages.txt -mG -translate -175.0 -n 100000000 -s 10000 -p 2000 -BDNNnodes 8 4 -wd ./temnospondyli/ -j 3"
+    "python ../PyRate/PyRate.py ./data/temnospondyli_processed_data/temnospondyli_pyrate_PyRate.py -BDNNmodel 1 -qShift ./data/Time_bins_ByStages.txt -mG -translate -175.0 -n 100000000 -s 10000 -p 2000 -BDNNnodes 8 4 -wd ./temnospondyli/ -j 4"
+    "python ../PyRate/PyRate.py ./data/temnospondyli_processed_data/temnospondyli_pyrate_PyRate.py -BDNNmodel 1 -qShift ./data/Time_bins_ByStages.txt -mG -translate -175.0 -n 100000000 -s 10000 -p 2000 -BDNNnodes 8 4 -wd ./temnospondyli/ -j 5"
+    "python ../PyRate/PyRate.py ./data/temnospondyli_processed_data/temnospondyli_pyrate_PyRate.py -BDNNmodel 1 -qShift ./data/Time_bins_ByStages.txt -mG -translate -175.0 -n 100000000 -s 10000 -p 2000 -BDNNnodes 8 4 -wd ./temnospondyli/ -j 6"
+    "python ../PyRate/PyRate.py ./data/temnospondyli_processed_data/temnospondyli_pyrate_PyRate.py -BDNNmodel 1 -qShift ./data/Time_bins_ByStages.txt -mG -translate -175.0 -n 100000000 -s 10000 -p 2000 -BDNNnodes 8 4 -wd ./temnospondyli/ -j 7"
+    "python ../PyRate/PyRate.py ./data/temnospondyli_processed_data/temnospondyli_pyrate_PyRate.py -BDNNmodel 1 -qShift ./data/Time_bins_ByStages.txt -mG -translate -175.0 -n 100000000 -s 10000 -p 2000 -BDNNnodes 8 4 -wd ./temnospondyli/ -j 8"
+    "python ../PyRate/PyRate.py ./data/temnospondyli_processed_data/temnospondyli_pyrate_PyRate.py -BDNNmodel 1 -qShift ./data/Time_bins_ByStages.txt -mG -translate -175.0 -n 100000000 -s 10000 -p 2000 -BDNNnodes 8 4 -wd ./temnospondyli/ -j 9"
+    "python ../PyRate/PyRate.py ./data/temnospondyli_processed_data/temnospondyli_pyrate_PyRate.py -BDNNmodel 1 -qShift ./data/Time_bins_ByStages.txt -mG -translate -175.0 -n 100000000 -s 10000 -p 2000 -BDNNnodes 8 4 -wd ./temnospondyli/ -j 10"
 )
 
 # Run the command corresponding to the current array index

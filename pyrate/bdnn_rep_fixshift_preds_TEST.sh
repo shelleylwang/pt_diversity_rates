@@ -17,5 +17,4 @@ module purge
 module load anaconda3/2024.2
 
 # Just first rep for time test
-python ../PyRate/PyRate.py ./data/reptilia_processed_data/reptilia_pyrate_PyRate.py -BDNNmodel 1 -fixShift ./data/Time_bins_ByStages.txt -qShift ./data/Time_bins_ByStages.txt -mG -translate 175.0 -n 100000000 -s 10000 -p 2000 -wd ./reptilia/ -trait_file ./data/reptilia_processed_data/reptilia_bdnn_trait_file.txt -BDNNtimevar ./data/env_vars.txt -thread 6 0 -j 1"
-    
+python ../PyRate/PyRate.py ./data/reptilia_processed_data/reptilia_pyrate_PyRate.py -BDNNmodel 1 -fixShift ./data/Time_bins_ByStages.txt -qShift ./data/Time_bins_ByStages.txt -mG -translate -175.0 -n 100000000 -s 10000 -p 2000 -wd ./reptilia/ -trait_file ./data/reptilia_processed_data/reptilia_bdnn_trait_file.txt -BDNNtimevar ./data/env_vars.txt -thread 6 0 -j 1    
