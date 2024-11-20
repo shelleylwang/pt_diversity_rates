@@ -1,7 +1,7 @@
 #!/bin/bash
 #SBATCH --job-name=BDNN_rep_nopreds    # Job name
 #SBATCH --array=0-9                    # Array with 10 separate jobs
-#SBATCH --mem-per-cpu=128G             # Memory per CPU core
+#SBATCH --mem-per-cpu=6G             # Memory per CPU core
 #SBATCH --time=6-00:00:00              # days-hh:mm:ss
 #SBATCH --mail-type=begin              # Send email when job begins
 #SBATCH --mail-type=end                # Send email when job ends
@@ -17,17 +17,18 @@ module purge
 module load anaconda3/2024.2
 
 # Define the base command
-CMD="python ../PyRate/PyRate.py \
-    ./data/reptilia_processed_data/reptilia_pyrate_PyRate.py \
-    -BDNNmodel 1 \
-    -qShift ./data/Time_bins_ByStages.txt \
-    -mG \
-    -translate 175.0 \
-    -n 100000000 \
-    -s 10000 \
-    -p 2000 \
-    -BDNNnodes 8 4 \
-    -wd ./reptilia/"
+commands=(
+    "python ../PyRate/PyRate.py ./data/reptilia_processed_data/reptilia_pyrate_PyRate.py -BDNNmodel 1 -qShift ./data/Time_bins_ByStages.txt -mG -translate -175.0 -n 100000000 -s 10000 -p 2000 -BDNNnodes 8 4 -wd ./reptilia/ -j 1"
+    "python ../PyRate/PyRate.py ./data/reptilia_processed_data/reptilia_pyrate_PyRate.py -BDNNmodel 1 -qShift ./data/Time_bins_ByStages.txt -mG -translate -175.0 -n 100000000 -s 10000 -p 2000 -BDNNnodes 8 4 -wd ./reptilia/ -j 2"
+    "python ../PyRate/PyRate.py ./data/reptilia_processed_data/reptilia_pyrate_PyRate.py -BDNNmodel 1 -qShift ./data/Time_bins_ByStages.txt -mG -translate -175.0 -n 100000000 -s 10000 -p 2000 -BDNNnodes 8 4 -wd ./reptilia/ -j 3"
+    "python ../PyRate/PyRate.py ./data/reptilia_processed_data/reptilia_pyrate_PyRate.py -BDNNmodel 1 -qShift ./data/Time_bins_ByStages.txt -mG -translate -175.0 -n 100000000 -s 10000 -p 2000 -BDNNnodes 8 4 -wd ./reptilia/ -j 4"
+    "python ../PyRate/PyRate.py ./data/reptilia_processed_data/reptilia_pyrate_PyRate.py -BDNNmodel 1 -qShift ./data/Time_bins_ByStages.txt -mG -translate -175.0 -n 100000000 -s 10000 -p 2000 -BDNNnodes 8 4 -wd ./reptilia/ -j 5"
+    "python ../PyRate/PyRate.py ./data/reptilia_processed_data/reptilia_pyrate_PyRate.py -BDNNmodel 1 -qShift ./data/Time_bins_ByStages.txt -mG -translate -175.0 -n 100000000 -s 10000 -p 2000 -BDNNnodes 8 4 -wd ./reptilia/ -j 6"
+    "python ../PyRate/PyRate.py ./data/reptilia_processed_data/reptilia_pyrate_PyRate.py -BDNNmodel 1 -qShift ./data/Time_bins_ByStages.txt -mG -translate -175.0 -n 100000000 -s 10000 -p 2000 -BDNNnodes 8 4 -wd ./reptilia/ -j 7"
+    "python ../PyRate/PyRate.py ./data/reptilia_processed_data/reptilia_pyrate_PyRate.py -BDNNmodel 1 -qShift ./data/Time_bins_ByStages.txt -mG -translate -175.0 -n 100000000 -s 10000 -p 2000 -BDNNnodes 8 4 -wd ./reptilia/ -j 8"
+    "python ../PyRate/PyRate.py ./data/reptilia_processed_data/reptilia_pyrate_PyRate.py -BDNNmodel 1 -qShift ./data/Time_bins_ByStages.txt -mG -translate -175.0 -n 100000000 -s 10000 -p 2000 -BDNNnodes 8 4 -wd ./reptilia/ -j 9"
+    "python ../PyRate/PyRate.py ./data/reptilia_processed_data/reptilia_pyrate_PyRate.py -BDNNmodel 1 -qShift ./data/Time_bins_ByStages.txt -mG -translate -175.0 -n 100000000 -s 10000 -p 2000 -BDNNnodes 8 4 -wd ./reptilia/ -j 10"
+)
 
-# Run the command with the array index as the job identifier
-eval "$CMD -j $((SLURM_ARRAY_TASK_ID + 1))"
+# Run the command corresponding to the current array index
+eval "${commands[$SLURM_ARRAY_TASK_ID]}"
