@@ -24,34 +24,41 @@ diversity_df <- data.frame(
 )
 
 # Plot 1: Lineages through time 
-p1 <- ggplot(lineages_df, aes(x = start, y = y)) +
- coord_geo(xlim = c(-300, -190), expand=FALSE, clip = "on",
-           dat = list("international epochs", "international periods"), abbrv = list(TRUE, FALSE), 
-           pos = list("bottom", "bottom"), alpha = 1, height = unit(3, "line"),
-           rot = 0, size = list(6,5), neg = T) +
- geom_segment(aes(x = start, xend = end, y = y, yend = y)) +
- scale_x_continuous(limits = c(-max(ts)-1, -190),
-                    breaks = seq(-300, -190, by = 10)) +
- labs(title = "Reptilia combined_10_mcmc",
-      x = "Time (Ma)",
-      y = "Lineages") +
- theme_classic() +
- theme(plot.margin = unit(c(2, 1, 2, 1), "cm"),
-       plot.title = element_text(size = 32, face = "bold", hjust = 0.5, margin = margin(b = 30)),
-       axis.title = element_text(size = 24, face = "bold", margin = margin(t = 20, r = 20, b = 20, l = 20)),
-       axis.text = element_text(size = 20, face = "bold"))
+# p1 <- ggplot(lineages_df, aes(x = start, y = y)) +
+#  coord_geo(xlim = c(-300, -190), expand=FALSE, clip = "on",
+#            dat = list("international epochs", "international periods"), abbrv = list(TRUE, FALSE), 
+#            pos = list("bottom", "bottom"), alpha = 1, height = unit(2.5, "line"),
+#            rot = 0, size = list(5,4), neg = T) +
+#  geom_segment(aes(x = start, xend = end, y = y, yend = y)) +
+#  scale_x_continuous(limits = c(-max(ts)-1, -190),
+#                     breaks = seq(-300, -190, by = 10)) +
+#  labs(title = "Reptilia combined_10_mcmc",
+#       x = "Time (Ma)",
+#       y = "Lineages") +
+#  theme_classic() +
+#  theme(plot.margin = unit(c(1, 1, 2, 1), "cm"),
+#        plot.title = element_text(size = 24, face = "bold", hjust = 0.5),
+#        axis.title = element_text(size = 18, face = "bold"),
+#        axis.text = element_text(size = 14, face = "bold"))
+
+# Function to format axis labels without negative signs
+format_labels <- function(x) {
+ return(sprintf("%.0f", abs(x)))
+}
 
 # Plot 2: Diversity trajectory
 p2 <- ggplot(diversity_df, aes(x = time, y = diversity)) +
- coord_geo(xlim = c(-300, -190), expand=FALSE, clip = "on",
+ coord_geo(xlim = c(-300, -200), expand=FALSE, clip = "on",
            dat = list("international epochs", "international periods"), abbrv = list(TRUE, FALSE), 
-           pos = list("bottom", "bottom"), alpha = 1, height = unit(3, "line"),
+           pos = list("bottom", "bottom"), alpha = 1, height = unit(2, "line"),
            rot = 0, size = list(6,5), neg = T) +
  geom_step() +
  geom_vline(xintercept = c(-65, -200, -251, -367, -445), 
             linetype = "dashed", color = "gray") +
- scale_x_continuous(limits = c(-max(ts)-1, -190)) +
- labs(title = "Diversity trajectory",
+ scale_x_continuous(limits = c(-max(ts)-1, -200),
+                    breaks = seq(-300, -200, by = 10),
+                    labels = format_labels) +
+ labs(title = "Reptilia Diversity trajectory",
       x = "Time (Ma)",
       y = "Number of lineages") +
  theme_classic() +
@@ -61,9 +68,9 @@ p2 <- ggplot(diversity_df, aes(x = time, y = diversity)) +
        axis.text = element_text(size = 20, face = "bold"))
 
 # Display plots in RStudio
-grid.arrange(p1, p2, ncol = 1)
+grid.arrange(p2, ncol = 1)
 
 # Save to PDF
-pdf("C:\\Users\\SimoesLabAdmin\\Documents\\BDNN_Arielli\\reptilia\\mcmc_no_predictors\\RJMCMC\\reptilia_plots.pdf", width = 20, height = 24)
-grid.arrange(p1, p2, ncol = 1)
+pdf("C:\\Users\\SimoesLabAdmin\\Documents\\BDNN_Arielli\\reptilia\\mcmc_no_predictors\\RJMCMC\\reptilia_ltt.pdf", width = 20, height = 20)
+grid.arrange(p2, ncol = 1)
 dev.off()
