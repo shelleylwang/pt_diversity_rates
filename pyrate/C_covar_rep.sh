@@ -1,7 +1,7 @@
 #!/bin/bash
 #SBATCH --job-name=C_covar_rep          # Job name
 #SBATCH --array=0-2                     # Array with 5 independent tasks
-#SBATCH --mem-per-cpu=6G                # Memory per CPU core (adjust if needed)
+#SBATCH --mem-per-cpu=2G                # Memory per CPU core (adjust if needed)
 #SBATCH --time=6-00:00:00               # Time limit, e.g., 1 day and 1 hour
 #SBATCH --mail-type=begin               # Send email when job begins
 #SBATCH --mail-type=end                 # Send email when job ends
