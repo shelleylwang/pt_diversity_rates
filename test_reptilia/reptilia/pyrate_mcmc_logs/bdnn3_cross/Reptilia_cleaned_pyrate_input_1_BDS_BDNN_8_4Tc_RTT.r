@@ -1,4 +1,4 @@
-pdf(file='C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/reptilia/pyrate_mcmc_logs/bdnn3_cross/Reptilia_cleaned_pyrate_input_1_BDS_BDNN_8_4Tc_RTT.pdf', width = 9, height = 6, useDingbats = FALSE)
+pdf(file='C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/test_reptilia/reptilia/pyrate_mcmc_logs/bdnn3_cross/Reptilia_cleaned_pyrate_input_1_BDS_BDNN_8_4Tc_RTT.pdf', width = 9, height = 6, useDingbats = FALSE)
 
 layout(matrix(1:4, ncol = 2, nrow = 2, byrow = TRUE))
 par(las = 1, mar = c(4.5, 4.5, 0.5, 0.5))
