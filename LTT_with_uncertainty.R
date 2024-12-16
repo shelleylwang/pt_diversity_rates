@@ -66,7 +66,7 @@ isNotZero <- function(x) {
 
 
 
-Path <- "C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/reptilia/mcmc_no_predictors/A_bdnn"
+Path <- "C:\\Users\\SimoesLabAdmin\\Documents\\BDNN_Arielli\\synapsida\\mcmc_no_predictors\\RJMCMC"
 
 # Number of replicates
 NumReplicates <- 10
@@ -88,8 +88,8 @@ Ltt <- matrix(NA_real_,
 Counter <- 1
 for (i in 1:NumReplicates) {
   McmcLog <- read.table(file.path(Path, 
-                                  paste0('reptilia_pyrate_', i,
-                                         '_G_BDS_BDNN_4_2Tc_mcmc.log')),
+                                  paste0('synapsida_pyrate_', i,
+                                         '_Grj_mcmc.log')),
                         header = TRUE, sep = '\t')
 
   
@@ -136,3 +136,4 @@ lines(TimeVecLtt[NotZero], LttMean[NotZero],
       type = 's', col = 'purple', lwd = 2)
 
 print(p)
+
