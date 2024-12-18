@@ -79,7 +79,7 @@ Translate <- 0
 # Time steps of the LTT, i.e. the time points at which the LTT curve will be calculated
 # The LTT curve is a plot of the number of lineages through time
 # The later functions will calculate the number of lineages that exist at 190, then at 190.01, then at 190.02, etc.
-TimeVecLtt <- seq(190, 300, by = 0.01)
+TimeVecLtt <- seq(300, 190, by = -0.01)
 
 # Matrix to get the LTT for the MCMC samples
 Ltt <- matrix(NA_real_, # Initializing with NA_real_values
@@ -140,11 +140,8 @@ format_labels <- function(x) {
 }
 
 # Plot diversity trajectory with ggplot2
+# Plot diversity trajectory with ggplot2
 p2 <- ggplot(diversity_df[NotZero, ], aes(x = time)) +
-  coord_geo(xlim = c(300, 190), expand = FALSE, clip = "on",
-            dat = list("international epochs", "international periods"), abbrv = list(TRUE, FALSE), 
-            pos = list("bottom", "bottom"), alpha = 1, height = unit(2, "line"),
-            rot = 0, size = list(6, 5), neg = TRUE) +
   geom_ribbon(aes(ymin = lower_95, ymax = upper_95), fill = adjustcolor('purple', alpha = 0.15)) +
   geom_ribbon(aes(ymin = lower_75, ymax = upper_75), fill = adjustcolor('purple', alpha = 0.15)) +
   geom_step(aes(y = mean_diversity), color = 'purple', size = 1) +
@@ -153,7 +150,11 @@ p2 <- ggplot(diversity_df[NotZero, ], aes(x = time)) +
        y = "Number of Taxa") +
   geom_vline(xintercept = c(-65, -200, -251, -367, -445), 
             linetype = "dashed", color = "gray") +
-  scale_x_continuous(limits = c(300, 190), breaks = seq(300, 190, by = 10), labels = format_labels) +
+  scale_x_continuous(limits = c(300, 190), breaks = seq(300, 190, by = -10), labels = format_labels) +
+  coord_geo(xlim = c(300, 190), expand = FALSE, clip = "on",
+            dat = list("periods", "epochs"), abbrv = list(TRUE, TRUE), 
+            pos = list("bottom", "bottom"), alpha = 1, height = unit(2, "line"),
+            rot = 0, size = list(6, 5), neg = TRUE) +
   theme_classic() +
   theme(plot.margin = unit(c(2, 1, 1, 1), "cm"),
         plot.title = element_text(size = 32, face = "bold", hjust = 0.5, margin = margin(b = 30)),
