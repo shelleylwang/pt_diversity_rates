@@ -126,7 +126,7 @@ NotZero <- isNotZero(LttCI95[2, ])
 
 # Create data frame for diversity trajectory
 diversity_df <- data.frame(
-  time = TimeVecLtt,
+  time = -TimeVecLtt, ## changed to negs
   mean_diversity = LttMean,
   lower_95 = LttCI95[1, ],
   upper_95 = LttCI95[2, ],
@@ -140,21 +140,45 @@ format_labels <- function(x) {
 }
 
 # Plot diversity trajectory with ggplot2
-# Plot diversity trajectory with ggplot2
+
 p2 <- ggplot(diversity_df[NotZero, ], aes(x = time)) +
+  # First define the basic data representation layers
+  geom_step(aes(y = mean_diversity), color = 'purple', size = 1) +
   geom_ribbon(aes(ymin = lower_95, ymax = upper_95), fill = adjustcolor('purple', alpha = 0.15)) +
   geom_ribbon(aes(ymin = lower_75, ymax = upper_75), fill = adjustcolor('purple', alpha = 0.15)) +
-  geom_step(aes(y = mean_diversity), color = 'purple', size = 1) +
+  
+  
+  # # Coordinate system and geological time scale
+  # coord_geo(xlim = c(300, 190), expand = FALSE, clip = "on",
+  #           dat = list("epochs", "periods"), abbrv = list(TRUE, FALSE), 
+  #           pos = list("bottom", "bottom"), alpha = 1, height = unit(2, "line"),
+  #           rot = 0, size = list(6, 5), neg = TRUE) +
+  # Add geological time scale using coord_geo from deeptime
+  coord_geo(xlim = c(-300, -190), expand = FALSE, clip = "on", ## changed to negs
+           dat = list("international epochs", "international periods"), 
+           abbrv = list(TRUE, FALSE), 
+           pos = list("bottom", "bottom"), 
+           alpha = 1, 
+           height = unit(2, "line"),
+           rot = 0, 
+           size = list(6, 5), 
+           neg = T) +
+  
+  # Add reference lines for key geological boundaries
+  geom_vline(xintercept = c(-65, -200, -251, -367, -445), ## changed to negs
+             linetype = "dashed", color = "gray") +
+  
+  # Scale transformation with formatted labels
+  scale_x_continuous(limits = c(-max(ts)-1, -200),
+                     breaks = seq(-300, -200, by = 10),
+                     labels = format_labels) +
+  # scale_x_reverse(limits = c(300, 190), 
+    #             breaks = seq(300, 190, by = -10), ## original sign (not changed)
+     #            labels = format_labels) +
+  # Labels and theming come last
   labs(title = "Synapsida Diversity Trajectory",
        x = "Time (Ma)",
        y = "Number of Taxa") +
-  geom_vline(xintercept = c(-65, -200, -251, -367, -445), 
-            linetype = "dashed", color = "gray") +
-  scale_x_continuous(limits = c(300, 190), breaks = seq(300, 190, by = -10), labels = format_labels) +
-  coord_geo(xlim = c(300, 190), expand = FALSE, clip = "on",
-            dat = list("periods", "epochs"), abbrv = list(TRUE, TRUE), 
-            pos = list("bottom", "bottom"), alpha = 1, height = unit(2, "line"),
-            rot = 0, size = list(6, 5), neg = TRUE) +
   theme_classic() +
   theme(plot.margin = unit(c(2, 1, 1, 1), "cm"),
         plot.title = element_text(size = 32, face = "bold", hjust = 0.5, margin = margin(b = 30)),
@@ -168,3 +192,5 @@ grid.arrange(p2, ncol = 1)
 pdf("C:\\Users\\SimoesLabAdmin\\Documents\\BDNN_Arielli\\synapsida\\mcmc_no_predictors\\RJMCMC\\synapsida_ltt_uncertainty.pdf", width = 20, height = 20)
 grid.arrange(p2, ncol = 1)
 dev.off()
+
+
