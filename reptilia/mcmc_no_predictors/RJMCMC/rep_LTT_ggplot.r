@@ -23,24 +23,6 @@ diversity_df <- data.frame(
   diversity = div_traj
 )
 
-# Plot 1: Lineages through time 
-# p1 <- ggplot(lineages_df, aes(x = start, y = y)) +
-#  coord_geo(xlim = c(-300, -190), expand=FALSE, clip = "on",
-#            dat = list("international epochs", "international periods"), abbrv = list(TRUE, FALSE), 
-#            pos = list("bottom", "bottom"), alpha = 1, height = unit(2.5, "line"),
-#            rot = 0, size = list(5,4), neg = T) +
-#  geom_segment(aes(x = start, xend = end, y = y, yend = y)) +
-#  scale_x_continuous(limits = c(-max(ts)-1, -190),
-#                     breaks = seq(-300, -190, by = 10)) +
-#  labs(title = "Reptilia combined_10_mcmc",
-#       x = "Time (Ma)",
-#       y = "Lineages") +
-#  theme_classic() +
-#  theme(plot.margin = unit(c(1, 1, 2, 1), "cm"),
-#        plot.title = element_text(size = 24, face = "bold", hjust = 0.5),
-#        axis.title = element_text(size = 18, face = "bold"),
-#        axis.text = element_text(size = 14, face = "bold"))
-
 # Function to format axis labels without negative signs
 format_labels <- function(x) {
  return(sprintf("%.0f", abs(x)))
