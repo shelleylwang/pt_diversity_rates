@@ -169,8 +169,8 @@ p2 <- ggplot(diversity_df[NotZero, ], aes(x = time)) +
              linetype = "dashed", color = "gray") +
   
   # Scale transformation with formatted labels
-  scale_x_continuous(limits = c(-max(ts)-1, -200),
-                     breaks = seq(-300, -200, by = 10),
+  scale_x_continuous(limits = c(-300, -190),
+                     breaks = seq(-300, -190, by = 10),
                      labels = format_labels) +
   # scale_x_reverse(limits = c(300, 190), 
     #             breaks = seq(300, 190, by = -10), ## original sign (not changed)
