@@ -1,7 +1,7 @@
 #!/bin/bash
 #SBATCH --job-name=C_bdnn_syn_minmax_boxcox # Job name
 #SBATCH --array=1-10                     # Array with 10 independent tasks
-#SBATCH --mem-per-cpu=200MB                # Memory per CPU core (adjust if needed)
+#SBATCH --mem-per-cpu=400MB                # Memory per CPU core (adjust if needed)
 #SBATCH --cpus-per-task=2        # cpu-cores per task (>1 if multi-threaded tasks)
 #SBATCH --time=6-00:00:00               # Time limit, e.g., 1 day and 1 hour
 #SBATCH --mail-type=begin               # Send email when job begins
