@@ -193,4 +193,5 @@ pdf("C:\\Users\\SimoesLabAdmin\\Documents\\BDNN_Arielli\\reptilia\\mcmc_no_predi
 grid.arrange(p2, ncol = 1)
 dev.off()
 
-
+lines <- readLines(file.path(Path, paste0('reptilia_pyrate_', i, '_Grj_mcmc.log')), encoding = "UTF-8")
+head(lines)  # Inspect the first few lines
