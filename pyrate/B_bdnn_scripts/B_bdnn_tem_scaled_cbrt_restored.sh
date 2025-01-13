@@ -18,7 +18,7 @@ cd /scratch/gpfs/sw8569/BDNN_Arielli
 module purge
 module load anaconda3/2024.2
 
-python ../PyRate/PyRate_thread.py ./data/temnospondyli_processed_data/temnospondyli_pyrate_PyRate.py -BDNNmodel 1 \
+python ../PyRate/PyRate.py ./data/temnospondyli_processed_data/temnospondyli_pyrate_PyRate.py -BDNNmodel 1 \
 -restore_mcmc ./temnospondyli/mcmc_predictors/B_bdnn_stdscaled_cbrt/temnospondyli_pyrate_${SLURM_ARRAY_TASK_ID}_B_stdscaled_cbrt_G_BDS_BDNN_16_8TVc_mcmc.log \
 -qShift ./data/Time_bins_ByStages.txt -mG -translate -175.0 \
 -trait_file ./data/temnospondyli_processed_data/temnospondyli_bdnn_trait_file.txt -BDNNtimevar ./data/1myr_temp_data/1myr_temp_scaled_cbrt.txt \
