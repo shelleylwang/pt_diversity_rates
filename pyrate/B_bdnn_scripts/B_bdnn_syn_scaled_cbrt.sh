@@ -21,5 +21,6 @@ module load anaconda3/2024.2
 python ../PyRate/PyRate.py ./data/synapsida_processed_data/synapsida_pyrate_PyRate.py -BDNNmodel 1 \
 -qShift ./data/Time_bins_ByStages.txt -mG -translate -175.0 \
 -trait_file ./data/synapsida_processed_data/synapsida_bdnn_trait_file.txt -BDNNtimevar ./data/1myr_temp_data/1myr_temp_scaled_cbrt.txt \
--n 100000000 -s 10000 -p 2000 -thread 2 0 -seed 42 \
+-n 100000000 -s 10000 -p 2000 -seed 42 \
 -wd ./synapsida/ -out _B_stdscaled_cbrt -j ${SLURM_ARRAY_TASK_ID}
+
