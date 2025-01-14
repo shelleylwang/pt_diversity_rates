@@ -22,5 +22,5 @@ python ../PyRate/PyRate.py ./data/temnospondyli_processed_data/temnospondyli_pyr
 -restore_mcmc ./temnospondyli/mcmc_predictors/B_bdnn_stdscaled_only/temnospondyli_pyrate_${SLURM_ARRAY_TASK_ID}_B_stdscaled_only_G_BDS_BDNN_16_8TVc_mcmc.log \
 -qShift ./data/Time_bins_ByStages.txt -mG -translate -175.0 \
 -trait_file ./data/temnospondyli_processed_data/temnospondyli_bdnn_trait_file.txt -BDNNtimevar ./data/1myr_temp_data/1myr_temp_scaled_only.txt \
--n 100000000 -s 10000 -p 2000 -thread 2 0 -seed 42 \
+-n 100000000 -s 10000 -p 2000  -seed 42 \
 -wd ./temnospondyli/mcmc_predictors/B_bdnn_stdscaled_only/ -out _B_stdscaled_only_restored -j ${SLURM_ARRAY_TASK_ID}

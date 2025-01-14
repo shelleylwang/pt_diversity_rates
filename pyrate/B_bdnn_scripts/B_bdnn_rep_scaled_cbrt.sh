@@ -21,5 +21,5 @@ module load anaconda3/2024.2
 python ../PyRate/PyRate.py ./data/reptilia_processed_data/reptilia_pyrate_PyRate.py -BDNNmodel 1 \
 -qShift ./data/Time_bins_ByStages.txt -mG -translate -175.0 \
 -trait_file ./data/reptilia_processed_data/reptilia_bdnn_trait_file.txt -BDNNtimevar ./data/1myr_temp_data/1myr_temp_scaled_cbrt.txt \
--n 100000000 -s 10000 -p 2000 -thread 2 0 -seed 42 \
+-n 100000000 -s 10000 -p 2000 -seed 42 \
 -wd ./reptilia/ -out _B_scaled_cbrt -j ${SLURM_ARRAY_TASK_ID}
