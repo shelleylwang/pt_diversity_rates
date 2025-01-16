@@ -1,0 +1,25 @@
+Section,Sampling Algorithm,Predictors,Preservation Model,Data Transformations,Clades,Replicates,Iterations,Sampling Every,Submitted?,Concluded?,Diagnostics,Graphed?,Notes
+"A. 1 Myr Time Bins, No Predictors",BDNN,None,TPP + Gamma,None,All,10,100 million,10 thousand,Yes,Yes,TBD,No,"Restored, needs to be concatenated"
+,RJMCMC,None,TPP + Gamma,None,All,10,100 million,10 thousand,Yes,Yes,TBD,Yes,
+,BDMCMC,None,TPP + Gamma,None,All,10,100 million,10 thousand,Yes,Yes,TBD,Yes,
+B. 1 Myr Time Bins + Predictors,BDNN,Latitude + Temp,TPP + Gamma,Standard Scaled ,All,10,100 million,10 thousand,Yes,Tem Only,TBD,No,"Restored, needs to be concatenated"
+,BDNN,Latitude + Temp,TPP + Gamma,Standard Scaled + Log,All,10,100 million,10 thousand,Yes,Tem Only,TBD,No,"Restored, needs to be concatenated"
+,BDNN,Latitude + Temp,TPP + Gamma,Standard Scaled + Boxcox,All,10,100 million,10 thousand,Yes,Tem Only,TBD,No,"Restored, needs to be concatenated"
+,BDNN,Latitude + Temp,TPP + Gamma,Standard Scaled + Cube Root,All,10,100 million,10 thousand,Yes,Tem Only,TBD,No,"Restored, needs to be concatenated"
+,BDNN,Latitude,TPP + Gamma,Standard Scaled,All,10,100 million,10 thousand,No,No,TBD,No,
+,CoVar RJMCMC,Latitude,TPP + Gamma,Standard Scaled,All,10,100 million,10 thousand,Yes,Yes,TBD,Yes,
+C. Stages + Predictors,BDNN,Latitude + Climate,TPP + Gamma,Standard Scaled,All,10,100 million,10 thousand,Yes,Yes,TBD,No,
+,BDNN,Latitude + Climate,TPP + Gamma,Standard Scaled + Boxcox,All,10,100 million,10 thousand,Yes,Yes,TBD,No,
+,BDNN,Latitude + Climate,TPP + Gamma,Minmax ,All,10,100 million,10 thousand,Yes,Yes,TBD,No,
+,BDNN,Latitude + Climate,TPP + Gamma,Minmax + Boxcox,All,10,100 million,10 thousand,Yes,Yes,TBD,No,
+,BDNN,Latitude,TPP + Gamma,Standard Scaled,All,10,100 million,10 thousand,No,No,TBD,No,
+,CoVar,Latitude,TPP + Gamma,Standard Scaled,All,10,100 million,10 thousand,Yes,Yes,TBD,No,
+,CoVar + MBD,Latitude + Climate,TPP + Gamma,"Standard Scaled, Horseshoe Prior + Exponential",All,10,100 million,10 thousand,Yes,Yes,TBD,Yes,Synapsida Replicate 5 marginal_rates error
+,CoVar + MBD,Latitude + Climate,TPP + Gamma,"Standard Scaled, Gamma Prior + Exponential",All,10,100 million,10 thousand,Yes,No,TBD,No,Synapsida Replicate 5 marginal_rates error
+,CoVar + MBD,Latitude + Climate,TPP + Gamma,"Standard Scaled, Gamma Prior + Linear",All,10,100 million,10 thousand,Yes,No,TBD,No,Synapsida Replicate 5 marginal_rates error
+"D. Stages, No Predictors",BDNN,None,TPP + Gamma,None,All,10,100 million,10 thousand,Yes,Yes,TBD,No,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+Key,,,,,,,,,,,,,
+Temp = 1 Myr Temp Data,,,,,,,,,,,,,
+Climate = Stages Environmental Variables (3),,,,,,,,,,,,,
