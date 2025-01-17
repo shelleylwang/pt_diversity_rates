@@ -1,4 +1,4 @@
-# BDNN_Arielli
+# Permian-Triassic Diversity Rates Analyses
 
 This project applies feed-forward neural networks to take time-series, discrete, and continuous fossil occurrence data, input it into a deep-learning model, and output extinction rates, speciation rates, sampling rates, times of rate shifts, etc. 
 
