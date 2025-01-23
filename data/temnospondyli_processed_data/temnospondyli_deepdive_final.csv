@@ -56,8 +56,6 @@ Arizona,2190,Anaschisma,227.0,208.5,1.3531,-47.1801,1
 Texas,2189,Anaschisma,237.0,208.5,-1.3878,-41.1268,1
 East Greenland,2188,Gerrothorax,227.0,208.5,40.0893,-9.3354,1
 East Greenland,2187,Cyclotosaurus,227.0,208.5,40.0893,-9.3354,1
-Kashmir,2186,Lysipterygium,298.9,290.1,-9999.0,-9999.0,1
-Kashmir,2185,Kashmirosaurus,298.9,290.1,-9999.0,-9999.0,1
 Oklahoma,2184,Nannospondylus,273.01,264.28,2.6894,-35.9903,1
 Oklahoma,2182,Fayella,273.01,264.28,2.6894,-35.9903,1
 Oklahoma,2183,Fayella,273.01,264.28,2.6894,-35.9903,1
@@ -1115,7 +1113,6 @@ Illinois,1126,Eumicrerpeton,309.8,307.4,3.8135,-29.3192,1
 New Mexico,1125,Milnererpeton,303.7,298.9,2.4804,-43.1405,1
 Illinois,1124,Amphibamus,309.8,307.4,3.8135,-29.3192,1
 Kansas,1123,Eoscopus,303.7,298.9,1.7029,-36.6404,1
-Castilla-La Manacha,1122,Iberospondylus,300.9,300.3,-9999.0,-9999.0,1
 Oklahoma,1121,Tersomius,290.1,283.5,-0.73,-37.6741,1
 New Mexico,1120,Ecolsonia,298.9,286.1,2.4804,-43.1405,1
 New Mexico,1119,Chenoprosopus,298.9,286.1,2.4804,-43.1405,1
@@ -1239,7 +1236,6 @@ Piaui,1001,Timonya,298.9,273.01,-33.9084,-13.7416,1
 Piaui,1000,Procuhy,298.9,273.01,-33.9084,-13.7416,1
 Rhineland-Palatinate,999,Eryops,298.9,290.1,13.1412,15.7725,1
 Rhineland-Palatinate,998,Palatinerpeton,298.9,290.1,13.1412,15.7725,1
-Kashmir,997,Lysipterygium,298.9,290.1,-9999.0,-9999.0,1
 Rhineland-Palatinate,995,Sclerocephalus,298.9,290.1,13.1412,15.7725,1
 Rhineland-Palatinate,994,Sclerocephalus,298.9,283.5,13.647,15.5968,1
 Rhineland-Palatinate,993,Sclerocephalus,298.9,293.52,13.1412,15.7725,1
@@ -1274,9 +1270,6 @@ Czechia,965,Cheliderpeton,298.9,283.5,16.6404,19.5629,1
 Saarland,964,Archegosaurus,298.9,293.52,13.1412,15.7725,1
 Rhineland-Palatinate,963,Archegosaurus,298.9,283.5,13.647,15.5968,1
 Rhineland-Palatinate,962,Archegosaurus,298.9,283.5,13.647,15.5968,1
-Jammu and Kashmir,961,Kashmirosaurus,273.01,266.9,-9999.0,-9999.0,1
-Kashmir,960,Kashmirosaurus,298.9,290.1,-9999.0,-9999.0,1
-Kashmir,959,Kashmirosaurus,298.9,290.1,-9999.0,-9999.0,1
 Rhineland-Palatinate,958,Glanochthon,298.9,293.52,13.1412,15.7725,1
 Saarland,957,Glanochthon,298.9,283.5,13.647,15.5968,1
 Rhineland-Palatinate,956,Glanochthon,298.9,283.5,13.647,15.5968,1
