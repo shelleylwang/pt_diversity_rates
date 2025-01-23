@@ -148,12 +148,6 @@ Namibia,4260,Mesosaurus,290.1,283.5,-57.634,-24.1868,1
 Queensland,4259,Grallator,227.0,208.5,-48.4091,123.5564,1
 Kirov,4258,Deltavjatia,264.28,259.51,44.3876,33.3665,1
 Tatarstan,4257,Scutosaurus,264.28,254.14,45.0092,37.7433,1
-Provence-Alpes-Cote d'Azur Region,4256,Neusticosaurus,247.2,237.0,-9999.0,-9999.0,1
-Provence-Alpes-Cote d'Azur Region,4255,Cymatosaurus,247.2,237.0,-9999.0,-9999.0,1
-Provence-Alpes-Cote d'Azur Region,4254,Termatosaurus,208.5,201.4,-9999.0,-9999.0,1
-Provence-Alpes-Cote d'Azur Region,4253,Ichthyosaurus,208.5,201.4,-9999.0,-9999.0,1
-Provence-Alpes-Cote d'Azur Region,4252,Termatosaurus,208.5,201.4,-9999.0,-9999.0,1
-Provence-Alpes-Cote d'Azur Region,4251,Ichthyosaurus,208.5,201.4,-9999.0,-9999.0,1
 Texas,4250,Bolosaurus,298.9,290.1,-2.7466,-38.9219,1
 La Rioja,4249,Zupaysaurus,227.0,208.5,-50.4972,-22.4201,1
 Nevada,4247,Omphalosaurus,247.2,237.0,17.3463,-49.8163,1
@@ -1370,7 +1364,6 @@ Oklahoma,3033,Captorhinikos,283.5,273.01,1.0593,-36.5887,1
 Oklahoma,3034,Captorhinikos,283.5,273.01,1.0593,-36.5887,1
 Oklahoma,3031,Captorhinikos,283.5,273.01,1.0593,-36.5887,1
 Miyagi,3030,Utatsusaurus,251.2,247.2,32.0407,152.6085,1
-Kaloleni,3029,Kenyasaurus,251.902,247.2,-9999.0,-9999.0,1
 Massachusetts,3024,Eubrontes,201.4,199.5,20.0114,-14.2092,1
 Switzerland,3023,Raeticodactylus,213.2,201.4,37.6253,13.0683,1
 Switzerland,3022,Caviramus,213.2,201.4,39.5102,15.2333,1
@@ -2867,7 +2860,6 @@ Opolskie,1456,Velocipes,227.0,208.5,38.39,14.6955,1
 Baden-Wurttemberg,1455,Tanystropheus,227.0,208.5,32.5932,9.3339,1
 Champagne-Ardenne,1454,Plesiosaurus,208.5,201.4,35.7836,10.8986,1
 Guizhou,1453,Guanlingsaurus,237.0,227.0,27.0113,118.5458,1
-Oregon,1452,Shastasaurus,227.0,208.5,-9999.0,-9999.0,1
 Somerset,1451,Temnodontosaurus,201.4,199.5,36.2945,10.4603,1
 Somerset,1450,Leptonectes,201.4,199.5,36.2945,10.4603,1
 England,1449,Plesiosaurus,208.5,201.4,35.9688,2.1884,1
@@ -2905,7 +2897,6 @@ Switzerland,1418,Contectopalatus,247.2,237.0,20.9379,22.0121,1
 Switzerland,1417,Mixosaurus,247.2,237.0,20.9379,22.0121,1
 Vares,1416,Tholodus,247.2,237.0,12.9243,20.6392,1
 Switzerland,1415,Besanosaurus,247.2,237.0,20.9379,22.0121,1
-California,1414,Californosaurus,237.0,227.0,-9999.0,-9999.0,1
 Switzerland,1413,Mikadocephalus,247.2,237.0,20.9379,22.0121,1
 Switzerland,1412,Wimanius,247.2,237.0,20.9379,22.0121,1
 British Columbia,1411,Hudsonelpidia,227.0,208.5,19.1131,-61.1649,1
@@ -2949,10 +2940,6 @@ Tatarstan,1364,Eorasaurus,264.28,259.51,43.046,36.2856,1
 Ruvuma,1363,Aenigmastropheus,259.51,254.14,-47.7841,17.7482,1
 San Juan,1362,Ignotosaurus,237.0,227.0,-52.0012,-29.5316,1
 San Juan,1361,Hyperodapedon,237.0,227.0,-52.0012,-29.5316,1
-California,1360,Nectosaurus,237.0,227.0,-9999.0,-9999.0,1
-California,1359,Nectosaurus,237.0,227.0,-9999.0,-9999.0,1
-California,1358,Shastasaurus,237.0,227.0,-9999.0,-9999.0,1
-California,1357,Thalattosaurus,237.0,227.0,-9999.0,-9999.0,1
 British Columbia,1356,Paralonectes,251.2,248.9,31.618,-40.9603,1
 British Columbia,1355,Paralonectes,251.2,248.9,31.618,-40.9603,1
 British Columbia,1354,Paralonectes,247.2,237.0,30.4196,-41.7441,1
@@ -3535,12 +3522,6 @@ Arkhangelsk,766,Nyctiphruretus,273.01,264.28,42.6876,20.3569,1
 Arkhangelsk,765,Bashkyroleter,273.01,264.28,42.6876,20.3569,1
 Arkhangelsk,764,Macroleter,273.01,264.28,42.6876,20.3569,1
 Northern Cape,763,Pareiasaurus,259.51,254.14,-60.8508,-19.3342,1
-California,762,Thalattosaurus,233.4,227.0,-9999.0,-9999.0,1
-California,761,Nectosaurus,233.4,227.0,-9999.0,-9999.0,1
-California,760,Nectosaurus,233.4,227.0,-9999.0,-9999.0,1
-California,759,Nectosaurus,237.0,227.0,-9999.0,-9999.0,1
-California,758,Nectosaurus,233.4,227.0,-9999.0,-9999.0,1
-California,757,Nectosaurus,233.4,227.0,-9999.0,-9999.0,1
 Grand Est,756,Simosaurus,242.0,237.0,24.2134,17.2823,1
 Bavaria,755,Plateosaurus,201.4,199.5,42.9649,19.49,1
 Gaume,754,Clevosaurus,208.5,201.4,37.5366,8.5285,1
@@ -3776,11 +3757,8 @@ Baden-Wurttemberg,515,Horaffia,239.7,237.0,27.7242,17.4803,1
 Baden-Wurttemberg,514,Horaffia,239.7,237.0,27.7242,17.4803,1
 Rio Grande do Sul,513,Erythrovenator,237.0,227.0,-49.4771,-10.0175,1
 Sachsen-Anhalt,512,Serpianosaurus,244.7,243.8,28.4265,19.2638,1
-California,511,Shastasaurus,237.0,227.0,-9999.0,-9999.0,1
-California,510,Shastasaurus,237.0,227.0,-9999.0,-9999.0,1
 Svalbard,509,Grippia,248.9,247.2,48.4578,0.5752,1
 Thailand,508,Thaisaurus,248.9,247.2,-10.6025,117.3256,1
-California,507,Californosaurus,237.0,227.0,-9999.0,-9999.0,1
 Nevada,506,Shonisaurus,227.0,216.7,7.8874,-52.1791,1
 Nevada,505,Shonisaurus,227.0,216.7,7.8874,-52.1791,1
 Svalbard,504,Pessopteryx,247.2,242.0,47.2969,-1.9218,1
@@ -3893,7 +3871,6 @@ Sonora,385,Toretocnemus,237.0,227.0,-1.4097,-51.0616,1
 Svalbard,384,Omphalosaurus,248.9,247.2,47.8035,-0.1441,1
 British Columbia,383,Phalarodon,251.2,248.9,31.618,-40.9603,1
 British Columbia,382,Phalarodon,251.2,248.9,31.618,-40.9603,1
-California,381,Nothosaurus,233.4,227.0,-9999.0,-9999.0,1
 England,380,Feralisaurus,247.2,242.0,21.0544,12.2826,1
 Israel,379,Psephosauriscus,244.7,243.8,-9.6503,31.2677,1
 Wales,378,Haligonia,208.5,201.4,35.9688,2.1884,1
@@ -4041,7 +4018,6 @@ Switzerland,233,Macrocnemus,243.8,239.7,22.3004,19.0343,1
 Switzerland,232,Lariosaurus,243.8,239.7,22.3004,19.0343,1
 Switzerland,231,Askeptosaurus,243.8,239.7,22.3004,19.0343,1
 Switzerland,230,Helveticosaurus,243.8,239.7,22.3004,19.0343,1
-California,229,Toretocnemus,233.4,227.0,-9999.0,-9999.0,1
 Agadez,228,Moradisaurus,259.51,251.902,-12.3838,5.057,1
 Guangxi,227,Baisesaurus,248.9,247.2,9.648,120.1408,1
 Switzerland,226,Plateosaurus,227.0,208.5,30.9826,11.6474,1

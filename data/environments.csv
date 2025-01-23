@@ -1,13 +1,13 @@
 environment,Reptilia,Synapsida,Temnospondyli
-terrestrial indet.,1578.0,2190.0,1177.0
-marine indet.,419.0,15.0,42.0
+terrestrial indet.,1578.0,2188.0,1177.0
+marine indet.,409.0,15.0,42.0
 fluvial-lacustrine indet.,292.0,71.0,64.0
 fissure fill,265.0,16.0,23.0
 """floodplain""",223.0,130.0,31.0
 fluvial indet.,148.0,174.0,329.0
-carbonate indet.,99.0,1.0,1.0
 lagoonal/restricted shallow subtidal,89.0,2.0,1.0
 offshore,89.0,,
+carbonate indet.,86.0,1.0,1.0
 lacustrine indet.,84.0,28.0,58.0
 lacustrine - large,84.0,1.0,18.0
 """channel""",83.0,10.0,175.0
@@ -18,7 +18,7 @@ shallow subtidal indet.,56.0,4.0,3.0
 paralic indet.,47.0,,1.0
 wet floodplain,41.0,57.0,7.0
 lacustrine - small,40.0,6.0,16.0
-coastal indet.,40.0,16.0,19.0
+coastal indet.,39.0,16.0,19.0
 basinal (carbonate),34.0,,
 peritidal,31.0,,1.0
 coarse channel fill,29.0,12.0,5.0
