@@ -19,6 +19,6 @@ module purge
 module load anaconda3/2024.2
 
 # Define command to run
-python ../PyRate/PyRate.py ./data/synapsidaa_processed_data/synapsidaa_pyrate_PyRate.py -A 0 \
+python ../PyRate/PyRate.py ./data/synapsida_processed_data/synapsida_pyrate_PyRate.py -A 0 \
 -qShift ./data/Time_bins_ByStages.txt -mG -n 200000000 -s 20000 -p 2000 \
--wd ./synapsidaa/mcmc_no_predictors -thread 2 0 -out _A_mcmc -j ${SLURM_ARRAY_TASK_ID} 
+-wd ./synapsida/mcmc_no_predictors -thread 2 0 -out _A_mcmc -j ${SLURM_ARRAY_TASK_ID} 
