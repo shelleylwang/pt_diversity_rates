@@ -1,6 +1,6 @@
 
 
-pdf(file='C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/synapsida/mcmc_predictors/B_covar/B_covar_syn_RTT_plots.pdf',width=10, height=15)
+pdf(file='C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/synapsida/mcmc_predictors/B_covar_rjmcmc/B_covar_syn_RTT_plots_TEST.pdf',width=10, height=15)
 par(mfrow=c(3,2), 
     oma=c(0,0,3,0),     # Increased top outer margin from 2 to 3
     mar=c(5,5,4,2)+0.1, # Increase plot margins for larger axis labels
