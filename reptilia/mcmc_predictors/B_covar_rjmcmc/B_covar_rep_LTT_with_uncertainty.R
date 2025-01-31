@@ -71,7 +71,7 @@ Path <- "C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/reptilia/mcmc_predictors
 # Number of replicates
 NumReplicates <- 10
 # Number of subsamples to be taken from each replicates' MCMC file
-ThinTo <- 10
+ThinTo <- 50
 # Burnin (% of each replicates' MCMC file to remove, i.e., number of rows to remove from the beginning of each MCMC file)
 Burnin <- 0.15
 # Optional translate time towards the past (positive) or the present (negative)
@@ -177,7 +177,7 @@ p2 <- ggplot(diversity_df[NotZero, ], aes(x = time)) +
     #             breaks = seq(300, 190, by = -10), ## original sign (not changed)
      #            labels = format_labels) +
   # Labels and theming come last
-  labs(title = "Reptilia Diversity Trajectory",
+  labs(title = "Reptilia Diversity Trajectory: CoVar (1Myr) RJMCMC",
        x = "Time (Ma)",
        y = "Number of Taxa") +
   theme_classic() +
@@ -190,7 +190,7 @@ p2 <- ggplot(diversity_df[NotZero, ], aes(x = time)) +
 grid.arrange(p2, ncol = 1)
 
 # Save to PDF
-pdf("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/reptilia/mcmc_predictors/B_covar_rjmcmc/B_covar_rjmcmc_rep_ltt_uncertainty.pdf", width = 20, height = 20)
+pdf("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/reptilia/mcmc_predictors/B_covar_rjmcmc/B_covar_rjmcmc_rep_LTT_uncertainty.pdf", width = 20, height = 20)
 grid.arrange(p2, ncol = 1)
 dev.off()
 

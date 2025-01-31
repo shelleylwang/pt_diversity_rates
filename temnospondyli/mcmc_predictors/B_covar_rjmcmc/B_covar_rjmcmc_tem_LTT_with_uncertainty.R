@@ -65,7 +65,7 @@ isNotZero <- function(x) {
   return(NotZero)
 }
 
-Path <- "C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/synapsida/mcmc_predictors/B_covar_rjmcmc"
+Path <- "C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/temnospondyli/mcmc_predictors/B_covar_rjmcmc"
 
 
 # Number of replicates
@@ -96,7 +96,7 @@ Ltt <- matrix(NA_real_, # Initializing with NA_real_values
 Counter <- 1
 for (i in 1:NumReplicates) { # For each of the 10 replicates, LOOP through the following
   McmcLog <- read.table(file.path(Path, # Read in MCMC log as a dataframe, where each row is an MCMC sample
-                                  paste0('synapsida_pyrate_', i,
+                                  paste0('temnospondyli_pyrate_', i,
                                          '_B_G_COVhprj_mcmc.log')),
                         header = TRUE, sep = '\t')
   
@@ -177,7 +177,7 @@ p2 <- ggplot(diversity_df[NotZero, ], aes(x = time)) +
     #             breaks = seq(300, 190, by = -10), ## original sign (not changed)
      #            labels = format_labels) +
   # Labels and theming come last
-  labs(title = "Synapsida Diversity Trajectory: CoVar (1Myr) RJMCMC",
+  labs(title = "Temnospondyli Diversity Trajectory: CoVar (1Myr) RJMCMC",
        x = "Time (Ma)",
        y = "Number of Taxa") +
   theme_classic() +
@@ -190,7 +190,7 @@ p2 <- ggplot(diversity_df[NotZero, ], aes(x = time)) +
 grid.arrange(p2, ncol = 1)
 
 # Save to PDF
-pdf("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/synapsida/mcmc_predictors/B_covar_rjmcmc/B_covar_rjmcmc_syn_LTT_uncertainty.pdf", width = 20, height = 20)
+pdf("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/temnospondyli/mcmc_predictors/B_covar_rjmcmc/B_covar_rjmcmc_tem_LTT_uncertainty.pdf", width = 20, height = 20)
 grid.arrange(p2, ncol = 1)
 dev.off()
 
