@@ -69,9 +69,9 @@ Path <- "C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/synapsida/mcmc_predictor
 
 
 # Number of replicates
-NumReplicates <- 2
+NumReplicates <- 10
 # Number of subsamples to be taken from each replicates' MCMC file
-ThinTo <- 100
+ThinTo <- 50
 # Burnin (% of each replicates' MCMC file to remove, i.e., number of rows to remove from the beginning of each MCMC file)
 Burnin <- 0.15
 # Optional translate time towards the past (positive) or the present (negative)
@@ -97,7 +97,7 @@ Counter <- 1
 for (i in 1:NumReplicates) { # For each of the 10 replicates, LOOP through the following
   McmcLog <- read.table(file.path(Path, # Read in MCMC log as a dataframe, where each row is an MCMC sample
                                   paste0('synapsida_pyrate_', i,
-                                         '"_B"_G_COVhprj_mcmc.log')),
+                                         '_B_G_COVhprj_mcmc.log')),
                         header = TRUE, sep = '\t')
   
   McmcLog <- removeBurnin(McmcLog, Burnin = Burnin) # Remove burn in with function
@@ -177,7 +177,7 @@ p2 <- ggplot(diversity_df[NotZero, ], aes(x = time)) +
     #             breaks = seq(300, 190, by = -10), ## original sign (not changed)
      #            labels = format_labels) +
   # Labels and theming come last
-  labs(title = "Reptilia Diversity Trajectory",
+  labs(title = "Synapsida Diversity Trajectory: CoVar (1Myr) RJMCMC",
        x = "Time (Ma)",
        y = "Number of Taxa") +
   theme_classic() +
@@ -190,7 +190,7 @@ p2 <- ggplot(diversity_df[NotZero, ], aes(x = time)) +
 grid.arrange(p2, ncol = 1)
 
 # Save to PDF
-pdf("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/synapsida/mcmc_predictors/B_covar_rjmcmc/B_covar_rjmcmc_syn_ltt_uncertainty.pdf", width = 20, height = 20)
+pdf("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/synapsida/mcmc_predictors/B_covar_rjmcmc/B_covar_rjmcmc_syn_LTT_uncertainty.pdf", width = 20, height = 20)
 grid.arrange(p2, ncol = 1)
 dev.off()
 
