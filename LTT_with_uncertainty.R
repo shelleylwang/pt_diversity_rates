@@ -1,15 +1,82 @@
-library(coda)
-library(ggplot2)
-library(gridExtra)
-library(deeptime)
+#!/usr/bin/env Rscript
 
-setwd("c:/Users/SimoesLabAdmin/Documents/BDNN_Arielli")
+# Load required libraries with suppressed startup messages for cleaner output
+suppressPackageStartupMessages({
+  library(coda)      # For statistical analysis
+  library(ggplot2)   # For plotting
+  library(gridExtra) # For plot arrangement
+  library(deeptime)  # For geological time scale visualization
+})
 
+# Helper function to monitor memory usage throughout script execution
+monitor_memory <- function() {
+  mem_used <- gc()  # Force garbage collection and get memory stats
+  cat(sprintf("Memory used: %.2f MB\n", mem_used[2,2] * 0.000001))
+}
+
+# Function to parse and validate command line arguments
+parse_args <- function() {
+  args <- commandArgs(trailingOnly = TRUE)
+  
+  # Initialize default values for all possible parameters
+  params <- list(
+    path = ".",
+    num_replicates = 10,
+    thin_to = 50,
+    burnin = 0.15,
+    translate = 0,
+    output = "diversity_trajectory.pdf",
+    title = "Diversity Trajectory",
+    prefix = "reptilia_pyrate_",
+    file_pattern = "_G_COVhp_BDS_mcmc.log"
+  )
+  
+  # Parse command line arguments
+  i <- 1
+  while (i <= length(args)) {
+    if (args[i] == "-p") {
+      params$path <- args[i + 1]
+      i <- i + 2
+    } else if (args[i] == "-n") {
+      params$num_replicates <- as.integer(args[i + 1])
+      i <- i + 2
+    } else if (args[i] == "-t") {
+      params$thin_to <- as.integer(args[i + 1])
+      i <- i + 2
+    } else if (args[i] == "-b") {
+      params$burnin <- as.numeric(args[i + 1])
+      i <- i + 2
+    } else if (args[i] == "-tr") {
+      params$translate <- as.numeric(args[i + 1])
+      i <- i + 2
+    } else if (args[i] == "-o") {
+      params$output <- args[i + 1]
+      i <- i + 2
+    } else if (args[i] == "--title") {
+      params$title <- args[i + 1]
+      i <- i + 2
+    } else if (args[i] == "--prefix") {
+      params$prefix <- args[i + 1]
+      i <- i + 2
+    } else if (args[i] == "--file-pattern") {
+      params$file_pattern <- args[i + 1]
+      i <- i + 2
+    } else {
+      warning(paste("Unknown argument:", args[i]))
+      i <- i + 1
+    }
+  }
+  
+  return(params)
+}
+
+# Helper function to remove burn-in period from MCMC samples
 removeBurnin <- function(L, Burnin) {
   L <- L[-c(1:round(nrow(L) * Burnin)), ]
   return(L)
 }
 
+# Helper function to thin MCMC samples
 applyThin <- function(L, Thin = 0) {
   if (Thin > 0) {
     N <- nrow(L)
@@ -18,38 +85,39 @@ applyThin <- function(L, Thin = 0) {
   }
   return(L)
 }
- # Function to calculate the Lineage Through Time curve
+
+# Function to calculate lineage through time values
 getLtt <- function(Ts, Te, TimeVec) {
-  Ts <- unlist(Ts) # Convert Ts to a vector
+  Ts <- unlist(Ts)
   Te <- unlist(Te)
-  ChangeTe <- rep(-1, length(Te)) # Initialize a vector of -1s with the same length as the number of extinction times. Each -1 = death of a lineage
-  ChangeTe[Te == 0.0] <- 0 # If the extinction time is 0, set the corresponding value in ChangeTe to 0, which means the lineage is still alive
-  Change <- c(rep(1, length(Ts)), ChangeTe) # Concatenate vectors of 1s (addition of a lineage) and -1s or 0's (extinction of a lineage) into one vector
-  Times <- c(Ts, Te) # Concatenate vectors of speciation and extinction times
-  Ord <- order(Times, decreasing = TRUE) # Order the times in descending order
-  Change <- Change[Ord] # Reorder the changes in lineages according to the ordered times
-  Times <- Times[Ord] # Reorder the times
-  Lineages <- cumsum(Change) # Calculate the cumulative sum of the changes in lineages  = the number of lineages at each time point
-  Out <- approx(x = rev(Times), # Interpolate the number of lineages at each time point in TimeVec
-                # x = time points in ascending order
-                y = rev(Lineages),# The number of lineages at each time point
-                xout = TimeVec,# The time points at which the LTT curve will be calculated
-                method = 'constant', # Interpolation method
-                yright = 0)$y # Value to return if xout is greater than the maximum x value
+  ChangeTe <- rep(-1, length(Te))
+  ChangeTe[Te == 0.0] <- 0
+  Change <- c(rep(1, length(Ts)), ChangeTe)
+  Times <- c(Ts, Te)
+  Ord <- order(Times, decreasing = TRUE)
+  Change <- Change[Ord]
+  Times <- Times[Ord]
+  Lineages <- cumsum(Change)
+  Out <- approx(x = rev(Times),
+                y = rev(Lineages),
+                xout = TimeVec,
+                method = 'constant',
+                yright = 0)$y
   return(Out)
 }
 
-# Get credible interval
+# Function to calculate highest posterior density intervals
 getHPD <- function(x, Prob = 0.95) {
   if (sum(!is.na(x)) > 1) {
-    Out <- HPDinterval(as.mcmc(x), prob = Prob)[1:2] # function from the coda library
+    Out <- HPDinterval(as.mcmc(x), prob = Prob)[1:2]
   }
   else {
     Out <- c(NA, NA)
   }
-  return(Out) 
+  return(Out)
 }
 
+# Function to identify non-zero regions in the data
 isNotZero <- function(x) {
   L <- length(x)
   NotZero <- rep(TRUE, L)
@@ -65,68 +133,97 @@ isNotZero <- function(x) {
   return(NotZero)
 }
 
-Path <- "C:\\Users\\SimoesLabAdmin\\Documents\\BDNN_Arielli\\synapsida\\mcmc_no_predictors\\RJMCMC"
+# Parse command line arguments
+args <- parse_args()
 
-# Number of replicates
-NumReplicates <- 10
-# Number of subsamples to be taken from each replicates' MCMC file
-ThinTo <- 100
-# Burnin (% of each replicates' MCMC file to remove, i.e., number of rows to remove from the beginning of each MCMC file)
-Burnin <- 0.15
-# Optional translate time towards the past (positive) or the present (negative)
-Translate <- 0
-
-# Time steps of the LTT, i.e. the time points at which the LTT curve will be calculated
-# The LTT curve is a plot of the number of lineages through time
-# The later functions will calculate the number of lineages that exist at 190, then at 190.01, then at 190.02, etc.
+# Define time vector for LTT calculation
 TimeVecLtt <- seq(300, 190, by = -0.01)
 
-# Matrix to get the LTT for the MCMC samples
-Ltt <- matrix(NA_real_, # Initializing with NA_real_values
-              ncol = NumReplicates * ThinTo, # Columns = the number of replicates * the number of subsamples taken from each replicate
-              # So each column is one MCMC sample for one replicate. There will be first rep's 100 samps, them the next rep's 100 samps, etc.
-              nrow = length(TimeVecLtt)) # Number of rows is the length of TimeVecLtt (the # of time points in the LTT curve)
-              # Each row is one time point, the count of lineages across every sample from every replicate
-# So this matrix will be = 
-# At each x value of the graph (one row), the number of lineages at that time for each of the 10 replicates
-# And each MCMC sample (column), the LTT curve for that specific sample of that specific replicate (its # lineages through time)
+# Perform initial validation checks
+cat("Validation checks:\n")
 
-
-Counter <- 1
-for (i in 1:NumReplicates) { # For each of the 10 replicates, LOOP through the following
-  McmcLog <- read.table(file.path(Path, # Read in MCMC log as a dataframe, where each row is an MCMC sample
-                                  paste0('synapsida_pyrate_', i,
-                                         '_Grj_mcmc.log')),
-                        header = TRUE, sep = '\t')
-
-  McmcLog <- removeBurnin(McmcLog, Burnin = Burnin) # Remove burn in with function
-  McmcLog <- applyThin(McmcLog, Thin = ThinTo) # Thin MCMC log with function
-  
-  ColnamesLog <- colnames(McmcLog)
-  IdxTs <- grepl('_TS', ColnamesLog) # All column names that end with '_TS' (time of speciation) are identified as start times
-  IdxTe <- grepl('_TE', ColnamesLog) # All column names that end with '_TE' (time of extinction) are identified as end times
-  for (j in 1:nrow(McmcLog)){ # Another loop, iterating over the rows of the thinned McmcLog dataframe. where each row is a thinned MCMC sample
-    Ltt[, Counter] <- getLtt(Ts = McmcLog[j, IdxTs] + Translate, # Extract each lineage's ts and te from the jth row of the thinned MCMC log
-                             Te = McmcLog[j, IdxTe] + Translate,
-                             TimeVecLtt) #getLtt calcuates the LTT curve for the jth MCMC sample (which = one column for the resulting Ltt matrix))
-    Counter <- Counter + 1
+# Check for missing files
+missing_files <- c()
+for (i in 1:args$num_replicates) {
+  filename <- file.path(args$path,
+                        paste0(args$prefix, i, args$file_pattern))
+  if (!file.exists(filename)) {
+    missing_files <- c(missing_files, filename)
   }
 }
+if (length(missing_files) > 0) {
+  stop(sprintf("Missing files:\n%s", paste(missing_files, collapse="\n")))
+}
 
-# 95 and 75% credible interval
-LttCI95 <- apply(Ltt, 1, function(x) getHPD(x)) # use Ltt matrix (all Ltt curves for all MCMC samples for all replicates), use apply()
-# to iterate over all rows and get the 95% HPD interval for each row (each time point in the LTT curve)
+# Calculate and report memory requirements
+points_per_curve <- length(TimeVecLtt)
+total_curves <- args$num_replicates * args$thin_to
+estimated_memory_mb <- (points_per_curve * total_curves * 8) / (1024^2)
+
+cat(sprintf("Time points per curve: %d\n", points_per_curve))
+cat(sprintf("Total curves to generate: %d\n", total_curves))
+cat(sprintf("Estimated memory requirement: %.2f MB\n", estimated_memory_mb))
+
+if (estimated_memory_mb > 1000) {  # Warning if over 1GB
+  warning(sprintf("This operation may require %.2f GB of memory", estimated_memory_mb/1024))
+  readline("Press Enter to continue or Ctrl+C to abort...")
+}
+
+# Initialize matrix for LTT curves
+Ltt <- matrix(NA_real_,
+              ncol = args$num_replicates * args$thin_to,
+              nrow = length(TimeVecLtt))
+
+# Process MCMC samples
+Counter <- 1
+cat("Starting MCMC processing...\n")
+monitor_memory()
+
+for (i in 1:args$num_replicates) {
+  cat(sprintf("\nProcessing replicate %d of %d\n", i, args$num_replicates))
+  
+  filename <- file.path(args$path,
+                        paste0(args$prefix, i, args$file_pattern))
+  
+  cat(sprintf("Reading file: %s\n", filename))
+  McmcLog <- read.table(filename, header = TRUE, sep = '\t')
+  cat(sprintf("Read %d rows from MCMC log\n", nrow(McmcLog)))
+  
+  McmcLog <- removeBurnin(McmcLog, Burnin = args$burnin)
+  cat(sprintf("After burnin: %d rows\n", nrow(McmcLog)))
+  
+  McmcLog <- applyThin(McmcLog, Thin = args$thin_to)
+  cat(sprintf("After thinning: %d rows\n", nrow(McmcLog)))
+  
+  monitor_memory()
+  
+  ColnamesLog <- colnames(McmcLog)
+  IdxTs <- grepl('_TS', ColnamesLog)
+  IdxTe <- grepl('_TE', ColnamesLog)
+  
+  cat("Processing individual MCMC samples...\n")
+  for (j in 1:nrow(McmcLog)) {
+    if (j %% 10 == 0) {  # Show progress every 10 samples
+      cat(sprintf("\rProcessing sample %d of %d", j, nrow(McmcLog)))
+    }
+    
+    Ltt[, Counter] <- getLtt(Ts = McmcLog[j, IdxTs] + args$translate,
+                             Te = McmcLog[j, IdxTe] + args$translate,
+                             TimeVecLtt)
+    Counter <- Counter + 1
+  }
+  cat("\n")  # New line after sample processing
+}
+
+# Calculate credible intervals
+LttCI95 <- apply(Ltt, 1, function(x) getHPD(x))
 LttCI75 <- apply(Ltt, 1, function(x) getHPD(x, Prob = 0.75))
-
-# Mean diversity
 LttMean <- rowMeans(Ltt, na.rm = TRUE)
-
-# For plotting, identify time steps where we have diversity > 0
 NotZero <- isNotZero(LttCI95[2, ])
 
-# Create data frame for diversity trajectory
+# Create data frame for plotting
 diversity_df <- data.frame(
-  time = -TimeVecLtt, ## changed to negs
+  time = -TimeVecLtt,
   mean_diversity = LttMean,
   lower_95 = LttCI95[1, ],
   upper_95 = LttCI95[2, ],
@@ -134,63 +231,54 @@ diversity_df <- data.frame(
   upper_75 = LttCI75[2, ]
 )
 
-# Function to format axis labels without negative signs
+# Format axis labels
 format_labels <- function(x) {
   return(sprintf("%.0f", abs(x)))
 }
 
-# Plot diversity trajectory with ggplot2
-
+# Create plot
 p2 <- ggplot(diversity_df[NotZero, ], aes(x = time)) +
-  # First define the basic data representation layers
   geom_step(aes(y = mean_diversity), color = 'purple', size = 1) +
-  geom_ribbon(aes(ymin = lower_95, ymax = upper_95), fill = adjustcolor('purple', alpha = 0.15)) +
-  geom_ribbon(aes(ymin = lower_75, ymax = upper_75), fill = adjustcolor('purple', alpha = 0.15)) +
-  
-  
-  # # Coordinate system and geological time scale
-  # coord_geo(xlim = c(300, 190), expand = FALSE, clip = "on",
-  #           dat = list("epochs", "periods"), abbrv = list(TRUE, FALSE), 
-  #           pos = list("bottom", "bottom"), alpha = 1, height = unit(2, "line"),
-  #           rot = 0, size = list(6, 5), neg = TRUE) +
-  # Add geological time scale using coord_geo from deeptime
-  coord_geo(xlim = c(-300, -190), expand = FALSE, clip = "on", ## changed to negs
-           dat = list("international epochs", "international periods"), 
-           abbrv = list(TRUE, FALSE), 
-           pos = list("bottom", "bottom"), 
-           alpha = 1, 
-           height = unit(2, "line"),
-           rot = 0, 
-           size = list(6, 5), 
-           neg = T) +
-  
-  # Add reference lines for key geological boundaries
-  geom_vline(xintercept = c(-65, -200, -251, -367, -445), ## changed to negs
-             linetype = "dashed", color = "gray") +
-  
-  # Scale transformation with formatted labels
+  geom_ribbon(aes(ymin = lower_95, ymax = upper_95), 
+              fill = adjustcolor('purple', alpha = 0.15)) +
+  geom_ribbon(aes(ymin = lower_75, ymax = upper_75), 
+              fill = adjustcolor('purple', alpha = 0.15)) +
+  coord_geo(xlim = c(-300, -190), 
+            expand = FALSE, 
+            clip = "on",
+            dat = list("international epochs", "international periods"),
+            abbrv = list(TRUE, FALSE),
+            pos = list("bottom", "bottom"),
+            alpha = 1,
+            height = unit(2, "line"),
+            rot = 0,
+            size = list(6, 5),
+            neg = TRUE) +
+  geom_vline(xintercept = c(-65, -200, -251, -367, -445),
+             linetype = "dashed", 
+             color = "gray") +
   scale_x_continuous(limits = c(-300, -190),
                      breaks = seq(-300, -190, by = 10),
                      labels = format_labels) +
-  # scale_x_reverse(limits = c(300, 190), 
-    #             breaks = seq(300, 190, by = -10), ## original sign (not changed)
-     #            labels = format_labels) +
-  # Labels and theming come last
-  labs(title = "Synapsida Diversity Trajectory",
+  labs(title = args$title,
        x = "Time (Ma)",
        y = "Number of Taxa") +
   theme_classic() +
   theme(plot.margin = unit(c(2, 1, 1, 1), "cm"),
-        plot.title = element_text(size = 32, face = "bold", hjust = 0.5, margin = margin(b = 30)),
-        axis.title = element_text(size = 24, face = "bold", margin = margin(t = 20, r = 20, b = 20, l = 20)),
+        plot.title = element_text(size = 32, 
+                                  face = "bold", 
+                                  hjust = 0.5, 
+                                  margin = margin(b = 30)),
+        axis.title = element_text(size = 24, 
+                                  face = "bold", 
+                                  margin = margin(t = 20, r = 20, b = 20, l = 20)),
         axis.text = element_text(size = 20, face = "bold"))
 
-# Display plot in RStudio
-grid.arrange(p2, ncol = 1)
-
-# Save to PDF
-pdf("C:\\Users\\SimoesLabAdmin\\Documents\\BDNN_Arielli\\synapsida\\mcmc_no_predictors\\RJMCMC\\synapsida_ltt_uncertainty.pdf", width = 20, height = 20)
+# Save the plot to PDF in the specified directory
+output_path <- file.path(args$path, args$output)
+pdf(output_path, width = 20, height = 20)
 grid.arrange(p2, ncol = 1)
 dev.off()
 
-
+# Print completion message with full path
+cat(sprintf("Analysis complete. Plot saved to: %s\n", output_path))
