@@ -18,9 +18,37 @@ monitor_memory <- function() {
 parse_args <- function() {
   args <- commandArgs(trailingOnly = TRUE)
   
+  # Show help if requested
+  if (length(args) == 0 || "-h" %in% args || "--help" %in% args) {
+    cat("Usage: Rscript LTT_with_uncertainty.R [options]
+    
+Options:
+  -h, --help            Show this help message and exit
+  -p PATH               Path to directory containing MCMC files (default: '.')
+  -n NUM_REPLICATES     Number of MCMC replicates to process (default: 10)
+  -t THIN_TO            Thin each MCMC log's samples to this number (default: 50)
+  -b BURNIN             Proportion of samples to discard as burnin (default: 0.15)
+  -tr TRANSLATE         Time translation value in Ma (default: 0). 
+                        Use this if the -translate argument was used in the original PyRate run. 
+                        It should = the negative of the PyRate -translate argument value 
+  -o OUTPUT             Output PDF filename (default: 'diversity_trajectory.pdf')
+  --title TITLE         Plot title (default: 'Diversity Trajectory')
+  --prefix PREFIX       File prefix for MCMC files (default: 'reptilia_pyrate_')
+  --file-pattern PAT    File suffix pattern (default: '_G_COVhp_BDS_mcmc.log')
+
+Example:
+  Rscript LTT_with_uncertainty.R -p ./mcmc_results -n 5 -t 20 -b 0.2 -o results.pdf
+
+Note: 
+  - Burnin should be between 0 and 1
+  - Thin_to should be greater than 0
+  - Num_replicates should be greater than 0\n")
+    quit(save = "no", status = 0)
+  }
+  
   # Initialize default values for all possible parameters
   params <- list(
-    path = ".",
+    path = ".", # Current Directory
     num_replicates = 10,
     thin_to = 50,
     burnin = 0.15,
