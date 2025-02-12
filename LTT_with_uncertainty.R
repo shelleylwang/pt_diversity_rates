@@ -277,7 +277,7 @@ p2 <- ggplot(diversity_df[NotZero, ], aes(x = time)) +
               fill = adjustcolor('purple', alpha = 0.15)) +
   geom_ribbon(aes(ymin = lower_75, ymax = upper_75), 
               fill = adjustcolor('purple', alpha = 0.15)) +
-  coord_geo(xlim = c(-300, -190), 
+  coord_geo(xlim = c(-320, -190), 
             expand = FALSE, 
             clip = "on",
             dat = list("international epochs", "international periods"),
@@ -291,8 +291,8 @@ p2 <- ggplot(diversity_df[NotZero, ], aes(x = time)) +
   geom_vline(xintercept = c(-65, -200, -251, -367, -445),
              linetype = "dashed", 
              color = "gray") +
-  scale_x_continuous(limits = c(-300, -190),
-                     breaks = seq(-300, -190, by = 10),
+  scale_x_continuous(limits = c(-320, -190),
+                     breaks = seq(-320, -190, by = 10),
                      labels = format_labels) +
   labs(title = args$title,
        x = "Time (Ma)",
