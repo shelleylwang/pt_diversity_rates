@@ -1,5 +1,11 @@
 #!/usr/bin/env Rscript
 
+### Example Usage:
+### Rscript LTT_with_uncertainty.R -p ./reptilia/mcmc_predictors/B_covar_mcmc 
+### -n 10 -t 100 -b 0.15 -o reptilia_B_covar_mcmc_ltt_with_uncertainty.pdf
+### --title "Reptilia diversity Trajectory" --prefix "reptilia_pyrate"
+### --file-pattern "_G_COVhp_BDS_mcmc.log"
+
 # Load required libraries with suppressed startup messages for cleaner output
 suppressPackageStartupMessages({
   library(coda)      # For statistical analysis
