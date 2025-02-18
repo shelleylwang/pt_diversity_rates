@@ -36,26 +36,26 @@ python ../PyRate/PyRate.py ./data/temnospondyli_processed_data/temnospondyli_pyr
 
 # Cbrt reps 2, 3, 9
 python ../PyRate/PyRate.py ./data/temnospondyli_processed_data/temnospondyli_pyrate_PyRate.py -BDNNmodel 1 \
--restore_mcmc ./temnospondyli/mcmc_predictors/B_bdnn_stdscaled_cbrt/temnospondyli_pyrate_2_B_stdscaled_cbrt_G_BDS_BDNN_16_8TVc_mcmc.log \
+-restore_mcmc ./temnospondyli/mcmc_predictors/B_bdnn_stdscaled_cbrt/temnospondyli_pyrate_2_B_stdscaled_cbrt_G_BDS_BDNN_16_8TVc_mcmc_CONCAT.log \
 -qShift ./data/Time_bins_ByStages.txt -mG -translate -175.0 \
 -trait_file ./data/temnospondyli_processed_data/temnospondyli_bdnn_trait_file.txt -BDNNtimevar ./data/1myr_temp_data/1myr_temp_scaled_cbrt.txt \
--n 20000000 -s 10000 -p 2000 -seed 42 \
+-n 80000000 -s 10000 -p 2000 -seed 42 \
 -wd ./temnospondyli/mcmc_predictors/B_bdnn_stdscaled_cbrt/ -out _B_stdscaled_cbrt_rerestorations_again -j 2 &
 
 
 python ../PyRate/PyRate.py ./data/temnospondyli_processed_data/temnospondyli_pyrate_PyRate.py -BDNNmodel 1 \
--restore_mcmc ./temnospondyli/mcmc_predictors/B_bdnn_stdscaled_cbrt/temnospondyli_pyrate_3_B_stdscaled_cbrt_G_BDS_BDNN_16_8TVc_mcmc.log \
+-restore_mcmc ./temnospondyli/mcmc_predictors/B_bdnn_stdscaled_cbrt/temnospondyli_pyrate_3_B_stdscaled_cbrt_G_BDS_BDNN_16_8TVc_mcmc_CONCAT.log \
 -qShift ./data/Time_bins_ByStages.txt -mG -translate -175.0 \
 -trait_file ./data/temnospondyli_processed_data/temnospondyli_bdnn_trait_file.txt -BDNNtimevar ./data/1myr_temp_data/1myr_temp_scaled_cbrt.txt \
--n 20000000 -s 10000 -p 2000 -seed 42 \
+-n 80000000 -s 10000 -p 2000 -seed 42 \
 -wd ./temnospondyli/mcmc_predictors/B_bdnn_stdscaled_cbrt/ -out _B_stdscaled_cbrt_rerestorations_again -j 3 &
 
 
 python ../PyRate/PyRate.py ./data/temnospondyli_processed_data/temnospondyli_pyrate_PyRate.py -BDNNmodel 1 \
--restore_mcmc ./temnospondyli/mcmc_predictors/B_bdnn_stdscaled_cbrt/temnospondyli_pyrate_9_B_stdscaled_cbrt_G_BDS_BDNN_16_8TVc_mcmc.log \
+-restore_mcmc ./temnospondyli/mcmc_predictors/B_bdnn_stdscaled_cbrt/temnospondyli_pyrate_9_B_stdscaled_cbrt_G_BDS_BDNN_16_8TVc_mcmc_CONCAT.log \
 -qShift ./data/Time_bins_ByStages.txt -mG -translate -175.0 \
 -trait_file ./data/temnospondyli_processed_data/temnospondyli_bdnn_trait_file.txt -BDNNtimevar ./data/1myr_temp_data/1myr_temp_scaled_cbrt.txt \
--n 10000000 -s 10000 -p 2000 -seed 42 \
+-n 90000000 -s 10000 -p 2000 -seed 42 \
 -wd ./temnospondyli/mcmc_predictors/B_bdnn_stdscaled_cbrt/ -out _B_stdscaled_cbrt_rerestorations_again -j 9 &
 
 
