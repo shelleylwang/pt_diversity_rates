@@ -1,6 +1,7 @@
 #!/bin/bash
 #SBATCH --job-name=A_bdmcmc_all_corrected_restored          # Job name
 #SBATCH --mem-per-cpu=500MB                # Memory per CPU core (adjust if needed)
+#SBATCH --ntasks=16                        # Number of tasks
 #SBATCH --time=6-00:00:00               # Time limit, e.g., 1 day and 1 hour
 #SBATCH --mail-type=begin               # Send email when job begins
 #SBATCH --mail-type=end                 # Send email when job ends
