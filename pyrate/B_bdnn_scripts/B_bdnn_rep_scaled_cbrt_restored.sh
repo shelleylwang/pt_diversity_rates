@@ -18,7 +18,7 @@ module purge
 module load anaconda3/2024.2
 
 python ../PyRate/PyRate.py ./data/reptilia_processed_data/reptilia_pyrate_PyRate.py -BDNNmodel 1 \
--restore_mcmc ./reptilia/mcmc_predictors/B_bdnn_stdscaled_cbrt/reptilia_pyrate_${SLURM_ARRAY_TASK_ID}_B_stdscaled_cbrt_G_BD1-1_BDNN_16_8TVc_mcmc.log \
+-restore_mcmc ./reptilia/mcmc_predictors/B_bdnn_stdscaled_cbrt/reptilia_pyrate_${SLURM_ARRAY_TASK_ID}_B_scaled_cbrt_G_BD1-1_BDNN_16_8TVc_mcmc.log \
 -qShift ./data/Time_bins_ByStages.txt -mG -translate -175.0 \
 -trait_file ./data/reptilia_processed_data/reptilia_bdnn_trait_file.txt -BDNNtimevar ./data/1myr_temp_data/1myr_temp_scaled_cbrt.txt \
 -n 100000000 -s 10000 -p 2000 -seed 42 \
