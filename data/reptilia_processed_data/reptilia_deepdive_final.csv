@@ -48,8 +48,8 @@ England,UK,4366,Clevosaurus,237.0,227.0,24.9561,4.3648,3
 England,UK,4365,Terrestrisuchus,237.0,227.0,24.9561,4.3648,3
 England,UK,4364,Diphydontosaurus,237.0,227.0,24.9561,4.3648,3
 Texas,US,4363,Trilophosaurus,227.0,208.5,-1.4701,-41.4649,4
-La Rioja,AR,4362,Lewisuchus,242.0,237.0,-49.9808,-33.9335,4
-La Rioja,AR,4361,Lagerpeton,242.0,237.0,-49.9808,-33.9335,4
+La Rioja,AR,4362,Lewisuchus,242.0,237.0,-49.9808,-33.9335,1
+La Rioja,AR,4361,Lagerpeton,242.0,237.0,-49.9808,-33.9335,1
 Texas,US,4359,Postosuchus,227.0,208.5,-1.4701,-41.4649,4
 Texas,US,4360,Postosuchus,227.0,208.5,-1.4701,-41.4649,4
 Texas,US,4358,Desmatosuchus,227.0,208.5,-1.4701,-41.4649,4
@@ -72,24 +72,24 @@ Sachsen-Anhalt,DE,4341,Liliensternus,208.5,201.4,42.7067,10.1418,3
 Sachsen-Anhalt,DE,4340,Elachistosuchus,208.5,201.4,42.7067,10.1418,3
 Texas,US,4338,Captorhinus,283.5,273.01,1.0593,-36.5887,4
 Texas,US,4339,Captorhinus,283.5,273.01,1.0593,-36.5887,4
-San Juan,AR,4336,Eoraptor,237.0,227.0,-52.0012,-29.5316,4
-San Juan,AR,4337,Eoraptor,237.0,227.0,-52.0012,-29.5316,4
-San Juan,AR,4335,Herrerasaurus,237.0,227.0,-52.0012,-29.5316,4
-San Juan,AR,4334,Saurosuchus,237.0,227.0,-52.0012,-29.5316,4
-San Juan,AR,4333,Aetosauroides,237.0,227.0,-52.0012,-29.5316,4
-San Juan,AR,4332,Herrerasaurus,237.0,227.0,-52.0012,-29.5316,4
+San Juan,AR,4336,Eoraptor,237.0,227.0,-52.0012,-29.5316,1
+San Juan,AR,4337,Eoraptor,237.0,227.0,-52.0012,-29.5316,1
+San Juan,AR,4335,Herrerasaurus,237.0,227.0,-52.0012,-29.5316,1
+San Juan,AR,4334,Saurosuchus,237.0,227.0,-52.0012,-29.5316,1
+San Juan,AR,4333,Aetosauroides,237.0,227.0,-52.0012,-29.5316,1
+San Juan,AR,4332,Herrerasaurus,237.0,227.0,-52.0012,-29.5316,1
 England,UK,4331,Terrestrisuchus,237.0,227.0,24.9561,4.3648,3
 England,UK,4330,Agnosphitys,237.0,227.0,24.9561,4.3648,3
-La Rioja,AR,4329,Luperosuchus,242.0,237.0,-49.9808,-33.9335,4
-La Rioja,AR,4328,Lagerpeton,242.0,237.0,-49.9808,-33.9335,4
-La Rioja,AR,4327,Chanaresuchus,242.0,237.0,-49.9808,-33.9335,4
-La Rioja,AR,4326,Gualosuchus,242.0,237.0,-49.9808,-33.9335,4
-La Rioja,AR,4325,Gracilisuchus,242.0,237.0,-49.9808,-33.9335,4
-La Rioja,AR,4324,Marasuchus,242.0,237.0,-49.9808,-33.9335,4
-La Rioja,AR,4323,Lewisuchus,242.0,237.0,-49.9808,-33.9335,4
-La Rioja,AR,4322,Tropidosuchus,242.0,237.0,-49.9808,-33.9335,4
-La Rioja,AR,4321,Tarjadia,242.0,237.0,-49.9808,-33.9335,4
-La Rioja,AR,4320,Pisanosaurus,237.0,227.0,-52.0012,-29.5316,4
+La Rioja,AR,4329,Luperosuchus,242.0,237.0,-49.9808,-33.9335,1
+La Rioja,AR,4328,Lagerpeton,242.0,237.0,-49.9808,-33.9335,1
+La Rioja,AR,4327,Chanaresuchus,242.0,237.0,-49.9808,-33.9335,1
+La Rioja,AR,4326,Gualosuchus,242.0,237.0,-49.9808,-33.9335,1
+La Rioja,AR,4325,Gracilisuchus,242.0,237.0,-49.9808,-33.9335,1
+La Rioja,AR,4324,Marasuchus,242.0,237.0,-49.9808,-33.9335,1
+La Rioja,AR,4323,Lewisuchus,242.0,237.0,-49.9808,-33.9335,1
+La Rioja,AR,4322,Tropidosuchus,242.0,237.0,-49.9808,-33.9335,1
+La Rioja,AR,4321,Tarjadia,242.0,237.0,-49.9808,-33.9335,1
+La Rioja,AR,4320,Pisanosaurus,237.0,227.0,-52.0012,-29.5316,1
 Western Cape,ZA,4319,Bradysaurus,264.28,259.51,-62.7516,-22.8072,1
 East Greenland,GL,4318,Arcticodactylus,227.0,208.5,40.0893,-9.3354,4
 Wales,UK,4312,Pantydraco,237.0,227.0,24.9561,4.3648,3
@@ -145,11 +145,11 @@ Namibia,Namibia,4263,Mesosaurus,290.1,283.5,-57.634,-24.1868,1
 Namibia,Namibia,4262,Mesosaurus,290.1,283.5,-57.634,-24.1868,1
 Namibia,Namibia,4261,Mesosaurus,290.1,283.5,-57.634,-24.1868,1
 Namibia,Namibia,4260,Mesosaurus,290.1,283.5,-57.634,-24.1868,1
-Queensland,AU,4259,Grallator,227.0,208.5,-48.4091,123.5564,4
+Queensland,AU,4259,Grallator,227.0,208.5,-48.4091,123.5564,1
 Kirov,RU,4258,Deltavjatia,264.28,259.51,44.3876,33.3665,3
 Tatarstan,RU,4257,Scutosaurus,264.28,254.14,45.0092,37.7433,3
 Texas,US,4250,Bolosaurus,298.9,290.1,-2.7466,-38.9219,4
-La Rioja,AR,4249,Zupaysaurus,227.0,208.5,-50.4972,-22.4201,4
+La Rioja,AR,4249,Zupaysaurus,227.0,208.5,-50.4972,-22.4201,1
 Nevada,US,4247,Omphalosaurus,247.2,237.0,17.3463,-49.8163,4
 Nevada,US,4248,Omphalosaurus,247.2,237.0,17.3463,-49.8163,4
 Svalbard,NO,4246,Grippia,251.2,247.2,48.4578,0.5752,3
@@ -210,7 +210,7 @@ Arizona,US,4192,Trilophosaurus,227.0,208.5,1.3531,-47.1801,4
 Arizona,US,4191,Tanytrachelos,227.0,208.5,1.3531,-47.1801,4
 Hessen,DE,4190,Nothosaurus,247.2,242.0,25.024,18.7935,3
 Texas,US,4189,Parasuchus,237.0,227.0,1.0633,-40.6348,4
-Rio Grande do Sul,BR,4188,Unaysaurus,227.0,208.5,-46.1164,-4.6554,4
+Rio Grande do Sul,BR,4188,Unaysaurus,227.0,208.5,-46.1164,-4.6554,1
 Wales,UK,4187,Terrestrisuchus,237.0,227.0,24.9561,4.3648,3
 Wales,UK,4186,Kuehneosaurus,237.0,227.0,24.9561,4.3648,3
 Wales,UK,4185,Clevosaurus,237.0,227.0,24.9561,4.3648,3
@@ -226,9 +226,9 @@ Arizona,US,4176,Protosuchus,208.5,199.5,6.0887,-50.239,4
 North Carolina,US,4175,Lucasuchus,237.0,227.0,-0.5164,-22.3104,4
 England,UK,4174,Diphydontosaurus,237.0,227.0,24.9561,4.3648,3
 Yunnan,CN,4173,Jingshanosaurus,201.4,199.5,52.1412,136.1873,2
-San Juan,AR,4172,Herrerasaurus,237.0,227.0,-52.0012,-29.5316,4
-San Juan,AR,4171,Hyperodapedon,237.0,227.0,-52.0012,-29.5316,4
-San Juan,AR,4170,Hyperodapedon,237.0,227.0,-52.0012,-29.5316,4
+San Juan,AR,4172,Herrerasaurus,237.0,227.0,-52.0012,-29.5316,1
+San Juan,AR,4171,Hyperodapedon,237.0,227.0,-52.0012,-29.5316,1
+San Juan,AR,4170,Hyperodapedon,237.0,227.0,-52.0012,-29.5316,1
 New Mexico,US,4169,Machaeroprosopus,227.0,208.5,3.8366,-43.9682,4
 New Mexico,US,4168,Machaeroprosopus,227.0,208.5,3.8366,-43.9682,4
 New Mexico,US,4167,Typothorax,227.0,208.5,3.8366,-43.9682,4
@@ -254,8 +254,8 @@ Lorraine,FR,4148,Plateosaurus,208.5,201.4,37.6253,13.0683,3
 Jura,FR,4147,Plateosaurus,227.0,208.5,29.0864,9.707,3
 Jura,FR,4146,Gresslyosaurus,227.0,208.5,29.0864,9.707,3
 England,UK,4145,Camelotia,208.5,201.4,34.0586,4.4792,3
-Rio Grande do Sul,BR,4144,Staurikosaurus,237.0,227.0,-49.4771,-10.0175,4
-Rio Grande do Sul,BR,4143,Spondylosoma,242.0,237.0,-49.0435,-14.582,4
+Rio Grande do Sul,BR,4144,Staurikosaurus,237.0,227.0,-49.4771,-10.0175,1
+Rio Grande do Sul,BR,4143,Spondylosoma,242.0,237.0,-49.0435,-14.582,1
 Bavaria,DE,4142,Plateosaurus,227.0,208.5,34.4775,11.1969,3
 Bavaria,DE,4141,Liliensternus,227.0,208.5,34.4775,11.1969,3
 Baden-Wurttemberg,DE,4140,Zanclodon,242.0,237.0,27.7242,17.4803,3
@@ -356,8 +356,8 @@ England,UK,4056,Thecodontosaurus,208.5,201.4,35.9688,2.1884,3
 England,UK,4045,Diphydontosaurus,208.5,201.4,35.9688,2.1884,3
 England,UK,4044,Diphydontosaurus,208.5,201.4,35.9688,2.1884,3
 Kristianstads,SE,4043,Eubrontes,208.5,201.4,44.258,7.4226,3
-La Rioja,AR,4042,Coloradisaurus,227.0,208.5,-50.4972,-22.4201,4
-La Rioja,AR,4041,Riojasaurus,227.0,208.5,-50.4972,-22.4201,4
+La Rioja,AR,4042,Coloradisaurus,227.0,208.5,-50.4972,-22.4201,1
+La Rioja,AR,4041,Riojasaurus,227.0,208.5,-50.4972,-22.4201,1
 Arizona,US,4040,Syntarsus,208.5,199.5,6.0887,-50.239,4
 New Mexico,US,4039,Grallator,227.0,208.5,1.3572,-44.289,4
 New Mexico,US,4038,Coelophysis,227.0,208.5,1.3572,-44.289,4
@@ -376,16 +376,16 @@ New Mexico,US,4026,Typothorax,227.0,208.5,1.3572,-44.289,4
 New Mexico,US,4025,Paratypothorax,227.0,208.5,1.3572,-44.289,4
 New Mexico,US,4024,Coelophysis,227.0,208.5,1.3572,-44.289,4
 New Mexico,US,4023,Coelophysis,227.0,208.5,1.3572,-44.289,4
-San Juan,AR,4021,Herrerasaurus,237.0,227.0,-52.0012,-29.5316,4
-San Juan,AR,4022,Herrerasaurus,237.0,227.0,-52.0012,-29.5316,4
-San Juan,AR,4020,Herrerasaurus,237.0,227.0,-52.0012,-29.5316,4
-San Juan,AR,4019,Herrerasaurus,237.0,227.0,-52.0012,-29.5316,4
-San Juan,AR,4018,Herrerasaurus,237.0,227.0,-52.0012,-29.5316,4
-San Juan,AR,4017,Herrerasaurus,237.0,227.0,-52.0012,-29.5316,4
-San Juan,AR,4016,Herrerasaurus,237.0,227.0,-52.0012,-29.5316,4
-San Juan,AR,4015,Trialestes,237.0,227.0,-52.0012,-29.5316,4
-San Juan,AR,4014,Proterochampsa,237.0,227.0,-52.0012,-29.5316,4
-San Juan,AR,4013,Herrerasaurus,237.0,227.0,-52.0012,-29.5316,4
+San Juan,AR,4021,Herrerasaurus,237.0,227.0,-52.0012,-29.5316,1
+San Juan,AR,4022,Herrerasaurus,237.0,227.0,-52.0012,-29.5316,1
+San Juan,AR,4020,Herrerasaurus,237.0,227.0,-52.0012,-29.5316,1
+San Juan,AR,4019,Herrerasaurus,237.0,227.0,-52.0012,-29.5316,1
+San Juan,AR,4018,Herrerasaurus,237.0,227.0,-52.0012,-29.5316,1
+San Juan,AR,4017,Herrerasaurus,237.0,227.0,-52.0012,-29.5316,1
+San Juan,AR,4016,Herrerasaurus,237.0,227.0,-52.0012,-29.5316,1
+San Juan,AR,4015,Trialestes,237.0,227.0,-52.0012,-29.5316,1
+San Juan,AR,4014,Proterochampsa,237.0,227.0,-52.0012,-29.5316,1
+San Juan,AR,4013,Herrerasaurus,237.0,227.0,-52.0012,-29.5316,1
 Massachusetts,US,4012,Grallator,201.4,199.5,20.0114,-14.2092,4
 Massachusetts,US,4011,Grallator,201.4,199.5,20.0114,-14.2092,4
 Massachusetts,US,4010,Kayentapus,201.4,199.5,20.0114,-14.2092,4
@@ -448,7 +448,7 @@ Colorado,US,3954,Brachychirotherium,227.0,208.5,3.8468,-47.0031,4
 Massachusetts,US,3953,Grallator,201.4,199.5,20.0114,-14.2092,4
 Massachusetts,US,3952,Eubrontes,201.4,199.5,20.0114,-14.2092,4
 Massachusetts,US,3951,Anchisauripus,201.4,199.5,20.0114,-14.2092,4
-Tachira,VE,3950,Laquintasaura,201.4,199.5,-7.2843,-36.0957,4
+Tachira,VE,3950,Laquintasaura,201.4,199.5,-7.2843,-36.0957,1
 Niedersachsen,DE,3948,Plateosaurus,208.5,201.4,42.7067,10.1418,3
 England,UK,3942,Asylosaurus,208.5,201.4,35.9688,2.1884,3
 England,UK,3943,Asylosaurus,208.5,201.4,35.9688,2.1884,3
@@ -491,9 +491,9 @@ New Jersey,US,3910,Eubrontes,227.0,208.5,6.739,-20.6269,4
 New Jersey,US,3909,Grallator,227.0,208.5,6.739,-20.6269,4
 New Jersey,US,3908,Atreipus,227.0,208.5,6.739,-20.6269,4
 Pennsylvania,US,3907,Atreipus,227.0,208.5,6.739,-20.6269,4
-Rio Grande do Sul,BR,3906,Sacisaurus,227.0,208.5,-46.1164,-4.6554,4
-Rio Grande do Sul,BR,3904,Guaibasaurus,227.0,208.5,-46.1164,-4.6554,4
-Rio Grande do Sul,BR,3905,Guaibasaurus,227.0,208.5,-46.1164,-4.6554,4
+Rio Grande do Sul,BR,3906,Sacisaurus,227.0,208.5,-46.1164,-4.6554,1
+Rio Grande do Sul,BR,3904,Guaibasaurus,227.0,208.5,-46.1164,-4.6554,1
+Rio Grande do Sul,BR,3905,Guaibasaurus,227.0,208.5,-46.1164,-4.6554,1
 Aveyron,FR,3903,Eubrontes,201.4,199.5,35.8555,19.2457,3
 New Jersey,US,3902,Gwyneddichnium,227.0,208.5,6.739,-20.6269,4
 New Jersey,US,3901,Kintneria,227.0,208.5,6.739,-20.6269,4
@@ -531,14 +531,14 @@ Yunnan,CN,3873,Yimenosaurus,201.4,199.5,52.1412,136.1873,2
 Yunnan,CN,3874,Yimenosaurus,201.4,199.5,52.1412,136.1873,2
 Yunnan,CN,3875,Yimenosaurus,201.4,199.5,52.1412,136.1873,2
 Yunnan,CN,3876,Yimenosaurus,201.4,199.5,52.1412,136.1873,2
-La Rioja,AR,3864,Lessemsaurus,227.0,208.5,-50.4972,-22.4201,4
-La Rioja,AR,3865,Lessemsaurus,227.0,208.5,-50.4972,-22.4201,4
-La Rioja,AR,3866,Lessemsaurus,227.0,208.5,-50.4972,-22.4201,4
+La Rioja,AR,3864,Lessemsaurus,227.0,208.5,-50.4972,-22.4201,1
+La Rioja,AR,3865,Lessemsaurus,227.0,208.5,-50.4972,-22.4201,1
+La Rioja,AR,3866,Lessemsaurus,227.0,208.5,-50.4972,-22.4201,1
 Swietokrzyskie,PL,3863,Anchisauripus,201.4,199.5,48.2374,26.4723,3
 Swietokrzyskie,PL,3862,Kayentapus,201.4,199.5,48.2374,26.4723,3
 Swietokrzyskie,PL,3861,Parabrontopodus,201.4,199.5,48.2374,26.4723,3
 Swietokrzyskie,PL,3860,Anomoepus,201.4,199.5,48.2374,26.4723,3
-Andhra Pradesh,IN,3859,Alwalkeria,237.0,227.0,-31.6663,57.7156,4
+Andhra Pradesh,IN,3859,Alwalkeria,237.0,227.0,-31.6663,57.7156,1
 Utah,US,3858,Pseudotetrasauropus,208.5,201.4,8.5883,-50.1976,4
 Utah,US,3857,Grallator,208.5,201.4,8.5883,-50.1976,4
 Utah,US,3855,Apatopus,208.5,201.4,8.5883,-50.1976,4
@@ -582,7 +582,7 @@ New Mexico,US,3816,Effigia,208.5,201.4,8.8311,-44.1355,4
 New Mexico,US,3817,Effigia,208.5,201.4,8.8311,-44.1355,4
 New Mexico,US,3818,Effigia,208.5,201.4,8.8311,-44.1355,4
 New Mexico,US,3819,Effigia,208.5,201.4,8.8311,-44.1355,4
-La Rioja,AR,3815,Riojasaurus,227.0,208.5,-50.4972,-22.4201,4
+La Rioja,AR,3815,Riojasaurus,227.0,208.5,-50.4972,-22.4201,1
 England,UK,3814,Langeronyx,247.2,242.0,24.5505,12.962,3
 Marrakech,MA,3813,Azendohsaurus,237.0,227.0,5.2142,-4.8883,1
 Marrakech,MA,3812,Parasuchus,237.0,227.0,5.2142,-4.8883,1
@@ -598,8 +598,8 @@ Arizona,US,3803,Calyptosuchus,227.0,208.5,1.3531,-47.1801,4
 Arizona,US,3802,Leptosuchus,227.0,208.5,1.3531,-47.1801,4
 Saida,DZ,3801,Grallator,208.5,199.5,16.8794,1.541,1
 Pennsylvania,US,3800,Revueltosaurus,227.0,208.5,6.739,-20.6269,4
-Mendoza,AR,3798,Tetrasauropus,247.2,237.0,-49.5084,-37.0935,4
-Mendoza,AR,3799,Tetrasauropus,247.2,237.0,-49.5084,-37.0935,4
+Mendoza,AR,3798,Tetrasauropus,247.2,237.0,-49.5084,-37.0935,1
+Mendoza,AR,3799,Tetrasauropus,247.2,237.0,-49.5084,-37.0935,1
 Massachusetts,US,3797,Argoides,201.4,199.5,20.0114,-14.2092,4
 Arizona,US,3796,Trilophosaurus,227.0,208.5,1.3531,-47.1801,4
 Arizona,US,3795,Leptosuchus,227.0,208.5,1.3531,-47.1801,4
@@ -627,11 +627,11 @@ Texas,US,3774,Crosbysaurus,227.0,208.5,-1.4701,-41.4649,4
 Texas,US,3773,Crosbysaurus,227.0,208.5,-1.4701,-41.4649,4
 Texas,US,3772,Revueltosaurus,227.0,208.5,-1.4701,-41.4649,4
 Texas,US,3771,Tecovasaurus,227.0,208.5,-1.4701,-41.4649,4
-La Rioja,AR,3770,Gracilisuchus,242.0,237.0,-49.9808,-33.9335,4
-La Rioja,AR,3769,Luperosuchus,242.0,237.0,-49.9808,-33.9335,4
-La Rioja,AR,3768,Lagerpeton,242.0,237.0,-49.9808,-33.9335,4
-La Rioja,AR,3767,Chanaresuchus,242.0,237.0,-49.9808,-33.9335,4
-La Rioja,AR,3766,Gualosuchus,242.0,237.0,-49.9808,-33.9335,4
+La Rioja,AR,3770,Gracilisuchus,242.0,237.0,-49.9808,-33.9335,1
+La Rioja,AR,3769,Luperosuchus,242.0,237.0,-49.9808,-33.9335,1
+La Rioja,AR,3768,Lagerpeton,242.0,237.0,-49.9808,-33.9335,1
+La Rioja,AR,3767,Chanaresuchus,242.0,237.0,-49.9808,-33.9335,1
+La Rioja,AR,3766,Gualosuchus,242.0,237.0,-49.9808,-33.9335,1
 Guizhou,CN,3765,Chirotherium,251.902,251.2,13.4231,123.8406,2
 Opolskie,PL,3764,Stagonolepis,233.4,227.0,33.3149,17.5971,3
 Opolskie,PL,3763,Silesaurus,233.4,227.0,33.3149,17.5971,3
@@ -904,8 +904,8 @@ Switzerland,CH,3503,Eubrontes,227.0,208.5,32.93,13.5573,3
 Switzerland,CH,3504,Eubrontes,227.0,208.5,32.93,13.5573,3
 Pays de la Loire,FR,3491,Batrachopus,208.5,201.4,33.9879,8.7201,3
 Pays de la Loire,FR,3490,Grallator,208.5,201.4,33.9879,8.7201,3
-Rio Grande do Sul,BR,3489,Teyumbaita,227.0,208.5,-46.1164,-4.6554,4
-Rio Grande do Sul,BR,3488,Prestosuchus,242.0,237.0,-49.0435,-14.582,4
+Rio Grande do Sul,BR,3489,Teyumbaita,227.0,208.5,-46.1164,-4.6554,1
+Rio Grande do Sul,BR,3488,Prestosuchus,242.0,237.0,-49.0435,-14.582,1
 New Mexico,US,3487,Dromomeron,227.0,208.5,3.8366,-43.9682,4
 New Mexico,US,3486,Dromomeron,227.0,208.5,3.8366,-43.9682,4
 New Mexico,US,3485,Typothorax,227.0,208.5,3.8366,-43.9682,4
@@ -939,8 +939,8 @@ England,UK,3458,Pelecymala,237.0,227.0,24.9561,4.3648,3
 England,UK,3457,Kuehneosaurus,237.0,227.0,24.9561,4.3648,3
 England,UK,3456,Rhombopholis,247.2,237.0,24.5505,12.962,3
 England,UK,3455,Langeronyx,247.2,237.0,24.5505,12.962,3
-San Juan,AR,3453,Chirotherium,242.0,237.0,-49.9808,-33.9335,4
-San Juan,AR,3454,Chirotherium,242.0,237.0,-49.9808,-33.9335,4
+San Juan,AR,3453,Chirotherium,242.0,237.0,-49.9808,-33.9335,1
+San Juan,AR,3454,Chirotherium,242.0,237.0,-49.9808,-33.9335,1
 Shamal Sina,EG,3452,Psephosauriscus,247.2,237.0,-9.6503,31.2677,1
 Shamal Sina,EG,3451,Psephosauriscus,247.2,237.0,-9.6503,31.2677,1
 New Mexico,US,3450,Desmatosuchus,227.0,208.5,1.3531,-47.1801,4
@@ -962,7 +962,7 @@ Baden-Wurttemberg,DE,3435,Mystriosuchus,216.7,213.2,32.5932,9.3339,3
 Baden-Wurttemberg,DE,3434,Nicrosaurus,216.7,213.2,32.5932,9.3339,3
 Baden-Wurttemberg,DE,3433,Saltoposuchus,216.7,213.2,32.5932,9.3339,3
 Baden-Wurttemberg,DE,3432,Saltoposuchus,216.7,213.2,32.5932,9.3339,3
-Rio Grande do Sul,BR,3431,Provelosaurus,266.9,259.51,-48.797,-22.9278,4
+Rio Grande do Sul,BR,3431,Provelosaurus,266.9,259.51,-48.797,-22.9278,1
 Eastern Cape,ZA,3430,Coletta,251.2,247.2,-62.6208,-11.8191,1
 Shanxi,CN,3429,Sanchuansaurus,254.14,251.902,35.9752,119.222,2
 North Carolina,US,3428,Tanytrachelos,227.0,208.5,3.8376,-23.1639,4
@@ -1255,10 +1255,10 @@ Texas,US,3141,Labidosaurikos,283.5,273.01,0.2573,-40.5036,4
 Texas,US,3142,Labidosaurikos,283.5,273.01,0.2573,-40.5036,4
 Texas,US,3140,Labidosaurikos,283.5,273.01,2.4612,-39.3231,4
 Hessen,DE,3139,Weigeltisaurus,259.51,254.14,25.6133,22.3383,3
-Queensland,AU,3137,Kadimakara,251.902,251.2,-54.016,134.4377,4
-Queensland,AU,3138,Kadimakara,251.902,251.2,-54.016,134.4377,4
-Queensland,AU,3135,Kudnu,251.902,251.2,-54.016,134.4377,4
-Queensland,AU,3136,Kudnu,251.902,251.2,-54.016,134.4377,4
+Queensland,AU,3137,Kadimakara,251.902,251.2,-54.016,134.4377,1
+Queensland,AU,3138,Kadimakara,251.902,251.2,-54.016,134.4377,1
+Queensland,AU,3135,Kudnu,251.902,251.2,-54.016,134.4377,1
+Queensland,AU,3136,Kudnu,251.902,251.2,-54.016,134.4377,1
 Saxony,DE,3134,Parasaurus,259.51,254.14,27.6348,20.7124,3
 Thuringia,DE,3133,Parasaurus,259.51,254.14,25.6133,22.3383,3
 Thuringia,DE,3132,Parasaurus,259.51,254.14,27.6348,20.7124,3
@@ -1358,7 +1358,7 @@ Switzerland,CH,3039,Macrocnemus,242.0,237.0,22.3004,19.0343,3
 England,UK,3038,Adelosaurus,259.51,254.14,26.1672,12.925,3
 Kirov,RU,3037,Nyctiboetus,276.5,266.9,40.8403,30.4002,3
 Bashkortostan,RU,3036,Rhipaeosaurus,266.9,264.28,41.9725,35.9164,3
-San Juan,AR,3035,Panphagia,237.0,227.0,-52.0012,-29.5316,4
+San Juan,AR,3035,Panphagia,237.0,227.0,-52.0012,-29.5316,1
 Oklahoma,US,3032,Captorhinikos,283.5,273.01,1.0593,-36.5887,4
 Oklahoma,US,3033,Captorhinikos,283.5,273.01,1.0593,-36.5887,4
 Oklahoma,US,3034,Captorhinikos,283.5,273.01,1.0593,-36.5887,4
@@ -1429,25 +1429,25 @@ Baden-Wurttemberg,DE,2965,Saurischichnus,227.0,208.5,30.9826,11.6474,3
 New Jersey,US,2961,Stegomus,227.0,208.5,6.739,-20.6269,4
 Connecticut,US,2960,Hypsognathus,208.5,201.4,16.233,-18.4082,4
 Nova Scotia,CA,2959,Hypsognathus,227.0,208.5,13.4263,-13.5255,4
-Rio Grande do Sul,BR,2956,Soturnia,227.0,208.5,-46.1164,-4.6554,4
-Rio Grande do Sul,BR,2957,Soturnia,227.0,208.5,-46.1164,-4.6554,4
-Rio Grande do Sul,BR,2958,Soturnia,227.0,208.5,-46.1164,-4.6554,4
-Rio Grande do Sul,BR,2940,Clevosaurus,227.0,208.5,-46.1164,-4.6554,4
-Rio Grande do Sul,BR,2941,Clevosaurus,227.0,208.5,-46.1164,-4.6554,4
-Rio Grande do Sul,BR,2942,Clevosaurus,227.0,208.5,-46.1164,-4.6554,4
-Rio Grande do Sul,BR,2943,Clevosaurus,227.0,208.5,-46.1164,-4.6554,4
-Rio Grande do Sul,BR,2944,Clevosaurus,227.0,208.5,-46.1164,-4.6554,4
-Rio Grande do Sul,BR,2945,Clevosaurus,227.0,208.5,-46.1164,-4.6554,4
-Rio Grande do Sul,BR,2946,Clevosaurus,227.0,208.5,-46.1164,-4.6554,4
-Rio Grande do Sul,BR,2947,Clevosaurus,227.0,208.5,-46.1164,-4.6554,4
-Rio Grande do Sul,BR,2948,Clevosaurus,227.0,208.5,-46.1164,-4.6554,4
-Rio Grande do Sul,BR,2949,Clevosaurus,227.0,208.5,-46.1164,-4.6554,4
-Rio Grande do Sul,BR,2950,Clevosaurus,227.0,208.5,-46.1164,-4.6554,4
-Rio Grande do Sul,BR,2951,Clevosaurus,227.0,208.5,-46.1164,-4.6554,4
-Rio Grande do Sul,BR,2952,Clevosaurus,227.0,208.5,-46.1164,-4.6554,4
-Rio Grande do Sul,BR,2953,Clevosaurus,227.0,208.5,-46.1164,-4.6554,4
-Rio Grande do Sul,BR,2954,Clevosaurus,227.0,208.5,-46.1164,-4.6554,4
-Rio Grande do Sul,BR,2955,Clevosaurus,227.0,208.5,-46.1164,-4.6554,4
+Rio Grande do Sul,BR,2956,Soturnia,227.0,208.5,-46.1164,-4.6554,1
+Rio Grande do Sul,BR,2957,Soturnia,227.0,208.5,-46.1164,-4.6554,1
+Rio Grande do Sul,BR,2958,Soturnia,227.0,208.5,-46.1164,-4.6554,1
+Rio Grande do Sul,BR,2940,Clevosaurus,227.0,208.5,-46.1164,-4.6554,1
+Rio Grande do Sul,BR,2941,Clevosaurus,227.0,208.5,-46.1164,-4.6554,1
+Rio Grande do Sul,BR,2942,Clevosaurus,227.0,208.5,-46.1164,-4.6554,1
+Rio Grande do Sul,BR,2943,Clevosaurus,227.0,208.5,-46.1164,-4.6554,1
+Rio Grande do Sul,BR,2944,Clevosaurus,227.0,208.5,-46.1164,-4.6554,1
+Rio Grande do Sul,BR,2945,Clevosaurus,227.0,208.5,-46.1164,-4.6554,1
+Rio Grande do Sul,BR,2946,Clevosaurus,227.0,208.5,-46.1164,-4.6554,1
+Rio Grande do Sul,BR,2947,Clevosaurus,227.0,208.5,-46.1164,-4.6554,1
+Rio Grande do Sul,BR,2948,Clevosaurus,227.0,208.5,-46.1164,-4.6554,1
+Rio Grande do Sul,BR,2949,Clevosaurus,227.0,208.5,-46.1164,-4.6554,1
+Rio Grande do Sul,BR,2950,Clevosaurus,227.0,208.5,-46.1164,-4.6554,1
+Rio Grande do Sul,BR,2951,Clevosaurus,227.0,208.5,-46.1164,-4.6554,1
+Rio Grande do Sul,BR,2952,Clevosaurus,227.0,208.5,-46.1164,-4.6554,1
+Rio Grande do Sul,BR,2953,Clevosaurus,227.0,208.5,-46.1164,-4.6554,1
+Rio Grande do Sul,BR,2954,Clevosaurus,227.0,208.5,-46.1164,-4.6554,1
+Rio Grande do Sul,BR,2955,Clevosaurus,227.0,208.5,-46.1164,-4.6554,1
 New Mexico,US,2939,Vancleavea,227.0,208.5,3.8366,-43.9682,4
 New Mexico,US,2938,Typothorax,227.0,208.5,3.8366,-43.9682,4
 Marrakech,MA,2937,Arganaceras,259.51,254.14,5.1372,-1.0131,1
@@ -1462,20 +1462,20 @@ Kirov,RU,2933,Deltavjatia,264.28,259.51,44.3876,33.3665,3
 Kirov,RU,2934,Deltavjatia,264.28,259.51,44.3876,33.3665,3
 Kirov,RU,2935,Deltavjatia,264.28,259.51,44.3876,33.3665,3
 Northern Cape,ZA,2926,Mesosaurus,290.1,283.5,-68.9066,-34.0759,1
-Goias,BR,2925,Brazilosaurus,290.1,283.5,-44.2162,-30.6853,4
-Goias,BR,2924,Stereosternum,290.1,283.5,-44.2162,-30.6853,4
-Goias,BR,2914,Brazilosaurus,290.1,283.5,-44.2162,-30.6853,4
-Goias,BR,2915,Brazilosaurus,290.1,283.5,-44.2162,-30.6853,4
-Goias,BR,2916,Brazilosaurus,290.1,283.5,-44.2162,-30.6853,4
-Goias,BR,2917,Brazilosaurus,290.1,283.5,-44.2162,-30.6853,4
-Goias,BR,2918,Brazilosaurus,290.1,283.5,-44.2162,-30.6853,4
-Goias,BR,2919,Brazilosaurus,290.1,283.5,-44.2162,-30.6853,4
-Goias,BR,2920,Brazilosaurus,290.1,283.5,-44.2162,-30.6853,4
-Goias,BR,2921,Brazilosaurus,290.1,283.5,-44.2162,-30.6853,4
-Goias,BR,2922,Brazilosaurus,290.1,283.5,-44.2162,-30.6853,4
-Goias,BR,2923,Brazilosaurus,290.1,283.5,-44.2162,-30.6853,4
-Goias,BR,2913,Mesosaurus,290.1,283.5,-44.2162,-30.6853,4
-Goias,BR,2912,Stereosternum,290.1,283.5,-44.2162,-30.6853,4
+Goias,BR,2925,Brazilosaurus,290.1,283.5,-44.2162,-30.6853,1
+Goias,BR,2924,Stereosternum,290.1,283.5,-44.2162,-30.6853,1
+Goias,BR,2914,Brazilosaurus,290.1,283.5,-44.2162,-30.6853,1
+Goias,BR,2915,Brazilosaurus,290.1,283.5,-44.2162,-30.6853,1
+Goias,BR,2916,Brazilosaurus,290.1,283.5,-44.2162,-30.6853,1
+Goias,BR,2917,Brazilosaurus,290.1,283.5,-44.2162,-30.6853,1
+Goias,BR,2918,Brazilosaurus,290.1,283.5,-44.2162,-30.6853,1
+Goias,BR,2919,Brazilosaurus,290.1,283.5,-44.2162,-30.6853,1
+Goias,BR,2920,Brazilosaurus,290.1,283.5,-44.2162,-30.6853,1
+Goias,BR,2921,Brazilosaurus,290.1,283.5,-44.2162,-30.6853,1
+Goias,BR,2922,Brazilosaurus,290.1,283.5,-44.2162,-30.6853,1
+Goias,BR,2923,Brazilosaurus,290.1,283.5,-44.2162,-30.6853,1
+Goias,BR,2913,Mesosaurus,290.1,283.5,-44.2162,-30.6853,1
+Goias,BR,2912,Stereosternum,290.1,283.5,-44.2162,-30.6853,1
 Eastern Cape,ZA,2911,Broomia,264.28,259.51,-65.1824,-18.1919,1
 Western Cape,ZA,2910,Broomia,264.28,259.51,-62.7516,-22.8072,1
 Western Cape,ZA,2909,Millerosaurus,259.51,251.902,-60.8508,-19.3342,1
@@ -1484,152 +1484,152 @@ Tirol,IT,2907,Grallator,233.4,227.0,15.4479,12.7418,3
 Tirol,IT,2906,Atreipus,233.4,227.0,15.4479,12.7418,3
 Tirol,IT,2905,Evazoum,233.4,227.0,15.4479,12.7418,3
 Eastern Cape,ZA,2904,Millerosaurus,259.51,251.902,-60.8508,-19.3342,1
-Andhra Pradesh,IN,2902,Yarasuchus,247.2,242.0,-39.8254,56.37,4
-Andhra Pradesh,IN,2903,Yarasuchus,247.2,242.0,-39.8254,56.37,4
-Andhra Pradesh,IN,2896,Pamelaria,247.2,242.0,-39.8254,56.37,4
-Andhra Pradesh,IN,2897,Pamelaria,247.2,242.0,-39.8254,56.37,4
-Andhra Pradesh,IN,2898,Pamelaria,247.2,242.0,-39.8254,56.37,4
-Andhra Pradesh,IN,2899,Pamelaria,247.2,242.0,-39.8254,56.37,4
-Andhra Pradesh,IN,2900,Pamelaria,247.2,242.0,-39.8254,56.37,4
-Andhra Pradesh,IN,2901,Pamelaria,247.2,242.0,-39.8254,56.37,4
+Andhra Pradesh,IN,2902,Yarasuchus,247.2,242.0,-39.8254,56.37,1
+Andhra Pradesh,IN,2903,Yarasuchus,247.2,242.0,-39.8254,56.37,1
+Andhra Pradesh,IN,2896,Pamelaria,247.2,242.0,-39.8254,56.37,1
+Andhra Pradesh,IN,2897,Pamelaria,247.2,242.0,-39.8254,56.37,1
+Andhra Pradesh,IN,2898,Pamelaria,247.2,242.0,-39.8254,56.37,1
+Andhra Pradesh,IN,2899,Pamelaria,247.2,242.0,-39.8254,56.37,1
+Andhra Pradesh,IN,2900,Pamelaria,247.2,242.0,-39.8254,56.37,1
+Andhra Pradesh,IN,2901,Pamelaria,247.2,242.0,-39.8254,56.37,1
 New Mexico,US,2895,Redondavenator,227.0,208.5,1.3572,-44.289,4
 New Mexico,US,2893,Dromomeron,227.0,208.5,1.3572,-44.289,4
 Arizona,US,2892,Dromomeron,227.0,208.5,1.3531,-47.1801,4
-Parana,BR,2883,Mesosaurus,290.1,283.5,-52.3569,-28.4634,4
-Parana,BR,2884,Mesosaurus,290.1,283.5,-52.3569,-28.4634,4
-Parana,BR,2885,Mesosaurus,290.1,283.5,-52.3569,-28.4634,4
-Parana,BR,2886,Mesosaurus,290.1,283.5,-52.3569,-28.4634,4
-Parana,BR,2887,Mesosaurus,290.1,283.5,-52.3569,-28.4634,4
-Parana,BR,2888,Mesosaurus,290.1,283.5,-52.3569,-28.4634,4
-Parana,BR,2889,Mesosaurus,290.1,283.5,-52.3569,-28.4634,4
-Parana,BR,2890,Mesosaurus,290.1,283.5,-52.3569,-28.4634,4
-Parana,BR,2891,Mesosaurus,290.1,283.5,-52.3569,-28.4634,4
-Rio Grande do Sul,BR,2882,Mesosaurus,290.1,283.5,-56.3578,-33.4713,4
-Rio Grande do Sul,BR,2880,Stereosternum,290.1,283.5,-56.3578,-33.4713,4
-Rio Grande do Sul,BR,2881,Stereosternum,290.1,283.5,-56.3578,-33.4713,4
-Sao Paulo,BR,2876,Stereosternum,290.1,283.5,-49.9329,-27.4876,4
-Sao Paulo,BR,2877,Stereosternum,290.1,283.5,-49.9329,-27.4876,4
-Sao Paulo,BR,2878,Stereosternum,290.1,283.5,-49.9329,-27.4876,4
-Sao Paulo,BR,2879,Stereosternum,290.1,283.5,-49.9329,-27.4876,4
-Sao Paulo,BR,2863,Stereosternum,290.1,283.5,-49.9329,-27.4876,4
-Sao Paulo,BR,2864,Stereosternum,290.1,283.5,-49.9329,-27.4876,4
-Sao Paulo,BR,2865,Stereosternum,290.1,283.5,-49.9329,-27.4876,4
-Sao Paulo,BR,2866,Stereosternum,290.1,283.5,-49.9329,-27.4876,4
-Sao Paulo,BR,2867,Stereosternum,290.1,283.5,-49.9329,-27.4876,4
-Sao Paulo,BR,2868,Stereosternum,290.1,283.5,-49.9329,-27.4876,4
-Sao Paulo,BR,2869,Stereosternum,290.1,283.5,-49.9329,-27.4876,4
-Sao Paulo,BR,2870,Stereosternum,290.1,283.5,-49.9329,-27.4876,4
-Sao Paulo,BR,2871,Stereosternum,290.1,283.5,-49.9329,-27.4876,4
-Sao Paulo,BR,2872,Stereosternum,290.1,283.5,-49.9329,-27.4876,4
-Sao Paulo,BR,2873,Stereosternum,290.1,283.5,-49.9329,-27.4876,4
-Sao Paulo,BR,2874,Stereosternum,290.1,283.5,-49.9329,-27.4876,4
-Sao Paulo,BR,2875,Stereosternum,290.1,283.5,-49.9329,-27.4876,4
-Sao Paulo,BR,2860,Brazilosaurus,290.1,283.5,-49.9329,-27.4876,4
-Sao Paulo,BR,2861,Brazilosaurus,290.1,283.5,-49.9329,-27.4876,4
-Sao Paulo,BR,2862,Brazilosaurus,290.1,283.5,-49.9329,-27.4876,4
-Sao Paulo,BR,2859,Brazilosaurus,290.1,283.5,-49.9329,-27.4876,4
-Sao Paulo,BR,2855,Stereosternum,290.1,283.5,-49.9329,-27.4876,4
-Sao Paulo,BR,2856,Stereosternum,290.1,283.5,-49.9329,-27.4876,4
-Sao Paulo,BR,2857,Stereosternum,290.1,283.5,-49.9329,-27.4876,4
-Sao Paulo,BR,2858,Stereosternum,290.1,283.5,-49.9329,-27.4876,4
-Sao Paulo,BR,2854,Mesosaurus,290.1,283.5,-49.9329,-27.4876,4
-Sao Paulo,BR,2852,Stereosternum,290.1,283.5,-49.9329,-27.4876,4
-Sao Paulo,BR,2851,Stereosternum,290.1,283.5,-49.9329,-27.4876,4
-Parana,BR,2848,Brazilosaurus,290.1,283.5,-51.5302,-31.2549,4
-Parana,BR,2849,Brazilosaurus,290.1,283.5,-51.5302,-31.2549,4
-Parana,BR,2850,Brazilosaurus,290.1,283.5,-51.5302,-31.2549,4
+Parana,BR,2883,Mesosaurus,290.1,283.5,-52.3569,-28.4634,1
+Parana,BR,2884,Mesosaurus,290.1,283.5,-52.3569,-28.4634,1
+Parana,BR,2885,Mesosaurus,290.1,283.5,-52.3569,-28.4634,1
+Parana,BR,2886,Mesosaurus,290.1,283.5,-52.3569,-28.4634,1
+Parana,BR,2887,Mesosaurus,290.1,283.5,-52.3569,-28.4634,1
+Parana,BR,2888,Mesosaurus,290.1,283.5,-52.3569,-28.4634,1
+Parana,BR,2889,Mesosaurus,290.1,283.5,-52.3569,-28.4634,1
+Parana,BR,2890,Mesosaurus,290.1,283.5,-52.3569,-28.4634,1
+Parana,BR,2891,Mesosaurus,290.1,283.5,-52.3569,-28.4634,1
+Rio Grande do Sul,BR,2882,Mesosaurus,290.1,283.5,-56.3578,-33.4713,1
+Rio Grande do Sul,BR,2880,Stereosternum,290.1,283.5,-56.3578,-33.4713,1
+Rio Grande do Sul,BR,2881,Stereosternum,290.1,283.5,-56.3578,-33.4713,1
+Sao Paulo,BR,2876,Stereosternum,290.1,283.5,-49.9329,-27.4876,1
+Sao Paulo,BR,2877,Stereosternum,290.1,283.5,-49.9329,-27.4876,1
+Sao Paulo,BR,2878,Stereosternum,290.1,283.5,-49.9329,-27.4876,1
+Sao Paulo,BR,2879,Stereosternum,290.1,283.5,-49.9329,-27.4876,1
+Sao Paulo,BR,2863,Stereosternum,290.1,283.5,-49.9329,-27.4876,1
+Sao Paulo,BR,2864,Stereosternum,290.1,283.5,-49.9329,-27.4876,1
+Sao Paulo,BR,2865,Stereosternum,290.1,283.5,-49.9329,-27.4876,1
+Sao Paulo,BR,2866,Stereosternum,290.1,283.5,-49.9329,-27.4876,1
+Sao Paulo,BR,2867,Stereosternum,290.1,283.5,-49.9329,-27.4876,1
+Sao Paulo,BR,2868,Stereosternum,290.1,283.5,-49.9329,-27.4876,1
+Sao Paulo,BR,2869,Stereosternum,290.1,283.5,-49.9329,-27.4876,1
+Sao Paulo,BR,2870,Stereosternum,290.1,283.5,-49.9329,-27.4876,1
+Sao Paulo,BR,2871,Stereosternum,290.1,283.5,-49.9329,-27.4876,1
+Sao Paulo,BR,2872,Stereosternum,290.1,283.5,-49.9329,-27.4876,1
+Sao Paulo,BR,2873,Stereosternum,290.1,283.5,-49.9329,-27.4876,1
+Sao Paulo,BR,2874,Stereosternum,290.1,283.5,-49.9329,-27.4876,1
+Sao Paulo,BR,2875,Stereosternum,290.1,283.5,-49.9329,-27.4876,1
+Sao Paulo,BR,2860,Brazilosaurus,290.1,283.5,-49.9329,-27.4876,1
+Sao Paulo,BR,2861,Brazilosaurus,290.1,283.5,-49.9329,-27.4876,1
+Sao Paulo,BR,2862,Brazilosaurus,290.1,283.5,-49.9329,-27.4876,1
+Sao Paulo,BR,2859,Brazilosaurus,290.1,283.5,-49.9329,-27.4876,1
+Sao Paulo,BR,2855,Stereosternum,290.1,283.5,-49.9329,-27.4876,1
+Sao Paulo,BR,2856,Stereosternum,290.1,283.5,-49.9329,-27.4876,1
+Sao Paulo,BR,2857,Stereosternum,290.1,283.5,-49.9329,-27.4876,1
+Sao Paulo,BR,2858,Stereosternum,290.1,283.5,-49.9329,-27.4876,1
+Sao Paulo,BR,2854,Mesosaurus,290.1,283.5,-49.9329,-27.4876,1
+Sao Paulo,BR,2852,Stereosternum,290.1,283.5,-49.9329,-27.4876,1
+Sao Paulo,BR,2851,Stereosternum,290.1,283.5,-49.9329,-27.4876,1
+Parana,BR,2848,Brazilosaurus,290.1,283.5,-51.5302,-31.2549,1
+Parana,BR,2849,Brazilosaurus,290.1,283.5,-51.5302,-31.2549,1
+Parana,BR,2850,Brazilosaurus,290.1,283.5,-51.5302,-31.2549,1
 Western Cape,ZA,2846,Eunotosaurus,264.28,259.51,-62.7516,-22.8072,1
 Western Cape,ZA,2847,Eunotosaurus,264.28,259.51,-62.7516,-22.8072,1
 Northern Cape,ZA,2845,Stereosternum,290.1,283.5,-68.9066,-34.0759,1
-San Juan,AR,2844,Sillosuchus,237.0,227.0,-52.0012,-29.5316,4
+San Juan,AR,2844,Sillosuchus,237.0,227.0,-52.0012,-29.5316,1
 Eastern Cape,ZA,2843,Erythrosuchus,247.2,242.0,-61.3754,-6.6214,1
 Northern Cape,ZA,2842,Mesosaurus,290.1,283.5,-67.0248,-43.6981,1
 Northern Cape,ZA,2841,Mesosaurus,290.1,283.5,-67.0248,-43.6981,1
-Parana,BR,2839,Mesosaurus,290.1,283.5,-51.5302,-31.2549,4
-Parana,BR,2840,Mesosaurus,290.1,283.5,-51.5302,-31.2549,4
-Parana,BR,2836,Mesosaurus,290.1,283.5,-51.5302,-31.2549,4
-Parana,BR,2837,Mesosaurus,290.1,283.5,-51.5302,-31.2549,4
-Parana,BR,2838,Mesosaurus,290.1,283.5,-51.5302,-31.2549,4
-Parana,BR,2835,Mesosaurus,290.1,283.5,-52.3569,-28.4634,4
-Sao Paulo,BR,2834,Mesosaurus,290.1,283.5,-49.9329,-27.4876,4
+Parana,BR,2839,Mesosaurus,290.1,283.5,-51.5302,-31.2549,1
+Parana,BR,2840,Mesosaurus,290.1,283.5,-51.5302,-31.2549,1
+Parana,BR,2836,Mesosaurus,290.1,283.5,-51.5302,-31.2549,1
+Parana,BR,2837,Mesosaurus,290.1,283.5,-51.5302,-31.2549,1
+Parana,BR,2838,Mesosaurus,290.1,283.5,-51.5302,-31.2549,1
+Parana,BR,2835,Mesosaurus,290.1,283.5,-52.3569,-28.4634,1
+Sao Paulo,BR,2834,Mesosaurus,290.1,283.5,-49.9329,-27.4876,1
 British Columbia,CA,2833,Callawayia,227.0,208.5,19.1131,-61.1649,4
 Idaho,US,2832,Cymbospondylus,251.2,247.2,18.2941,-42.7734,4
-Sao Paulo,BR,2831,Mesosaurus,290.1,283.5,-49.9329,-27.4876,4
-Parana,BR,2830,Mesosaurus,290.1,283.5,-51.5302,-31.2549,4
-Parana,BR,2829,Mesosaurus,290.1,283.5,-51.5302,-31.2549,4
-Parana,BR,2823,Stereosternum,290.1,283.5,-51.5302,-31.2549,4
-Parana,BR,2824,Stereosternum,290.1,283.5,-51.5302,-31.2549,4
-Parana,BR,2825,Stereosternum,290.1,283.5,-51.5302,-31.2549,4
-Parana,BR,2826,Stereosternum,290.1,283.5,-51.5302,-31.2549,4
-Parana,BR,2827,Stereosternum,290.1,283.5,-51.5302,-31.2549,4
-Parana,BR,2828,Stereosternum,290.1,283.5,-51.5302,-31.2549,4
-Sao Paulo,BR,2822,Mesosaurus,290.1,283.5,-49.9329,-27.4876,4
+Sao Paulo,BR,2831,Mesosaurus,290.1,283.5,-49.9329,-27.4876,1
+Parana,BR,2830,Mesosaurus,290.1,283.5,-51.5302,-31.2549,1
+Parana,BR,2829,Mesosaurus,290.1,283.5,-51.5302,-31.2549,1
+Parana,BR,2823,Stereosternum,290.1,283.5,-51.5302,-31.2549,1
+Parana,BR,2824,Stereosternum,290.1,283.5,-51.5302,-31.2549,1
+Parana,BR,2825,Stereosternum,290.1,283.5,-51.5302,-31.2549,1
+Parana,BR,2826,Stereosternum,290.1,283.5,-51.5302,-31.2549,1
+Parana,BR,2827,Stereosternum,290.1,283.5,-51.5302,-31.2549,1
+Parana,BR,2828,Stereosternum,290.1,283.5,-51.5302,-31.2549,1
+Sao Paulo,BR,2822,Mesosaurus,290.1,283.5,-49.9329,-27.4876,1
 Miyagi,JP,2821,Utatsusaurus,248.9,247.2,32.0407,152.6085,2
-Parana,BR,2796,Mesosaurus,290.1,283.5,-52.3569,-28.4634,4
-Parana,BR,2797,Mesosaurus,290.1,283.5,-52.3569,-28.4634,4
-Parana,BR,2798,Mesosaurus,290.1,283.5,-52.3569,-28.4634,4
-Parana,BR,2799,Mesosaurus,290.1,283.5,-52.3569,-28.4634,4
-Parana,BR,2800,Mesosaurus,290.1,283.5,-52.3569,-28.4634,4
-Parana,BR,2801,Mesosaurus,290.1,283.5,-52.3569,-28.4634,4
-Parana,BR,2802,Mesosaurus,290.1,283.5,-52.3569,-28.4634,4
-Parana,BR,2803,Mesosaurus,290.1,283.5,-52.3569,-28.4634,4
-Parana,BR,2804,Mesosaurus,290.1,283.5,-52.3569,-28.4634,4
-Parana,BR,2805,Mesosaurus,290.1,283.5,-52.3569,-28.4634,4
-Parana,BR,2806,Mesosaurus,290.1,283.5,-52.3569,-28.4634,4
-Parana,BR,2807,Mesosaurus,290.1,283.5,-52.3569,-28.4634,4
-Parana,BR,2808,Mesosaurus,290.1,283.5,-52.3569,-28.4634,4
-Parana,BR,2809,Mesosaurus,290.1,283.5,-52.3569,-28.4634,4
-Parana,BR,2810,Mesosaurus,290.1,283.5,-52.3569,-28.4634,4
-Parana,BR,2811,Mesosaurus,290.1,283.5,-52.3569,-28.4634,4
-Parana,BR,2812,Mesosaurus,290.1,283.5,-52.3569,-28.4634,4
-Parana,BR,2813,Mesosaurus,290.1,283.5,-52.3569,-28.4634,4
-Parana,BR,2814,Mesosaurus,290.1,283.5,-52.3569,-28.4634,4
-Parana,BR,2815,Mesosaurus,290.1,283.5,-52.3569,-28.4634,4
-Parana,BR,2816,Mesosaurus,290.1,283.5,-52.3569,-28.4634,4
-Parana,BR,2817,Mesosaurus,290.1,283.5,-52.3569,-28.4634,4
-Parana,BR,2818,Mesosaurus,290.1,283.5,-52.3569,-28.4634,4
-Parana,BR,2819,Mesosaurus,290.1,283.5,-52.3569,-28.4634,4
-Parana,BR,2820,Mesosaurus,290.1,283.5,-52.3569,-28.4634,4
-Sao Paulo,BR,2786,Stereosternum,290.1,283.5,-49.9329,-27.4876,4
-Sao Paulo,BR,2787,Stereosternum,290.1,283.5,-49.9329,-27.4876,4
-Sao Paulo,BR,2788,Stereosternum,290.1,283.5,-49.9329,-27.4876,4
-Sao Paulo,BR,2789,Stereosternum,290.1,283.5,-49.9329,-27.4876,4
-Sao Paulo,BR,2790,Stereosternum,290.1,283.5,-49.9329,-27.4876,4
-Sao Paulo,BR,2791,Stereosternum,290.1,283.5,-49.9329,-27.4876,4
-Sao Paulo,BR,2792,Stereosternum,290.1,283.5,-49.9329,-27.4876,4
-Sao Paulo,BR,2793,Stereosternum,290.1,283.5,-49.9329,-27.4876,4
-Sao Paulo,BR,2794,Stereosternum,290.1,283.5,-49.9329,-27.4876,4
-Sao Paulo,BR,2795,Stereosternum,290.1,283.5,-49.9329,-27.4876,4
-Sao Paulo,BR,2784,Brazilosaurus,290.1,283.5,-49.9329,-27.4876,4
-Sao Paulo,BR,2785,Brazilosaurus,290.1,283.5,-49.9329,-27.4876,4
-Parana,BR,2767,Mesosaurus,290.1,283.5,-52.3569,-28.4634,4
-Parana,BR,2768,Mesosaurus,290.1,283.5,-52.3569,-28.4634,4
-Parana,BR,2769,Mesosaurus,290.1,283.5,-52.3569,-28.4634,4
-Parana,BR,2770,Mesosaurus,290.1,283.5,-52.3569,-28.4634,4
-Parana,BR,2771,Mesosaurus,290.1,283.5,-52.3569,-28.4634,4
-Parana,BR,2772,Mesosaurus,290.1,283.5,-52.3569,-28.4634,4
-Parana,BR,2773,Mesosaurus,290.1,283.5,-52.3569,-28.4634,4
-Parana,BR,2774,Mesosaurus,290.1,283.5,-52.3569,-28.4634,4
-Parana,BR,2775,Mesosaurus,290.1,283.5,-52.3569,-28.4634,4
-Parana,BR,2776,Mesosaurus,290.1,283.5,-52.3569,-28.4634,4
-Parana,BR,2777,Mesosaurus,290.1,283.5,-52.3569,-28.4634,4
-Parana,BR,2778,Mesosaurus,290.1,283.5,-52.3569,-28.4634,4
-Parana,BR,2779,Mesosaurus,290.1,283.5,-52.3569,-28.4634,4
-Parana,BR,2780,Mesosaurus,290.1,283.5,-52.3569,-28.4634,4
-Parana,BR,2781,Mesosaurus,290.1,283.5,-52.3569,-28.4634,4
-Parana,BR,2782,Mesosaurus,290.1,283.5,-52.3569,-28.4634,4
-Parana,BR,2783,Mesosaurus,290.1,283.5,-52.3569,-28.4634,4
+Parana,BR,2796,Mesosaurus,290.1,283.5,-52.3569,-28.4634,1
+Parana,BR,2797,Mesosaurus,290.1,283.5,-52.3569,-28.4634,1
+Parana,BR,2798,Mesosaurus,290.1,283.5,-52.3569,-28.4634,1
+Parana,BR,2799,Mesosaurus,290.1,283.5,-52.3569,-28.4634,1
+Parana,BR,2800,Mesosaurus,290.1,283.5,-52.3569,-28.4634,1
+Parana,BR,2801,Mesosaurus,290.1,283.5,-52.3569,-28.4634,1
+Parana,BR,2802,Mesosaurus,290.1,283.5,-52.3569,-28.4634,1
+Parana,BR,2803,Mesosaurus,290.1,283.5,-52.3569,-28.4634,1
+Parana,BR,2804,Mesosaurus,290.1,283.5,-52.3569,-28.4634,1
+Parana,BR,2805,Mesosaurus,290.1,283.5,-52.3569,-28.4634,1
+Parana,BR,2806,Mesosaurus,290.1,283.5,-52.3569,-28.4634,1
+Parana,BR,2807,Mesosaurus,290.1,283.5,-52.3569,-28.4634,1
+Parana,BR,2808,Mesosaurus,290.1,283.5,-52.3569,-28.4634,1
+Parana,BR,2809,Mesosaurus,290.1,283.5,-52.3569,-28.4634,1
+Parana,BR,2810,Mesosaurus,290.1,283.5,-52.3569,-28.4634,1
+Parana,BR,2811,Mesosaurus,290.1,283.5,-52.3569,-28.4634,1
+Parana,BR,2812,Mesosaurus,290.1,283.5,-52.3569,-28.4634,1
+Parana,BR,2813,Mesosaurus,290.1,283.5,-52.3569,-28.4634,1
+Parana,BR,2814,Mesosaurus,290.1,283.5,-52.3569,-28.4634,1
+Parana,BR,2815,Mesosaurus,290.1,283.5,-52.3569,-28.4634,1
+Parana,BR,2816,Mesosaurus,290.1,283.5,-52.3569,-28.4634,1
+Parana,BR,2817,Mesosaurus,290.1,283.5,-52.3569,-28.4634,1
+Parana,BR,2818,Mesosaurus,290.1,283.5,-52.3569,-28.4634,1
+Parana,BR,2819,Mesosaurus,290.1,283.5,-52.3569,-28.4634,1
+Parana,BR,2820,Mesosaurus,290.1,283.5,-52.3569,-28.4634,1
+Sao Paulo,BR,2786,Stereosternum,290.1,283.5,-49.9329,-27.4876,1
+Sao Paulo,BR,2787,Stereosternum,290.1,283.5,-49.9329,-27.4876,1
+Sao Paulo,BR,2788,Stereosternum,290.1,283.5,-49.9329,-27.4876,1
+Sao Paulo,BR,2789,Stereosternum,290.1,283.5,-49.9329,-27.4876,1
+Sao Paulo,BR,2790,Stereosternum,290.1,283.5,-49.9329,-27.4876,1
+Sao Paulo,BR,2791,Stereosternum,290.1,283.5,-49.9329,-27.4876,1
+Sao Paulo,BR,2792,Stereosternum,290.1,283.5,-49.9329,-27.4876,1
+Sao Paulo,BR,2793,Stereosternum,290.1,283.5,-49.9329,-27.4876,1
+Sao Paulo,BR,2794,Stereosternum,290.1,283.5,-49.9329,-27.4876,1
+Sao Paulo,BR,2795,Stereosternum,290.1,283.5,-49.9329,-27.4876,1
+Sao Paulo,BR,2784,Brazilosaurus,290.1,283.5,-49.9329,-27.4876,1
+Sao Paulo,BR,2785,Brazilosaurus,290.1,283.5,-49.9329,-27.4876,1
+Parana,BR,2767,Mesosaurus,290.1,283.5,-52.3569,-28.4634,1
+Parana,BR,2768,Mesosaurus,290.1,283.5,-52.3569,-28.4634,1
+Parana,BR,2769,Mesosaurus,290.1,283.5,-52.3569,-28.4634,1
+Parana,BR,2770,Mesosaurus,290.1,283.5,-52.3569,-28.4634,1
+Parana,BR,2771,Mesosaurus,290.1,283.5,-52.3569,-28.4634,1
+Parana,BR,2772,Mesosaurus,290.1,283.5,-52.3569,-28.4634,1
+Parana,BR,2773,Mesosaurus,290.1,283.5,-52.3569,-28.4634,1
+Parana,BR,2774,Mesosaurus,290.1,283.5,-52.3569,-28.4634,1
+Parana,BR,2775,Mesosaurus,290.1,283.5,-52.3569,-28.4634,1
+Parana,BR,2776,Mesosaurus,290.1,283.5,-52.3569,-28.4634,1
+Parana,BR,2777,Mesosaurus,290.1,283.5,-52.3569,-28.4634,1
+Parana,BR,2778,Mesosaurus,290.1,283.5,-52.3569,-28.4634,1
+Parana,BR,2779,Mesosaurus,290.1,283.5,-52.3569,-28.4634,1
+Parana,BR,2780,Mesosaurus,290.1,283.5,-52.3569,-28.4634,1
+Parana,BR,2781,Mesosaurus,290.1,283.5,-52.3569,-28.4634,1
+Parana,BR,2782,Mesosaurus,290.1,283.5,-52.3569,-28.4634,1
+Parana,BR,2783,Mesosaurus,290.1,283.5,-52.3569,-28.4634,1
 Northern Cape,ZA,2766,Mesosaurus,290.1,283.5,-67.0248,-43.6981,1
 Namibia,Namibia,2765,Mesosaurus,290.1,283.5,-64.813,-32.6831,1
 Namibia,Namibia,2764,Mesosaurus,290.1,283.5,-64.813,-32.6831,1
 Namibia,Namibia,2763,Mesosaurus,290.1,283.5,-63.4387,-27.895,1
-Guaira,PY,2762,Stereosternum,290.1,283.5,-50.6231,-36.4694,4
+Guaira,PY,2762,Stereosternum,290.1,283.5,-50.6231,-36.4694,1
 Lorraine,FR,2761,Plesiosaurus,201.4,199.5,41.239,17.1675,3
 Lorraine,FR,2760,Pterodactylus,201.4,199.5,41.239,17.1675,3
-Uruguay,UY,2759,Mesosaurus,290.1,283.5,-58.7539,-34.8014,4
-Uruguay,UY,2758,Mesosaurus,290.1,283.5,-58.7539,-34.8014,4
-Uruguay,UY,2757,Mesosaurus,290.1,283.5,-58.7539,-34.8014,4
-Uruguay,UY,2756,Mesosaurus,290.1,283.5,-58.7539,-34.8014,4
+Uruguay,UY,2759,Mesosaurus,290.1,283.5,-58.7539,-34.8014,1
+Uruguay,UY,2758,Mesosaurus,290.1,283.5,-58.7539,-34.8014,1
+Uruguay,UY,2757,Mesosaurus,290.1,283.5,-58.7539,-34.8014,1
+Uruguay,UY,2756,Mesosaurus,290.1,283.5,-58.7539,-34.8014,1
 Bourgogne,FR,2755,Termatosaurus,208.5,201.4,35.7836,10.8986,3
 Bourgogne,FR,2754,Ichthyosaurus,208.5,201.4,35.7836,10.8986,3
 Bourgogne,FR,2753,Simosaurus,208.5,201.4,35.7836,10.8986,3
@@ -1750,7 +1750,7 @@ Free State,ZA,2637,Thelerpeton,247.2,242.0,-61.3754,-6.6214,1
 Free State,ZA,2638,Thelerpeton,247.2,242.0,-61.3754,-6.6214,1
 Free State,ZA,2639,Thelerpeton,247.2,242.0,-61.3754,-6.6214,1
 Free State,ZA,2636,Theledectes,247.2,242.0,-61.3754,-6.6214,1
-San Juan,AR,2635,Aetosauroides,237.0,227.0,-52.0012,-29.5316,4
+San Juan,AR,2635,Aetosauroides,237.0,227.0,-52.0012,-29.5316,1
 Utah,US,2634,Stagonolepis,227.0,208.5,3.8468,-47.0031,4
 Arizona,US,2633,Acaenasuchus,227.0,208.5,1.3531,-47.1801,4
 Arizona,US,2632,Calyptosuchus,227.0,208.5,1.3531,-47.1801,4
@@ -1784,11 +1784,11 @@ Western Cape,ZA,2605,Eunotosaurus,264.28,259.51,-62.7516,-22.8072,1
 Western Cape,ZA,2604,Eunotosaurus,264.28,259.51,-62.7516,-22.8072,1
 Western Cape,ZA,2603,Eunotosaurus,264.28,259.51,-62.7516,-22.8072,1
 Arizona,US,2602,Vancleavea,227.0,208.5,1.3531,-47.1801,4
-Rio Grande do Sul,BR,2601,Candelaria,242.0,237.0,-49.0435,-14.582,4
+Rio Grande do Sul,BR,2601,Candelaria,242.0,237.0,-49.0435,-14.582,1
 Utah,US,2600,Doswellia,227.0,208.5,3.8468,-47.0031,4
 Utah,US,2599,Vancleavea,227.0,208.5,3.8468,-47.0031,4
-Rio Grande do Sul,BR,2597,Candelaria,242.0,237.0,-49.0435,-14.582,4
-Rio Grande do Sul,BR,2598,Candelaria,242.0,237.0,-49.0435,-14.582,4
+Rio Grande do Sul,BR,2597,Candelaria,242.0,237.0,-49.0435,-14.582,1
+Rio Grande do Sul,BR,2598,Candelaria,242.0,237.0,-49.0435,-14.582,1
 Arizona,US,2596,Vancleavea,227.0,208.5,1.3531,-47.1801,4
 Arizona,US,2595,Vancleavea,227.0,208.5,1.3531,-47.1801,4
 Arizona,US,2594,Vancleavea,227.0,208.5,1.3531,-47.1801,4
@@ -2122,8 +2122,8 @@ New Mexico,US,2267,Machaeroprosopus,227.0,208.5,1.3572,-44.289,4
 New Mexico,US,2266,Apachesuchus,227.0,208.5,1.3572,-44.289,4
 New Mexico,US,2265,Machaeroprosopus,227.0,208.5,3.8366,-43.9682,4
 New Mexico,US,2264,Dolabrosaurus,227.0,208.5,3.8366,-43.9682,4
-Rio Grande do Sul,BR,2263,Procolophon,251.902,247.2,-46.4569,-23.7712,4
-Rio Grande do Sul,BR,2262,Procolophon,251.902,247.2,-46.4569,-23.7712,4
+Rio Grande do Sul,BR,2263,Procolophon,251.902,247.2,-46.4569,-23.7712,1
+Rio Grande do Sul,BR,2262,Procolophon,251.902,247.2,-46.4569,-23.7712,1
 Vologda,RU,2261,Microcnemus,251.2,247.2,47.012,29.6875,3
 Vologda,RU,2260,Microcnemus,251.2,247.2,47.012,29.6875,3
 Vologda,RU,2259,Chasmatosuchus,251.2,247.2,47.012,29.6875,3
@@ -2135,7 +2135,7 @@ Eastern Cape,ZA,2255,Procolophon,251.902,247.2,-62.6208,-11.8191,1
 New Mexico,US,2253,Rutiodon,227.0,208.5,3.8366,-43.9682,4
 New Mexico,US,2252,Typothorax,227.0,208.5,3.5088,-41.0054,4
 New Mexico,US,2251,Machaeroprosopus,227.0,208.5,3.8366,-43.9682,4
-Rio Grande do Sul,BR,2250,Procolophon,251.902,247.2,-46.5581,-19.0544,4
+Rio Grande do Sul,BR,2250,Procolophon,251.902,247.2,-46.5581,-19.0544,1
 New Mexico,US,2249,Typothorax,227.0,208.5,3.8366,-43.9682,4
 New Mexico,US,2248,Typothorax,227.0,208.5,3.8366,-43.9682,4
 New Mexico,US,2245,Typothorax,227.0,208.5,1.3572,-44.289,4
@@ -2193,8 +2193,8 @@ Mashonaland Central,ZW,2196,Hyperodapedon,237.0,227.0,-47.0393,20.0808,1
 Mashonaland Central,ZW,2195,Hyperodapedon,237.0,227.0,-47.0393,20.0808,1
 Eastern Cape,ZA,2194,Grallator,237.0,227.0,-61.7645,15.0743,1
 Marrakech,MA,2193,Arganasuchus,237.0,227.0,5.2142,-4.8883,1
-Madhya Pradesh,IN,2192,Tikisuchus,237.0,227.0,-30.8144,64.7603,4
-Madhya Pradesh,IN,2191,Hyperodapedon,237.0,227.0,-30.8144,64.7603,4
+Madhya Pradesh,IN,2192,Tikisuchus,237.0,227.0,-30.8144,64.7603,1
+Madhya Pradesh,IN,2191,Hyperodapedon,237.0,227.0,-30.8144,64.7603,1
 New Mexico,US,2190,Machaeroprosopus,227.0,208.5,1.3572,-44.289,4
 New Mexico,US,2189,Shuvosaurus,227.0,208.5,1.3572,-44.289,4
 Oklahoma,US,2187,Captorhinus,290.1,283.5,-0.73,-37.6741,4
@@ -2304,31 +2304,31 @@ Guizhou,CN,2096,Keichousaurus,239.7,237.0,18.7825,119.7653,2
 Guizhou,CN,2097,Keichousaurus,239.7,237.0,18.7825,119.7653,2
 Guizhou,CN,2082,Xinpusaurus,237.0,227.0,27.0113,118.5458,2
 Guizhou,CN,2081,Lariosaurus,242.0,237.0,18.7825,119.7653,2
-San Juan,AR,2080,Sanjuansaurus,237.0,227.0,-52.0012,-29.5316,4
+San Juan,AR,2080,Sanjuansaurus,237.0,227.0,-52.0012,-29.5316,1
 Guizhou,CN,2078,Nothosaurus,247.2,242.0,12.5798,120.0412,2
 Guizhou,CN,2079,Nothosaurus,247.2,242.0,12.5798,120.0412,2
 Guizhou,CN,2076,Anshunsaurus,239.7,237.0,18.7825,119.7653,2
 Guizhou,CN,2077,Anshunsaurus,239.7,237.0,18.7825,119.7653,2
 Guizhou,CN,2075,Guizhouichthyosaurus,237.0,227.0,27.0113,118.5458,2
-Rio Grande do Sul,BR,2074,Procolophon,251.902,247.2,-46.4569,-23.7712,4
-Rio Grande do Sul,BR,2073,Procolophon,251.902,247.2,-46.4569,-23.7712,4
-Rio Grande do Sul,BR,2072,Procolophon,251.902,247.2,-46.4569,-23.7712,4
-Rio Grande do Sul,BR,2071,Barberenasuchus,242.0,237.0,-49.0435,-14.582,4
+Rio Grande do Sul,BR,2074,Procolophon,251.902,247.2,-46.4569,-23.7712,1
+Rio Grande do Sul,BR,2073,Procolophon,251.902,247.2,-46.4569,-23.7712,1
+Rio Grande do Sul,BR,2072,Procolophon,251.902,247.2,-46.4569,-23.7712,1
+Rio Grande do Sul,BR,2071,Barberenasuchus,242.0,237.0,-49.0435,-14.582,1
 Tirol,IT,2070,Placodus,244.7,243.8,12.6903,17.2425,3
 Tirol,IT,2069,Nothosaurus,244.7,243.8,12.6903,17.2425,3
 Udine,IT,2068,Nothosaurus,237.0,227.0,27.932,16.0856,3
 Tirol,IT,2067,Pistosaurus,247.2,237.0,12.6903,17.2425,3
 Tirol,IT,2066,Shonisaurus,233.4,227.0,27.932,16.0856,3
 Udine,IT,2065,Cymbospondylus,242.0,237.0,25.8877,19.3809,3
-Rio Grande do Sul,BR,2064,Spondylosoma,242.0,237.0,-49.0435,-14.582,4
-Rio Grande do Sul,BR,2063,Prestosuchus,242.0,237.0,-49.0435,-14.582,4
-Rio Grande do Sul,BR,2062,Prestosuchus,242.0,237.0,-49.0435,-14.582,4
-Rio Grande do Sul,BR,2061,Prestosuchus,242.0,237.0,-49.0435,-14.582,4
-Rio Grande do Sul,BR,2060,Spondylosoma,242.0,237.0,-49.0435,-14.582,4
+Rio Grande do Sul,BR,2064,Spondylosoma,242.0,237.0,-49.0435,-14.582,1
+Rio Grande do Sul,BR,2063,Prestosuchus,242.0,237.0,-49.0435,-14.582,1
+Rio Grande do Sul,BR,2062,Prestosuchus,242.0,237.0,-49.0435,-14.582,1
+Rio Grande do Sul,BR,2061,Prestosuchus,242.0,237.0,-49.0435,-14.582,1
+Rio Grande do Sul,BR,2060,Spondylosoma,242.0,237.0,-49.0435,-14.582,1
 North Carolina,US,2059,Uatchitodon,227.0,208.5,1.3583,-22.8428,4
 North Carolina,US,2058,Revueltosaurus,227.0,208.5,1.3583,-22.8428,4
 North Carolina,US,2057,Revueltosaurus,227.0,208.5,1.3583,-22.8428,4
-Rio Grande do Sul,BR,2056,Guaibasaurus,227.0,208.5,-46.1164,-4.6554,4
+Rio Grande do Sul,BR,2056,Guaibasaurus,227.0,208.5,-46.1164,-4.6554,1
 Shaanxi,CN,2055,Halazhaisuchus,247.2,242.0,42.9789,121.7034,2
 Hubei,CN,2054,Keichousaurus,251.2,247.2,15.3524,126.345,2
 Guizhou,CN,2053,Nothosaurus,239.7,237.0,18.7825,119.7653,2
@@ -2411,16 +2411,16 @@ Baden-Wurttemberg,DE,1977,Batrachotomus,239.7,237.0,27.7242,17.4803,3
 Baden-Wurttemberg,DE,1976,Batrachotomus,239.7,237.0,27.7242,17.4803,3
 Svalbard,NO,1975,Cymbospondylus,242.0,237.0,46.5857,-8.0902,3
 Svalbard,NO,1974,Cymbospondylus,242.0,237.0,47.3053,-7.5408,3
-Rio Grande do Sul,BR,1972,Teyumbaita,227.0,208.5,-46.1164,-4.6554,4
-Rio Grande do Sul,BR,1973,Teyumbaita,227.0,208.5,-46.1164,-4.6554,4
-Rio Grande do Sul,BR,1971,Hyperodapedon,227.0,208.5,-46.1164,-4.6554,4
-Rio Grande do Sul,BR,1968,Teyumbaita,227.0,208.5,-46.1164,-4.6554,4
-Rio Grande do Sul,BR,1969,Teyumbaita,227.0,208.5,-46.1164,-4.6554,4
-Rio Grande do Sul,BR,1970,Teyumbaita,227.0,208.5,-46.1164,-4.6554,4
+Rio Grande do Sul,BR,1972,Teyumbaita,227.0,208.5,-46.1164,-4.6554,1
+Rio Grande do Sul,BR,1973,Teyumbaita,227.0,208.5,-46.1164,-4.6554,1
+Rio Grande do Sul,BR,1971,Hyperodapedon,227.0,208.5,-46.1164,-4.6554,1
+Rio Grande do Sul,BR,1968,Teyumbaita,227.0,208.5,-46.1164,-4.6554,1
+Rio Grande do Sul,BR,1969,Teyumbaita,227.0,208.5,-46.1164,-4.6554,1
+Rio Grande do Sul,BR,1970,Teyumbaita,227.0,208.5,-46.1164,-4.6554,1
 Nevada,US,1967,Shonisaurus,227.0,216.7,7.8874,-52.1791,4
 Nevada,US,1966,Mixosaurus,247.2,237.0,16.0387,-47.1461,4
 Nevada,US,1965,Mixosaurus,247.2,237.0,16.0387,-47.1461,4
-San Juan,AR,1964,Eodromaeus,237.0,227.0,-52.0012,-29.5316,4
+San Juan,AR,1964,Eodromaeus,237.0,227.0,-52.0012,-29.5316,1
 Sonora,MX,1961,Shastasaurus,237.0,227.0,-1.4097,-51.0616,4
 Sonora,MX,1962,Shastasaurus,237.0,227.0,-1.4097,-51.0616,4
 Sonora,MX,1963,Shastasaurus,237.0,227.0,-1.4097,-51.0616,4
@@ -2452,12 +2452,12 @@ Bavaria,DE,1936,Cyamodus,247.2,237.0,26.4626,20.9891,3
 Bavaria,DE,1935,Placodus,247.2,237.0,26.4626,20.9891,3
 Bavaria,DE,1934,Placodus,247.2,237.0,26.4626,20.9891,3
 Bavaria,DE,1933,Placodus,247.2,237.0,26.4626,20.9891,3
-La Rioja,AR,1932,Tropidosuchus,242.0,237.0,-49.9808,-33.9335,4
-La Rioja,AR,1931,Marasuchus,242.0,237.0,-49.9808,-33.9335,4
-La Rioja,AR,1930,Luperosuchus,242.0,237.0,-49.9808,-33.9335,4
-La Rioja,AR,1929,Tarjadia,242.0,237.0,-49.9808,-33.9335,4
-La Rioja,AR,1928,Tarjadia,242.0,237.0,-49.9808,-33.9335,4
-La Rioja,AR,1927,Tarjadia,242.0,237.0,-49.9808,-33.9335,4
+La Rioja,AR,1932,Tropidosuchus,242.0,237.0,-49.9808,-33.9335,1
+La Rioja,AR,1931,Marasuchus,242.0,237.0,-49.9808,-33.9335,1
+La Rioja,AR,1930,Luperosuchus,242.0,237.0,-49.9808,-33.9335,1
+La Rioja,AR,1929,Tarjadia,242.0,237.0,-49.9808,-33.9335,1
+La Rioja,AR,1928,Tarjadia,242.0,237.0,-49.9808,-33.9335,1
+La Rioja,AR,1927,Tarjadia,242.0,237.0,-49.9808,-33.9335,1
 Free State,ZA,1926,Procolophon,251.902,247.2,-60.6853,0.078,1
 Free State,ZA,1924,Prolacerta,251.902,247.2,-60.6853,0.078,1
 Free State,ZA,1925,Prolacerta,251.902,247.2,-60.6853,0.078,1
@@ -2465,51 +2465,51 @@ Free State,ZA,1923,Proterosuchus,251.902,247.2,-60.6853,0.078,1
 Free State,ZA,1922,Aenigmasaurus,251.902,247.2,-60.6853,0.078,1
 Free State,ZA,1921,Procolophon,251.902,247.2,-60.7306,-8.3682,1
 Free State,ZA,1920,Prolacerta,251.902,247.2,-60.7306,-8.3682,1
-Rio Grande do Sul,BR,1919,Brasinorhynchus,242.0,237.0,-49.0435,-14.582,4
+Rio Grande do Sul,BR,1919,Brasinorhynchus,242.0,237.0,-49.0435,-14.582,1
 Eastern Cape,ZA,1914,Prolacerta,251.902,247.2,-60.7306,-8.3682,1
 Free State,ZA,1913,Prolacerta,251.902,247.2,-60.6853,0.078,1
 Free State,ZA,1912,Prolacerta,251.902,251.2,-60.8807,-1.1886,1
 Free State,ZA,1911,Prolacerta,251.902,247.2,-60.7306,-8.3682,1
 Eastern Cape,ZA,1910,Proterosuchus,251.902,247.2,-62.6208,-11.8191,1
 Eastern Cape,ZA,1909,Proterosuchus,251.902,247.2,-60.7306,-8.3682,1
-Rio Grande do Sul,BR,1908,Clevosaurus,227.0,208.5,-46.1164,-4.6554,4
-La Rioja,AR,1907,Riojasuchus,227.0,208.5,-50.4972,-22.4201,4
-La Rioja,AR,1905,Neoaetosauroides,227.0,208.5,-50.4972,-22.4201,4
-La Rioja,AR,1906,Neoaetosauroides,227.0,208.5,-50.4972,-22.4201,4
-La Rioja,AR,1903,Hemiprotosuchus,227.0,208.5,-50.4972,-22.4201,4
-La Rioja,AR,1904,Hemiprotosuchus,227.0,208.5,-50.4972,-22.4201,4
-La Rioja,AR,1902,Pseudhesperosuchus,227.0,208.5,-50.4972,-22.4201,4
-La Rioja,AR,1899,Palaeochersis,227.0,208.5,-50.4972,-22.4201,4
-La Rioja,AR,1900,Palaeochersis,227.0,208.5,-50.4972,-22.4201,4
-La Rioja,AR,1901,Palaeochersis,227.0,208.5,-50.4972,-22.4201,4
-La Rioja,AR,1898,Fasolasuchus,227.0,208.5,-50.4972,-22.4201,4
-La Rioja,AR,1897,Neoaetosauroides,227.0,208.5,-50.4972,-22.4201,4
-La Rioja,AR,1895,Neoaetosauroides,227.0,208.5,-50.4972,-22.4201,4
-La Rioja,AR,1896,Neoaetosauroides,227.0,208.5,-50.4972,-22.4201,4
-La Rioja,AR,1894,Neoaetosauroides,227.0,208.5,-50.4972,-22.4201,4
-La Rioja,AR,1893,Neoaetosauroides,227.0,208.5,-50.4972,-22.4201,4
-La Rioja,AR,1892,Neoaetosauroides,227.0,208.5,-50.4972,-22.4201,4
+Rio Grande do Sul,BR,1908,Clevosaurus,227.0,208.5,-46.1164,-4.6554,1
+La Rioja,AR,1907,Riojasuchus,227.0,208.5,-50.4972,-22.4201,1
+La Rioja,AR,1905,Neoaetosauroides,227.0,208.5,-50.4972,-22.4201,1
+La Rioja,AR,1906,Neoaetosauroides,227.0,208.5,-50.4972,-22.4201,1
+La Rioja,AR,1903,Hemiprotosuchus,227.0,208.5,-50.4972,-22.4201,1
+La Rioja,AR,1904,Hemiprotosuchus,227.0,208.5,-50.4972,-22.4201,1
+La Rioja,AR,1902,Pseudhesperosuchus,227.0,208.5,-50.4972,-22.4201,1
+La Rioja,AR,1899,Palaeochersis,227.0,208.5,-50.4972,-22.4201,1
+La Rioja,AR,1900,Palaeochersis,227.0,208.5,-50.4972,-22.4201,1
+La Rioja,AR,1901,Palaeochersis,227.0,208.5,-50.4972,-22.4201,1
+La Rioja,AR,1898,Fasolasuchus,227.0,208.5,-50.4972,-22.4201,1
+La Rioja,AR,1897,Neoaetosauroides,227.0,208.5,-50.4972,-22.4201,1
+La Rioja,AR,1895,Neoaetosauroides,227.0,208.5,-50.4972,-22.4201,1
+La Rioja,AR,1896,Neoaetosauroides,227.0,208.5,-50.4972,-22.4201,1
+La Rioja,AR,1894,Neoaetosauroides,227.0,208.5,-50.4972,-22.4201,1
+La Rioja,AR,1893,Neoaetosauroides,227.0,208.5,-50.4972,-22.4201,1
+La Rioja,AR,1892,Neoaetosauroides,227.0,208.5,-50.4972,-22.4201,1
 Northern Cape,ZA,1891,Phonodus,251.902,251.2,-60.8084,-9.6701,1
 Eastern Cape,ZA,1890,Erythrosuchus,247.2,242.0,-63.335,-9.9696,1
 Ruvuma,TZ,1888,Stagonosuchus,247.2,242.0,-46.5586,19.7779,1
 Ruvuma,TZ,1889,Stagonosuchus,247.2,242.0,-46.5586,19.7779,1
 Switzerland,CH,1887,Ticinosuchus,247.2,242.0,20.9379,22.0121,3
 Switzerland,CH,1886,Ticinosuchus,247.2,242.0,20.9379,22.0121,3
-La Rioja,AR,1883,Lewisuchus,242.0,237.0,-49.9808,-33.9335,4
-La Rioja,AR,1884,Lewisuchus,242.0,237.0,-49.9808,-33.9335,4
-La Rioja,AR,1885,Lewisuchus,242.0,237.0,-49.9808,-33.9335,4
-La Rioja,AR,1881,Lagerpeton,242.0,237.0,-49.9808,-33.9335,4
-La Rioja,AR,1882,Lagerpeton,242.0,237.0,-49.9808,-33.9335,4
-La Rioja,AR,1874,Tropidosuchus,242.0,237.0,-49.9808,-33.9335,4
-La Rioja,AR,1875,Tropidosuchus,242.0,237.0,-49.9808,-33.9335,4
-La Rioja,AR,1876,Tropidosuchus,242.0,237.0,-49.9808,-33.9335,4
-La Rioja,AR,1877,Tropidosuchus,242.0,237.0,-49.9808,-33.9335,4
-La Rioja,AR,1878,Tropidosuchus,242.0,237.0,-49.9808,-33.9335,4
-La Rioja,AR,1879,Tropidosuchus,242.0,237.0,-49.9808,-33.9335,4
-La Rioja,AR,1880,Tropidosuchus,242.0,237.0,-49.9808,-33.9335,4
-Rio Grande do Sul,BR,1873,Prestosuchus,242.0,237.0,-49.0435,-14.582,4
-Rio Grande do Sul,BR,1872,Prestosuchus,242.0,237.0,-49.0435,-14.582,4
-Rio Grande do Sul,BR,1871,Procerosuchus,242.0,237.0,-49.0435,-14.582,4
+La Rioja,AR,1883,Lewisuchus,242.0,237.0,-49.9808,-33.9335,1
+La Rioja,AR,1884,Lewisuchus,242.0,237.0,-49.9808,-33.9335,1
+La Rioja,AR,1885,Lewisuchus,242.0,237.0,-49.9808,-33.9335,1
+La Rioja,AR,1881,Lagerpeton,242.0,237.0,-49.9808,-33.9335,1
+La Rioja,AR,1882,Lagerpeton,242.0,237.0,-49.9808,-33.9335,1
+La Rioja,AR,1874,Tropidosuchus,242.0,237.0,-49.9808,-33.9335,1
+La Rioja,AR,1875,Tropidosuchus,242.0,237.0,-49.9808,-33.9335,1
+La Rioja,AR,1876,Tropidosuchus,242.0,237.0,-49.9808,-33.9335,1
+La Rioja,AR,1877,Tropidosuchus,242.0,237.0,-49.9808,-33.9335,1
+La Rioja,AR,1878,Tropidosuchus,242.0,237.0,-49.9808,-33.9335,1
+La Rioja,AR,1879,Tropidosuchus,242.0,237.0,-49.9808,-33.9335,1
+La Rioja,AR,1880,Tropidosuchus,242.0,237.0,-49.9808,-33.9335,1
+Rio Grande do Sul,BR,1873,Prestosuchus,242.0,237.0,-49.0435,-14.582,1
+Rio Grande do Sul,BR,1872,Prestosuchus,242.0,237.0,-49.0435,-14.582,1
+Rio Grande do Sul,BR,1871,Procerosuchus,242.0,237.0,-49.0435,-14.582,1
 Baden-Wurttemberg,DE,1870,Mystriosuchus,227.0,208.5,30.9826,11.6474,3
 Baden-Wurttemberg,DE,1869,Mystriosuchus,227.0,208.5,30.9826,11.6474,3
 Baden-Wurttemberg,DE,1868,Mystriosuchus,227.0,208.5,30.9826,11.6474,3
@@ -2527,17 +2527,17 @@ Baden-Wurttemberg,DE,1857,Paratypothorax,227.0,208.5,32.5932,9.3339,3
 Volgograd,RU,1856,Augustaburiania,251.2,247.2,41.1651,41.0099,3
 Arkhangelsk,RU,1855,Augustaburiania,251.2,247.2,57.3744,23.138,3
 Sachsen-Anhalt,DE,1854,Cymatosaurus,245.5,244.7,28.4265,19.2638,3
-Rio Grande do Sul,BR,1853,Archeopelta,242.0,237.0,-49.0435,-14.582,4
-Rio Grande do Sul,BR,1851,Faxinalipterus,227.0,208.5,-46.1164,-4.6554,4
-Rio Grande do Sul,BR,1852,Faxinalipterus,227.0,208.5,-46.1164,-4.6554,4
-Rio Grande do Sul,BR,1850,Cargninia,227.0,208.5,-46.1164,-4.6554,4
+Rio Grande do Sul,BR,1853,Archeopelta,242.0,237.0,-49.0435,-14.582,1
+Rio Grande do Sul,BR,1851,Faxinalipterus,227.0,208.5,-46.1164,-4.6554,1
+Rio Grande do Sul,BR,1852,Faxinalipterus,227.0,208.5,-46.1164,-4.6554,1
+Rio Grande do Sul,BR,1850,Cargninia,227.0,208.5,-46.1164,-4.6554,1
 Niedersachsen,DE,1849,Mystriosuchus,227.0,208.5,35.9901,8.7732,3
 Niedersachsen,DE,1848,Nicrosaurus,227.0,208.5,35.9901,8.7732,3
 Baden-Wurttemberg,DE,1847,Plateosaurus,227.0,208.5,30.9826,11.6474,3
 Lombardia,IT,1846,Mystriosuchus,213.2,208.5,20.3475,11.0572,3
 Lombardia,IT,1845,Mystriosuchus,216.7,213.2,20.3475,11.0572,3
 Lombardia,IT,1844,Mystriosuchus,216.7,213.2,20.3475,11.0572,3
-Madhya Pradesh,IN,1843,Volcanosuchus,237.0,227.0,-30.8144,64.7603,4
+Madhya Pradesh,IN,1843,Volcanosuchus,237.0,227.0,-30.8144,64.7603,1
 Lombardia,IT,1842,Diphydontosaurus,216.7,213.2,20.3475,11.0572,3
 Thailand,TH,1841,Proganochelys,227.0,208.5,30.6753,108.9736,2
 Thailand,TH,1840,Proganochelys,227.0,208.5,30.6753,108.9736,2
@@ -2569,16 +2569,16 @@ British Columbia,CA,1815,Sikannisuchus,227.0,208.5,26.0453,-51.9765,4
 British Columbia,CA,1814,Sikannisuchus,227.0,208.5,26.0453,-51.9765,4
 British Columbia,CA,1813,Metashastasaurus,227.0,208.5,26.0453,-51.9765,4
 British Columbia,CA,1812,Sikannisuchus,227.0,208.5,26.0453,-51.9765,4
-Rio Grande do Sul,BR,1803,Decuriasuchus,242.0,237.0,-49.0435,-14.582,4
-Rio Grande do Sul,BR,1804,Decuriasuchus,242.0,237.0,-49.0435,-14.582,4
-Rio Grande do Sul,BR,1805,Decuriasuchus,242.0,237.0,-49.0435,-14.582,4
-Rio Grande do Sul,BR,1806,Decuriasuchus,242.0,237.0,-49.0435,-14.582,4
-Rio Grande do Sul,BR,1807,Decuriasuchus,242.0,237.0,-49.0435,-14.582,4
-Rio Grande do Sul,BR,1808,Decuriasuchus,242.0,237.0,-49.0435,-14.582,4
-Rio Grande do Sul,BR,1809,Decuriasuchus,242.0,237.0,-49.0435,-14.582,4
-Rio Grande do Sul,BR,1810,Decuriasuchus,242.0,237.0,-49.0435,-14.582,4
-Rio Grande do Sul,BR,1811,Decuriasuchus,242.0,237.0,-49.0435,-14.582,4
-Rio Grande do Sul,BR,1802,Decuriasuchus,242.0,237.0,-49.0435,-14.582,4
+Rio Grande do Sul,BR,1803,Decuriasuchus,242.0,237.0,-49.0435,-14.582,1
+Rio Grande do Sul,BR,1804,Decuriasuchus,242.0,237.0,-49.0435,-14.582,1
+Rio Grande do Sul,BR,1805,Decuriasuchus,242.0,237.0,-49.0435,-14.582,1
+Rio Grande do Sul,BR,1806,Decuriasuchus,242.0,237.0,-49.0435,-14.582,1
+Rio Grande do Sul,BR,1807,Decuriasuchus,242.0,237.0,-49.0435,-14.582,1
+Rio Grande do Sul,BR,1808,Decuriasuchus,242.0,237.0,-49.0435,-14.582,1
+Rio Grande do Sul,BR,1809,Decuriasuchus,242.0,237.0,-49.0435,-14.582,1
+Rio Grande do Sul,BR,1810,Decuriasuchus,242.0,237.0,-49.0435,-14.582,1
+Rio Grande do Sul,BR,1811,Decuriasuchus,242.0,237.0,-49.0435,-14.582,1
+Rio Grande do Sul,BR,1802,Decuriasuchus,242.0,237.0,-49.0435,-14.582,1
 Wyoming,US,1801,Angistorhinus,237.0,227.0,9.7144,-44.588,4
 Wyoming,US,1800,Angistorhinus,237.0,227.0,9.7144,-44.588,4
 Wyoming,US,1799,Parasuchus,237.0,227.0,9.7144,-44.588,4
@@ -2634,9 +2634,9 @@ Tirol,IT,1750,Eubrontes,201.4,199.5,27.5923,22.1854,3
 Northern Cape,ZA,1749,Galesphyrus,259.51,254.14,-58.4754,-23.4715,1
 Eastern Cape,ZA,1748,Galesphyrus,259.51,254.14,-61.365,-10.9827,1
 Baden-Wurttemberg,DE,1747,Amotosaurus,247.2,244.7,22.9805,20.4578,3
-Tasmania,AU,1746,Tasmaniosaurus,251.902,251.2,-70.8462,123.5821,4
-Queensland,AU,1745,Tasmaniosaurus,251.902,251.2,-52.1532,140.794,4
-Queensland,AU,1744,Kalisuchus,251.902,251.2,-54.016,134.4377,4
+Tasmania,AU,1746,Tasmaniosaurus,251.902,251.2,-70.8462,123.5821,1
+Queensland,AU,1745,Tasmaniosaurus,251.902,251.2,-52.1532,140.794,1
+Queensland,AU,1744,Kalisuchus,251.902,251.2,-54.016,134.4377,1
 Eastern Cape,ZA,1743,Proterosuchus,251.902,247.2,-62.6208,-11.8191,1
 Eastern Cape,ZA,1742,Procolophon,251.902,247.2,-62.6208,-11.8191,1
 Free State,ZA,1741,Proterosuchus,251.902,247.2,-58.7619,-5.3084,1
@@ -2645,7 +2645,7 @@ Free State,ZA,1738,Proterosuchus,251.902,247.2,-60.7306,-8.3682,1
 Free State,ZA,1739,Proterosuchus,251.902,247.2,-60.7306,-8.3682,1
 Eastern Cape,ZA,1737,Proterosuchus,251.902,247.2,-62.6208,-11.8191,1
 Eastern Cape,ZA,1736,Proterosuchus,251.902,247.2,-62.6208,-11.8191,1
-West Bengal,IN,1735,Proterosuchus,251.902,248.9,-44.7014,64.2652,4
+West Bengal,IN,1735,Proterosuchus,251.902,248.9,-44.7014,64.2652,1
 Xinjiang,CN,1734,Proterosuchus,251.902,251.2,61.2176,76.6687,2
 Malopolskie,PL,1733,Collilongus,251.2,247.2,29.45,26.3383,3
 England,UK,1732,Macroplata,201.4,199.5,39.8221,10.4256,3
@@ -2677,11 +2677,11 @@ England,UK,1706,Eoplesiosaurus,201.4,199.5,36.2945,10.4603,3
 Udine,IT,1705,Bobosaurus,237.0,233.4,29.8178,18.0172,3
 Guizhou,CN,1704,Yunguisaurus,242.0,237.0,18.7825,119.7653,2
 Yunnan,CN,1703,Yunguisaurus,242.0,237.0,18.7825,119.7653,2
-San Juan,AR,1701,Chromogisaurus,237.0,227.0,-52.0012,-29.5316,4
-Andhra Pradesh,IN,1698,Nambalia,227.0,208.5,-25.4827,56.8524,4
-Andhra Pradesh,IN,1699,Nambalia,227.0,208.5,-25.4827,56.8524,4
-Andhra Pradesh,IN,1700,Nambalia,227.0,208.5,-25.4827,56.8524,4
-Andhra Pradesh,IN,1697,Jaklapallisaurus,227.0,208.5,-25.4827,56.8524,4
+San Juan,AR,1701,Chromogisaurus,237.0,227.0,-52.0012,-29.5316,1
+Andhra Pradesh,IN,1698,Nambalia,227.0,208.5,-25.4827,56.8524,1
+Andhra Pradesh,IN,1699,Nambalia,227.0,208.5,-25.4827,56.8524,1
+Andhra Pradesh,IN,1700,Nambalia,227.0,208.5,-25.4827,56.8524,1
+Andhra Pradesh,IN,1697,Jaklapallisaurus,227.0,208.5,-25.4827,56.8524,1
 Oklahoma,US,1696,Feeserpeton,290.1,283.5,-0.73,-37.6741,4
 Yunnan,CN,1695,Diandongosuchus,242.0,237.0,18.7825,119.7653,2
 Ruvuma,TZ,1694,Stenaulorhynchus,247.2,242.0,-46.5586,19.7779,1
@@ -2703,9 +2703,9 @@ Arizona,US,1679,Tecovasuchus,227.0,208.5,1.3531,-47.1801,4
 New Mexico,US,1678,Tecovasuchus,227.0,208.5,1.3531,-47.1801,4
 Arizona,US,1677,Tecovasuchus,227.0,208.5,1.3531,-47.1801,4
 Arizona,US,1676,Tecovasuchus,227.0,208.5,1.3531,-47.1801,4
-Queensland,AU,1675,Eomurruna,251.902,251.2,-54.016,134.4377,4
-Andhra Pradesh,IN,1674,Mesodapedon,247.2,242.0,-39.8254,56.37,4
-Madhya Pradesh,IN,1673,Parasuchus,237.0,227.0,-30.8144,64.7603,4
+Queensland,AU,1675,Eomurruna,251.902,251.2,-54.016,134.4377,1
+Andhra Pradesh,IN,1674,Mesodapedon,247.2,242.0,-39.8254,56.37,1
+Madhya Pradesh,IN,1673,Parasuchus,237.0,227.0,-30.8144,64.7603,1
 Ruvuma,TZ,1672,Nyasasaurus,247.2,242.0,-46.5586,19.7779,1
 Ruvuma,TZ,1671,Nyasasaurus,247.2,242.0,-46.5586,19.7779,1
 Ruvuma,TZ,1670,Stagonosuchus,247.2,242.0,-46.5586,19.7779,1
@@ -2863,7 +2863,7 @@ Guizhou,CN,1453,Guanlingsaurus,237.0,227.0,27.0113,118.5458,2
 Somerset,UK,1451,Temnodontosaurus,201.4,199.5,36.2945,10.4603,3
 Somerset,UK,1450,Leptonectes,201.4,199.5,36.2945,10.4603,3
 England,UK,1449,Plesiosaurus,208.5,201.4,35.9688,2.1884,3
-La Rioja,AR,1448,Coloradisaurus,227.0,208.5,-50.4972,-22.4201,4
+La Rioja,AR,1448,Coloradisaurus,227.0,208.5,-50.4972,-22.4201,1
 Volgograd,RU,1447,Bystrowisuchus,251.2,247.2,41.1651,41.0099,3
 Arizona,US,1446,Poposaurus,227.0,208.5,1.3531,-47.1801,4
 Arizona,US,1445,Shuvosaurus,227.0,208.5,1.3531,-47.1801,4
@@ -2912,15 +2912,15 @@ Burgundy,FR,1402,Actiosaurus,208.5,201.4,35.7836,10.8986,3
 Massachusetts,US,1401,Grallator,201.4,199.5,20.0114,-14.2092,4
 Massachusetts,US,1400,Eubrontes,201.4,199.5,20.0114,-14.2092,4
 Guizhou,CN,1399,Largocephalosaurus,244.7,243.8,12.5798,120.0412,2
-Santa Cruz,AR,1395,Plateosaurus,227.0,208.5,-65.4946,1.0296,4
-Santa Cruz,AR,1396,Plateosaurus,227.0,208.5,-65.4946,1.0296,4
-Santa Cruz,AR,1397,Plateosaurus,227.0,208.5,-65.4946,1.0296,4
-Santa Cruz,AR,1398,Plateosaurus,227.0,208.5,-65.4946,1.0296,4
+Santa Cruz,AR,1395,Plateosaurus,227.0,208.5,-65.4946,1.0296,1
+Santa Cruz,AR,1396,Plateosaurus,227.0,208.5,-65.4946,1.0296,1
+Santa Cruz,AR,1397,Plateosaurus,227.0,208.5,-65.4946,1.0296,1
+Santa Cruz,AR,1398,Plateosaurus,227.0,208.5,-65.4946,1.0296,1
 Baden-Wurttemberg,DE,1393,Jaxtasuchus,239.7,237.0,27.7242,17.4803,3
 Baden-Wurttemberg,DE,1392,Jaxtasuchus,239.7,237.0,27.7242,17.4803,3
 Baden-Wurttemberg,DE,1391,Jaxtasuchus,239.7,237.0,27.7242,17.4803,3
 Baden-Wurttemberg,DE,1390,Jaxtasuchus,239.7,237.0,27.7242,17.4803,3
-La Rioja,AR,1389,Venaticosuchus,237.0,227.0,-52.0012,-29.5316,4
+La Rioja,AR,1389,Venaticosuchus,237.0,227.0,-52.0012,-29.5316,1
 Eastern Cape,ZA,1388,Procolophon,251.2,247.2,-60.7306,-8.3682,1
 Free State,ZA,1387,Palacrodon,251.2,247.2,-58.7619,-5.3084,1
 Tibet,CN,1386,Himalayasaurus,216.7,213.2,-20.4491,75.0051,2
@@ -2938,8 +2938,8 @@ England,UK,1366,Protorosaurus,259.51,254.14,26.1672,12.925,3
 England,UK,1365,Protorosaurus,259.51,254.14,26.1672,12.925,3
 Tatarstan,RU,1364,Eorasaurus,264.28,259.51,43.046,36.2856,3
 Ruvuma,TZ,1363,Aenigmastropheus,259.51,254.14,-47.7841,17.7482,1
-San Juan,AR,1362,Ignotosaurus,237.0,227.0,-52.0012,-29.5316,4
-San Juan,AR,1361,Hyperodapedon,237.0,227.0,-52.0012,-29.5316,4
+San Juan,AR,1362,Ignotosaurus,237.0,227.0,-52.0012,-29.5316,1
+San Juan,AR,1361,Hyperodapedon,237.0,227.0,-52.0012,-29.5316,1
 British Columbia,CA,1356,Paralonectes,251.2,248.9,31.618,-40.9603,4
 British Columbia,CA,1355,Paralonectes,251.2,248.9,31.618,-40.9603,4
 British Columbia,CA,1354,Paralonectes,247.2,237.0,30.4196,-41.7441,4
@@ -3334,17 +3334,17 @@ Colorado,US,960,Rotodactylus,227.0,208.5,3.8468,-47.0031,4
 Yunnan,CN,959,Lufengosaurus,201.4,199.5,52.1412,136.1873,2
 Yunnan,CN,958,Yunnanosaurus,201.4,199.5,52.1412,136.1873,2
 Hubei,CN,957,Nanchangosaurus,248.9,247.2,15.3524,126.345,2
-Madhya Pradesh,IN,956,Hyperodapedon,237.0,227.0,-30.8144,64.7603,4
+Madhya Pradesh,IN,956,Hyperodapedon,237.0,227.0,-30.8144,64.7603,1
 Western Cape,ZA,955,Pareiasaurus,259.51,254.14,-60.8508,-19.3342,1
 Western Cape,ZA,953,Owenetta,259.51,251.902,-60.8508,-19.3342,1
 Western Cape,ZA,954,Owenetta,259.51,251.902,-60.8508,-19.3342,1
 Eastern Cape,ZA,952,Owenetta,259.51,251.902,-63.1595,-14.725,1
-Tachira,VE,951,Tachiraptor,201.4,199.5,-7.2843,-36.0957,4
+Tachira,VE,951,Tachiraptor,201.4,199.5,-7.2843,-36.0957,1
 Switzerland,CH,950,Clarazia,243.8,242.0,20.9379,22.0121,3
 Switzerland,CH,949,Hescheleria,243.8,242.0,20.9379,22.0121,3
 Switzerland,CH,948,Askeptosaurus,247.2,237.0,20.9379,22.0121,3
-Rio Grande do Sul,BR,947,Dagasuchus,237.0,227.0,-49.4771,-10.0175,4
-Rio Grande do Sul,BR,946,Polesinesuchus,237.0,227.0,-49.4771,-10.0175,4
+Rio Grande do Sul,BR,947,Dagasuchus,237.0,227.0,-49.4771,-10.0175,1
+Rio Grande do Sul,BR,946,Polesinesuchus,237.0,227.0,-49.4771,-10.0175,1
 Shanxi,CN,945,Shansisuchus,247.2,242.0,40.1025,114.9447,2
 Eastern Cape,ZA,944,Owenetta,259.51,251.902,-63.1595,-14.725,1
 Oklahoma,US,938,Opisthodontosaurus,290.1,283.5,-0.73,-37.6741,4
@@ -3368,7 +3368,7 @@ England,UK,926,Planocephalosaurus,208.5,201.4,35.9688,2.1884,3
 Eastern Cape,ZA,925,Pareiasaurus,259.51,251.902,-63.1595,-14.725,1
 Eastern Cape,ZA,924,Spondylolestes,259.51,251.902,-63.1595,-14.725,1
 Eastern Cape,ZA,923,Pareiasaurus,259.51,251.902,-60.8508,-19.3342,1
-San Juan,AR,922,Sphenotitan,227.0,208.5,-52.8544,-21.0767,4
+San Juan,AR,922,Sphenotitan,227.0,208.5,-52.8544,-21.0767,1
 Eastern Cape,ZA,921,Anthodon,259.51,254.14,-63.1595,-14.725,1
 Eastern Cape,ZA,920,Owenetta,259.51,251.902,-60.8508,-19.3342,1
 Western Cape,ZA,919,Pareiasuchus,259.51,254.14,-60.8508,-19.3342,1
@@ -3439,7 +3439,7 @@ Eastern Cape,ZA,855,Prolacerta,251.902,247.2,-60.7306,-8.3682,1
 Opolskie,PL,854,Protanystropheus,245.5,244.7,29.5613,25.1704,3
 Baden-Wurttemberg,DE,853,Protanystropheus,247.2,242.0,22.9805,20.4578,3
 Israel,IL,852,Tanystropheus,244.7,243.8,-9.6503,31.2677,1
-Rio Grande do Sul,BR,851,Teyujagua,251.902,247.2,-46.4569,-23.7712,4
+Rio Grande do Sul,BR,851,Teyujagua,251.902,247.2,-46.4569,-23.7712,1
 Eastern Cape,ZA,850,Proterosuchus,251.902,247.2,-62.6208,-11.8191,1
 Eastern Cape,ZA,849,Proterosuchus,251.902,247.2,-62.6208,-11.8191,1
 Eastern Cape,ZA,848,Proterosuchus,251.902,247.2,-62.6208,-11.8191,1
@@ -3451,18 +3451,18 @@ North Carolina,US,843,Lucasuchus,237.0,227.0,-0.5164,-22.3104,4
 North Carolina,US,842,Coahomasuchus,237.0,227.0,-0.5164,-22.3104,4
 Yunnan,CN,841,Litorosuchus,242.0,237.0,18.7825,119.7653,2
 Colorado,US,840,Stenomyti,227.0,208.5,6.3405,-46.8252,4
-Rio Grande do Sul,BR,838,Ixalerpeton,237.0,227.0,-49.4771,-10.0175,4
-Rio Grande do Sul,BR,839,Ixalerpeton,237.0,227.0,-49.4771,-10.0175,4
-Rio Grande do Sul,BR,836,Buriolestes,237.0,227.0,-49.4771,-10.0175,4
-Rio Grande do Sul,BR,837,Buriolestes,237.0,227.0,-49.4771,-10.0175,4
+Rio Grande do Sul,BR,838,Ixalerpeton,237.0,227.0,-49.4771,-10.0175,1
+Rio Grande do Sul,BR,839,Ixalerpeton,237.0,227.0,-49.4771,-10.0175,1
+Rio Grande do Sul,BR,836,Buriolestes,237.0,227.0,-49.4771,-10.0175,1
+Rio Grande do Sul,BR,837,Buriolestes,237.0,227.0,-49.4771,-10.0175,1
 New Mexico,US,835,Vivaron,227.0,208.5,3.8366,-43.9682,4
 New Mexico,US,834,Vivaron,227.0,208.5,3.8366,-43.9682,4
-La Rioja,AR,833,Trialestes,237.0,227.0,-52.0012,-29.5316,4
-San Juan,AR,832,Dromomeron,227.0,208.5,-52.8544,-21.0767,4
-San Juan,AR,831,Waluchelys,227.0,208.5,-52.8544,-21.0767,4
-San Juan,AR,830,Sphenotitan,227.0,208.5,-52.8544,-21.0767,4
-San Juan,AR,829,Sphenotitan,227.0,208.5,-52.8544,-21.0767,4
-San Juan,AR,828,Lucianovenator,227.0,208.5,-52.8544,-21.0767,4
+La Rioja,AR,833,Trialestes,237.0,227.0,-52.0012,-29.5316,1
+San Juan,AR,832,Dromomeron,227.0,208.5,-52.8544,-21.0767,1
+San Juan,AR,831,Waluchelys,227.0,208.5,-52.8544,-21.0767,1
+San Juan,AR,830,Sphenotitan,227.0,208.5,-52.8544,-21.0767,1
+San Juan,AR,829,Sphenotitan,227.0,208.5,-52.8544,-21.0767,1
+San Juan,AR,828,Lucianovenator,227.0,208.5,-52.8544,-21.0767,1
 Arizona,US,827,Scutarx,227.0,208.5,1.3531,-47.1801,4
 Arizona,US,826,Scutarx,227.0,208.5,1.3531,-47.1801,4
 New Jersey,US,825,Grallator,201.4,199.5,16.9917,-16.5851,4
@@ -3474,7 +3474,7 @@ Free State,ZA,820,Garjainia,251.2,247.2,-58.7619,-5.3084,1
 Free State,ZA,819,Garjainia,251.2,247.2,-58.7619,-5.3084,1
 Free State,ZA,818,Garjainia,251.2,247.2,-58.7619,-5.3084,1
 Free State,ZA,817,Garjainia,251.2,247.2,-60.6853,0.078,1
-San Juan,AR,816,Pseudochampsa,237.0,227.0,-52.0012,-29.5316,4
+San Juan,AR,816,Pseudochampsa,237.0,227.0,-52.0012,-29.5316,1
 New Mexico,US,815,Coelophysis,227.0,208.5,3.8366,-43.9682,4
 Ruvuma,TZ,813,Teleocrater,247.2,242.0,-46.5586,19.7779,1
 Nova Scotia,CA,812,Hypsognathus,237.0,227.0,10.5874,-11.8909,4
@@ -3513,7 +3513,7 @@ Vologda,RU,780,Scutosaurus,264.28,256.8,44.0349,28.9755,3
 Vladimir,RU,779,Archosaurus,259.51,256.8,43.0752,31.5453,3
 Kirov,RU,778,Deltavjatia,264.28,259.51,44.3876,33.3665,3
 Orenburg,RU,777,Nyctiphruretus,264.28,256.8,43.5161,40.8295,3
-Rio Grande do Sul,BR,775,Decuriasuchus,247.2,237.0,-47.4217,-18.3424,4
+Rio Grande do Sul,BR,775,Decuriasuchus,247.2,237.0,-47.4217,-18.3424,1
 Tatarstan,RU,774,Lanthanosuchus,266.9,259.51,43.046,36.2856,3
 Orenburg,RU,773,Scutosaurus,264.28,259.51,43.5161,40.8295,3
 Orenburg,RU,772,Dongusuchus,247.2,242.0,48.8243,42.2106,3
@@ -3551,13 +3551,13 @@ New Mexico,US,731,Heterodontichnites,237.0,227.0,1.7225,-43.6358,4
 Wales,UK,730,Eosauropus,227.0,208.5,29.1465,1.6184,3
 Lombardia,IT,729,Endennasaurus,216.7,213.2,20.3475,11.0572,3
 Yunnan,CN,728,Shuangbaisaurus,201.4,199.5,52.1412,136.1873,2
-Madhya Pradesh,IN,721,Shringasaurus,247.2,242.0,-38.3913,59.0094,4
-Madhya Pradesh,IN,722,Shringasaurus,247.2,242.0,-38.3913,59.0094,4
-Madhya Pradesh,IN,723,Shringasaurus,247.2,242.0,-38.3913,59.0094,4
-Madhya Pradesh,IN,724,Shringasaurus,247.2,242.0,-38.3913,59.0094,4
-Madhya Pradesh,IN,725,Shringasaurus,247.2,242.0,-38.3913,59.0094,4
-Madhya Pradesh,IN,726,Shringasaurus,247.2,242.0,-38.3913,59.0094,4
-Madhya Pradesh,IN,727,Shringasaurus,247.2,242.0,-38.3913,59.0094,4
+Madhya Pradesh,IN,721,Shringasaurus,247.2,242.0,-38.3913,59.0094,1
+Madhya Pradesh,IN,722,Shringasaurus,247.2,242.0,-38.3913,59.0094,1
+Madhya Pradesh,IN,723,Shringasaurus,247.2,242.0,-38.3913,59.0094,1
+Madhya Pradesh,IN,724,Shringasaurus,247.2,242.0,-38.3913,59.0094,1
+Madhya Pradesh,IN,725,Shringasaurus,247.2,242.0,-38.3913,59.0094,1
+Madhya Pradesh,IN,726,Shringasaurus,247.2,242.0,-38.3913,59.0094,1
+Madhya Pradesh,IN,727,Shringasaurus,247.2,242.0,-38.3913,59.0094,1
 Tirol,IT,719,Lavinipes,201.4,199.5,27.5923,22.1854,3
 Tirol,IT,720,Lavinipes,201.4,199.5,27.5923,22.1854,3
 Opolskie,PL,718,Ozimek,233.4,227.0,33.3149,17.5971,3
@@ -3743,7 +3743,7 @@ Nevada,US,531,Phalarodon,243.8,242.0,16.0387,-47.1461,4
 Bavaria,DE,530,Pistosaurus,247.2,242.0,26.4626,20.9891,3
 Thuringia,DE,529,Pistosaurus,242.0,237.0,27.7242,17.4803,3
 Silesia,PL,528,Pistosaurus,243.8,239.7,31.1375,21.3872,3
-Rio Grande do Sul,BR,525,Hyperodapedon,233.4,227.0,-49.4771,-10.0175,4
+Rio Grande do Sul,BR,525,Hyperodapedon,233.4,227.0,-49.4771,-10.0175,1
 Austria,AT,524,Psephoderma,208.5,201.4,39.5102,15.2333,3
 Lombardia,IT,523,Psephoderma,208.5,201.4,26.4928,14.9159,3
 Israel,IL,522,Psephoderma,243.8,239.7,-7.4909,30.7115,1
@@ -3755,7 +3755,7 @@ Baden-Wurttemberg,DE,517,Horaffia,239.7,237.0,27.7242,17.4803,3
 Baden-Wurttemberg,DE,516,Horaffia,242.0,237.0,25.8877,19.3809,3
 Baden-Wurttemberg,DE,515,Horaffia,239.7,237.0,27.7242,17.4803,3
 Baden-Wurttemberg,DE,514,Horaffia,239.7,237.0,27.7242,17.4803,3
-Rio Grande do Sul,BR,513,Erythrovenator,237.0,227.0,-49.4771,-10.0175,4
+Rio Grande do Sul,BR,513,Erythrovenator,237.0,227.0,-49.4771,-10.0175,1
 Sachsen-Anhalt,DE,512,Serpianosaurus,244.7,243.8,28.4265,19.2638,3
 Svalbard,NO,509,Grippia,248.9,247.2,48.4578,0.5752,3
 Thailand,TH,508,Thaisaurus,248.9,247.2,-10.6025,117.3256,2
@@ -3770,7 +3770,7 @@ Bihor,RO,497,Tanystropheus,247.2,242.0,29.9194,29.3769,3
 Bergamo,IT,496,Sclerostropheus,227.0,208.5,20.3475,11.0572,3
 Switzerland,CH,495,Ceresiosaurus,242.0,237.0,22.3004,19.0343,3
 Switzerland,CH,494,Tanystropheus,242.0,237.0,22.3004,19.0343,3
-West Bengal,IN,493,Teratosaurus,251.902,248.9,-44.7014,64.2652,4
+West Bengal,IN,493,Teratosaurus,251.902,248.9,-44.7014,64.2652,1
 Udine,IT,492,Tholodus,244.7,242.0,24.4854,22.6839,3
 Nizhegorod,RU,491,Microcnemus,251.902,251.2,45.2164,33.3228,3
 British Columbia,CA,490,Utatsusaurus,251.902,248.9,31.618,-40.9603,4
@@ -3781,8 +3781,8 @@ Svalbard,SJ,486,Isfjordosaurus,248.9,247.2,47.8035,-0.1441,3
 Svalbard,SJ,485,Merriamosaurus,248.9,247.2,47.8035,-0.1441,3
 Svalbard,SJ,484,Pessopteryx,248.9,247.2,47.8035,-0.1441,3
 Thuringia,DE,483,Dimetropus,290.1,283.5,15.5589,17.6663,3
-San Juan,AR,482,Ingentia,227.0,208.5,-52.8544,-21.0767,4
-Rio Grande do Sul,BR,481,Macrocollum,227.0,208.5,-46.1164,-4.6554,4
+San Juan,AR,482,Ingentia,227.0,208.5,-52.8544,-21.0767,1
+Rio Grande do Sul,BR,481,Macrocollum,227.0,208.5,-46.1164,-4.6554,1
 Yunnan,CN,479,Pectodens,247.2,242.0,12.5798,120.0412,2
 Western Cape,ZA,478,Nochelesaurus,264.28,259.51,-62.7516,-22.8072,1
 Western Cape,ZA,477,Embrithosaurus,264.28,259.51,-62.7516,-22.8072,1
@@ -3829,7 +3829,7 @@ England,UK,435,Ichthyosaurus,201.4,199.5,36.2945,10.4603,3
 England,UK,434,Ichthyosaurus,201.4,199.5,36.2945,10.4603,3
 England,UK,433,Protoichthyosaurus,201.4,199.5,36.2945,10.4603,3
 England,UK,432,Ichthyosaurus,201.4,199.5,36.2945,10.4603,3
-La Rioja,AR,431,Coloradisuchus,227.0,208.5,-50.4972,-22.4201,4
+La Rioja,AR,431,Coloradisuchus,227.0,208.5,-50.4972,-22.4201,1
 Texas,US,429,Soumyasaurus,227.0,208.5,-1.4701,-41.4649,4
 England,UK,428,Wahlisaurus,201.4,199.5,39.8221,10.4256,3
 Guizhou,CN,427,Panzhousaurus,244.7,243.8,12.5798,120.0412,2
@@ -3838,26 +3838,26 @@ Janoobiah,JO,422,Nothosaurus,251.2,242.0,-8.5276,35.3253,1
 Baden-Wurttemberg,DE,421,Termatosaurus,208.5,201.4,37.6253,13.0683,3
 Baden-Wurttemberg,DE,420,Nothosaurus,208.5,201.4,37.6253,13.0683,3
 Switzerland,CH,419,Notatesseraeraptor,227.0,208.5,30.9826,11.6474,3
-Rio Grande do Sul,BR,418,Nhandumirim,227.0,208.5,-46.1164,-4.6554,4
+Rio Grande do Sul,BR,418,Nhandumirim,227.0,208.5,-46.1164,-4.6554,1
 Baden-Wurttemberg,DE,417,Nothosaurus,242.0,237.0,27.7242,17.4803,3
-Rio Grande do Sul,BR,416,Clevosaurus,237.0,227.0,-49.4771,-10.0175,4
-Rio Grande do Sul,BR,415,Pampadromaeus,237.0,227.0,-49.4771,-10.0175,4
+Rio Grande do Sul,BR,416,Clevosaurus,237.0,227.0,-49.4771,-10.0175,1
+Rio Grande do Sul,BR,415,Pampadromaeus,237.0,227.0,-49.4771,-10.0175,1
 Arizona,US,414,Revueltosaurus,227.0,208.5,1.3531,-47.1801,4
-La Rioja,AR,413,Lewisuchus,237.0,227.0,-52.0012,-29.5316,4
+La Rioja,AR,413,Lewisuchus,237.0,227.0,-52.0012,-29.5316,1
 Anhui,CN,412,Chaohusaurus,251.2,247.2,32.104,120.1211,2
 Friuli-Venezia Giulia,IT,411,Seazzadactylus,227.0,208.5,32.93,13.5573,3
 Pays de la Loire,FR,407,Chirotherium,208.5,201.4,33.9879,8.7201,3
 Pays de la Loire,FR,406,Grallator,208.5,201.4,33.9879,8.7201,3
 Wales,UK,405,Aenigmaspina,237.0,227.0,24.9561,4.3648,3
-Rio Grande do Sul,BR,404,Gnathovorax,233.4,227.0,-49.4771,-10.0175,4
+Rio Grande do Sul,BR,404,Gnathovorax,233.4,227.0,-49.4771,-10.0175,1
 Arizona,US,403,Ancistronychus,227.0,208.5,1.3531,-47.1801,4
-Madhya Pradesh,IN,402,Parasuchus,237.0,227.0,-30.8144,64.7603,4
-Madhya Pradesh,IN,401,Hyperodapedon,237.0,227.0,-30.8144,64.7603,4
-Madhya Pradesh,IN,400,Hyperodapedon,237.0,227.0,-30.8144,64.7603,4
+Madhya Pradesh,IN,402,Parasuchus,237.0,227.0,-30.8144,64.7603,1
+Madhya Pradesh,IN,401,Hyperodapedon,237.0,227.0,-30.8144,64.7603,1
+Madhya Pradesh,IN,400,Hyperodapedon,237.0,227.0,-30.8144,64.7603,1
 Baden-Wurttemberg,DE,399,Vellbergia,239.7,237.0,27.7242,17.4803,3
 Alaska,US,398,Gunakadeit,227.0,208.5,8.938,-85.2152,4
-Rio Grande do Sul,BR,397,Lanceirosphenodon,227.0,208.5,-46.1164,-4.6554,4
-Rio Grande do Sul,BR,396,Elessaurus,251.902,247.2,-46.4569,-23.7712,4
+Rio Grande do Sul,BR,397,Lanceirosphenodon,227.0,208.5,-46.1164,-4.6554,1
+Rio Grande do Sul,BR,396,Elessaurus,251.902,247.2,-46.4569,-23.7712,1
 Nevada,US,395,Cymbospondylus,243.8,242.0,16.0387,-47.1461,4
 Guizhou,CN,394,Qianichthyosaurus,237.0,227.0,29.5587,122.3245,2
 Switzerland,CH,393,Schleitheimia,227.0,208.5,30.9826,11.6474,3
@@ -3878,7 +3878,7 @@ Wales,UK,377,Scoloparia,208.5,201.4,35.9688,2.1884,3
 Wales,UK,376,Smilodonterpeton,208.5,201.4,35.9688,2.1884,3
 Wales,UK,375,Hypsognathus,208.5,201.4,35.9688,2.1884,3
 Wales,UK,374,Diphydontosaurus,208.5,201.4,35.9688,2.1884,3
-Queensland,AU,373,Eomurruna,251.902,251.2,-52.1532,140.794,4
+Queensland,AU,373,Eomurruna,251.902,251.2,-52.1532,140.794,1
 Oklahoma,US,372,Captorhinus,290.1,283.5,-0.73,-37.6741,4
 Arizona,US,371,Trilophosaurus,227.0,208.5,1.3531,-47.1801,4
 Arizona,US,370,Acaenasuchus,227.0,208.5,1.3531,-47.1801,4
@@ -3908,12 +3908,12 @@ Texas,US,347,Typothorax,227.0,208.5,-1.4701,-41.4649,4
 Texas,US,346,Wannia,227.0,208.5,-1.4701,-41.4649,4
 Westphalia,DE,345,Shonisaurus,208.5,201.4,40.9542,8.1787,3
 Westphalia,DE,344,Pachystropheus,208.5,201.4,40.9542,8.1787,3
-Rio Grande do Sul,BR,343,Oryporan,251.902,247.2,-46.4569,-23.7712,4
-Rio Grande do Sul,BR,342,Oryporan,251.902,247.2,-46.4569,-23.7712,4
+Rio Grande do Sul,BR,343,Oryporan,251.902,247.2,-46.4569,-23.7712,1
+Rio Grande do Sul,BR,342,Oryporan,251.902,247.2,-46.4569,-23.7712,1
 Virginia,US,340,Vinitasaura,237.0,227.0,1.9826,-22.3794,4
 Opolskie,PL,339,Kocurypelta,227.0,208.5,38.39,14.6955,3
 Opolskie,PL,338,Proterochersis,227.0,208.5,38.39,14.6955,3
-La Rioja,AR,337,Powellvenator,227.0,208.5,-50.4972,-22.4201,4
+La Rioja,AR,337,Powellvenator,227.0,208.5,-50.4972,-22.4201,1
 North Carolina,US,336,Grallator,227.0,208.5,3.8376,-23.1639,4
 Netherlands,NL,335,Coelurosaurichnus,247.2,242.0,27.0679,17.1911,3
 Netherlands,NL,334,Batrachopus,247.2,242.0,27.0679,17.1911,3
@@ -3924,15 +3924,15 @@ Mashonaland West,ZW,329,Massospondylus,237.0,227.0,-49.5057,19.4669,1
 Champagne-Ardenne,FR,328,Termatosaurus,208.5,201.4,35.7836,10.8986,3
 England,UK,327,Zanclodon,208.5,201.4,35.9688,2.1884,3
 Oklahoma,US,326,Captorhinus,290.1,283.5,1.5211,-36.5866,4
-La Rioja,AR,325,Chanaresuchus,242.0,237.0,-49.9808,-33.9335,4
+La Rioja,AR,325,Chanaresuchus,242.0,237.0,-49.9808,-33.9335,1
 Arizona,US,324,Syntomiprosopus,227.0,208.5,1.3531,-47.1801,4
 Baden-Wurttemberg,DE,323,Stauromatodon,239.7,237.0,27.7242,17.4803,3
-San Juan,AR,322,Incertovenator,237.0,227.0,-52.0012,-29.5316,4
+San Juan,AR,322,Incertovenator,237.0,227.0,-52.0012,-29.5316,1
 Virginia,US,321,Anomoepus,227.0,213.2,3.8376,-23.1639,4
 New Mexico,US,320,Nicrosaurus,227.0,208.5,1.3572,-44.289,4
 Wales,UK,318,Pendraig,237.0,227.0,24.9561,4.3648,3
-Rio Grande do Sul,BR,316,Guaibasaurus,227.0,208.5,-46.1164,-4.6554,4
-Rio Grande do Sul,BR,317,Guaibasaurus,227.0,208.5,-46.1164,-4.6554,4
+Rio Grande do Sul,BR,316,Guaibasaurus,227.0,208.5,-46.1164,-4.6554,1
+Rio Grande do Sul,BR,317,Guaibasaurus,227.0,208.5,-46.1164,-4.6554,1
 Wales,UK,315,Anchisauripus,227.0,208.5,29.1465,1.6184,3
 Arizona,US,314,Hesperosuchus,227.0,208.5,1.3531,-47.1801,4
 Arizona,US,313,Vancleavea,227.0,208.5,1.3531,-47.1801,4
@@ -3950,7 +3950,7 @@ Arizona,US,302,Vancleavea,227.0,208.5,1.3531,-47.1801,4
 Arizona,US,301,Crosbysaurus,227.0,208.5,1.3531,-47.1801,4
 Udine,IT,300,Heteropelta,247.2,242.0,26.0552,24.8826,3
 New Jersey,US,299,Anomoepus,201.4,199.5,16.9917,-16.5851,4
-San Juan,AR,298,Taytalura,237.0,227.0,-52.0012,-29.5316,4
+San Juan,AR,298,Taytalura,237.0,227.0,-52.0012,-29.5316,1
 Thuringia,DE,286,Dimetropus,290.1,283.5,15.5589,17.6663,3
 Thuringia,DE,287,Dimetropus,290.1,283.5,15.5589,17.6663,3
 Thuringia,DE,288,Dimetropus,290.1,283.5,15.5589,17.6663,3
@@ -4009,9 +4009,9 @@ Guizhou,CN,242,Cyamodus,233.4,227.0,27.0113,118.5458,2
 New Mexico,US,241,Paratypothorax,227.0,208.5,1.3572,-44.289,4
 New Mexico,US,240,Vancleavea,227.0,208.5,1.3572,-44.289,4
 Virginia,US,239,Eubrontes,227.0,213.2,3.8376,-23.1639,4
-Rio Grande do Sul,BR,238,Maehary,227.0,208.5,-46.1164,-4.6554,4
-San Juan,AR,237,Yelaphomte,227.0,208.5,-52.8544,-21.0767,4
-Rio Grande do Sul,BR,236,Microsphenodon,227.0,208.5,-46.1164,-4.6554,4
+Rio Grande do Sul,BR,238,Maehary,227.0,208.5,-46.1164,-4.6554,1
+San Juan,AR,237,Yelaphomte,227.0,208.5,-52.8544,-21.0767,1
+Rio Grande do Sul,BR,236,Microsphenodon,227.0,208.5,-46.1164,-4.6554,1
 Switzerland,CH,235,Serpianosaurus,243.8,239.7,22.3004,19.0343,3
 Switzerland,CH,234,Macrocnemus,243.8,239.7,22.3004,19.0343,3
 Switzerland,CH,233,Macrocnemus,243.8,239.7,22.3004,19.0343,3
@@ -4039,20 +4039,20 @@ Mashonaland Central,ZW,212,Mbiresaurus,237.0,227.0,-47.0393,20.0808,1
 Mashonaland Central,ZW,210,Mbiresaurus,237.0,227.0,-47.0393,20.0808,1
 Mashonaland Central,ZW,209,Mbiresaurus,237.0,227.0,-47.0393,20.0808,1
 Mashonaland Central,ZW,208,Mbiresaurus,237.0,227.0,-47.0393,20.0808,1
-Rio Grande do Sul,BR,207,Gamatavus,242.0,237.0,-49.0435,-14.582,4
+Rio Grande do Sul,BR,207,Gamatavus,242.0,237.0,-49.0435,-14.582,1
 Baden-Wurttemberg,DE,206,Tuebingosaurus,227.0,208.5,30.9826,11.6474,3
 Baden-Wurttemberg,DE,205,Plateosaurus,227.0,208.5,30.9826,11.6474,3
 Baden-Wurttemberg,DE,204,Plateosaurus,227.0,208.5,30.9826,11.6474,3
-Rio Grande do Sul,BR,203,Amanasaurus,237.0,227.0,-49.4771,-10.0175,4
+Rio Grande do Sul,BR,203,Amanasaurus,237.0,227.0,-49.4771,-10.0175,1
 Yunnan,CN,201,Sinosaurus,201.4,199.5,52.1412,136.1873,2
 Yunnan,CN,202,Sinosaurus,201.4,199.5,52.1412,136.1873,2
 Volgograd,RU,200,Scolotosuchus,251.2,247.2,41.1651,41.0099,3
 Hubei,CN,199,Prosaurosphargis,248.9,247.2,15.3524,126.345,2
-Rio Grande do Sul,BR,198,Venetoraptor,237.0,227.0,-49.4771,-10.0175,4
+Rio Grande do Sul,BR,198,Venetoraptor,237.0,227.0,-49.4771,-10.0175,1
 England,UK,197,Ichthyosaurus,201.4,199.5,36.2945,10.4603,3
 England,UK,196,Plesiosaurus,208.5,201.4,35.9688,2.1884,3
 Lecco,IT,195,Lariosaurus,239.7,237.0,22.3004,19.0343,3
-Rio Grande do Sul,BR,194,Macrocollum,227.0,208.5,-46.1164,-4.6554,4
+Rio Grande do Sul,BR,194,Macrocollum,227.0,208.5,-46.1164,-4.6554,1
 Hubei,CN,193,Lariosaurus,251.2,247.2,15.3524,126.345,2
 England,UK,187,Hwiccewyrm,237.0,227.0,24.9561,4.3648,3
 England,UK,188,Hwiccewyrm,237.0,227.0,24.9561,4.3648,3
@@ -4073,7 +4073,7 @@ Yunnan,CN,177,Honghesaurus,244.7,243.8,12.5798,120.0412,2
 Switzerland,CH,176,Prosantosaurus,242.0,239.7,25.8877,19.3809,3
 Yunnan,CN,175,Luopingosaurus,244.7,243.8,12.5798,120.0412,2
 England,UK,174,Ichthyotitan,208.5,201.4,34.0586,4.4792,3
-Rio Grande do Sul,BR,173,Prestosuchus,237.0,227.0,-42.8036,-14.4449,4
+Rio Grande do Sul,BR,173,Prestosuchus,237.0,227.0,-42.8036,-14.4449,1
 Virginia,US,172,Idiosaura,237.0,227.0,1.9826,-22.3794,4
 Yunnan,CN,171,Mixosaurus,247.2,242.0,12.5798,120.0412,2
 Nevada,US,170,Benggwigwishingasuchus,247.2,242.0,16.0387,-47.1461,4
@@ -4093,153 +4093,153 @@ Western Cape,ZA,157,Erythrosuchus,247.2,242.0,-47.4217,-18.3424,1
 Western Cape,ZA,156,Erythrosuchus,247.2,242.0,-47.4217,-18.3424,1
 Tanganyika,TZ,155,Stenaulorhynchus,247.2,242.0,-47.4217,-18.3424,1
 Tanganyika,TZ,154,Stenaulorhynchus,247.2,242.0,-47.4217,-18.3424,1
-La Rioja,AR,153,Lessemsaurus,227.0,208.5,-57.8419,7.7727,4
-La Rioja,AR,152,Lessemsaurus,227.0,208.5,-56.0316,14.4488,4
-La Rioja,AR,151,Lessemsaurus,227.0,208.5,-56.0316,14.4488,4
-La Rioja,AR,150,Lessemsaurus,227.0,208.5,-56.0316,14.4488,4
-La Rioja,AR,149,Lessemsaurus,227.0,208.5,-56.0316,14.4488,4
-La Rioja,AR,148,Lessemsaurus,227.0,208.5,-56.0316,14.4488,4
-La Rioja,AR,147,Lessemsaurus,227.0,208.5,-56.0316,14.4488,4
-La Rioja,AR,146,Lessemsaurus,227.0,208.5,-36.823,27.7125,4
-La Rioja,AR,145,Lessemsaurus,227.0,208.5,-36.823,27.7125,4
-La Rioja,AR,144,Lessemsaurus,227.0,208.5,-50.4972,-22.4201,4
-La Rioja,AR,143,Lessemsaurus,227.0,208.5,-50.4972,-22.4201,4
-La Rioja,AR,142,Lessemsaurus,227.0,208.5,-50.4972,-22.4201,4
-La Rioja,AR,141,Lessemsaurus,227.0,208.5,-50.4972,-22.4201,4
-La Rioja,AR,140,Lessemsaurus,227.0,208.5,-50.4972,-22.4201,4
-La Rioja,AR,139,Lessemsaurus,227.0,208.5,-50.4972,-22.4201,4
-La Rioja,AR,138,Lessemsaurus,227.0,208.5,-50.4972,-22.4201,4
-La Rioja,AR,137,Lessemsaurus,227.0,208.5,-50.4972,-22.4201,4
-La Rioja,AR,136,Coloradisaurus,227.0,208.5,-50.4972,-22.4201,4
-La Rioja,AR,135,Lessemsaurus,227.0,208.5,-50.4972,-22.4201,4
-Rio Grande do Sul,BR,134,Hyperodapedon,227.0,208.5,-50.4972,-22.4201,4
-Rio Grande do Sul,BR,133,Hyperodapedon,227.0,208.5,-50.4972,-22.4201,4
-Rio Grande do Sul,BR,132,Hyperodapedon,227.0,208.5,-50.4972,-22.4201,4
-Rio Grande do Sul,BR,131,Hyperodapedon,227.0,208.5,-50.4972,-22.4201,4
-Rio Grande do Sul,BR,130,Teyumbaita,227.0,208.5,-50.4972,-22.4201,4
-Rio Grande do Sul,BR,129,Hyperodapedon,227.0,208.5,-50.4972,-22.4201,4
-Rio Grande do Sul,BR,128,Hyperodapedon,227.0,208.5,-50.4972,-22.4201,4
-Rio Grande do Sul,BR,127,Hyperodapedon,227.0,208.5,-50.4972,-22.4201,4
-Rio Grande do Sul,BR,126,Hyperodapedon,227.0,208.5,-50.4972,-22.4201,4
-Rio Grande do Sul,BR,125,Hyperodapedon,227.0,208.5,-46.1164,-4.6554,4
-Rio Grande do Sul,BR,124,Hyperodapedon,227.0,208.5,-46.1164,-4.6554,4
-Rio Grande do Sul,BR,123,Hyperodapedon,227.0,208.5,-46.1164,-4.6554,4
-Rio Grande do Sul,BR,122,Hyperodapedon,227.0,208.5,-46.1164,-4.6554,4
-Rio Grande do Sul,BR,121,Hyperodapedon,227.0,208.5,-46.1164,-4.6554,4
-Rio Grande do Sul,BR,120,Hyperodapedon,227.0,208.5,-46.1164,-4.6554,4
-Rio Grande do Sul,BR,119,Hyperodapedon,227.0,208.5,-46.1164,-4.6554,4
-Rio Grande do Sul,BR,118,Hyperodapedon,227.0,208.5,-46.1164,-4.6554,4
-Rio Grande do Sul,BR,117,Hyperodapedon,227.0,208.5,-46.1164,-4.6554,4
-Rio Grande do Sul,BR,116,Clevosaurus,227.0,208.5,-46.1164,-4.6554,4
-Rio Grande do Sul,BR,115,Hyperodapedon,227.0,208.5,-46.1164,-4.6554,4
-Rio Grande do Sul,BR,114,Hyperodapedon,227.0,208.5,-46.1164,-4.6554,4
-Rio Grande do Sul,BR,113,Hyperodapedon,227.0,208.5,-46.1164,-4.6554,4
-Rio Grande do Sul,BR,112,Hyperodapedon,227.0,208.5,-46.1164,-4.6554,4
-Rio Grande do Sul,BR,111,Hyperodapedon,227.0,208.5,-46.1164,-4.6554,4
-Rio Grande do Sul,BR,110,Hyperodapedon,227.0,208.5,-46.1164,-4.6554,4
-Rio Grande do Sul,BR,109,Hyperodapedon,227.0,208.5,-46.1164,-4.6554,4
-Rio Grande do Sul,BR,108,Hyperodapedon,227.0,208.5,-46.1164,-4.6554,4
-Rio Grande do Sul,BR,107,Hyperodapedon,227.0,208.5,-46.1164,-4.6554,4
-Rio Grande do Sul,BR,106,Procolophon,251.2,247.2,-46.5581,-19.0544,4
-Rio Grande do Sul,BR,105,Clevosaurus,227.0,208.5,-46.1164,-4.6554,4
-Rio Grande do Sul,BR,104,Buriolestes,227.0,208.5,-46.1164,-4.6554,4
-Rio Grande do Sul,BR,103,Procolophon,251.2,247.2,-46.5581,-19.0544,4
-Rio Grande do Sul,BR,102,Procolophon,251.2,247.2,-46.5581,-19.0544,4
-Rio Grande do Sul,BR,101,Procolophon,251.2,247.2,-46.5581,-19.0544,4
-Rio Grande do Sul,BR,100,Procolophon,251.2,247.2,-46.5581,-19.0544,4
-Rio Grande do Sul,BR,99,Procolophon,251.2,247.2,-46.5581,-19.0544,4
-Rio Grande do Sul,BR,98,Procolophon,251.2,247.2,-46.5581,-19.0544,4
-Rio Grande do Sul,BR,97,Procolophon,251.2,247.2,-46.5581,-19.0544,4
-Rio Grande do Sul,BR,96,Procolophon,251.2,247.2,-46.5581,-19.0544,4
-Rio Grande do Sul,BR,95,Procolophon,251.2,247.2,-46.5581,-19.0544,4
-Rio Grande do Sul,BR,94,Clevosaurus,227.0,208.5,-46.1164,-4.6554,4
-Rio Grande do Sul,BR,93,Procolophon,251.2,247.2,-46.5581,-19.0544,4
-Rio Grande do Sul,BR,92,Procolophon,251.2,247.2,-46.5581,-19.0544,4
-Rio Grande do Sul,BR,91,Procolophon,251.2,247.2,-46.4569,-23.7712,4
-Rio Grande do Sul,BR,90,Hyperodapedon,227.0,208.5,-46.1164,-4.6554,4
-Rio Grande do Sul,BR,89,Hyperodapedon,227.0,208.5,-46.1164,-4.6554,4
-Rio Grande do Sul,BR,88,Hyperodapedon,227.0,208.5,-46.1164,-4.6554,4
-Rio Grande do Sul,BR,87,Hyperodapedon,227.0,208.5,-46.1164,-4.6554,4
-Rio Grande do Sul,BR,86,Hyperodapedon,227.0,208.5,-46.1164,-4.6554,4
-Rio Grande do Sul,BR,85,Hyperodapedon,227.0,208.5,-46.1164,-4.6554,4
-Rio Grande do Sul,BR,84,Clevosaurus,227.0,208.5,-46.1164,-4.6554,4
-Rio Grande do Sul,BR,83,Hyperodapedon,227.0,208.5,-46.1164,-4.6554,4
-Rio Grande do Sul,BR,82,Hyperodapedon,227.0,208.5,-47.3188,-9.0563,4
-Rio Grande do Sul,BR,81,Hyperodapedon,227.0,208.5,-46.1164,-4.6554,4
-Rio Grande do Sul,BR,80,Hyperodapedon,227.0,208.5,-46.1164,-4.6554,4
-Rio Grande do Sul,BR,79,Hyperodapedon,227.0,208.5,-46.1164,-4.6554,4
-Rio Grande do Sul,BR,78,Hyperodapedon,227.0,208.5,-47.3188,-9.0563,4
-Rio Grande do Sul,BR,77,Hyperodapedon,227.0,208.5,-47.3188,-9.0563,4
-Rio Grande do Sul,BR,76,Hyperodapedon,227.0,208.5,-47.3188,-9.0563,4
-Rio Grande do Sul,BR,75,Hyperodapedon,227.0,208.5,-47.3188,-9.0563,4
-Rio Grande do Sul,BR,74,Hyperodapedon,227.0,208.5,-47.3188,-9.0563,4
-Rio Grande do Sul,BR,73,Microsphenodon,227.0,208.5,-46.1164,-4.6554,4
-Rio Grande do Sul,BR,72,Hyperodapedon,227.0,208.5,-47.3188,-9.0563,4
-Rio Grande do Sul,BR,71,Hyperodapedon,227.0,208.5,-47.3188,-9.0563,4
-Rio Grande do Sul,BR,70,Procolophon,251.2,247.2,-46.5581,-19.0544,4
-Rio Grande do Sul,BR,69,Hyperodapedon,227.0,208.5,-47.3188,-9.0563,4
-Rio Grande do Sul,BR,68,Provelosaurus,266.9,264.3,-51.3271,-26.4671,4
-Rio Grande do Sul,BR,67,Clevosaurus,227.0,208.5,-47.3188,-9.0563,4
-Rio Grande do Sul,BR,66,Prestosuchus,242.0,237.0,-49.0435,-14.582,4
-Rio Grande do Sul,BR,65,Hyperodapedon,227.0,208.5,-47.3188,-9.0563,4
-Rio Grande do Sul,BR,64,Hyperodapedon,227.0,208.5,-46.1164,-4.6554,4
-Rio Grande do Sul,BR,63,Hyperodapedon,227.0,208.5,-46.1164,-4.6554,4
-Rio Grande do Sul,BR,62,Clevosaurus,227.0,208.5,-46.1164,-4.6554,4
-Rio Grande do Sul,BR,61,Hyperodapedon,227.0,208.5,-46.1164,-4.6554,4
-Rio Grande do Sul,BR,60,Clevosaurus,227.0,208.5,-46.1164,-4.6554,4
-Rio Grande do Sul,BR,59,Hyperodapedon,227.0,208.5,-46.1164,-4.6554,4
-Rio Grande do Sul,BR,58,Ixalerpeton,227.0,208.5,-46.1164,-4.6554,4
-Rio Grande do Sul,BR,57,Buriolestes,227.0,208.5,-46.1164,-4.6554,4
-Rio Grande do Sul,BR,56,Provelosaurus,266.9,264.3,-51.3271,-26.4671,4
-Rio Grande do Sul,BR,55,Provelosaurus,266.9,264.3,-51.3271,-26.4671,4
-Rio Grande do Sul,BR,54,Provelosaurus,266.9,264.3,-51.3271,-26.4671,4
-Rio Grande do Sul,BR,53,Provelosaurus,266.9,264.3,-51.3271,-26.4671,4
-Rio Grande do Sul,BR,52,Procolophon,251.2,247.2,-46.5581,-19.0544,4
-Rio Grande do Sul,BR,51,Procolophon,251.2,247.2,-46.5581,-19.0544,4
-Rio Grande do Sul,BR,50,Procolophon,251.2,247.2,-46.5581,-19.0544,4
-Rio Grande do Sul,BR,49,Procolophon,251.2,247.2,-46.5581,-19.0544,4
-Rio Grande do Sul,BR,48,Teyumbaita,227.0,208.5,-46.1164,-4.6554,4
-Rio Grande do Sul,BR,47,Maehary,227.0,208.5,-46.1164,-4.6554,4
-Rio Grande do Sul,BR,46,Guaibasaurus,227.0,208.5,-46.1164,-4.6554,4
-Rio Grande do Sul,BR,45,Guaibasaurus,227.0,208.5,-46.1164,-4.6554,4
-Rio Grande do Sul,BR,44,Saturnalia,227.0,208.5,-46.1164,-4.6554,4
-Rio Grande do Sul,BR,43,Nhandumirim,227.0,208.5,-46.1164,-4.6554,4
-Rio Grande do Sul,BR,42,Buriolestes,227.0,208.5,-46.1164,-4.6554,4
-Rio Grande do Sul,BR,41,Stenoscelida,227.0,208.5,-46.1164,-4.6554,4
-Rio Grande do Sul,BR,40,Pampadromaeus,227.0,208.5,-46.1164,-4.6554,4
-Rio Grande do Sul,BR,39,Candelaria,242.0,237.0,-49.0435,-14.582,4
-Rio Grande do Sul,BR,38,Buriolestes,227.0,208.5,-46.1164,-4.6554,4
-Rio Grande do Sul,BR,37,Unaysaurus,227.0,208.5,-46.1164,-4.6554,4
-Rio Grande do Sul,BR,36,Macrocollum,227.0,208.5,-46.1164,-4.6554,4
-Rio Grande do Sul,BR,35,Amanasaurus,227.0,208.5,-46.1164,-4.6554,4
-Rio Grande do Sul,BR,34,Amanasaurus,227.0,208.5,-56.0316,14.4488,4
-Rio Grande do Sul,BR,33,Venetoraptor,227.0,208.5,-56.0316,14.4488,4
-Rio Grande do Sul,BR,32,Parvosuchus,242.0,237.0,-49.0435,-14.582,4
-Rio Grande do Sul,BR,31,Gnathovorax,227.0,208.5,-56.0316,14.4488,4
-Rio Grande do Sul,BR,30,Aetosauroides,227.0,208.5,-56.0316,14.4488,4
-Rio Grande do Sul,BR,29,Aetosauroides,227.0,208.5,-56.0316,14.4488,4
-Rio Grande do Sul,BR,28,Aetosauroides,227.0,208.5,-36.823,27.7125,4
-Rio Grande do Sul,BR,27,Gamatavus,242.0,237.0,-49.0435,-14.582,4
-Rio Grande do Sul,BR,26,Prestosuchus,242.0,237.0,-49.0435,-14.582,4
-Rio Grande do Sul,BR,25,Kuruxuchampsa,237.0,227.0,-49.4771,-10.0175,4
-Rio Grande do Sul,BR,24,Aetosauroides,227.0,208.5,-36.823,27.7125,4
-Rio Grande do Sul,BR,23,Clevosaurus,227.0,208.5,-36.823,27.7125,4
-Rio Grande do Sul,BR,22,Brasinorhynchus,242.0,237.0,-49.0435,-14.582,4
-Rio Grande do Sul,BR,21,Hyperodapedon,227.0,208.5,-36.823,27.7125,4
-Rio Grande do Sul,BR,20,Hyperodapedon,227.0,208.5,-36.823,27.7125,4
-Rio Grande do Sul,BR,19,Hyperodapedon,227.0,208.5,-36.823,27.7125,4
-Rio Grande do Sul,BR,18,Hyperodapedon,227.0,208.5,-36.823,27.7125,4
-Rio Grande do Sul,BR,17,Prestosuchus,242.0,237.0,-49.0435,-14.582,4
-Rio Grande do Sul,BR,16,Hyperodapedon,227.0,208.5,-36.823,27.7125,4
-Rio Grande do Sul,BR,15,Hyperodapedon,227.0,208.5,-36.823,27.7125,4
-Rio Grande do Sul,BR,14,Hyperodapedon,227.0,208.5,-36.823,27.7125,4
-Rio Grande do Sul,BR,13,Hyperodapedon,227.0,208.5,-36.823,27.7125,4
-Rio Grande do Sul,BR,12,Hyperodapedon,227.0,208.5,-36.823,27.7125,4
-Rio Grande do Sul,BR,11,Prestosuchus,242.0,237.0,-49.0435,-14.582,4
-Rio Grande do Sul,BR,10,Hyperodapedon,227.0,208.5,-57.8419,7.7727,4
-Rio Grande do Sul,BR,9,Hyperodapedon,227.0,208.5,-56.0316,14.4488,4
-Rio Grande do Sul,BR,8,Hyperodapedon,227.0,208.5,-58.4933,13.6424,4
-Rio Grande do Sul,BR,7,Hyperodapedon,227.0,208.5,-56.0316,14.4488,4
+La Rioja,AR,153,Lessemsaurus,227.0,208.5,-57.8419,7.7727,1
+La Rioja,AR,152,Lessemsaurus,227.0,208.5,-56.0316,14.4488,1
+La Rioja,AR,151,Lessemsaurus,227.0,208.5,-56.0316,14.4488,1
+La Rioja,AR,150,Lessemsaurus,227.0,208.5,-56.0316,14.4488,1
+La Rioja,AR,149,Lessemsaurus,227.0,208.5,-56.0316,14.4488,1
+La Rioja,AR,148,Lessemsaurus,227.0,208.5,-56.0316,14.4488,1
+La Rioja,AR,147,Lessemsaurus,227.0,208.5,-56.0316,14.4488,1
+La Rioja,AR,146,Lessemsaurus,227.0,208.5,-36.823,27.7125,1
+La Rioja,AR,145,Lessemsaurus,227.0,208.5,-36.823,27.7125,1
+La Rioja,AR,144,Lessemsaurus,227.0,208.5,-50.4972,-22.4201,1
+La Rioja,AR,143,Lessemsaurus,227.0,208.5,-50.4972,-22.4201,1
+La Rioja,AR,142,Lessemsaurus,227.0,208.5,-50.4972,-22.4201,1
+La Rioja,AR,141,Lessemsaurus,227.0,208.5,-50.4972,-22.4201,1
+La Rioja,AR,140,Lessemsaurus,227.0,208.5,-50.4972,-22.4201,1
+La Rioja,AR,139,Lessemsaurus,227.0,208.5,-50.4972,-22.4201,1
+La Rioja,AR,138,Lessemsaurus,227.0,208.5,-50.4972,-22.4201,1
+La Rioja,AR,137,Lessemsaurus,227.0,208.5,-50.4972,-22.4201,1
+La Rioja,AR,136,Coloradisaurus,227.0,208.5,-50.4972,-22.4201,1
+La Rioja,AR,135,Lessemsaurus,227.0,208.5,-50.4972,-22.4201,1
+Rio Grande do Sul,BR,134,Hyperodapedon,227.0,208.5,-50.4972,-22.4201,1
+Rio Grande do Sul,BR,133,Hyperodapedon,227.0,208.5,-50.4972,-22.4201,1
+Rio Grande do Sul,BR,132,Hyperodapedon,227.0,208.5,-50.4972,-22.4201,1
+Rio Grande do Sul,BR,131,Hyperodapedon,227.0,208.5,-50.4972,-22.4201,1
+Rio Grande do Sul,BR,130,Teyumbaita,227.0,208.5,-50.4972,-22.4201,1
+Rio Grande do Sul,BR,129,Hyperodapedon,227.0,208.5,-50.4972,-22.4201,1
+Rio Grande do Sul,BR,128,Hyperodapedon,227.0,208.5,-50.4972,-22.4201,1
+Rio Grande do Sul,BR,127,Hyperodapedon,227.0,208.5,-50.4972,-22.4201,1
+Rio Grande do Sul,BR,126,Hyperodapedon,227.0,208.5,-50.4972,-22.4201,1
+Rio Grande do Sul,BR,125,Hyperodapedon,227.0,208.5,-46.1164,-4.6554,1
+Rio Grande do Sul,BR,124,Hyperodapedon,227.0,208.5,-46.1164,-4.6554,1
+Rio Grande do Sul,BR,123,Hyperodapedon,227.0,208.5,-46.1164,-4.6554,1
+Rio Grande do Sul,BR,122,Hyperodapedon,227.0,208.5,-46.1164,-4.6554,1
+Rio Grande do Sul,BR,121,Hyperodapedon,227.0,208.5,-46.1164,-4.6554,1
+Rio Grande do Sul,BR,120,Hyperodapedon,227.0,208.5,-46.1164,-4.6554,1
+Rio Grande do Sul,BR,119,Hyperodapedon,227.0,208.5,-46.1164,-4.6554,1
+Rio Grande do Sul,BR,118,Hyperodapedon,227.0,208.5,-46.1164,-4.6554,1
+Rio Grande do Sul,BR,117,Hyperodapedon,227.0,208.5,-46.1164,-4.6554,1
+Rio Grande do Sul,BR,116,Clevosaurus,227.0,208.5,-46.1164,-4.6554,1
+Rio Grande do Sul,BR,115,Hyperodapedon,227.0,208.5,-46.1164,-4.6554,1
+Rio Grande do Sul,BR,114,Hyperodapedon,227.0,208.5,-46.1164,-4.6554,1
+Rio Grande do Sul,BR,113,Hyperodapedon,227.0,208.5,-46.1164,-4.6554,1
+Rio Grande do Sul,BR,112,Hyperodapedon,227.0,208.5,-46.1164,-4.6554,1
+Rio Grande do Sul,BR,111,Hyperodapedon,227.0,208.5,-46.1164,-4.6554,1
+Rio Grande do Sul,BR,110,Hyperodapedon,227.0,208.5,-46.1164,-4.6554,1
+Rio Grande do Sul,BR,109,Hyperodapedon,227.0,208.5,-46.1164,-4.6554,1
+Rio Grande do Sul,BR,108,Hyperodapedon,227.0,208.5,-46.1164,-4.6554,1
+Rio Grande do Sul,BR,107,Hyperodapedon,227.0,208.5,-46.1164,-4.6554,1
+Rio Grande do Sul,BR,106,Procolophon,251.2,247.2,-46.5581,-19.0544,1
+Rio Grande do Sul,BR,105,Clevosaurus,227.0,208.5,-46.1164,-4.6554,1
+Rio Grande do Sul,BR,104,Buriolestes,227.0,208.5,-46.1164,-4.6554,1
+Rio Grande do Sul,BR,103,Procolophon,251.2,247.2,-46.5581,-19.0544,1
+Rio Grande do Sul,BR,102,Procolophon,251.2,247.2,-46.5581,-19.0544,1
+Rio Grande do Sul,BR,101,Procolophon,251.2,247.2,-46.5581,-19.0544,1
+Rio Grande do Sul,BR,100,Procolophon,251.2,247.2,-46.5581,-19.0544,1
+Rio Grande do Sul,BR,99,Procolophon,251.2,247.2,-46.5581,-19.0544,1
+Rio Grande do Sul,BR,98,Procolophon,251.2,247.2,-46.5581,-19.0544,1
+Rio Grande do Sul,BR,97,Procolophon,251.2,247.2,-46.5581,-19.0544,1
+Rio Grande do Sul,BR,96,Procolophon,251.2,247.2,-46.5581,-19.0544,1
+Rio Grande do Sul,BR,95,Procolophon,251.2,247.2,-46.5581,-19.0544,1
+Rio Grande do Sul,BR,94,Clevosaurus,227.0,208.5,-46.1164,-4.6554,1
+Rio Grande do Sul,BR,93,Procolophon,251.2,247.2,-46.5581,-19.0544,1
+Rio Grande do Sul,BR,92,Procolophon,251.2,247.2,-46.5581,-19.0544,1
+Rio Grande do Sul,BR,91,Procolophon,251.2,247.2,-46.4569,-23.7712,1
+Rio Grande do Sul,BR,90,Hyperodapedon,227.0,208.5,-46.1164,-4.6554,1
+Rio Grande do Sul,BR,89,Hyperodapedon,227.0,208.5,-46.1164,-4.6554,1
+Rio Grande do Sul,BR,88,Hyperodapedon,227.0,208.5,-46.1164,-4.6554,1
+Rio Grande do Sul,BR,87,Hyperodapedon,227.0,208.5,-46.1164,-4.6554,1
+Rio Grande do Sul,BR,86,Hyperodapedon,227.0,208.5,-46.1164,-4.6554,1
+Rio Grande do Sul,BR,85,Hyperodapedon,227.0,208.5,-46.1164,-4.6554,1
+Rio Grande do Sul,BR,84,Clevosaurus,227.0,208.5,-46.1164,-4.6554,1
+Rio Grande do Sul,BR,83,Hyperodapedon,227.0,208.5,-46.1164,-4.6554,1
+Rio Grande do Sul,BR,82,Hyperodapedon,227.0,208.5,-47.3188,-9.0563,1
+Rio Grande do Sul,BR,81,Hyperodapedon,227.0,208.5,-46.1164,-4.6554,1
+Rio Grande do Sul,BR,80,Hyperodapedon,227.0,208.5,-46.1164,-4.6554,1
+Rio Grande do Sul,BR,79,Hyperodapedon,227.0,208.5,-46.1164,-4.6554,1
+Rio Grande do Sul,BR,78,Hyperodapedon,227.0,208.5,-47.3188,-9.0563,1
+Rio Grande do Sul,BR,77,Hyperodapedon,227.0,208.5,-47.3188,-9.0563,1
+Rio Grande do Sul,BR,76,Hyperodapedon,227.0,208.5,-47.3188,-9.0563,1
+Rio Grande do Sul,BR,75,Hyperodapedon,227.0,208.5,-47.3188,-9.0563,1
+Rio Grande do Sul,BR,74,Hyperodapedon,227.0,208.5,-47.3188,-9.0563,1
+Rio Grande do Sul,BR,73,Microsphenodon,227.0,208.5,-46.1164,-4.6554,1
+Rio Grande do Sul,BR,72,Hyperodapedon,227.0,208.5,-47.3188,-9.0563,1
+Rio Grande do Sul,BR,71,Hyperodapedon,227.0,208.5,-47.3188,-9.0563,1
+Rio Grande do Sul,BR,70,Procolophon,251.2,247.2,-46.5581,-19.0544,1
+Rio Grande do Sul,BR,69,Hyperodapedon,227.0,208.5,-47.3188,-9.0563,1
+Rio Grande do Sul,BR,68,Provelosaurus,266.9,264.3,-51.3271,-26.4671,1
+Rio Grande do Sul,BR,67,Clevosaurus,227.0,208.5,-47.3188,-9.0563,1
+Rio Grande do Sul,BR,66,Prestosuchus,242.0,237.0,-49.0435,-14.582,1
+Rio Grande do Sul,BR,65,Hyperodapedon,227.0,208.5,-47.3188,-9.0563,1
+Rio Grande do Sul,BR,64,Hyperodapedon,227.0,208.5,-46.1164,-4.6554,1
+Rio Grande do Sul,BR,63,Hyperodapedon,227.0,208.5,-46.1164,-4.6554,1
+Rio Grande do Sul,BR,62,Clevosaurus,227.0,208.5,-46.1164,-4.6554,1
+Rio Grande do Sul,BR,61,Hyperodapedon,227.0,208.5,-46.1164,-4.6554,1
+Rio Grande do Sul,BR,60,Clevosaurus,227.0,208.5,-46.1164,-4.6554,1
+Rio Grande do Sul,BR,59,Hyperodapedon,227.0,208.5,-46.1164,-4.6554,1
+Rio Grande do Sul,BR,58,Ixalerpeton,227.0,208.5,-46.1164,-4.6554,1
+Rio Grande do Sul,BR,57,Buriolestes,227.0,208.5,-46.1164,-4.6554,1
+Rio Grande do Sul,BR,56,Provelosaurus,266.9,264.3,-51.3271,-26.4671,1
+Rio Grande do Sul,BR,55,Provelosaurus,266.9,264.3,-51.3271,-26.4671,1
+Rio Grande do Sul,BR,54,Provelosaurus,266.9,264.3,-51.3271,-26.4671,1
+Rio Grande do Sul,BR,53,Provelosaurus,266.9,264.3,-51.3271,-26.4671,1
+Rio Grande do Sul,BR,52,Procolophon,251.2,247.2,-46.5581,-19.0544,1
+Rio Grande do Sul,BR,51,Procolophon,251.2,247.2,-46.5581,-19.0544,1
+Rio Grande do Sul,BR,50,Procolophon,251.2,247.2,-46.5581,-19.0544,1
+Rio Grande do Sul,BR,49,Procolophon,251.2,247.2,-46.5581,-19.0544,1
+Rio Grande do Sul,BR,48,Teyumbaita,227.0,208.5,-46.1164,-4.6554,1
+Rio Grande do Sul,BR,47,Maehary,227.0,208.5,-46.1164,-4.6554,1
+Rio Grande do Sul,BR,46,Guaibasaurus,227.0,208.5,-46.1164,-4.6554,1
+Rio Grande do Sul,BR,45,Guaibasaurus,227.0,208.5,-46.1164,-4.6554,1
+Rio Grande do Sul,BR,44,Saturnalia,227.0,208.5,-46.1164,-4.6554,1
+Rio Grande do Sul,BR,43,Nhandumirim,227.0,208.5,-46.1164,-4.6554,1
+Rio Grande do Sul,BR,42,Buriolestes,227.0,208.5,-46.1164,-4.6554,1
+Rio Grande do Sul,BR,41,Stenoscelida,227.0,208.5,-46.1164,-4.6554,1
+Rio Grande do Sul,BR,40,Pampadromaeus,227.0,208.5,-46.1164,-4.6554,1
+Rio Grande do Sul,BR,39,Candelaria,242.0,237.0,-49.0435,-14.582,1
+Rio Grande do Sul,BR,38,Buriolestes,227.0,208.5,-46.1164,-4.6554,1
+Rio Grande do Sul,BR,37,Unaysaurus,227.0,208.5,-46.1164,-4.6554,1
+Rio Grande do Sul,BR,36,Macrocollum,227.0,208.5,-46.1164,-4.6554,1
+Rio Grande do Sul,BR,35,Amanasaurus,227.0,208.5,-46.1164,-4.6554,1
+Rio Grande do Sul,BR,34,Amanasaurus,227.0,208.5,-56.0316,14.4488,1
+Rio Grande do Sul,BR,33,Venetoraptor,227.0,208.5,-56.0316,14.4488,1
+Rio Grande do Sul,BR,32,Parvosuchus,242.0,237.0,-49.0435,-14.582,1
+Rio Grande do Sul,BR,31,Gnathovorax,227.0,208.5,-56.0316,14.4488,1
+Rio Grande do Sul,BR,30,Aetosauroides,227.0,208.5,-56.0316,14.4488,1
+Rio Grande do Sul,BR,29,Aetosauroides,227.0,208.5,-56.0316,14.4488,1
+Rio Grande do Sul,BR,28,Aetosauroides,227.0,208.5,-36.823,27.7125,1
+Rio Grande do Sul,BR,27,Gamatavus,242.0,237.0,-49.0435,-14.582,1
+Rio Grande do Sul,BR,26,Prestosuchus,242.0,237.0,-49.0435,-14.582,1
+Rio Grande do Sul,BR,25,Kuruxuchampsa,237.0,227.0,-49.4771,-10.0175,1
+Rio Grande do Sul,BR,24,Aetosauroides,227.0,208.5,-36.823,27.7125,1
+Rio Grande do Sul,BR,23,Clevosaurus,227.0,208.5,-36.823,27.7125,1
+Rio Grande do Sul,BR,22,Brasinorhynchus,242.0,237.0,-49.0435,-14.582,1
+Rio Grande do Sul,BR,21,Hyperodapedon,227.0,208.5,-36.823,27.7125,1
+Rio Grande do Sul,BR,20,Hyperodapedon,227.0,208.5,-36.823,27.7125,1
+Rio Grande do Sul,BR,19,Hyperodapedon,227.0,208.5,-36.823,27.7125,1
+Rio Grande do Sul,BR,18,Hyperodapedon,227.0,208.5,-36.823,27.7125,1
+Rio Grande do Sul,BR,17,Prestosuchus,242.0,237.0,-49.0435,-14.582,1
+Rio Grande do Sul,BR,16,Hyperodapedon,227.0,208.5,-36.823,27.7125,1
+Rio Grande do Sul,BR,15,Hyperodapedon,227.0,208.5,-36.823,27.7125,1
+Rio Grande do Sul,BR,14,Hyperodapedon,227.0,208.5,-36.823,27.7125,1
+Rio Grande do Sul,BR,13,Hyperodapedon,227.0,208.5,-36.823,27.7125,1
+Rio Grande do Sul,BR,12,Hyperodapedon,227.0,208.5,-36.823,27.7125,1
+Rio Grande do Sul,BR,11,Prestosuchus,242.0,237.0,-49.0435,-14.582,1
+Rio Grande do Sul,BR,10,Hyperodapedon,227.0,208.5,-57.8419,7.7727,1
+Rio Grande do Sul,BR,9,Hyperodapedon,227.0,208.5,-56.0316,14.4488,1
+Rio Grande do Sul,BR,8,Hyperodapedon,227.0,208.5,-58.4933,13.6424,1
+Rio Grande do Sul,BR,7,Hyperodapedon,227.0,208.5,-56.0316,14.4488,1
 Eastern Cape,ZA,6,Mesosuchus,247.2,242.0,-47.4217,-18.3424,1
 Free State,ZA,5,Eohyosaurus,247.2,242.0,-47.4217,-18.3424,1
 Eastern Cape,ZA,4,Mesosuchus,247.2,242.0,-47.4217,-18.3424,1
