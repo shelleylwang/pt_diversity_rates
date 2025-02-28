@@ -410,7 +410,7 @@ Bashkortostan,RU,1834,Melosaurus,276.5,266.9,38.8994,37.6487,3
 Archangelsk,RU,1833,Dvinosaurus,259.51,256.8,45.3047,25.947,3
 Archangelsk,RU,1832,Dvinosaurus,259.51,256.8,45.3047,25.947,3
 Archangelsk,RU,1831,Dvinosaurus,259.51,256.8,45.3047,25.947,3
-New South Wales,AU,1830,Paracyclotosaurus,247.2,242.0,-62.8262,133.5696,4
+New South Wales,AU,1830,Paracyclotosaurus,247.2,242.0,-62.8262,133.5696,1
 Malopolskie,PL,1829,Czatkobatrachus,251.2,247.2,29.45,26.3383,3
 Malopolskie,PL,1828,Parotosuchus,251.2,247.2,29.45,26.3383,3
 Arizona,US,1827,Anaschisma,227.0,208.5,1.3531,-47.1801,4
@@ -537,7 +537,7 @@ Texas,US,1707,Zatrachys,298.9,290.1,-2.7466,-38.9219,4
 Texas,US,1706,Trimerorhachis,298.9,290.1,-2.7466,-38.9219,4
 New Mexico,US,1705,Chenoprosopus,298.9,286.1,2.4804,-43.1405,4
 Vladimir,RU,1704,Dvinosaurus,259.51,256.8,41.0308,30.3357,3
-Uruguay,UY,1703,Uruyiella,237.0,201.4,-51.8925,-8.9992,4
+Uruguay,UY,1703,Uruyiella,237.0,201.4,-51.8925,-8.9992,1
 Kirov,RU,1702,Platyoposaurus,276.5,266.9,37.4571,29.4678,3
 Orenburg,RU,1701,Platyoposaurus,266.9,264.28,42.6534,40.3398,3
 Kirov,RU,1700,Platyoposaurus,266.9,264.28,43.179,32.9426,3
@@ -554,7 +554,7 @@ England,UK,1690,Eocyclotosaurus,247.2,242.0,21.0544,12.2826,3
 Kirov,RU,1689,Dvinosaurus,264.28,259.51,44.3876,33.3665,3
 Oklahoma,US,1688,Eryops,290.1,273.01,-0.73,-37.6741,4
 Thailand,TH,1687,Cyclotosaurus,227.0,208.5,30.6753,108.9736,2
-Queensland,AU,1686,Lapillopsis,251.902,251.2,-54.016,134.4377,4
+Queensland,AU,1686,Lapillopsis,251.902,251.2,-54.016,134.4377,1
 Eastern Cape,ZA,1685,Batrachosuchus,247.2,242.0,-61.3754,-6.6214,1
 Oklahoma,US,1683,Pasawioops,290.1,283.5,-0.73,-37.6741,4
 Oklahoma,US,1684,Pasawioops,290.1,283.5,-0.73,-37.6741,4
@@ -679,8 +679,8 @@ Archangelsk,RU,1565,Wetlugasaurus,251.2,247.2,52.7003,16.6602,3
 Archangelsk,RU,1564,Wetlugasaurus,251.2,247.2,52.7003,16.6602,3
 Orenburg,RU,1563,Parotosuchus,251.2,247.2,48.3133,44.0363,3
 Texas,US,1562,Anaschisma,227.0,208.5,-1.4701,-41.4649,4
-Queensland,AU,1561,Warrenisuchus,251.902,251.2,-52.1532,140.794,4
-Madhya Pradesh,IN,1560,Metoposaurus,237.0,227.0,-30.8144,64.7603,4
+Queensland,AU,1561,Warrenisuchus,251.902,251.2,-52.1532,140.794,1
+Madhya Pradesh,IN,1560,Metoposaurus,237.0,227.0,-30.8144,64.7603,1
 New Mexico,US,1559,Apachesaurus,227.0,208.5,1.3572,-44.289,4
 New Mexico,US,1558,Apachesaurus,227.0,208.5,1.3572,-44.289,4
 Arizona,US,1557,Stanocephalosaurus,248.9,247.2,10.7549,-46.119,4
@@ -729,7 +729,7 @@ Bavaria,DE,1515,Metoposaurus,237.0,227.0,29.6148,13.9762,3
 Bavaria,DE,1514,Gerrothorax,237.0,227.0,29.6148,13.9762,3
 Bavaria,DE,1513,Stenotosaurus,247.2,244.7,26.4493,22.0688,3
 Austria,AT,1512,Tatrasuchus,242.0,237.0,25.8877,19.3809,3
-Rio Grande do Sul,BR,1511,Sangaia,251.902,247.2,-46.4894,-19.7677,4
+Rio Grande do Sul,BR,1511,Sangaia,251.902,247.2,-46.4894,-19.7677,1
 Eastern,ZM,1510,Cherninia,247.2,242.0,-46.5586,19.7779,1
 Eastern,ZM,1509,Batrachosuchus,247.2,242.0,-46.5586,19.7779,1
 Eastern,ZM,1508,Stanocephalosaurus,247.2,242.0,-46.5586,19.7779,1
@@ -809,7 +809,7 @@ Nova Scotia,CA,1434,Metoposaurus,237.0,227.0,10.5874,-11.8909,4
 Wyoming,US,1433,Anaschisma,237.0,227.0,9.7144,-44.588,4
 Wyoming,US,1432,Anaschisma,237.0,227.0,9.7144,-44.588,4
 Pennsylvania,US,1431,Calamops,227.0,208.5,6.739,-20.6269,4
-Telangana,IN,1430,Panthasaurus,237.0,208.5,-31.6663,57.7156,4
+Telangana,IN,1430,Panthasaurus,237.0,208.5,-31.6663,57.7156,1
 Illinois,US,1429,Amphibamus,309.8,307.4,3.8135,-29.3192,4
 Ohio,US,1428,Erpetosaurus,309.8,307.4,-0.4818,-24.8936,4
 Ohio,US,1427,Erpetosaurus,309.8,307.4,-0.4818,-24.8936,4
@@ -837,83 +837,83 @@ Schleswig-Holstein,DE,1406,Parotosuchus,251.2,248.9,28.9384,17.0989,3
 Thuringia,DE,1405,Trematosaurus,251.2,247.2,26.4493,22.0688,3
 Utah,US,1404,Parotosuchus,251.2,248.9,12.5267,-42.1707,4
 Ruvuma,TZ,1401,Peltobatrachus,259.51,254.14,-47.7841,17.7482,1
-New South Wales,AU,1400,Watsonisuchus,248.9,244.7,-61.6319,136.2734,4
-Queensland,AU,1399,Watsonisuchus,251.902,251.2,-54.016,134.4377,4
-Queensland,AU,1398,Watsonisuchus,251.902,251.2,-54.016,134.4377,4
-Queensland,AU,1397,Keratobrachyops,251.902,251.2,-52.1532,140.794,4
-Queensland,AU,1396,Xenobrachyops,251.902,251.2,-52.1532,140.794,4
-Queensland,AU,1394,Rewana,251.902,251.2,-54.016,134.4377,4
-Queensland,AU,1395,Rewana,251.902,251.2,-54.016,134.4377,4
-Queensland,AU,1393,Rewana,251.902,251.2,-52.1532,140.794,4
-Queensland,AU,1392,Plagiobatrachus,251.902,251.2,-54.016,134.4377,4
-Queensland,AU,1391,Acerastea,251.902,251.2,-54.016,134.4377,4
-Queensland,AU,1390,Nanolania,251.902,251.2,-52.1532,140.794,4
-Tasmania,AU,1389,Rotaurisaurus,251.902,251.2,-70.8462,123.5821,4
-Queensland,AU,1388,Tirraturhinus,251.902,251.2,-52.1532,140.794,4
-Queensland,AU,1387,Lydekkerina,251.902,251.2,-54.016,134.4377,4
-New South Wales,AU,1386,Microposaurus,247.2,242.0,-62.8262,133.5696,4
-New South Wales,AU,1385,Platycepsion,248.9,244.7,-61.6319,136.2734,4
-New South Wales,AU,1384,Notobrachyops,247.2,242.0,-62.8262,133.5696,4
-New South Wales,AU,1383,Bulgosuchus,251.4,247.2,-62.0172,137.7371,4
-New South Wales,AU,1382,Subcyclotosaurus,247.2,242.0,-60.4013,134.8501,4
-New South Wales,AU,1381,Trucheosaurus,259.51,254.14,-61.9056,139.3782,4
-Western Australia,AU,1380,Deltasaurus,251.902,247.2,-40.3562,108.219,4
-Western Australia,AU,1379,Deltasaurus,251.902,247.2,-40.3562,108.219,4
-Western Australia,AU,1378,Deltasaurus,251.902,247.2,-40.3562,108.219,4
-Western Australia,AU,1377,Deltasaurus,251.902,247.2,-40.3562,108.219,4
-Western Australia,AU,1376,Deltasaurus,251.902,247.2,-40.3562,108.219,4
-Western Australia,AU,1375,Watsonisuchus,251.902,247.2,-40.3562,108.219,4
-Western Australia,AU,1374,Deltasaurus,251.902,247.2,-48.3349,91.6281,4
-West Bengal,IN,1373,Indobrachyops,251.902,248.9,-45.4946,64.2439,4
-West Bengal,IN,1372,Manubrantlia,251.902,248.9,-45.4946,64.2439,4
+New South Wales,AU,1400,Watsonisuchus,248.9,244.7,-61.6319,136.2734,1
+Queensland,AU,1399,Watsonisuchus,251.902,251.2,-54.016,134.4377,1
+Queensland,AU,1398,Watsonisuchus,251.902,251.2,-54.016,134.4377,1
+Queensland,AU,1397,Keratobrachyops,251.902,251.2,-52.1532,140.794,1
+Queensland,AU,1396,Xenobrachyops,251.902,251.2,-52.1532,140.794,1
+Queensland,AU,1394,Rewana,251.902,251.2,-54.016,134.4377,1
+Queensland,AU,1395,Rewana,251.902,251.2,-54.016,134.4377,1
+Queensland,AU,1393,Rewana,251.902,251.2,-52.1532,140.794,1
+Queensland,AU,1392,Plagiobatrachus,251.902,251.2,-54.016,134.4377,1
+Queensland,AU,1391,Acerastea,251.902,251.2,-54.016,134.4377,1
+Queensland,AU,1390,Nanolania,251.902,251.2,-52.1532,140.794,1
+Tasmania,AU,1389,Rotaurisaurus,251.902,251.2,-70.8462,123.5821,1
+Queensland,AU,1388,Tirraturhinus,251.902,251.2,-52.1532,140.794,1
+Queensland,AU,1387,Lydekkerina,251.902,251.2,-54.016,134.4377,1
+New South Wales,AU,1386,Microposaurus,247.2,242.0,-62.8262,133.5696,1
+New South Wales,AU,1385,Platycepsion,248.9,244.7,-61.6319,136.2734,1
+New South Wales,AU,1384,Notobrachyops,247.2,242.0,-62.8262,133.5696,1
+New South Wales,AU,1383,Bulgosuchus,251.4,247.2,-62.0172,137.7371,1
+New South Wales,AU,1382,Subcyclotosaurus,247.2,242.0,-60.4013,134.8501,1
+New South Wales,AU,1381,Trucheosaurus,259.51,254.14,-61.9056,139.3782,1
+Western Australia,AU,1380,Deltasaurus,251.902,247.2,-40.3562,108.219,1
+Western Australia,AU,1379,Deltasaurus,251.902,247.2,-40.3562,108.219,1
+Western Australia,AU,1378,Deltasaurus,251.902,247.2,-40.3562,108.219,1
+Western Australia,AU,1377,Deltasaurus,251.902,247.2,-40.3562,108.219,1
+Western Australia,AU,1376,Deltasaurus,251.902,247.2,-40.3562,108.219,1
+Western Australia,AU,1375,Watsonisuchus,251.902,247.2,-40.3562,108.219,1
+Western Australia,AU,1374,Deltasaurus,251.902,247.2,-48.3349,91.6281,1
+West Bengal,IN,1373,Indobrachyops,251.902,248.9,-45.4946,64.2439,1
+West Bengal,IN,1372,Manubrantlia,251.902,248.9,-45.4946,64.2439,1
 Azad Jammu & Kashmir,PK,1371,Aphaneramma,251.902,251.2,-31.4624,66.1305,3
-Western Australia,AU,1370,Batrachosuchus,251.902,247.2,-40.3562,108.219,4
-Western Australia,AU,1369,Batrachosuchus,251.902,247.2,-40.3562,108.219,4
-Tasmania,AU,1368,Banksiops,251.902,251.2,-70.8462,123.5821,4
-Tasmania,AU,1367,Chomatobatrachus,251.902,251.2,-70.8462,123.5821,4
-Tasmania,AU,1366,Banksiops,251.902,251.2,-70.8462,123.5821,4
-Tasmania,AU,1365,Chomatobatrachus,251.902,251.2,-70.8462,123.5821,4
-Tasmania,AU,1364,Derwentia,251.902,251.2,-70.8462,123.5821,4
-Tasmania,AU,1363,Banksiops,251.902,251.2,-70.8462,123.5821,4
-Tasmania,AU,1362,Chomatobatrachus,251.902,251.2,-70.8462,123.5821,4
-Tasmania,AU,1361,Deltasaurus,251.902,251.2,-70.8462,123.5821,4
-Tasmania,AU,1360,Banksiops,251.902,251.2,-70.8462,123.5821,4
-Tasmania,AU,1359,Chomatobatrachus,251.902,251.2,-70.8462,123.5821,4
-Tasmania,AU,1358,Deltasaurus,251.902,251.2,-70.8462,123.5821,4
-Tasmania,AU,1357,Derwentia,251.902,251.2,-70.8462,123.5821,4
-Tasmania,AU,1356,Chomatobatrachus,251.902,251.2,-70.8462,123.5821,4
-Tasmania,AU,1355,Banksiops,251.902,251.2,-70.8462,123.5821,4
-Tasmania,AU,1354,Chomatobatrachus,251.902,251.2,-70.8462,123.5821,4
-Tasmania,AU,1353,Deltasaurus,251.902,251.2,-70.8462,123.5821,4
-Tasmania,AU,1352,Watsonisuchus,251.902,251.2,-70.8462,123.5821,4
-Tasmania,AU,1351,Watsonisuchus,251.902,251.2,-70.8462,123.5821,4
-Tasmania,AU,1336,Bothriceps,259.51,251.2,-70.9492,126.1273,4
-Tasmania,AU,1337,Bothriceps,259.51,251.2,-70.9492,126.1273,4
-Tasmania,AU,1338,Bothriceps,259.51,251.2,-70.9492,126.1273,4
-Tasmania,AU,1339,Bothriceps,259.51,251.2,-70.9492,126.1273,4
-Tasmania,AU,1340,Bothriceps,259.51,251.2,-70.9492,126.1273,4
-Tasmania,AU,1341,Bothriceps,259.51,251.2,-70.9492,126.1273,4
-Tasmania,AU,1342,Bothriceps,259.51,251.2,-70.9492,126.1273,4
-Tasmania,AU,1343,Bothriceps,259.51,251.2,-70.9492,126.1273,4
-Tasmania,AU,1344,Bothriceps,259.51,251.2,-70.9492,126.1273,4
-Tasmania,AU,1345,Bothriceps,259.51,251.2,-70.9492,126.1273,4
-Tasmania,AU,1346,Bothriceps,259.51,251.2,-70.9492,126.1273,4
-Tasmania,AU,1347,Bothriceps,259.51,251.2,-70.9492,126.1273,4
-Tasmania,AU,1348,Bothriceps,259.51,251.2,-70.9492,126.1273,4
-Tasmania,AU,1349,Bothriceps,259.51,251.2,-70.9492,126.1273,4
-Tasmania,AU,1350,Bothriceps,259.51,251.2,-70.9492,126.1273,4
-Madhya Pradesh,IN,1335,Cherninia,247.2,242.0,-38.3913,59.0094,4
-Madhya Pradesh,IN,1334,Paracyclotosaurus,247.2,242.0,-38.3913,59.0094,4
-Andhra Pradesh,IN,1333,Eryosuchus,247.2,242.0,-39.8254,56.37,4
-Andhra Pradesh,IN,1332,Eryosuchus,247.2,242.0,-39.8254,56.37,4
-Maharashtra,IN,1331,Brachyops,251.902,247.2,-41.3663,55.7396,4
-Andhra Pradesh,IN,1330,Panthasaurus,237.0,208.5,-31.6663,57.7156,4
-Andhra Pradesh,IN,1329,Panthasaurus,237.0,208.5,-31.6663,57.7156,4
-Andhra Pradesh,IN,1328,Panthasaurus,237.0,208.5,-31.6663,57.7156,4
-Andhra Pradesh,IN,1327,Compsocerops,227.0,208.5,-25.4827,56.8524,4
-Andhra Pradesh,IN,1324,Kuttycephalus,227.0,208.5,-25.4827,56.8524,4
-Andhra Pradesh,IN,1325,Kuttycephalus,227.0,208.5,-25.4827,56.8524,4
-Andhra Pradesh,IN,1326,Kuttycephalus,227.0,208.5,-25.4827,56.8524,4
+Western Australia,AU,1370,Batrachosuchus,251.902,247.2,-40.3562,108.219,1
+Western Australia,AU,1369,Batrachosuchus,251.902,247.2,-40.3562,108.219,1
+Tasmania,AU,1368,Banksiops,251.902,251.2,-70.8462,123.5821,1
+Tasmania,AU,1367,Chomatobatrachus,251.902,251.2,-70.8462,123.5821,1
+Tasmania,AU,1366,Banksiops,251.902,251.2,-70.8462,123.5821,1
+Tasmania,AU,1365,Chomatobatrachus,251.902,251.2,-70.8462,123.5821,1
+Tasmania,AU,1364,Derwentia,251.902,251.2,-70.8462,123.5821,1
+Tasmania,AU,1363,Banksiops,251.902,251.2,-70.8462,123.5821,1
+Tasmania,AU,1362,Chomatobatrachus,251.902,251.2,-70.8462,123.5821,1
+Tasmania,AU,1361,Deltasaurus,251.902,251.2,-70.8462,123.5821,1
+Tasmania,AU,1360,Banksiops,251.902,251.2,-70.8462,123.5821,1
+Tasmania,AU,1359,Chomatobatrachus,251.902,251.2,-70.8462,123.5821,1
+Tasmania,AU,1358,Deltasaurus,251.902,251.2,-70.8462,123.5821,1
+Tasmania,AU,1357,Derwentia,251.902,251.2,-70.8462,123.5821,1
+Tasmania,AU,1356,Chomatobatrachus,251.902,251.2,-70.8462,123.5821,1
+Tasmania,AU,1355,Banksiops,251.902,251.2,-70.8462,123.5821,1
+Tasmania,AU,1354,Chomatobatrachus,251.902,251.2,-70.8462,123.5821,1
+Tasmania,AU,1353,Deltasaurus,251.902,251.2,-70.8462,123.5821,1
+Tasmania,AU,1352,Watsonisuchus,251.902,251.2,-70.8462,123.5821,1
+Tasmania,AU,1351,Watsonisuchus,251.902,251.2,-70.8462,123.5821,1
+Tasmania,AU,1336,Bothriceps,259.51,251.2,-70.9492,126.1273,1
+Tasmania,AU,1337,Bothriceps,259.51,251.2,-70.9492,126.1273,1
+Tasmania,AU,1338,Bothriceps,259.51,251.2,-70.9492,126.1273,1
+Tasmania,AU,1339,Bothriceps,259.51,251.2,-70.9492,126.1273,1
+Tasmania,AU,1340,Bothriceps,259.51,251.2,-70.9492,126.1273,1
+Tasmania,AU,1341,Bothriceps,259.51,251.2,-70.9492,126.1273,1
+Tasmania,AU,1342,Bothriceps,259.51,251.2,-70.9492,126.1273,1
+Tasmania,AU,1343,Bothriceps,259.51,251.2,-70.9492,126.1273,1
+Tasmania,AU,1344,Bothriceps,259.51,251.2,-70.9492,126.1273,1
+Tasmania,AU,1345,Bothriceps,259.51,251.2,-70.9492,126.1273,1
+Tasmania,AU,1346,Bothriceps,259.51,251.2,-70.9492,126.1273,1
+Tasmania,AU,1347,Bothriceps,259.51,251.2,-70.9492,126.1273,1
+Tasmania,AU,1348,Bothriceps,259.51,251.2,-70.9492,126.1273,1
+Tasmania,AU,1349,Bothriceps,259.51,251.2,-70.9492,126.1273,1
+Tasmania,AU,1350,Bothriceps,259.51,251.2,-70.9492,126.1273,1
+Madhya Pradesh,IN,1335,Cherninia,247.2,242.0,-38.3913,59.0094,1
+Madhya Pradesh,IN,1334,Paracyclotosaurus,247.2,242.0,-38.3913,59.0094,1
+Andhra Pradesh,IN,1333,Eryosuchus,247.2,242.0,-39.8254,56.37,1
+Andhra Pradesh,IN,1332,Eryosuchus,247.2,242.0,-39.8254,56.37,1
+Maharashtra,IN,1331,Brachyops,251.902,247.2,-41.3663,55.7396,1
+Andhra Pradesh,IN,1330,Panthasaurus,237.0,208.5,-31.6663,57.7156,1
+Andhra Pradesh,IN,1329,Panthasaurus,237.0,208.5,-31.6663,57.7156,1
+Andhra Pradesh,IN,1328,Panthasaurus,237.0,208.5,-31.6663,57.7156,1
+Andhra Pradesh,IN,1327,Compsocerops,227.0,208.5,-25.4827,56.8524,1
+Andhra Pradesh,IN,1324,Kuttycephalus,227.0,208.5,-25.4827,56.8524,1
+Andhra Pradesh,IN,1325,Kuttycephalus,227.0,208.5,-25.4827,56.8524,1
+Andhra Pradesh,IN,1326,Kuttycephalus,227.0,208.5,-25.4827,56.8524,1
 Baden-Wurttemberg,DE,1323,Mastodonsaurus,247.2,237.0,26.4626,20.9891,3
 Baden-Wurttemberg,DE,1322,Plagiosternum,247.2,237.0,26.4626,20.9891,3
 Baden-Wurttemberg,DE,1321,Cyclotosaurus,227.0,208.5,32.5932,9.3339,3
@@ -936,7 +936,7 @@ Volgograd,RU,1305,Parotosuchus,251.2,247.2,41.1651,41.0099,3
 Volgograd,RU,1304,Batrachosuchoides,251.2,247.2,41.1651,41.0099,3
 Kirov,RU,1303,Batrachosuchoides,251.2,247.2,48.6263,31.1073,3
 Orenburg,RU,1302,Parotosuchus,251.2,247.2,48.3133,44.0363,3
-Western Australia,AU,1301,Erythrobatrachus,251.902,247.2,-40.3562,108.219,4
+Western Australia,AU,1301,Erythrobatrachus,251.902,247.2,-40.3562,108.219,1
 Free State,ZA,1300,Eolydekkerina,251.902,247.2,-60.8084,-9.6701,1
 Free State,ZA,1299,Lydekkerina,251.902,251.2,-60.8084,-9.6701,1
 Free State,ZA,1298,Broomistega,251.902,247.2,-60.8807,-1.1886,1
@@ -1043,7 +1043,7 @@ Free State,ZA,1198,Kestrosaurus,248.9,247.2,-58.7619,-5.3084,1
 Free State,ZA,1197,Kestrosaurus,248.9,247.2,-58.7619,-5.3084,1
 Free State,ZA,1196,Rhytidosteus,251.902,248.9,-60.8084,-9.6701,1
 Tatarstan,RU,1195,Dvinosaurus,264.28,259.51,43.046,36.2856,3
-Madhya Pradesh,IN,1194,Rhinesuchus,259.51,251.902,-42.0893,64.1113,4
+Madhya Pradesh,IN,1194,Rhinesuchus,259.51,251.902,-42.0893,64.1113,1
 Astrakhan,RU,1193,Inflectosaurus,248.9,247.2,39.5454,43.5092,3
 Kostroma,RU,1192,Rhinesuchus,251.902,247.2,45.2164,33.3228,3
 Kostroma,RU,1191,Rhinesuchus,251.902,247.2,45.2164,33.3228,3
@@ -1055,7 +1055,7 @@ Texas,US,1185,Scapanops,298.9,293.52,-2.7466,-38.9219,4
 New Mexico,US,1184,Conjunctio,298.9,290.1,2.4804,-43.1405,4
 New Mexico,US,1183,Conjunctio,303.7,286.1,2.4804,-43.1405,4
 Eastern Cape,ZA,1182,Rhinesuchoides,259.51,254.14,-63.1595,-14.725,1
-West Bengal,IN,1181,Indobrachyops,251.902,248.9,-45.4946,64.2439,4
+West Bengal,IN,1181,Indobrachyops,251.902,248.9,-45.4946,64.2439,1
 England,UK,1180,Dasyceps,298.9,293.52,12.7951,10.33,3
 Ohio,US,1179,Adamanterpeton,309.8,307.4,-0.4818,-24.8936,4
 Ohio,US,1178,Astreptorhachis,303.7,298.9,-0.4818,-24.8936,4
@@ -1231,9 +1231,9 @@ Rhineland-Palatinate,DE,1006,Apateon,300.3,297.7,13.1412,15.7725,3
 Rhineland-Palatinate,DE,1005,Apateon,298.9,293.52,13.1412,15.7725,3
 Rhineland-Palatinate,DE,1004,Apateon,298.9,293.52,13.1412,15.7725,3
 Baden-Wurttemberg,DE,1003,Megalophthalma,239.7,237.0,27.7242,17.4803,3
-Maranhao,BR,1002,Timonya,283.5,273.01,-32.0453,-13.206,4
-Piaui,BR,1001,Timonya,298.9,273.01,-33.9084,-13.7416,4
-Piaui,BR,1000,Procuhy,298.9,273.01,-33.9084,-13.7416,4
+Maranhao,BR,1002,Timonya,283.5,273.01,-32.0453,-13.206,1
+Piaui,BR,1001,Timonya,298.9,273.01,-33.9084,-13.7416,1
+Piaui,BR,1000,Procuhy,298.9,273.01,-33.9084,-13.7416,1
 Rhineland-Palatinate,DE,999,Eryops,298.9,290.1,13.1412,15.7725,3
 Rhineland-Palatinate,DE,998,Palatinerpeton,298.9,290.1,13.1412,15.7725,3
 Rhineland-Palatinate,DE,995,Sclerocephalus,298.9,290.1,13.1412,15.7725,3
@@ -1831,19 +1831,19 @@ Thuringia,DE,401,Eryops,298.9,293.52,12.5951,19.408,3
 Pennsylvania,US,400,Glaukerpeton,307.4,300.3,-1.3035,-22.1408,4
 Czechia,CZ,399,Cheliderpeton,298.9,293.52,16.0936,19.7625,3
 Czechia,CZ,398,Archegosaurus,298.9,293.52,16.0936,19.7625,3
-Rio Grande do Sul,BR,397,Compsocerops,237.0,227.0,-49.4771,-10.0175,4
+Rio Grande do Sul,BR,397,Compsocerops,237.0,227.0,-49.4771,-10.0175,1
 Nizhegorod,RU,396,Dvinosaurus,259.51,256.8,44.3876,33.3665,3
 Vladimir,RU,395,Dvinosaurus,264.28,256.8,39.5414,32.9682,3
 Nizhegorod,RU,394,Tupilakosaurus,251.902,251.2,45.2164,33.3228,3
 Free State,ZA,393,Batrachosuchus,247.2,242.0,-61.3754,-6.6214,1
-Santa Catarina ,BR,392,Parapytanga,273.01,254.14,-49.3175,-20.8134,4
-Parana,BR,391,Australerpeton,266.9,254.14,-43.8199,-22.2348,4
-Parana,BR,390,Konzhukovia,266.9,254.14,-43.8199,-22.2348,4
+Santa Catarina ,BR,392,Parapytanga,273.01,254.14,-49.3175,-20.8134,1
+Parana,BR,391,Australerpeton,266.9,254.14,-43.8199,-22.2348,1
+Parana,BR,390,Konzhukovia,266.9,254.14,-43.8199,-22.2348,1
 Colorado,US,389,Chinlestegophis,227.0,201.4,6.3158,-43.6456,4
 Colorado,US,388,Chinlestegophis,227.0,208.5,6.3405,-46.8252,4
-Parana,BR,387,Australerpeton,266.9,254.14,-43.8199,-22.2348,4
-Rio Grande do Sul,BR,386,Konzhukovia,266.9,259.51,-51.3271,-26.4671,4
-Rio Grande do Sul,BR,385,Bageherpeton,273.01,259.51,-52.3882,-27.3601,4
+Parana,BR,387,Australerpeton,266.9,254.14,-43.8199,-22.2348,1
+Rio Grande do Sul,BR,386,Konzhukovia,266.9,259.51,-51.3271,-26.4671,1
+Rio Grande do Sul,BR,385,Bageherpeton,273.01,259.51,-52.3882,-27.3601,1
 Western Cape,ZA,384,Rhinesuchus,264.28,259.51,-62.7516,-22.8072,1
 Austria,AT,383,Mastodonsaurus,244.7,242.0,26.0552,24.8826,3
 Bashkortostan,RU,382,Bashkirosaurus,266.9,264.28,41.9725,35.9164,3
@@ -1892,10 +1892,10 @@ Grand Est,FR,339,Mastodonsaurus,242.0,237.0,24.2134,17.2823,3
 Western Cape,ZA,338,Rhinesuchoides,264.28,259.51,-62.7516,-22.8072,1
 Western Cape,ZA,336,Lydekkerina,259.51,251.902,-60.8508,-19.3342,1
 Western Cape,ZA,337,Lydekkerina,259.51,251.902,-60.8508,-19.3342,1
-Maranhao,BR,335,Prionosuchus,283.5,273.01,-32.0453,-13.206,4
-Mendoza,AR,334,Pelorocephalus,237.0,208.5,-54.4666,-28.839,4
-Mendoza,AR,333,Pelorocephalus,237.0,208.5,-54.4666,-28.839,4
-Mendoza,AR,332,Pelorocephalus,237.0,208.5,-54.4666,-28.839,4
+Maranhao,BR,335,Prionosuchus,283.5,273.01,-32.0453,-13.206,1
+Mendoza,AR,334,Pelorocephalus,237.0,208.5,-54.4666,-28.839,1
+Mendoza,AR,333,Pelorocephalus,237.0,208.5,-54.4666,-28.839,1
+Mendoza,AR,332,Pelorocephalus,237.0,208.5,-54.4666,-28.839,1
 Orenburg,RU,331,Syrtosuchus,251.902,251.2,45.8978,42.6869,3
 Nizhegorod,RU,330,Wetlugasaurus,251.2,247.2,45.6586,32.7324,3
 Orenburg,RU,329,Wetlugasaurus,251.2,247.2,46.4143,42.1659,3
@@ -1903,8 +1903,8 @@ Samara,RU,328,Wetlugasaurus,251.2,247.2,46.4143,42.1659,3
 Ruvuma,TZ,325,Peltobatrachus,259.51,254.14,-47.7841,17.7482,1
 Ruvuma,TZ,326,Peltobatrachus,259.51,254.14,-47.7841,17.7482,1
 Ruvuma,TZ,327,Peltobatrachus,259.51,254.14,-47.7841,17.7482,1
-Uruguay,UY,324,Arachana,237.0,201.4,-51.8925,-8.9992,4
-Rio Grande do Sul,BR,323,Tomeia,251.902,247.2,-46.3223,-24.4717,4
+Uruguay,UY,324,Arachana,237.0,201.4,-51.8925,-8.9992,1
+Rio Grande do Sul,BR,323,Tomeia,251.902,247.2,-46.3223,-24.4717,1
 Westphalia,DE,322,Cyclotosaurus,237.0,227.0,29.6057,10.015,3
 Czechia,CZ,321,Sclerocephalus,298.9,290.1,16.0936,19.7625,3
 Diana,MG,320,Aphaneramma,251.902,248.9,-37.335,38.8469,1
@@ -2103,7 +2103,7 @@ Volgograd,RU,125,Benthosuchus,251.2,247.2,47.012,29.6875,3
 Vosges,FR,124,Eocyclotosaurus,247.2,242.0,22.9805,20.4578,3
 Bas-Rhin,FR,123,Eocyclotosaurus,247.2,242.0,25.024,18.7935,3
 Baden-Wurttemberg,DE,122,Cyclotosaurus,242.0,237.0,27.7242,17.4803,3
-San Juan,AR,121,Promastodonsaurus,237.0,208.5,-52.0012,-29.5316,4
+San Juan,AR,121,Promastodonsaurus,237.0,208.5,-52.0012,-29.5316,1
 Westphalia,DE,120,Mastodonsaurus,247.2,242.0,25.024,18.7935,3
 Archangelsk,RU,119,Yarengia,251.2,247.2,48.2805,26.4894,3
 Kirov,RU,118,Vladlenosaurus,251.902,247.2,48.1979,31.766,3
@@ -2135,9 +2135,9 @@ Texas,US,92,Eryops,298.9,286.1,-2.7466,-38.9219,4
 Texas,US,91,Eryops,298.9,290.1,-0.5219,-37.7808,4
 Texas,US,90,Eryops,298.9,293.52,-0.5219,-37.7808,4
 Texas,US,89,Eryops,298.9,293.52,-0.5219,-37.7808,4
-Madhya Pradesh,IN,88,Eodiscoglossus,237.0,227.0,-30.8144,64.7603,4
-Madhya Pradesh,IN,87,Metoposaurus,237.0,227.0,-30.8144,64.7603,4
-Madhya Pradesh,IN,86,Metoposaurus,237.0,227.0,-30.8144,64.7603,4
+Madhya Pradesh,IN,88,Eodiscoglossus,237.0,227.0,-30.8144,64.7603,1
+Madhya Pradesh,IN,87,Metoposaurus,237.0,227.0,-30.8144,64.7603,1
+Madhya Pradesh,IN,86,Metoposaurus,237.0,227.0,-30.8144,64.7603,1
 Svalbard,SJ,85,Lyrocephaliscus,251.2,248.9,47.6976,0.6657,3
 Kansas,US,84,Eryops,303.7,298.9,1.7029,-36.6404,4
 Kansas,US,83,Trimerorhachis,303.7,298.9,1.7029,-36.6404,4
@@ -2161,10 +2161,10 @@ Westphalia,DE,66,Cyclotosaurus,208.5,201.4,40.9542,8.1787,3
 Utah,US,65,Eryops,307.0,273.01,5.56,-44.7095,4
 New Mexico,US,64,Eryops,293.52,283.5,3.3376,-45.8581,4
 New Mexico,US,63,Zatrachys,298.9,286.1,2.4804,-43.1405,4
-West Bengal,IN,62,Capulomala,251.902,248.9,-45.4946,64.2439,4
-Queensland,AU,61,Capulomala,251.902,251.2,-54.016,134.4377,4
-Queensland,AU,60,Capulomala,251.902,251.2,-52.1532,140.794,4
-Queensland,AU,59,Capulomala,251.902,251.2,-54.6256,140.1719,4
+West Bengal,IN,62,Capulomala,251.902,248.9,-45.4946,64.2439,1
+Queensland,AU,61,Capulomala,251.902,251.2,-54.016,134.4377,1
+Queensland,AU,60,Capulomala,251.902,251.2,-52.1532,140.794,1
+Queensland,AU,59,Capulomala,251.902,251.2,-54.6256,140.1719,1
 Volgograd,RU,58,Benthosuchus,251.902,247.2,46.5963,30.3264,3
 New Mexico,US,57,Bermanerpeton,303.7,298.9,2.4804,-43.1405,4
 Netherland,NL,56,Capitosauroides,247.2,242.0,27.0679,17.1911,3
@@ -2187,7 +2187,7 @@ New Mexico,US,39,Anaschisma,227.0,208.5,1.3572,-44.289,4
 Arizona,US,37,Funcusvermis,227.0,208.5,1.3531,-47.1801,4
 Bavaria,DE,36,Trematosaurus,259.51,251.902,25.6133,22.3383,3
 Thuringia,DE,35,Cyclotosaurus,242.0,237.0,27.7242,17.4803,3
-New South Wales,AU,34,Arenaerpeton,251.902,247.2,-62.0172,137.7371,4
+New South Wales,AU,34,Arenaerpeton,251.902,247.2,-62.0172,137.7371,1
 Perm,RU,33,Clamorosaurus,283.5,273.01,42.9225,25.5167,3
 Samara,RU,32,Platyoposaurus,273.01,266.9,41.4573,34.6428,3
 Samara,RU,31,Koinia,273.01,266.9,41.4573,34.6428,3
@@ -2207,17 +2207,17 @@ Volgograd,RU,18,Dvinosaurus,264.28,259.51,40.9999,27.4499,3
 Volgograd,RU,17,Dvinosaurus,264.28,259.51,40.9999,27.4499,3
 Volgograd,RU,16,Dvinosaurus,259.51,254.14,46.0942,30.2026,3
 Yaroslavl,RU,15,Wetlugasaurus,251.2,247.2,42.3944,29.4489,3
-Parana,BR,14,Australerpeton,266.9,264.3,-46.3881,-25.2811,4
-Rio Grande do Sul,BR,13,Compsocerops,227.0,208.5,-46.1164,-4.6554,4
-Rio Grande do Sul,BR,12,Compsocerops,227.0,208.5,-46.1164,-4.6554,4
-Parana,BR,11,Australerpeton,266.9,264.3,-46.3881,-25.2811,4
-Rio Grande do Sul,BR,10,Kwatisuchus,251.2,247.2,-46.4569,-23.7712,4
-Rio Grande do Sul,BR,9,Tomeia,251.2,247.2,-46.4569,-23.7712,4
-Parana,BR,8,Rastosuchus,266.9,264.3,-46.3881,-25.2811,4
-Parana,BR,7,Rastosuchus,266.9,264.3,-46.3881,-25.2811,4
-Parana,BR,6,Rastosuchus,266.9,264.3,-46.3881,-25.2811,4
-Parana,BR,5,Rastosuchus,266.9,264.3,-46.3881,-25.2811,4
-Parana,BR,4,Rastosuchus,266.9,264.3,-46.3881,-25.2811,4
-Parana,BR,3,Rastosuchus,266.9,264.3,-46.3881,-25.2811,4
-Rio Grande do Sul,BR,2,Compsocerops,227.0,208.5,-46.1164,-4.6554,4
-Rio Grande do Sul,BR,1,Compsocerops,227.0,208.5,-46.1164,-4.6554,4
+Parana,BR,14,Australerpeton,266.9,264.3,-46.3881,-25.2811,1
+Rio Grande do Sul,BR,13,Compsocerops,227.0,208.5,-46.1164,-4.6554,1
+Rio Grande do Sul,BR,12,Compsocerops,227.0,208.5,-46.1164,-4.6554,1
+Parana,BR,11,Australerpeton,266.9,264.3,-46.3881,-25.2811,1
+Rio Grande do Sul,BR,10,Kwatisuchus,251.2,247.2,-46.4569,-23.7712,1
+Rio Grande do Sul,BR,9,Tomeia,251.2,247.2,-46.4569,-23.7712,1
+Parana,BR,8,Rastosuchus,266.9,264.3,-46.3881,-25.2811,1
+Parana,BR,7,Rastosuchus,266.9,264.3,-46.3881,-25.2811,1
+Parana,BR,6,Rastosuchus,266.9,264.3,-46.3881,-25.2811,1
+Parana,BR,5,Rastosuchus,266.9,264.3,-46.3881,-25.2811,1
+Parana,BR,4,Rastosuchus,266.9,264.3,-46.3881,-25.2811,1
+Parana,BR,3,Rastosuchus,266.9,264.3,-46.3881,-25.2811,1
+Rio Grande do Sul,BR,2,Compsocerops,227.0,208.5,-46.1164,-4.6554,1
+Rio Grande do Sul,BR,1,Compsocerops,227.0,208.5,-46.1164,-4.6554,1
