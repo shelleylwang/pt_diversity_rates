@@ -6,8 +6,8 @@
 library(coda)    # For MCMC diagnostics and summaries
 library(ggplot2) # For enhanced plotting (optional but useful)
 
-# Set working directory if needed
-# setwd("/path/to/your/directory")
+# Set working directory
+setwd("reptilia/mcmc_no_predictors/A_rjmcmc_sampled_every_10k")
 
 #==========================================
 # 1. LOADING AND PREPARING MCMC SAMPLES
@@ -16,7 +16,7 @@ library(ggplot2) # For enhanced plotting (optional but useful)
 # Read in the MCMC log file (tab-separated)
 # The file should have iterations as rows and parameters as columns
 # The first column is often the iteration number which we'll exclude (select = -1)
-mcmc_data <- read.table("mcmc.log", header = TRUE, sep = "\t")
+mcmc_data <- read.table("reptilia_pyrate_1_A_rjmcmc_Grj_mcmc.log", header = TRUE, sep = "\t")
 
 # Check the structure of the data
 str(mcmc_data)
@@ -53,25 +53,25 @@ mcmc_thinned <- window(mcmc_object, thin = thin_interval)
 #==========================================
 
 # Get basic summary statistics for all parameters
-summary_stats <- summary(mcmc_object)
-print(summary_stats)
+#summary_stats <- summary(mcmc_object)
+#print(summary_stats)
 # This outputs mean, standard deviation, quantiles and other statistics for each parameter
 
 # For a more detailed summary including HPD intervals
-summary_stats_detailed <- summary(mcmc_object, quantiles = c(0.025, 0.25, 0.5, 0.75, 0.975))
-print(summary_stats_detailed)
+#summary_stats_detailed <- summary(mcmc_object, quantiles = c(0.025, 0.25, 0.5, 0.75, 0.975))
+#print(summary_stats_detailed)
 # This provides additional quantiles to better understand the distribution
 
 # Highest Posterior Density (HPD) intervals
 # HPD intervals are the shortest intervals containing a specified probability mass
-hpd_intervals <- HPDinterval(mcmc_object, prob = 0.95)
-print(hpd_intervals)
+#hpd_intervals <- HPDinterval(mcmc_object, prob = 0.95)
+#print(hpd_intervals)
 # This shows the 95% highest posterior density intervals for each parameter
 
 # Effective sample size (ESS)
 # ESS estimates how many independent samples the autocorrelated MCMC samples are equivalent to
-ess <- effectiveSize(mcmc_object)
-print(ess)
+#ess <- effectiveSize(mcmc_object)
+#print(ess)
 # Lower ESS values indicate higher autocorrelation, suggesting you may need more samples
 
 #==========================================
