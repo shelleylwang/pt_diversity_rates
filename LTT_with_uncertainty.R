@@ -1,10 +1,9 @@
 #!/usr/bin/env Rscript
 
 ### Example Usage:
-### Rscript LTT_with_uncertainty.R -p ./reptilia/mcmc_predictors/B_covar_mcmc 
-### -n 10 -t 100 -b 0.15 -o reptilia_B_covar_mcmc_ltt_with_uncertainty.pdf
-### --title "Reptilia diversity Trajectory" --prefix "reptilia_pyrate"
-### --file-pattern "_G_COVhp_BDS_mcmc.log"
+### Rscript LTT_with_uncertainty.R -p ./reptilia/mcmc_predictors/B_covar_mcmc -n 10 -t 100 -b 0.15 
+### -o reptilia_B_covar_mcmc_ltt_with_uncertainty.pdf --title "Reptilia diversity Trajectory" 
+### --prefix "reptilia_pyrate_" --file-pattern "_B_mcmc_G_COVhp_BD1-1_mcmc.log"
 
 # Load required libraries with suppressed startup messages for cleaner output
 suppressPackageStartupMessages({
@@ -121,6 +120,24 @@ applyThin <- function(L, Thin = 0) {
 }
 
 # Function to calculate lineage through time values
+# getLtt <- function(Ts, Te, TimeVec) {
+#   Ts <- unlist(Ts)
+#   Te <- unlist(Te)
+#   ChangeTe <- rep(-1, length(Te))
+#   ChangeTe[Te == 0.0] <- 0
+#   Change <- c(rep(1, length(Ts)), ChangeTe)
+#   Times <- c(Ts, Te)
+#   Ord <- order(Times, decreasing = TRUE)
+#   Change <- Change[Ord]
+#   Times <- Times[Ord]
+#   Lineages <- cumsum(Change)
+#   Out <- approx(x = rev(Times),
+#                 y = rev(Lineages),
+#                 xout = TimeVec,
+#                 method = 'constant',
+#                 yright = 0)$y
+#   return(Out)
+# }
 getLtt <- function(Ts, Te, TimeVec) {
   Ts <- unlist(Ts)
   Te <- unlist(Te)
@@ -132,13 +149,14 @@ getLtt <- function(Ts, Te, TimeVec) {
   Change <- Change[Ord]
   Times <- Times[Ord]
   Lineages <- cumsum(Change)
-  Out <- approx(x = rev(Times),
-                y = rev(Lineages),
-                xout = TimeVec,
+  Out <- approx(x = -Times,
+                y = Lineages,
+                xout = -TimeVec,
                 method = 'constant',
-                yright = 0)$y
+                yleft = 0)$y
   return(Out)
 }
+
 
 # Function to calculate highest posterior density intervals
 getHPD <- function(x, Prob = 0.95) {
@@ -171,7 +189,7 @@ isNotZero <- function(x) {
 args <- parse_args()
 
 # Define time vector for LTT calculation
-TimeVecLtt <- seq(300, 190, by = -0.01)
+TimeVecLtt <- seq(320, 190, by = -0.01)
 
 # Perform initial validation checks
 cat("Validation checks:\n")
