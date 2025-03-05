@@ -81,12 +81,15 @@ mcmc_thinned <- window(mcmc_object, thin = thin_interval)
 # Geweke diagnostic
 # Tests if the mean of the first part of the chain is equal to the mean of the last part
 geweke_diag <- geweke.diag(mcmc_object)
+# print only z scores outside of +/- 1.96
+geweke_diag <- geweke_diag$z
+geweke_diag <- geweke_diag[abs(geweke_diag) > 1.96]
 print(geweke_diag)
 # Z-scores outside of +/- 1.96 suggest potential lack of convergence
 
 # Geweke plot
 # Visual representation of the Geweke diagnostic
-geweke_plot <- geweke.plot(mcmc_object)
+# geweke_plot <- geweke.plot(mcmc_object)
 # If values consistently fall outside the confidence bands, it suggests non-convergence
 
 # Heidelberger and Welch diagnostic
