@@ -1,0 +1,4 @@
+posterior     prior    PP_lik    BD_lik   k_birth 
+ 562.7686  209.6733 1029.3177  164.8531  289.5545 
+  k_death     RJ_hp 
+ 160.0163 2733.5425 
