@@ -13,7 +13,6 @@ setwd("reptilia/mcmc_no_predictors/A_rjmcmc_sampled_every_10k")
 # 1. LOADING AND PREPARING MCMC SAMPLES
 #==========================================
 
-
 # Columns I want to read in (if the file contains them)
 columns <- c('it', 'posterior', 'prior', 'PP_lik', 'BD_lik', 'k_birth', 'k_death', 'RJ_hp')
 
