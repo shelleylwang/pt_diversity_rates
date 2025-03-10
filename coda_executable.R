@@ -9,7 +9,6 @@ library(gridExtra)
 library(grid)
 
 analyze_mcmc <- function(working_dir) {
-  
   # Set working directory
   original_dir <- getwd()
   setwd(working_dir)
@@ -25,8 +24,12 @@ analyze_mcmc <- function(working_dir) {
   }
   
   # Initialize the output files
-  ess_file <- file.path(working_dir, "combined_mcmc_ess.txt")
+  ess_file <- file.path(working_dir, "combined_mcmc_ess.html")
   pdf_file <- file.path(working_dir, "combined_mcmc_diagnostics_plots.pdf")
+  
+  # Open the HTML file for writing
+  html_conn <- file(ess_file, open = "wt")
+  writeLines("<html><body>", html_conn)
   
   # Open the PDF device
   pdf(pdf_file, width = 12, height = 8)
@@ -86,8 +89,23 @@ analyze_mcmc <- function(working_dir) {
     print(ess)
     
     # Append ESS to the combined ESS file
-    cat("Effective Sample Size (ESS) for", file_name, ":\n", file = ess_file, append = TRUE)
-    capture.output(ess, file = ess_file, append = TRUE)
+    writeLines(paste("<h4>Effective Sample Size (ESS) for", file_name, ":</h4>"), html_conn)
+    ess_text <- capture.output(ess)
+    writeLines("<table border='1'><tr>", html_conn)
+    # Write the header row
+    for (name in names(ess)) {
+      writeLines(paste("<td>", name, "</td>"), html_conn)
+    }
+    writeLines("</tr><tr>", html_conn)
+    # Write the values row
+    for (value in ess) {
+      if (value < 200) {
+        writeLines(paste("<td style='color:red;'>", round(value), "</td>"), html_conn)
+      } else {
+        writeLines(paste("<td>", round(value), "</td>"), html_conn)
+      }
+    }
+    writeLines("</tr></table>", html_conn)
     
     # Add a title page to the PDF
     grid.newpage()
@@ -164,8 +182,29 @@ analyze_mcmc <- function(working_dir) {
   # Close the PDF device
   dev.off()
   
+  # Close the HTML file
+  writeLines("</body></html>", html_conn)
+  close(html_conn)
+  
   # Reset to original working directory
   setwd(original_dir)
+  
 }
 
+
+#### A_REPTILIA (mcmc_no_predictors)
+# A_rjmcmc_sampled_every_10k
 analyze_mcmc("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/reptilia/mcmc_no_predictors/A_rjmcmc_sampled_every_10k")
+
+# A_rjmcmc_sampled_every_20k
+#DID NOT RUN^^
+analyze_mcmc("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/reptilia/mcmc_no_predictors/A_rjmcmc_sampled_every_20k")
+
+# A_bdmcmc
+analyze_mcmc("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/reptilia/mcmc_no_predictors/A_bdmcmc")
+# A_bdnn
+analyze_mcmc("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/reptilia/mcmc_no_predictors/A_bdnn")
+# A_bdnn_update
+analyze_mcmc("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/reptilia/mcmc_no_predictors/A_bdnn_update")
+# A_mcmc_200_Iterations
+analyze_mcmc("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/reptilia/mcmc_no_predictors/A_mcmc_200_Iterations")
