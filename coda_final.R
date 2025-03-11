@@ -217,10 +217,10 @@ analyze_mcmc <- function(working_dir) {
     
     # Add a line that specifies sampling rate, which is the step size of the mcmc_data$it column
     sampling_rate = it_col[2] - it_col[1]
-    grid.text(paste("Sampling rate:", sampling_rate), x = 0.5, y = 0.91, gp = gpar(fontsize = 10))
+    grid.text(paste("Sampling rate:", sampling_rate), x = 0.5, y = 0.92, gp = gpar(fontsize = 10))
     
     # Create layout
-    pushViewport(viewport(x = 0.5, y = 0.5, width = 0.95, height = 0.85))
+    pushViewport(viewport(x = 0.5, y = 0.5, width = 0.95, height = 0.81))
     pushViewport(viewport(layout = grid.layout(num_tables, 1)))
     
     # Draw each table
@@ -280,7 +280,6 @@ analyze_mcmc <- function(working_dir) {
   cat("1. Diagnostic plots:", pdf_diagnostics_file, "\n")
   cat("2. ESS tables:", pdf_ess_file, "\n")
 }
-
 
 
 
@@ -351,10 +350,37 @@ analyze_mcmc("C:\Users\SimoesLabAdmin\Documents\BDNN_Arielli\reptilia\mcmc_predi
 
 
 ################### B_SYNAPSIDA (mcmc_predictors)
-
+# B_bdnn_stdscaled_cbrt
+analyze_mcmc("C:\Users\SimoesLabAdmin\Documents\BDNN_Arielli\synapsida\mcmc_predictors\B_bdnn_stdscaled_cbrt")
+# B_bdnn_stdscaled_log
+analyze_mcmc("C:\Users\SimoesLabAdmin\Documents\BDNN_Arielli\synapsida\mcmc_predictors\B_bdnn_stdscaled_log")
+# B_bdnn_stdscaled_boxcox
+analyze_mcmc("C:\Users\SimoesLabAdmin\Documents\BDNN_Arielli\synapsida\mcmc_predictors\B_bdnn_stdscaled_boxcox")
+# B_bdnn_stdscaled_only
+analyze_mcmc("C:\Users\SimoesLabAdmin\Documents\BDNN_Arielli\synapsida\mcmc_predictors\B_bdnn_stdscaled_only")
+# B_covar_mcmc
+analyze_mcmc("C:\Users\SimoesLabAdmin\Documents\BDNN_Arielli\synapsida\mcmc_predictors\B_covar_mcmc")
+# B_bdnn_lats_only
+analyze_mcmc("C:\Users\SimoesLabAdmin\Documents\BDNN_Arielli\synapsida\mcmc_predictors\B_bdnn_lats_only")
+# B_covar_rjmcmc
+analyze_mcmc("C:\Users\SimoesLabAdmin\Documents\BDNN_Arielli\synapsida\mcmc_predictors\B_covar_rjmcmc")
 
 
 ################### B_TEMNOSPONDYLI (mcmc_predictors)
+# B_bdnn_stdscaled_cbrt
+analyze_mcmc("C:\Users\SimoesLabAdmin\Documents\BDNN_Arielli\temnospondyli\mcmc_predictors\B_bdnn_stdscaled_cbrt")
+# B_bdnn_stdscaled_log
+analyze_mcmc("C:\Users\SimoesLabAdmin\Documents\BDNN_Arielli\temnospondyli\mcmc_predictors\B_bdnn_stdscaled_log")
+# B_bdnn_stdscaled_boxcox
+analyze_mcmc("C:\Users\SimoesLabAdmin\Documents\BDNN_Arielli\temnospondyli\mcmc_predictors\B_bdnn_stdscaled_boxcox")
+# B_bdnn_stdscaled_only
+analyze_mcmc("C:\Users\SimoesLabAdmin\Documents\BDNN_Arielli\temnospondyli\mcmc_predictors\B_bdnn_stdscaled_only")
+# B_covar_mcmc
+analyze_mcmc("C:\Users\SimoesLabAdmin\Documents\BDNN_Arielli\temnospondyli\mcmc_predictors\B_covar_mcmc")
+# B_bdnn_lats_only
+analyze_mcmc("C:\Users\SimoesLabAdmin\Documents\BDNN_Arielli\temnospondyli\mcmc_predictors\B_bdnn_lats_only")
+# B_covar_rjmcmc
+analyze_mcmc("C:\Users\SimoesLabAdmin\Documents\BDNN_Arielli\temnospondyli\mcmc_predictors\B_covar_rjmcmc")
 
 
 
