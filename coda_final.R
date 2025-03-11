@@ -39,7 +39,7 @@ analyze_mcmc <- function(working_dir) {
     cat("Processing:", file_name, "\n")
     
     # Columns we're interested in (if the file contains any of them)
-    desired_columns <- c('posterior', 'prior', 'PP_lik', 'BD_lik', 'k_birth', 'k_death', 'RJ_hp')
+    desired_columns <- c('it', 'posterior', 'prior', 'PP_lik', 'BD_lik', 'k_birth', 'k_death', 'RJ_hp')
     
     # Full path to the file
     file_path <- file.path(working_dir, file_name)
@@ -190,8 +190,8 @@ analyze_mcmc <- function(working_dir) {
   # Close diagnostic plots PDF
   dev.off()
   
-  # Create ESS summary PDF (landscape)
-  pdf(pdf_ess_file, width = 11, height = 8.5)
+  # Create ESS summary PDF
+  pdf(pdf_ess_file, width = 8.5, height = 11)
   
   num_tables <- length(all_ess_tables)
   if (num_tables > 0) {
@@ -201,6 +201,13 @@ analyze_mcmc <- function(working_dir) {
     grid.text("MCMC Effective Sample Size (ESS) Summary", 
               x = 0.5, y = 0.97, 
               gp = gpar(fontface = "bold", fontsize = 14))
+    # Add line that specifies total number of iterations, which is the last row in the mcmc_data$it column
+    total_iterations = mcmc_data$it[length(mcmc_data$it)]
+    grid.text(paste("Total number of iterations:", total_iterations), x = 0.5, y = 0.95, gp = gpar(fontsize = 10))
+    
+    # Add a line that specifies sampling rate, which is the step size of the mcmc_data$it column
+    sampling_rate = mcmc_data$it[2] - mcmc_data$it[1]
+    grid.text(paste("Sampling rate:", sampling_rate), x = 0.5, y = 0.93, gp = gpar(fontsize = 10))
     
     # Create layout
     pushViewport(viewport(x = 0.5, y = 0.5, width = 0.95, height = 0.9))
@@ -299,11 +306,8 @@ analyze_mcmc("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/synapsida/mcmc_no_p
 ################### A_TEMNOSPONDYLI (mcmc_no_predictors)
 # A_rjmcmc_sampled_every_10k
 analyze_mcmc("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/temnospondyli/mcmc_no_predictors/A_rjmcmc_sampled_every_10k")
-
 # A_rjmcmc_sampled_every_20k
-#DID NOT RUN^^
 analyze_mcmc("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/temnospondyli/mcmc_no_predictors/A_rjmcmc_sampled_every_20k")
-
 # A_bdmcmc
 analyze_mcmc("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/temnospondyli/mcmc_no_predictors/A_bdmcmc")
 # A_bdnn
@@ -312,25 +316,35 @@ analyze_mcmc("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/temnospondyli/mcmc_
 analyze_mcmc("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/temnospondyli/mcmc_no_predictors/A_bdnn_update")
 # A_mcmc_200_Iterations
 analyze_mcmc("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/temnospondyli/mcmc_no_predictors/A_mcmc_200_Iterations")
+# ADE
+analyze_mcmc("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/temnospondyli/mcmc_no_predictors/ADE")
+
+################### B_REPTILIA (mcmc_predictors)
+# B_bdnn_stdscaled_only_4_2_update
+analyze_mcmc("C:\Users\SimoesLabAdmin\Documents\BDNN_Arielli\reptilia\mcmc_predictors\B_bdnn_stdscaled_only_4_2_update")
+# B_bdnn_stdscaled_cbrt
+analyze_mcmc("C:\Users\SimoesLabAdmin\Documents\BDNN_Arielli\reptilia\mcmc_predictors\B_bdnn_stdscaled_cbrt")
+# B_bdnn_stdscaled_log
+analyze_mcmc("C:\Users\SimoesLabAdmin\Documents\BDNN_Arielli\reptilia\mcmc_predictors\B_bdnn_stdscaled_log")
+# B_bdnn_stdscaled_boxcox
+analyze_mcmc("C:\Users\SimoesLabAdmin\Documents\BDNN_Arielli\reptilia\mcmc_predictors\B_bdnn_stdscaled_boxcox")
+# B_bdnn_stdscaled_only
+analyze_mcmc("C:\Users\SimoesLabAdmin\Documents\BDNN_Arielli\reptilia\mcmc_predictors\B_bdnn_stdscaled_only")
+# B_bdnn_stdscaled_only_8_4_nodes
+analyze_mcmc("C:\Users\SimoesLabAdmin\Documents\BDNN_Arielli\reptilia\mcmc_predictors\B_bdnn_stdscaled_only_8_4_nodes")
+# B_covar_mcmc
+analyze_mcmc("C:\Users\SimoesLabAdmin\Documents\BDNN_Arielli\reptilia\mcmc_predictors\B_covar_mcmc")
+# B_bdnn_lats_only
+analyze_mcmc("C:\Users\SimoesLabAdmin\Documents\BDNN_Arielli\reptilia\mcmc_predictors\B_bdnn_lats_only")
+# B_covar_rjmcmc
+analyze_mcmc("C:\Users\SimoesLabAdmin\Documents\BDNN_Arielli\reptilia\mcmc_predictors\B_covar_rjmcmc")
+
+
+################### B_SYNAPSIDA (mcmc_predictors)
 
 
 
-test_file <- "C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/reptilia/mcmc_no_predictors/A_rjmcmc_sampled_every_20k/reptilia_pyrate_1_Grj_mcmc.log"
-test_data_tab <- try(read.table(test_file, header=TRUE, sep="\t", nrows=5))
-test_data_comma <- try(read.table(test_file, header=TRUE, sep=",", nrows=5))
-test_data_comma <- try(read.table(test_file, header=TRUE, sep=" ", nrows=5))
-
-readBin(test_file, "raw", n=100)  # Look at raw bytes at the start of the file
-
-test_file_2 <- "C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/reptilia/mcmc_no_predictors/A_rjmcmc_sampled_every_10k/reptilia_pyrate_1_A_rjmcmc_Grj_mcmc.log"
-test_data_tab_2 <- try(read.table(test_file_2, header=TRUE, sep="\t", nrows=5))
-test_data_comma_2 <- try(read.table(test_file_2, header=TRUE, sep=",", nrows=5))
-test_data_comma_2 <- try(read.table(test_file_2, header=TRUE, sep=" ", nrows=5))
-
-
-
-
-
+################### B_TEMNOSPONDYLI (mcmc_predictors)
 
 
 
