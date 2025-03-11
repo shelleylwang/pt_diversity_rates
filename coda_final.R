@@ -101,6 +101,15 @@ analyze_mcmc <- function(working_dir) {
       warning(paste("No columns could be read from", file_name))
       next
     }
+
+    
+    # Save just the last two cells of the 'it' column as a numeric vector for pdf
+    it_cols <- tail(mcmc_data$it, 2)
+    it_cols <- data.frame(it = it_cols)
+    it_col <- as.numeric(it_cols$it)
+  
+    # Cut off the 'it' column
+    mcmc_data <- mcmc_data[, -1]
     
     # Check the structure of the data
     str(mcmc_data)
@@ -201,16 +210,17 @@ analyze_mcmc <- function(working_dir) {
     grid.text("MCMC Effective Sample Size (ESS) Summary", 
               x = 0.5, y = 0.97, 
               gp = gpar(fontface = "bold", fontsize = 14))
-    # Add line that specifies total number of iterations, which is the last row in the mcmc_data$it column
-    total_iterations = mcmc_data$it[length(mcmc_data$it)]
-    grid.text(paste("Total number of iterations:", total_iterations), x = 0.5, y = 0.95, gp = gpar(fontsize = 10))
+   
+     # Add line that specifies total number of iterations, which is the last row in the mcmc_data$it column
+    total_iterations = it_col[2]
+    grid.text(paste("Total number of iterations:", total_iterations), x = 0.5, y = 0.94, gp = gpar(fontsize = 10))
     
     # Add a line that specifies sampling rate, which is the step size of the mcmc_data$it column
-    sampling_rate = mcmc_data$it[2] - mcmc_data$it[1]
-    grid.text(paste("Sampling rate:", sampling_rate), x = 0.5, y = 0.93, gp = gpar(fontsize = 10))
+    sampling_rate = it_col[2] - it_col[1]
+    grid.text(paste("Sampling rate:", sampling_rate), x = 0.5, y = 0.91, gp = gpar(fontsize = 10))
     
     # Create layout
-    pushViewport(viewport(x = 0.5, y = 0.5, width = 0.95, height = 0.9))
+    pushViewport(viewport(x = 0.5, y = 0.5, width = 0.95, height = 0.85))
     pushViewport(viewport(layout = grid.layout(num_tables, 1)))
     
     # Draw each table
