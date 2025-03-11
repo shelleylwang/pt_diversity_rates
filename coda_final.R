@@ -15,18 +15,21 @@ analyze_mcmc <- function(working_dir) {
   # Find all mcmc.log files
   mcmc_files <- list.files(path = working_dir, pattern = "mcmc\\.log$", full.names = FALSE)
   
+  # Check if any matching files were found
   if (length(mcmc_files) == 0) {
     warning("No mcmc.log files found in", working_dir)
     setwd(original_dir)
     return(NULL)
   }
   
+  cat("Found", length(mcmc_files), "mcmc.log files in", working_dir, "\n")
+  
   # Initialize output files
   pdf_diagnostics_file <- file.path(working_dir, "combined_mcmc_diagnostics_plots.pdf")
   pdf_ess_file <- file.path(working_dir, "combined_mcmc_ess.pdf")
   
   # Open the PDF device for diagnostic plots
-  pdf(pdf_diagnostics_file, width = 13, height = 8)
+  pdf(pdf_diagnostics_file, width = 12, height = 8)
   
   # Store ESS tables for later output
   all_ess_tables <- list() 
@@ -35,33 +38,58 @@ analyze_mcmc <- function(working_dir) {
   for (file_name in mcmc_files) {
     cat("Processing:", file_name, "\n")
     
-    # Columns to read
-    columns <- c('posterior', 'prior', 'PP_lik', 'BD_lik', 'k_birth', 'k_death', 'RJ_hp')
+    # Columns we're interested in (if the file contains any of them)
+    desired_columns <- c('posterior', 'prior', 'PP_lik', 'BD_lik', 'k_birth', 'k_death', 'RJ_hp')
     
-    # Read the header
+    # Full path to the file
+    file_path <- file.path(working_dir, file_name)
+    
+    # Read the header to get column names
     header <- tryCatch({
-      read.table(file.path(working_dir, file_name), header = TRUE, sep = "\t", nrows = 1)
+      read.table(file_path, header = TRUE, sep = "\t", nrows = 1)
     }, error = function(e) {
-      warning("Error reading file:", file_name)
+      warning(paste("Error reading file:", file_name))
+      setwd(original_dir)
       return(NULL)
     })
     
     if (is.null(header)) next
     
-    # Determine which columns to read
-    col_classes <- sapply(colnames(header), function(x) if (x %in% columns) NA else "NULL")
+    column_names <- colnames(header)
     
-    # Read the data
+    # Find which of our desired columns actually exist in the file
+    available_columns <- column_names[column_names %in% desired_columns]
+    
+    if (length(available_columns) == 0) {
+      cat("No desired columns found in", file_name, ". Using all columns instead.\n")
+      available_columns <- column_names
+    } else {
+      cat("Found columns in", file_name, ":", paste(available_columns, collapse=", "), "\n")
+    }
+    
+    # Create a vector specifying which columns to read
+    # Set unwanted columns to "NULL"
+    col_classes <- sapply(column_names, function(x) if (x %in% available_columns) NA else "NULL")
+    
+    # Read in the data with selected columns
     mcmc_data <- tryCatch({
-      read.table(file.path(working_dir, file_name), header = TRUE, sep = "\t", colClasses = col_classes)
+      read.table(file_path, header = TRUE, sep = "\t", colClasses = col_classes)
     }, error = function(e) {
-      warning("Error reading data:", file_name)
+      warning(paste("Error reading data from", file_name, ":", e$message))
       return(NULL)
     })
     
     if (is.null(mcmc_data)) next
     
-    # Convert to mcmc object
+    if (ncol(mcmc_data) == 0) {
+      warning(paste("No columns could be read from", file_name))
+      next
+    }
+    
+    # Check the structure of the data
+    str(mcmc_data)
+    
+    # Convert to an mcmc object
     mcmc_object <- as.mcmc(mcmc_data)
     
     # Calculate effective sample size
@@ -139,13 +167,15 @@ analyze_mcmc <- function(working_dir) {
       # Arrange plots in a grid
       grid.arrange(grobs = plot_list, ncol = 2, nrow = 3)
     }
+    
+    cat("Completed processing file:", file_name, "\n\n")
   }
   
   # Close diagnostic plots PDF
   dev.off()
   
   # Create ESS summary PDF (landscape)
-  pdf(pdf_ess_file, width = 8.5, height = 11)
+  pdf(pdf_ess_file, width = 11, height = 8.5)
   
   num_tables <- length(all_ess_tables)
   if (num_tables > 0) {
@@ -164,9 +194,12 @@ analyze_mcmc <- function(working_dir) {
     for (i in seq_along(all_ess_tables)) {
       table_info <- all_ess_tables[[i]]
       
-      # Set up colors for low ESS values
+      # Set up colors for low ESS values - entire columns including headers
       col_colors <- rep("black", length(table_info$low_ess))
       col_colors[table_info$low_ess] <- "red"
+      
+      # Create header colors matching the column colors
+      header_colors <- col_colors
       
       # Create table viewport
       pushViewport(viewport(layout.pos.row = i, layout.pos.col = 1))
@@ -180,16 +213,27 @@ analyze_mcmc <- function(working_dir) {
         table_info$data,
         rows = NULL,
         theme = ttheme_minimal(
-          core = list(fg_params = list(col = col_colors, fontsize = 9)),
-          colhead = list(fg_params = list(fontface = "bold", fontsize = 9),
-                         bg_params = list(fill = "lightgray")),
-          rowhead = list(fg_params = list(fontface = "bold", fontsize = 9))
+          core = list(
+            fg_params = list(col = col_colors, fontsize = 9)
+          ),
+          colhead = list(
+            fg_params = list(col = header_colors, fontface = "bold", fontsize = 9),
+            bg_params = list(fill = "lightgray")
+          ),
+          rowhead = list(
+            fg_params = list(fontface = "bold", fontsize = 9)
+          )
         )
       )
       
-      pushViewport(viewport(y = 0.4, height = 0.6))
+      # Create the vplayout to position the table
+      vp <- viewport(y = 0.4, height = 0.6)
+      pushViewport(vp)
+      
+      # Draw the table
       grid.draw(tbl)
-      popViewport(2)
+      
+      popViewport(2) # Pop both viewports
     }
     
     popViewport(1)
@@ -203,6 +247,9 @@ analyze_mcmc <- function(working_dir) {
   cat("1. Diagnostic plots:", pdf_diagnostics_file, "\n")
   cat("2. ESS tables:", pdf_ess_file, "\n")
 }
+
+# Example usage:
+# analyze_mcmc("/path/to/your/mcmc/output")
 
 ######################### RUNNING FUNCTION ####################################
 
@@ -253,3 +300,12 @@ analyze_mcmc("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/temnospondyli/mcmc_
 analyze_mcmc("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/temnospondyli/mcmc_no_predictors/A_bdnn_update")
 # A_mcmc_200_Iterations
 analyze_mcmc("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/temnospondyli/mcmc_no_predictors/A_mcmc_200_Iterations")
+
+
+
+test_file <- "C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/reptilia/mcmc_no_predictors/A_rjmcmc_sampled_every_20k/reptilia_pyrate_1_Grj_mcmc.log"
+test_data_tab <- try(read.table(test_file, header=TRUE, sep="\t", nrows=5))
+test_data_comma <- try(read.table(test_file, header=TRUE, sep=",", nrows=5))
+test_data_comma <- try(read.table(test_file, header=TRUE, sep=" ", nrows=5))
+
+readBin(test_file, "raw", n=100)  # Look at raw bytes at the start of the file
