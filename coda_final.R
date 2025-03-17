@@ -46,7 +46,7 @@ analyze_mcmc <- function(working_dir, encoding = "UTF-8") {
     # Full path to the file
     file_path <- file.path(working_dir, file_name)
     
-    # Read header to get column names using data.table (much faster)
+    # Read header to get column names using data.table
     tryCatch({
       # Use fread to quickly check the header
       header <- data.table::fread(file_path, nrows = 1, sep = "\t", encoding = encoding)
