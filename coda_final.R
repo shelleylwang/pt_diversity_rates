@@ -35,6 +35,10 @@ analyze_mcmc <- function(working_dir) {
   all_ess_tables <- list() 
   
   # Process each file
+  # THIS VERSION ASSUMES UTF-8 ENCODING!! 
+  # If your MCMC.log files have different encoding (such as ANSI), the fileEncoding parameter
+  # in the read.table function will need to be changed (to "latin1", for example) 
+  # See bottom of script for dynamic version that checks encoding
   for (file_name in mcmc_files) {
     cat("Processing:", file_name, "\n")
     
@@ -44,27 +48,11 @@ analyze_mcmc <- function(working_dir) {
     # Full path to the file
     file_path <- file.path(working_dir, file_name)
     
-    # Detect file encoding
-    encoding <- tryCatch({
-      file_info <- system(paste("file -bi", shQuote(file_path)), intern = TRUE)
-      if (grepl("charset=iso-8859-1", file_info)) {
-        "latin1"
-      } else {
-        "UTF-8"
-      }
-    }, error = function(e) {
-      warning(paste("Error detecting encoding for file:", file_name))
-      setwd(original_dir)
-      return(NULL)
-    })
-    
-    if (is.null(encoding)) next
-    
     # Read the header to get column names
     header <- tryCatch({
-      read.table(file_path, header = TRUE, sep = "\t", nrows = 1, fileEncoding = encoding)
+      read.table(file_path, header = TRUE, sep = "\t", nrows = 1, fileEncoding = "UTF-8")
     }, error = function(e) {
-      warning(paste("Error reading file:", file_name))
+      warning(paste("Error reading file:", file_name, ". Check encoding."))
       setwd(original_dir)
       return(NULL)
     })
@@ -77,8 +65,8 @@ analyze_mcmc <- function(working_dir) {
     available_columns <- column_names[column_names %in% desired_columns]
     
     if (length(available_columns) == 0) {
-      cat("No desired columns found in", file_name, ". Using all columns instead.\n")
-      available_columns <- column_names
+      cat("No desired columns found in", file_name, ". Skipping this file. \n")
+      next
     } else {
       cat("Found columns in", file_name, ":", paste(available_columns, collapse=", "), "\n")
     }
@@ -88,8 +76,12 @@ analyze_mcmc <- function(working_dir) {
     col_classes <- sapply(column_names, function(x) if (x %in% available_columns) NA else "NULL")
     
     # Read in the data with selected columns
+    # THIS VERSION ASSUMES UTF-8 ENCODING!! 
+    # If your MCMC.log files have different encoding (such as ANSI), the fileEncoding parameter
+    # in the read.table function will need to be changed (to "latin1", for example) 
+    # See bottom of script for dynamic version that checks encoding
     mcmc_data <- tryCatch({
-      read.table(file_path, header = TRUE, sep = "\t", colClasses = col_classes, fileEncoding = encoding)
+      read.table(file_path, header = TRUE, sep = "\t", colClasses = col_classes, fileEncoding = "UTF-8")
     }, error = function(e) {
       warning(paste("Error reading data from", file_name, ":", e$message))
       return(NULL)
@@ -104,12 +96,10 @@ analyze_mcmc <- function(working_dir) {
 
     
     # Save just the last two cells of the 'it' column as a numeric vector for pdf
-    it_cols <- tail(mcmc_data$it, 2)
-    it_cols <- data.frame(it = it_cols)
-    it_col <- as.numeric(it_cols$it)
+    it_cols <- as.numeric(tail(mcmc_data$it, 2))
   
-    # Cut off the 'it' column
-    mcmc_data <- mcmc_data[, -1]
+    # Remove the 'it' column by name
+    mcmc_data <- mcmc_data[, !colnames(mcmc_data) %in% "it", drop = FALSE]
     
     # Check the structure of the data
     str(mcmc_data)
@@ -129,6 +119,8 @@ analyze_mcmc <- function(working_dir) {
     # Add to collection
     all_ess_tables[[file_name]] <- list(
       title = paste("ESS for", file_name),
+      iterations = it_col[2],
+      sampling_rate = it_col[2] - it_col[1],
       data = as.data.frame(ess_df),
       low_ess = ess < 200
     )
@@ -210,17 +202,9 @@ analyze_mcmc <- function(working_dir) {
     grid.text("MCMC Effective Sample Size (ESS) Summary", 
               x = 0.5, y = 0.97, 
               gp = gpar(fontface = "bold", fontsize = 14))
-   
-     # Add line that specifies total number of iterations, which is the last row in the mcmc_data$it column
-    total_iterations = it_col[2]
-    grid.text(paste("Total number of iterations:", total_iterations), x = 0.5, y = 0.94, gp = gpar(fontsize = 10))
-    
-    # Add a line that specifies sampling rate, which is the step size of the mcmc_data$it column
-    sampling_rate = it_col[2] - it_col[1]
-    grid.text(paste("Sampling rate:", sampling_rate), x = 0.5, y = 0.92, gp = gpar(fontsize = 10))
     
     # Create layout
-    pushViewport(viewport(x = 0.5, y = 0.5, width = 0.95, height = 0.81))
+    pushViewport(viewport(x = 0.5, y = 0.5, width = 0.95, height = 0.9))
     pushViewport(viewport(layout = grid.layout(num_tables, 1)))
     
     # Draw each table
@@ -238,8 +222,14 @@ analyze_mcmc <- function(working_dir) {
       pushViewport(viewport(layout.pos.row = i, layout.pos.col = 1))
       
       # Draw title
-      grid.text(table_info$title, x = 0.5, y = 0.85, 
+      grid.text(table_info$title, x = 0.5, y = 0.95, 
                 gp = gpar(fontface = "bold", fontsize = 9))
+      
+      # Draw subtitle
+      grid.text(paste("Iterations:", table_info$iterations, 
+                      "Sampling Rate:", table_info$sampling_rate), 
+                x = 0.5, y = 0.85, 
+                gp = gpar(fontface = "italic", fontsize = 8))
       
       # Create and draw table
       tbl <- tableGrob(
@@ -260,7 +250,7 @@ analyze_mcmc <- function(working_dir) {
       )
       
       # Create the vplayout to position the table
-      vp <- viewport(y = 0.4, height = 0.6)
+      vp <- viewport(y = 0.35, height = 0.6)
       pushViewport(vp)
       
       # Draw the table
@@ -468,7 +458,14 @@ analyze_mcmc("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/temnospondyli/mcmc_
 analyze_mcmc("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/temnospondyli/mcmc_fixshift_no_predictors/D_mcmc")
 
 
-######################### VERSION THAT WORKED ON UTF-8 ONLY
+######################### VERSION THAT DOES ENCODING CHECKING ON MCMC FILES 
+# (Takes longer/much slower)
+
+# library(coda)      # For MCMC diagnostics
+# library(ggplot2)   # For plotting
+# library(gridExtra) # For arranging plots
+# library(grid)      # For grid graphics
+# 
 # analyze_mcmc <- function(working_dir) {
 #   # Set working directory
 #   original_dir <- getwd()
@@ -501,14 +498,30 @@ analyze_mcmc("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/temnospondyli/mcmc_
 #     cat("Processing:", file_name, "\n")
 #     
 #     # Columns we're interested in (if the file contains any of them)
-#     desired_columns <- c('posterior', 'prior', 'PP_lik', 'BD_lik', 'k_birth', 'k_death', 'RJ_hp')
+#     desired_columns <- c('it', 'posterior', 'prior', 'PP_lik', 'BD_lik', 'k_birth', 'k_death', 'RJ_hp')
 #     
 #     # Full path to the file
 #     file_path <- file.path(working_dir, file_name)
 #     
+#     # Detect file encoding
+#     encoding <- tryCatch({
+#       file_info <- system(paste("file -bi", shQuote(file_path)), intern = TRUE)
+#       if (grepl("charset=iso-8859-1", file_info)) {
+#         "latin1"
+#       } else {
+#         "UTF-8"
+#       }
+#     }, error = function(e) {
+#       warning(paste("Error detecting encoding for file:", file_name))
+#       setwd(original_dir)
+#       return(NULL)
+#     })
+#     
+#     if (is.null(encoding)) next
+#     
 #     # Read the header to get column names
 #     header <- tryCatch({
-#       read.table(file_path, header = TRUE, sep = "\t", nrows = 1)
+#       read.table(file_path, header = TRUE, sep = "\t", nrows = 1, fileEncoding = encoding)
 #     }, error = function(e) {
 #       warning(paste("Error reading file:", file_name))
 #       setwd(original_dir)
@@ -523,11 +536,11 @@ analyze_mcmc("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/temnospondyli/mcmc_
 #     available_columns <- column_names[column_names %in% desired_columns]
 #     
 #     if (length(available_columns) == 0) {
-#       cat("No desired columns found in", file_name, ". Using all columns instead.\n")
-#       available_columns <- column_names
-#     } else {
-#       cat("Found columns in", file_name, ":", paste(available_columns, collapse=", "), "\n")
-#     }
+    #   cat("No desired columns found in", file_name, ". Skipping this file. \n")
+    #   next
+    # } else {
+    #   cat("Found columns in", file_name, ":", paste(available_columns, collapse=", "), "\n")
+    # }
 #     
 #     # Create a vector specifying which columns to read
 #     # Set unwanted columns to "NULL"
@@ -535,7 +548,7 @@ analyze_mcmc("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/temnospondyli/mcmc_
 #     
 #     # Read in the data with selected columns
 #     mcmc_data <- tryCatch({
-#       read.table(file_path, header = TRUE, sep = "\t", colClasses = col_classes)
+#       read.table(file_path, header = TRUE, sep = "\t", colClasses = col_classes, fileEncoding = encoding)
 #     }, error = function(e) {
 #       warning(paste("Error reading data from", file_name, ":", e$message))
 #       return(NULL)
@@ -547,6 +560,13 @@ analyze_mcmc("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/temnospondyli/mcmc_
 #       warning(paste("No columns could be read from", file_name))
 #       next
 #     }
+#     
+#     
+#     # Save just the last two cells of the 'it' column as a numeric vector for pdf
+#     it_cols <- as.numeric(tail(mcmc_data$it, 2))     
+#   
+#     # Remove the 'it' column by name
+#     mcmc_data <- mcmc_data[, !colnames(mcmc_data) %in% "it", drop = FALSE]
 #     
 #     # Check the structure of the data
 #     str(mcmc_data)
@@ -566,6 +586,8 @@ analyze_mcmc("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/temnospondyli/mcmc_
 #     # Add to collection
 #     all_ess_tables[[file_name]] <- list(
 #       title = paste("ESS for", file_name),
+#       iterations = it_col[2],
+#       sampling_rate = it_col[2] - it_col[1],
 #       data = as.data.frame(ess_df),
 #       low_ess = ess < 200
 #     )
@@ -636,8 +658,8 @@ analyze_mcmc("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/temnospondyli/mcmc_
 #   # Close diagnostic plots PDF
 #   dev.off()
 #   
-#   # Create ESS summary PDF (landscape)
-#   pdf(pdf_ess_file, width = 11, height = 8.5)
+#   # Create ESS summary PDF
+#   pdf(pdf_ess_file, width = 8.5, height = 11)
 #   
 #   num_tables <- length(all_ess_tables)
 #   if (num_tables > 0) {
@@ -667,8 +689,14 @@ analyze_mcmc("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/temnospondyli/mcmc_
 #       pushViewport(viewport(layout.pos.row = i, layout.pos.col = 1))
 #       
 #       # Draw title
-#       grid.text(table_info$title, x = 0.5, y = 0.85, 
+#       grid.text(table_info$title, x = 0.5, y = 0.95, 
 #                 gp = gpar(fontface = "bold", fontsize = 9))
+#       
+#       # Draw subtitle
+#       grid.text(paste("Iterations:", table_info$iterations, 
+#                       "Sampling Rate:", table_info$sampling_rate), 
+#                 x = 0.5, y = 0.85, 
+#                 gp = gpar(fontface = "italic", fontsize = 8))
 #       
 #       # Create and draw table
 #       tbl <- tableGrob(
@@ -689,7 +717,7 @@ analyze_mcmc("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/temnospondyli/mcmc_
 #       )
 #       
 #       # Create the vplayout to position the table
-#       vp <- viewport(y = 0.4, height = 0.6)
+#       vp <- viewport(y = 0.35, height = 0.6)
 #       pushViewport(vp)
 #       
 #       # Draw the table
