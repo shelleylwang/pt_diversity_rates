@@ -57,7 +57,9 @@ analyze_mcmc <- function(working_dir) {
       return(NULL)
     })
     
-    if (is.null(header)) next
+    if (is.null(header)) {
+      next
+    }
     
     column_names <- colnames(header)
     
@@ -87,7 +89,9 @@ analyze_mcmc <- function(working_dir) {
       return(NULL)
     })
     
-    if (is.null(mcmc_data)) next
+    if (is.null(mcmc_data)) {
+      next
+    }
     
     if (ncol(mcmc_data) == 0) {
       warning(paste("No columns could be read from", file_name))
@@ -96,7 +100,7 @@ analyze_mcmc <- function(working_dir) {
 
     
     # Save just the last two cells of the 'it' column as a numeric vector for pdf
-    it_cols <- as.numeric(tail(mcmc_data$it, 2))
+    it_col <- as.numeric(tail(mcmc_data$it, 2))
   
     # Remove the 'it' column by name
     mcmc_data <- mcmc_data[, !colnames(mcmc_data) %in% "it", drop = FALSE]
@@ -228,7 +232,7 @@ analyze_mcmc <- function(working_dir) {
       # Draw subtitle
       grid.text(paste("Iterations:", table_info$iterations, 
                       "Sampling Rate:", table_info$sampling_rate), 
-                x = 0.5, y = 0.85, 
+                x = 0.5, y = 0.82, 
                 gp = gpar(fontface = "italic", fontsize = 8))
       
       # Create and draw table
@@ -250,7 +254,7 @@ analyze_mcmc <- function(working_dir) {
       )
       
       # Create the vplayout to position the table
-      vp <- viewport(y = 0.35, height = 0.6)
+      vp <- viewport(y = 0.35, height = 0.5)
       pushViewport(vp)
       
       # Draw the table
@@ -270,6 +274,9 @@ analyze_mcmc <- function(working_dir) {
   cat("1. Diagnostic plots:", pdf_diagnostics_file, "\n")
   cat("2. ESS tables:", pdf_ess_file, "\n")
 }
+
+############################################################################
+
 
 
 
@@ -520,15 +527,17 @@ analyze_mcmc("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/temnospondyli/mcmc_
 #     if (is.null(encoding)) next
 #     
 #     # Read the header to get column names
-#     header <- tryCatch({
-#       read.table(file_path, header = TRUE, sep = "\t", nrows = 1, fileEncoding = encoding)
-#     }, error = function(e) {
-#       warning(paste("Error reading file:", file_name))
-#       setwd(original_dir)
-#       return(NULL)
-#     })
-#     
-#     if (is.null(header)) next
+      # header <- tryCatch({
+      #   read.table(file_path, header = TRUE, sep = "\t", nrows = 1, fileEncoding = "UTF-8")
+      # }, error = function(e) {
+      #   warning(paste("Error reading file:", file_name, ". Check encoding."))
+      #   setwd(original_dir)
+      #   return(NULL)
+      # })
+      
+      # if (is.null(header)) {
+      #   next
+      # }
 #     
 #     column_names <- colnames(header)
 #     
@@ -554,7 +563,9 @@ analyze_mcmc("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/temnospondyli/mcmc_
 #       return(NULL)
 #     })
 #     
-#     if (is.null(mcmc_data)) next
+#     if (is.null(mcmc_data)) {
+#     next
+#     } 
 #     
 #     if (ncol(mcmc_data) == 0) {
 #       warning(paste("No columns could be read from", file_name))
@@ -563,7 +574,7 @@ analyze_mcmc("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/temnospondyli/mcmc_
 #     
 #     
 #     # Save just the last two cells of the 'it' column as a numeric vector for pdf
-#     it_cols <- as.numeric(tail(mcmc_data$it, 2))     
+#     it_col <- as.numeric(tail(mcmc_data$it, 2))     
 #   
 #     # Remove the 'it' column by name
 #     mcmc_data <- mcmc_data[, !colnames(mcmc_data) %in% "it", drop = FALSE]
