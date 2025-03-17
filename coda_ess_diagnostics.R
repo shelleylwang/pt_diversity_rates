@@ -98,4 +98,183 @@ analyze_ess_diagnostics <- function(working_dir, encoding = "UTF-8") {
 
 
 #################################################### CALLING IT
+
+################ A_REPTILIA (mcmc_no_predictors) 
+# A_rjmcmc_sampled_every_10k
 analyze_ess_diagnostics("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/reptilia/mcmc_no_predictors/A_rjmcmc_sampled_every_10k")
+# A_rjmcmc_sampled_every_20k
+# Has ANSI encoding
+analyze_ess_diagnostics("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/reptilia/mcmc_no_predictors/A_rjmcmc_sampled_every_20k", encoding = "Latin-1")
+# A_bdmcmc
+analyze_ess_diagnostics("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/reptilia/mcmc_no_predictors/A_bdmcmc")
+# A_bdnn
+analyze_ess_diagnostics("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/reptilia/mcmc_no_predictors/A_bdnn")
+# A_bdnn_update
+analyze_ess_diagnostics("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/reptilia/mcmc_no_predictors/A_bdnn_update")
+# A_mcmc_200_Iterations
+analyze_ess_diagnostics("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/reptilia/mcmc_no_predictors/A_mcmc_200_Iterations")
+
+################### A_SYNAPSIDA (mcmc_no_predictors)
+# A_rjmcmc_sampled_every_20k
+analyze_ess_diagnostics("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/synapsida/mcmc_no_predictors/A_rjmcmc_sampled_every_20k")
+# A_bdmcmc
+analyze_ess_diagnostics("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/synapsida/mcmc_no_predictors/A_bdmcmc")
+# A_bdnn
+analyze_ess_diagnostics("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/synapsida/mcmc_no_predictors/A_bdnn")
+# A_bdnn_update
+analyze_ess_diagnostics("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/synapsida/mcmc_no_predictors/A_bdnn_update")
+# A_mcmc_200_Iterations
+analyze_ess_diagnostics("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/synapsida/mcmc_no_predictors/A_mcmc_200_Iterations")
+
+################### A_TEMNOSPONDYLI (mcmc_no_predictors)
+# A_rjmcmc_sampled_every_20k
+analyze_ess_diagnostics("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/temnospondyli/mcmc_no_predictors/A_rjmcmc_sampled_every_20k")
+# A_bdmcmc
+analyze_ess_diagnostics("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/temnospondyli/mcmc_no_predictors/A_bdmcmc")
+# A_bdnn
+analyze_ess_diagnostics("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/temnospondyli/mcmc_no_predictors/A_bdnn")
+# A_bdnn_update
+analyze_ess_diagnostics("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/temnospondyli/mcmc_no_predictors/A_bdnn_update")
+# A_mcmc_200_Iterations
+analyze_ess_diagnostics("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/temnospondyli/mcmc_no_predictors/A_mcmc_200_Iterations")
+# ADE
+analyze_ess_diagnostics("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/temnospondyli/mcmc_no_predictors/ADE")
+
+
+
+######################### B Section (mcmc_predictors) #####################
+
+################### B_REPTILIA (mcmc_predictors)
+# B_bdnn_stdscaled_only_4_2_update
+analyze_ess_diagnostics("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/reptilia/mcmc_predictors/B_bdnn_stdscaled_only_4_2_update")
+# B_bdnn_stdscaled_cbrt
+analyze_ess_diagnostics("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/reptilia/mcmc_predictors/B_bdnn_stdscaled_cbrt")
+# B_bdnn_stdscaled_log
+analyze_ess_diagnostics("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/reptilia/mcmc_predictors/B_bdnn_stdscaled_log")
+# B_bdnn_stdscaled_boxcox
+analyze_ess_diagnostics("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/reptilia/mcmc_predictors/B_bdnn_stdscaled_boxcox")
+# B_bdnn_stdscaled_only
+analyze_ess_diagnostics("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/reptilia/mcmc_predictors/B_bdnn_stdscaled_only")
+# B_bdnn_stdscaled_only_8_4_nodes
+analyze_ess_diagnostics("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/reptilia/mcmc_predictors/B_bdnn_stdscaled_only_8_4_nodes")
+# B_covar_mcmc
+analyze_ess_diagnostics("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/reptilia/mcmc_predictors/B_covar_mcmc")
+# B_bdnn_lats_only
+analyze_ess_diagnostics("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/reptilia/mcmc_predictors/B_bdnn_lats_only")
+# B_covar_rjmcmc
+analyze_ess_diagnostics("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/reptilia/mcmc_predictors/B_covar_rjmcmc")
+
+################### B_SYNAPSIDA (mcmc_predictors)
+# B_bdnn_stdscaled_cbrt
+analyze_ess_diagnostics("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/synapsida/mcmc_predictors/B_bdnn_stdscaled_cbrt")
+# B_bdnn_stdscaled_log
+analyze_ess_diagnostics("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/synapsida/mcmc_predictors/B_bdnn_stdscaled_log")
+# B_bdnn_stdscaled_boxcox
+analyze_ess_diagnostics("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/synapsida/mcmc_predictors/B_bdnn_stdscaled_boxcox")
+# B_bdnn_stdscaled_only
+analyze_ess_diagnostics("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/synapsida/mcmc_predictors/B_bdnn_stdscaled_only")
+# B_covar_mcmc
+analyze_ess_diagnostics("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/synapsida/mcmc_predictors/B_covar_mcmc")
+# B_bdnn_lats_only
+analyze_ess_diagnostics("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/synapsida/mcmc_predictors/B_bdnn_lats_only")
+# B_covar_rjmcmc
+analyze_ess_diagnostics("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/synapsida/mcmc_predictors/B_covar_rjmcmc")
+
+################### B_TEMNOSPONDYLI (mcmc_predictors)
+# B_bdnn_stdscaled_cbrt
+analyze_ess_diagnostics("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/temnospondyli/mcmc_predictors/B_bdnn_stdscaled_cbrt/B_bdnn_stdscaled_cbrt_concatenated_logs")
+# B_bdnn_stdscaled_log
+analyze_ess_diagnostics("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/temnospondyli/mcmc_predictors/B_bdnn_stdscaled_log/B_bdnn_stdscaled_log_concatenated_logs")
+# B_bdnn_stdscaled_boxcox
+analyze_ess_diagnostics("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/temnospondyli/mcmc_predictors/B_bdnn_stdscaled_boxcox/B_bdnn_stdscaled_boxcox_concatenated_logs")
+# B_bdnn_stdscaled_only
+analyze_ess_diagnostics("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/temnospondyli/mcmc_predictors/B_bdnn_stdscaled_only/B_bdnn_stdscaled_only_concatenated_logs")
+# B_covar_mcmc
+analyze_ess_diagnostics("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/temnospondyli/mcmc_predictors/B_covar_mcmc")
+# B_bdnn_lats_only
+analyze_ess_diagnostics("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/temnospondyli/mcmc_predictors/B_bdnn_lats_only")
+# B_covar_rjmcmc
+analyze_ess_diagnostics("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/temnospondyli/mcmc_predictors/B_covar_rjmcmc")
+
+
+
+######################### C Section (mcmc_fixshift_predictors) #####################
+
+################### C_REPTILIA (mcmc_fixshift_predictors)
+# C_bdnn_lats_only
+analyze_ess_diagnostics("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/reptilia/mcmc_fixshift_predictors/C_bdnn_lats_only")
+# C_bdnn_minmax_boxcox
+analyze_ess_diagnostics("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/reptilia/mcmc_fixshift_predictors/C_bdnn_minmax_boxcox")
+# C_bdnn_minmax_only
+analyze_ess_diagnostics("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/reptilia/mcmc_fixshift_predictors/C_bdnn_minmax_only")
+# C_bdnn_stdscaled_boxcox
+analyze_ess_diagnostics("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/reptilia/mcmc_fixshift_predictors/C_bdnn_stdscaled_boxcox")
+# C_bdnn_stdscaled_only
+analyze_ess_diagnostics("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/reptilia/mcmc_fixshift_predictors/C_bdnn_stdscaled_only")
+# C_covar
+analyze_ess_diagnostics("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/reptilia/mcmc_fixshift_predictors/C_covar")
+
+################### C_SYNAPSIDA (mcmc_fixshift_predictors)
+# C_bdnn_lats_only
+analyze_ess_diagnostics("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/synapsida/mcmc_fixshift_predictors/C_bdnn_lats_only")
+# C_bdnn_minmax_boxcox
+analyze_ess_diagnostics("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/synapsida/mcmc_fixshift_predictors/C_bdnn_minmax_boxcox")
+# C_bdnn_minmax_only
+analyze_ess_diagnostics("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/synapsida/mcmc_fixshift_predictors/C_bdnn_minmax_only")
+# C_bdnn_stdscaled_boxcox
+analyze_ess_diagnostics("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/synapsida/mcmc_fixshift_predictors/C_bdnn_stdscaled_boxcox")
+# C_bdnn_stdscaled_only
+analyze_ess_diagnostics("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/synapsida/mcmc_fixshift_predictors/C_bdnn_stdscaled_only")
+# C_covar
+analyze_ess_diagnostics("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/synapsida/mcmc_fixshift_predictors/C_covar")
+# C_covar_test
+analyze_ess_diagnostics("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/synapsida/mcmc_fixshift_predictors/C_covar_test")
+
+################### C_TEMSNOSPONDYLI (mcmc_fixshift_predictors)
+# C_bdnn_lats_only
+analyze_ess_diagnostics("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/temnospondyli/mcmc_fixshift_predictors/C_bdnn_lats_only")
+# C_bdnn_minmax_boxcox
+analyze_ess_diagnostics("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/temnospondyli/mcmc_fixshift_predictors/C_bdnn_minmax_boxcox")
+# C_bdnn_minmax_only
+analyze_ess_diagnostics("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/temnospondyli/mcmc_fixshift_predictors/C_bdnn_minmax_only")
+# C_bdnn_stdscaled_boxcox
+analyze_ess_diagnostics("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/temnospondyli/mcmc_fixshift_predictors/C_bdnn_stdscaled_boxcox")
+# C_bdnn_stdscaled_only
+analyze_ess_diagnostics("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/temnospondyli/mcmc_fixshift_predictors/C_bdnn_stdscaled_only")
+# C_covar
+analyze_ess_diagnostics("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/temnospondyli/mcmc_fixshift_predictors/C_covar")
+
+
+######################### D Section (mcmc_fixshift_no_predictors) #####################
+
+################### D_REPTILIA (mcmc_fixshift_no_predictors)
+# D_bdmcmc
+analyze_ess_diagnostics("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/reptilia/mcmc_fixshift_no_predictors/D_bdmcmc")
+# D_bdnn
+analyze_ess_diagnostics("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/reptilia/mcmc_fixshift_no_predictors/D_bdnn")
+# D_bdnn_update
+analyze_ess_diagnostics("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/reptilia/mcmc_fixshift_no_predictors/D_bdnn_update")
+# D_mcmc
+analyze_ess_diagnostics("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/reptilia/mcmc_fixshift_no_predictors/D_mcmc")
+
+
+################### D_SYNAPSIDA (mcmc_fixshift_no_predictors)
+# D_bdmcmc
+analyze_ess_diagnostics("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/synapsida/mcmc_fixshift_no_predictors/D_bdmcmc")
+# D_bdnn
+analyze_ess_diagnostics("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/synapsida/mcmc_fixshift_no_predictors/D_bdnn")
+# D_bdnn_update
+analyze_ess_diagnostics("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/synapsida/mcmc_fixshift_no_predictors/D_bdnn_update")
+# D_mcmc
+analyze_ess_diagnostics("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/synapsida/mcmc_fixshift_no_predictors/D_mcmc")
+
+
+################### D_TEMSNOSPONDYLI (mcmc_fixshift_no_predictors)
+# D_bdmcmc
+analyze_ess_diagnostics("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/temnospondyli/mcmc_fixshift_no_predictors/D_bdmcmc")
+# D_bdnn
+analyze_ess_diagnostics("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/temnospondyli/mcmc_fixshift_no_predictors/D_bdnn")
+# D_bdnn_update
+analyze_ess_diagnostics("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/temnospondyli/mcmc_fixshift_no_predictors/D_bdnn_update")
+# D_mcmc
+analyze_ess_diagnostics("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/temnospondyli/mcmc_fixshift_no_predictors/D_mcmc")
