@@ -260,7 +260,7 @@ analyze_mcmc <- function(working_dir, encoding = "UTF-8") {
 # Helper function to detect encoding of a file
 detect_encoding <- function(file_path) {
   # Try to read file with different encodings
-  encodings <- c("UTF-8", "latin1", "ASCII")
+  encodings <- c("UTF-8", "Latin-1", "ASCII", "ANSI")
   
   for (enc in encodings) {
     tryCatch({
@@ -312,7 +312,7 @@ analyze_mcmc_auto <- function(working_dir) {
 analyze_mcmc("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/reptilia/mcmc_no_predictors/A_rjmcmc_sampled_every_10k")
 # A_rjmcmc_sampled_every_20k
 # Has ANSI encoding
-analyze_mcmc_auto("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/reptilia/mcmc_no_predictors/A_rjmcmc_sampled_every_20k")
+analyze_mcmc("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/reptilia/mcmc_no_predictors/A_rjmcmc_sampled_every_20k", encoding = "Latin-1")
 # A_bdmcmc
 analyze_mcmc("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/reptilia/mcmc_no_predictors/A_bdmcmc")
 # A_bdnn
