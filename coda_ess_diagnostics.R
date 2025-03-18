@@ -1,3 +1,7 @@
+# This script takes a directory of mcmc.log files and calculates the effective sample size (ESS) for 
+# select columns in each file. It assesses the quality of the ESS values and prints the results.
+# This is meant to help fill out the "Diagnostics" of the "analyses_log.xlsm" sheet
+
 library(coda)
 library(data.table)
 
