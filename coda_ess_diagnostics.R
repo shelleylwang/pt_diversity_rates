@@ -145,7 +145,6 @@ analyze_ess_diagnostics("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/temnospo
 analyze_ess_diagnostics("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/temnospondyli/mcmc_no_predictors/ADE")
 
 
-
 ######################### B Section (mcmc_predictors) #####################
 
 ################### B_REPTILIA (mcmc_predictors)
@@ -241,6 +240,16 @@ analyze_ess_diagnostics("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/reptilia
 analyze_ess_diagnostics("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/reptilia/mcmc_fixshift_predictors/C_bdnn_stdscaled_only")
 # C_covar
 analyze_ess_diagnostics("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/reptilia/mcmc_fixshift_predictors/C_covar")
+# C_covar/MBD_env_vars_horseshoe_exponential
+analyze_ess_diagnostics("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/reptilia/mcmc_fixshift_predictors/C_covar/MBD_env_vars_horseshoe_exponential")
+# C_covar/MBD_env_vars_gamma_exponential
+analyze_ess_diagnostics("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/reptilia/mcmc_fixshift_predictors/C_covar/MBD_env_vars_gamma_exponential")
+# C_covar/MBD_env_vars_gamma_linear
+analyze_ess_diagnostics("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/reptilia/mcmc_fixshift_predictors/C_covar/MBD_env_vars_gamma_linear")
+# C_covar/MBD_1myr_temp_gamma_exponential
+analyze_ess_diagnostics("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/reptilia/mcmc_fixshift_predictors/C_covar/MBD_1myr_temp_gamma_exponential")
+# C_covar/MBD_1myr_temp_gamma_linear
+analyze_ess_diagnostics("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/reptilia/mcmc_fixshift_predictors/C_covar/MBD_1myr_temp_gamma_linear")
 
 ################### C_SYNAPSIDA (mcmc_fixshift_predictors)
 # C_bdnn_lats_only
@@ -257,6 +266,17 @@ analyze_ess_diagnostics("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/synapsid
 analyze_ess_diagnostics("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/synapsida/mcmc_fixshift_predictors/C_covar")
 # C_covar_test
 analyze_ess_diagnostics("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/synapsida/mcmc_fixshift_predictors/C_covar_test")
+# C_covar/MBD_env_vars_horseshoe_exponential
+analyze_ess_diagnostics("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/synapsida/mcmc_fixshift_predictors/C_covar/MBD_env_vars_horseshoe_exponential")
+# C_covar/MBD_env_vars_gamma_exponential
+analyze_ess_diagnostics("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/synapsida/mcmc_fixshift_predictors/C_covar/MBD_env_vars_gamma_exponential")
+# C_covar/MBD_env_vars_gamma_linear
+analyze_ess_diagnostics("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/synapsida/mcmc_fixshift_predictors/C_covar/MBD_env_vars_gamma_linear")
+# C_covar/MBD_1myr_temp_gamma_exponential
+analyze_ess_diagnostics("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/synapsida/mcmc_fixshift_predictors/C_covar/MBD_1myr_temp_gamma_exponential")
+# C_covar/MBD_1myr_temp_gamma_linear
+analyze_ess_diagnostics("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/synapsida/mcmc_fixshift_predictors/C_covar/MBD_1myr_temp_gamma_linear")
+
 
 ################### C_TEMSNOSPONDYLI (mcmc_fixshift_predictors)
 # C_bdnn_lats_only
@@ -271,7 +291,16 @@ analyze_ess_diagnostics("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/temnospo
 analyze_ess_diagnostics("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/temnospondyli/mcmc_fixshift_predictors/C_bdnn_stdscaled_only")
 # C_covar
 analyze_ess_diagnostics("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/temnospondyli/mcmc_fixshift_predictors/C_covar")
-
+# C_covar/MBD_env_vars_horseshoe_exponential
+analyze_ess_diagnostics("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/temnospondyli/mcmc_fixshift_predictors/C_covar/MBD_env_vars_horseshoe_exponential")
+# C_covar/MBD_env_vars_gamma_exponential
+analyze_ess_diagnostics("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/temnospondyli/mcmc_fixshift_predictors/C_covar/MBD_env_vars_gamma_exponential")
+# C_covar/MBD_env_vars_gamma_linear
+analyze_ess_diagnostics("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/temnospondyli/mcmc_fixshift_predictors/C_covar/MBD_env_vars_gamma_linear")
+# C_covar/MBD_1myr_temp_gamma_exponential
+analyze_ess_diagnostics("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/temnospondyli/mcmc_fixshift_predictors/C_covar/MBD_1myr_temp_gamma_exponential")
+# C_covar/MBD_1myr_temp_gamma_linear
+analyze_ess_diagnostics("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/temnospondyli/mcmc_fixshift_predictors/C_covar/MBD_1myr_temp_gamma_linear")
 
 ######################### D Section (mcmc_fixshift_no_predictors) #####################
 
