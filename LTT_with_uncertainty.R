@@ -2,8 +2,8 @@
 
 ### Example Usage:
 ### Rscript LTT_with_uncertainty.R -p ./reptilia/mcmc_predictors/B_covar_mcmc -n 10 -t 100 -b 0.15 
-### -o reptilia_B_covar_mcmc_ltt_with_uncertainty.pdf --title "Reptilia diversity Trajectory" 
-### --prefix "reptilia_pyrate_" --file-pattern "_B_mcmc_G_COVhp_BD1-1_mcmc.log"
+### -o reptilia_B_covar_mcmc_ltt_with_uncertainty.pdf --title "Reptilia Diversity Trajectory" 
+### --prefix "reptilia_pyrate_" --file-pattern "_B_mcmc_G_COVhp_BD1-1_mcmc.log" 
 
 # Load required libraries with suppressed startup messages for cleaner output
 suppressPackageStartupMessages({
