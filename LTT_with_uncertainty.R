@@ -1,9 +1,7 @@
 #!/usr/bin/env Rscript
 
 ### Example Usage:
-### Rscript LTT_with_uncertainty.R -p ./reptilia/mcmc_predictors/B_covar_mcmc -n 10 -t 100 -b 0.15 
-### -o reptilia_B_covar_mcmc_ltt_with_uncertainty.pdf --title "Reptilia Diversity Trajectory" 
-### --prefix "reptilia_pyrate_" --file-pattern "_B_mcmc_G_COVhp_BD1-1_mcmc.log" 
+### Rscript LTT_with_uncertainty.R -p ./reptilia/mcmc_predictors/B_covar_mcmc -n 10 -t 100 -b 0.15 -o reptilia_B_covar_mcmc_ltt_with_uncertainty.pdf --title "Reptilia BDNN 1 Myr Global Diversity Trajectory)" --prefix "reptilia_pyrate_" --file-pattern "_B_mcmc_G_COVhp_BD1-1_mcmc.log" -tr 175
 
 # Load required libraries with suppressed startup messages for cleaner output
 suppressPackageStartupMessages({
@@ -16,7 +14,7 @@ suppressPackageStartupMessages({
 # Helper function to monitor memory usage throughout script execution
 monitor_memory <- function() {
   mem_used <- gc()  # Force garbage collection and get memory stats
-  cat(sprintf("Memory used: %.2f MB\n", mem_used[2,2] * 0.000001))
+  cat(sprintf("Memory used: %.2f MB\n", mem_used[2,2] * 0.001))
 }
 
 # Function to parse and validate command line arguments
@@ -59,7 +57,7 @@ Note:
     burnin = 0.15,
     translate = 0,
     output = "diversity_trajectory.pdf",
-    title = "Diversity Trajectory",
+    title = "Diversity Through Time (# Genera)",
     prefix = "reptilia_pyrate_",
     file_pattern = "_G_COVhp_BDS_mcmc.log"
   )
@@ -290,7 +288,7 @@ format_labels <- function(x) {
 
 # Create plot
 p2 <- ggplot(diversity_df[NotZero, ], aes(x = time)) +
-  geom_step(aes(y = mean_diversity), color = 'purple', size = 1) +
+  geom_step(aes(y = mean_diversity), color = 'purple', linewidth = 1) +
   geom_ribbon(aes(ymin = lower_95, ymax = upper_95), 
               fill = adjustcolor('purple', alpha = 0.15)) +
   geom_ribbon(aes(ymin = lower_75, ymax = upper_75), 
@@ -314,21 +312,24 @@ p2 <- ggplot(diversity_df[NotZero, ], aes(x = time)) +
                      labels = format_labels) +
   labs(title = args$title,
        x = "Time (Ma)",
-       y = "Number of Taxa") +
+       y = "Diversity Through Time (# Genera)") +
   theme_classic() +
   theme(plot.margin = unit(c(2, 1, 1, 1), "cm"),
-        plot.title = element_text(size = 32, 
+        plot.title = element_text(size = 36, 
                                   face = "bold", 
                                   hjust = 0.5, 
                                   margin = margin(b = 30)),
-        axis.title = element_text(size = 24, 
-                                  face = "bold", 
-                                  margin = margin(t = 20, r = 20, b = 20, l = 20)),
-        axis.text = element_text(size = 20, face = "bold"))
+        axis.title.x = element_text(size = 28, 
+                                    face = "bold", 
+                                    margin = margin(t = 50)),  # Increased top margin for x-axis title
+        axis.title.y = element_text(size = 28, 
+                                    face = "bold", 
+                                    margin = margin(r = 45)),  # Increased right margin for y-axis title
+         axis.text = element_text(size = 24, face = "bold"))
 
 # Save the plot to PDF in the specified directory
 output_path <- file.path(args$path, args$output)
-pdf(output_path, width = 20, height = 20)
+pdf(output_path, width = 20, height = 16)
 grid.arrange(p2, ncol = 1)
 dev.off()
 
