@@ -69,7 +69,7 @@ plot(age, age, type='n', ylim=c(-0.2695748, 0.9681364000000001), xlim=c(-312.9, 
      xaxt='n') # Remove default x-axis
 axis(1, at=x_ticks, labels=x_tick_labels) # Custom x-axis with 10MY interval ticks
 
-abline(h=0, lty=2, col="darkred")
+abline(h=0, lty=2, col="black")
 plot_RTT(age, R_hpd_M95, R_hpd_m95, R_mean, "#504A4B")
 lines(rev(age), rev(R_mean), col="#504A4B", lwd=3)
 
