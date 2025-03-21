@@ -2,7 +2,7 @@
 
 ### Example Usage:
 ### Rscript LTT_with_uncertainty.R -p ./reptilia/mcmc_predictors/B_covar_mcmc -n 10 -t 100 -b 0.15 
-### -o reptilia_B_covar_mcmc_ltt_with_uncertainty.pdf --title "Reptilia Diversity Trajectory" 
+### -o reptilia_B_covar_mcmc_ltt_with_uncertainty.pdf --title "Reptilia Diversity Through Time (# Genera)" 
 ### --prefix "reptilia_pyrate_" --file-pattern "_B_mcmc_G_COVhp_BD1-1_mcmc.log" 
 
 # Load required libraries with suppressed startup messages for cleaner output
@@ -59,7 +59,7 @@ Note:
     burnin = 0.15,
     translate = 0,
     output = "diversity_trajectory.pdf",
-    title = "Diversity Trajectory",
+    title = "Diversity Through Time (# Genera)",
     prefix = "reptilia_pyrate_",
     file_pattern = "_G_COVhp_BDS_mcmc.log"
   )
