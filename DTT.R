@@ -1,7 +1,7 @@
 #!/usr/bin/env Rscript
 
 ### Example Usage:
-### Rscript DTT.R -p ./reptilia/mcmc_predictors/ -t 100 -b 0.15 -o reptilia_ltt_with_uncertainty.pdf --title "Reptilia BDNN 1 Myr Global Diversity Trajectory)" -tr 175
+### Rscript DTT.R -p ./reptilia/mcmc_predictors/ -t 100 -b 0.15 -o reptilia_ltt_with_uncertainty.pdf --title "Reptilia BDNN 1 Myr Global Diversity Trajectory" -tr 175
 
 # Load required libraries with suppressed startup messages for cleaner output
 suppressPackageStartupMessages({
@@ -204,7 +204,13 @@ for (i in 1:length(mcmc_files)) {
   
   tryCatch({
     cat(sprintf("Reading file: %s\n", filename))
-    McmcLog <- read.table(filename, header = TRUE, sep = '\t')
+    # Try first with UTF-8 encoding, then with ANSI (Windows-1252) if that fails
+    McmcLog <- tryCatch({
+      read.table(filename, header = TRUE, sep = '\t', fileEncoding = "UTF-8")
+    }, error = function(e) {
+      cat(sprintf("UTF-8 encoding failed, trying Windows-1252 (ANSI) encoding...\n"))
+      read.table(filename, header = TRUE, sep = '\t', fileEncoding = "Windows-1252")
+    })    
     cat(sprintf("Read %d rows from MCMC log\n", nrow(McmcLog)))
     
     McmcLog <- removeBurnin(McmcLog, Burnin = args$burnin)
