@@ -4,7 +4,7 @@
 #' It processes mcmc.log files from PyRate analyses to create diversity through time plots.
 #'
 #' @param path Path to directory containing MCMC files (default: '.')
-#' @param thin_to Thin each MCMC log's samples to this number (default: 50)
+#' @param thin_to Thin each MCMC log's samples to this number (default: 100)
 #' @param burnin Proportion of samples to discard as burnin (default: 0.15)
 #' @param translate Time translation value in Ma (default: 0)
 #' @param output Output PDF filename (default: 'diversity_trajectory.pdf')
@@ -327,7 +327,7 @@ plot_diversity_through_time <- function(path = ".",
 
 # Example usage when script is run directly
 if (sys.nframe() == 0) {
-  # Parse command line arguments if script is run directly
+  # Parse command line arguments
   args <- commandArgs(trailingOnly = TRUE)
   
   # Show help if requested
@@ -337,13 +337,18 @@ if (sys.nframe() == 0) {
 Options:
   -h, --help            Show this help message and exit
   -p PATH               Path to directory containing MCMC files (default: '.')
-  -t THIN_TO            Thin each MCMC log's samples to this number (default: 50)
+  -t THIN_TO            Thin each MCMC log's samples to this number (default: 100)
   -b BURNIN             Proportion of samples to discard as burnin (default: 0.15)
   -tr TRANSLATE         Time translation value in Ma (default: 0). 
                         Use this if the -translate argument was used in the original PyRate run. 
                         It should = the negative of the PyRate -translate argument value 
   -o OUTPUT             Output PDF filename (default: 'diversity_trajectory.pdf')
-  --title TITLE         Plot title (default: 'Diversity Through Time')
+  --title TITLE         Plot title (default: 'Diversity Through Time (# Genera)')
+  --time-start VALUE    Start time for analysis in Ma (default: 320)
+  --time-end VALUE      End time for analysis in Ma (default: 190)
+  --time-by VALUE       Time increment for analysis in Ma (default: 0.01)
+  --save-plot VALUE     Whether to save the plot to a file (default: TRUE)
+  --return-data VALUE   Whether to return the diversity data frame (default: FALSE)
 
 Example:
   Rscript DTT.R -p ./mcmc_results -t 20 -b 0.2 -o results.pdf\n")
@@ -353,11 +358,16 @@ Example:
   # Initialize default values for all possible parameters
   params <- list(
     path = ".", # Current Directory
-    thin_to = 50,
+    thin_to = 100,
     burnin = 0.15,
     translate = 0,
     output = "diversity_trajectory.pdf",
-    title = "Diversity Through Time (# Genera)"
+    title = "Diversity Through Time (# Genera)",
+    time_start = 320,
+    time_end = 190,
+    time_by = 0.01,
+    save_plot = TRUE,
+    return_data = FALSE
   )
   
   # Parse command line arguments
@@ -381,6 +391,21 @@ Example:
     } else if (args[i] == "--title") {
       params$title <- args[i + 1]
       i <- i + 2
+    } else if (args[i] == "--time-start") {
+      params$time_start <- as.numeric(args[i + 1])
+      i <- i + 2
+    } else if (args[i] == "--time-end") {
+      params$time_end <- as.numeric(args[i + 1])
+      i <- i + 2
+    } else if (args[i] == "--time-by") {
+      params$time_by <- as.numeric(args[i + 1])
+      i <- i + 2
+    } else if (args[i] == "--save-plot") {
+      params$save_plot <- as.logical(args[i + 1])
+      i <- i + 2
+    } else if (args[i] == "--return-data") {
+      params$return_data <- as.logical(args[i + 1])
+      i <- i + 2
     } else {
       warning(paste("Unknown argument:", args[i]))
       i <- i + 1
@@ -394,6 +419,11 @@ Example:
     burnin = params$burnin,
     translate = params$translate,
     output = params$output,
-    title = params$title
+    title = params$title,
+    time_start = params$time_start,
+    time_end = params$time_end,
+    time_by = params$time_by,
+    save_plot = params$save_plot,
+    return_data = params$return_data
   )
 }
