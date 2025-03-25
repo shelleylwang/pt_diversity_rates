@@ -120,6 +120,12 @@ plot_diversity_through_time <- function(path = ".",
     L <- length(x)
     NotZero <- rep(TRUE, L)
     not0 <- which(x != 0 & !is.na(x))
+    
+    # Check if there are no non-zero values - this likely means translate parameter was missed
+    if (length(not0) == 0) {
+      stop("No non-zero diversity values found. You likely forgot to use the translate parameter (-tr or translate=). This parameter should be the inverse of (negation of) the value used with the -translate argument in PyRate. If you used -translate -10 in PyRate, use translate = 10 or -tr 10")
+    }
+    
     m <- min(not0)
     if (m > 1 || x[m] == 0 || is.na(x[m])) {
       NotZero[1:(m - 1)] <- FALSE
@@ -146,6 +152,15 @@ plot_diversity_through_time <- function(path = ".",
   
   cat(sprintf("Found %d mcmc.log files to process.\n", length(mcmc_files)))
   
+  # Calculate expected number of samples precisely
+  expected_curves <- length(mcmc_files) * thin_to
+  
+  # Add a 10% buffer to account for any possible variations
+  max_curves <- ceiling(expected_curves * 1.1)
+  
+  cat(sprintf("Expected to generate %d curves, allocating space for %d (10%% buffer).\n", 
+              expected_curves, max_curves))
+  
   # Perform initial validation checks
   cat("Validation checks:\n")
   
@@ -163,7 +178,6 @@ plot_diversity_through_time <- function(path = ".",
   }
   
   # Initialize matrix for LTT curves with an estimated size
-  max_curves <- length(mcmc_files) * thin_to
   Ltt <- matrix(NA_real_,
                 ncol = max_curves,
                 nrow = length(TimeVecLtt))
@@ -214,13 +228,9 @@ plot_diversity_through_time <- function(path = ".",
           cat(sprintf("\rProcessing sample %d of %d", j, nrow(McmcLog)))
         }
         
-        # Check if we need to expand the Ltt matrix
-        if (Counter > ncol(Ltt)) {
-          # Double the matrix size
-          cat("\nExpanding Ltt matrix size...\n")
-          new_cols <- matrix(NA_real_, ncol = ncol(Ltt), nrow = nrow(Ltt))
-          Ltt <- cbind(Ltt, new_cols)
-          cat(sprintf("New matrix size: %d columns\n", ncol(Ltt)))
+        # Check if we're about to exceed the buffer
+        if (Counter > max_curves) {
+          stop(sprintf("Error: Exceeded allocated matrix size (%d). Increase buffer percentage.", max_curves))
         }
         
         Ltt[, Counter] <- getLtt(Ts = McmcLog[j, IdxTs] + translate,
