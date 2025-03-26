@@ -22,7 +22,7 @@ plot_diversity_through_time <- function(path = ".",
                                         thin_to = 100,
                                         burnin = 0.15,
                                         translate = 0,
-                                        output = "diversity_trajectory.pdf",
+                                        output = "DTT.pdf",
                                         title = "Diversity Through Time (# Genera)",
                                         time_start = 320,
                                         time_end = 190,
@@ -155,7 +155,7 @@ plot_diversity_through_time <- function(path = ".",
   mcmc_files <- all_files[!grepl("combined", all_files)]
   
   if (length(mcmc_files) == 0) {
-    stop("No suitable mcmc.log files found in the specified directory. Check that the mcmc.log files do not contain the word 'combined' in the file name, as this disqualifies them from processing. Change the file name if necessary.")
+    stop("No suitable mcmc.log files found in the specified directory. Check two things: 1. The directory path, 2. that the mcmc.log files do not contain the word 'combined' in the file name, as this disqualifies them from processing. Change the file name if necessary.")
   }
   
   cat(sprintf("Found %d mcmc.log files to process.\n", length(mcmc_files)))
@@ -178,27 +178,43 @@ plot_diversity_through_time <- function(path = ".",
                        .errorhandling = 'remove') %dopar% {
                          
                          filename <- mcmc_files[i]
+                         file_basename <- basename(filename)
+                         cat(sprintf("Processing file %d of %d: %s\n", i, length(mcmc_files), file_basename))
+                         
                          # Try first with UTF-8 encoding, then with ANSI (Windows-1252) if that fails
                          McmcLog <- tryCatch({
                            fread(filename, header = TRUE, sep = '\t', encoding = "UTF-8")
                          }, error = function(e) {
+                           cat(sprintf("UTF-8 encoding failed for %s, trying Windows-1252 encoding...\n", file_basename))
                            fread(filename, header = TRUE, sep = '\t', encoding = "Windows-1252")
                          })
                          
                          # Convert to data.frame to maintain compatibility with the rest of the code
                          McmcLog <- as.data.frame(McmcLog)
+                         initial_rows <- nrow(McmcLog)
+                         cat(sprintf("File %s: Read %d rows from MCMC log\n", file_basename, initial_rows))
                          
                          # Apply burnin and thinning
                          McmcLog <- removeBurnin(McmcLog, Burnin = burnin)
+                         after_burnin_rows <- nrow(McmcLog)
+                         cat(sprintf("File %s: After burnin: %d rows (removed %d rows)\n", 
+                                     file_basename, after_burnin_rows, initial_rows - after_burnin_rows))
+                         
                          McmcLog <- applyThin(McmcLog, Thin = thin_to)
+                         after_thinning_rows <- nrow(McmcLog)
+                         cat(sprintf("File %s: After thinning: %d rows (thinned %d rows to %d rows)\n", 
+                                     file_basename, after_thinning_rows, after_burnin_rows, after_thinning_rows))
+
                          
                          # Find TS and TE columns
                          ColnamesLog <- colnames(McmcLog)
                          IdxTs <- grep('_TS', ColnamesLog)
                          IdxTe <- grep('_TE', ColnamesLog)
                          
-                         # Skip if no TS or TE columns
+                         
+                         # Notify user if a file had no TS or TE columns, and therefore was skipped
                          if (length(IdxTs) == 0 || length(IdxTe) == 0) {
+                           warning(sprintf("File %s does not contain TS or TE columns, skipping.", basename(filename)))
                            return(NULL)
                          }
                          
@@ -219,6 +235,7 @@ plot_diversity_through_time <- function(path = ".",
     # Process results if not empty
     if (!is.null(results) && ncol(results) > 0) {
       Ltt <- results
+      cat(sprintf("Parallel processing completed: generated %d LTT curves\n", ncol(Ltt)))
     } else {
       stop("No valid data could be processed from the MCMC files")
     }
@@ -267,6 +284,7 @@ plot_diversity_through_time <- function(path = ".",
         for (j in 1:nrow(McmcLog)) {
           if (j %% 10 == 0) {  # Show progress every 10 samples
             cat(sprintf("\rProcessing sample %d of %d", j, nrow(McmcLog)))
+            flush.console()  # Ensure the message is displayed immediately
           }
           
           # Expand matrix if needed
@@ -296,12 +314,19 @@ plot_diversity_through_time <- function(path = ".",
   
   # Calculate statistics from Ltt
   cat("Calculating credible intervals...\n")
+  cat(sprintf("Processing statistics for %d x %d matrix (%d curves across %d time points)\n", 
+              nrow(Ltt), ncol(Ltt), ncol(Ltt), nrow(Ltt)))
+  
   # Use apply2 which is faster for row operations
   LttMean <- rowMeans(Ltt, na.rm = TRUE)
+  cat("Calculated mean diversity values\n")
   
   # Calculate credible intervals
+  cat("Calculating 95% credible intervals...\n")
   LttCI95 <- t(apply(Ltt, 1, function(x) getHPD(x)))
+  cat("Calculating 75% credible intervals...\n")
   LttCI75 <- t(apply(Ltt, 1, function(x) getHPD(x, Prob = 0.75)))
+  cat("Finished calculating credible intervals\n")
   
   # Identify non-zero regions
   NotZero <- isNotZero(LttMean)
