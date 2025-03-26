@@ -147,7 +147,7 @@ plot_diversity_through_time <- function(path = ".",
   mcmc_files <- all_files[!grepl("combined", all_files)]
   
   if (length(mcmc_files) == 0) {
-    stop("No suitable mcmc.log files found in the specified directory.")
+    stop("No suitable mcmc.log files found in the specified directory. Check that the mcmc.log files do not contain the word 'combined' in the file name, as this disqualifies them from processing. Change the file name if necessary.")
   }
   
   cat(sprintf("Found %d mcmc.log files to process.\n", length(mcmc_files)))
@@ -296,7 +296,7 @@ plot_diversity_through_time <- function(path = ".",
               rot = 0,
               size = list(6, 5),
               neg = TRUE) +
-    geom_vline(xintercept = c(-65, -200, -251, -367, -445),
+    geom_vline(xintercept = c(-65, -200, -251, -367, -445),  # Major mass extinctions
                linetype = "dashed", 
                color = "gray") +
     scale_x_continuous(limits = c(-time_start, -time_end),
