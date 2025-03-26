@@ -148,16 +148,17 @@ plot_diversity_through_time(path = "C:/Users/SimoesLabAdmin/Documents/BDNN_Ariel
 # B_bdnn_lats_only
 plot_diversity_through_time(path = "C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/temnospondyli/mcmc_predictors/B_bdnn_lats_only", output = "temnospondyli_B_bdnn_lats_only_DTT_parallel.pdf", title = "Temnospondyli BDNN 1 Myr Global Diversity Trajectory", 
                             translate = 175)
-# # B_covar_rjmcmc
-# plot_diversity_through_time(path = "C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/temnospondyli/mcmc_predictors/B_covar_rjmcmc", output = "temnospondyli__DTT.pdf", title = "Temnospondyli CoVar RJMCMC 1 Myr Global Diversity Trajectory")
+# B_covar_rjmcmc
+plot_diversity_through_time(path = "C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/temnospondyli/mcmc_predictors/B_covar_rjmcmc", output = "temnospondyli_B_covar_rjmcmc_DTT.pdf", title = "Temnospondyli CoVar RJMCMC 1 Myr Global Diversity Trajectory",
+                            translate = 175)
 # # B_covar_mcmc/MBD_env_vars_gamma_exponential
-# plot_diversity_through_time(path = "C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/temnospondyli/mcmc_predictors/B_covar_mcmc/MBD_env_vars_gamma_exponential", output = "temnospondyli__DTT.pdf", title = "Temnospondyli MBD 1 Myr Global Diversity Trajectory")
+# plot_diversity_through_time(path = "C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/temnospondyli/mcmc_predictors/B_covar_mcmc/MBD_env_vars_gamma_exponential", output = "temnospondyli_B_MBD_env_vars_gamma_exp_DTT.pdf", title = "Temnospondyli MBD 1 Myr Global Diversity Trajectory")
 # # B_covar_mcmc/MBD_env_vars_gamma_linear
-# plot_diversity_through_time(path = "C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/temnospondyli/mcmc_predictors/B_covar_mcmc/MBD_env_vars_gamma_linear", output = "temnospondyli__DTT.pdf", title = "Temnospondyli MBD 1 Myr Global Diversity Trajectory")
+# plot_diversity_through_time(path = "C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/temnospondyli/mcmc_predictors/B_covar_mcmc/MBD_env_vars_gamma_linear", output = "temnospondyli_B_MBD_env_vars_gamma_lin_DTT.pdf", title = "Temnospondyli MBD 1 Myr Global Diversity Trajectory")
 # # B_covar_mcmc/MBD_1myr_temp_gamma_exponential
-# plot_diversity_through_time(path = "C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/temnospondyli/mcmc_predictors/B_covar_mcmc/MBD_1myr_temp_gamma_exponential", output = "temnospondyli__DTT.pdf", title = "Temnospondyli MBD 1 Myr Global Diversity Trajectory")
+# plot_diversity_through_time(path = "C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/temnospondyli/mcmc_predictors/B_covar_mcmc/MBD_1myr_temp_gamma_exponential", output = "temnospondyli_B_MBD_1myr_temp_gamma_exp_DTT.pdf", title = "Temnospondyli MBD 1 Myr Global Diversity Trajectory")
 # # B_covar_mcmc/MBD_1myr_temp_gamma_linear
-# plot_diversity_through_time(path = "C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/temnospondyli/mcmc_predictors/B_covar_mcmc/MBD_1myr_temp_gamma_linear", output = "temnospondyli__DTT.pdf", title = "Temnospondyli MBD 1 Myr Global Diversity Trajectory")
+# plot_diversity_through_time(path = "C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/temnospondyli/mcmc_predictors/B_covar_mcmc/MBD_1myr_temp_gamma_linear", output = "temnospondyli_B_MBD_1myr_temp_gamma_lin_DTT.pdf", title = "Temnospondyli MBD 1 Myr Global Diversity Trajectory")
 
 ######################### C Section (mcmc_fixshift_predictors) #####################
 
@@ -178,7 +179,8 @@ plot_diversity_through_time(path = "C:/Users/SimoesLabAdmin/Documents/BDNN_Ariel
 plot_diversity_through_time(path = "C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/reptilia/mcmc_fixshift_predictors/C_bdnn_stdscaled_only", output = "reptilia_C_bdnn_stdscaled_only_DTT.pdf", title = "Reptilia BDNN By Stages Global Diversity Trajectory", 
                             translate = 175)
 # C_covar
-plot_diversity_through_time(path = "C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/reptilia/mcmc_fixshift_predictors/C_covar", output = "reptilia_C_covar_DTT.pdf", title = "Reptilia CoVar By Stages Global Diversity Trajectory")
+plot_diversity_through_time(path = "C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/reptilia/mcmc_fixshift_predictors/C_covar", output = "reptilia_C_covar_DTT.pdf", title = "Reptilia CoVar By Stages Global Diversity Trajectory",
+                            translate = 175)
 # # C_covar/MBD_env_vars_horseshoe_exponential
 # plot_diversity_through_time(path = "C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/reptilia/mcmc_fixshift_predictors/C_covar/MBD_env_vars_horseshoe_exponential", output = "reptilia_C_MBD_env_vars_horseshoe_exp_DTT.pdf", title = "Reptilia MBD By Stages Global Diversity Trajectory")
 # # C_covar/MBD_env_vars_gamma_exponential
@@ -207,9 +209,11 @@ plot_diversity_through_time(path = "C:/Users/SimoesLabAdmin/Documents/BDNN_Ariel
 plot_diversity_through_time(path = "C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/synapsida/mcmc_fixshift_predictors/C_bdnn_stdscaled_only", output = "synapsida_C_bdnn_stdscaled_only_DTT.pdf", title = "Synapsida BDNN By Stages Global Diversity Trajectory", 
                             translate = 175)
 # C_covar
-plot_diversity_through_time(path = "C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/synapsida/mcmc_fixshift_predictors/C_covar", output = "synapsida_C_covar_DTT.pdf", title = "Synapsida CoVar By Stages Global Diversity Trajectory")
+plot_diversity_through_time(path = "C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/synapsida/mcmc_fixshift_predictors/C_covar", output = "synapsida_C_covar_DTT.pdf", title = "Synapsida CoVar By Stages Global Diversity Trajectory", 
+                            translate = 175)
 # C_covar_test
-plot_diversity_through_time(path = "C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/synapsida/mcmc_fixshift_predictors/C_covar_test", output = "synapsida_C_covar_test_DTT.pdf", title = "Synapsida CoVar By Stages Global Diversity Trajectory")
+plot_diversity_through_time(path = "C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/synapsida/mcmc_fixshift_predictors/C_covar_test", output = "synapsida_C_covar_test_DTT.pdf", title = "Synapsida CoVar By Stages Global Diversity Trajectory",
+                            translate = 175)
 # # C_covar/MBD_env_vars_horseshoe_exponential
 # plot_diversity_through_time(path = "C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/synapsida/mcmc_fixshift_predictors/C_covar/MBD_env_vars_horseshoe_exponential", output = "synapsida_C_MBD_env_vars_horseshoe_exp_DTT.pdf", title = "Synapsida MBD By Stages Global Diversity Trajectory")
 # # C_covar/MBD_env_vars_gamma_exponential
@@ -224,18 +228,23 @@ plot_diversity_through_time(path = "C:/Users/SimoesLabAdmin/Documents/BDNN_Ariel
 
 ################### C_TEMSNOSPONDYLI (mcmc_fixshift_predictors)
 # C_bdnn_lats_only
-plot_diversity_through_time(path = "C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/temnospondyli/mcmc_fixshift_predictors/C_bdnn_lats_only", output = "temnospondyli_C_bdnn_lats_only_DTT.pdf", title = "Temnospondyli RJMCMC By Stages Global Diversity Trajectory")
+plot_diversity_through_time(path = "C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/temnospondyli/mcmc_fixshift_predictors/C_bdnn_lats_only", output = "temnospondyli_C_bdnn_lats_only_DTT.pdf", title = "Temnospondyli BDNN By Stages Global Diversity Trajectory",
+                            translate = 175)
 # C_bdnn_minmax_boxcox
-plot_diversity_through_time(path = "C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/temnospondyli/mcmc_fixshift_predictors/C_bdnn_minmax_boxcox", output = "temnospondyli_C_bdnn_minmax_boxcox_DTT.pdf", title = "Temnospondyli RJMCMC By Stages Global Diversity Trajectory")
+plot_diversity_through_time(path = "C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/temnospondyli/mcmc_fixshift_predictors/C_bdnn_minmax_boxcox", output = "temnospondyli_C_bdnn_minmax_boxcox_DTT.pdf", title = "Temnospondyli BDNN By Stages Global Diversity Trajectory",
+                            translate = 175)
 # C_bdnn_minmax_only
-plot_diversity_through_time(path = "C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/temnospondyli/mcmc_fixshift_predictors/C_bdnn_minmax_only", output = "temnospondyli_C_bdnn_minmax_only_DTT.pdf", title = "Temnospondyli RJMCMC By Stages Global Diversity Trajectory")
+plot_diversity_through_time(path = "C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/temnospondyli/mcmc_fixshift_predictors/C_bdnn_minmax_only", output = "temnospondyli_C_bdnn_minmax_only_DTT.pdf", title = "Temnospondyli BDNN By Stages Global Diversity Trajectory",
+                            translate = 175)
 # C_bdnn_stdscaled_boxcox
-plot_diversity_through_time(path = "C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/temnospondyli/mcmc_fixshift_predictors/C_bdnn_stdscaled_boxcox", output = "temnospondyli_C_bdnn_stdscaled_boxcox_DTT.pdf", title = "Temnospondyli RJMCMC By Stages Global Diversity Trajectory")
+plot_diversity_through_time(path = "C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/temnospondyli/mcmc_fixshift_predictors/C_bdnn_stdscaled_boxcox", output = "temnospondyli_C_bdnn_stdscaled_boxcox_DTT.pdf", title = "Temnospondyli BDNN By Stages Global Diversity Trajectory",
+                            translate = 175)
 # C_bdnn_stdscaled_only
 plot_diversity_through_time(path = "C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/temnospondyli/mcmc_fixshift_predictors/C_bdnn_stdscaled_only", output = "temnospondyli_C_bdnn_stdscaled_only_DTT.pdf", title = "Temnospondyli BDNN By Stages Global Diversity Trajectory", 
                             translate = 175)
 # C_covar
-plot_diversity_through_time(path = "C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/temnospondyli/mcmc_fixshift_predictors/C_covar", output = "temnospondyli_C_covar_DTT.pdf", title = "Temnospondyli CoVar By Stages Global Diversity Trajectory")
+plot_diversity_through_time(path = "C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/temnospondyli/mcmc_fixshift_predictors/C_covar", output = "temnospondyli_C_covar_DTT.pdf", title = "Temnospondyli CoVar By Stages Global Diversity Trajectory",
+                            translate = 175)
 # # C_covar/MBD_env_vars_horseshoe_exponential
 # plot_diversity_through_time(path = "C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/temnospondyli/mcmc_fixshift_predictors/C_covar/MBD_env_vars_horseshoe_exponential", output = "temnospondyli_MBD_env_vars_horseshoe_exp_DTT.pdf", title = "Temnospondyli MBD By Stages Global Diversity Trajectory")
 # # C_covar/MBD_env_vars_gamma_exponential
@@ -264,7 +273,7 @@ plot_diversity_through_time(path = "C:/Users/SimoesLabAdmin/Documents/BDNN_Ariel
 
 ################### D_SYNAPSIDA (mcmc_fixshift_no_predictors)
 # D_bdmcmc
-plot_diversity_through_time(path = "C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/synapsida/mcmc_fixshift_no_predictors/D_bdmcmc", output = "synapsida_D_bdmcmc_DTT.pdf", title = "Synapsida BDMCMC By Stages Global Diversity Trajectory")
+plot_diversity_through_time(path = "C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/synapsida/mcmc_fixshift_no_predictors/D_bdmcmc (D_mcmc)", output = "synapsida_D_mcmc_DTT.pdf", title = "Synapsida MCMC By Stages Global Diversity Trajectory")
 # D_bdnn
 plot_diversity_through_time(path = "C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/synapsida/mcmc_fixshift_no_predictors/D_bdnn", output = "synapsida_D_bdnn_DTT_parallel.pdf", title = "Synapsida BDNN By Stages Global Diversity Trajectory", 
                             translate = 175)
@@ -277,7 +286,7 @@ plot_diversity_through_time(path = "C:/Users/SimoesLabAdmin/Documents/BDNN_Ariel
 
 ################### D_TEMSNOSPONDYLI (mcmc_fixshift_no_predictors)
 # D_bdmcmc
-plot_diversity_through_time(path = "C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/temnospondyli/mcmc_fixshift_no_predictors/D_bdmcmc", output = "temnospondyli_D_bdmcmc_DTT.pdf", title = "Temnospondyli BDMCMC By Stages Global Diversity Trajectory")
+plot_diversity_through_time(path = "C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/temnospondyli/mcmc_fixshift_no_predictors/D_bdmcmc (D_mcmc)", output = "temnospondyli_D_mcmc_DTT.pdf", title = "Temnospondyli BDMCMC By Stages Global Diversity Trajectory")
 # D_bdnn
 plot_diversity_through_time(path = "C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/temnospondyli/mcmc_fixshift_no_predictors/D_bdnn", output = "temnospondyli_D_bdnn_DTT.pdf", title = "Temnospondyli BDNN By Stages Global Diversity Trajectory", 
                             translate = 175)
