@@ -87,7 +87,8 @@ plot_diversity_through_time(path = "C:/Users/SimoesLabAdmin/Documents/BDNN_Ariel
 plot_diversity_through_time(path = "C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/reptilia/mcmc_predictors/B_bdnn_lats_only", output = "reptilia_B_bdnn_lats_only_DTT.pdf", title = "Reptilia BDNN 1 Myr Global Diversity Trajectory", 
                             translate = 175)
 # B_covar_rjmcmc
-plot_diversity_through_time(path = "C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/reptilia/mcmc_predictors/B_covar_rjmcmc", output = "reptilia_B_covar_rjmcmc_DTT.pdf", title = "Reptilia CoVar RJMCMC 1 Myr Global Diversity Trajectory")
+plot_diversity_through_time(path = "C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/reptilia/mcmc_predictors/B_covar_rjmcmc", output = "reptilia_B_covar_rjmcmc_DTT.pdf", title = "Reptilia CoVar RJMCMC 1 Myr Global Diversity Trajectory",
+                            translate = 175)
 # B_covar_mcmc/MBD_env_vars_gamma_exponential
 plot_diversity_through_time(path = "C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/reptilia/mcmc_predictors/B_covar_mcmc/MBD_env_vars_gamma_exponential", output = "reptilia_B_MBD_env_vars_gamma_exp_DTT.pdf", title = "Reptilia MBD 1 Myr Global Diversity Trajectory")
 # B_covar_mcmc/MBD_env_vars_gamma_linear
