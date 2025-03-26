@@ -147,7 +147,7 @@ plot_diversity_through_time <- function(path = ".",
   mcmc_files <- all_files[!grepl("combined", all_files)]
   
   if (length(mcmc_files) == 0) {
-    stop("No suitable mcmc.log files found in the specified directory.")
+    stop("No suitable mcmc.log files found in the specified directory. Check that the mcmc.log files do not contain the word 'combined' in the file name, as this disqualifies them from processing. Change the file name if necessary.")
   }
   
   cat(sprintf("Found %d mcmc.log files to process.\n", length(mcmc_files)))
