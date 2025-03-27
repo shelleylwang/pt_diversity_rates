@@ -1,17 +1,29 @@
 #' Diversity Through Time (DTT) Function - Optimized Version
-#'
-#' This function calculates and plots diversity trajectories with uncertainty from MCMC outputs.
+#' 
+#' This function calculates and plots diversity trajectories with uncertainty from MCMC outputs
 #' It processes mcmc.log files from PyRate analyses to create diversity through time plots.
+#' The function is optimized for speed and memory usage, and can use parallel processing.
+#' The plot uses the deeptime R package for geological time scale visualization, with vertical
+#' lines at major extinction events
+#' 
+#' This version can be sourced and used in another R script, or can be called from the command line
+#' 
+#' Example usage in an R script:
+#' \preformatted{
+#' source("DTT_parallel.R")
+#' plot_diversity_through_time(path = "./mcmc_results", thin_to = 20, burnin = 0.1, output = "results.pdf")
+#' }
+#' 
 #'
 #' @param path Path to directory containing MCMC files (default: '.')
 #' @param thin_to Thin each MCMC log's samples to this number (default: 100)
 #' @param burnin Proportion of samples to discard as burnin (default: 0.15)
-#' @param translate Time translation value in Ma (default: 0)
-#' @param output Output PDF filename (default: 'diversity_trajectory.pdf')
+#' @param translate Time translation value in Ma (default: 0). Necessary if the original PyRate run used the -translate flag
+#' @param output Output PDF filename (default: 'DTT.pdf')
 #' @param title Plot title (default: 'Diversity Through Time (# Genera)')
-#' @param time_start Start time for analysis in Ma (default: 320)
-#' @param time_end End time for analysis in Ma (default: 190)
-#' @param time_by Time increment for analysis in Ma (default: 0.01) 
+#' @param time_start Start time for analysis in positive Ma (default: 320)
+#' @param time_end End time for analysis in positive Ma (default: 190)
+#' @param time_by Time increment for analysis in Ma (default: 0.01 (10 Ma)) 
 #' @param save_plot Whether to save the plot to a file (default: TRUE)
 #' @param return_data Whether to return the diversity data frame (default: FALSE)
 #' @param parallel Use parallel processing if available (default: TRUE)
@@ -426,7 +438,7 @@ Options:
   -tr TRANSLATE         Time translation value in Ma (default: 0). 
                         Use this if the -translate argument was used in the original PyRate run. 
                         It should = the negative of the PyRate -translate argument value 
-  -o OUTPUT             Output PDF filename (default: 'diversity_trajectory.pdf')
+  -o OUTPUT             Output PDF filename (default: 'DTT.pdf')
   --title TITLE         Plot title (default: 'Diversity Through Time (# Genera)')
   --time-start VALUE    Start time for analysis in Ma (default: 320)
   --time-end VALUE      End time for analysis in Ma (default: 190)
@@ -436,8 +448,8 @@ Options:
   --parallel VALUE      Whether to use parallel processing (default: TRUE)
   --cores VALUE         Number of cores to use for parallel processing (default: auto-detect)
 
-Example:
-  Rscript DTT.R -p ./mcmc_results -t 20 -b 0.2 -o results.pdf\n")
+Example Command Line usage:
+  Rscript DTT.R -p ./mcmc_results -t 20 -b 0.1 -o results.pdf\n")
     quit(save = "no", status = 0)
   }
   
@@ -447,7 +459,7 @@ Example:
     thin_to = 100,
     burnin = 0.15,
     translate = 0,
-    output = "diversity_trajectory.pdf",
+    output = "DTT.pdf",
     title = "Diversity Through Time (# Genera)",
     time_start = 320,
     time_end = 190,
