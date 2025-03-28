@@ -2,6 +2,8 @@
 #'
 #' This function calculates and plots diversity trajectories with uncertainty from MCMC outputs.
 #' It processes mcmc.log files from PyRate analyses to create diversity through time plots.
+#' The central plotting code was written by Dr. Torsten Hauffe, while changes, additional functional, formatting, and
+#' command-line calls + function format (reusability) was added later
 #'
 #' @param path Path to directory containing MCMC files (default: '.')
 #' @param thin_to Thin each MCMC log's samples to this number (default: 100)

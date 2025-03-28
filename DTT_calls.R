@@ -1,4 +1,9 @@
-source("DTT_2.R")
+# Calling the function `plot_diversity_through_time` from the source file `DTT_serial.R` or `DTT_parallel.R`
+# Comment out which script is needed
+# DTT = Diversity Through Time Plot
+
+# source("DTT_serial.R")
+source("DTT_parallel.R")
 
 # Default values:
   # thin_to = 100,
