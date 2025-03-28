@@ -6,6 +6,9 @@
 #' The plot uses the deeptime R package for geological time scale visualization, with vertical
 #' lines at major extinction events
 #' 
+#' The central plotting code was written by Dr. Torsten Hauffe, while changes, additional functional, formatting, and
+#' command-line calls + function format (reusability) was added later
+#' 
 #' This version can be sourced and used in another R script, or can be called from the command line
 #' 
 #' Example usage in an R script:
