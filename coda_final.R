@@ -14,17 +14,17 @@ analyze_mcmc <- function(working_dir, encoding = "UTF-8") {
   original_dir <- getwd()
   setwd(working_dir)
   
-  # Find all mcmc.log files
-  mcmc_files <- list.files(path = working_dir, pattern = "mcmc\\.log$", full.names = FALSE)
+  # Find all mcmc.log or MBD.log files
+  mcmc_files <- list.files(path = working_dir, pattern = "(mcmc|MBD)\\.log$", full.names = FALSE)
   
   # Check if any matching files were found
   if (length(mcmc_files) == 0) {
-    warning("No mcmc.log files found in ", working_dir)
+    warning("No mcmc.log or MBD log files found in ", working_dir)
     setwd(original_dir)
     return(NULL)
   }
   
-  cat("Found", length(mcmc_files), "mcmc.log files in", working_dir, "\n")
+  cat("Found", length(mcmc_files), "log files in", working_dir, "\n")
   
   # Initialize output files
   pdf_diagnostics_file <- file.path(working_dir, "combined_mcmc_diagnostics_plots.pdf")
