@@ -4,18 +4,18 @@
 # 95% HPDs calculated using code from Biopy (https://www.cs.auckland.ac.nz/~yhel002/biopy/)
 
 pdf(file='C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/synapsida/mcmc_fixshift_no_predictors/D_mcmc/combined_9_marginal_rates_RTT_plot2.pdf',width=10.8, height=8.4)
-par(mfrow=c(2,2))
+par(mfrow=c(3,1))
 library(scales)
 plot_RTT <- function (age,hpd_M,hpd_m,mean_m,color){
-    N=100
-    beta=(1:(N-1))/N
-    alpha_shape=0.25
-    cat=1-(beta^(1./alpha_shape))
-    for (i in 1:(N-1)){
-        trans= 1/N + 2/N
-        polygon(c(age, rev(age)), c(hpd_M-((hpd_M-mean_m)*cat[i]), rev(hpd_m+((mean_m-hpd_m)*cat[i]))), col = alpha(color,trans), border = NA)
-    }
-    lines(rev(age), rev(mean_m), col = color, lwd=3)
+  N=100
+  beta=(1:(N-1))/N
+  alpha_shape=0.25
+  cat=1-(beta^(1./alpha_shape))
+  for (i in 1:(N-1)){
+    trans= 1/N + 2/N
+    polygon(c(age, rev(age)), c(hpd_M-((hpd_M-mean_m)*cat[i]), rev(hpd_m+((mean_m-hpd_m)*cat[i]))), col = alpha(color,trans), border = NA)
+  }
+  lines(rev(age), rev(mean_m), col = color, lwd=3)
 }
     
 L_hpd_m95=c(NA, NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0.11606,0.11606,0.11606,0.11606,0.11606,0.11606,0.11606,0.034008,0.034008,0.034008,0.034008,0.034008,0.034008,0.034008,0.034008,0.034008,0.024192,0.024192,0.024192,0.024192,0.024192,0.024192,0.024192,0.024192,0.024192,0.024192,0.068457,0.068457,0.068457,0.068457,0.068457,0.068457,0.068457,0.068457,0.068457,0.068457,0.058151,0.058151,0.058151,0.058151,0.058151,0.169854,0.169854,0.169854,0.169854,0.169854,0.190979,0.190979,0.190979,0.190979,0.190979,0.141055,0.141055,0.141055,0.141055,0.141055,0.141055,0.141055,0.247366,0.247366,0.247366,0.247366,0.247366,0.190027,0.190027,0.190027,0.190027,0.190027,0.190027,0.190027,0.190027,0.190027,0.048227,0.048227,0.048227,0.048227,0.048227,0.048227,0.048227,0.048227,0.048227,0.048227,0.07082,0.07082,0.07082,0.07082,0.07082,0.07082,0.07082,0.159579,0.159579,0.159579,0.159579,0.159579,0.159579,0.159579,0.159579,0.159579,0.159579,0.159579,0.159579,0.159579,0.159579,0.159579,0.159579,0.159579,0.159579)
@@ -38,7 +38,7 @@ x_ticks <- seq(-310, -190, by=10)
 x_tick_labels <- abs(x_ticks)
 
 # First plot: Speciation rate
-plot(age, age, type='n', ylim=c(0, 1.1321024000000002), xlim=c(-312.9, -185.1), 
+plot(age, age, type='n', ylim=c(0, 1), xlim=c(-312.9, -185.1), 
      ylab='Speciation rate', xlab='Ma', main='Reptilia BDMCMC By Stages', 
      xaxt='n') # Remove default x-axis
 axis(1, at=x_ticks, labels=x_tick_labels) # Custom x-axis with 10MY interval ticks
@@ -51,7 +51,7 @@ abline(v=perm_trias_extinction, col="red", lty=2)
 abline(v=guadalupian_extinction, col="red", lty=2)
 
 # Second plot: Extinction rate
-plot(age, age, type='n', ylim=c(0, 0.6551886), xlim=c(-312.9, -185.1), 
+plot(age, age, type='n', ylim=c(0, 1), xlim=c(-312.9, -185.1), 
      ylab='Extinction rate', xlab='Ma',
      xaxt='n') # Remove default x-axis
 axis(1, at=x_ticks, labels=x_tick_labels) # Custom x-axis with 10MY interval ticks
@@ -64,7 +64,7 @@ abline(v=perm_trias_extinction, col="red", lty=2)
 abline(v=guadalupian_extinction, col="red", lty=2)
 
 # Third plot: Net diversification rate
-plot(age, age, type='n', ylim=c(-0.2695748, 0.9681364000000001), xlim=c(-312.9, -185.1), 
+plot(age, age, type='n', ylim=c(-0.2695748, 1), xlim=c(-312.9, -185.1), 
      ylab='Net diversification rate', xlab='Ma',
      xaxt='n') # Remove default x-axis
 axis(1, at=x_ticks, labels=x_tick_labels) # Custom x-axis with 10MY interval ticks
