@@ -39,7 +39,7 @@ x_tick_labels <- abs(x_ticks)
 
 # First plot: Speciation rate
 plot(age, age, type='n', ylim=c(0, 1), xlim=c(-312.9, -185.1), 
-     ylab='Speciation rate', xlab='Ma', main='Reptilia BDMCMC By Stages', 
+     ylab='Speciation rate', xlab='Ma', main='Reptilia MCMC By Stages', 
      xaxt='n') # Remove default x-axis
 axis(1, at=x_ticks, labels=x_tick_labels) # Custom x-axis with 10MY interval ticks
 
