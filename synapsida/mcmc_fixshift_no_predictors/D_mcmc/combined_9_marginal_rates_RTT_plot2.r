@@ -3,7 +3,7 @@
 
 # 95% HPDs calculated using code from Biopy (https://www.cs.auckland.ac.nz/~yhel002/biopy/)
 
-pdf(file='C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/synapsida/mcmc_fixshift_no_predictors/D_mcmc/combined_9_marginal_rates_RTT_plot2.pdf',width=10.8, height=8.4)
+pdf(file='C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/synapsida/mcmc_fixshift_no_predictors/D_mcmc/combined_9_marginal_rates_RTT_plot2.pdf',width=8, height=10.8)
 par(mfrow=c(3,1))
 library(scales)
 plot_RTT <- function (age,hpd_M,hpd_m,mean_m,color){
@@ -64,7 +64,7 @@ abline(v=perm_trias_extinction, col="red", lty=2)
 abline(v=guadalupian_extinction, col="red", lty=2)
 
 # Third plot: Net diversification rate
-plot(age, age, type='n', ylim=c(-0.2695748, 1), xlim=c(-312.9, -185.1), 
+plot(age, age, type='n', ylim=c(-0.5, 1), xlim=c(-312.9, -185.1), 
      ylab='Net diversification rate', xlab='Ma',
      xaxt='n') # Remove default x-axis
 axis(1, at=x_ticks, labels=x_tick_labels) # Custom x-axis with 10MY interval ticks
