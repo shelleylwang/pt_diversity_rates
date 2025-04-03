@@ -3,7 +3,6 @@
 # And outputs trace + density plots as a pdf, and ess values as a pdf
 
 ############################################################################
-############################################################################
 library(coda)      # For MCMC diagnostics
 library(ggplot2)   # For plotting
 library(gridExtra) # For arranging plots
@@ -193,25 +192,19 @@ analyze_mcmc <- function(working_dir, file_pattern = "(mcmc|MBD)\\.log$", encodi
       # Create a new page
       grid.newpage()
       
-      # Add page title
+      # Add page title (moved down slightly)
       grid.text("MCMC Effective Sample Size (ESS) Summary", 
-                x = 0.5, y = 0.97, 
+                x = 0.5, y = 0.94, 
                 gp = gpar(fontface = "bold", fontsize = 14))
-      
-      # Add page number if multiple pages
-      if (num_pages > 1) {
-        grid.text(paste("Page", page, "of", num_pages), 
-                  x = 0.5, y = 0.93, 
-                  gp = gpar(fontsize = 10))
-      }
       
       # Determine which tables go on this page
       start_idx <- (page - 1) * tables_per_page + 1
       end_idx <- min(page * tables_per_page, length(all_ess_tables))
       page_tables <- all_ess_tables[start_idx:end_idx]
       
-      # Calculate height for each table section
-      section_height <- 0.85 / length(page_tables)
+      # Calculate height for each table section with additional spacing between groups
+      # Always calculate height as if there were 10 tables per page for consistent spacing
+      section_height <- 0.85 / tables_per_page  # tables_per_page is already set to 10
       
       # Draw each table for this page
       for (i in seq_along(page_tables)) {
@@ -222,8 +215,8 @@ analyze_mcmc <- function(working_dir, file_pattern = "(mcmc|MBD)\\.log$", encodi
         col_colors <- rep("black", length(table_info$low_ess))
         col_colors[table_info$low_ess] <- "red"
         
-        # Calculate vertical position for this table
-        y_position <- 0.9 - (i - 0.5) * section_height
+        # Calculate vertical position for this table with more spacing between groups
+        y_position <- 0.91 - (i - 0.5) * section_height 
         
         # Create viewport for this table section
         pushViewport(viewport(x = 0.5, y = y_position, width = 0.95, height = section_height * 0.9))
@@ -235,7 +228,7 @@ analyze_mcmc <- function(working_dir, file_pattern = "(mcmc|MBD)\\.log$", encodi
         # Draw subtitle
         grid.text(paste("Iterations:", table_info$iterations, 
                         "Sampling Rate:", table_info$sampling_rate), 
-                  x = 0.5, y = 0.82, 
+                  x = 0.5, y = 0.75, 
                   gp = gpar(fontface = "italic", fontsize = 8))
         
         # Create and draw table
@@ -257,7 +250,7 @@ analyze_mcmc <- function(working_dir, file_pattern = "(mcmc|MBD)\\.log$", encodi
         )
         
         # Create the vplayout to position the table
-        pushViewport(viewport(y = 0.35, height = 0.5))
+        pushViewport(viewport(y = 0.37, height = 0.5))
         
         # Draw the table
         grid.draw(tbl)
