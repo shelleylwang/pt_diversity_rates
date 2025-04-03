@@ -3,7 +3,7 @@
 
 # 95% HPDs calculated using code from Biopy (https://www.cs.auckland.ac.nz/~yhel002/biopy/)
 
-pdf(file='C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/reptilia/mcmc_fixshift_no_predictors/D_bdmcmc/combined_10_marginal_rates_RTT_plot2.pdf',width=8.4, height=10.8)
+pdf(file='C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/reptilia/mcmc_fixshift_no_predictors/D_bdmcmc (D_mcmc)/combined_10_marginal_rates_RTT_plot2.pdf',width=8, height=10.8)
 par(mfrow=c(3,1))
 library(scales)
 plot_RTT <- function (age,hpd_M,hpd_m,mean_m,color){
@@ -38,8 +38,8 @@ x_ticks <- seq(-310, -190, by=10)
 x_tick_labels <- abs(x_ticks)
 
 # First plot: Speciation rate
-plot(age, age, type='n', ylim=c(0, 1.1321024000000002), xlim=c(-312.9, -185.1), 
-     ylab='Speciation rate', xlab='Ma', main='Reptilia BDMCMC By Stages', 
+plot(age, age, type='n', ylim=c(0, 1), xlim=c(-312.9, -185.1), 
+     ylab='Speciation rate', xlab='Ma', main='Reptilia MCMC By Stages', 
      xaxt='n') # Remove default x-axis
 axis(1, at=x_ticks, labels=x_tick_labels) # Custom x-axis with 10MY interval ticks
 
@@ -51,7 +51,7 @@ abline(v=perm_trias_extinction, col="red", lty=2)
 abline(v=guadalupian_extinction, col="red", lty=2)
 
 # Second plot: Extinction rate
-plot(age, age, type='n', ylim=c(0, 0.6551886), xlim=c(-312.9, -185.1), 
+plot(age, age, type='n', ylim=c(0, 1), xlim=c(-312.9, -185.1), 
      ylab='Extinction rate', xlab='Ma',
      xaxt='n') # Remove default x-axis
 axis(1, at=x_ticks, labels=x_tick_labels) # Custom x-axis with 10MY interval ticks
@@ -64,7 +64,7 @@ abline(v=perm_trias_extinction, col="red", lty=2)
 abline(v=guadalupian_extinction, col="red", lty=2)
 
 # Third plot: Net diversification rate
-plot(age, age, type='n', ylim=c(-0.2695748, 0.9681364000000001), xlim=c(-312.9, -185.1), 
+plot(age, age, type='n', ylim=c(-0.5, 1), xlim=c(-312.9, -185.1), 
      ylab='Net diversification rate', xlab='Ma',
      xaxt='n') # Remove default x-axis
 axis(1, at=x_ticks, labels=x_tick_labels) # Custom x-axis with 10MY interval ticks
