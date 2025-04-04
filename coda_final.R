@@ -9,17 +9,17 @@ library(gridExtra) # For arranging plots
 library(grid)      # For grid graphics
 library(data.table) # For faster data reading and manipulation
 
-analyze_mcmc <- function(working_dir, encoding = "UTF-8") {
+analyze_mcmc <- function(working_dir, file_pattern = "(mcmc|MBD)\\.log$", encoding = "UTF-8") {
   # Set working directory
   original_dir <- getwd()
   setwd(working_dir)
   
-  # Find all mcmc.log or MBD.log files
-  mcmc_files <- list.files(path = working_dir, pattern = "(mcmc|MBD)\\.log$", full.names = FALSE)
+  # Find all files matching the provided pattern
+  mcmc_files <- list.files(path = working_dir, pattern = file_pattern, full.names = FALSE)
   
   # Check if any matching files were found
   if (length(mcmc_files) == 0) {
-    warning("No mcmc.log or MBD log files found in ", working_dir)
+    warning("No files matching pattern '", file_pattern, "' found in ", working_dir)
     setwd(original_dir)
     return(NULL)
   }
@@ -183,66 +183,82 @@ analyze_mcmc <- function(working_dir, encoding = "UTF-8") {
   if (length(all_ess_tables) > 0) {
     pdf(pdf_ess_file, width = 8.5, height = 11)
     
-    # Add main title
-    grid.newpage()
-    grid.text("MCMC Effective Sample Size (ESS) Summary", 
-              x = 0.5, y = 0.97, 
-              gp = gpar(fontface = "bold", fontsize = 14))
+    # Set the number of tables per page to 10 as requested
+    tables_per_page <- 10
+    num_pages <- ceiling(length(all_ess_tables) / tables_per_page)
     
-    # Create layout
-    pushViewport(viewport(x = 0.5, y = 0.5, width = 0.95, height = 0.9))
-    pushViewport(viewport(layout = grid.layout(length(all_ess_tables), 1)))
-    
-    # Draw each table
-    for (i in seq_along(all_ess_tables)) {
-      table_info <- all_ess_tables[[i]]
+    # Process each page
+    for (page in 1:num_pages) {
+      # Create a new page
+      grid.newpage()
       
-      # Set up colors for low ESS values
-      col_colors <- rep("black", length(table_info$low_ess))
-      col_colors[table_info$low_ess] <- "red"
+      # Add page title (moved down slightly)
+      grid.text("MCMC Effective Sample Size (ESS) Summary", 
+                x = 0.5, y = 0.94, 
+                gp = gpar(fontface = "bold", fontsize = 14))
       
-      # Create viewport
-      pushViewport(viewport(layout.pos.row = i, layout.pos.col = 1))
+      # Determine which tables go on this page
+      start_idx <- (page - 1) * tables_per_page + 1
+      end_idx <- min(page * tables_per_page, length(all_ess_tables))
+      page_tables <- all_ess_tables[start_idx:end_idx]
       
-      # Draw title
-      grid.text(table_info$title, x = 0.5, y = 0.95, 
-                gp = gpar(fontface = "bold", fontsize = 9))
+      # Calculate height for each table section with additional spacing between groups
+      # Always calculate height as if there were 10 tables per page for consistent spacing
+      section_height <- 0.85 / tables_per_page  # tables_per_page is already set to 10
       
-      # Draw subtitle
-      grid.text(paste("Iterations:", table_info$iterations, 
-                      "Sampling Rate:", table_info$sampling_rate), 
-                x = 0.5, y = 0.82, 
-                gp = gpar(fontface = "italic", fontsize = 8))
-      
-      # Create and draw table
-      tbl <- tableGrob(
-        table_info$data,
-        rows = NULL,
-        theme = ttheme_minimal(
-          core = list(
-            fg_params = list(col = col_colors, fontsize = 9)
-          ),
-          colhead = list(
-            fg_params = list(col = col_colors, fontface = "bold", fontsize = 9),
-            bg_params = list(fill = "lightgray")
-          ),
-          rowhead = list(
-            fg_params = list(fontface = "bold", fontsize = 9)
+      # Draw each table for this page
+      for (i in seq_along(page_tables)) {
+        table_info <- page_tables[[i]]
+        table_idx <- start_idx + i - 1
+        
+        # Set up colors for low ESS values
+        col_colors <- rep("black", length(table_info$low_ess))
+        col_colors[table_info$low_ess] <- "red"
+        
+        # Calculate vertical position for this table with more spacing between groups
+        y_position <- 0.91 - (i - 0.5) * section_height 
+        
+        # Create viewport for this table section
+        pushViewport(viewport(x = 0.5, y = y_position, width = 0.95, height = section_height * 0.9))
+        
+        # Draw title
+        grid.text(table_info$title, x = 0.5, y = 0.95, 
+                  gp = gpar(fontface = "bold", fontsize = 9))
+        
+        # Draw subtitle
+        grid.text(paste("Iterations:", table_info$iterations, 
+                        "Sampling Rate:", table_info$sampling_rate), 
+                  x = 0.5, y = 0.75, 
+                  gp = gpar(fontface = "italic", fontsize = 8))
+        
+        # Create and draw table
+        tbl <- tableGrob(
+          table_info$data,
+          rows = NULL,
+          theme = ttheme_minimal(
+            core = list(
+              fg_params = list(col = col_colors, fontsize = 9)
+            ),
+            colhead = list(
+              fg_params = list(col = col_colors, fontface = "bold", fontsize = 9),
+              bg_params = list(fill = "lightgray")
+            ),
+            rowhead = list(
+              fg_params = list(fontface = "bold", fontsize = 9)
+            )
           )
         )
-      )
-      
-      # Create the vplayout to position the table
-      vp <- viewport(y = 0.35, height = 0.5)
-      pushViewport(vp)
-      
-      # Draw the table
-      grid.draw(tbl)
-      
-      popViewport(2) # Pop table and row viewports
+        
+        # Create the vplayout to position the table
+        pushViewport(viewport(y = 0.37, height = 0.5))
+        
+        # Draw the table
+        grid.draw(tbl)
+        
+        popViewport(2) # Pop table and positioning viewports
+      }
     }
     
-    popViewport(1) # Pop the layout viewport
     dev.off()
   }
   
@@ -280,9 +296,9 @@ detect_encoding <- function(file_path) {
 }
 
 # Function that automatically detects encoding
-analyze_mcmc_auto <- function(working_dir) {
-  # Find first mcmc file for encoding detection
-  mcmc_files <- list.files(path = working_dir, pattern = "mcmc\\.log$", full.names = TRUE)
+analyze_mcmc_auto <- function(working_dir, file_pattern = "(mcmc|MBD)\\.log$") {
+  # Find first matching file for encoding detection
+  mcmc_files <- list.files(path = working_dir, pattern = file_pattern, full.names = TRUE)
   
   if (length(mcmc_files) > 0) {
     # Detect encoding from first file
@@ -293,17 +309,23 @@ analyze_mcmc_auto <- function(working_dir) {
   }
   
   # Run the analysis with detected encoding
-  analyze_mcmc(working_dir, encoding = encoding)
+  analyze_mcmc(working_dir, file_pattern = file_pattern, encoding = encoding)
 }
 
 # Example usage:
 # analyze_mcmc("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/reptilia/mcmc_no_predictors/A_rjmcmc_sampled_every_10k")
+# With custom file pattern:
+# analyze_mcmc("C:/path/to/files", file_pattern = "custom_mcmc.*\\.log$")
 # Or with automatic encoding detection:
-# analyze_mcmc_auto("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/reptilia/mcmc_no_predictors/A_rjmcmc_sampled_every_10k")
-
-
+# analyze_mcmc_auto("C:/path/to/files")
+# With custom file pattern and auto encoding:
+# analyze_mcmc_auto("C:/path/to/files", file_pattern = "custom_mcmc.*\\.log$")
 
 ######################### RUNNING FUNCTION ####################################
+
+######################### RUNS FROM TORSTEN ###################################
+analyze_mcmc("C:/Users/SimoesLabAdmin/Downloads/SE_stripped",file_pattern = ".*\\.log$")
+
 
 ######################### A Section (mcmc_no_predictors) #####################
 
