@@ -3,9 +3,21 @@
 
 # 95% HPDs calculated using code from Biopy (https://www.cs.auckland.ac.nz/~yhel002/biopy/)
 
-pdf(file='C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/temnospondyli/mcmc_fixshift_predictors/C_covar/C_covar_tem_combined_10_marginal_rates_RTT.pdf',width=10.8, height=8.4)
-par(mfrow=c(2,2))
+pdf(file='C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/temnospondyli/mcmc_fixshift_predictors/C_covar/combined_10_marginal_rates_RTT_plot2.pdf',width=8, height=10.8)
+par(mfrow=c(3,1))
 library(scales)
+plot_RTT <- function (age,hpd_M,hpd_m,mean_m,color){
+    N=100
+    beta=(1:(N-1))/N
+    alpha_shape=0.25
+    cat=1-(beta^(1./alpha_shape))
+    for (i in 1:(N-1)){
+        trans= 1/N + 2/N
+        polygon(c(age, rev(age)), c(hpd_M-((hpd_M-mean_m)*cat[i]), rev(hpd_m+((mean_m-hpd_m)*cat[i]))), col = alpha(color,trans), border = NA)
+    }
+    lines(rev(age), rev(mean_m), col = color, lwd=3)
+}
+    
 L_hpd_m95=c(NA, NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0.0,7.4e-05,7.4e-05,7.4e-05,7.4e-05,7.4e-05,7.4e-05,2.3e-05,2.3e-05,2.3e-05,2.3e-05,2.3e-05,2.3e-05,2.3e-05,2.3e-05,2.3e-05,0.000865,0.000865,0.000865,0.000865,0.000865,0.000865,0.000865,0.000865,0.000865,0.000865,0.031675,0.031675,0.031675,0.031675,0.031675,0.031675,0.031675,0.031675,0.031675,0.031675,0.037579,0.037579,0.037579,0.037579,0.037579,0.142837,0.142837,0.142837,0.142837,0.142837,0.381638,0.381638,0.381638,0.381638,0.381638,0.152704,0.152704,0.152704,0.152704,0.152704,0.152704,0.152704,0.000171,0.000171,0.000171,0.000171,0.000171,0.065113,0.065113,0.065113,0.065113,0.065113,0.065113,0.065113,0.065113,0.065113,0.020647,0.020647,0.020647,0.020647,0.020647,0.020647,0.020647,0.020647,0.020647,0.020647,0.007553,0.007553,0.007553,0.007553,0.007553,0.007553,0.007553,0.146114,0.146114,0.146114,0.146114,0.146114,0.146114,0.146114,0.146114,0.146114,0.146114,0.146114,0.146114,0.146114,0.146114,0.146114,0.146114,0.146114,0.146114)
 L_hpd_M95=c(NA, NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0.066252,0.072539,0.072539,0.072539,0.072539,0.072539,0.072539,0.069191,0.069191,0.069191,0.069191,0.069191,0.069191,0.069191,0.069191,0.069191,0.056572,0.056572,0.056572,0.056572,0.056572,0.056572,0.056572,0.056572,0.056572,0.056572,0.14262,0.14262,0.14262,0.14262,0.14262,0.14262,0.14262,0.14262,0.14262,0.14262,0.260995,0.260995,0.260995,0.260995,0.260995,0.356597,0.356597,0.356597,0.356597,0.356597,0.698765,0.698765,0.698765,0.698765,0.698765,0.44453,0.44453,0.44453,0.44453,0.44453,0.44453,0.44453,0.181458,0.181458,0.181458,0.181458,0.181458,0.203643,0.203643,0.203643,0.203643,0.203643,0.203643,0.203643,0.203643,0.203643,0.083612,0.083612,0.083612,0.083612,0.083612,0.083612,0.083612,0.083612,0.083612,0.083612,0.064456,0.064456,0.064456,0.064456,0.064456,0.064456,0.064456,0.233517,0.233517,0.233517,0.233517,0.233517,0.233517,0.233517,0.233517,0.233517,0.233517,0.233517,0.233517,0.233517,0.233517,0.233517,0.233517,0.233517,0.233517)
 M_hpd_m95=c(NA, NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0.0,0.087695,0.087695,0.087695,0.087695,0.087695,0.087695,4e-06,4e-06,4e-06,4e-06,4e-06,4e-06,4e-06,4e-06,4e-06,0.000552,0.000552,0.000552,0.000552,0.000552,0.000552,0.000552,0.000552,0.000552,0.000552,0.027411,0.027411,0.027411,0.027411,0.027411,0.027411,0.027411,0.027411,0.027411,0.027411,0.01983,0.01983,0.01983,0.01983,0.01983,0.171548,0.171548,0.171548,0.171548,0.171548,0.388866,0.388866,0.388866,0.388866,0.388866,0.069707,0.069707,0.069707,0.069707,0.069707,0.069707,0.069707,0.060715,0.060715,0.060715,0.060715,0.060715,0.039816,0.039816,0.039816,0.039816,0.039816,0.039816,0.039816,0.039816,0.039816,0.030057,0.030057,0.030057,0.030057,0.030057,0.030057,0.030057,0.030057,0.030057,0.030057,0.019042,0.019042,0.019042,0.019042,0.019042,0.019042,0.019042,0.079891,0.079891,0.079891,0.079891,0.079891,0.079891,0.079891,0.079891,0.079891,0.079891,0.079891,0.079891,0.079891,0.079891,0.079891,0.079891,0.079891,0.079891)
@@ -17,16 +29,52 @@ M_mean=c(NA, NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,N
 R_mean=c(NA, NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,-0.139731387,-0.19415431,-0.19415431,-0.19415431,-0.19415431,-0.19415431,-0.19415431,-0.00662871,-0.00662871,-0.00662871,-0.00662871,-0.00662871,-0.00662871,-0.00662871,-0.00662871,-0.00662871,-0.010565191,-0.010565191,-0.010565191,-0.010565191,-0.010565191,-0.010565191,-0.010565191,-0.010565191,-0.010565191,-0.010565191,0.012245189,0.012245189,0.012245189,0.012245189,0.012245189,0.012245189,0.012245189,0.012245189,0.012245189,0.012245189,0.001474073,0.001474073,0.001474073,0.001474073,0.001474073,-0.058732617,-0.058732617,-0.058732617,-0.058732617,-0.058732617,-0.004218647,-0.004218647,-0.004218647,-0.004218647,-0.004218647,0.1116572,0.1116572,0.1116572,0.1116572,0.1116572,0.1116572,0.1116572,-0.126194429,-0.126194429,-0.126194429,-0.126194429,-0.126194429,-0.012545527,-0.012545527,-0.012545527,-0.012545527,-0.012545527,-0.012545527,-0.012545527,-0.012545527,-0.012545527,-0.033015347,-0.033015347,-0.033015347,-0.033015347,-0.033015347,-0.033015347,-0.033015347,-0.033015347,-0.033015347,-0.033015347,-0.025171425,-0.025171425,-0.025171425,-0.025171425,-0.025171425,-0.025171425,-0.025171425,0.079550596,0.079550596,0.079550596,0.079550596,0.079550596,0.079550596,0.079550596,0.079550596,0.079550596,0.079550596,0.079550596,0.079550596,0.079550596,0.079550596,0.079550596,0.079550596,0.079550596,0.079550596)
 trans=0.5
 age=(0:(134-1))* -1
-plot(age,age,type = 'n', ylim = c(0, 0.7686415), xlim = c(-140.7,-20.3), ylab = 'Speciation rate', xlab = 'Ma',main='Temnospondyli Marginal RTT' )
-polygon(c(age, rev(age)), c(L_hpd_M95, rev(L_hpd_m95)), col = alpha("#4c4cec",trans), border = NA)
-lines(rev(age), rev(L_mean), col = "#4c4cec", lwd=3)
-plot(age,age,type = 'n', ylim = c(0, 0.7474511), xlim = c(-140.7,-20.3), ylab = 'Extinction rate', xlab = 'Ma' )
-polygon(c(age, rev(age)), c(M_hpd_M95, rev(M_hpd_m95)), col = alpha("#e34a33",trans), border = NA)
-lines(rev(age), rev(M_mean), col = "#e34a33", lwd=3)
-plot(age,age,type = 'n', ylim = c(-0.3645444, 0.3074038), xlim = c(-140.7,-20.3), ylab = 'Net diversification rate', xlab = 'Ma' )
-abline(h=0,lty=2,col="darkred")
-polygon(c(age, rev(age)), c(R_hpd_M95, rev(R_hpd_m95)), col = alpha("#504A4B",trans), border = NA)
-lines(rev(age), rev(R_mean), col = "#504A4B", lwd=3)
-plot(age,rev(1/M_mean),type = 'n', xlim = c(-140.7,-20.3), ylab = 'Longevity (Myr)', xlab = 'Ma' )
-lines(rev(age), rev(1/M_mean), col = "#504A4B", lwd=3)
-n <- dev.off()
+# Calculate positions for the mass extinction events
+perm_trias_extinction = -252 # End-Permian mass extinction (252 Ma)
+guadalupian_extinction = -261 # Guadalupian extinction (261 Ma)
+
+# Define custom tick positions at 10 MY intervals
+x_ticks <- seq(-310, -190, by=10)
+x_tick_labels <- abs(x_ticks)
+
+# First plot: Speciation rate
+plot(age, age, type='n', ylim=c(0, 1), xlim=c(-312.9, -185.1), 
+     ylab='Speciation rate', xlab='Ma', main='Temnospondyli CoVar MCMC By Stages', 
+     xaxt='n') # Remove default x-axis
+axis(1, at=x_ticks, labels=x_tick_labels) # Custom x-axis with 10MY interval ticks
+
+plot_RTT(age, L_hpd_M95, L_hpd_m95, L_mean, "#4c4cec")
+lines(rev(age), rev(L_mean), col="#4c4cec", lwd=3)
+
+# Add vertical lines for mass extinction events
+abline(v=perm_trias_extinction, col="red", lty=2) 
+abline(v=guadalupian_extinction, col="red", lty=2)
+
+# Second plot: Extinction rate
+plot(age, age, type='n', ylim=c(0, 1), xlim=c(-312.9, -185.1), 
+     ylab='Extinction rate', xlab='Ma',
+     xaxt='n') # Remove default x-axis
+axis(1, at=x_ticks, labels=x_tick_labels) # Custom x-axis with 10MY interval ticks
+
+plot_RTT(age, M_hpd_M95, M_hpd_m95, M_mean, "#e34a33")
+lines(rev(age), rev(M_mean), col="#e34a33", lwd=3)
+
+# Add vertical lines for mass extinction events
+abline(v=perm_trias_extinction, col="red", lty=2)
+abline(v=guadalupian_extinction, col="red", lty=2)
+
+# Third plot: Net diversification rate
+plot(age, age, type='n', ylim=c(-0.5, 1), xlim=c(-312.9, -185.1), 
+     ylab='Net diversification rate', xlab='Ma',
+     xaxt='n') # Remove default x-axis
+axis(1, at=x_ticks, labels=x_tick_labels) # Custom x-axis with 10MY interval ticks
+
+abline(h=0, lty=2, col="black")
+plot_RTT(age, R_hpd_M95, R_hpd_m95, R_mean, "#504A4B")
+lines(rev(age), rev(R_mean), col="#504A4B", lwd=3)
+
+# Add vertical lines for mass extinction events
+abline(v=perm_trias_extinction, col="red", lty=2)
+abline(v=guadalupian_extinction, col="red", lty=2)
+
+dev.off()

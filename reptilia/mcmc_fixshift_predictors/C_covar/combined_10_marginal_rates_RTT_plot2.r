@@ -3,8 +3,8 @@
 
 # 95% HPDs calculated using code from Biopy (https://www.cs.auckland.ac.nz/~yhel002/biopy/)
 
-pdf(file='C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/reptilia/mcmc_fixshift_predictors/C_covar/combined_10_marginal_rates_RTT.pdf',width=10.8, height=8.4)
-par(mfrow=c(2,2))
+pdf(file='C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/reptilia/mcmc_fixshift_predictors/C_covar/combined_10_marginal_rates_RTT_plot2.pdf',width=8, height=10.8)
+par(mfrow=c(3,1))
 library(scales)
 plot_RTT <- function (age,hpd_M,hpd_m,mean_m,color){
     N=100
@@ -29,14 +29,52 @@ M_mean=c(NA, NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,N
 R_mean=c(NA, NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,-0.177282127,-0.177282127,-0.177282127,-0.177282127,-0.177282127,-0.177282127,-0.177282127,-0.177282127,-0.177282127,-0.042757353,-0.042757353,-0.042757353,-0.042757353,-0.042757353,-0.042757353,-0.042757353,-0.042757353,-0.042757353,0.024060825,0.024060825,0.024060825,0.024060825,0.024060825,0.024060825,0.024060825,0.024060825,0.024060825,0.024060825,0.06219742,0.06219742,0.06219742,0.06219742,0.06219742,0.06219742,0.06219742,0.06219742,0.06219742,0.06219742,-0.045736649,-0.045736649,-0.045736649,-0.045736649,-0.045736649,0.01424095,0.01424095,0.01424095,0.01424095,0.01424095,0.305215272,0.305215272,0.305215272,0.305215272,0.305215272,-0.042111444,-0.042111444,-0.042111444,-0.042111444,-0.042111444,-0.042111444,-0.042111444,0.071744828,0.071744828,0.071744828,0.071744828,0.071744828,0.076205628,0.076205628,0.076205628,0.076205628,0.076205628,0.076205628,0.076205628,0.076205628,0.076205628,-0.068997483,-0.068997483,-0.068997483,-0.068997483,-0.068997483,-0.068997483,-0.068997483,-0.068997483,-0.068997483,-0.068997483,0.030493412,0.030493412,0.030493412,0.030493412,0.030493412,0.030493412,0.030493412,0.445690244,0.445690244,0.445690244,0.445690244,0.445690244,0.445690244,0.445690244)
 trans=0.5
 age=(0:(123-1))* -1
-plot(age,age,type = 'n', ylim = c(0, 1.0950170000000001), xlim = c(-129.15,-18.85), ylab = 'Speciation rate', xlab = 'Ma',main='combined' )
-plot_RTT(age,L_hpd_M95,L_hpd_m95,L_mean,"#4c4cec")
-lines(rev(age), rev(L_mean), col = "#4c4cec", lwd=3)
-plot(age,age,type = 'n', ylim = c(0, 0.6455383), xlim = c(-129.15,-18.85), ylab = 'Extinction rate', xlab = 'Ma' )
-plot_RTT(age,M_hpd_M95,M_hpd_m95,M_mean,"#e34a33")
-lines(rev(age), rev(M_mean), col = "#e34a33", lwd=3)
-plot(age,age,type = 'n', ylim = c(-0.2699268, 0.9776239000000001), xlim = c(-129.15,-18.85), ylab = 'Net diversification rate', xlab = 'Ma' )
-abline(h=0,lty=2,col="darkred")
-plot_RTT(age,R_hpd_M95,R_hpd_m95,R_mean,"#504A4B")
-lines(rev(age), rev(R_mean), col = "#504A4B", lwd=3)
-n <- dev.off()
+# Calculate positions for the mass extinction events
+perm_trias_extinction = -252 # End-Permian mass extinction (252 Ma)
+guadalupian_extinction = -261 # Guadalupian extinction (261 Ma)
+
+# Define custom tick positions at 10 MY intervals
+x_ticks <- seq(-310, -190, by=10)
+x_tick_labels <- abs(x_ticks)
+
+# First plot: Speciation rate
+plot(age, age, type='n', ylim=c(0, 1), xlim=c(-312.9, -185.1), 
+     ylab='Speciation rate', xlab='Ma', main='Reptilia CoVar MCMC By Stages', 
+     xaxt='n') # Remove default x-axis
+axis(1, at=x_ticks, labels=x_tick_labels) # Custom x-axis with 10MY interval ticks
+
+plot_RTT(age, L_hpd_M95, L_hpd_m95, L_mean, "#4c4cec")
+lines(rev(age), rev(L_mean), col="#4c4cec", lwd=3)
+
+# Add vertical lines for mass extinction events
+abline(v=perm_trias_extinction, col="red", lty=2) 
+abline(v=guadalupian_extinction, col="red", lty=2)
+
+# Second plot: Extinction rate
+plot(age, age, type='n', ylim=c(0, 1), xlim=c(-312.9, -185.1), 
+     ylab='Extinction rate', xlab='Ma',
+     xaxt='n') # Remove default x-axis
+axis(1, at=x_ticks, labels=x_tick_labels) # Custom x-axis with 10MY interval ticks
+
+plot_RTT(age, M_hpd_M95, M_hpd_m95, M_mean, "#e34a33")
+lines(rev(age), rev(M_mean), col="#e34a33", lwd=3)
+
+# Add vertical lines for mass extinction events
+abline(v=perm_trias_extinction, col="red", lty=2)
+abline(v=guadalupian_extinction, col="red", lty=2)
+
+# Third plot: Net diversification rate
+plot(age, age, type='n', ylim=c(-0.5, 1), xlim=c(-312.9, -185.1), 
+     ylab='Net diversification rate', xlab='Ma',
+     xaxt='n') # Remove default x-axis
+axis(1, at=x_ticks, labels=x_tick_labels) # Custom x-axis with 10MY interval ticks
+
+abline(h=0, lty=2, col="black")
+plot_RTT(age, R_hpd_M95, R_hpd_m95, R_mean, "#504A4B")
+lines(rev(age), rev(R_mean), col="#504A4B", lwd=3)
+
+# Add vertical lines for mass extinction events
+abline(v=perm_trias_extinction, col="red", lty=2)
+abline(v=guadalupian_extinction, col="red", lty=2)
+
+dev.off()
