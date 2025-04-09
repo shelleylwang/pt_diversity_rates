@@ -1,11 +1,23 @@
 # 1 files combined:
-# 	.\temnospondyli\mcmc_predictors\B_covar_mcmc\combined_10_marginal_rates.log
+# 	C:\Users\SimoesLabAdmin\Documents\BDNN_Arielli\temnospondyli\mcmc_predictors\B_covar_mcmc/combined_10_marginal_rates.log
 
 # 95% HPDs calculated using code from Biopy (https://www.cs.auckland.ac.nz/~yhel002/biopy/)
 
-pdf(file='C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/temnospondyli/mcmc_predictors/B_covar_mcmc/combined_10_marginal_rates_RTT.pdf',width=10.8, height=8.4)
-par(mfrow=c(2,2))
+pdf(file='C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/temnospondyli/mcmc_predictors/B_covar_mcmc/combined_10_marginal_rates_RTT_plot2.pdf',width=8, height=10.8)
+par(mfrow=c(3,1))
 library(scales)
+plot_RTT <- function (age,hpd_M,hpd_m,mean_m,color){
+    N=100
+    beta=(1:(N-1))/N
+    alpha_shape=0.25
+    cat=1-(beta^(1./alpha_shape))
+    for (i in 1:(N-1)){
+        trans= 1/N + 2/N
+        polygon(c(age, rev(age)), c(hpd_M-((hpd_M-mean_m)*cat[i]), rev(hpd_m+((mean_m-hpd_m)*cat[i]))), col = alpha(color,trans), border = NA)
+    }
+    lines(rev(age), rev(mean_m), col = color, lwd=3)
+}
+    
 L_hpd_m95=c(NA, NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0.0,0.132778,0.132778,0.132778,0.132778,0.132778,0.132778,0.132778,0.132778,0.132778,0.132778,0.132778,0.132778,0.132778,0.132778,0.132778,0.132778,0.132778,0.132778,0.132778,0.132778,0.132778,0.132778,0.132778,0.132778,0.132778,0.132778,0.132778,0.132778,0.132778,0.132778,0.132778,0.132778,0.132778,0.132778,0.132778,0.132778,0.132778,0.132778,0.132778,0.132778,0.132778,0.132778,0.132778,0.132778,0.132778,0.132778,0.132778,0.132778,0.132778,0.132778,0.132778,0.132778,0.132778,0.132778,0.132778,0.132778,0.132778,0.132778,0.132778,0.132778,0.132778,0.132778,0.132778,0.132778,0.132778,0.132778,0.132778,0.132778,0.132778,0.132778,0.132778,0.132778,0.132778,0.132778,0.132778,0.132778,0.132778,0.132778,0.132778,0.132778,0.132778,0.132778,0.132778,0.132778,0.132778,0.132778,0.132778,0.132778,0.132778,0.132778,0.132778,0.132778,0.132778,0.132778,0.132778,0.132778,0.132778,0.132778,0.132778,0.132778,0.132778,0.132778,0.132778,0.132778,0.132778,0.132778)
 L_hpd_M95=c(NA, NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0.163759,0.169945,0.169945,0.169945,0.169945,0.169945,0.169945,0.169945,0.169945,0.169945,0.169945,0.169945,0.169945,0.169945,0.169945,0.169945,0.169945,0.169945,0.169945,0.169945,0.169945,0.169945,0.169945,0.169945,0.169945,0.169945,0.169945,0.169945,0.169945,0.169945,0.169945,0.169945,0.169945,0.169945,0.169945,0.169945,0.169945,0.169945,0.169945,0.169945,0.169945,0.169945,0.169945,0.169945,0.169945,0.169945,0.169945,0.169945,0.169945,0.169945,0.169945,0.169945,0.169945,0.169945,0.169945,0.169945,0.169945,0.169945,0.169945,0.169945,0.169945,0.169945,0.169945,0.169945,0.169945,0.169945,0.169945,0.169945,0.169945,0.169945,0.169945,0.169945,0.169945,0.169945,0.169945,0.169945,0.169945,0.169945,0.169945,0.169945,0.169945,0.169945,0.169945,0.169945,0.169945,0.169945,0.169945,0.169945,0.169945,0.169945,0.169945,0.169945,0.169945,0.169945,0.169945,0.169945,0.169945,0.169945,0.169945,0.169945,0.169945,0.169945,0.169945,0.169945,0.169945,0.169945,0.169945)
 M_hpd_m95=c(NA, NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0.0,0.128824,0.128824,0.128824,0.128824,0.128824,0.128824,0.128824,0.128824,0.128824,0.128824,0.128824,0.128824,0.128824,0.128824,0.128824,0.128824,0.128824,0.128824,0.128824,0.128824,0.128824,0.128824,0.128824,0.128824,0.128824,0.128824,0.128824,0.128824,0.128824,0.128824,0.128824,0.128824,0.128824,0.128824,0.128824,0.128824,0.128824,0.128824,0.128824,0.128824,0.128824,0.128824,0.128824,0.128824,0.128824,0.128824,0.128824,0.128824,0.128824,0.128824,0.128824,0.128824,0.128824,0.128824,0.128824,0.128824,0.128824,0.128824,0.128824,0.128824,0.128824,0.128824,0.128824,0.128824,0.128824,0.128824,0.128824,0.128824,0.128824,0.128824,0.128824,0.128824,0.128824,0.128824,0.128824,0.128824,0.128824,0.128824,0.128824,0.128824,0.128824,0.128824,0.128824,0.128824,0.128824,0.128824,0.128824,0.128824,0.128824,0.128824,0.128824,0.128824,0.128824,0.128824,0.128824,0.128824,0.128824,0.128824,0.128824,0.128824,0.128824,0.128824,0.128824,0.128824,0.128824,0.128824)
@@ -17,16 +29,52 @@ M_mean=c(NA, NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,N
 R_mean=c(NA, NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0.000485801,0.000242805,0.000242805,0.000242805,0.000242805,0.000242805,0.000242805,0.000242805,0.000242805,0.000242805,0.000242805,0.000242805,0.000242805,0.000242805,0.000242805,0.000242805,0.000242805,0.000242805,0.000242805,0.000242805,0.000242805,0.000242805,0.000242805,0.000242805,0.000242805,0.000242805,0.000242805,0.000242805,0.000242805,0.000242805,0.000242805,0.000242805,0.000242805,0.000242805,0.000242805,0.000242805,0.000242805,0.000242805,0.000242805,0.000242805,0.000242805,0.000242805,0.000242805,0.000242805,0.000242805,0.000242805,0.000242805,0.000242805,0.000242805,0.000242805,0.000242805,0.000242805,0.000242805,0.000242805,0.000242805,0.000242805,0.000242805,0.000242805,0.000242805,0.000242805,0.000242805,0.000242805,0.000242805,0.000242805,0.000242805,0.000242805,0.000242805,0.000242805,0.000242805,0.000242805,0.000242805,0.000242805,0.000242805,0.000242805,0.000242805,0.000242805,0.000242805,0.000242805,0.000242805,0.000242805,0.000242805,0.000242805,0.000242805,0.000242805,0.000242805,0.000242805,0.000242805,0.000242805,0.000242805,0.000242805,0.000242805,0.000242805,0.000242805,0.000242805,0.000242805,0.000242805,0.000242805,0.000242805,0.000242805,0.000242805,0.000242805,0.000242805,0.000242805,0.000242805,0.000242805,0.000242805,0.000242805)
 trans=0.5
 age=(0:(309-1))* -1
-plot(age,age,type = 'n', ylim = c(0, 0.18693950000000004), xlim = c(-324.45,-186.55), ylab = 'Speciation rate', xlab = 'Ma',main='combined' )
-polygon(c(age, rev(age)), c(L_hpd_M95, rev(L_hpd_m95)), col = alpha("#4c4cec",trans), border = NA)
-lines(rev(age), rev(L_mean), col = "#4c4cec", lwd=3)
-plot(age,age,type = 'n', ylim = c(0, 0.18750160000000002), xlim = c(-324.45,-186.55), ylab = 'Extinction rate', xlab = 'Ma' )
-polygon(c(age, rev(age)), c(M_hpd_M95, rev(M_hpd_m95)), col = alpha("#e34a33",trans), border = NA)
-lines(rev(age), rev(M_mean), col = "#e34a33", lwd=3)
-plot(age,age,type = 'n', ylim = c(-0.0238117, 0.030606400000000006), xlim = c(-324.45,-186.55), ylab = 'Net diversification rate', xlab = 'Ma' )
-abline(h=0,lty=2,col="darkred")
-polygon(c(age, rev(age)), c(R_hpd_M95, rev(R_hpd_m95)), col = alpha("#504A4B",trans), border = NA)
-lines(rev(age), rev(R_mean), col = "#504A4B", lwd=3)
-plot(age,rev(1/M_mean),type = 'n', xlim = c(-324.45,-186.55), ylab = 'Longevity (Myr)', xlab = 'Ma' )
-lines(rev(age), rev(1/M_mean), col = "#504A4B", lwd=3)
-n <- dev.off()
+# Calculate positions for the mass extinction events
+perm_trias_extinction = -252 # End-Permian mass extinction (252 Ma)
+guadalupian_extinction = -261 # Guadalupian extinction (261 Ma)
+
+# Define custom tick positions at 10 MY intervals
+x_ticks <- seq(-310, -190, by=10)
+x_tick_labels <- abs(x_ticks)
+
+# First plot: Speciation rate
+plot(age, age, type='n', ylim=c(0, 1), xlim=c(-312.9, -185.1), 
+     ylab='Speciation rate', xlab='Ma', main='Reptilia MCMC By Stages', 
+     xaxt='n') # Remove default x-axis
+axis(1, at=x_ticks, labels=x_tick_labels) # Custom x-axis with 10MY interval ticks
+
+plot_RTT(age, L_hpd_M95, L_hpd_m95, L_mean, "#4c4cec")
+lines(rev(age), rev(L_mean), col="#4c4cec", lwd=3)
+
+# Add vertical lines for mass extinction events
+abline(v=perm_trias_extinction, col="red", lty=2) 
+abline(v=guadalupian_extinction, col="red", lty=2)
+
+# Second plot: Extinction rate
+plot(age, age, type='n', ylim=c(0, 1), xlim=c(-312.9, -185.1), 
+     ylab='Extinction rate', xlab='Ma',
+     xaxt='n') # Remove default x-axis
+axis(1, at=x_ticks, labels=x_tick_labels) # Custom x-axis with 10MY interval ticks
+
+plot_RTT(age, M_hpd_M95, M_hpd_m95, M_mean, "#e34a33")
+lines(rev(age), rev(M_mean), col="#e34a33", lwd=3)
+
+# Add vertical lines for mass extinction events
+abline(v=perm_trias_extinction, col="red", lty=2)
+abline(v=guadalupian_extinction, col="red", lty=2)
+
+# Third plot: Net diversification rate
+plot(age, age, type='n', ylim=c(-0.5, 1), xlim=c(-312.9, -185.1), 
+     ylab='Net diversification rate', xlab='Ma',
+     xaxt='n') # Remove default x-axis
+axis(1, at=x_ticks, labels=x_tick_labels) # Custom x-axis with 10MY interval ticks
+
+abline(h=0, lty=2, col="black")
+plot_RTT(age, R_hpd_M95, R_hpd_m95, R_mean, "#504A4B")
+lines(rev(age), rev(R_mean), col="#504A4B", lwd=3)
+
+# Add vertical lines for mass extinction events
+abline(v=perm_trias_extinction, col="red", lty=2)
+abline(v=guadalupian_extinction, col="red", lty=2)
+
+dev.off()
