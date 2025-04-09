@@ -1,4 +1,4 @@
-pdf(file='C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/reptilia/mcmc_no_predictors/A_bdnn_update/combined_10_RTT.pdf', width = 9, height = 6, useDingbats = FALSE)
+pdf(file='C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/reptilia/mcmc_no_predictors/A_bdnn_update/A_bdnn_update_combined_with_original_incomplete_pkls/combined_10_RTT.pdf', width = 9, height = 6, useDingbats = FALSE)
 
 layout(matrix(1:4, ncol = 2, nrow = 2, byrow = TRUE))
 par(las = 1, mar = c(4.5, 4.5, 0.5, 0.5))
