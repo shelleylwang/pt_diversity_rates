@@ -8,97 +8,93 @@ library(data.table)
 
 # Define the function
 analyze_ess_diagnostics <- function(working_dir, encoding = "UTF-8") {
-  # Set working directory
-  original_dir <- getwd()
-  setwd(working_dir)
-  
-  # Find all mcmc.log OR MBD.log files
+  # Find all mcmc.log OR MBD.log files using full path
   mcmc_files <- list.files(path = working_dir, pattern = "(mcmc|MBD)\\.log$", full.names = FALSE)
   
   # Check if any matching files were found
   if (length(mcmc_files) == 0) {
     warning("No mcmc.log of MBD.log files found in ", working_dir)
-    setwd(original_dir)
     return(NULL)
-  }
-  
-  cat("Found", length(mcmc_files), "log files in", working_dir, "\n")
-  
-  # Store ESS tables for later output
-  all_ess_tables <- list() 
-  
-  # Columns we're interested in - defined once outside the loop
-  desired_columns <- c('posterior', 'prior', 'PP_lik', 'BD_lik', 'k_birth', 'k_death', 'RJ_hp')
-  
-  # Process each file
-  for (file_name in mcmc_files) {
-    cat("Processing:", file_name, "\n")
-    
-    # Full path to the file
-    file_path <- file.path(working_dir, file_name)
-    
-    # Read header to get column names using data.table
-    tryCatch({
-      # Use fread to quickly check the header
-      header <- data.table::fread(file_path, nrows = 1, sep = "\t", encoding = encoding)
-      column_names <- names(header)
+    analyze_ess_diagnostics <- function(working_dir, encoding = "UTF-8") {
+      # Find all mcmc.log OR MBD.log files using full path
+      mcmc_files <- list.files(path = working_dir, pattern = "(mcmc|MBD)\\.log$", full.names = FALSE)
       
-      # Find which of our desired columns actually exist in the file
-      available_columns <- column_names[column_names %in% desired_columns]
-      
-      if (length(available_columns) == 0) {
-        cat("No desired columns found in", file_name, ". Skipping this file. \n")
-        next
-      } 
-
-      # Read only the columns we need using data.table's select parameter
-      mcmc_data <- data.table::fread(
-        file_path, 
-        select = available_columns,
-        sep = "\t",
-        encoding = encoding
-      )
-      
-      if (ncol(mcmc_data) == 0) {
-        warning(paste("No columns could be read from", file_name))
-        next
+      # Check if any matching files were found
+      if (length(mcmc_files) == 0) {
+        warning("No mcmc.log or MBD.log files found in ", working_dir)
+        return(NULL)
       }
       
-      # Convert to mcmc object
-      mcmc_object <- as.mcmc(as.matrix(mcmc_data))
+      cat("Found", length(mcmc_files), "log files in", working_dir, "\n")
       
-      # Calculate effective sample size
-      ess <- effectiveSize(mcmc_object)
+      # Store ESS tables for later output
+      all_ess_tables <- list() 
       
-      # Commented out: Print the ESS values in a table format
-      # ess_table <- data.frame(Column = names(ess), ESS = ess)
-      # print(ess_table)
+      # Columns we're interested in - defined once outside the loop
+      desired_columns <- c('posterior', 'prior', 'PP_lik', 'BD_lik', 'k_birth', 'k_death', 'RJ_hp')
       
-      # Determine the quality of the ESS values
-      if (any(ess < 100)) {
-        quality <- "Poor"
-      } else if (any(ess <= 200)) {
-        quality <- "Fair"
-      } else {
-        quality <- "Good"
+      # Process each file
+      for (file_name in mcmc_files) {
+        cat("Processing:", file_name, "\n")
+        
+        # Full path to the file
+        file_path <- file.path(working_dir, file_name)
+        
+        # Read header to get column names using data.table
+        tryCatch({
+          # Use fread to quickly check the header
+          header <- data.table::fread(file_path, nrows = 1, sep = "\t", encoding = encoding)
+          column_names <- names(header)
+          
+          # Find which of our desired columns actually exist in the file
+          available_columns <- column_names[column_names %in% desired_columns]
+          
+          if (length(available_columns) == 0) {
+            cat("No desired columns found in", file_name, ". Skipping this file. \n")
+            next
+          } 
+          
+          # Read only the columns we need using data.table's select parameter
+          mcmc_data <- data.table::fread(
+            file_path, 
+            select = available_columns,
+            sep = "\t",
+            encoding = encoding
+          )
+          
+          if (ncol(mcmc_data) == 0) {
+            warning(paste("No columns could be read from", file_name))
+            next
+          }
+          
+          # Convert to mcmc object
+          mcmc_object <- as.mcmc(as.matrix(mcmc_data))
+          
+          # Calculate effective sample size
+          ess <- effectiveSize(mcmc_object)
+          
+          # Determine the quality of the ESS values
+          if (any(ess < 100)) {
+            quality <- "Poor"
+          } else if (any(ess <= 200)) {
+            quality <- "Fair"
+          } else {
+            quality <- "Good"
+          }
+          
+          # Print the quality of the file
+          cat("Quality:", quality, "\n\n")
+          
+          # Add to collection
+          all_ess_tables[[file_name]] <- ess
+          
+        }, error = function(e) {
+          cat("Error processing file:", file_name, "\n", e$message, "\n")
+        })
       }
       
-      # Print the quality of the file
-      cat("Quality:", quality, "\n\n")
-      
-      # Add to collection
-      all_ess_tables[[file_name]] <- ess
-      
-    }, error = function(e) {
-      cat("Error processing file:", file_name, "\n", e$message, "\n")
-    })
-  }
-  
-  # Reset working directory
-  setwd(original_dir)
-  
-  return(all_ess_tables)
-}
+      return(all_ess_tables)
+    }
 
 
 #################################################### CALLING IT
@@ -265,30 +261,33 @@ analyze_ess_diagnostics("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/synapsid
 # C_covar
 analyze_ess_diagnostics("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/synapsida/mcmc_fixshift_predictors/C_covar")
 
-###### Later call
-# C_covar/MBD_env_vars_gamma_exponential
-analyze_ess_diagnostics("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/synapsida/mcmc_fixshift_predictors/C_covar/MBD_env_vars_gamma_exponential")
-# C_covar/MBD_env_vars_gamma_linear
-analyze_ess_diagnostics("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/synapsida/mcmc_fixshift_predictors/C_covar/MBD_env_vars_gamma_linear")
-# C_covar/MBD_1myr_temp_gamma_exponential
-analyze_ess_diagnostics("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/synapsida/mcmc_fixshift_predictors/C_covar/MBD_1myr_temp_gamma_exponential")
-# C_covar/MBD_1myr_temp_gamma_linear
-analyze_ess_diagnostics("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/synapsida/mcmc_fixshift_predictors/C_covar/MBD_1myr_temp_gamma_linear")
+# ###### Later call
+# # C_covar/MBD_env_vars_gamma_exponential
+# analyze_ess_diagnostics("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/synapsida/mcmc_fixshift_predictors/C_covar/MBD_env_vars_gamma_exponential")
+# # C_covar/MBD_env_vars_gamma_linear
+# analyze_ess_diagnostics("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/synapsida/mcmc_fixshift_predictors/C_covar/MBD_env_vars_gamma_linear")
+# # C_covar/MBD_1myr_temp_gamma_exponential
+# analyze_ess_diagnostics("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/synapsida/mcmc_fixshift_predictors/C_covar/MBD_1myr_temp_gamma_exponential")
+# # C_covar/MBD_1myr_temp_gamma_linear
+# analyze_ess_diagnostics("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/synapsida/mcmc_fixshift_predictors/C_covar/MBD_1myr_temp_gamma_linear")
 ######
-
+# C_covar_horseshoe_exp_env_vars
+analyze_ess_diagnostics("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/synapsida/mcmc_fixshift_predictors/C_covar/C_covar_MBD_horseshoe_exp_env_vars")
+# C_covar_horseshoe_exp_1myr_temp
+analyze_ess_diagnostics("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/synapsida/mcmc_fixshift_predictors/C_covar/C_covar_MBD_horseshoe_exp_1myr_temp")
 
 # C_covar_test
 analyze_ess_diagnostics("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/synapsida/mcmc_fixshift_predictors/C_covar_test")
 # C_covar/MBD_env_vars_horseshoe_exponential
-analyze_ess_diagnostics("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/synapsida/mcmc_fixshift_predictors/C_covar/MBD_env_vars_horseshoe_exponential")
-# C_covar/MBD_env_vars_gamma_exponential
-analyze_ess_diagnostics("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/synapsida/mcmc_fixshift_predictors/C_covar/MBD_env_vars_gamma_exponential")
-# C_covar/MBD_env_vars_gamma_linear
-analyze_ess_diagnostics("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/synapsida/mcmc_fixshift_predictors/C_covar/MBD_env_vars_gamma_linear")
-# C_covar/MBD_1myr_temp_gamma_exponential
-analyze_ess_diagnostics("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/synapsida/mcmc_fixshift_predictors/C_covar/MBD_1myr_temp_gamma_exponential")
-# C_covar/MBD_1myr_temp_gamma_linear
-analyze_ess_diagnostics("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/synapsida/mcmc_fixshift_predictors/C_covar/MBD_1myr_temp_gamma_linear")
+# analyze_ess_diagnostics("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/synapsida/mcmc_fixshift_predictors/C_covar/MBD_env_vars_horseshoe_exponential")
+# # C_covar/MBD_env_vars_gamma_exponential
+# analyze_ess_diagnostics("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/synapsida/mcmc_fixshift_predictors/C_covar/MBD_env_vars_gamma_exponential")
+# # C_covar/MBD_env_vars_gamma_linear
+# analyze_ess_diagnostics("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/synapsida/mcmc_fixshift_predictors/C_covar/MBD_env_vars_gamma_linear")
+# # C_covar/MBD_1myr_temp_gamma_exponential
+# analyze_ess_diagnostics("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/synapsida/mcmc_fixshift_predictors/C_covar/MBD_1myr_temp_gamma_exponential")
+# # C_covar/MBD_1myr_temp_gamma_linear
+# analyze_ess_diagnostics("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/synapsida/mcmc_fixshift_predictors/C_covar/MBD_1myr_temp_gamma_linear")
 
 
 ################### C_TEMSNOSPONDYLI (mcmc_fixshift_predictors)
@@ -304,16 +303,20 @@ analyze_ess_diagnostics("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/temnospo
 analyze_ess_diagnostics("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/temnospondyli/mcmc_fixshift_predictors/C_bdnn_stdscaled_only")
 # C_covar
 analyze_ess_diagnostics("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/temnospondyli/mcmc_fixshift_predictors/C_covar")
-# C_covar/MBD_env_vars_horseshoe_exponential
-analyze_ess_diagnostics("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/temnospondyli/mcmc_fixshift_predictors/C_covar/MBD_env_vars_horseshoe_exponential")
-# C_covar/MBD_env_vars_gamma_exponential
-analyze_ess_diagnostics("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/temnospondyli/mcmc_fixshift_predictors/C_covar/MBD_env_vars_gamma_exponential")
-# C_covar/MBD_env_vars_gamma_linear
-analyze_ess_diagnostics("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/temnospondyli/mcmc_fixshift_predictors/C_covar/MBD_env_vars_gamma_linear")
-# C_covar/MBD_1myr_temp_gamma_exponential
-analyze_ess_diagnostics("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/temnospondyli/mcmc_fixshift_predictors/C_covar/MBD_1myr_temp_gamma_exponential")
-# C_covar/MBD_1myr_temp_gamma_linear
-analyze_ess_diagnostics("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/temnospondyli/mcmc_fixshift_predictors/C_covar/MBD_1myr_temp_gamma_linear")
+# C_covar_horseshoe_exp_env_vars
+analyze_ess_diagnostics("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/temnospondyli/mcmc_fixshift_predictors/C_covar/C_covar_MBD_horseshoe_exp_env_vars")
+# C_covar_horseshoe_exp_1myr_temp
+analyze_ess_diagnostics("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/temnospondyli/mcmc_fixshift_predictors/C_covar/C_covar_MBD_horseshoe_exp_1myr_temp")
+# # C_covar/MBD_env_vars_horseshoe_exponential
+# analyze_ess_diagnostics("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/temnospondyli/mcmc_fixshift_predictors/C_covar/MBD_env_vars_horseshoe_exponential")
+# # # C_covar/MBD_env_vars_gamma_exponential
+# analyze_ess_diagnostics("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/temnospondyli/mcmc_fixshift_predictors/C_covar/MBD_env_vars_gamma_exponential")
+# # C_covar/MBD_env_vars_gamma_linear
+# analyze_ess_diagnostics("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/temnospondyli/mcmc_fixshift_predictors/C_covar/MBD_env_vars_gamma_linear")
+# # C_covar/MBD_1myr_temp_gamma_exponential
+# analyze_ess_diagnostics("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/temnospondyli/mcmc_fixshift_predictors/C_covar/MBD_1myr_temp_gamma_exponential")
+# # C_covar/MBD_1myr_temp_gamma_linear
+# analyze_ess_diagnostics("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/temnospondyli/mcmc_fixshift_predictors/C_covar/MBD_1myr_temp_gamma_linear")
 
 ######################### D Section (mcmc_fixshift_no_predictors) #####################
 
