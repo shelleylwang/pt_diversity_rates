@@ -13,89 +13,80 @@ analyze_ess_diagnostics <- function(working_dir, encoding = "UTF-8") {
   
   # Check if any matching files were found
   if (length(mcmc_files) == 0) {
-    warning("No mcmc.log of MBD.log files found in ", working_dir)
+    warning("No mcmc.log or MBD.log files found in ", working_dir)
     return(NULL)
-    analyze_ess_diagnostics <- function(working_dir, encoding = "UTF-8") {
-      # Find all mcmc.log OR MBD.log files using full path
-      mcmc_files <- list.files(path = working_dir, pattern = "(mcmc|MBD)\\.log$", full.names = FALSE)
+  }
+  
+  cat("Found", length(mcmc_files), "log files in", working_dir, "\n")
+  
+  # Store ESS tables for later output
+  all_ess_tables <- list() 
+  
+  # Columns we're interested in - defined once outside the loop
+  desired_columns <- c('posterior', 'prior', 'PP_lik', 'BD_lik', 'k_birth', 'k_death', 'RJ_hp')
+  
+  # Process each file
+  for (file_name in mcmc_files) {
+    cat("Processing:", file_name, "\n")
+    
+    # Full path to the file
+    file_path <- file.path(working_dir, file_name)
+    
+    # Read header to get column names using data.table
+    tryCatch({
+      # Use fread to quickly check the header
+      header <- data.table::fread(file_path, nrows = 1, sep = "\t", encoding = encoding)
+      column_names <- names(header)
       
-      # Check if any matching files were found
-      if (length(mcmc_files) == 0) {
-        warning("No mcmc.log or MBD.log files found in ", working_dir)
-        return(NULL)
+      # Find which of our desired columns actually exist in the file
+      available_columns <- column_names[column_names %in% desired_columns]
+      
+      if (length(available_columns) == 0) {
+        cat("No desired columns found in", file_name, ". Skipping this file. \n")
+        next
+      } 
+      
+      # Read only the columns we need using data.table's select parameter
+      mcmc_data <- data.table::fread(
+        file_path, 
+        select = available_columns,
+        sep = "\t",
+        encoding = encoding
+      )
+      
+      if (ncol(mcmc_data) == 0) {
+        warning(paste("No columns could be read from", file_name))
+        next
       }
       
-      cat("Found", length(mcmc_files), "log files in", working_dir, "\n")
+      # Convert to mcmc object
+      mcmc_object <- as.mcmc(as.matrix(mcmc_data))
       
-      # Store ESS tables for later output
-      all_ess_tables <- list() 
+      # Calculate effective sample size
+      ess <- effectiveSize(mcmc_object)
       
-      # Columns we're interested in - defined once outside the loop
-      desired_columns <- c('posterior', 'prior', 'PP_lik', 'BD_lik', 'k_birth', 'k_death', 'RJ_hp')
-      
-      # Process each file
-      for (file_name in mcmc_files) {
-        cat("Processing:", file_name, "\n")
-        
-        # Full path to the file
-        file_path <- file.path(working_dir, file_name)
-        
-        # Read header to get column names using data.table
-        tryCatch({
-          # Use fread to quickly check the header
-          header <- data.table::fread(file_path, nrows = 1, sep = "\t", encoding = encoding)
-          column_names <- names(header)
-          
-          # Find which of our desired columns actually exist in the file
-          available_columns <- column_names[column_names %in% desired_columns]
-          
-          if (length(available_columns) == 0) {
-            cat("No desired columns found in", file_name, ". Skipping this file. \n")
-            next
-          } 
-          
-          # Read only the columns we need using data.table's select parameter
-          mcmc_data <- data.table::fread(
-            file_path, 
-            select = available_columns,
-            sep = "\t",
-            encoding = encoding
-          )
-          
-          if (ncol(mcmc_data) == 0) {
-            warning(paste("No columns could be read from", file_name))
-            next
-          }
-          
-          # Convert to mcmc object
-          mcmc_object <- as.mcmc(as.matrix(mcmc_data))
-          
-          # Calculate effective sample size
-          ess <- effectiveSize(mcmc_object)
-          
-          # Determine the quality of the ESS values
-          if (any(ess < 100)) {
-            quality <- "Poor"
-          } else if (any(ess <= 200)) {
-            quality <- "Fair"
-          } else {
-            quality <- "Good"
-          }
-          
-          # Print the quality of the file
-          cat("Quality:", quality, "\n\n")
-          
-          # Add to collection
-          all_ess_tables[[file_name]] <- ess
-          
-        }, error = function(e) {
-          cat("Error processing file:", file_name, "\n", e$message, "\n")
-        })
+      # Determine the quality of the ESS values
+      if (any(ess < 100)) {
+        quality <- "Poor"
+      } else if (any(ess <= 200)) {
+        quality <- "Fair"
+      } else {
+        quality <- "Good"
       }
       
-      return(all_ess_tables)
-    }
-
+      # Print the quality of the file
+      cat("Quality:", quality, "\n\n")
+      
+      # Add to collection
+      all_ess_tables[[file_name]] <- ess
+      
+    }, error = function(e) {
+      cat("Error processing file:", file_name, "\n", e$message, "\n")
+    })
+  }
+  
+  return(all_ess_tables)
+}
 
 #################################################### CALLING IT
 
@@ -174,6 +165,9 @@ analyze_ess_diagnostics("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/reptilia
 
 
 ################### B_SYNAPSIDA (mcmc_predictors)
+
+analyze_ess_diagnostics("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/synapsida/mcmc_predictors/pyrate_mcmc_logs/TEST_B_bdnn_stdscaled_only_continuous_4_2_update_tt")
+
 # B_bdnn_stdscaled_cbrt
 analyze_ess_diagnostics("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/synapsida/mcmc_predictors/B_bdnn_stdscaled_cbrt")
 # B_bdnn_stdscaled_log
