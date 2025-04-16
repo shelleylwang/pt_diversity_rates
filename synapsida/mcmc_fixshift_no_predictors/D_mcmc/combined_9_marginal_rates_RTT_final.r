@@ -38,11 +38,11 @@ x_ticks <- seq(-310, -190, by=10)
 x_tick_labels <- abs(x_ticks)
 
 # First plot: Speciation rate
+par(mar=c(5, 5, 4.5, 2))  # bottom, left, top, right margins
 plot(age, age, type='n', ylim=c(0, 1), xlim=c(-312.9, -185.1), 
-     ylab='Speciation rate', xlab='Ma', main='Synapsida MCMC By Stages', 
-     xaxt='n') # Remove default x-axis
-axis(1, at=x_ticks, labels=x_tick_labels) # Custom x-axis with 10MY interval ticks
-
+     ylab='Speciation rate', xlab='Ma', main='Reptilia MCMC By Stages', 
+     xaxt='n', cex.main=1.5, cex.lab=1.4, cex.axis=1.3) # xaxt removes default x axis
+axis(1, at=x_ticks, labels=x_tick_labels, cex.axis=1.3) # Custom x-axis with 10MY interval ticks
 plot_RTT(age, L_hpd_M95, L_hpd_m95, L_mean, "#4c4cec")
 lines(rev(age), rev(L_mean), col="#4c4cec", lwd=3)
 
@@ -51,10 +51,11 @@ abline(v=perm_trias_extinction, col="red", lty=2)
 abline(v=guadalupian_extinction, col="red", lty=2)
 
 # Second plot: Extinction rate
+par(mar=c(5, 5, 1, 2))  # bottom, left, top, right margins. Reduced top margin to 2.5 (from 4.5)
 plot(age, age, type='n', ylim=c(0, 1), xlim=c(-312.9, -185.1), 
      ylab='Extinction rate', xlab='Ma',
-     xaxt='n') # Remove default x-axis
-axis(1, at=x_ticks, labels=x_tick_labels) # Custom x-axis with 10MY interval ticks
+     xaxt='n', cex.main=1.5, cex.lab=1.4, cex.axis=1.3) # xaxt removes default x axis
+axis(1, at=x_ticks, labels=x_tick_labels, cex.axis=1.3) # Custom x-axis with 10MY interval ticks
 
 plot_RTT(age, M_hpd_M95, M_hpd_m95, M_mean, "#e34a33")
 lines(rev(age), rev(M_mean), col="#e34a33", lwd=3)
@@ -63,11 +64,13 @@ lines(rev(age), rev(M_mean), col="#e34a33", lwd=3)
 abline(v=perm_trias_extinction, col="red", lty=2)
 abline(v=guadalupian_extinction, col="red", lty=2)
 
+
 # Third plot: Net diversification rate
+par(mar=c(5, 5, 1, 2))  # bottom, left, top, right margins. Reduced top margin to 2.5 (from 4.5)
 plot(age, age, type='n', ylim=c(-0.5, 1), xlim=c(-312.9, -185.1), 
      ylab='Net diversification rate', xlab='Ma',
-     xaxt='n') # Remove default x-axis
-axis(1, at=x_ticks, labels=x_tick_labels) # Custom x-axis with 10MY interval ticks
+     xaxt='n', cex.main=1.5, cex.lab=1.4, cex.axis=1.3) # xaxt removes default x axis
+axis(1, at=x_ticks, labels=x_tick_labels, cex.axis=1.3) # Custom x-axis with 10MY interval ticks
 
 abline(h=0, lty=2, col="black")
 plot_RTT(age, R_hpd_M95, R_hpd_m95, R_mean, "#504A4B")
