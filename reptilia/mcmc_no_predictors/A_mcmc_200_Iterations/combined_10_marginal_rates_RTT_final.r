@@ -3,8 +3,10 @@
 
 # 95% HPDs calculated using code from Biopy (https://www.cs.auckland.ac.nz/~yhel002/biopy/)
 
-pdf(file='C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/reptilia/mcmc_no_predictors/A_mcmc_200_iterations/combined_10_marginal_rates_RTT_plot2.pdf',width=8, height=10.8)
-par(mfrow=c(3,1))
+pdf(file='C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/reptilia/mcmc_no_predictors/A_mcmc_200_iterations/combined_10_marginal_rates_RTT_final.pdf',width=8, height=10.8)
+par(mfrow=c(3,1), cex.main=1.7, cex.lab=1.4, cex.axis=1.3,
+    mgp=c(3.5, 1, 0),      # distance of axis labels from plot, increase first value to move y axis label further out
+    oma=c(2, 2, 2, 0))     # outer margins for the entire figure
 library(scales)
 plot_RTT <- function (age,hpd_M,hpd_m,mean_m,color){
     N=100
@@ -34,11 +36,12 @@ perm_trias_extinction = -252 # End-Permian mass extinction (252 Ma)
 guadalupian_extinction = -261 # Guadalupian extinction (261 Ma)
 
 # Define custom tick positions at 10 MY intervals
-x_ticks <- seq(-310, -190, by=10)
+x_ticks <- seq(-300, -200, by=10)
 x_tick_labels <- abs(x_ticks)
 
 # First plot: Speciation rate
-plot(age, age, type='n', ylim=c(0, 1), xlim=c(-312.9, -185.1), 
+par(mar=c(5, 5, 4.5, 2))  # bottom, left, top, right margins
+plot(age, age, type='n', ylim=c(0, 1), xlim=c(-300, -200), # Changed xlim to -300, -200, from auto-generated values 
      ylab='Speciation rate', xlab='Ma', main='Reptilia MCMC 1Myr Bins', 
      xaxt='n') # Remove default x-axis
 axis(1, at=x_ticks, labels=x_tick_labels) # Custom x-axis with 10MY interval ticks
@@ -51,7 +54,8 @@ abline(v=perm_trias_extinction, col="red", lty=2)
 abline(v=guadalupian_extinction, col="red", lty=2)
 
 # Second plot: Extinction rate
-plot(age, age, type='n', ylim=c(0, 1), xlim=c(-312.9, -185.1), 
+par(mar=c(5, 5, 1, 2))  # bottom, left, top, right margins. Reduced top margin to 2.5 (from 4.5)
+plot(age, age, type='n', ylim=c(0, 1), xlim=c(-300, -200), # Changed xlim to -300, -200, from auto-generated values 
      ylab='Extinction rate', xlab='Ma',
      xaxt='n') # Remove default x-axis
 axis(1, at=x_ticks, labels=x_tick_labels) # Custom x-axis with 10MY interval ticks
@@ -64,7 +68,9 @@ abline(v=perm_trias_extinction, col="red", lty=2)
 abline(v=guadalupian_extinction, col="red", lty=2)
 
 # Third plot: Net diversification rate
-plot(age, age, type='n', ylim=c(-0.5, 1), xlim=c(-312.9, -185.1), 
+par(mar=c(5, 5, 1, 2))  # bottom, left, top, right margins. Reduced top margin to 2.5 (from 4.5)
+
+plot(age, age, type='n', ylim=c(-0.5, 1), xlim=c(-300, -200), # Changed xlim to -300, -200, from auto-generated values 
      ylab='Net diversification rate', xlab='Ma',
      xaxt='n') # Remove default x-axis
 axis(1, at=x_ticks, labels=x_tick_labels) # Custom x-axis with 10MY interval ticks
