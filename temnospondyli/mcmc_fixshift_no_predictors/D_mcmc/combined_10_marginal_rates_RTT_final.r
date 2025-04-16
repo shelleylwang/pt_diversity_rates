@@ -3,7 +3,7 @@
 
 # 95% HPDs calculated using code from Biopy (https://www.cs.auckland.ac.nz/~yhel002/biopy/)
 
-pdf(file='C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/temnospondyli/mcmc_fixshift_no_predictors/D_mcmc/combined_10_marginal_rates_RTT_plot2.pdf',width=8, height=10.8)
+pdf(file='C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/temnospondyli/mcmc_fixshift_no_predictors/D_mcmc/combined_10_marginal_rates_RTT_final.pdf',width=8, height=10.8)
 par(mfrow=c(3,1))
 library(scales)
 plot_RTT <- function (age,hpd_M,hpd_m,mean_m,color){
