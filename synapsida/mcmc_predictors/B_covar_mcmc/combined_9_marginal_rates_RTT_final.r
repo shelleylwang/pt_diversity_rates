@@ -43,7 +43,7 @@ x_tick_labels <- abs(x_ticks)
 # First plot: Speciation rate
 par(mar=c(5, 5, 4.5, 2))  # bottom, left, top, right margins
 plot(age, age, type='n', ylim=c(0, 1), xlim=c(-300, -200), # Changed xlim to -300, -200, from auto-generated values 
-     ylab='Speciation rate', xlab='Ma', main='Reptilia MCMC By Stages', 
+     ylab='Speciation rate', xlab='Ma', main='Synapsida CoVar MCMC 1Myr Bins', 
      xaxt='n', cex.main=1.5, cex.lab=1.4, cex.axis=1.3) # xaxt removes default x axis
 axis(1, at=x_ticks, labels=x_tick_labels, cex.axis=1.3) # Custom x-axis with 10MY interval ticks
 plot_RTT(age, L_hpd_M95, L_hpd_m95, L_mean, "#4c4cec")
