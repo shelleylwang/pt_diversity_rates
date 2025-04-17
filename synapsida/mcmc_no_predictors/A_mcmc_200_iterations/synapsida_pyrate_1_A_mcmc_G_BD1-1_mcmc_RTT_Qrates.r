@@ -1,9 +1,8 @@
 library(scales)
 
 
-#pdf(file='C:\Users\SimoesLabAdmin\Documents\BDNN_Arielli\synapsida\mcmc_no_predictors\A_mcmc_200_iterations/synapsida_pyrate_1_A_mcmc_G_BD1-1_mcmc_RTT_Qrates.pdf',width=0.6*9, height=0.6*7)
-#pdf with forward slashes
-pdf(file='C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/synapsida/mcmc_no_predictors/A_mcmc_200_iterations/synapsida_pyrate_1_A_mcmc_G_BD1-1_mcmc_RTT_Qrates.pdf',width=0.6*9, height=0.6*7)
+pdf(file='C:\Users\SimoesLabAdmin\Documents\BDNN_Arielli\synapsida\mcmc_no_predictors\A_mcmc_200_iterations/synapsida_pyrate_1_A_mcmc_G_BD1-1_mcmc_RTT_Qrates.pdf',width=0.6*9, height=0.6*7)
+
 age = c(-309.78617734745336, -290.1)
 Q_mean = 1.0169217104994233
 Q_hpd_m = 0.7548111538940768
