@@ -167,7 +167,7 @@ analyze_ess_diagnostics("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/reptilia
 ################### B_SYNAPSIDA (mcmc_predictors)
 
 analyze_ess_diagnostics("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/synapsida/mcmc_predictors/pyrate_mcmc_logs/TEST_B_bdnn_stdscaled_only_continuous_4_2_update_tt")
-
+analyze_ess_diagnostics("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/synapsida/mcmc_predictors/pyrate_mcmc_logs/TEST_B_bdnn_stdscaled_only")
 # B_bdnn_stdscaled_cbrt
 analyze_ess_diagnostics("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/synapsida/mcmc_predictors/B_bdnn_stdscaled_cbrt")
 # B_bdnn_stdscaled_log

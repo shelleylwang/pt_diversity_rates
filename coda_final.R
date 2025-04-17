@@ -405,7 +405,7 @@ analyze_mcmc("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/reptilia/mcmc_predi
 
 ################### B_SYNAPSIDA (mcmc_predictors)
 analyze_mcmc("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/synapsida/mcmc_predictors/pyrate_mcmc_logs/TEST_B_bdnn_stdscaled_only_continuous_4_2_update_tt")
-analyze_mcmc("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/synapsida/mcmc_predictors/pyrate_mcmc_logs")
+analyze_mcmc("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/synapsida/mcmc_predictors/pyrate_mcmc_logs/TEST_B_bdnn_stdscaled_only")
 
 # B_bdnn_stdscaled_cbrt
 analyze_mcmc("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/synapsida/mcmc_predictors/B_bdnn_stdscaled_cbrt")
