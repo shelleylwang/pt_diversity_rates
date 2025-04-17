@@ -1,9 +1,8 @@
 library(scales)
 
 
-#pdf(file='C:\Users\SimoesLabAdmin\Documents\BDNN_Arielli\temnospondyli\mcmc_no_predictors\A_mcmc_200_iterations/temnospondyli_pyrate_1_A_mcmc_G_BD1-1_mcmc_RTT_Qrates.pdf',width=0.6*9, height=0.6*7)
-#pdf with forward slashes
-pdf(file='C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/temnospondyli/mcmc_no_predictors/A_mcmc_200_iterations/temnospondyli_pyrate_1_A_mcmc_G_BD1-1_mcmc_RTT_Qrates.pdf',width=0.6*9, height=0.6*7)
+pdf(file='C:\Users\SimoesLabAdmin\Documents\BDNN_Arielli\temnospondyli\mcmc_no_predictors\A_mcmc_200_iterations/temnospondyli_pyrate_1_A_mcmc_G_BD1-1_mcmc_RTT_Qrates.pdf',width=0.6*9, height=0.6*7)
+
 age = c(-309.8832168193317, -290.1)
 Q_mean = 7.737176425883716
 Q_hpd_m = 7.12987045168964
