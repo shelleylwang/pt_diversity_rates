@@ -146,7 +146,7 @@ plot_diversity_through_time(path = "C:/Users/SimoesLabAdmin/Documents/BDNN_Ariel
 plot_diversity_through_time(path = "C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/temnospondyli/mcmc_predictors/B_bdnn_stdscaled_boxcox/B_bdnn_stdscaled_boxcox_concatenated_logs", output = "temnospondyli_B_bdnn_stdscaled_boxcox_DTT_parallel.pdf", title = "Temnospondyli BDNN 1 Myr Global Diversity Trajectory", 
                             translate = 175)
 # B_bdnn_stdscaled_only
-plot_diversity_through_time(path = "C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/temnospondyli/mcmc_predictors/B_bdnn_stdscaled_only/B_bdnn_stdscaled_only_concatenated_logs", output = "temnospondyli_B_bdnn_stdscaled_only_DTT_parallel.pdf", title = "Temnospondyli BDNN 1 Myr Global Diversity Trajectory", 
+plot_diversity_through_time(path = "C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/temnospondyli/mcmc_predictors/B_bdnn_stdscaled_only", output = "temnospondyli_B_bdnn_stdscaled_only_continuous_DTT_parallel.pdf", title = "Temnospondyli BDNN 1 Myr Global Diversity Trajectory", 
                             translate = 175)
 # B_covar_mcmc
 plot_diversity_through_time(path = "C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/temnospondyli/mcmc_predictors/B_covar_mcmc", output = "temnospondyli_B_covar_mcmc_DTT_parallel.pdf", title = "Temnospondyli CoVar 1 Myr Global Diversity Trajectory")
