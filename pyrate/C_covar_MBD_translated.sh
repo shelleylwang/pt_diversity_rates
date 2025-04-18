@@ -1,8 +1,8 @@
 #!/bin/bash
 #SBATCH --job-name=C_covar_MBD_translated         # Job name
 #SBATCH --array=1-10                     # Array with 10 independent tasks
-#SBATCH --mem-per-cpu=260MB                # Memory per CPU core (adjust if needed)
-#SBATCH --time=2-00:00:00               # Time limit, e.g., 1 day and 1 hour
+#SBATCH --mem-per-cpu=400MB                # Memory per CPU core (adjust if needed)
+#SBATCH --time=6-00:00:00               # Time limit, e.g., 1 day and 1 hour
 #SBATCH --mail-type=begin               # Send email when job begins
 #SBATCH --mail-type=end                 # Send email when job ends
 #SBATCH --mail-user=sw8569@princeton.edu
