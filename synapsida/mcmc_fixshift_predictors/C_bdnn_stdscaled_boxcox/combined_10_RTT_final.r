@@ -1,4 +1,4 @@
-pdf(file='C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/synapsida/mcmc_fixshift_predictors/C_bdnn_stdscaled_boxcox/combined_10_RTT.pdf', width = 8, height = 10.8, useDingbats = FALSE)
+pdf(file='C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/synapsida/mcmc_fixshift_predictors/C_bdnn_stdscaled_boxcox/combined_10_RTT_final.pdf', width = 8, height = 10.8, useDingbats = FALSE)
 
 # Set up the layout for 3 vertical plots
 par(mfrow=c(3,1), cex.main=1.7, cex.lab=1.4, cex.axis=1.3,
