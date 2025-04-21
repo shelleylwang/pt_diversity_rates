@@ -1,0 +1,2 @@
+feature1,feature2,feature1_state,feature2_state,posterior_probability,fold_change,fold_change_lwr_CI,fold_change_upr_CI,shap,lwr_shap,upr_shap,delta_lik,lwr_delta_lik,upr_delta_lik,rank
+time,none,none,none,1.0,-9.442274947428853,-12.471536297449559,-6.258789897422284,NA,NA,NA,-992.0577532890816,-1509.3919352785588,-516.4167630741067,1.0
