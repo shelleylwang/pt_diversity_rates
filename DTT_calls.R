@@ -103,7 +103,6 @@ plot_diversity_through_time(path = "C:/Users/SimoesLabAdmin/Documents/BDNN_Ariel
 # #B_covar_mcmc/MBD_1myr_temp_gamma_linear
 #plot_diversity_through_time(path = "C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/reptilia/mcmc_predictors/B_covar_mcmc/MBD_1myr_temp_gamma_linear", output = "reptilia_B_MBD_1myr_temp_gamma_lin_DTT.pdf", title = "Reptilia MBD 1 Myr Global Diversity Trajectory")
 
-
 ################### B_SYNAPSIDA (mcmc_predictors)
 # B_bdnn_stdscaled_cbrt
 plot_diversity_through_time(path = "C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/synapsida/mcmc_predictors/B_bdnn_stdscaled_cbrt", output = "synapsida_B_bdnn_stdscaled_cbrt_DTT.pdf", title = "Synapsida BDNN 1 Myr Global Diversity Trajectory", 
