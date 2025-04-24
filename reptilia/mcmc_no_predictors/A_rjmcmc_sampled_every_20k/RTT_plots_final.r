@@ -1,9 +1,11 @@
 
 
-pdf(file='C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/reptilia/mcmc_no_predictors/A_rjmcmc_sampled_every_20k/RTT_plots_final.pdf',width=10, height=15)
+pdf(file='C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/reptilia/mcmc_no_predictors/A_rjmcmc_sampled_every_20k/RTT_plots_final.pdf',width=8, height=10.8)
 par(mfrow=c(3,2), cex.main=1.7, cex.lab=1.4, cex.axis=1.3,
-    oma=c(2, 2, 2, 0))     # outer margins for the entire figure
+    oma=c(2, 2, 4, 2))     # outer margins for the entire figure
 library(scales)
+
+
 
 # Define custom tick positions at 10 MY intervals
 x_ticks <- seq(-300, -200, by=10)
@@ -21,7 +23,11 @@ remove_na = !is.na(rate)
 time = time[remove_na]
 plot(time,time,type = 'n', ylim = c(0, 10), xlim = c(-298.343482,-199.452803), ylab = 'Speciation rate', xlab = 'Ma',main='Speciation', xaxt='n') # xaxt removes default x axis
 
+# Add a title to the pdf
+title(main="Reptilia RJMCMC 1Myr Bins", outer=TRUE, cex.main=2)
+
 axis(1, at=x_ticks, labels=x_tick_labels, cex.axis=1.3) # Custom x-axis with 10MY interval ticks
+
 # Add vertical lines for mass extinction events
 abline(v=perm_trias_extinction, col="red", lty=2) 
 abline(v=guadalupian_extinction, col="red", lty=2)
