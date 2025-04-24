@@ -1,8 +1,9 @@
 
 
-pdf(file='C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/synapsida/mcmc_no_predictors/A_rjmcmc_sampled_every_20k/RTT_plots_final.pdf',width=10, height=15)
+pdf(file='C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/synapsida/mcmc_no_predictors/A_rjmcmc_sampled_every_20k/RTT_plots_final.pdf', width=11, height=11)
+# Note: reducing the width of the pdf by any more will force the x axis tick labels back to every 20 ma from the custom 10 ma
 par(mfrow=c(3,2), cex.main=1.7, cex.lab=1.4, cex.axis=1.3,
-    oma=c(2, 2, 2, 0))     # outer margins for the entire figure
+    oma=c(2, 2, 4, 2))     # outer margins for the entire figure
 library(scales)
 
 # Define custom tick positions at 10 MY intervals
