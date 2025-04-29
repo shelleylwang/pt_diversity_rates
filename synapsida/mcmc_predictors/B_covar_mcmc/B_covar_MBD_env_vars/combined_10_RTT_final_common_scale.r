@@ -1,7 +1,7 @@
 
 
 ####################################################### CHANGE FILE PATH
-pdf(file='C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/synapsida/mcmc_predictors/B_covar_mcmc/B_covar_MBD_env_vars/combined_10_RTT_final.pdf',width=0.6*25, height=0.6*10)
+pdf(file='C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/synapsida/mcmc_predictors/B_covar_mcmc/B_covar_MBD_env_vars/combined_10_RTT_final_common_scale.pdf',width=0.6*25, height=0.6*10)
 library(scales)
 
 # "translated" refers to the time bins in the MBD predictors directories .txt files being shifted 175 years towards the present
@@ -85,7 +85,7 @@ ex_hdp_M50=c(0.1926439136992477, 0.19273039361922986,0.19293120948318007,0.19273
 XLIM = c(-300,-200) # CHANGED THIS FROM c(min(time[clade_1>0]),0)
 par(mfrow=c(1,2))
 ########################################### CHANGE YLIM IF NEEDED (TO COMMON SCALE)
-YLIM = c(0,max(c(sp_hdp_M[clade_1>0],ex_hdp_M[clade_1>0])))
+YLIM = c(0,2)
 YLIMsmall = c(0,max(c(sp_hdp_M50[clade_1>0],ex_hdp_M50[clade_1>0])))
 plot(speciation[clade_1>0] ~ time[clade_1>0],type="l",col="#4c4cec", 
      xaxt = 'n', lwd=3,main="Speciation rates - Combined effects", ylim = YLIM,xlab="Time (Ma)",ylab="Speciation rates",xlim=XLIM)
@@ -118,7 +118,7 @@ extinction=c(0.1581844610066498, 0.1586418996624947,0.15910123193561582,0.158641
 par(mfrow=c(1,2))
 plot(speciation[clade_1>0] ~ time[clade_1>0],type="l",col="#4c4cec", 
      ########################################### CHANGE YLIM BELOW IF NEEDED (TO COMMON SCALE)
-     xaxt = 'n', lwd=3,main="Effect of: Diversity dependence", ylim =c(0,max(c(speciation,extinction))+0.05*max(c(speciation,extinction))),xlab="Time (Ma)",ylab="Speciation and extinction rates",xlim=XLIM) 
+     xaxt = 'n', lwd=3,main="Effect of: Diversity dependence", ylim =c(0,0.8),xlab="Time (Ma)",ylab="Speciation and extinction rates",xlim=XLIM) 
 axis(1, at=x_ticks, labels=x_tick_labels) # Custom x-axis with 10MY interval ticks
 ######################################################## ADD MTEXT()
 mtext("Wl = 0.16, Wm = 0.21, Gl = -0.17, Gm = 0.31")
@@ -145,7 +145,7 @@ extinction=c(0.17667707025993898, 0.17667707025993898,0.17667707025993898,0.1766
 par(mfrow=c(1,2))
 plot(speciation[clade_1>0] ~ time[clade_1>0],type="l",col="#4c4cec", 
      ########################################### CHANGE YLIM BELOW IF NEEDED (TO COMMON SCALE)
-     xaxt='n',lwd=3,main="Effect of: map_scaled_translated", ylim =c(0,max(c(speciation,extinction))+0.05*max(c(speciation,extinction))),xlab="Time (Ma)",ylab="Speciation and extinction rates",xlim=XLIM)
+     xaxt='n',lwd=3,main="Effect of: map_scaled_translated", ylim =c(0,0.8),xlab="Time (Ma)",ylab="Speciation and extinction rates",xlim=XLIM)
 axis(1, at=x_ticks, labels=x_tick_labels) # Custom x-axis with 10MY interval ticks
 ######################################################## ADD MTEXT()
 mtext("Wl = 0.2, Wm = 0.21, Gl = -0.06, Gm = -0.07")
@@ -172,7 +172,7 @@ extinction=c(0.1800102520207874, 0.1800102520207874,0.1800102520207874,0.1800102
 par(mfrow=c(1,2))
 plot(speciation[clade_1>0] ~ time[clade_1>0],type="l",col="#4c4cec", 
      ########################################### CHANGE YLIM BELOW IF NEEDED (TO COMMON SCALE)
-     xaxt='n', lwd=3,main="Effect of: mat_scaled_translated", ylim = c(0,max(c(speciation,extinction))+0.05*max(c(speciation,extinction))),xlab="Time (Ma)",ylab="Speciation and extinction rates",xlim=XLIM)
+     xaxt='n', lwd=3,main="Effect of: mat_scaled_translated", ylim = c(0,0.8),xlab="Time (Ma)",ylab="Speciation and extinction rates",xlim=XLIM)
 axis(1, at=x_ticks, labels=x_tick_labels) # Custom x-axis with 10MY interval ticks
 ######################################################## ADD MTEXT()
 mtext("Wl = 0.51, Wm = 0.13, Gl = -0.31, Gm = -0.0")
@@ -199,7 +199,7 @@ extinction=c(0.17369187527709826, 0.17369187527709826,0.17369187527709826,0.1736
 par(mfrow=c(1,2))
 plot(speciation[clade_1>0] ~ time[clade_1>0],type="l",col="#4c4cec", 
      ########################################### CHANGE YLIM BELOW IF NEEDED (TO COMMON SCALE)
-     xaxt='n',lwd=3,main="Effect of: wmmcmm_scaled_translated", ylim =c(0,max(c(speciation,extinction))+0.05*max(c(speciation,extinction))),xlab="Time (Ma)",ylab="Speciation and extinction rates",xlim=XLIM)
+     xaxt='n',lwd=3,main="Effect of: wmmcmm_scaled_translated", ylim =c(0,0.8),xlab="Time (Ma)",ylab="Speciation and extinction rates",xlim=XLIM)
 axis(1, at=x_ticks, labels=x_tick_labels) # Custom x-axis with 10MY interval ticks
 ######################################################## ADD MTEXT()
 mtext("Wl = 0.14, Wm = 0.17, Gl = -0.02, Gm = 0.04")
