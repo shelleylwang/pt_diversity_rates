@@ -1,7 +1,7 @@
 
 
 ####################################################### CHANGE FILE PATH
-pdf(file='C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/reptilia/mcmc_fixshift_predictors/C_covar/C_covar_MBD_1myr_temp/combined_10_RTT_final.pdf',width=0.6*25, height=0.6*10)
+pdf(file='C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/temnospondyli/mcmc_fixshift_predictors/C_covar/C_covar_MBD_1myr_temp/combined_10_RTT_final.pdf',width=0.6*25, height=0.6*10)
 library(scales)
 
 # "translated" refers to the time bins in the MBD predictors directories .txt files being shifted 175 years towards the present
@@ -52,9 +52,10 @@ x_ticks <- seq(-300, -200, by=10)
 x_tick_labels <- abs(x_ticks)
 
 ######################################################### ADD t = VECTOR
-time = -t - 175 # Added the - 175
+time = -t - 175 ########################### REMOVE THE -175 IF MODEL RUN WAS NOT TRANSLATED BY -175
 ######################################### ADD S, SP_HDPS, E, EX_HDPS VECTORS
-XLIM = c(min(time[clade_1>0]),-200) # CHANGED THIS FROM c(min(time[clade_1>0]),0)
+
+XLIM = c(-300,-200) # CHANGED THIS FROM c(min(time[clade_1>0]),0)
 par(mfrow=c(1,2))
 ########################################### CHANGE YLIM IF NEEDED (TO COMMON SCALE)
 YLIM = c(0,max(c(sp_hdp_M[clade_1>0],ex_hdp_M[clade_1>0])))
@@ -82,8 +83,8 @@ abline(v=guadalupian_extinction, col="red", lty=2)
 
 
 ######################################################### ADD t = VECTOR
-time = -t - 175 # Added the - 175
-######################################################### ADD speciation and extinction VECTORS
+time = -t - 175 ########################### REMOVE THE -175 IF MODEL RUN WAS NOT TRANSLATED BY -175
+######################################################### ADD speciation and extinction VECTORS FOR CLADE_1
 par(mfrow=c(1,2))
 plot(speciation[clade_1>0] ~ time[clade_1>0],type="l",col="#4c4cec", 
      ########################################### CHANGE YLIM BELOW IF NEEDED (TO COMMON SCALE)
@@ -105,8 +106,8 @@ abline(v=guadalupian_extinction, col="red", lty=2)
 
 
 ######################################################### ADD t = VECTOR
-time = -t - 175 # Added the - 175
-######################################################### ADD speciation and extinction VECTORS
+time = -t - 175 ########################### REMOVE THE -175 IF MODEL RUN WAS NOT TRANSLATED BY -175
+######################################################### ADD speciation and extinction VECTORS FOR CLADE_2
 par(mfrow=c(1,2))
 plot(speciation[clade_1>0] ~ time[clade_1>0],type="l",col="#4c4cec", 
      ########################################### CHANGE YLIM BELOW IF NEEDED (TO COMMON SCALE)
@@ -128,8 +129,8 @@ abline(v=guadalupian_extinction, col="red", lty=2)
 
 
 ######################################################### ADD t = VECTOR
-time = -t - 175 # Added the - 175
-######################################################### ADD speciation and extinction VECTORS
+time = -t - 175 ########################### REMOVE THE -175 IF MODEL RUN WAS NOT TRANSLATED BY -175
+######################################################### ADD speciation and extinction VECTORS FOR CLADE_3
 par(mfrow=c(1,2))
 plot(speciation[clade_1>0] ~ time[clade_1>0],type="l",col="#4c4cec", 
      ########################################### CHANGE YLIM BELOW IF NEEDED (TO COMMON SCALE)
