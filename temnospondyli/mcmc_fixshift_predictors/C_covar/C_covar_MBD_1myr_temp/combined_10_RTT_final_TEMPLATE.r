@@ -83,7 +83,7 @@ abline(v=guadalupian_extinction, col="red", lty=2)
 
 ######################################################### ADD t = VECTOR
 time = -t - 175 # Added the - 175
-######################################################### ADD speciation and extinction VECTORS
+######################################################### ADD speciation and extinction VECTORS FOR CLADE_1
 par(mfrow=c(1,2))
 plot(speciation[clade_1>0] ~ time[clade_1>0],type="l",col="#4c4cec", 
      ########################################### CHANGE YLIM BELOW IF NEEDED (TO COMMON SCALE)
@@ -106,7 +106,7 @@ abline(v=guadalupian_extinction, col="red", lty=2)
 
 ######################################################### ADD t = VECTOR
 time = -t - 175 # Added the - 175
-######################################################### ADD speciation and extinction VECTORS
+######################################################### ADD speciation and extinction VECTORS FOR CLADE_2
 par(mfrow=c(1,2))
 plot(speciation[clade_1>0] ~ time[clade_1>0],type="l",col="#4c4cec", 
      ########################################### CHANGE YLIM BELOW IF NEEDED (TO COMMON SCALE)
@@ -129,7 +129,7 @@ abline(v=guadalupian_extinction, col="red", lty=2)
 
 ######################################################### ADD t = VECTOR
 time = -t - 175 # Added the - 175
-######################################################### ADD speciation and extinction VECTORS
+######################################################### ADD speciation and extinction VECTORS FOR CLADE_3
 par(mfrow=c(1,2))
 plot(speciation[clade_1>0] ~ time[clade_1>0],type="l",col="#4c4cec", 
      ########################################### CHANGE YLIM BELOW IF NEEDED (TO COMMON SCALE)
