@@ -8,7 +8,7 @@ par(mfrow=c(3,1), cex.main=1.7, cex.lab=1.4, cex.axis=1.3,
     mgp=c(3.5, 1, 0),      # distance of axis labels from plot
     oma=c(2, 2, 2, 0))     # outer margins for the entire figure
 
-################################################### Your data vectors, time_vec through div_upr (longevity vectors excluded for our purposes)
+################################################### Data vectors, time_vec through div_upr (longevity vectors excluded for our purposes)
 time_vec=c(299.1209716796875, 290.10001,290.1,283.50001,283.5,273.00001,273.0,264.30001,264.3,259.50001,259.5,252.00001,252.0,247.00001,247.0,242.00001,242.0,237.00001,237.0,227.00001,227.0,217.00001,217.0,208.00001,208.0,198.4518165588379)
 sp_mean=c(0.31596927631275507, 0.31596927631275507,0.3204149167034899,0.3204149167034899,0.32480634041873513,0.32480634041873513,0.3264662623975076,0.3264662623975076,0.3224156105090612,0.3224156105090612,0.3113979645984984,0.3113979645984984,0.2890097178398075,0.2890097178398075,0.2607489290817626,0.2607489290817626,0.2235144842192724,0.2235144842192724,0.1596113886482588,0.1596113886482588,0.09207353617294506,0.09207353617294506,0.06418061291967098,0.06418061291967098,0.11599383204471864,0.11599383204471864)
 sp_lwr=c(0.23374386636788014, 0.23374386636788014,0.24645096757201984,0.24645096757201984,0.26950897755857783,0.26950897755857783,0.27519977980843097,0.27519977980843097,0.28009080192172636,0.28009080192172636,0.27550695733418346,0.27550695733418346,0.2557409797886321,0.2557409797886321,0.2300876118737081,0.2300876118737081,0.19928873269518543,0.19928873269518543,0.14200104436951833,0.14200104436951833,0.07824589818463872,0.07824589818463872,0.05213568633263375,0.05213568633263375,0.0906805971656018,0.0906805971656018)
@@ -28,14 +28,14 @@ guadalupian_extinction = 261 # Guadalupian extinction (261 Ma)
 x_ticks <- seq(300, 200, by=-10)
 x_tick_labels <- x_ticks
 
-# Convert time_vec to negative values to match your desired format
+# Convert time_vec to negative values to match  desired format
 time_vec_neg <- -time_vec  # Converting to negative for plotting consistency
 
 # First plot: Speciation rate
 par(mar=c(5, 5, 4.5, 2))  # bottom, left, top, right margins
 plot(time_vec, sp_mean, type='n', ylim=c(0, 1), xlim=c(300, 200),
      ############################################################ Change PDF title
-     ylab='Speciation rate', xlab='Ma', main='Reptilia BDNN 1Myr Bins No Predictors',
+     ylab='Speciation rate', xlab='Ma', main='Reptilia BDNN 1Myr Bins No Environmental Predictors',
      xaxt='n', cex.main=1.5, cex.lab=1.4, cex.axis=1.3) # xaxt removes default x axis
 axis(1, at=x_ticks, labels=x_tick_labels, cex.axis=1.3) # Custom x-axis with 10MY interval ticks
 

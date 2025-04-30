@@ -8,7 +8,7 @@ par(mfrow=c(3,1), cex.main=1.7, cex.lab=1.4, cex.axis=1.3,
     mgp=c(3.5, 1, 0),      # distance of axis labels from plot
     oma=c(2, 2, 2, 0))     # outer margins for the entire figure
 
-################################################### Your data vectors, time_vec through div_upr (longevity vectors excluded for our purposes)
+################################################### Data vectors, time_vec through div_upr (longevity vectors excluded for our purposes)
 
 # Calculate positions for the mass extinction events
 perm_trias_extinction = 252 # End-Permian mass extinction (252 Ma)
@@ -18,7 +18,7 @@ guadalupian_extinction = 261 # Guadalupian extinction (261 Ma)
 x_ticks <- seq(300, 200, by=-10)
 x_tick_labels <- x_ticks
 
-# Convert time_vec to negative values to match your desired format
+# Convert time_vec to negative values, just for formatting
 time_vec_neg <- -time_vec  # Converting to negative for plotting consistency
 
 # First plot: Speciation rate
