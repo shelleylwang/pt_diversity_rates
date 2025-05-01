@@ -35,7 +35,7 @@ time_vec_neg <- -time_vec  # Converting to negative for plotting consistency
 par(mar=c(5, 5, 4.5, 2))  # bottom, left, top, right margins
 plot(time_vec, sp_mean, type='n', ylim=c(0, 1), xlim=c(300, 200),
      ############################################################ Change PDF title
-     ylab='Speciation rate', xlab='Ma', main='Reptilia BDNN 1Myr Bins No Environmental Predictors',
+     ylab='Speciation rate', xlab='Ma', main='Reptilia BDNN By Stages No Environmental Predictors',
      xaxt='n', cex.main=1.5, cex.lab=1.4, cex.axis=1.3) # xaxt removes default x axis
 axis(1, at=x_ticks, labels=x_tick_labels, cex.axis=1.3) # Custom x-axis with 10MY interval ticks
 
@@ -52,7 +52,7 @@ abline(v=guadalupian_extinction, col="red", lty=2)
 
 # Second plot: Extinction rate
 par(mar=c(5, 5, 1, 2))  # bottom, left, top, right margins. Reduced top margin to 2.5 (from 4.5)
-plot(time_vec, ex_mean, type='n', ylim=c(0, 0.6), xlim=c(300, 200),
+plot(time_vec, ex_mean, type='n', ylim=c(0, 1), xlim=c(300, 200),
      ylab='Extinction rate', xlab='Ma', 
      xaxt='n', cex.lab=1.4, cex.axis=1.3)
 axis(1, at=x_ticks, labels=x_tick_labels, cex.axis=1.3)
@@ -70,7 +70,7 @@ abline(v=guadalupian_extinction, col="red", lty=2)
 
 # Third plot: Net diversification rate
 par(mar=c(5, 5, 1, 2))  # bottom, left, top, right margins. Reduced top margin to 2.5 (from 4.5)
-plot(time_vec, div_mean, type='n', ylim=c(-0.4, 0.8), xlim=c(300, 200),
+plot(time_vec, div_mean, type='n', ylim=c(-0.5, 1), xlim=c(300, 200),
      ylab='Net diversification rate', xlab='Ma',
      xaxt='n', cex.lab=1.4, cex.axis=1.3)
 axis(1, at=x_ticks, labels=x_tick_labels, cex.axis=1.3)
