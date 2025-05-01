@@ -65,8 +65,8 @@ sp_plot <- ggplot(sp_data) +
             rot = 0,
             size = "auto",
             neg = TRUE) +
-  scale_x_continuous(limits = c(-300, -200),
-                     breaks = seq(-300, -200, by = 10),
+  scale_x_continuous(limits = c(-320, -190),
+                     breaks = seq(-320, -190, by = 10),
                      labels = format_labels) +
   ################################################# REMOVE SCALE_Y_CONTINUOUS IF YOU WANT AUTO Y SCALE
   ################################################# OR CHANGE SCALE_Y_CONTINUOUS IF NEEDED TO ADJUST Y SCALE
@@ -100,8 +100,8 @@ ex_plot <- ggplot(ex_data) +
             rot = 0,
             size = "auto",
             neg = TRUE) +
-  scale_x_continuous(limits = c(-300, -200),
-                     breaks = seq(-300, -200, by = 10),
+  scale_x_continuous(limits = c(-320, -190),
+                     breaks = seq(-320, -190, by = 10),
                      labels = format_labels) +
   ################################################# REMOVE SCALE_Y_CONTINUOUS IF YOU WANT AUTO Y SCALE
   ################################################# OR CHANGE SCALE_Y_CONTINUOUS IF NEEDED TO ADJUST Y SCALE
@@ -135,8 +135,8 @@ div_plot <- ggplot(div_data) +
             rot = 0,
             size = "auto",
             neg = TRUE) +
-  scale_x_continuous(limits = c(-300, -200),
-                     breaks = seq(-300, -200, by = 10),
+  scale_x_continuous(limits = c(-320, -190),
+                     breaks = seq(-320, -190, by = 10),
                      labels = format_labels) +
   ################################################# REMOVE SCALE_Y_CONTINUOUS IF YOU WANT AUTO Y SCALE
   ################################################# OR CHANGE SCALE_Y_CONTINUOUS IF NEEDED TO ADJUST Y SCALE
