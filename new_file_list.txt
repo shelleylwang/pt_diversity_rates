@@ -1,0 +1,3 @@
+C:\Users\SimoesLabAdmin\Documents\BDNN_Arielli\temnospondyli\mcmc_fixshift_predictors\C_bdnn_stdscaled_boxcox\combined_10_PDP_final_labeled.r
+C:\Users\SimoesLabAdmin\Documents\BDNN_Arielli\synapsida\mcmc_fixshift_predictors\C_bdnn_stdscaled_boxcox\combined_10_PDP_final_labeled.r
+C:\Users\SimoesLabAdmin\Documents\BDNN_Arielli\reptilia\mcmc_fixshift_predictors\C_bdnn_stdscaled_boxcox\combined_10_PDP_final_labeled.r
