@@ -1,0 +1,5 @@
+unique IDs (Asselian to Rhaetian)
+
+reptiles all: 3987
+reptiles terrestrial/semi-aquatic: 3140
+synapsida all (terrestrial): 3187
