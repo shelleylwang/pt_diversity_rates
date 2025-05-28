@@ -1,7 +1,7 @@
-# Permian-Triassic Diversity Rates Analyses
+# Permian-Triassic/Guadalupian-Ladinian Diversity Rates Analyses
 
-This project applies feed-forward neural networks to take time-series, discrete, and continuous fossil occurrence data, input it into a deep-learning model, and output extinction rates, speciation rates, sampling rates, times of rate shifts, etc. 
+This project applies feed-forward neural networks to the estimation of speciation and extinction rates of select taxa in deep time. 
 
-The ultimate result is that researchers may trace out the evolutionary trajectory of species with high validity. Input data comes from multiple sources and can include nearly anything -- geographic, morphology, genomics, human presence, paleotemperature, etc. 
+Input data comes from multiple sources and includes both species-specific and time series data. Data specific to this project are: fossil occurrence datasets for reptilia, synapsida, and temnospondyli clades from both the PBDB and from field-work by Princeton Ph.D candidates. Predictors include oceanic data, paleolatitudes, localities, and various other climactic variables.  
 
-The BDNN model is developed by Torsten Hauffe and Daniele Silvestro [here](https://github.com/dsilvestro/PyRate/blob/master/pyrate_lib/bdnn_lib.py)
+The PyRate BDNN model is developed by Torsten Hauffe and Daniele Silvestro [here](https://github.com/dsilvestro/PyRate/blob/master/pyrate_lib/bdnn_lib.py)
