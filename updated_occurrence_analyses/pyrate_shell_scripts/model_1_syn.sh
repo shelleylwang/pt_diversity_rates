@@ -19,6 +19,6 @@ module load anaconda3/2024.2
 
 # Define command to run
 python ../PyRate/PyRate.py updated_occurrence_analyses/data/Perm-Trias/pt_synapsida_filtered_spellchecked_renamed_PyRate.py \
--BDNNmodel 1 -A 0 -qShift updated_occurrence_analyses/data/Perm-Trias/Time_bins_ByStages.txt -mG \
--translate 175 -fixShift updated_occurrence_analyses/data/Perm-Trias/Time_bins_ByStages.txt \
+-A 0 -qShift updated_occurrence_analyses/data/Perm-Trias/Time_bins_ByStages.txt -mG \
+-fixShift updated_occurrence_analyses/data/Perm-Trias/Time_bins_ByStages.txt \
  -n 100000000 -s 10000 -wd updated_occurrence_analyses/model_1/synapsida -out _model_1 -j ${SLURM_ARRAY_TASK_ID} 
