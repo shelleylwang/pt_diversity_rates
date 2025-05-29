@@ -10,6 +10,10 @@
 #SBATCH --error=/scratch/gpfs/sw8569/model_1_%j_%A_%a.err
 #SBATCH --no-requeue                    # Disable requeue
 
+# NOTE: This script SHOULD HAVE been named model_A instead of model_1
+# So every instance of "model_1" in the script should be changed to "model_A"
+# To match the "additional models" in the analyses log
+
 # Change to the directory where the script should run
 cd /scratch/gpfs/sw8569/BDNN_Arielli
 
@@ -19,6 +23,6 @@ module load anaconda3/2024.2
 
 # Define command to run
 python ../PyRate/PyRate.py updated_occurrence_analyses/data/Perm-Trias/pt_reptilia_terr_filtered_spellchecked_renamed_PyRate.py \
--A 0 -qShift updated_occurrence_analyses/data/Perm-Trias/Time_bins_ByStages.txt -mG \
--fixShift updated_occurrence_analyses/data/Perm-Trias/Time_bins_ByStages.txt \
+-BDNNmodel 1 -A 0 -qShift updated_occurrence_analyses/data/Perm-Trias/Time_bins_ByStages.txt -mG \
+-translate 175 -fixShift updated_occurrence_analyses/data/Perm-Trias/Time_bins_ByStages.txt \
  -n 100000000 -s 10000 -wd updated_occurrence_analyses/model_1/reptilia_terr -out _model_1 -j ${SLURM_ARRAY_TASK_ID} 
