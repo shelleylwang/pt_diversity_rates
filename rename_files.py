@@ -21,9 +21,13 @@ def rename_files_in_folder(folder_path, source_string, target_string):
         print(f"An error occurred: {e}")
 
 # Specify the folder path and strings to replace
-folder_path = r'C:\path\to\your\folder'  # Change this to your folder path
-source_string = 'model_'  # The string you want to replace
-target_string = 'test_'   # The string you want to replace with
+# folder_path = r'C:/path/to/your/folder'  # Folder path
+# source_string = 'model_'  # The string you want to replace
+# target_string = 'test_'   # The string you want to replace with
 
 # Call the function to rename files
-rename_files_in_folder(folder_path, source_string, target_string)
+# rename_files_in_folder(folder_path, source_string, target_string)
+
+rename_files_in_folder("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/updated_occurrence_analyses/models_using_non_lat_binned_occs/model_A_synapsida", "model_1", "model_A")
+
+rename_files_in_folder("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/updated_occurrence_analyses/models_using_non_lat_binned_occs/model_A_reptilia_terr/", "model_1", "model_A")
