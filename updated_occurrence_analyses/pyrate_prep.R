@@ -10,5 +10,7 @@ extract.ages(file="updated_occurrence_analyses/data/Perm-Trias/pt_synapsida_pyra
 
 
 # GUADALUPIAN-LADINIAN
+extract.ages(file="updated_occurrence_analyses/data/Guad-Ladin/gl_reptilia_all_epochs_filtered.txt", replicates=10)
 extract.ages(file="updated_occurrence_analyses/data/Guad-Ladin/gl_reptilia_terr_epochs_filtered.txt", replicates=10)
 extract.ages(file="updated_occurrence_analyses/data/Guad-Ladin/gl_synapsida_epochs_filtered.txt", replicates=10)
+
