@@ -1388,8 +1388,6 @@ Aulacephalodon	extinct	254.14	259.51
 Oudenodon	extinct	254.14	259.51
 Oudenodon	extinct	254.14	259.51
 Dicynodon	extinct	254.14	259.51
-Dicynodon	extinct	254.14	259.51
-Oudenodon	extinct	254.14	259.51
 Oudenodon	extinct	254.14	259.51
 Rhachiocephalus	extinct	254.14	259.51
 Clelandina	extinct	254.14	259.51
@@ -2149,7 +2147,6 @@ Aleodon	extinct	237.0	246.7
 Trirachodon	extinct	237.0	246.7
 Titanogomphodon	extinct	237.0	246.7
 Microgomphodon	extinct	237.0	246.7
-Stahleckeria	extinct	237.0	246.7
 Ufudocyclops	extinct	237.0	246.7
 Ufudocyclops	extinct	237.0	246.7
 Ufudocyclops	extinct	237.0	246.7
@@ -2573,3 +2570,4 @@ Stahleckeria	extinct	237.0	242.0
 Riojanodon	extinct	237.0	242.0
 Massetognathus	extinct	237.0	242.0
 Nanogomphodon	extinct	237.0	239.7
+Bauria	extinct	242.0	249.9
