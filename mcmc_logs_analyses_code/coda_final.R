@@ -331,7 +331,7 @@ analyze_mcmc_auto <- function(working_dir, file_pattern = "(mcmc|MBD)\\.log$") {
 # 
 # ################ A_REPTILIA (mcmc_no_predictors) 
 # # A_rjmcmc_sampled_every_10k
-# analyze_mcmc("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/reptilia/mcmc_no_predictors/A_rjmcmc_sampled_every_10k")
+analyze_mcmc("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/old_occurrence_analyses/reptilia/mcmc_no_predictors/A_rjmcmc_sampled_every_10k")
 # # A_rjmcmc_sampled_every_20k
 # # Has ANSI encoding
 # analyze_mcmc("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/reptilia/mcmc_no_predictors/A_rjmcmc_sampled_every_20k", encoding = "Latin-1")
