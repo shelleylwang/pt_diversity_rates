@@ -15,7 +15,7 @@ analyze_mcmc <- function(working_dir, file_pattern = "(mcmc|MBD)\\.log$", encodi
   setwd(working_dir)
   
   # Find all files matching the provided pattern
-  mcmc_files <- list.files(path = working_dir, pattern = file_pattern, full.names = FALSE)
+  mcmc_files <- list.files(pattern = file_pattern, full.names = FALSE)
   
   # Check if any matching files were found
   if (length(mcmc_files) == 0) {
