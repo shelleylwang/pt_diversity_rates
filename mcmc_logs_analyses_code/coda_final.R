@@ -15,7 +15,7 @@ analyze_mcmc <- function(working_dir, file_pattern = "(mcmc|MBD)\\.log$", encodi
   setwd(working_dir)
   
   # Find all files matching the provided pattern
-  mcmc_files <- list.files(pattern = file_pattern, full.names = FALSE)
+  mcmc_files <- list.files(path = working_dir, pattern = file_pattern, full.names = FALSE)
   
   # Check if any matching files were found
   if (length(mcmc_files) == 0) {
@@ -331,7 +331,7 @@ analyze_mcmc_auto <- function(working_dir, file_pattern = "(mcmc|MBD)\\.log$") {
 # 
 # ################ A_REPTILIA (mcmc_no_predictors) 
 # # A_rjmcmc_sampled_every_10k
-# analyze_mcmc("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/reptilia/mcmc_no_predictors/A_rjmcmc_sampled_every_10k")
+analyze_mcmc("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/old_occurrence_analyses/reptilia/mcmc_no_predictors/A_rjmcmc_sampled_every_10k")
 # # A_rjmcmc_sampled_every_20k
 # # Has ANSI encoding
 # analyze_mcmc("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/reptilia/mcmc_no_predictors/A_rjmcmc_sampled_every_20k", encoding = "Latin-1")
