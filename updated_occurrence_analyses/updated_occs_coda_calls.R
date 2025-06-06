@@ -21,12 +21,19 @@ list.files("updated_occurrence_analyses/model_1/synapsida/",
            pattern = "(mcmc|MBD)\\.log$", full.names = TRUE)
 
 ############## MODEL 2
-analyze_ess_diagnostics("updated_occurrence_analyses/model_2/reptilia_terr")
+analyze_ess_diagnostics("updated_occurrence_analyses/model_2_and_5/reptilia_terr")
 analyze_mcmc("updated_occurrence_analyses/model_2_and_5/reptilia_terr")
 
-analyze_ess_diagnostics("updated_occurrence_analyses/model_2/synapsida")
+analyze_ess_diagnostics("updated_occurrence_analyses/model_2_and_5/synapsida")
 analyze_mcmc("updated_occurrence_analyses/model_2_and_5/synapsida")
 
+analyze_ess_diagnostics("updated_occurrence_analyses/model_2_and_5/reptilia_all")
+
+analyze_ess_diagnostics("updated_occurrence_analyses/model_2_and_5/synapsida_gibbs")
+analyze_mcmc("updated_occurrence_analyses/model_2_and_5/synapsida_gibbs")
+
+analyze_ess_diagnostics("updated_occurrence_analyses/model_2_and_5/reptilia_terr_gibbs")
+analyze_mcmc("updated_occurrence_analyses/model_2_and_5/reptilia_terr_gibbs")
 
 
 ############## MODEL 5
