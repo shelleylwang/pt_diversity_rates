@@ -32,6 +32,9 @@ analyze_ess_diagnostics("updated_occurrence_analyses/model_2_and_5/reptilia_all"
 analyze_ess_diagnostics("updated_occurrence_analyses/model_2_and_5/synapsida_gibbs")
 analyze_mcmc("updated_occurrence_analyses/model_2_and_5/synapsida_gibbs")
 
+analyze_ess_diagnostics("updated_occurrence_analyses/model_2_and_5/reptilia_terr_gibbs")
+analyze_mcmc("updated_occurrence_analyses/model_2_and_5/reptilia_terr_gibbs")
+
 
 ############## MODEL 5
 analyze_ess_diagnostics("updated_occurrence_analyses/model_2_and_5/reptilia_all")
