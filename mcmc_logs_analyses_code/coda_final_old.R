@@ -10,16 +10,26 @@ library(grid)      # For grid graphics
 library(data.table) # For faster data reading and manipulation
 
 analyze_mcmc <- function(working_dir, file_pattern = "(mcmc|MBD)\\.log$", encoding = "UTF-8") {
+  # Validate working_dir
+  if (!dir.exists(working_dir)) {
+    stop("Directory not found: ", working_dir)
+  }
+  if (file.access(working_dir, mode = 2) != 0) {
+    stop("No write permissions in directory: ", working_dir)
+  }
+  
   # Set working directory
-  original_dir <- getwd()
-  setwd(working_dir)
+  original_dir <- getwd() # Path set before the call of the function
+  setwd(working_dir) # Path you provide
+  # When you exit the function (for any reason, error or just finished), directory reverts back to original_dir
+  on.exit(setwd(original_dir), add = TRUE)
   
   # Find all files matching the provided pattern
   mcmc_files <- list.files(path = working_dir, pattern = file_pattern, full.names = FALSE)
   
   # Check if any matching files were found
   if (length(mcmc_files) == 0) {
-    warning("No files matching pattern '", file_pattern, "' found in ", working_dir)
+    warning("No files matching pattern '", file_pattern, "' found in ", normalizePath(working_dir))
     setwd(original_dir)
     return(NULL)
   }
@@ -331,7 +341,7 @@ analyze_mcmc_auto <- function(working_dir, file_pattern = "(mcmc|MBD)\\.log$") {
 # 
 # ################ A_REPTILIA (mcmc_no_predictors) 
 # # A_rjmcmc_sampled_every_10k
-analyze_mcmc("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/old_occurrence_analyses/reptilia/mcmc_no_predictors/A_rjmcmc_sampled_every_10k")
+# analyze_mcmc("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/old_occurrence_analyses/reptilia/mcmc_no_predictors/A_rjmcmc_sampled_every_10k")
 # # A_rjmcmc_sampled_every_20k
 # # Has ANSI encoding
 # analyze_mcmc("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/reptilia/mcmc_no_predictors/A_rjmcmc_sampled_every_20k", encoding = "Latin-1")
