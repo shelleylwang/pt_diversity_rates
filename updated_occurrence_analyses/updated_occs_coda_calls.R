@@ -29,12 +29,25 @@ analyze_mcmc("updated_occurrence_analyses/model_2_and_5/synapsida")
 
 analyze_ess_diagnostics("updated_occurrence_analyses/model_2_and_5/reptilia_all")
 
+# GIBBS
 analyze_ess_diagnostics("updated_occurrence_analyses/model_2_and_5/synapsida_gibbs")
 analyze_mcmc("updated_occurrence_analyses/model_2_and_5/synapsida_gibbs")
 
 analyze_ess_diagnostics("updated_occurrence_analyses/model_2_and_5/reptilia_terr_gibbs")
 analyze_mcmc("updated_occurrence_analyses/model_2_and_5/reptilia_terr_gibbs")
 
+analyze_ess_diagnostics("updated_occurrence_analyses/model_2_and_5/reptilia_all_gibbs")
+analyze_mcmc("updated_occurrence_analyses/model_2_and_5/reptilia_all_gibbs")
+
+# 200 ITERATIONS
+analyze_ess_diagnostics("updated_occurrence_analyses/model_2_and_5/synapsida_200")
+analyze_mcmc("updated_occurrence_analyses/model_2_and_5/synapsida_200")
+
+analyze_ess_diagnostics("updated_occurrence_analyses/model_2_and_5/reptilia_terr_200")
+analyze_mcmc("updated_occurrence_analyses/model_2_and_5/reptilia_terr_200")
+
+analyze_ess_diagnostics("updated_occurrence_analyses/model_2_and_5/reptilia_all_200")
+analyze_mcmc("updated_occurrence_analyses/model_2_and_5/reptilia_all_200")
 
 ############## MODEL 5
 analyze_ess_diagnostics("updated_occurrence_analyses/model_2_and_5/reptilia_all")
