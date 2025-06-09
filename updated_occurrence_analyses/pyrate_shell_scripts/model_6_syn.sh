@@ -1,13 +1,13 @@
 #!/bin/bash
-#SBATCH --job-name=model_6_synapsida          # Job name
+#SBATCH --job-name=model_6_syn          # Job name
 #SBATCH --array=1-10                     # Array with 10 independent tasks
 #SBATCH --mem-per-cpu=400MB                # Memory per CPU core (adjust if needed)
 #SBATCH --time=6-00:00:00               # Time limit, e.g., 1 day and 1 hour
 #SBATCH --mail-type=begin               # Send email when job begins
 #SBATCH --mail-type=end                 # Send email when job ends
 #SBATCH --mail-user=sw8569@princeton.edu
-#SBATCH --output=/scratch/gpfs/sw8569/model_6_synapsida_%j_%A_%a.out
-#SBATCH --error=/scratch/gpfs/sw8569/model_6_synapsida_%j_%A_%a.err
+#SBATCH --output=/scratch/gpfs/sw8569/model_6_syn_%j_%A_%a.out
+#SBATCH --error=/scratch/gpfs/sw8569/model_6_syn_%j_%A_%a.err
 #SBATCH --no-requeue                    # Disable requeue
 
 # Change to the directory where the script should run
