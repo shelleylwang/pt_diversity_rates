@@ -24,3 +24,8 @@ python ../PyRate/PyRate.py updated_occurrence_analyses/data/Guad-Ladin/gl_reptil
  -trait_file updated_occurrence_analyses/data/Perm-Trias/bdnn_trait_files/reptilia_all_lats_file_groupby_filtered.txt \
  -BDNNtimevar updated_occurrence_analyses/data/Guad-Ladin/songEA_isotopic_data/songEA_data_ordered_filtered.txt -translate 175 \
  -out _model_6 -wd updated_occurrence_analyses/model_6/reptilia_all -n 200000000 -s 10000 -j ${SLURM_ARRAY_TASK_ID} 
+
+
+
+
+#  python ../PyRate/PyRate.py updated_occurrence_analyses/data/Guad-Ladin/gl_reptilia_all_epochs_filtered_PyRate.py -BDNNmodel 1 -fixShift updated_occurrence_analyses/data/Guad-Ladin/Time_bins_ByStages.txt -qShift updated_occurrence_analyses/data/Guad-Ladin/Time_bins_ByStages.txt -mG -trait_file updated_occurrence_analyses/data/Perm-Trias/bdnn_trait_files/reptilia_all_lats_file_groupby_filtered.txt -BDNNtimevar updated_occurrence_analyses/data/Guad-Ladin/songEA_isotopic_data/songEA_data_ordered_filtered.txt -translate 175 -out _model_6 -wd updated_occurrence_analyses/model_6/reptilia_all -n 200000000 -s 10000 -j ${SLURM_ARRAY_TASK_ID} 
