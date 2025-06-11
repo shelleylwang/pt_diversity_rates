@@ -191,7 +191,7 @@ combined_plot <- grid.arrange(p1, p2, p3, ncol = 1, heights = c(1.2, 1, 1))
 
 # Save theplot
 ######################################################## USE CUSTOM PATH
-ggsave("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/updated_occurrence_analyses/model_2_and_5/200_its/synapsida_200/RTT_plots_ggplot_test.pdf", 
+ggsave("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/updated_occurrence_analyses/model_2_and_5/200_its/synapsida_200/RTT_plots_ggplot_template_test.pdf", 
        combined_plot, 
        width = 8, 
        height = 10.8, 
