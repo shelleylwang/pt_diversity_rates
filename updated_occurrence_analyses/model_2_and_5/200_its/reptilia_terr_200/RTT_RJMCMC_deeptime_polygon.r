@@ -1,9 +1,4 @@
 
-######### IN THIS TEMPLATE, CHANGE THE TIME, RATE, MINHPD, AND MAXHPD VECTORS TO YOUR OWN DATA #########
-########## CHANGE THE Y LIMITS AND X LIMITS AS NEEDED
-########### CHANGE THE TITLE
-########### CHANGE THE PDF PATH
-
 library(ggplot2)
 library(scales)
 library(gridExtra)
@@ -61,10 +56,10 @@ p1 <- ggplot(speciation_data, aes(x = time)) +
             rot = 0,
             size = "auto",
             neg = TRUE) +
-    scale_x_continuous(breaks = x_ticks, labels = x_tick_labels, limits = c(-297.984866,-199.545608)) +
-  scale_y_continuous(limits = c(0, 2.227767886416083)) +
+    scale_x_continuous(breaks = x_ticks, labels = x_tick_labels, limits = c(-298.420319, -201.732195)) +
+  scale_y_continuous(limits = c(0, 3)) +
   labs(x = 'Time', y = 'Speciation rate', 
-       title = 'Terrestrial Reptilia RJMCMC No Predictors') +
+       title = 'Terrestrial Reptilia: RJMCMC No Predictors') +
   base_theme
 
 #Extinction Rate
@@ -98,8 +93,8 @@ p2 <- ggplot(extinction_data, aes(x = time)) +
             rot = 0,
             size = "auto",
             neg = TRUE) +
-    scale_x_continuous(breaks = x_ticks, labels = x_tick_labels, limits =c(-297.984866,-199.545608)) +
-  scale_y_continuous(limits = c(0, 5.737022543738344)) +
+    scale_x_continuous(breaks = x_ticks, labels = x_tick_labels, limits = c(-298.420319, -201.732195)) +
+  scale_y_continuous(limits = c(0, 3)) +
   labs(x = 'Time', y = 'Extinction rate', title = 'Extinction') +
   base_theme +
   theme(plot.title = element_blank())
@@ -136,8 +131,8 @@ p3 <- ggplot(net_div_data, aes(x = time)) +
             rot = 0,
             size = "auto",
             neg = TRUE) +
-    scale_x_continuous(breaks = x_ticks, labels = x_tick_labels, limits = c(-297.984866,-199.545608)) +
-  scale_y_continuous(limits = c(-5.401574630376262, 1.8779058187428779)) +
+    scale_x_continuous(breaks = x_ticks, labels = x_tick_labels, limits = c(-298.420319, -201.732195)) +
+  scale_y_continuous(limits = c(-3,1)) +
   labs(x = 'Time', y = 'Net diversification rate', title = 'Net diversification') +
   base_theme +
   theme(plot.title = element_blank())
@@ -153,7 +148,7 @@ combined_plot <- grid.arrange(p1, p2, p3, ncol = 1, heights = c(1.2, 1, 1))
 
 # Save theplot
 ######################################################## USE CUSTOM PATH
-ggsave("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/updated_occurrence_analyses/model_2_and_5/200_its/reptilia_terr_200/combined_10_RTT_deeptime_final.pdf", 
+ggsave("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/updated_occurrence_analyses/model_2_and_5/200_its/reptilia_terr_200/combined_10_RTT_deeptime_polygon.pdf", 
        combined_plot, 
        width = 8, 
        height = 10.8, 

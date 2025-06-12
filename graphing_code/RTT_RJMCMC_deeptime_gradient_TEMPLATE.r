@@ -1,3 +1,6 @@
+################################################################
+############## CHANGE PDF PATH, DATA VECTORS, TITLE, SCALE_Y_CONTINUOUS
+
 library(ggplot2)
 library(scales)
 library(gridExtra)
@@ -224,7 +227,7 @@ combined_plot <- grid.arrange(p1, p2, p3, ncol = 1, heights = c(1.2, 1, 1))
 
 # Save the plot
 ######################################################## USE CUSTOM PATH
-ggsave("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/updated_occurrence_analyses/model_2_and_5/200_its/synapsida_200/combined_10_RTT_deeptime_final_gradient.pdf", 
+ggsave("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/updated_occurrence_analyses/RTT_deeptime_final_gradient.pdf", 
        combined_plot, 
        width = 8, 
        height = 10.8, 
