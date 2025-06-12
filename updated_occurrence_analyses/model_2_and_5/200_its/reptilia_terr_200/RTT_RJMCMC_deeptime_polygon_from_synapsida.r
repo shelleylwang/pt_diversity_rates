@@ -42,10 +42,10 @@ speciation_data <- speciation_data[!is.na(speciation_data$rate), ]
 p1 <- ggplot(speciation_data, aes(x = time)) +
   geom_ribbon(aes(ymin = minHPD, ymax = maxHPD), 
               fill = alpha('#4c4cec', 0.3), color = NA) +
+  geom_line(aes(y = rate), color = '#4c4cec', size = 1.2) +
   geom_vline(xintercept = perm_trias_extinction, color = "red", linetype = "dashed") +
   geom_vline(xintercept = guadalupian_extinction, color = "red", linetype = "dashed") +
-  geom_line(aes(y = rate), color = '#4c4cec', size = 1.2) +
-  coord_geo(xlim = c(-300, -200),
+   coord_geo(xlim = c(-300, -200),
             expand = FALSE,
             clip = "on",
             dat = list("international epochs", "international periods"),
@@ -56,8 +56,8 @@ p1 <- ggplot(speciation_data, aes(x = time)) +
             rot = 0,
             size = "auto",
             neg = TRUE) +
-  scale_x_continuous(breaks = x_ticks, labels = x_tick_labels, limits = c(-298.420319, -201.732195)) +
-  scale_y_continuous(limits = c(0, 3)) +
+    scale_x_continuous(breaks = x_ticks, labels = x_tick_labels, limits = c(-298.420319, -201.732195)) +
+  scale_y_continuous(limits = c(0, 1.653203466611037)) +
   labs(x = 'Time', y = 'Speciation rate', 
        title = 'Terrestrial Reptilia: RJMCMC No Predictors') +
   base_theme
@@ -79,10 +79,10 @@ extinction_data <- extinction_data[!is.na(extinction_data$rate), ]
 p2 <- ggplot(extinction_data, aes(x = time)) +
   geom_ribbon(aes(ymin = minHPD, ymax = maxHPD), 
               fill = alpha('#e34a33', 0.3), color = NA) +
+  geom_line(aes(y = rate), color = '#e34a33', size = 1.2) +
   geom_vline(xintercept = perm_trias_extinction, color = "red", linetype = "dashed") +
   geom_vline(xintercept = guadalupian_extinction, color = "red", linetype = "dashed") +
-  geom_line(aes(y = rate), color = '#e34a33', size = 1.2) +
-  coord_geo(xlim = c(-300, -200),
+   coord_geo(xlim = c(-300, -200),
             expand = FALSE,
             clip = "on",
             dat = list("international epochs", "international periods"),
@@ -93,8 +93,8 @@ p2 <- ggplot(extinction_data, aes(x = time)) +
             rot = 0,
             size = "auto",
             neg = TRUE) +
-  scale_x_continuous(breaks = x_ticks, labels = x_tick_labels, limits = c(-298.420319, -201.732195)) +
-  scale_y_continuous(limits = c(0, 3)) +
+    scale_x_continuous(breaks = x_ticks, labels = x_tick_labels, limits = c(-298.420319, -201.732195)) +
+  scale_y_continuous(limits = c(0, 4.3354160521421825)) +
   labs(x = 'Time', y = 'Extinction rate', title = 'Extinction') +
   base_theme +
   theme(plot.title = element_blank())
@@ -114,13 +114,13 @@ net_div_data <- data.frame(
 net_div_data <- net_div_data[!is.na(net_div_data$rate), ]
 # Net Diversification Rate Plot
 p3 <- ggplot(net_div_data, aes(x = time)) +
+  geom_ribbon(aes(ymin = minHPD, ymax = maxHPD), 
+              fill = alpha('#504A4B', 0.3), color = NA) +
+  geom_line(aes(y = rate), color = '#504A4B', size = 1.2) +
   geom_hline(yintercept = 0, linetype = "dashed") +
   geom_vline(xintercept = perm_trias_extinction, color = "red", linetype = "dashed") +
   geom_vline(xintercept = guadalupian_extinction, color = "red", linetype = "dashed") +
-  geom_ribbon(aes(ymin = minHPD, ymax = maxHPD), 
-            fill = alpha('#504A4B', 0.3), color = NA) +
-  geom_line(aes(y = rate), color = '#504A4B', size = 1.2) +
-  coord_geo(xlim = c(-300, -200),
+   coord_geo(xlim = c(-300, -200),
             expand = FALSE,
             clip = "on",
             dat = list("international epochs", "international periods"),
@@ -131,8 +131,8 @@ p3 <- ggplot(net_div_data, aes(x = time)) +
             rot = 0,
             size = "auto",
             neg = TRUE) +
-  scale_x_continuous(breaks = x_ticks, labels = x_tick_labels, limits = c(-298.420319, -201.732195)) +
-  scale_y_continuous(limits = c(-3,1)) +
+    scale_x_continuous(breaks = x_ticks, labels = x_tick_labels, limits = c(-298.420319, -201.732195)) +
+  scale_y_continuous(limits = c(-3, 1)) +
   labs(x = 'Time', y = 'Net diversification rate', title = 'Net diversification') +
   base_theme +
   theme(plot.title = element_blank())
@@ -148,7 +148,7 @@ combined_plot <- grid.arrange(p1, p2, p3, ncol = 1, heights = c(1.2, 1, 1))
 
 # Save theplot
 ######################################################## USE CUSTOM PATH
-ggsave("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/updated_occurrence_analyses/model_2_and_5/200_its/reptilia_terr_200/combined_10_RTT_deeptime_polygon.pdf", 
+ggsave("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/updated_occurrence_analyses/model_2_and_5/200_its/reptilia_terr_200/combined_10_RTT_deeptime_polygon_from_synapsida.pdf", 
        combined_plot, 
        width = 8, 
        height = 10.8, 
