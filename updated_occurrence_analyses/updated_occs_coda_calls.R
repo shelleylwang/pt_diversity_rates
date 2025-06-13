@@ -27,6 +27,11 @@ analyze_ess_diagnostics("updated_occurrence_analyses/model_2_and_5/reptilia_terr
 analyze_mcmc("updated_occurrence_analyses/model_2_and_5/reptilia_terr_200")
 
 
+############## MODEL 4
+anaylze_ess_diagnostics("updated_occurrence_analyses/model_4/reptilia_terr")
+analyze_mcmc("updated_occurrence_analyses/model_4/reptilia_terr")
+
+
 ############## MODEL 5
 analyze_ess_diagnostics("updated_occurrence_analyses/model_2_and_5/reptilia_all")
 analyze_mcmc("updated_occurrence_analyses/model_2_and_5/reptilia_all")
@@ -36,6 +41,13 @@ analyze_mcmc("updated_occurrence_analyses/model_2_and_5/reptilia_all_gibbs")
 # 200 ITERATIONS
 analyze_ess_diagnostics("updated_occurrence_analyses/model_2_and_5/reptilia_all_200")
 analyze_mcmc("updated_occurrence_analyses/model_2_and_5/reptilia_all_200")
+
+
+############## MODEL 6
+analyze_ess_diagnostics("updated_occurrence_analyses/model_6/reptilia_all")
+analyze_mcmc("updated_occurrence_analyses/model_6/reptilia_all")
+analyze_ess_diagnostics("updated_occurrence_analyses/model_6/synapsida")
+analyze_mcmc("updated_occurrence_analyses/model_6/synapsida")
 
 
 
