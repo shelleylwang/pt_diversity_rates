@@ -28,7 +28,7 @@ analyze_mcmc("updated_occurrence_analyses/model_2_and_5/reptilia_terr_200")
 
 
 ############## MODEL 4
-anaylze_ess_diagnostics("updated_occurrence_analyses/model_4/reptilia_terr")
+analyze_ess_diagnostics("updated_occurrence_analyses/model_4/reptilia_terr")
 analyze_mcmc("updated_occurrence_analyses/model_4/reptilia_terr")
 
 
