@@ -22,6 +22,6 @@ python ../PyRate/PyRate.py updated_occurrence_analyses/data/Guad-Ladin/gl_reptil
  -BDNNmodel 1 -fixShift updated_occurrence_analyses/data/Guad-Ladin/Time_bins_ByStages.txt \
  -qShift updated_occurrence_analyses/data/Guad-Ladin/Time_bins_ByStages.txt -mG \
  -trait_file updated_occurrence_analyses/data/Guad-Ladin/bdnn_trait_files/gl_reptilia_terr_lats_file_final.txt \
- -BDNNtimevar updated_occurrence_analyses/data/AF_climactic_data/reptilia_terr_BRIDGE_z_trans_filtered.txt -translate 175 \
+ -BDNNtimevar updated_occurrence_analyses/data/AF_climactic_data/reptilia_terr_BRIDGE_z_trans_filtered.txt -translate -175 \
  -out _model_4 -wd updated_occurrence_analyses/model_4/reptilia_terr -n 200000000 -s 10000 -j ${SLURM_ARRAY_TASK_ID}
 

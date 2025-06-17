@@ -22,7 +22,7 @@ python ../PyRate/PyRate.py updated_occurrence_analyses/data/Guad-Ladin/gl_synaps
  -BDNNmodel 1 -fixShift updated_occurrence_analyses/data/Guad-Ladin/Time_bins_ByStages.txt \
  -qShift updated_occurrence_analyses/data/Guad-Ladin/Time_bins_ByStages.txt -mG \
  -trait_file updated_occurrence_analyses/data/Guad-Ladin/bdnn_trait_files/gl_synapsida_lats_file_final.txt \
- -BDNNtimevar updated_occurrence_analyses/data/AF_climactic_data/synapsida_BRIDGE_z_trans_filtered.txt -translate 175 \
+ -BDNNtimevar updated_occurrence_analyses/data/AF_climactic_data/synapsida_BRIDGE_z_trans_filtered.txt -translate -175 \
  -out _model_4 -wd updated_occurrence_analyses/model_4/synapsida -n 200000000 -s 10000 -j ${SLURM_ARRAY_TASK_ID}
 
 
