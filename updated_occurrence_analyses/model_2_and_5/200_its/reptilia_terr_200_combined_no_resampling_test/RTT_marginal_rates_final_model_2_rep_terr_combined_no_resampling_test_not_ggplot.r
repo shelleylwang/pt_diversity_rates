@@ -4,7 +4,7 @@
 # 95% HPDs calculated using code from Biopy (https://www.cs.auckland.ac.nz/~yhel002/biopy/)
 
 ######### CHANGE PATHS TO YOUR OWN FILES #########
-pdf(file="C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/updated_occurrence_analyses/model_2_and_5/200_its/reptilia_terr_200_combined_no_resampling_test/reptilia_terr_combined_no_resampling_test_RTT_marginal_rates.pdf",width=8, height=10.8)
+pdf(file="C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/updated_occurrence_analyses/model_2_and_5/200_its/reptilia_terr_200_combined_no_resampling_test/reptilia_terr_combined_no_resampling_test_RTT_marginal_rates_not_ggplot.pdf",width=8, height=10.8)
 par(mfrow=c(3,1), cex.main=1.7, cex.lab=1.4, cex.axis=1.3,
     mgp=c(3.5, 1, 0),      # distance of axis labels from plot, increase first value to move y axis label further out
     oma=c(2, 2, 2, 0))     # outer margins for the entire figure
