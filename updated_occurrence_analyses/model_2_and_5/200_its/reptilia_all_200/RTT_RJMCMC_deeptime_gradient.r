@@ -94,7 +94,7 @@ p1 <- ggplot() +
             size = "auto",
             neg = TRUE) +
   scale_x_continuous(breaks = x_ticks, labels = x_tick_labels, limits = c(-298.420319, -201.732195)) +
-  scale_y_continuous(limits =  c(0, 3)) +
+  # scale_y_continuous(limits =  c(0, 3)) +
   scale_alpha_identity() +  # This tells ggplot to use the alpha values directly
   labs(x = 'Time', y = 'Speciation rate', 
        title = 'All Reptilia: RJMCMC No Predictors') +
