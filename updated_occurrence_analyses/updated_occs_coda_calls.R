@@ -30,6 +30,8 @@ analyze_mcmc("updated_occurrence_analyses/model_2_and_5/reptilia_terr_200")
 ############## MODEL 4
 analyze_ess_diagnostics("updated_occurrence_analyses/model_4/reptilia_terr")
 analyze_mcmc("updated_occurrence_analyses/model_4/reptilia_terr")
+analyze_ess_diagnostics("updated_occurrence_analyses/model_4/synapsida")
+analyze_mcmc("updated_occurrence_analyses/model_4/synapsida")
 
 
 ############## MODEL 5
