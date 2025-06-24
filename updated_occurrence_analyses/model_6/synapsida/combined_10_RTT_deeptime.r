@@ -31,7 +31,7 @@ perm_trias_extinction <- -252
 guadalupian_extinction <- -261
 
 # Custom tick positions
-x_ticks <- seq(-300, -200, by=10)
+x_ticks <- seq(-300, -200, by=5) ###################### CHANGE IF YOU'RE DOING A DIFFERENT TIMEFRAME
 x_tick_labels <- abs(x_ticks)
 
 # Modified plot_RTT function that returns data for ggplot
@@ -90,7 +90,7 @@ create_plot_with_geo <- function(poly_data, mean_data, color, title, ylab, ylim,
     # Labels and titles
     labs(title = title, y = ylab) +
     # Set y limits with coord_cartesian for smooth polygons
-    coord_cartesian(ylim = ylim, xlim = c(-300, -200), expand = FALSE) +
+    coord_cartesian(ylim = ylim, xlim = c(-280, -235), expand = FALSE) + ####################### CHANGE XLIM IF YOU'RE DOING A DIFFERENT TIMEFRAME
     # Remove legend and adjust alpha scale
     scale_alpha_continuous(range = c(0.005, 0.05), guide = "none") +
     # Theme adjustments
@@ -126,7 +126,7 @@ create_plot_with_geo <- function(poly_data, mean_data, color, title, ylab, ylim,
       ylim = ylim, ######### COMMENT THIS OUT TO AUTO-SCALE Y AXIS (even if you pass a ylim argument, if this is commented out, it will auto-scale based on data vectors)
       height = unit(1, "line"),
       neg = TRUE,
-      xlim = c(-300, -200))
+      xlim = c(-280, -235)) ####################### CHANGE XLIM IF YOU'RE DOING A DIFFERENT TIMEFRAME
   
   return(main_plot)
 }

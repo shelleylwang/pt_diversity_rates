@@ -176,7 +176,7 @@ combined_plot <- grid.arrange(p1, p2, p3, ncol = 1, heights = c(1.2, 1, 1))
 ggsave("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/updated_occurrence_analyses/model_1/reptilia_terr/combined_10_marginal_rates_RTT_deeptime_final.pdf", 
        combined_plot, 
        width = 8, 
-       height = 10.8, 
+       height = 12, 
        units = "in")
 
 # To display the plot
