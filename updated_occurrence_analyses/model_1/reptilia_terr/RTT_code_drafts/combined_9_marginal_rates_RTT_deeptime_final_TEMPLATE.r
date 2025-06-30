@@ -43,7 +43,7 @@ perm_trias_extinction <- -252
 guadalupian_extinction <- -261
 
 # Custom tick positions
-x_ticks <- seq(-300, -200, by=10)
+x_ticks <- seq(-300, -200, by=5)
 x_tick_labels <- abs(x_ticks)
 
 # You'll need to replace these with your actual data vectors:
@@ -88,7 +88,7 @@ p1 <- ggplot() +
             aes(x = x, y = y), 
             color = "#4c4cec", size = 1.2) +
   geom_vline(xintercept = perm_trias_extinction, color = "red", linetype = "dashed") +
-    coord_geo(xlim = c(-300, -200),
+    coord_geo(xlim = c(-280, -235),
             expand = FALSE,
             clip = "on",
             dat = list("international epochs", "international periods"),
@@ -104,7 +104,7 @@ p1 <- ggplot() +
   scale_y_continuous(limits = c(0, 1)) +
   scale_alpha_identity() +
   ############################################ CHANGE GRAPH TITLE
-  labs(title = "Terrestrial Reptilia: MCMC By Stages No Preds",
+  labs(title = "Terrestrial Reptilia Model 1: MCMC By Stages No Preds",
        x = "Ma",
        y = "Speciation rate") +
   base_theme
@@ -119,7 +119,7 @@ p2 <- ggplot() +
             color = "#e34a33", size = 1.2) +
   geom_vline(xintercept = perm_trias_extinction, color = "red", linetype = "dashed") +
   geom_vline(xintercept = guadalupian_extinction, color = "red", linetype = "dashed") +
-   coord_geo(xlim = c(-300, -200),
+   coord_geo(xlim = c(-280, -235),
             expand = FALSE,
             clip = "on",
             dat = list("international epochs", "international periods"),
@@ -149,7 +149,7 @@ p3 <- ggplot() +
             color = "#504A4B", size = 1.2) +
   geom_vline(xintercept = perm_trias_extinction, color = "red", linetype = "dashed") +
   geom_vline(xintercept = guadalupian_extinction, color = "red", linetype = "dashed") +
-   coord_geo(xlim = c(-300, -200),
+   coord_geo(xlim = c(-280, -235),
             expand = FALSE,
             clip = "on",
             dat = list("international epochs", "international periods"),
@@ -169,11 +169,11 @@ p3 <- ggplot() +
   theme(plot.title = element_blank())
 
 # Combine plots
-combined_plot <- grid.arrange(p1, p2, p3, ncol = 1, heights = c(1.2, 1, 1))
+combined_plot <- grid.arrange(p1, p2, p3, ncol = 1, heights = c(1, 1, 1))
 
 # Save theplot
 ######################################################## USE CUSTOM PATH
-ggsave("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/updated_occurrence_analyses/model_1/reptilia_terr/combined_10_marginal_rates_RTT_deeptime_final.pdf", 
+ggsave('/Volumes/My Passport/pt_diversity_rates/updated_occurrence_analyses/model_1/reptilia_terr/combined_9_marginal_rates_RTT_deeptime_final.pdf', 
        combined_plot, 
        width = 8, 
        height = 12, 
