@@ -40,7 +40,7 @@ perm_trias_extinction <- -252
 guadalupian_extinction <- -261
 
 # Custom tick positions
-x_ticks <- seq(-300, -200, by=10) ###################### CHANGE THIS TO MODIFY X TICKS
+x_ticks <- seq(-300, -200, by=5) ###################### CHANGE THIS TO MODIFY X TICKS
 x_tick_labels <- abs(x_ticks)
 
 # Modified plot_RTT function that returns data for ggplot
@@ -139,7 +139,7 @@ create_plot_with_geo <- function(poly_data, mean_data, color, title, ylab, ylim,
       ylim = ylim, ######### COMMENT THIS OUT TO AUTO-SCALE Y AXIS (even if you pass a ylim argument, if this is commented out, it will auto-scale based on data vectors)
       height = unit(1, "line"),
       neg = TRUE,
-      xlim = c(-300, -200)) ############################# CHANGE THIS TO MODIFY X LIMITS, I.E., TIME FRAME
+      xlim = c(-280, -235)) ############################# CHANGE THIS TO MODIFY X LIMITS, I.E., TIME FRAME
   
   return(main_plot)
 }
@@ -147,7 +147,7 @@ create_plot_with_geo <- function(poly_data, mean_data, color, title, ylab, ylim,
 ############# CALL THE FUNCTION WITH CUSTOM ARGUMENTS
 ############# TITLE, YLIM
 p1 <- create_plot_with_geo(L_data$poly_data, L_data$mean_data, "#4c4cec", 
-                         "Synapsida Model 3: MCMC by Stages with BRIDGE Predictors", 
+                         "Synapsida Model 3: BDNN by Stages with BRIDGE Predictors", 
                          "Speciation rate", c(0, 1), show_x_axis = TRUE) 
 
 p2 <- create_plot_with_geo(M_data$poly_data, M_data$mean_data, "#e34a33", 
