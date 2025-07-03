@@ -6,6 +6,9 @@ ts=c()
 time_events=c()
 div_traj=c()
 
+############# If you used -translate with BDNN, you'll need to add back the translated value to the time_events vec
+#time_events = time_events + 175
+
 # Mass extinction positions
 perm_trias_extinction <- -252
 guadalupian_extinction <- -261
@@ -50,9 +53,9 @@ plot <- ggplot(diversity_df, aes(x = time, y = diversity)) +
       height = unit(1, "line"),
       neg = TRUE,
       xlim = c(-280, -235), ############################# CHANGE THIS TO MODIFY X LIMITS, I.E., TIME FRAME
-      ############# ylim should be the max(diversity) within the xlim range
-      ylim = c(0, max(diversity_df$diversity[diversity_df$time >= -280 & diversity_df$time <= -235]) + 1) # Adjust y limits based on the data
-     #ylim = c(0, 100), # Adjust y limits if necessary. Comment this out if you want to set ylim by hand
+      ############# comment the below line out if you want ylim to be the max(diversity) within the xlim range
+      #ylim = c(0, max(diversity_df$diversity[diversity_df$time >= -280 & diversity_df$time <= -235]) + 1) # Adjust y limits based on the data
+      ylim = c(0, 110), # Set ylim by hand so diff models can have be comparable
     )
 
 

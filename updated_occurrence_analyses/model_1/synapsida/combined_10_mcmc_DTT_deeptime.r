@@ -51,8 +51,8 @@ plot <- ggplot(diversity_df, aes(x = time, y = diversity)) +
       neg = TRUE,
       xlim = c(-280, -235), ############################# CHANGE THIS TO MODIFY X LIMITS, I.E., TIME FRAME
       ############# ylim should be the max(diversity) within the xlim range
-      ylim = c(0, max(diversity_df$diversity[diversity_df$time >= -280 & diversity_df$time <= -235]) + 1) # Adjust y limits based on the data
-     #ylim = c(0, 100), # Adjust y limits if necessary. Comment this out if you want to set ylim by hand
+      # ylim = c(0, max(diversity_df$diversity[diversity_df$time >= -280 & diversity_df$time <= -235]) + 1) # Adjust y limits based on the data
+     ylim = c(0, 110), # Adjust y limits if necessary. Comment this out if you want to set ylim by hand
     )
 
 
