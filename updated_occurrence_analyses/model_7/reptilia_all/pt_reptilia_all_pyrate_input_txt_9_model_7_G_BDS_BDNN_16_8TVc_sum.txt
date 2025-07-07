@@ -1,0 +1,37 @@
+
+PyRate build v3.1.3 - 20230825
+
+input: ['updated_occurrence_analyses/data/Perm-Trias/pt_reptilia_all_pyrate_input_txt_PyRate.py'] output: updated_occurrence_analyses/model_7/reptilia_all/pyrate_mcmc_logs/pt_reptilia_all_pyrate_input_txt_9_model_7_G
+
+PyRate was called as follows:
+Namespace(seed=-1, useCPPlib=1, cite=False, input_data=['updated_occurrence_analyses/data/Perm-Trias/pt_reptilia_all_pyrate_input_txt_PyRate.py'], j=9, trait=1, logT=0, N=-1, wd='updated_occurrence_analyses/model_7/reptilia_all', out='_model_7', singleton=0, frac_sampled_singleton=0, rescale=1, translate=-175.0, d='', clade=-1, trait_file='updated_occurrence_analyses/data/Perm-Trias/bdnn_trait_files/pt_reptilia_all_lats_file_final.txt', restore_mcmc='', filter=[inf, 0], filter_taxa='', initDiv=0, PPmodeltest=False, log_marginal_rates=-1, log_sp_q_rates=False, drop_zero=0, drop_internal=False, tree='', sampling=1.0, bdc=False, eqr=False, plot='', plot2='', plot3='', plotRJ='', plotBDNN='', plotBDNN_groups='', plotBDNN_effects='', plotBDNN_transf_features='', BDNN_groups={}, BDNN_interaction='', BDNN_interaction_fix=False, BDNN_PDRTT='', n_prior=100000, plotQ='', grid_plot=0, root_plot=0, min_age_plot=0, tag='', ltt=0, mProb='', BF=[], data_info=False, SE_stats=[], ginput='', combLog='', combLogRJ='', combBDNN='', resample=0, col_tag=[], check_names='', reduceLog='', n=200000000, s=10000, p=1000, b=0, fast_burnin=0, thread=[0, 0], A=4, use_DA=False, r=1, t=0.03, sw=100, M=10, B=1, T=1.0, S=1000, k=10, a=0.3, dpp_f=500, dpp_hp=2.0, dpp_eK=2.0, dpp_grid=1.5, dpp_nB=0, rj_pr=1, rj_Ga=1.5, rj_Gb=3.0, rj_beta=10, rj_dm=0, rj_bd_shift=0.5, se_gibbs=False, pL=[1.1, 1.1], pM=[1.1, 1.1], pP=[1.5, 1.1], pS=2.5, pC=1, cauchy=[-1, -1], min_dt=1.0, mHPP=False, mL=1, mM=1, mC=False, mCov=0, mG=True, mPoiD=False, mBirth=-1, mDeath=False, mBDI=-1, ncat=4, fixShift='updated_occurrence_analyses/data/Perm-Trias/Time_bins_ByStages.txt', qShift='updated_occurrence_analyses/data/Perm-Trias/Time_bins_ByStages.txt', fixSE='', ADE=0, discrete=False, twotrait=False, bound=[inf, 0], bound_te='', partialBD=False, edgeShift=[inf, 0], qFilter=1, FBDrange=0, BDNNmodel=1, BDNNnodes=[16, 8], BDNNfadlad=0, BDNNtimetrait=-1, BDNNtimeres=1, BDNNconstbaseline=1, BDNNoutputfun=1, BDNNactfun=5, BDNNprecision=1, BDNNprior=1, BDNNreg=[1.0], BDNNblockmodel=False, BDNNactivate_all=False, BDNNtimevar=['updated_occurrence_analyses/data/Guad-Ladin/songEA_isotopic_data/songEA_data_ordered_filtered.txt'], BDNNtimevar_q='', BDNNads=-1.0, BDNNpath_taxon_time_tables=['', ''], BDNNexport_taxon_time_tables=False, BDNNupdate_se_f=[0.6], BDNNupdate_f=[0.1], BDNNdd=False, BDNNpklfile='', BDNN_pred_importance='', BDNN_nsim_expected_cv=100, BDNN_pred_importance_interaction=True, BDNN_pred_importance_window_size=[-1.0], BDNN_pred_importance_nperm=100, BDNN_mean_shap_per_group=False, edge_indicator=False, tT=1.0, nT=5, tuneT=[0, 1000], tQ=[1.2, 1.2], tR=1.2, tS=1.0, fR=0.5, fS=0.7, fQ=0.5, tC=[0.2, 0.2, 0.15], fU=[0.02, 0.18, 0], multiR=1, tHP=[1.2, 1.2])
+
+Using birth-death model with fixed times of rate shift: 115.10000000000002 108.5 99.39999999999998 89.30000000000001 84.5 77.0 71.69999999999999 67.0 62.0 52.0 42.0 33.0 
+
+Using Time-variable Poisson Process of preservation (TPP) at: 115.10000000000002 108.5 99.39999999999998 89.30000000000001 84.5 77.0 71.69999999999999 67.0 62.0 52.0 42.0 33.0 
+
+Using BDNN model
+N. free parameters: 281 
+N. parameters: 265
+
+ (16, 9)
+ (8, 16)
+ (1, 9)
+
+
+        Please cite: 
+Silvestro, D., Antonelli, A., Salamin, N., & Meyer, X. (2019). 
+Improved estimation of macroevolutionary rates from fossil data using a Bayesian framework. 
+Paleobiology, doi: 10.1017/pab.2019.23.
+
+
+        Feedback and support: pyrate.help@gmail.com
+        OS: Linux 5.14.0-503.40.1.el9_5.x86_64
+        Python version: 3.11.7 (main, Dec 15 2023, 18:12:31) [GCC 11.2.0]
+
+        Numpy version: 1.26.4
+        Scipy version: 1.11.4
+
+        Random seed: 5607 
+Using module FastPyRateC
+        

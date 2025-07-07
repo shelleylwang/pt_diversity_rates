@@ -1,13 +1,27 @@
 library(ggplot2)
 library(deeptime)
 
-####### ADD ts, div_traj, and time_events vectors from pyrate default _LTT.r script
-ts=c()
-time_events=c()
-div_traj=c()
+
+####### ADD ts, div_traj, and time_events vectors from pyrate default _LTT.r script BY HAND
+# ts=c()
+# time_events=c()
+# div_traj=c()
+
+# ADD ts, div_traj, and time_events vectors by loading in from the default _LTT.r script
+######### CHANGE THE PATH TO THE DEFAULT _LTT.R SCRIPT
+# reading in default _LTT.r script as text, where each line from the default script is a separate element in the readLines vector
+ltt_text <- readLines("path_to_default_LTT_script.r", warn = FALSE) 
+# extracting the lines that contain the ts, div_traj, and time_events vectors
+ts <- grep("^\\s*ts\\s*=", ltt_text, value = TRUE)
+time_events <- grep("^\\s*time_events\\s*=", ltt_text, value = TRUE)
+div_traj <- grep("^\\s*div_traj\\s*=", ltt_text, value = TRUE)
+# Execute those lines
+eval(parse(text = ts))
+eval(parse(text = time_events))
+eval(parse(text = div_traj))
 
 ############# If you used -translate with BDNN, you'll need to add back the translated value to the time_events vec
-#time_events = time_events + 175
+# time_events = time_events + 175
 
 # Mass extinction positions
 perm_trias_extinction <- -252
@@ -27,7 +41,7 @@ plot <- ggplot(diversity_df, aes(x = time, y = diversity)) +
   #xlim(-max(ts) - 1, 0) + #### Commented out because xlim is set in coord_geo. If you want to see the full range, you can remove xlim from coord_geo, uncomment this
     scale_x_continuous(breaks = seq(from = -300, to = 0, by = 5)) +
   labs(
-    title = "Terrestrial Reptilia Model 1 Diversity Trajectory", ##### SET MODEL/CLADE TITLE
+    title = "Terrestrial Reptilia Model 1 Diversity Trajectory", ####### SET MODEL/CLADE TITLE
     x = "Time (Ma)",
     y = "Number of Lineages"
   ) +
