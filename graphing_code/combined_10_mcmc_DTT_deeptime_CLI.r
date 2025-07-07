@@ -117,33 +117,49 @@ plot <- ggplot(diversity_df, aes(x = time, y = diversity)) +
   )
 
 # Determine xlim and ylim based on arguments
+# Handle xlim and ylim logic based on arguments
 if (args$max_xlim) {
-  xlim_values <- c(-max(ts) - 1, 0)
+  # WHEN max_xlim=TRUE, ACTIVATE xlim(-max(ts) - 1, 0) AS SEPARATE LAYER...
+  plot <- plot + xlim(-max(ts) - 1, 0)
+  # ...and DEACTIVATE xlim = c(-280, -235) BY REMOVING IT FROM coord_geo
+  plot <- plot +
+    coord_geo(
+      dat = list("international epochs", "international periods"),
+      expand = FALSE,
+      abbrv = list(TRUE, FALSE),
+      pos = list("bottom", "bottom"),
+      alpha = 1,
+      height = unit(1, "line"),
+      neg = TRUE,
+      # NOTE: NO xlim PARAMETER HERE - THIS DEACTIVATES THE CUSTOM XLIM LINE
+      ylim = if (args$max_ylim) {
+        # WHEN max_ylim=TRUE, ACTIVATE THE MAX DIVERSITY CALCULATION WITHIN TIME RANGE
+        c(0, max(diversity_df$diversity[diversity_df$time >= -280 & diversity_df$time <= -235]) + 1)
+      } else {
+        custom_ylim
+      }
+    )
 } else {
-  xlim_values <- custom_xlim
+  # WHEN max_xlim=FALSE, DEACTIVATE xlim(-max(ts) - 1, 0) AND ACTIVATE custom xlim
+  plot <- plot +
+    coord_geo(
+      dat = list("international epochs", "international periods"),
+      expand = FALSE,
+      abbrv = list(TRUE, FALSE),
+      pos = list("bottom", "bottom"),
+      alpha = 1,
+      height = unit(1, "line"),
+      neg = TRUE,
+      # WHEN max_xlim=FALSE, ACTIVATE xlim = custom_xlim IN coord_geo
+      xlim = custom_xlim,  # This activates the custom xlim values
+      ylim = if (args$max_ylim) {
+        # WHEN max_ylim=TRUE, CALCULATE MAX DIVERSITY WITHIN THE CUSTOM XLIM RANGE
+        c(0, max(diversity_df$diversity[diversity_df$time >= custom_xlim[1] & diversity_df$time <= custom_xlim[2]]) + 1)
+      } else {
+        custom_ylim
+      }
+    )
 }
-
-if (args$max_ylim) {
-  ylim_values <- c(0, max(diversity_df$diversity[diversity_df$time >= xlim_values[1] & 
-                                                diversity_df$time <= xlim_values[2]]) + 1)
-} else {
-  ylim_values <- custom_ylim
-}
-
-# Add coord_geo with determined limits
-plot <- plot +
-  coord_geo(
-    dat = list("international epochs", "international periods"),
-    expand = FALSE,
-    abbrv = list(TRUE, FALSE),
-    pos = list("bottom", "bottom"),
-    alpha = 1,
-    height = unit(1, "line"),
-    neg = TRUE,
-    xlim = xlim_values,
-    ylim = ylim_values
-  )
-
 # Display the plot
 print(plot)
 
