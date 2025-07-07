@@ -1,4 +1,5 @@
-setwd("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli")
+#setwd("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli")
+setwd('/Volumes/My Passport/pt_diversity_rates')
 source("mcmc_logs_analyses_code/coda_final_2.R")
 source("mcmc_logs_analyses_code/coda_ess_diagnostics.R")
 
@@ -55,10 +56,14 @@ analyze_mcmc("updated_occurrence_analyses/model_2_and_5/reptilia_all_200")
 ############## MODEL 6
 analyze_ess_diagnostics("updated_occurrence_analyses/model_6/reptilia_all")
 analyze_mcmc("updated_occurrence_analyses/model_6/reptilia_all")
-analyze_ess_diagnostics("updated_occurrence_analyses/model_6/synapsida")
+analyze_ess_diagnostics('updated_occurrence_analyses/gl_models/model_6/synapsida')
 analyze_mcmc("updated_occurrence_analyses/model_6/synapsida")
 
-
+############## MODEL 7
+analyze_ess_diagnostics("updated_occurrence_analyses/model_7/reptilia_all")
+analyze_mcmc("updated_occurrence_analyses/model_7/reptilia_all")
+analyze_ess_diagnostics("updated_occurrence_analyses/model_7/synapsida")
+analyze_mcmc("updated_occurrence_analyses/model_7/synapsida")
 
 ################################################################################
 ############## MODELS USING OCCS THAT INCLUDED NULL LATS #######################
