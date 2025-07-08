@@ -6,7 +6,7 @@ library(gtable)
 library(grid)
 
 ##############  PREPPING DATA VECTORS, COPY IN THE PATH TO THE RTT SCRIPT
-rtt_text <- readLines("path_to_default_RTT_script.r", warn = FALSE)
+rtt_text <- readLines('/Volumes/My Passport/pt_diversity_rates/updated_occurrence_analyses/model_2_and_5/200_its/reptilia_terr_200/RTT_plots.r', warn = FALSE)
 
 # Search for lines in rtt_text that contain any of the vectors we need
 # Note that vectors in BDNN and in non-BDNN models have different names, so we'll need to do some transformations and conditionals
@@ -101,7 +101,7 @@ if (length(time_vec) > 0 && length(sp_mean) > 0 && length(ex_mean) > 0 &&
 
 } else {
   
-  print("Zero or only some BDNN vectors were found in the provided RTT script.")
+  stop("Zero or only some BDNN vectors were found in the provided RTT script.") #stop execution if BDNN vectors are not found
 }
 
 
@@ -229,7 +229,7 @@ final_plot <- grid.arrange(
 )
 
 ############# SAVE TO CUSTOM PDF PATH
-pdf(file = "C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/...combined_10_RTT_deeptime.pdf", 
+pdf(file = '/Volumes/My Passport/pt_diversity_rates/updated_occurrence_analyses/model_2_and_5/200_its/reptilia_terr_200/combined_10_RTT_deeptime_test.pdf', 
     width = 8, height = 12)
 grid.draw(final_plot)
 dev.off()
