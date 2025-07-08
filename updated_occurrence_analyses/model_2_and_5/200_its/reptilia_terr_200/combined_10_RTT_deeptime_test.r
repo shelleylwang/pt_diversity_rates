@@ -8,12 +8,8 @@ library(grid)
 ##############  PREPPING DATA VECTORS, COPY IN THE PATH TO THE RTT SCRIPT
 rtt_text <- readLines('/Volumes/My Passport/pt_diversity_rates/updated_occurrence_analyses/model_2_and_5/200_its/reptilia_terr_200/RTT_plots.r', warn = FALSE)
 
-# Search for lines in rtt_text that contain any of the vectors we need
-# Note that vectors in BDNN and in non-BDNN models have different names, so we'll need to do some transformations and conditionals
-# age = time (should be negative, descending, so -1, -2, for ex)
-# L = Speciation, M = extinction, R = netdiversification, M95 = max 95% HPD, m95 = min 95% HPD, mean = rate (central line)
 
-# Searching for NON-BDNN VECTORS
+# Searching for NON-BDNN, NON-RJMCMC VECTORS
 L_hpd_m95 <- grep("^\\s*L_hpd_m95\\s*=", rtt_text, value = TRUE)
 L_hpd_M95 <- grep("^\\s*L_hpd_M95\\s*=", rtt_text, value = TRUE)
 L_mean <- grep("^\\s*L_mean\\s*=", rtt_text, value = TRUE)
@@ -37,7 +33,13 @@ sp_upr <- grep("^\\s*sp_upr\\s*=", rtt_text, value = TRUE)
 ex_upr <- grep("^\\s*ex_upr\\s*=", rtt_text, value = TRUE)
 div_upr <- grep("^\\s*div_upr\\s*=", rtt_text, value = TRUE)
 
-# Execute all NON-BDNN vectors only if all those vectors were found/exist
+# Search for RJMCMC VECTORS
+time <- grep("^\\s*time\\s*=", rtt_text, value = TRUE)
+rate <- grep("^\\s*rate\\s*=", rtt_text, value = TRUE)
+minHPD <- grep("^\\s*minHPD\\s*=", rtt_text, value = TRUE)
+maxHPD <- grep("^\\s*maxHPD\\s*=", rtt_text, value = TRUE)
+
+# Execute all NON-BDNN, NON-RJMCMC vectors only if all those vectors were found/exist
 if (length(L_hpd_m95) > 0 && length(L_hpd_M95) > 0 && length(L_mean) > 0 &&
     length(M_hpd_m95) > 0 && length(M_hpd_M95) > 0 && length(M_mean) > 0 &&
     length(R_hpd_m95) > 0 && length(R_hpd_M95) > 0 && length(R_mean) > 0 &&
@@ -55,8 +57,8 @@ if (length(L_hpd_m95) > 0 && length(L_hpd_M95) > 0 && length(L_mean) > 0 &&
   eval(parse(text = age))
 
 } else {
-  
-  print("Zero or only some Non-BDNN vectors were found in the provided RTT script.") #print statement then move on
+
+  print("Zero or only some Non-BDNN, Non-RJMCMC vectors were found in the provided RTT script.") #print statement then move on
 }
 
 # Execute all BDNN vectors only if all those vectors were found/exist
@@ -87,7 +89,7 @@ if (length(time_vec) > 0 && length(sp_mean) > 0 && length(ex_mean) > 0 &&
   sp_upr <- rev(sp_upr)
   ex_upr <- rev(ex_upr)
   div_upr <- rev(div_upr)
-  # RENAME the BDNN vectors to match the NON-BDNN vectors so that the following graphing code works
+  # RENAME the BDNN vectors to match the NON-BDNN, Non-RJMCMC vectors so that the following graphing code works
   L_hpd_m95 <- sp_lwr
   L_hpd_M95 <- sp_upr
   L_mean <- sp_mean
@@ -101,10 +103,31 @@ if (length(time_vec) > 0 && length(sp_mean) > 0 && length(ex_mean) > 0 &&
 
 } else {
   
-  stop("Zero or only some BDNN vectors were found in the provided RTT script.") #stop execution if BDNN vectors are not found
+  print("Zero or only some BDNN vectors were found in the provided RTT script.")
 }
 
 
+# Execute all RJMCMC vectors only if all those vectors were found/exist
+if (length(time) > 2 && length(rate) > 2 && length(minHPD) > 2 &&
+    length(maxHPD) > 2) {
+    
+    eval(parse(text = time))
+    eval(parse(text = rate))
+    eval(parse(text = minHPD))
+    eval(parse(text = maxHPD))
+    age <- time
+    L_mean <- rate[1]
+    M_mean <- rate[2]
+    R_mean <- rate[3]
+    L_hpd_m95 <- minHPD[1]
+    L_hpd_M95 <- maxHPD[1]
+    M_hpd_m95 <- minHPD[2]
+    M_hpd_M95 <- maxHPD[2]
+    R_hpd_m95 <- minHPD[3]
+    R_hpd_M95 <- maxHPD[3]
+} else {
+    print("Zero or only some RJMCMC vectors were found in the provided RTT script.")
+}
 # Mass extinction events
 perm_trias_extinction <- -252 
 guadalupian_extinction <- -261
