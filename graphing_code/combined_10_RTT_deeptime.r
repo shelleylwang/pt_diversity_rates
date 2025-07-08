@@ -9,11 +9,12 @@ library(grid)
 rtt_text <- readLines("path_to_default_RTT_script.r", warn = FALSE)
 
 # Search for lines in rtt_text that contain any of the vectors we need
-# Note that vectors in BDNN and in non-BDNN models have different names, so we'll need to do some transformations and conditionals
+# Note that vectors in BDNN, RJMCMC, and non-BDNN/non-RJMCMC models have different names, so we'll need to do some transformations and conditionals
+#* I haven't 
 # age = time (should be negative, descending, so -1, -2, for ex)
 # L = Speciation, M = extinction, R = netdiversification, M95 = max 95% HPD, m95 = min 95% HPD, mean = rate (central line)
 
-# Searching for NON-BDNN VECTORS
+# Searching for NON-BDNN, NON-RJMCMC VECTORS
 L_hpd_m95 <- grep("^\\s*L_hpd_m95\\s*=", rtt_text, value = TRUE)
 L_hpd_M95 <- grep("^\\s*L_hpd_M95\\s*=", rtt_text, value = TRUE)
 L_mean <- grep("^\\s*L_mean\\s*=", rtt_text, value = TRUE)
@@ -37,7 +38,10 @@ sp_upr <- grep("^\\s*sp_upr\\s*=", rtt_text, value = TRUE)
 ex_upr <- grep("^\\s*ex_upr\\s*=", rtt_text, value = TRUE)
 div_upr <- grep("^\\s*div_upr\\s*=", rtt_text, value = TRUE)
 
-# Execute all NON-BDNN vectors only if all those vectors were found/exist
+# Search for RJMCMC VECTORS
+
+
+# Execute all NON-BDNN, NON-RJMCMC vectors only if all those vectors were found/exist
 if (length(L_hpd_m95) > 0 && length(L_hpd_M95) > 0 && length(L_mean) > 0 &&
     length(M_hpd_m95) > 0 && length(M_hpd_M95) > 0 && length(M_mean) > 0 &&
     length(R_hpd_m95) > 0 && length(R_hpd_M95) > 0 && length(R_mean) > 0 &&
@@ -55,8 +59,8 @@ if (length(L_hpd_m95) > 0 && length(L_hpd_M95) > 0 && length(L_mean) > 0 &&
   eval(parse(text = age))
 
 } else {
-  
-  print("Zero or only some Non-BDNN vectors were found in the provided RTT script.") #print statement then move on
+
+  print("Zero or only some Non-BDNN, Non-RJMCMC vectors were found in the provided RTT script.") #print statement then move on
 }
 
 # Execute all BDNN vectors only if all those vectors were found/exist
@@ -87,7 +91,7 @@ if (length(time_vec) > 0 && length(sp_mean) > 0 && length(ex_mean) > 0 &&
   sp_upr <- rev(sp_upr)
   ex_upr <- rev(ex_upr)
   div_upr <- rev(div_upr)
-  # RENAME the BDNN vectors to match the NON-BDNN vectors so that the following graphing code works
+  # RENAME the BDNN vectors to match the NON-BDNN, Non-RJMCMC vectors so that the following graphing code works
   L_hpd_m95 <- sp_lwr
   L_hpd_M95 <- sp_upr
   L_mean <- sp_mean
