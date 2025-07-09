@@ -110,12 +110,8 @@ if (length(time_vec) > 0 && length(sp_mean) > 0 && length(ex_mean) > 0 &&
 # Execute all RJMCMC vectors only if all those vectors were found/exist
 if (length(time) > 2 && length(rate) > 2 && length(minHPD) > 2 &&
     length(maxHPD) > 2) {
-    
-    eval(parse(text = time))
-    eval(parse(text = rate))
-    eval(parse(text = minHPD))
-    eval(parse(text = maxHPD))
-    age <- time
+    # The grep found multiple lines, so we need to parse them
+    age <- time[1]
     L_mean <- rate[1]
     M_mean <- rate[2]
     R_mean <- rate[3]
@@ -125,6 +121,16 @@ if (length(time) > 2 && length(rate) > 2 && length(minHPD) > 2 &&
     M_hpd_M95 <- maxHPD[2]
     R_hpd_m95 <- minHPD[3]
     R_hpd_M95 <- maxHPD[3]
+    eval(parse(text = age))
+    eval(parse(text = L_mean))
+    eval(parse(text = M_mean))
+    eval(parse(text = R_mean))
+    eval(parse(text = L_hpd_m95))
+    eval(parse(text = L_hpd_M95))
+    eval(parse(text = M_hpd_m95))
+    eval(parse(text = M_hpd_M95))
+    eval(parse(text = R_hpd_m95))
+    eval(parse(text = R_hpd_M95))
 } else {
     print("Zero or only some RJMCMC vectors were found in the provided RTT script.")
 }
