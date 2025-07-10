@@ -39,7 +39,10 @@ ex_upr <- grep("^\\s*ex_upr\\s*=", rtt_text, value = TRUE)
 div_upr <- grep("^\\s*div_upr\\s*=", rtt_text, value = TRUE)
 
 # Search for RJMCMC VECTORS
-
+time <- grep("^\\s*time\\s*=", rtt_text, value = TRUE)
+rate = grep("^\\s*rate\\s*=", rtt_text, value = TRUE)
+minHPD = grep("^\\s*minHPD\\s*=", rtt_text, value = TRUE)
+maxHPD = grep("^\\s*maxHPD\\s*=", rtt_text, value = TRUE)
 
 # Execute all NON-BDNN, NON-RJMCMC vectors only if all those vectors were found/exist
 if (length(L_hpd_m95) > 0 && length(L_hpd_M95) > 0 && length(L_mean) > 0 &&
@@ -108,6 +111,33 @@ if (length(time_vec) > 0 && length(sp_mean) > 0 && length(ex_mean) > 0 &&
   print("Zero or only some BDNN vectors were found in the provided RTT script.")
 }
 
+
+# Execute all RJMCMC vectors only if all those vectors were found/exist
+if (length(time) > 2 && length(rate) > 2 && length(minHPD) > 2 &&
+    length(maxHPD) > 2) {
+    age <- time[1]
+    L_mean <- rate[1]
+    M_mean <- rate[2]
+    R_mean <- rate[3]
+    L_hpd_m95 <- minHPD[1]
+    L_hpd_M95 <- maxHPD[1]
+    M_hpd_m95 <- minHPD[2]
+    M_hpd_M95 <- maxHPD[2]
+    R_hpd_m95 <- minHPD[3]
+    R_hpd_M95 <- maxHPD[3]
+    eval(parse(text = age))
+    eval(parse(text = L_mean))
+    eval(parse(text = M_mean))
+    eval(parse(text = R_mean))
+    eval(parse(text = L_hpd_m95))
+    eval(parse(text = L_hpd_M95))
+    eval(parse(text = M_hpd_m95))
+    eval(parse(text = M_hpd_M95))
+    eval(parse(text = R_hpd_m95))
+    eval(parse(text = R_hpd_M95))
+} else {
+    print("Zero or only some RJMCMC vectors were found in the provided RTT script.")
+}
 
 # Mass extinction events
 perm_trias_extinction <- -252 

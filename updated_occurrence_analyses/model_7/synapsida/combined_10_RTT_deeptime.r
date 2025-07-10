@@ -6,8 +6,13 @@ library(gtable)
 library(grid)
 
 ##############  PREPPING DATA VECTORS, COPY IN THE PATH TO THE RTT SCRIPT
-rtt_text <- readLines('/Volumes/My Passport/pt_diversity_rates/updated_occurrence_analyses/model_2_and_5/200_its/reptilia_terr_200/RTT_plots.r', warn = FALSE)
+rtt_text <- readLines('/Volumes/My Passport/pt_diversity_rates/updated_occurrence_analyses/model_7/synapsida/combined_10_RTT.r', warn = FALSE)
 
+# Search for lines in rtt_text that contain any of the vectors we need
+# Note that vectors in BDNN, RJMCMC, and non-BDNN/non-RJMCMC models have different names, so we'll need to do some transformations and conditionals
+#* I haven't 
+# age = time (should be negative, descending, so -1, -2, for ex)
+# L = Speciation, M = extinction, R = netdiversification, M95 = max 95% HPD, m95 = min 95% HPD, mean = rate (central line)
 
 # Searching for NON-BDNN, NON-RJMCMC VECTORS
 L_hpd_m95 <- grep("^\\s*L_hpd_m95\\s*=", rtt_text, value = TRUE)
@@ -35,9 +40,9 @@ div_upr <- grep("^\\s*div_upr\\s*=", rtt_text, value = TRUE)
 
 # Search for RJMCMC VECTORS
 time <- grep("^\\s*time\\s*=", rtt_text, value = TRUE)
-rate <- grep("^\\s*rate\\s*=", rtt_text, value = TRUE)
-minHPD <- grep("^\\s*minHPD\\s*=", rtt_text, value = TRUE)
-maxHPD <- grep("^\\s*maxHPD\\s*=", rtt_text, value = TRUE)
+rate = grep("^\\s*rate\\s*=", rtt_text, value = TRUE)
+minHPD = grep("^\\s*minHPD\\s*=", rtt_text, value = TRUE)
+maxHPD = grep("^\\s*maxHPD\\s*=", rtt_text, value = TRUE)
 
 # Execute all NON-BDNN, NON-RJMCMC vectors only if all those vectors were found/exist
 if (length(L_hpd_m95) > 0 && length(L_hpd_M95) > 0 && length(L_mean) > 0 &&
@@ -110,7 +115,6 @@ if (length(time_vec) > 0 && length(sp_mean) > 0 && length(ex_mean) > 0 &&
 # Execute all RJMCMC vectors only if all those vectors were found/exist
 if (length(time) > 2 && length(rate) > 2 && length(minHPD) > 2 &&
     length(maxHPD) > 2) {
-    # The grep found multiple lines, so we need to parse them
     age <- time[1]
     L_mean <- rate[1]
     M_mean <- rate[2]
@@ -134,6 +138,7 @@ if (length(time) > 2 && length(rate) > 2 && length(minHPD) > 2 &&
 } else {
     print("Zero or only some RJMCMC vectors were found in the provided RTT script.")
 }
+
 # Mass extinction events
 perm_trias_extinction <- -252 
 guadalupian_extinction <- -261
@@ -241,7 +246,7 @@ create_plot_with_geo <- function(poly_data, mean_data, color, title, ylab, ylim,
 ############# CALL THE FUNCTION WITH CUSTOM ARGUMENTS
 ############# TITLE, YLIM
 p1 <- create_plot_with_geo(L_data$poly_data, L_data$mean_data, "#4c4cec", 
-                         "Synapsida Model 1: MCMC by Stages with No Predictors", 
+                         "Synapsida Model 7: BDNN MCMC by Stages with Isotopic Predictors", 
                          "Speciation rate", c(0, 1), show_x_axis = TRUE) 
 
 p2 <- create_plot_with_geo(M_data$poly_data, M_data$mean_data, "#e34a33", 
@@ -258,7 +263,7 @@ final_plot <- grid.arrange(
 )
 
 ############# SAVE TO CUSTOM PDF PATH
-pdf(file = '/Volumes/My Passport/pt_diversity_rates/updated_occurrence_analyses/model_2_and_5/200_its/reptilia_terr_200/combined_10_RTT_deeptime_test.pdf', 
+pdf(file = '/Volumes/My Passport/pt_diversity_rates/updated_occurrence_analyses/model_7/synapsida/combined_10_RTT_deeptime.pdf', # CHANGE THIS TO YOUR CUSTOM PDF PATH
     width = 8, height = 12)
 grid.draw(final_plot)
 dev.off()
