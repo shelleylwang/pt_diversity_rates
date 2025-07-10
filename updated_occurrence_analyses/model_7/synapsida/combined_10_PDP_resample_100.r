@@ -1,4 +1,4 @@
-pdf(file='/Volumes/My Passport/pt_diversity_rates/updated_occurrence_analyses/model_7/synapsida/combined_10_PDP.pdf', width = 7, height = 6, useDingbats = FALSE)
+pdf(file='/Volumes/My Passport/pt_diversity_rates/updated_occurrence_analyses/model_7/synapsida/combined_10_PDP_resample_100.pdf', width = 7, height = 6, useDingbats = FALSE)
 
 pkgs = c('vioplot')
 new_pkgs = pkgs[!(pkgs %in% installed.packages()[,'Package'])]

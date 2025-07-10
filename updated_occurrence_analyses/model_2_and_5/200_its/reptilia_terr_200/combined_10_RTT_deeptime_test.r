@@ -68,7 +68,7 @@ if (length(time_vec) > 0 && length(sp_mean) > 0 && length(ex_mean) > 0 &&
     length(div_upr) > 0) {
   
   eval(parse(text = time_vec))
-  time_vec <- -time_vec  # Convert to negative time for plotting
+  time_vec <- -time_vec  # Convert to negative time for plotting  
   eval(parse(text = sp_mean))
   eval(parse(text = ex_mean))
   eval(parse(text = div_mean))
@@ -111,26 +111,16 @@ if (length(time_vec) > 0 && length(sp_mean) > 0 && length(ex_mean) > 0 &&
 if (length(time) > 2 && length(rate) > 2 && length(minHPD) > 2 &&
     length(maxHPD) > 2) {
     # The grep found multiple lines, so we need to parse them
-    age <- time[1]
-    L_mean <- rate[1]
-    M_mean <- rate[2]
-    R_mean <- rate[3]
-    L_hpd_m95 <- minHPD[1]
-    L_hpd_M95 <- maxHPD[1]
-    M_hpd_m95 <- minHPD[2]
-    M_hpd_M95 <- maxHPD[2]
-    R_hpd_m95 <- minHPD[3]
-    R_hpd_M95 <- maxHPD[3]
-    eval(parse(text = age))
-    eval(parse(text = L_mean))
-    eval(parse(text = M_mean))
-    eval(parse(text = R_mean))
-    eval(parse(text = L_hpd_m95))
-    eval(parse(text = L_hpd_M95))
-    eval(parse(text = M_hpd_m95))
-    eval(parse(text = M_hpd_M95))
-    eval(parse(text = R_hpd_m95))
-    eval(parse(text = R_hpd_M95))
+    age <- eval(parse(text = time[1]))
+    L_mean <- eval(parse(text = rate[1]))
+    M_mean <- eval(parse(text = rate[2]))
+    R_mean <- eval(parse(text = rate[3]))
+    L_hpd_m95 <- eval(parse(text = minHPD[1]))  
+    L_hpd_M95 <- eval(parse(text = maxHPD[1]))
+    M_hpd_m95 <- eval(parse(text = minHPD[2]))
+    M_hpd_M95 <- eval(parse(text = maxHPD[2]))
+    R_hpd_m95 <- eval(parse(text = minHPD[3]))
+    R_hpd_M95 <- eval(parse(text = maxHPD[3]))
 } else {
     print("Zero or only some RJMCMC vectors were found in the provided RTT script.")
 }
