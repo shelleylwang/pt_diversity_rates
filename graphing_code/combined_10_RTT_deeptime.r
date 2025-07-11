@@ -115,26 +115,33 @@ if (length(time_vec) > 0 && length(sp_mean) > 0 && length(ex_mean) > 0 &&
 # Execute all RJMCMC vectors only if all those vectors were found/exist
 if (length(time) > 2 && length(rate) > 2 && length(minHPD) > 2 &&
     length(maxHPD) > 2) {
-    age <- time[1]
-    L_mean <- rate[1]
-    M_mean <- rate[2]
-    R_mean <- rate[3]
-    L_hpd_m95 <- minHPD[1]
-    L_hpd_M95 <- maxHPD[1]
-    M_hpd_m95 <- minHPD[2]
-    M_hpd_M95 <- maxHPD[2]
-    R_hpd_m95 <- minHPD[3]
-    R_hpd_M95 <- maxHPD[3]
-    eval(parse(text = age))
-    eval(parse(text = L_mean))
-    eval(parse(text = M_mean))
-    eval(parse(text = R_mean))
-    eval(parse(text = L_hpd_m95))
-    eval(parse(text = L_hpd_M95))
-    eval(parse(text = M_hpd_m95))
-    eval(parse(text = M_hpd_M95))
-    eval(parse(text = R_hpd_m95))
-    eval(parse(text = R_hpd_M95))
+  # Parse and create numbered variables for each of the vars found
+  age <- eval(parse(text = sub("^\\s*time\\s*=\\s*", "", grep("^\\s*time\\s*=", rtt_text, value = TRUE)[1])))
+  
+  for (i in seq_along(rate)) {
+    rhs <- sub("^\\s*rate\\s*=\\s*", "", rate[i])
+    assign(paste0("rate_", i), eval(parse(text = rhs)))
+  }
+  
+  for (i in seq_along(minHPD)) {
+    rhs <- sub("^\\s*minHPD\\s*=\\s*", "", minHPD[i])
+    assign(paste0("minHPD_", i), eval(parse(text = rhs)))
+  }
+  
+  for (i in seq_along(maxHPD)) {
+    rhs <- sub("^\\s*maxHPD\\s*=\\s*", "", maxHPD[i])
+    assign(paste0("maxHPD_", i), eval(parse(text = rhs)))
+  }
+  
+  L_mean <- rate_1
+  M_mean <- rate_2
+  R_mean <- rate_3
+  L_hpd_m95 <- minHPD_1
+  L_hpd_M95 <- maxHPD_1
+  M_hpd_m95 <- minHPD_2
+  M_hpd_M95 <- maxHPD_2
+  R_hpd_m95 <- minHPD_3
+  R_hpd_M95 <- maxHPD_3
 } else {
     print("Zero or only some RJMCMC vectors were found in the provided RTT script.")
 }
