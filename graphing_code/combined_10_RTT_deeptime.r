@@ -10,7 +10,6 @@ rtt_text <- readLines("path_to_default_RTT_script.r", warn = FALSE)
 
 # Search for lines in rtt_text that contain any of the vectors we need
 # Note that vectors in BDNN, RJMCMC, and non-BDNN/non-RJMCMC models have different names, so we'll need to do some transformations and conditionals
-#* I haven't 
 # age = time (should be negative, descending, so -1, -2, for ex)
 # L = Speciation, M = extinction, R = netdiversification, M95 = max 95% HPD, m95 = min 95% HPD, mean = rate (central line)
 
@@ -40,11 +39,15 @@ div_upr <- grep("^\\s*div_upr\\s*=", rtt_text, value = TRUE)
 
 # Search for RJMCMC VECTORS
 time <- grep("^\\s*time\\s*=", rtt_text, value = TRUE)
-rate = grep("^\\s*rate\\s*=", rtt_text, value = TRUE)
-minHPD = grep("^\\s*minHPD\\s*=", rtt_text, value = TRUE)
-maxHPD = grep("^\\s*maxHPD\\s*=", rtt_text, value = TRUE)
+rate <- grep("^\\s*rate\\s*=", rtt_text, value = TRUE)
+minHPD <- grep("^\\s*minHPD\\s*=", rtt_text, value = TRUE)
+maxHPD <- grep("^\\s*maxHPD\\s*=", rtt_text, value = TRUE)
+# All the RJMCMC div vectors have net_ prefix
+net_rate <- grep("^\\s*net_rate\\s*=", rtt_text, value = TRUE)  
+net_minHPD <- grep("^\\s*net_minHPD\\s*=", rtt_text, value = TRUE)
+net_maxHPD <- grep("^\\s*net_maxHPD\\s*=", rtt_text, value = TRUE)
 
-# Execute all NON-BDNN, NON-RJMCMC vectors only if all those vectors were found/exist
+# Execute NON-BDNN, NON-RJMCMC vectors only if all those vectors were found/exist
 if (length(L_hpd_m95) > 0 && length(L_hpd_M95) > 0 && length(L_mean) > 0 &&
     length(M_hpd_m95) > 0 && length(M_hpd_M95) > 0 && length(M_mean) > 0 &&
     length(R_hpd_m95) > 0 && length(R_hpd_M95) > 0 && length(R_mean) > 0 &&
@@ -60,20 +63,17 @@ if (length(L_hpd_m95) > 0 && length(L_hpd_M95) > 0 && length(L_mean) > 0 &&
   eval(parse(text = R_hpd_M95))
   eval(parse(text = R_mean))
   eval(parse(text = age))
-
-} else {
-
-  print("Zero or only some Non-BDNN, Non-RJMCMC vectors were found in the provided RTT script.") #print statement then move on
-}
-
-# Execute all BDNN vectors only if all those vectors were found/exist
-if (length(time_vec) > 0 && length(sp_mean) > 0 && length(ex_mean) > 0 &&
-    length(div_mean) > 0 && length(sp_lwr) > 0 && length(ex_lwr) > 0 &&
-    length(div_lwr) > 0 && length(sp_upr) > 0 && length(ex_upr) > 0 &&
-    length(div_upr) > 0) {
+  
+  print("Non-BDNN, Non-RJMCMC vectors loaded successfully.")
+  
+  # Execute BDNN vectors only if all those vectors were found/exist AND the first condition was not met
+} else if (length(time_vec) > 0 && length(sp_mean) > 0 && length(ex_mean) > 0 &&
+           length(div_mean) > 0 && length(sp_lwr) > 0 && length(ex_lwr) > 0 &&
+           length(div_lwr) > 0 && length(sp_upr) > 0 && length(ex_upr) > 0 &&
+           length(div_upr) > 0) {
   
   eval(parse(text = time_vec))
-  time_vec <- -time_vec  # Convert to negative time for plotting
+  time_vec <- -time_vec  # Convert to negative time for plotting  
   eval(parse(text = sp_mean))
   eval(parse(text = ex_mean))
   eval(parse(text = div_mean))
@@ -105,19 +105,14 @@ if (length(time_vec) > 0 && length(sp_mean) > 0 && length(ex_mean) > 0 &&
   R_hpd_M95 <- div_upr
   R_mean <- div_mean
   age <- time_vec
-
-} else {
   
-  print("Zero or only some BDNN vectors were found in the provided RTT script.")
-}
-
-
-# Execute all RJMCMC vectors only if all those vectors were found/exist
-if (length(time) > 2 && length(rate) > 2 && length(minHPD) > 2 &&
-    length(maxHPD) > 2) {
+  print("BDNN vectors loaded successfully.")
+  
+  # Execute RJMCMC vectors only if all those vectors were found/exist AND the previous conditions were not met
+} else if (length(time) > 2 && length(rate) > 2 && length(minHPD) > 2 &&
+           length(maxHPD) > 2) {
+  # The grep found multiple lines, so we need to parse them
   # Parse and create numbered variables for each of the vars found
-  age <- eval(parse(text = sub("^\\s*time\\s*=\\s*", "", grep("^\\s*time\\s*=", rtt_text, value = TRUE)[1])))
-  
   for (i in seq_along(rate)) {
     rhs <- sub("^\\s*rate\\s*=\\s*", "", rate[i])
     assign(paste0("rate_", i), eval(parse(text = rhs)))
@@ -135,15 +130,20 @@ if (length(time) > 2 && length(rate) > 2 && length(minHPD) > 2 &&
   
   L_mean <- rate_1
   M_mean <- rate_2
-  R_mean <- rate_3
   L_hpd_m95 <- minHPD_1
   L_hpd_M95 <- maxHPD_1
   M_hpd_m95 <- minHPD_2
   M_hpd_M95 <- maxHPD_2
-  R_hpd_m95 <- minHPD_3
-  R_hpd_M95 <- maxHPD_3
+  
+  age <- eval(parse(text = sub("^\\s*time\\s*=\\s*", "", grep("^\\s*time\\s*=", rtt_text, value = TRUE)[1])))
+  R_mean <- eval(parse(text = sub("^\\s*net_rate\\s*=\\s*", "", grep("^\\s*net_rate\\s*=", rtt_text, value = TRUE))))
+  R_hpd_m95 <- eval(parse(text = sub("^\\s*net_minHPD\\s*=\\s*", "", grep("^\\s*net_minHPD\\s*=", rtt_text, value = TRUE))))
+  R_hpd_M95 <- eval(parse(text = sub("^\\s*net_maxHPD\\s*=\\s*", "", grep("^\\s*net_maxHPD\\s*=\\s*", rtt_text, value = TRUE))))
+  
+  print("RJMCMC vectors loaded successfully.")
+  
 } else {
-    print("Zero or only some RJMCMC vectors were found in the provided RTT script.")
+  print("No complete set of vectors found in the provided RTT script.")
 }
 
 # Mass extinction events

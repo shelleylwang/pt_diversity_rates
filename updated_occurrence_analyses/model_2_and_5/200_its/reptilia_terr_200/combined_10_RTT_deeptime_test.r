@@ -37,6 +37,10 @@ time <- grep("^\\s*time\\s*=", rtt_text, value = TRUE)
 rate <- grep("^\\s*rate\\s*=", rtt_text, value = TRUE)
 minHPD <- grep("^\\s*minHPD\\s*=", rtt_text, value = TRUE)
 maxHPD <- grep("^\\s*maxHPD\\s*=", rtt_text, value = TRUE)
+# All the RJMCMC div vectors have net_ prefix
+net_rate <- grep("^\\s*net_rate\\s*=", rtt_text, value = TRUE)  
+net_minHPD <- grep("^\\s*net_minHPD\\s*=", rtt_text, value = TRUE)
+net_maxHPD <- grep("^\\s*net_maxHPD\\s*=", rtt_text, value = TRUE)
 
 # Execute NON-BDNN, NON-RJMCMC vectors only if all those vectors were found/exist
 if (length(L_hpd_m95) > 0 && length(L_hpd_M95) > 0 && length(L_mean) > 0 &&
@@ -104,8 +108,6 @@ if (length(L_hpd_m95) > 0 && length(L_hpd_M95) > 0 && length(L_mean) > 0 &&
            length(maxHPD) > 2) {
   # The grep found multiple lines, so we need to parse them
   # Parse and create numbered variables for each of the vars found
-  age <- eval(parse(text = sub("^\\s*time\\s*=\\s*", "", grep("^\\s*time\\s*=", rtt_text, value = TRUE)[1])))
-  
   for (i in seq_along(rate)) {
     rhs <- sub("^\\s*rate\\s*=\\s*", "", rate[i])
     assign(paste0("rate_", i), eval(parse(text = rhs)))
@@ -123,13 +125,15 @@ if (length(L_hpd_m95) > 0 && length(L_hpd_M95) > 0 && length(L_mean) > 0 &&
   
   L_mean <- rate_1
   M_mean <- rate_2
-  R_mean <- rate_3
   L_hpd_m95 <- minHPD_1
   L_hpd_M95 <- maxHPD_1
   M_hpd_m95 <- minHPD_2
   M_hpd_M95 <- maxHPD_2
-  R_hpd_m95 <- minHPD_3
-  R_hpd_M95 <- maxHPD_3
+  
+  age <- eval(parse(text = sub("^\\s*time\\s*=\\s*", "", grep("^\\s*time\\s*=", rtt_text, value = TRUE)[1])))
+  R_mean <- eval(parse(text = sub("^\\s*net_rate\\s*=\\s*", "", grep("^\\s*net_rate\\s*=", rtt_text, value = TRUE))))
+  R_hpd_m95 <- eval(parse(text = sub("^\\s*net_minHPD\\s*=\\s*", "", grep("^\\s*net_minHPD\\s*=", rtt_text, value = TRUE))))
+  R_hpd_M95 <- eval(parse(text = sub("^\\s*net_maxHPD\\s*=\\s*", "", grep("^\\s*net_maxHPD\\s*=\\s*", rtt_text, value = TRUE))))
   
   print("RJMCMC vectors loaded successfully.")
   
@@ -245,10 +249,10 @@ create_plot_with_geo <- function(poly_data, mean_data, color, title, ylab, ylim,
 ############# TITLE, YLIM
 p1 <- create_plot_with_geo(L_data$poly_data, L_data$mean_data, "#4c4cec", 
                            "Synapsida Model 1: MCMC by Stages with No Predictors", 
-                           "Speciation rate", c(0, 1), show_x_axis = TRUE) 
+                           "Speciation rate", c(0, 2), show_x_axis = TRUE) 
 
 p2 <- create_plot_with_geo(M_data$poly_data, M_data$mean_data, "#e34a33", 
-                           "", "Extinction rate", c(0, 1), show_x_axis = TRUE)
+                           "", "Extinction rate", c(0, 2), show_x_axis = TRUE)
 
 p3 <- create_plot_with_geo(R_data$poly_data, R_data$mean_data, "#504A4B", 
                            "", "Net diversification rate", c(-0.5, 1), show_x_axis = TRUE)
