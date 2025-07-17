@@ -317,7 +317,8 @@ leg = c(leg, 'Tropical')
 leg = c(leg, 'Temperate_S')
 leg = c(leg, 'Antarctic')
 legend('topleft', bty = 'n', legend = leg, title = 'biome', pch = rep(22, 4), pt.bg = adjustcolor(col, alpha = 0.2), pt.cex = 2, lty = 1, seg.len = 1, col = col)
-par(mar = c(4, 4, 1.5, 5.1))
+# par(mar = c(4, 4, 1.5, 5.1))
+par(mar = c(4, 4, 1.5, 0.5))
 zreord <- 1:100.0
 byrow <- FALSE
 byrow <- TRUE
@@ -721,7 +722,8 @@ leg = c(leg, 'Tropical')
 leg = c(leg, 'Temperate_S')
 leg = c(leg, 'Antarctic')
 legend('topleft', bty = 'n', legend = leg, title = 'biome', pch = rep(22, 4), pt.bg = adjustcolor(col, alpha = 0.2), pt.cex = 2, lty = 1, seg.len = 1, col = col)
-par(mar = c(4, 4, 1.5, 5.1))
+# par(mar = c(4, 4, 1.5, 5.1))
+par(mar = c(4, 4, 1.5, 0.5))
 zreord <- 1:100.0
 byrow <- FALSE
 byrow <- TRUE
@@ -1125,7 +1127,8 @@ leg = c(leg, 'Tropical')
 leg = c(leg, 'Temperate_S')
 leg = c(leg, 'Antarctic')
 legend('topleft', bty = 'n', legend = leg, title = 'biome', pch = rep(22, 4), pt.bg = adjustcolor(col, alpha = 0.2), pt.cex = 2, lty = 1, seg.len = 1, col = col)
-par(mar = c(4, 4, 1.5, 5.1))
+par(mar = c(4, 4, 1.5, 0.5))
+#par(mar = c(4, 4, 1.5, 5.1))
 zreord <- 1:100.0
 byrow <- FALSE
 byrow <- TRUE
