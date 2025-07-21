@@ -6,7 +6,7 @@ library(gtable)
 library(grid)
 
 ##############  PREPPING DATA VECTORS, COPY IN THE PATH TO THE RTT SCRIPT
-rtt_text <- readLines("path_to_default_RTT_script.r", warn = FALSE)
+rtt_text <- readLines('/Volumes/My Passport/pt_diversity_rates/updated_occurrence_analyses/model_7/reptilia_all/combined_10_RTT.r', warn = FALSE)
 
 # Search for lines in rtt_text that contain any of the vectors we need
 # Note that vectors in BDNN, RJMCMC, and non-BDNN/non-RJMCMC models have different names, so we'll need to do some transformations and conditionals
@@ -253,7 +253,7 @@ create_plot_with_geo <- function(poly_data, mean_data, color, title, ylab, ylim,
 ############# CALL THE FUNCTION WITH CUSTOM ARGUMENTS
 ############# TITLE, YLIM
 p1 <- create_plot_with_geo(L_data$poly_data, L_data$mean_data, "#4c4cec", 
-                         "Synapsida Model 1: MCMC by Stages with No Predictors", 
+                         "All Reptilia Model 7: BDNN MCMC by Stages with Isotopic Predictors", 
                          "Speciation rate", c(0, 1), show_x_axis = TRUE) 
 
 p2 <- create_plot_with_geo(M_data$poly_data, M_data$mean_data, "#e34a33", 
@@ -270,7 +270,7 @@ final_plot <- grid.arrange(
 )
 
 ############# SAVE TO CUSTOM PDF PATH
-pdf(file = "C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/...combined_10_RTT_deeptime.pdf", 
+pdf(file = '/Volumes/My Passport/pt_diversity_rates/updated_occurrence_analyses/model_7/reptilia_all/combined_10_RTT_deeptime.pdf', 
     width = 8, height = 12)
 grid.draw(final_plot)
 dev.off()

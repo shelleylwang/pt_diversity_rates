@@ -6,12 +6,7 @@ library(gtable)
 library(grid)
 
 ##############  PREPPING DATA VECTORS, COPY IN THE PATH TO THE RTT SCRIPT
-rtt_text <- readLines("path_to_default_RTT_script.r", warn = FALSE)
-
-# Search for lines in rtt_text that contain any of the vectors we need
-# Note that vectors in BDNN, RJMCMC, and non-BDNN/non-RJMCMC models have different names, so we'll need to do some transformations and conditionals
-# age = time (should be negative, descending, so -1, -2, for ex)
-# L = Speciation, M = extinction, R = netdiversification, M95 = max 95% HPD, m95 = min 95% HPD, mean = rate (central line)
+rtt_text <- readLines('/Volumes/My Passport/pt_diversity_rates/updated_occurrence_analyses/model_2_and_5/200_its/reptilia_terr_200/RTT_plots.r', warn = FALSE)
 
 # Searching for NON-BDNN, NON-RJMCMC VECTORS
 L_hpd_m95 <- grep("^\\s*L_hpd_m95\\s*=", rtt_text, value = TRUE)
@@ -156,29 +151,29 @@ x_tick_labels <- abs(x_ticks)
 
 # Modified plot_RTT function that returns data for ggplot
 get_RTT_data <- function(age, hpd_M, hpd_m, mean_m, color) {
-    N <- 100
-    beta <- (1:(N-1))/N
-    alpha_shape <- 0.25
-    cat <- 1-(beta^(1./alpha_shape))
+  N <- 100
+  beta <- (1:(N-1))/N
+  alpha_shape <- 0.25
+  cat <- 1-(beta^(1./alpha_shape))
+  
+  # Create data frame for the polygons
+  poly_data <- data.frame()
+  
+  for (i in 1:(N-1)) {
+    trans <- 1/N + 2/N
+    upper <- hpd_M-((hpd_M-mean_m)*cat[i])
+    lower <- hpd_m+((mean_m-hpd_m)*cat[i])
     
-    # Create data frame for the polygons
-    poly_data <- data.frame()
-    
-    for (i in 1:(N-1)) {
-        trans <- 1/N + 2/N
-        upper <- hpd_M-((hpd_M-mean_m)*cat[i])
-        lower <- hpd_m+((mean_m-hpd_m)*cat[i])
-        
-        temp_df <- data.frame(
-            age = c(age, rev(age)),
-            y = c(upper, rev(lower)),
-            group = i,
-            alpha = trans
-        )
-        poly_data <- rbind(poly_data, temp_df)
-    }
-    
-    return(list(poly_data = poly_data, mean_data = data.frame(age = age, y = mean_m)))
+    temp_df <- data.frame(
+      age = c(age, rev(age)),
+      y = c(upper, rev(lower)),
+      group = i,
+      alpha = trans
+    )
+    poly_data <- rbind(poly_data, temp_df)
+  }
+  
+  return(list(poly_data = poly_data, mean_data = data.frame(age = age, y = mean_m)))
 }
 
 # Create plotting data for each rate
@@ -192,12 +187,12 @@ create_plot_with_geo <- function(poly_data, mean_data, color, title, ylab, ylim,
   main_plot <- ggplot() +
     # Plot the HPD intervals with transparency gradient
     geom_polygon(data = poly_data, 
-                aes(x = age, y = y, group = group, alpha = alpha), 
-                fill = color, na.rm = TRUE) +
+                 aes(x = age, y = y, group = group, alpha = alpha), 
+                 fill = color, na.rm = TRUE) +
     # Plot the mean line
     geom_line(data = mean_data, 
-             aes(x = age, y = y), 
-             color = color, size = 1.2, lineend = "round") +
+              aes(x = age, y = y), 
+              color = color, size = 1.2, lineend = "round") +
     # Add mass extinction lines
     geom_vline(xintercept = guadalupian_extinction, 
                color = "red", linetype = "dashed") +
@@ -205,7 +200,7 @@ create_plot_with_geo <- function(poly_data, mean_data, color, title, ylab, ylim,
                color = "red", linetype = "dashed", size = 0.5) +
     # Custom x-axis
     scale_x_continuous(breaks = x_ticks, labels = if(show_x_axis) x_tick_labels else NULL, 
-                      limits = c(-300, -200), name = if(show_x_axis) "Ma" else NULL) +
+                       limits = c(-300, -200), name = if(show_x_axis) "Ma" else NULL) +
     # Labels and titles
     labs(title = title, y = ylab) +
     # Set y limits with coord_cartesian for smooth polygons
@@ -235,7 +230,7 @@ create_plot_with_geo <- function(poly_data, mean_data, color, title, ylab, ylim,
   
   # Add geological timescale directly to the plot
   main_plot <- main_plot + 
-  # Custom x-axis 
+    # Custom x-axis 
     coord_geo(
       dat = list("international epochs", "international periods"),
       expand= FALSE,
@@ -253,14 +248,14 @@ create_plot_with_geo <- function(poly_data, mean_data, color, title, ylab, ylim,
 ############# CALL THE FUNCTION WITH CUSTOM ARGUMENTS
 ############# TITLE, YLIM
 p1 <- create_plot_with_geo(L_data$poly_data, L_data$mean_data, "#4c4cec", 
-                         "Synapsida Model 1: MCMC by Stages with No Predictors", 
-                         "Speciation rate", c(0, 1), show_x_axis = TRUE) 
+                           "Synapsida Model 1: MCMC by Stages with No Predictors", 
+                           "Speciation rate", c(0, 2), show_x_axis = TRUE) 
 
 p2 <- create_plot_with_geo(M_data$poly_data, M_data$mean_data, "#e34a33", 
-                         "", "Extinction rate", c(0, 1), show_x_axis = TRUE)
+                           "", "Extinction rate", c(0, 2), show_x_axis = TRUE)
 
 p3 <- create_plot_with_geo(R_data$poly_data, R_data$mean_data, "#504A4B", 
-                         "", "Net diversification rate", c(-0.5, 1), show_x_axis = TRUE)
+                           "", "Net diversification rate", c(-0.5, 1), show_x_axis = TRUE)
 
 # Combine all plots
 final_plot <- grid.arrange(
@@ -270,7 +265,7 @@ final_plot <- grid.arrange(
 )
 
 ############# SAVE TO CUSTOM PDF PATH
-pdf(file = "C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/...combined_10_RTT_deeptime.pdf", 
+pdf(file = '/Volumes/My Passport/pt_diversity_rates/updated_occurrence_analyses/model_2_and_5/200_its/reptilia_terr_200/combined_10_RTT_deeptime_test.pdf', 
     width = 8, height = 12)
 grid.draw(final_plot)
 dev.off()
