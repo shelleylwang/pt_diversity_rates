@@ -28,7 +28,7 @@ perm_trias_extinction <- -252
 guadalupian_extinction <- -261
 
 # Custom tick positions
-x_ticks <- seq(-300, -200, by=10) ###################### CHANGE THIS TO MODIFY X TICKS
+x_ticks <- seq(-300, -200, by=5) ###################### CHANGE THIS TO MODIFY X TICKS
 x_tick_labels <- abs(x_ticks)
 
 # Modified plot_RTT function that returns data for ggplot
@@ -127,7 +127,7 @@ create_plot_with_geo <- function(poly_data, mean_data, color, title, ylab, ylim,
       ylim = ylim, ######### COMMENT THIS OUT TO AUTO-SCALE Y AXIS (even if you pass a ylim argument, if this is commented out, it will auto-scale based on data vectors)
       height = unit(1, "line"),
       neg = TRUE,
-      xlim = c(-300, -200)) ############################# CHANGE THIS TO MODIFY X LIMITS, I.E., TIME FRAME
+      xlim = c(-280, -235)) ############################# CHANGE THIS TO MODIFY X LIMITS, I.E., TIME FRAME
   
   return(main_plot)
 }
@@ -135,7 +135,7 @@ create_plot_with_geo <- function(poly_data, mean_data, color, title, ylab, ylim,
 ############# CALL THE FUNCTION WITH CUSTOM ARGUMENTS
 ############# TITLE, YLIM
 p1 <- create_plot_with_geo(L_data$poly_data, L_data$mean_data, "#4c4cec", 
-                         "Terrestrial Reptilia Model 2: RJMCMC by 1 Myr No Predictors", 
+                         "Terrestrial Reptilia Model 2: RJMCMC by 1 Myr with No Predictors", 
                          "Speciation rate", c(0, 2), show_x_axis = TRUE) 
 
 p2 <- create_plot_with_geo(M_data$poly_data, M_data$mean_data, "#e34a33", 
@@ -152,7 +152,7 @@ final_plot <- grid.arrange(
 )
 
 ############# SAVE TO CUSTOM PDF PATH
-pdf(file = "C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/updated_occurrence_analyses/model_2_and_5/200_its/reptilia_terr_200/combined_10_RTT_deeptime.pdf", 
+pdf(file = '/Volumes/My Passport/pt_diversity_rates/updated_occurrence_analyses/model_2_and_5/200_its/reptilia_terr_200/combined_10_RTT_deeptime.pdf', 
     width = 8, height = 12)
 grid.draw(final_plot)
 dev.off()

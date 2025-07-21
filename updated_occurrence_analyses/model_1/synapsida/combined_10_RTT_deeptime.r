@@ -26,7 +26,7 @@ perm_trias_extinction <- -252
 guadalupian_extinction <- -261
 
 # Custom tick positions
-x_ticks <- seq(-300, -200, by=10)
+x_ticks <- seq(-300, -200, by=5)
 x_tick_labels <- abs(x_ticks)
 
 # Modified plot_RTT function that returns data for ggplot
@@ -121,7 +121,7 @@ create_plot_with_geo <- function(poly_data, mean_data, color, title, ylab, ylim,
       ylim = ylim, ######### COMMENT THIS OUT TO AUTO-SCALE Y AXIS (even if you pass a ylim argument, if this is commented out, it will auto-scale based on data vectors)
       height = unit(1, "line"),
       neg = TRUE,
-      xlim = c(-300, -200))
+      xlim = c(-280, -235))
   
   return(main_plot)
 }
@@ -146,7 +146,7 @@ final_plot <- grid.arrange(
 )
 
 ############# SAVE TO CUSTOM PDF PATH
-pdf(file = "C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/updated_occurrence_analyses/model_1/synapsida/combined_10_RTT_deeptime.pdf", 
+pdf(file = '/Volumes/My Passport/pt_diversity_rates/updated_occurrence_analyses/model_1/synapsida/combined_10_RTT_deeptime.pdf', 
     width = 8, height = 12)
 grid.draw(final_plot)
 dev.off()

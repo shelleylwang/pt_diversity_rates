@@ -149,7 +149,7 @@ final_plot <- grid.arrange(
 )
 
 ############# SAVE TO CUSTOM PDF PATH
-pdf(file = "C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/updated_occurrence_analyses/model_4/synapsida/combined_10_RTT_deeptime.pdf", 
+pdf(file = '/Volumes/My Passport/pt_diversity_rates/updated_occurrence_analyses/model_4/synapsida/combined_10_RTT_deeptime.pdf', 
     width = 8, height = 12)
 grid.draw(final_plot)
 dev.off()

@@ -23,13 +23,24 @@ div_mean=c(0.21235819856425642, 0.21235819856425642,0.017398977421218317,0.01739
 div_lwr=c(0.06764948754885701, 0.06764948754885701,-0.07492142671904617,-0.07492142671904617,-0.08397441221743586,-0.08397441221743586,-0.03642384075655121,-0.03642384075655121,-0.03187686352765516,-0.03187686352765516,-0.2543250303677283,-0.2543250303677283,-0.31211851187723605,-0.31211851187723605,-0.19040774327179447,-0.19040774327179447,-0.2123937355686859,-0.2123937355686859,-0.14248556891349376,-0.14248556891349376,-0.0760741889817996,-0.0760741889817996,-0.06826934071004717,-0.06826934071004717,-0.5643310682720859,-0.5643310682720859)
 div_upr=c(0.3711024386186453, 0.3711024386186453,0.11490166137366414,0.11490166137366414,0.06044843479155078,0.06044843479155078,0.44032735082581986,0.44032735082581986,0.2509355039158824,0.2509355039158824,-0.08360751378574671,-0.08360751378574671,0.12478809533343643,0.12478809533343643,0.11639076122062764,0.11639076122062764,0.024273149533066682,0.024273149533066682,0.02094847300867786,0.02094847300867786,0.02135877812862924,0.02135877812862924,0.06195816479585908,0.06195816479585908,-0.12443710365621599,-0.12443710365621599)
 
+sp_mean = rev(sp_mean)
+ex_mean = rev(ex_mean)
+div_mean = rev(div_mean)
+
+sp_lwr = rev(sp_lwr)
+ex_lwr = rev(ex_lwr)
+div_lwr = rev(div_lwr)
+
+sp_upr = rev(sp_upr)
+ex_upr = rev(ex_upr)
+div_upr = rev(div_upr)
 
 # Mass extinction events
 perm_trias_extinction <- -252 
 guadalupian_extinction <- -261
 
 # Custom tick positions
-x_ticks <- seq(-300, -200, by=10) ###################### CHANGE THIS TO MODIFY X TICKS
+x_ticks <- seq(-300, -200, by=5) ###################### CHANGE THIS TO MODIFY X TICKS
 x_tick_labels <- abs(x_ticks)
 
 # Modified plot_RTT function that returns data for ggplot
@@ -128,7 +139,7 @@ create_plot_with_geo <- function(poly_data, mean_data, color, title, ylab, ylim,
       ylim = ylim, ######### COMMENT THIS OUT TO AUTO-SCALE Y AXIS (even if you pass a ylim argument, if this is commented out, it will auto-scale based on data vectors)
       height = unit(1, "line"),
       neg = TRUE,
-      xlim = c(-300, -200)) ############################# CHANGE THIS TO MODIFY X LIMITS, I.E., TIME FRAME
+      xlim = c(-280, -235)) ############################# CHANGE THIS TO MODIFY X LIMITS, I.E., TIME FRAME
   
   return(main_plot)
 }
@@ -136,7 +147,7 @@ create_plot_with_geo <- function(poly_data, mean_data, color, title, ylab, ylim,
 ############# CALL THE FUNCTION WITH CUSTOM ARGUMENTS
 ############# TITLE, YLIM
 p1 <- create_plot_with_geo(L_data$poly_data, L_data$mean_data, "#4c4cec", 
-                         "Synapsida Model 3: MCMC by Stages with BRIDGE Predictors", 
+                         "Synapsida Model 3: BDNN by Stages with BRIDGE Predictors", 
                          "Speciation rate", c(0, 1), show_x_axis = TRUE) 
 
 p2 <- create_plot_with_geo(M_data$poly_data, M_data$mean_data, "#e34a33", 
@@ -153,7 +164,10 @@ final_plot <- grid.arrange(
 )
 
 ############# SAVE TO CUSTOM PDF PATH
-pdf(file = "C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/updated_occurrence_analyses/model_3/synapsida/combined_10_RTT_deeptime.pdf", 
+# pdf(file = "C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/updated_occurrence_analyses/model_3/synapsida/combined_10_RTT_deeptime.pdf", 
+#     width = 8, height = 12)
+
+pdf(file = '/Volumes/My Passport/pt_diversity_rates/updated_occurrence_analyses/model_3/synapsida/combined_10_RTT_deeptime.pdf', 
     width = 8, height = 12)
 grid.draw(final_plot)
 dev.off()
