@@ -1,4 +1,4 @@
-pdf(file='/Volumes/My Passport/pt_diversity_rates/updated_occurrence_analyses/model_7/synapsida/PDPs_custom/combined_10_PDP_274.4_custom.pdf', width = 8, height = 12, useDingbats = FALSE)
+pdf(file="C:\\Users\\SimoesLabAdmin\\Documents\\pt_diversity_rates\\updated_occurrence_analyses\\model_7\\synapsida\\PDPs_custom\\pdp_sp_only.pdf", width = 8, height = 12, useDingbats = FALSE)
 
 # Setting up 3 x 2 layout grid (we have 5 graphs we want to isolate from the default PDP's)
 # import ggplot

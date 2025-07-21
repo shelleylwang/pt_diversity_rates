@@ -1,5 +1,5 @@
-#setwd("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli")
-setwd('/Volumes/My Passport/pt_diversity_rates')
+setwd("C:/Users/SimoesLabAdmin/Documents/pt_diversity_rates")
+#setwd('/Volumes/My Passport/pt_diversity_rates')
 source("mcmc_logs_analyses_code/coda_final_2.R")
 source("mcmc_logs_analyses_code/coda_ess_diagnostics.R")
 
@@ -84,4 +84,10 @@ analyze_ess_diagnostics("updated_occurrence_analyses/models_using_occs_that_incl
 analyze_mcmc("updated_occurrence_analyses/models_using_occs_that_include_null_lats/model_5_reptilia_all")
 
 
-
+############## MODEL D
+analyze_ess_diagnostics("updated_occurrence_analyses/model_D/reptilia_all")
+analyze_mcmc("updated_occurrence_analyses/model_D/reptilia_all")
+analyze_ess_diagnostics("updated_occurrence_analyses/model_D/reptilia_terr")
+analyze_mcmc("updated_occurrence_analyses/model_D/reptilia_terr")
+analyze_ess_diagnostics("updated_occurrence_analyses/model_D/synapsida")
+analyze_mcmc("updated_occurrence_analyses/model_D/synapsida")
