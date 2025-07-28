@@ -66,14 +66,18 @@ analyze_ess_diagnostics("updated_occurrence_analyses/model_7/synapsida")
 analyze_mcmc("updated_occurrence_analyses/model_7/synapsida")
 
 ################################################################################
-############## MODELS USING OCCS THAT INCLUDED NULL LATS #######################
+############## ADDITIONAL MODELS #######################
 ############## MODEL A
 analyze_ess_diagnostics("updated_occurrence_analyses/model_A/reptilia_terr")
 analyze_mcmc("updated_occurrence_analyses/model_A/reptilia_terr")
 analyze_ess_diagnostics("updated_occurrence_analyses/model_A/synapsida")
 analyze_mcmc("updated_occurrence_analyses/model_A/synapsida")
 
-
+############## MODEL B
+analyze_ess_diagnostics("updated_occurrence_analyses/model_B/reptilia_all")
+analyze_mcmc("updated_occurrence_analyses/model_B/reptilia_all")
+analyze_ess_diagnostics("updated_occurrence_analyses/model_B/synapsida")
+analyze_mcmc("updated_occurrence_analyses/model_B/synapsida")
 
 ############## MODEL 2
 analyze_ess_diagnostics("updated_occurrence_analyses/models_using_occs_that_include_null_lats/model_2_reptilia_terr")
