@@ -1,9 +1,9 @@
-pdf(file="C:\\Users\\SimoesLabAdmin\\Documents\\pt_diversity_rates\\updated_occurrence_analyses\\model_7\\synapsida\\PDPs_custom\\combined_10_PDP_resample_100_custom.pdf", width = 7, height = 6, useDingbats = FALSE)
+pdf(file="C:\\Users\\SimoesLabAdmin\\Documents\\pt_diversity_rates\\updated_occurrence_analyses\\defunct_models\\model_7_incorrect_isotopic_data\\synapsida\\PDPs_custom\\combined_10_PDP_resample_100_custom.pdf", width = 12, height = 8, useDingbats = FALSE)
 
-# Setting up 3 x 2 layout grid (we have 5 graphs we want to isolate from the default PDP's)
+# Setting up 3 x 4 layout grid (we have 4 graphs we want to isolate from the default PDP's per clade)
 # import ggplot
 library(ggplot2)
-par(mfrow = c(2, 2), mar = c(4, 4, 1.5, 0.5), las = 1)
+par(mfrow = c(3, 4), mar = c(4, 4, 1.5, 0.5), las = 1)
 
 pkgs = c('vioplot')
 new_pkgs = pkgs[!(pkgs %in% installed.packages()[,'Package'])]
