@@ -1,4 +1,4 @@
-Time	mean_z_trans	Mod_R_deltaTMyr_z_trans
+Time	mean_gl_stages_z_trans	Mod_R_deltaTMyr_gl_stages_z_trans
 227.0	0.382853707	-1.035018983
 227.1	0.382853707	-1.035018983
 227.2	0.382853707	-1.035018983

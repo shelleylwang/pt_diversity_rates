@@ -22,7 +22,7 @@ python ../PyRate/PyRate.py updated_occurrence_analyses/data/Perm-Trias/pt_synaps
  -BDNNmodel 1 -fixShift updated_occurrence_analyses/data/Perm-Trias/Time_bins_1myr_and_stages.txt \
  -qShift updated_occurrence_analyses/data/Perm-Trias/Time_bins_ByStages.txt -mG \
  -trait_file updated_occurrence_analyses/data/Perm-Trias/bdnn_trait_files/pt_synapsida_lats_file_final.txt \
- -BDNNtimevar updated_occurrence_analyses/data/Guad-Ladin/songEA_isotopic_data/isotopic_and_binary_stages_data/isotopic_stages_timevar_1myr.txt \
+ -BDNNtimevar updated_occurrence_analyses/data/Perm-Trias/songEA_isotopic_data_pt_1myr/isotopic_1myr_binary_stages_timevar.txt \
  -BDNNtimetrait 0 -translate -175 -out _model_8 -wd updated_occurrence_analyses/model_8/synapsida -n 200000000 -s 1000 -j ${SLURM_ARRAY_TASK_ID} 
 
 
