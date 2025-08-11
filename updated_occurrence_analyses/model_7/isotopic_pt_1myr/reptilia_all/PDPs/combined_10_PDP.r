@@ -190,6 +190,7 @@ image.plot <- function(..., add = FALSE, breaks = NULL, nlevel = 64, col = NULL,
   }
 }
 
+
 par(las = 1, mar = c(4, 4, 1.5, 0.5))
 ylim = c(8.621850616825378e-05, 0.30475183974378317)
 xlim=c(-0.0032839775,123.954315)
