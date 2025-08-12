@@ -171,7 +171,7 @@ image.plot <- function(..., add = FALSE, breaks = NULL, nlevel = 64, col = NULL,
   do.call('axis', axis.args)
   if (!is.null(legend.lab)) {
     legend.args <- list(text = legend.lab, side = 4,
-                        line = legend.line, cex = legend.cex)
+                        line = legend.line, cex = legend.cex)s
   }
   if (!is.null(legend.args)) {
     do.call(mtext, legend.args)
