@@ -1,6 +1,6 @@
-pdf(file='C:/Users/SimoesLabAdmin/Documents/pt_diversity_rates/updated_occurrence_analyses/model_9/reptilia_terr/PDPs_custom/combined_10_PDP.pdf', width = 20, height = 20, useDingbats = FALSE)
+pdf(file='C:/Users/SimoesLabAdmin/Documents/pt_diversity_rates/updated_occurrence_analyses/model_9/reptilia_terr/PDPs_custom/combined_10_PDP.pdf', width = 24, height = 20, useDingbats = FALSE)
 
-par(mfrow = c(6, 6), mar = c(6.5, 4, 0.5, 0.1), las =1)
+par(mfrow = c(6, 6), mar = c(6.5, 4, 0.5, 0.5), las =1)
 pkgs = c('vioplot')
 new_pkgs = pkgs[!(pkgs %in% installed.packages()[,'Package'])]
 if (length(new_pkgs) > 0) {
@@ -843,7 +843,7 @@ polygon(c(tr, rev(tr)), c(r_lwr, rev(r_upr)), col = adjustcolor('grey50', alpha 
 lines(tr, r, col = 'grey50', lwd = 1.5)
 ylim = c(-0.7299408338639864, 0.7562100203719744)
 xlim = c(-0.5, 10 + 0.5)
-par(las = 2, mar = c(6, 4, 0.5, 0.5))
+par(las = 2, mar = c(6.5, 4, 0.5, 0.5))
 plot(1, 0, type = 'n', xlim = xlim, ylim = ylim, xlab = '', ylab = 'Net Diversification', xaxt = 'n')
 col = colorRampPalette(c('grey75', 'grey40'))(11)
 axis(side = 1, at = 0, labels = '208-217')
