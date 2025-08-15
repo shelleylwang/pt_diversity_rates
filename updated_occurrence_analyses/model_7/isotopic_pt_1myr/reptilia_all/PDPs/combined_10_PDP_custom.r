@@ -1,4 +1,4 @@
-pdf(file='C:/Users/SimoesLabAdmin/Documents/pt_diversity_rates/updated_occurrence_analyses/model_7/isotopic_pt_1myr/reptilia_all/PDPs/combined_10_PDP_custom.pdf', width = 14, height = 8, useDingbats = FALSE)
+pdf(file='C:/Users/SimoesLabAdmin/Documents/pt_diversity_rates/updated_occurrence_analyses/model_7/isotopic_pt_1myr/reptilia_all/PDPs/combined_10_PDP_custom.pdf', width = 16, height = 10, useDingbats = FALSE)
 
 par(mfrow = c(3, 4), mar = c(4, 4, 1.5, 0.5), las = 1)
 
