@@ -2,13 +2,6 @@ pdf(file='C:/Users/SimoesLabAdmin/Documents/pt_diversity_rates/updated_occurrenc
 
 par(mfrow = c(3, 5), mar = c(6.5, 4, 0.5, 0.5))
 
-pkgs = c('vioplot')
-new_pkgs = pkgs[!(pkgs %in% installed.packages()[,'Package'])]
-if (length(new_pkgs) > 0) {
-    install.packages(new_pkgs, repos = 'https://cran.rstudio.com/')
-}
-suppressPackageStartupMessages(library(vioplot))
-
 par(las = 1, mar = c(6.5, 4, 0.5, 0.5))
 ylim = c(0.0017746282986909607, 1.972471493296205)
 xlim=c(-0.005141735,138.94763)
