@@ -20,4 +20,4 @@ module load anaconda3/2024.2
 # Define command to run
 python ../PyRate/PyRate.py updated_occurrence_analyses/data/Perm-Trias/pt_synapsida_pyrate_input_txt_PyRate.py \
  -A 4 -qShift updated_occurrence_analyses/data/Perm-Trias/Time_bins_ByStages.txt -mG \
- -n 200000000 -s 1000 -wd updated_occurrence_analyses/model_2_and_5/synapsida -out _model_2_200_s1k -j ${SLURM_ARRAY_TASK_ID} 
+ -n 200000000 -s 1000 -wd updated_occurrence_analyses/model_2_and_5/200_its_s1k/synapsida -out _model_2_200_s1k -j ${SLURM_ARRAY_TASK_ID} 
