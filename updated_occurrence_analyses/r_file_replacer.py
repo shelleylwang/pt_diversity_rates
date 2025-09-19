@@ -40,7 +40,6 @@ def replace_text_in_r_file(input_file, output_file=None):
         ('extinction', 'Extinction'),
         ('net diversification', 'Net Diversification'),
         ('lat_range_z_trans', 'Latitudinal Range'),
-        ('biome', 'Latitudinal Biome'),
         ('mat_z_trans', 'Mean Annual AtmT (°C)'),
         ('map_z_trans', 'Mean Annual Precipitation (mm/day)'),
         ('wmm_z_trans', 'Warmest Month AtmT (°C)'),
@@ -56,12 +55,16 @@ def replace_text_in_r_file(input_file, output_file=None):
     for old_text, new_text in replacements:
         content = content.replace(old_text, new_text)
     
-    # Special handling for biome plot modifications
-    # Comment out title(main = 'biome') and add xlab = 'Latitudinal Biome' to plot()
+   # Also handle other variations with flexible spacing and quote types
     biome_pattern = r"title\s*\(\s*main\s*=\s*['\"]biome['\"]\s*\)"
     if re.search(biome_pattern, content, re.IGNORECASE):
-        content = re.sub(biome_pattern, r"# title(main = 'biome')", content, flags=re.IGNORECASE)
+        content = re.sub(biome_pattern, r"# title(main='biome')", content, flags=re.IGNORECASE)
         print("Found and commented out title(main = 'biome')")
+    
+    stage_pattern = r"title\s*\(\s*main\s*=\s*['\"]Stage['\"]\s*\)"
+    if re.search(stage_pattern, content, re.IGNORECASE):
+        content = re.sub(stage_pattern, r"# title(main='Stage')", content, flags=re.IGNORECASE)
+        print("Found and commented out title(main = 'Stage')")
     
     # Look for plot() functions with empty xlab and add 'Latitudinal Biome'
     # This is a more complex pattern - we'll look for plot() with xlab = "" or xlab = ''
