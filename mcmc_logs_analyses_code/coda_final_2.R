@@ -113,11 +113,11 @@ analyze_mcmc <- function(working_dir, file_pattern = "(mcmc|MBD)\\.log$", encodi
       
       # Add title page for this file's plots
       grid.newpage()
-      grid.text(paste("MCMC Diagnostics for", file_name), gp = gpar(fontsize = 20))
+      grid.text(paste("MCMC Diagnostics for", file_name), gp = gpar(fontsize = 10))
       
       # Prepare plot generation
       param_names <- colnames(mcmc_object)
-      params_per_page <- 3
+      params_per_page <- 2
       num_pages <- ceiling(length(param_names) / params_per_page)
       
       # Pre-calculate data frames for each parameter to avoid redundant operations
@@ -172,12 +172,12 @@ analyze_mcmc <- function(working_dir, file_pattern = "(mcmc|MBD)\\.log$", encodi
         }
         
         # Fill empty plot slots if needed
-        while (length(plot_list) < 6) {
+        while (length(plot_list) < 4) {
           plot_list[[length(plot_list) + 1]] <- ggplot() + theme_void()
         }
         
         # Arrange plots in a grid
-        grid.arrange(grobs = plot_list, ncol = 2, nrow = 3)
+        grid.arrange(grobs = plot_list, ncol = 2, nrow = 2)
       }
       
     }, error = function(e) {
