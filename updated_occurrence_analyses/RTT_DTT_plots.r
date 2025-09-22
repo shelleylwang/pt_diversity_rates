@@ -13,7 +13,7 @@ library(grid)
 # ADD ts, div_traj, and time_events vectors by loading in from the default _LTT.r script
 ######### CHANGE THE PATH TO THE DEFAULT _LTT.R SCRIPT
 # reading in default _LTT.r script as text, where each line from the default script is a separate element in the readLines vector
-ltt_text <- readLines("C:\\Users\\SimoesLabAdmin\\Documents\\pt_diversity_rates\\updated_occurrence_analyses\\model_9\\reptilia_terr\\DTTs\\combined_10_mcmc_LTT.r", warn = FALSE) 
+ltt_text <- readLines("C:\\Users\\SimoesLabAdmin\\Documents\\pt_diversity_rates\\updated_occurrence_analyses\\model_8\\synapsida\\DTTs\\combined_10_mcmc_LTT.r", warn = FALSE) 
 # extracting the lines that contain the ts, div_traj, and time_events vectors
 ts <- grep("^\\s*ts\\s*=", ltt_text, value = TRUE)
 time_events <- grep("^\\s*time_events\\s*=", ltt_text, value = TRUE)
@@ -89,7 +89,7 @@ library(gtable)
 library(grid)
 
 ##############  PREPPING DATA VECTORS, COPY IN THE PATH TO THE RTT SCRIPT
-rtt_text <- readLines("C:/Users/SimoesLabAdmin/Documents/pt_diversity_rates/updated_occurrence_analyses/model_9/reptilia_terr/RTTs/combined_10_RTT.r", warn = FALSE)
+rtt_text <- readLines("C:/Users/SimoesLabAdmin/Documents/pt_diversity_rates/updated_occurrence_analyses/model_8/synapsida/RTTs/combined_10_RTT.r", warn = FALSE)
 
 # Search for lines in rtt_text that contain any of the vectors we need
 # Note that vectors in BDNN, RJMCMC, and non-BDNN/non-RJMCMC models have different names, so we'll need to do some transformations and conditionals
@@ -336,7 +336,7 @@ create_plot_with_geo <- function(poly_data, mean_data, color, title, ylab, ylim,
 ############# CALL THE FUNCTION WITH CUSTOM ARGUMENTS
 ############# TITLE, YLIM
 p1 <- create_plot_with_geo(L_data$poly_data, L_data$mean_data, "#4c4cec", 
-                         "Terrestrial Reptilia Model 9: BDNN MCMC by 1Myr with 1Myr BRIDGE Predictors", 
+                         "Synapsida Model 8: BDNN MCMC by 1Myr with Isotopic Predictors", 
                          "Speciation rate", c(0, 2), show_x_axis = TRUE) 
 
 p2 <- create_plot_with_geo(M_data$poly_data, M_data$mean_data, "#e34a33", 
@@ -358,4 +358,4 @@ combined_plots <- grid.arrange(
   top = ""
 )
 combined_plots
-ggsave(plot = combined_plots, "C:/Users/SimoesLabAdmin/Documents/pt_diversity_rates/updated_occurrence_analyses/model_9/reptilia_terr/Plot_Rep_Terr_DTT_RTT_2.pdf", width = 8, height = 14)
+ggsave(plot = combined_plots, "C:/Users/SimoesLabAdmin/Documents/pt_diversity_rates/updated_occurrence_analyses/model_8/synapsida/Plot_Syn_DTT_RTT_2.pdf", width = 8, height = 14)
