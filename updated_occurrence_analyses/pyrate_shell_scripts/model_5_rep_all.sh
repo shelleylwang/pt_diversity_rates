@@ -2,20 +2,23 @@
 #SBATCH --job-name=model_5_rep_all_200_s1k          # Job name
 #SBATCH --array=1-10                     # Array with 10 independent tasks
 #SBATCH --mem-per-cpu=200MB                # Memory per CPU core (adjust if needed)
-#SBATCH --time=6-00:00:00               # Time limit, e.g., 1 day and 1 hour
+#SBATCH --time=10-00:00:00               # Time limit, e.g., 1 day and 1 hour
 #SBATCH --mail-type=begin               # Send email when job begins
 #SBATCH --mail-type=end                 # Send email when job ends
 #SBATCH --mail-user=sw8569@princeton.edu
-#SBATCH --output=/scratch/gpfs/sw8569/model_5_rep_all_200_s1k_%j_%A_%a.out
-#SBATCH --error=/scratch/gpfs/sw8569/model_5_rep_all_200_s1k_%j_%A_%a.err
+#SBATCH --output=/workdir/pt_diversity_rates/err_out/model_5_rep_all_200_s1k_%j_%A_%a.out
+#SBATCH --error=/workdir/pt_diversity_rates/err_out/model_5_rep_all_200_s1k_%j_%A_%a.err
 #SBATCH --no-requeue                    # Disable requeue
 
 # Change to the directory where the script should run
-cd /scratch/gpfs/sw8569/BDNN_Arielli
+cd /workdir/pt_diversity_rates
 
 # Load necessary modules
 module purge
-module load anaconda3/2024.2
+module load python/3.12.7
+
+# Activate virtual environment
+source ~/pyrate_env/bin/activate
 
 # Define command to run
 python ../PyRate/PyRate.py updated_occurrence_analyses/data/Perm-Trias/pt_reptilia_all_pyrate_input_txt_PyRate.py \
