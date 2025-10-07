@@ -29,6 +29,9 @@ analyze_mcmc <- function(working_dir, file_pattern = "(mcmc|MBD)\\.log$", encodi
   
   # Find all files matching the provided pattern - use current directory "." since we've already set working directory
   mcmc_files <- list.files(path = ".", pattern = file_pattern, full.names = FALSE)
+
+  # Filter out files that contain "combined" because we don't want to run diagnostics on a combined log file (b/c it is a cut and paste of other log files)
+  mcmc_files <- mcmc_files[!grepl("combined", mcmc_files)]
   
   # Check if any matching files were found
   if (length(mcmc_files) == 0) {
