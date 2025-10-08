@@ -31,7 +31,7 @@ def replace_text_in_r_file(input_file, output_file=None):
     
     # Define replacement patterns (order matters for some replacements)
     replacements = [
-        # Handle wmmcmm_z_trans before cmm_z_trans (as specified in instructions)
+        # Handle wmmcmm_z_trans before cmm_z_trans 
         ('wmmcmm_z_trans', 'AtmT Seasonality (°C)'),
         ('cmm_z_trans', 'Coldest Month AtmT (°C)'),
         
@@ -67,7 +67,7 @@ def replace_text_in_r_file(input_file, output_file=None):
         print("Found and commented out title(main = 'Stage')")
     
     # Look for plot() functions with empty xlab and add 'Latitudinal Biome'
-    # This is a more complex pattern - we'll look for plot() with xlab = "" or xlab = ''
+    # Look for plot() with xlab = "" or xlab = ''
     plot_pattern = r'(plot\s*\([^)]*xlab\s*=\s*)[\'\"]\s*[\'\"]([^)]*\))'
     matches = re.finditer(plot_pattern, content, re.IGNORECASE)
     
