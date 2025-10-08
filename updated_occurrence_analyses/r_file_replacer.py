@@ -47,7 +47,9 @@ def replace_text_in_r_file(input_file, output_file=None):
         ('drymon_z_trans', 'Dryest Month (mm/day)'),
         ('wetdry_z_trans', 'Precipitation Seasonality (mm/day)'),
         ('mean_z_trans', 'Mean Annual SST (°C)'),
-        ('Mod_R_deltaTMyr_z_trans', 'Mean SST Shift (°C/myr)')
+        ('Mod_R_deltaTMyr_z_trans', 'Mean SST Shift (°C/myr)'),
+        ('mean_pt_1myr_z_trans', 'Mean Annual SST (°C)'),
+        ('Mod_R_deltaTMyr_pt_1myr_z_trans', 'Mean SST Shift (°C/myr)')
     ]
     
     # Perform text replacements
@@ -59,29 +61,41 @@ def replace_text_in_r_file(input_file, output_file=None):
     biome_pattern = r"title\s*\(\s*main\s*=\s*['\"]biome['\"]\s*\)"
     if re.search(biome_pattern, content, re.IGNORECASE):
         content = re.sub(biome_pattern, r"# title(main='biome')", content, flags=re.IGNORECASE)
-        print("Found and commented out title(main = 'biome')")
+        print("\nFound and commented out title(main = 'biome') \n")
     
     stage_pattern = r"title\s*\(\s*main\s*=\s*['\"]Stage['\"]\s*\)"
     if re.search(stage_pattern, content, re.IGNORECASE):
         content = re.sub(stage_pattern, r"# title(main='Stage')", content, flags=re.IGNORECASE)
-        print("Found and commented out title(main = 'Stage')")
+        print("Found and commented out title(main = 'Stage') \n")
     
     # Look for plot() functions with empty xlab and add 'Latitudinal Biome'
-    # Look for plot() with xlab = "" or xlab = ''
+    # Strategy: Find empty xlab, then look ahead for commented title(main='biome')
     plot_pattern = r'(plot\s*\([^)]*xlab\s*=\s*)[\'\"]\s*[\'\"]([^)]*\))'
-    matches = re.finditer(plot_pattern, content, re.IGNORECASE)
+    matches = list(re.finditer(plot_pattern, content, re.IGNORECASE))
     
+    replacements_made = 0
     for match in matches:
-        # Check if this plot might be related to biome (look for context)
-        start_pos = max(0, match.start() - 200)
-        end_pos = min(len(content), match.end() + 200)
-        context = content[start_pos:end_pos]
+        # Look ahead from the match position for the biome title pattern
+        search_start = match.end()
         
-        if 'Latitudinal Biome' in context:
+        # Find the next 100 lines from the match position
+        remaining_content = content[search_start:]
+        lines_ahead = remaining_content.split('\n', 100)[:100]
+        context_ahead = '\n'.join(lines_ahead)
+        
+        # Check if there's a commented title(main='biome') ahead
+        # Pattern allows for any number of # symbols
+        biome_title_pattern = r'#+\s*title\s*\(\s*main\s*=\s*[\'"]biome[\'"]\s*\)'
+        
+        if re.search(biome_title_pattern, context_ahead, re.IGNORECASE):
             replacement = match.group(1) + "'Latitudinal Biome'" + match.group(2)
-            content = content.replace(match.group(0), replacement)
-            print("Added xlab = 'Latitudinal Biome' to plot function")
+            content = content.replace(match.group(0), replacement, 1)  # Replace only first occurrence
+            replacements_made += 1
+            print(f"Added xlab = 'Latitudinal Biome' to plot function (found biome title ahead)")
     
+    if replacements_made == 0:
+        print("No empty xlab parameters found near biome title comments")
+
     # Determine output file
     if output_file is None:
         output_file = input_file
@@ -93,11 +107,11 @@ def replace_text_in_r_file(input_file, output_file=None):
         
         # Report changes made
         if content != original_content:
-            print(f"Successfully processed '{input_file}'")
+            print(f"\nSuccessfully processed '{input_file}'")
             if output_file != input_file:
-                print(f"Output saved to '{output_file}'")
+                print(f"\nOutput saved to '{output_file}'")
             else:
-                print("File updated in place")
+                print("\nFile updated in place \n")
             
             # Count replacements made
             changes_made = []
@@ -110,12 +124,12 @@ def replace_text_in_r_file(input_file, output_file=None):
                 for change in changes_made:
                     print(f"  - {change}")
         else:
-            print(f"No changes needed in '{input_file}'")
+            print(f"\nNo changes needed in '{input_file}'")
         
         return True
         
     except Exception as e:
-        print(f"Error writing to file '{output_file}': {e}")
+        print(f"\nError writing to file '{output_file}': {e}")
         return False
 
 def main():
