@@ -230,6 +230,7 @@ if (length(L_hpd_m95) > 0 && length(L_hpd_M95) > 0 && length(L_mean) > 0 &&
 }
 
 # Mass extinction events
+########## ADD ADDITIONAL IF NEEDED
 perm_trias_extinction <- -252 
 guadalupian_extinction <- -261
 
@@ -288,11 +289,11 @@ create_plot_with_geo <- function(poly_data, mean_data, color, title, ylab, ylim,
                color = "red", linetype = "dashed", size = 0.5) +
     # Custom x-axis
     scale_x_continuous(breaks = x_ticks, labels = if(show_x_axis) x_tick_labels else NULL, 
-                      limits = c(-300, -200), name = if(show_x_axis) "Ma" else NULL) +
+                       name = if(show_x_axis) "Ma" else NULL) + # I did not include the limits argument here, but including it would REMOVE ALL X DATA OUTSIDE OF THOSE RANGES. 
     # Labels and titles
     labs(title = title, y = ylab) +
     # Set y limits with coord_cartesian for smooth polygons
-    coord_cartesian(ylim = ylim, xlim = c(-300, -200), expand = FALSE) +
+    coord_cartesian(ylim = ylim, expand = FALSE) + # I also did not include the xlim argument here because it would just affect visible plotting range, not data. And the visible plotting range is already being set by coord_geo's xlim below
     # Remove legend and adjust alpha scale
     scale_alpha_continuous(range = c(0.005, 0.05), guide = "none") +
     # Theme adjustments
@@ -328,7 +329,7 @@ create_plot_with_geo <- function(poly_data, mean_data, color, title, ylab, ylim,
       ylim = ylim, ######### COMMENT THIS OUT TO AUTO-SCALE Y AXIS (even if you pass a ylim argument, if this is commented out, it will auto-scale based on data vectors)
       height = unit(1, "line"),
       neg = TRUE,
-      xlim = c(-280, -235)) ############################# CHANGE THIS TO MODIFY X LIMITS, I.E., TIME FRAME
+      xlim = c(-280, -235)) ############################# CHANGE THIS TO MODIFY X LIMITS, I.E., TIME FRAME THAT THE DEEPTIME PACKAGE DISPLAYS. Does not remove data, just affects visible plotting range
   
   return(main_plot)
 }

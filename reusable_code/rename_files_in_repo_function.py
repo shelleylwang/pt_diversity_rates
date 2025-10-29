@@ -28,6 +28,4 @@ def rename_files_in_folder(folder_path, source_string, target_string):
 # Call the function to rename files
 # rename_files_in_folder(folder_path, source_string, target_string)
 
-rename_files_in_folder("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/updated_occurrence_analyses/models_using_non_lat_binned_occs/model_A_synapsida", "model_1", "model_A")
-
-rename_files_in_folder("C:/Users/SimoesLabAdmin/Documents/BDNN_Arielli/updated_occurrence_analyses/models_using_non_lat_binned_occs/model_A_reptilia_terr/", "model_1", "model_A")
+rename_files_in_folder("C:/Users/SimoesLabAdmin/Documents/pt_diversity_rates/synapsida", "synapsida", "synapsida_test")
