@@ -6,7 +6,6 @@ library(gtable)
 library(grid)
 
 
-
 ################### DTT #######################
 
 
@@ -41,7 +40,6 @@ DTT_plot <- ggplot(diversity_df, aes(x = time, y = diversity)) +
                color = "red", linetype = "dashed") +
     geom_vline(xintercept = perm_trias_extinction, 
                color = "red", linetype = "dashed", linewidth = 0.5) +
-  #xlim(-max(ts) - 1, 0) + #### Commented out because xlim is set in coord_geo. If you want to see the full range, you can remove xlim from coord_geo, uncomment this
     scale_x_continuous(breaks = seq(from = -300, to = 0, by = 5)) +
   labs(
     x = "Time (Ma)",
@@ -230,8 +228,8 @@ if (length(L_hpd_m95) > 0 && length(L_hpd_M95) > 0 && length(L_mean) > 0 &&
 }
 
 # Mass extinction events
-perm_trias_extinction <- -252 
-guadalupian_extinction <- -261
+########## ADD ADDITIONAL IF NEEDED
+extinction_events <- c(-261, -252)  # Guadalupian and Permian-Triassic respectively
 
 # Custom tick positions
 x_ticks <- seq(-300, -200, by=5) ###################### CHANGE THIS TO MODIFY X TICKS
@@ -280,19 +278,17 @@ create_plot_with_geo <- function(poly_data, mean_data, color, title, ylab, ylim,
     # Plot the mean line
     geom_line(data = mean_data, 
              aes(x = age, y = y), 
-             color = color, size = 1.2, lineend = "round") +
-    # Add mass extinction lines
-    geom_vline(xintercept = guadalupian_extinction, 
+             color = color, linewidth = 1.2, lineend = "round") +
+  # Add mass extinction lines for each event in extinction_events
+    geom_vline(xintercept = extinction_events, 
                color = "red", linetype = "dashed") +
-    geom_vline(xintercept = perm_trias_extinction, 
-               color = "red", linetype = "dashed", size = 0.5) +
     # Custom x-axis
     scale_x_continuous(breaks = x_ticks, labels = if(show_x_axis) x_tick_labels else NULL, 
-                      limits = c(-300, -200), name = if(show_x_axis) "Ma" else NULL) +
+                       name = if(show_x_axis) "Ma" else NULL) + # I did not include the limits argument here, but including it would REMOVE ALL X DATA OUTSIDE OF THOSE RANGES. 
     # Labels and titles
     labs(title = title, y = ylab) +
     # Set y limits with coord_cartesian for smooth polygons
-    coord_cartesian(ylim = ylim, xlim = c(-300, -200), expand = FALSE) +
+    coord_cartesian(ylim = ylim, expand = FALSE) + # I also did not include the xlim argument here because it would just affect visible plotting range, not data. And the visible plotting range is already being set by coord_geo's xlim below
     # Remove legend and adjust alpha scale
     scale_alpha_continuous(range = c(0.005, 0.05), guide = "none") +
     # Theme adjustments
@@ -328,7 +324,7 @@ create_plot_with_geo <- function(poly_data, mean_data, color, title, ylab, ylim,
       ylim = ylim, ######### COMMENT THIS OUT TO AUTO-SCALE Y AXIS (even if you pass a ylim argument, if this is commented out, it will auto-scale based on data vectors)
       height = unit(1, "line"),
       neg = TRUE,
-      xlim = c(-280, -235)) ############################# CHANGE THIS TO MODIFY X LIMITS, I.E., TIME FRAME
+      xlim = c(-280, -235)) ############################# CHANGE THIS TO MODIFY X LIMITS, I.E., TIME FRAME THAT THE DEEPTIME PACKAGE DISPLAYS. Does not remove data, just affects visible plotting range
   
   return(main_plot)
 }
@@ -358,4 +354,4 @@ combined_plots <- grid.arrange(
   top = ""
 )
 combined_plots
-ggsave(plot = combined_plots, "C:/Users/SimoesLabAdmin/Documents/pt_diversity_rates/updated_occurrence_analyses/model_8/reptilia_all_offset_biohpc/Plot_Rep_All_DTT_RTT.pdf", width = 8, height = 14)
+ggsave(plot = combined_plots, "C:/Users/SimoesLabAdmin/Documents/pt_diversity_rates/updated_occurrence_analyses/model_8/reptilia_all_offset_biohpc/Plot_Rep_All_DTT_RTT_CLI_TEST.pdf", width = 8, height = 14)
