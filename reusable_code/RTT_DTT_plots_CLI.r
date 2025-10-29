@@ -1,6 +1,6 @@
 #!/usr/bin/env Rscript
 
-# DTT and RTT Plotter - Command Line Interface
+# RTT and DTT Combined Plot Command Line Interface
 # This script generates Diversity-Through-Time and Rate-Through-Time plots
 # from PyRate BDNN, RJMCMC, or standard model outputs
 
@@ -139,21 +139,21 @@ All plots include geological timescale annotations and optional mass extinction 
   epilogue="\nEXAMPLES:
 
 Basic usage (required arguments only):
-  Rscript DTT_RTT_plotter_CLI.R -l path/to/LTT.r -r path/to/RTT.r -o output.pdf
+  Rscript RTT_DTT_plots_CLI.r -l path/to/LTT.r -r path/to/RTT.r -o output.pdf
 
 With BDNN translation and custom time window:
-  Rscript DTT_RTT_plotter_CLI.R -l LTT.r -r RTT.r -o plot.pdf -t 175 -x '-280,-240'
+  Rscript RTT_DTT_plots_CLI.r -l LTT.r -r RTT.r -o plot.pdf -t 175 -x '-280,-240'
 
 Custom extinction events and title:
-  Rscript DTT_RTT_plotter_CLI.R -l LTT.r -r RTT.r -o plot.pdf \\
+  Rscript RTT_DTT_plots_CLI.r -l LTT.r -r RTT.r -o plot.pdf \\
     -e '-261,-252,-201' --title 'Triassic Reptile Diversification'
 
 Auto-scale DTT y-axis and custom rate limits:
-  Rscript DTT_RTT_plotter_CLI.R -l LTT.r -r RTT.r -o plot.pdf \\
+  Rscript RTT_DTT_plots_CLI.r -l LTT.r -r RTT.r -o plot.pdf \\
     --dtt_ylim auto --spec_ylim '0,3' --ext_ylim '0,2.5'
 
 Custom output size:
-  Rscript DTT_RTT_plotter_CLI.R -l LTT.r -r RTT.r -o plot.pdf -w 10 -h 16
+  Rscript RTT_DTT_plots_CLI.r -l LTT.r -r RTT.r -o plot.pdf -w 10 -h 16
 
 For more information, visit: https://github.com/dsilvestro/PyRate"
 )
