@@ -205,7 +205,7 @@ spec_ylim <- parse_numeric_vector(opt$spec_ylim)
 ext_ylim <- parse_numeric_vector(opt$ext_ylim)
 div_ylim <- parse_numeric_vector(opt$div_ylim)
 
-cat("\n=== DTT and RTT Plotter ===\n")
+cat("\n=== RTT DTT Combined Plot Command-Line Interface ===\n")
 cat("Loading data files...\n")
 
 ################### DTT #######################
@@ -224,7 +224,7 @@ eval(parse(text = div_traj))
 # Apply translation if specified
 time_events = time_events + opt$translate
 if (opt$translate != 0) {
-  cat(paste("Applied time translation of", opt$translate, "Myr\n"))
+  cat(paste("Applied time back-translation of", opt$translate, "Myr\n"))
 }
 
 # Create diversity dataframe
@@ -531,7 +531,7 @@ combined_plots <- grid.arrange(
 cat(paste("Saving plot to:", opt$output, "\n"))
 ggsave(plot = combined_plots, opt$output, width = opt$width, height = opt$height)
 
-cat("\n=== Plot generation complete! ===\n")
+cat("\n=== Plot generation complete ===\n")
 cat(paste("Output saved to:", opt$output, "\n"))
 cat(paste("Dimensions:", opt$width, "x", opt$height, "inches"))
 cat(paste("\nPlot title:", opt$title))
@@ -613,7 +613,7 @@ if (opt$translate != 0) {
 if (length(extinction_events) > 0) {
   cat(paste("Mass extinction events marked at:", paste(extinction_events, collapse=", "), "Ma"))
   if (opt$extinctions == "-261,-252") {
-    cat(" [DEFAULT: Guadalupian and P-T]\n")
+    cat(" [DEFAULT: Guadalupian and Permian-Triassic]\n")
   } else {
     cat(" [CUSTOM]\n")
   }
