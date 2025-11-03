@@ -50,7 +50,7 @@ option_list <- list(
   make_option(c("-t", "--translate"), type="numeric", default=0,
               help="Time translation value to add back to time_events vector.
               Use this if you used -translate with BDNN. Default: 0 (no translation).
-              Example: -t 175",
+              Example: -t 175 if you used -translate -175 during BDNN analysis.",
               metavar="NUMBER"),
   
   # Mass extinction events
@@ -96,7 +96,7 @@ option_list <- list(
   
   make_option(c("--div_ylim"), type="character", default="-0.5,2",
               help="Y-axis limits for net diversification rate plot as comma-separated values.
-              Default: '-0.5,2'. Example: --div_ylim '-1,2'",
+              Default: '-0.5,2'. Example: --div_ylim=-1,2 (equals sign is required before negative values)",
               metavar="MIN,MAX"),
   
   # Plot title
@@ -205,7 +205,7 @@ spec_ylim <- parse_numeric_vector(opt$spec_ylim)
 ext_ylim <- parse_numeric_vector(opt$ext_ylim)
 div_ylim <- parse_numeric_vector(opt$div_ylim)
 
-cat("\n=== DTT and RTT Plotter ===\n")
+cat("\n=== RTT DTT Combined Plot Command-Line Interface ===\n")
 cat("Loading data files...\n")
 
 ################### DTT #######################
@@ -224,7 +224,7 @@ eval(parse(text = div_traj))
 # Apply translation if specified
 time_events = time_events + opt$translate
 if (opt$translate != 0) {
-  cat(paste("Applied time translation of", opt$translate, "Myr\n"))
+  cat(paste("Applied time back-translation of", opt$translate, "Myr\n"))
 }
 
 # Create diversity dataframe
@@ -509,6 +509,9 @@ create_plot_with_geo <- function(poly_data, mean_data, color, title, ylab,
 
 cat("Creating RTT plots...\n")
 
+# Open null device to prevent Rplots.pdf creation (random file)
+pdf(NULL)
+
 # Create individual plots
 p1 <- create_plot_with_geo(L_data$poly_data, L_data$mean_data, "#4c4cec", 
                            opt$title, "Speciation rate", spec_ylim, show_x_axis = TRUE)
@@ -527,11 +530,15 @@ combined_plots <- grid.arrange(
   heights = c(1, 1, 1, 1),
   top = ""
 )
+
+# Close the null device
+dev.off()
+
 # Save output
 cat(paste("Saving plot to:", opt$output, "\n"))
 ggsave(plot = combined_plots, opt$output, width = opt$width, height = opt$height)
 
-cat("\n=== Plot generation complete! ===\n")
+cat("\n=== Plot generation complete ===\n")
 cat(paste("Output saved to:", opt$output, "\n"))
 cat(paste("Dimensions:", opt$width, "x", opt$height, "inches"))
 cat(paste("\nPlot title:", opt$title))
@@ -613,7 +620,7 @@ if (opt$translate != 0) {
 if (length(extinction_events) > 0) {
   cat(paste("Mass extinction events marked at:", paste(extinction_events, collapse=", "), "Ma"))
   if (opt$extinctions == "-261,-252") {
-    cat(" [DEFAULT: Guadalupian and P-T]\n")
+    cat(" [DEFAULT: Guadalupian and Permian-Triassic]\n")
   } else {
     cat(" [CUSTOM]\n")
   }

@@ -57,16 +57,12 @@ def replace_text_in_r_file(input_file, output_file=None):
     for old_text, new_text in replacements:
         content = content.replace(old_text, new_text)
     
-   # Also handle other variations with flexible spacing and quote types
-    biome_pattern = r"title\s*\(\s*main\s*=\s*['\"]biome['\"]\s*\)"
-    if re.search(biome_pattern, content, re.IGNORECASE):
-        content = re.sub(biome_pattern, r"# title(main='biome')", content, flags=re.IGNORECASE)
-        print("\nFound and commented out title(main = 'biome') \n")
-    
-    stage_pattern = r"title\s*\(\s*main\s*=\s*['\"]Stage['\"]\s*\)"
-    if re.search(stage_pattern, content, re.IGNORECASE):
-        content = re.sub(stage_pattern, r"# title(main='Stage')", content, flags=re.IGNORECASE)
-        print("Found and commented out title(main = 'Stage') \n")
+    # Comment out any title(main = ...) patterns
+    title_pattern = r"title\s*\(\s*main\s*=\s*[^)]+\)"
+    matches = re.findall(title_pattern, content, re.IGNORECASE)
+    if matches:
+        content = re.sub(title_pattern, lambda m: f"# {m.group(0)}", content, flags=re.IGNORECASE)
+        print(f"\nFound and commented out {len(matches)} title(main = ...) statement(s)\n")
     
     # Look for plot() functions with empty xlab and add 'Latitudinal Biome'
     # Strategy: Find empty xlab, then look ahead for commented title(main='biome')
