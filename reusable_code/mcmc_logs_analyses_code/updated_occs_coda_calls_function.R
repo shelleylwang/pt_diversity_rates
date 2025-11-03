@@ -1,7 +1,7 @@
 setwd("C:/Users/SimoesLabAdmin/Documents/pt_diversity_rates")
 #setwd('/Volumes/My Passport/pt_diversity_rates')
-source("mcmc_logs_analyses_code/coda_final_2.R")
-source("mcmc_logs_analyses_code/coda_ess_diagnostics.R")
+source("reusable_code/mcmc_logs_analyses_code/coda_final_2.R")
+source("reusable_code/mcmc_logs_analyses_code/coda_ess_diagnostics.R")
 
-analyze_ess_diagnostics("C:\\Users\\SimoesLabAdmin\\Documents\\pt_diversity_rates\\updated_occurrence_analyses\\model_2_and_5\\200_its_s1k\\reptilia_all")
-analyze_mcmc("C:\\Users\\SimoesLabAdmin\\Documents\\pt_diversity_rates\\updated_occurrence_analyses\\model_2_and_5\\200_its_s1k\\reptilia_all")
+analyze_ess_diagnostics("C:\\Users\\SimoesLabAdmin\\Downloads\\torsten_model_9_new_interpolation")
+analyze_mcmc("C:\\Users\\SimoesLabAdmin\\Downloads\\torsten_model_9_new_interpolation")
