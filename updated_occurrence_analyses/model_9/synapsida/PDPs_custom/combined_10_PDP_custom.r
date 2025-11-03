@@ -1,7 +1,7 @@
 pdf(file='C:/Users/SimoesLabAdmin/Documents/pt_diversity_rates/updated_occurrence_analyses/model_9/synapsida/PDPs_custom/combined_10_PDP_custom.pdf', width = 24, height = 20, useDingbats = FALSE)
 
 # Make a 6 x 6 grid
-par(mfrow = c(6, 6), mar = c(6.5, 4, 0.5, 0.1), las =1)
+par(mfrow = c(6, 6), mar = c(6.5, 4, 0.5, 0.5), las =1)
 pkgs = c('vioplot')
 new_pkgs = pkgs[!(pkgs %in% installed.packages()[,'Package'])]
 if (length(new_pkgs) > 0) {
