@@ -1,4 +1,3 @@
-
 #!/bin/bash
 #SBATCH --job-name=model_9_syn_new_interpolation         # Job name
 #SBATCH --array=1-10                     # Array with 10 independent tasks
