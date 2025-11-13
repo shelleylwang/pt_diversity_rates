@@ -8,7 +8,7 @@ FixShifts <- read.table(FixShiftsFile, header = FALSE)[, 1]
 
 
 BridgeFile <- file.path("updated_occurrence_analyses", "data", "AF_climactic_data",
-                       "synapsida_BRIDGE_z_trans_filtered.txt")
+                       "reptilia_terr_BRIDGE_z_trans_filtered.txt")
 Bridge <- read.table(BridgeFile, sep = "\t", header = TRUE)
 
 
@@ -74,7 +74,7 @@ BridgeInter$"283.5-290.1"[TimeBinsBridge >= 283.5 & TimeBinsBridge < 290.1] <- 1
 InterFileBridge <- file.path("updated_occurrence_analyses", "data",
                              "AF_climactic_data",
                              "BRIDGE_and_binary_stages_data",
-                             "syn_BRIDGE_stages_timevar_1myr_interpolated.txt")
+                             "rep_terr_BRIDGE_stages_timevar_1myr_interpolated.txt")
 write.table(BridgeInter, InterFileBridge,
             row.names = FALSE, quote = FALSE, sep = "\t")
 
