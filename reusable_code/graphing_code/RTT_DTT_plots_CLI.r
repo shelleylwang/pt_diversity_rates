@@ -258,7 +258,7 @@ DTT_plot <- ggplot(diversity_df, aes(x = time, y = diversity)) +
     panel.grid.minor = element_blank()
   ) +
   coord_geo(
-    dat = list("international epochs", "international periods"),
+    dat = list("international ages", "international periods"),
     expand = FALSE,
     abbrv = list(TRUE, FALSE),
     pos = list("bottom", "bottom"),
@@ -493,7 +493,7 @@ create_plot_with_geo <- function(poly_data, mean_data, color, title, ylab,
   # Add geological timescale
   main_plot <- main_plot + 
     coord_geo(
-      dat = list("international epochs", "international periods"),
+      dat = list("international ages", "international periods"),
       expand = FALSE,
       abbrv = list(TRUE, FALSE),
       pos = list("bottom", "bottom"),
