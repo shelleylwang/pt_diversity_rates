@@ -222,12 +222,17 @@ def remove_duplicate_ylab_strings(content):
     for ylab_str in ylab_strings:
         count = content.count(ylab_str)
         if count > 1:
-            # Keep the first occurrence, remove the rest
+            # Find the end of the first occurrence
             first_pos = content.find(ylab_str)
-            # Replace all occurrences with an empty ylab (can't replace with an empty string b/c not defining a ylab value will --> a ylabel of "0")
-            modified = content.replace(ylab_str, ", ylab = ''")
-            # Re-insert the first occurrence at its original position
-            content = modified[:first_pos] + ylab_str + modified[first_pos:]
+            first_end = first_pos + len(ylab_str)
+            
+            # Keep everything up to and including the first occurrence
+            before_and_first = content[:first_end]
+            
+            # Replace all occurrences in the remainder only
+            after_first = content[first_end:].replace(ylab_str, ", ylab = ''")
+            
+            content = before_and_first + after_first
             print(f"Removed {count - 1} duplicate instance(s) of '{ylab_str}'")
     
     return content
@@ -286,7 +291,7 @@ def replace_text_in_r_file(input_file, output_file=None):
         ('speciation', 'Speciation'),
         ('extinction', 'Extinction'),
         ('net diversification', 'Net Diversification'),
-        ('lat_range_z_trans', 'Latitudinal Range'),
+        ('lat_range_z_trans', 'Latitudinal Range (Log Transform)'),
         ('mat_z_trans', 'Mean Annual AtmT (°C)'),
         ('map_z_trans', 'Mean Annual Precipitation (mm/day)'),
         ('wmm_z_trans', 'Warmest Month AtmT (°C)'),
