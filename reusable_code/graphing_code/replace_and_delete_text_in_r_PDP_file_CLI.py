@@ -10,7 +10,7 @@ import argparse
 from pathlib import Path
 
 ################################################################################
-# NEW DELETION FUNCTIONALITY ADDED BELOW
+# DELETE UNNEEDED GRAPHS
 ################################################################################
 
 def perform_deletion_operations(lines):
@@ -206,7 +206,39 @@ def perform_deletion_operations(lines):
     return lines
 
 ################################################################################
-# END OF NEW DELETION FUNCTIONALITY
+# KEEP ONLY ONE Y AXIS LABEL PER ROW, REMOVE ALL OTHERS
+################################################################################
+
+def remove_duplicate_ylab_strings(content):
+    """
+    Remove all instances EXCEPT the first of specific ylab strings.
+    """
+    ylab_strings = [
+        ", ylab = 'Speciation'",
+        ", ylab = 'Extinction'",
+        ", ylab = 'Net Diversification'"
+    ]
+    
+    for ylab_str in ylab_strings:
+        count = content.count(ylab_str)
+        if count > 1:
+            # Find the end of the first occurrence
+            first_pos = content.find(ylab_str)
+            first_end = first_pos + len(ylab_str)
+            
+            # Keep everything up to and including the first occurrence
+            before_and_first = content[:first_end]
+            
+            # Replace all occurrences in the remainder only
+            after_first = content[first_end:].replace(ylab_str, ", ylab = ''")
+            
+            content = before_and_first + after_first
+            print(f"Removed {count - 1} duplicate instance(s) of '{ylab_str}'")
+    
+    return content
+
+################################################################################
+# FUNCTION CALLING GRAPH DELETIONS, YAXIS DELETIONS, TEXT REPLACEMENTS
 ################################################################################
 
 def replace_text_in_r_file(input_file, output_file=None):
@@ -230,7 +262,7 @@ def replace_text_in_r_file(input_file, output_file=None):
         return False
     
     ################################################################################
-    # NEW: PERFORM DELETION OPERATIONS BEFORE TEXT REPLACEMENTS
+    # PERFORM GRAPH DELETION OPERATIONS BEFORE TEXT REPLACEMENTS
     ################################################################################
     
     # Convert content to lines for deletion operations
@@ -246,7 +278,7 @@ def replace_text_in_r_file(input_file, output_file=None):
     print(f"Line count: {original_line_count} → {len(lines)} (removed {original_line_count - len(lines)} lines)\n")
     
     ################################################################################
-    # END OF DELETION OPERATIONS SECTION
+    # PERFORM TEXT REPLACEMENTS
     ################################################################################
     
     # Define replacement patterns (order matters for some replacements)
@@ -259,7 +291,7 @@ def replace_text_in_r_file(input_file, output_file=None):
         ('speciation', 'Speciation'),
         ('extinction', 'Extinction'),
         ('net diversification', 'Net Diversification'),
-        ('lat_range_z_trans', 'Latitudinal Range'),
+        ('lat_range_z_trans', 'Latitudinal Range (Log Transform)'),
         ('mat_z_trans', 'Mean Annual AtmT (°C)'),
         ('map_z_trans', 'Mean Annual Precipitation (mm/day)'),
         ('wmm_z_trans', 'Warmest Month AtmT (°C)'),
@@ -269,7 +301,13 @@ def replace_text_in_r_file(input_file, output_file=None):
         ('mean_z_trans', 'Mean Annual SST (°C)'),
         ('Mod_R_deltaTMyr_z_trans', 'Mean SST Shift (°C/myr)'),
         ('mean_pt_1myr_z_trans', 'Mean Annual SST (°C)'),
-        ('Mod_R_deltaTMyr_pt_1myr_z_trans', 'Mean SST Shift (°C/myr)')
+        ('Mod_R_deltaTMyr_pt_1myr_z_trans', 'Mean SST Shift (°C/myr)'),
+        ("-0.005141735", "0.001"), # PyRate seems to have been using -0.005141735 as a placeholder for 0 for latitudinal range values. Not sure why, but it causes graphing to break for latitudinal range, because we
+        # want to log transform the latitudinal range vlaues (x values) in the plot (which is what we're doing in the three replacements below), so we need to replace this negative number with a small positive number. There
+        #cannot be logs for negative numbers
+        ("plot(0, 0, type = 'n', xlim = xlim, ylim = ylim, xlab = 'Latitudinal Range', ylab = 'Speciation')", "plot(0, 0, type = 'n', xlim = xlim, ylim = ylim, xlab = 'Latitudinal Range', ylab = 'Speciation', log = 'x')"),
+        ("plot(0, 0, type = 'n', xlim = xlim, ylim = ylim, xlab = 'Latitudinal Range', ylab = 'Extinction')", "plot(0, 0, type = 'n', xlim = xlim, ylim = ylim, xlab = 'Latitudinal Range', ylab = 'Extinction', log = 'x')"),
+        ("plot(0, 0, type = 'n', xlim = xlim, ylim = ylim, xlab = 'Latitudinal Range', ylab = 'Net Diversification')", "plot(0, 0, type = 'n', xlim = xlim, ylim = ylim, xlab = 'Latitudinal Range', ylab = 'Net Diversification', log = 'x')")
     ]
     
     # Perform text replacements
@@ -312,6 +350,15 @@ def replace_text_in_r_file(input_file, output_file=None):
     if replacements_made == 0:
         print("No empty xlab parameters found near biome title comments")
 
+    ################################################################################
+    # PERFORM YAXIS LABEL DELETIONS
+    ################################################################################
+    # Remove duplicate ylab strings (keep only first instance of each)
+    content = remove_duplicate_ylab_strings(content)
+
+    ################################################################################
+    # OUTPUT
+    ################################################################################
     # Determine output file
     if output_file is None:
         output_file = input_file
@@ -347,6 +394,11 @@ def replace_text_in_r_file(input_file, output_file=None):
     except Exception as e:
         print(f"\nError writing to file '{output_file}': {e}")
         return False
+
+
+################################################################################
+# COMMAND LINE INTERFACE
+################################################################################
 
 def main():
     parser = argparse.ArgumentParser(
