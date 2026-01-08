@@ -291,6 +291,7 @@ def replace_text_in_r_file(input_file, output_file=None):
         ('speciation', 'Speciation'),
         ('extinction', 'Extinction'),
         ('net diversification', 'Net Diversification'),
+        ('Latitudinal Range', 'Latitudinal Range (Log Transform)'),
         ('lat_range_z_trans', 'Latitudinal Range (Log Transform)'),
         ('mat_z_trans', 'Mean Annual AtmT (°C)'),
         ('map_z_trans', 'Mean Annual Precipitation (mm/day)'),
@@ -302,12 +303,13 @@ def replace_text_in_r_file(input_file, output_file=None):
         ('Mod_R_deltaTMyr_z_trans', 'Mean SST Shift (°C/myr)'),
         ('mean_pt_1myr_z_trans', 'Mean Annual SST (°C)'),
         ('Mod_R_deltaTMyr_pt_1myr_z_trans', 'Mean SST Shift (°C/myr)'),
-        ("-0.005141735", "0.001"), # PyRate seems to have been using -0.005141735 as a placeholder for 0 for latitudinal range values. Not sure why, but it causes graphing to break for latitudinal range, because we
-        # want to log transform the latitudinal range vlaues (x values) in the plot (which is what we're doing in the three replacements below), so we need to replace this negative number with a small positive number. There
-        #cannot be logs for negative numbers
-        ("plot(0, 0, type = 'n', xlim = xlim, ylim = ylim, xlab = 'Latitudinal Range', ylab = 'Speciation')", "plot(0, 0, type = 'n', xlim = xlim, ylim = ylim, xlab = 'Latitudinal Range', ylab = 'Speciation', log = 'x')"),
-        ("plot(0, 0, type = 'n', xlim = xlim, ylim = ylim, xlab = 'Latitudinal Range', ylab = 'Extinction')", "plot(0, 0, type = 'n', xlim = xlim, ylim = ylim, xlab = 'Latitudinal Range', ylab = 'Extinction', log = 'x')"),
-        ("plot(0, 0, type = 'n', xlim = xlim, ylim = ylim, xlab = 'Latitudinal Range', ylab = 'Net Diversification')", "plot(0, 0, type = 'n', xlim = xlim, ylim = ylim, xlab = 'Latitudinal Range', ylab = 'Net Diversification', log = 'x')")
+        ("-0.005141735", "0.001"),
+        ("plot(0, 0, type = 'n', xlim = xlim, ylim = ylim, xlab = 'Latitudinal Range (Log Transform)', ylab = 'Speciation')",
+            "plot(0, 0, type = 'n', xlim = xlim, ylim = ylim, xlab = 'Latitudinal Range (Log Transform)', ylab = 'Speciation', log = 'x', xaxt = 'n') \n# Define the tick positions (to keep them from defaulting to scientific notation) \nx_ticks <- c(0.001, 0.01, 0.1, 1, 10, 100) \n# Add custom x-axis with decimal format labels \naxis(1, at = x_ticks, labels = format(x_ticks, scientific = FALSE, drop0trailing = TRUE))"),
+        ("plot(0, 0, type = 'n', xlim = xlim, ylim = ylim, xlab = 'Latitudinal Range (Log Transform)', ylab = 'Extinction')",
+            "plot(0, 0, type = 'n', xlim = xlim, ylim = ylim, xlab = 'Latitudinal Range (Log Transform)', ylab = 'Extinction', log = 'x', xaxt = 'n') \n# Add custom x-axis with decimal format labels. x_ticks defined previously \naxis(1, at = x_ticks, labels = format(x_ticks, scientific = FALSE, drop0trailing = TRUE))"),
+        ("plot(0, 0, type = 'n', xlim = xlim, ylim = ylim, xlab = 'Latitudinal Range (Log Transform)', ylab = 'Net Diversification')",
+            "plot(0, 0, type = 'n', xlim = xlim, ylim = ylim, xlab = 'Latitudinal Range (Log Transform)', ylab = 'Net Diversification', log = 'x', xaxt = 'n') \n# Add custom x-axis with decimal format labels. x_ticks defined previously \naxis(1, at = x_ticks, labels = format(x_ticks, scientific = FALSE, drop0trailing = TRUE))")
     ]
     
     # Perform text replacements
