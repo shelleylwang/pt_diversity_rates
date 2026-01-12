@@ -291,7 +291,7 @@ def replace_text_in_r_file(input_file, output_file=None):
         ('speciation', 'Speciation'),
         ('extinction', 'Extinction'),
         ('net diversification', 'Net Diversification'),
-        ('Latitudinal Range', 'Latitudinal Range (Log Transform)'),
+        ("'Latitudinal Range'", "'Latitudinal Range (Log Transform)'"),
         ('lat_range_z_trans', 'Latitudinal Range (Log Transform)'),
         ('mat_z_trans', 'Mean Annual AtmT (°C)'),
         ('map_z_trans', 'Mean Annual Precipitation (mm/day)'),
