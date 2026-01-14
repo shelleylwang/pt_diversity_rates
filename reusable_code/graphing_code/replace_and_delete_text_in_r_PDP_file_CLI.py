@@ -337,16 +337,19 @@ def remove_duplicate_ylab_strings(content):
 
 def insert_after_obs_x(content, verbose=True):
     """
-    For specific plot() lines, find the next line starting with 'obs_x' 
-    and insert a new line after it.
+    For specific plot() lines:
+    - Insert xlim and tr fixes BEFORE the plot line
+    - Insert obs_x fix AFTER the obs_x line
     """
     
-    # The line to insert
-    lines_to_insert = [
-        "obs_x[obs_x > -1 & obs_x < 0] <- 0.01",
-        "tr[tr > -1 & tr < 0] <- 0.01",
-        "xlim[xlim > -1 & xlim < 0] <- 0.01"
+    # Lines to insert BEFORE the plot() call
+    lines_before_plot = [
+        "xlim[xlim > -1 & xlim < 0] <- 0.01",
+        "tr[tr > -1 & tr < 0] <- 0.01"
     ]
+    
+    # Line to insert AFTER obs_x
+    line_after_obs_x = "obs_x[obs_x > -1 & obs_x < 0] <- 0.01"
     
     # The trigger lines (transformed versions after text replacements)
     trigger_lines = [
@@ -371,6 +374,13 @@ def insert_after_obs_x(content, verbose=True):
                 print(f"  ✗ Could not find trigger line: {trigger[:60]}...")
             continue
         
+        # INSERT BEFORE PLOT: xlim and tr fixes
+        for j, new_line in enumerate(lines_before_plot):
+            lines.insert(trigger_idx + j, new_line)
+        
+        # Adjust trigger_idx since we just inserted lines above it
+        trigger_idx += len(lines_before_plot)
+        
         # Find the next line starting with "obs_x" after the trigger
         obs_x_idx = None
         for i in range(trigger_idx + 1, len(lines)):
@@ -383,16 +393,16 @@ def insert_after_obs_x(content, verbose=True):
                 print(f"  ✗ Could not find 'obs_x' line after trigger at index {trigger_idx}")
             continue
         
-        # Insert the new lines after obs_x
-        for j, new_line in enumerate(lines_to_insert):
-            lines.insert(obs_x_idx + 1 + j, new_line)
-            insertions_made += len(lines_to_insert)
+        # INSERT AFTER OBS_X: obs_x fix
+        lines.insert(obs_x_idx + 1, line_after_obs_x)
+        
+        insertions_made += 1
         
         if verbose:
-            print(f"  ✓ Inserted lines after 'obs_x' starting at index {obs_x_idx + 1}")
+            print(f"  ✓ Inserted fixes around plot at index {trigger_idx}")
     
     if verbose:
-        print(f"Total insertions made: {insertions_made}")
+        print(f"Total plot sections modified: {insertions_made}")
     
     return '\n'.join(lines)
 

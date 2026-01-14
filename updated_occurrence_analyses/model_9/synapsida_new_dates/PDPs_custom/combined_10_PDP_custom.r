@@ -1,6 +1,6 @@
-pdf(file='C:/Users/SimoesLabAdmin/Documents/pt_diversity_rates/updated_occurrence_analyses/model_9/synapsida_new_dates/PDPs_custom/combined_10_PDP_custom.pdf', width = 24, height = 20, useDingbats = FALSE)
+pdf(file='C:/Users/SimoesLabAdmin/Documents/pt_diversity_rates/updated_occurrence_analyses/model_9/synapsida_new_dates/PDPs_custom/combined_10_PDP_custom.pdf', width = 20, height = 20, useDingbats = FALSE)
 
-par(mfrow = c(6, 6), mar = c(6.5, 4.5, 0.5, 0.5), las = 1, cex.lab = 1.5)
+par(mfrow = c(6, 5), mar = c(6.5, 4.5, 0.5, 0.5), las = 1, cex.lab = 1.5)
 
 pkgs = c('vioplot')
 new_pkgs = pkgs[!(pkgs %in% installed.packages()[,'Package'])]
@@ -177,9 +177,6 @@ for (i in 1:length(obs_x)) {
 polygon(c(tr, rev(tr)), c(r_lwr, rev(r_upr)), col = adjustcolor('#6092AF', alpha = 0.2), border = NA)
 lines(tr, r, col = '#6092AF', lwd = 1.5)
 
-plot.new()
-plot.new()
-
 ylim = c(0.0019592893483460785, 0.521999952492072)
 xlim=c(0.001,138.94763)
 tr=c(0.001, 1.3984215,2.801985,4.2055483,5.609112,7.0126753,8.416239,9.819801,11.223366,12.626928,14.030493,15.434055,16.837618,18.241182,19.644745,21.04831,22.451872,23.855434,25.259,26.662563,28.066126,29.469688,30.873253,32.276814,33.680378,35.083942,36.487507,37.89107,39.294632,40.698196,42.101757,43.50532,44.908886,46.312447,47.71601,49.119576,50.52314,51.926704,53.33027,54.73383,56.137394,57.540955,58.94452,60.348083,61.751644,63.15521,64.55877,65.96233,67.3659,68.76946,70.17303,71.576584,72.98015,74.38371,75.78728,77.19084,78.594406,79.99797,81.401535,82.8051,84.208664,85.61223,87.015785,88.41935,89.822914,91.22648,92.63004,94.03361,95.437164,96.84073,98.24429,99.64786,101.05142,102.45498,103.85854,105.26211,106.66567,108.06924,109.4728,110.87636,112.27992,113.68349,115.08705,116.490616,117.89417,119.297745,120.70131,122.10487,123.50844,124.912,126.31556,127.719124,129.12268,130.52625,131.92981,133.33337,134.73694,136.1405,137.54405,138.94763)
@@ -347,8 +344,6 @@ for (i in 1:length(obs_x)) {
 polygon(c(tr, rev(tr)), c(r_lwr, rev(r_upr)), col = adjustcolor('#C5483B', alpha = 0.2), border = NA)
 lines(tr, r, col = '#C5483B', lwd = 1.5)
 
-plot.new()
-plot.new()
 
 ylim = c(-0.200839267669652, 0.21305310224348548)
 xlim=c(0.001,138.94763)
