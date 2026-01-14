@@ -10,7 +10,7 @@ import argparse
 from pathlib import Path
 
 ################################################################################
-# DELETE UNNEEDED GRAPHS
+# FUNCTION TO DELETE UNNEEDED GRAPHS
 ################################################################################
 
 def perform_deletion_operations(lines):
@@ -205,8 +205,99 @@ def perform_deletion_operations(lines):
     
     return lines
 
+
 ################################################################################
-# KEEP ONLY ONE Y AXIS LABEL PER ROW, REMOVE ALL OTHERS
+# FUNCTIONS FOR TEXT REPLACEMENTS AND LABEL TRANSFORMATIONS
+################################################################################
+def define_text_replacements():
+    """
+    Return a list of tuples for text replacements.
+    Each tuple contains (old_text, new_text).
+    """
+    return [
+        # Handle wmmcmm_z_trans before cmm_z_trans 
+        ('wmmcmm_z_trans', 'AtmT Seasonality (°C)'),
+        ('cmm_z_trans', 'Coldest Month AtmT (°C)'),
+        
+        # Other replacements
+        ('speciation', 'Speciation'),
+        ('extinction', 'Extinction'),
+        ('net diversification', 'Net Diversification'),
+        ("'Latitudinal Range'", "'Latitudinal Range (Log Transform)'"),
+        ('lat_range_z_trans', 'Latitudinal Range (Log Transform)'),
+        ('mat_z_trans', 'Mean Annual AtmT (°C)'),
+        ('map_z_trans', 'Mean Annual Precipitation (mm/day)'),
+        ('wmm_z_trans', 'Warmest Month AtmT (°C)'),
+        ('wetmon_z_trans', 'Wettest Month (mm/day)'),
+        ('drymon_z_trans', 'Dryest Month (mm/day)'),
+        ('wetdry_z_trans', 'Precipitation Seasonality (mm/day)'),
+        ('mean_z_trans', 'Mean Annual SST (°C)'),
+        ('Mod_R_deltaTMyr_z_trans', 'Mean SST Shift (°C/myr)'),
+        ('mean_pt_1myr_z_trans', 'Mean Annual SST (°C)'),
+        ('Mod_R_deltaTMyr_pt_1myr_z_trans', 'Mean SST Shift (°C/myr)'),
+        ("plot(0, 0, type = 'n', xlim = xlim, ylim = ylim, xlab = 'Latitudinal Range (Log Transform)', ylab = 'Speciation')",
+            "plot(0, 0, type = 'n', xlim = xlim, ylim = ylim, xlab = 'Latitudinal Range (Log Transform)', ylab = 'Speciation', log = 'x', xaxt = 'n') \n# Define the tick positions (to keep them from defaulting to scientific notation) \nx_ticks <- c(0.001, 0.01, 0.1, 1, 10, 100) \n# Add custom x-axis with decimal format labels \naxis(1, at = x_ticks, labels = format(x_ticks, scientific = FALSE, drop0trailing = TRUE))"),
+        ("plot(0, 0, type = 'n', xlim = xlim, ylim = ylim, xlab = 'Latitudinal Range (Log Transform)', ylab = 'Extinction')",
+            "plot(0, 0, type = 'n', xlim = xlim, ylim = ylim, xlab = 'Latitudinal Range (Log Transform)', ylab = 'Extinction', log = 'x', xaxt = 'n') \n# Add custom x-axis with decimal format labels. x_ticks defined previously \naxis(1, at = x_ticks, labels = format(x_ticks, scientific = FALSE, drop0trailing = TRUE))"),
+        ("plot(0, 0, type = 'n', xlim = xlim, ylim = ylim, xlab = 'Latitudinal Range (Log Transform)', ylab = 'Net Diversification')",
+            "plot(0, 0, type = 'n', xlim = xlim, ylim = ylim, xlab = 'Latitudinal Range (Log Transform)', ylab = 'Net Diversification', log = 'x', xaxt = 'n') \n# Add custom x-axis with decimal format labels. x_ticks defined previously \naxis(1, at = x_ticks, labels = format(x_ticks, scientific = FALSE, drop0trailing = TRUE))")
+    ]
+
+def perform_text_replacements(content, verbose=True):
+    replacements = define_text_replacements()
+    for old_text, new_text in replacements:
+        content = content.replace(old_text, new_text)
+    return content
+
+def comment_out_titles(content, verbose=True):
+    """
+    Comment out any title(main = ...) patterns.
+    """
+    title_pattern = r"title\s*\(\s*main\s*=\s*[^)]+\)"
+    matches = re.findall(title_pattern, content, re.IGNORECASE)
+    if matches:
+        content = re.sub(title_pattern, lambda m: f"# {m.group(0)}", content, flags=re.IGNORECASE)
+        if verbose:
+            print(f"\nFound and commented out {len(matches)} title(main = ...) statement(s)\n")
+    return content
+
+def add_biome_xlabels(content, verbose=True):
+    """
+    Find plot() functions with empty xlab near biome titles and add 'Latitudinal Biome'.
+    """
+    plot_pattern = r'(plot\s*\([^)]*xlab\s*=\s*)[\'\"]\s*[\'\"]([^)]*\))'
+    matches = list(re.finditer(plot_pattern, content, re.IGNORECASE))
+    
+    replacements_made = 0
+    for match in matches:
+        # Look ahead from the match position for the biome title pattern
+        search_start = match.end()
+        
+        # Find the next 100 lines from the match position
+        remaining_content = content[search_start:]
+        lines_ahead = remaining_content.split('\n', 100)[:100]
+        context_ahead = '\n'.join(lines_ahead)
+        
+        # Check if there's a commented title(main='biome') ahead
+        # Pattern allows for any number of # symbols
+        biome_title_pattern = r'#+\s*title\s*\(\s*main\s*=\s*[\'"]biome[\'"]\s*\)'
+        
+        if re.search(biome_title_pattern, context_ahead, re.IGNORECASE):
+            replacement = match.group(1) + "'Latitudinal Biome'" + match.group(2)
+            content = content.replace(match.group(0), replacement, 1)  # Replace only first occurrence
+            replacements_made += 1
+            print(f"Added xlab = 'Latitudinal Biome' to plot function (found biome title ahead)")
+    
+    if verbose:
+        if replacements_made == 0:
+            print("No empty xlab plot parameters found near 'biome' titles")
+        else:
+            print(f"Added {replacements_made} Latitudinal Biome xlabel(s)")
+    
+    return content
+
+################################################################################
+# FUNCTION TO KEEP ONLY ONE Y AXIS LABEL PER ROW, REMOVE ALL OTHERS
 ################################################################################
 
 def remove_duplicate_ylab_strings(content):
@@ -237,8 +328,77 @@ def remove_duplicate_ylab_strings(content):
     
     return content
 
+
 ################################################################################
-# FUNCTION CALLING GRAPH DELETIONS, YAXIS DELETIONS, TEXT REPLACEMENTS
+# FUNCTION TO MAKE ANY NEGATIVE OBS_X VALUES IN LAT RANGE GRAPHS INTO 0.01
+################################################################################
+# since lat range graphs are now log scale, we need to ensure no negative or zero obs_x values
+# this needs to happen AFTER the text replacements, since those change the plot() lines we are searching for
+
+def insert_after_obs_x(content, verbose=True):
+    """
+    For specific plot() lines, find the next line starting with 'obs_x' 
+    and insert a new line after it.
+    """
+    
+    # The line to insert
+    lines_to_insert = [
+        "obs_x[obs_x > -1 & obs_x < 0] <- 0.01",
+        "tr[tr > -1 & tr < 0] <- 0.01",
+        "xlim[xlim > -1 & xlim < 0] <- 0.01"
+    ]
+    
+    # The trigger lines (transformed versions after text replacements)
+    trigger_lines = [
+        "plot(0, 0, type = 'n', xlim = xlim, ylim = ylim, xlab = 'Latitudinal Range (Log Transform)', ylab = 'Speciation', log = 'x', xaxt = 'n')",
+        "plot(0, 0, type = 'n', xlim = xlim, ylim = ylim, xlab = 'Latitudinal Range (Log Transform)', ylab = 'Extinction', log = 'x', xaxt = 'n')",
+        "plot(0, 0, type = 'n', xlim = xlim, ylim = ylim, xlab = 'Latitudinal Range (Log Transform)', ylab = 'Net Diversification', log = 'x', xaxt = 'n')"
+    ]
+    
+    lines = content.split('\n')
+    insertions_made = 0
+    
+    for trigger in trigger_lines:
+        # Find the trigger line
+        trigger_idx = None
+        for i, line in enumerate(lines):
+            if trigger in line:
+                trigger_idx = i
+                break
+        
+        if trigger_idx is None:
+            if verbose:
+                print(f"  ✗ Could not find trigger line: {trigger[:60]}...")
+            continue
+        
+        # Find the next line starting with "obs_x" after the trigger
+        obs_x_idx = None
+        for i in range(trigger_idx + 1, len(lines)):
+            if lines[i].strip().startswith("obs_x"):
+                obs_x_idx = i
+                break
+        
+        if obs_x_idx is None:
+            if verbose:
+                print(f"  ✗ Could not find 'obs_x' line after trigger at index {trigger_idx}")
+            continue
+        
+        # Insert the new lines after obs_x
+        for j, new_line in enumerate(lines_to_insert):
+            lines.insert(obs_x_idx + 1 + j, new_line)
+            insertions_made += len(lines_to_insert)
+        
+        if verbose:
+            print(f"  ✓ Inserted lines after 'obs_x' starting at index {obs_x_idx + 1}")
+    
+    if verbose:
+        print(f"Total insertions made: {insertions_made}")
+    
+    return '\n'.join(lines)
+
+
+################################################################################
+# FINAL FUNCTION CALLING GRAPH DELETIONS, YAXIS DELETIONS, TEXT REPLACEMENTS
 ################################################################################
 
 def replace_text_in_r_file(input_file, output_file=None):
@@ -281,76 +441,82 @@ def replace_text_in_r_file(input_file, output_file=None):
     # PERFORM TEXT REPLACEMENTS
     ################################################################################
     
-    # Define replacement patterns (order matters for some replacements)
-    replacements = [
-        # Handle wmmcmm_z_trans before cmm_z_trans 
-        ('wmmcmm_z_trans', 'AtmT Seasonality (°C)'),
-        ('cmm_z_trans', 'Coldest Month AtmT (°C)'),
+    original_content = content # Used later for checking if there were any text replacements
+    
+    content = perform_text_replacements(content)
+    content = comment_out_titles(content)
+    content = add_biome_xlabels(content)
+    content = insert_after_obs_x(content)
+    
+    # # Define replacement patterns (order matters for some replacements)
+    # replacements = [
+    #     # Handle wmmcmm_z_trans before cmm_z_trans 
+    #     ('wmmcmm_z_trans', 'AtmT Seasonality (°C)'),
+    #     ('cmm_z_trans', 'Coldest Month AtmT (°C)'),
         
-        # Other replacements
-        ('speciation', 'Speciation'),
-        ('extinction', 'Extinction'),
-        ('net diversification', 'Net Diversification'),
-        ("'Latitudinal Range'", "'Latitudinal Range (Log Transform)'"),
-        ('lat_range_z_trans', 'Latitudinal Range (Log Transform)'),
-        ('mat_z_trans', 'Mean Annual AtmT (°C)'),
-        ('map_z_trans', 'Mean Annual Precipitation (mm/day)'),
-        ('wmm_z_trans', 'Warmest Month AtmT (°C)'),
-        ('wetmon_z_trans', 'Wettest Month (mm/day)'),
-        ('drymon_z_trans', 'Dryest Month (mm/day)'),
-        ('wetdry_z_trans', 'Precipitation Seasonality (mm/day)'),
-        ('mean_z_trans', 'Mean Annual SST (°C)'),
-        ('Mod_R_deltaTMyr_z_trans', 'Mean SST Shift (°C/myr)'),
-        ('mean_pt_1myr_z_trans', 'Mean Annual SST (°C)'),
-        ('Mod_R_deltaTMyr_pt_1myr_z_trans', 'Mean SST Shift (°C/myr)'),
-        ("-0.005141735", "0.001"),
-        ("plot(0, 0, type = 'n', xlim = xlim, ylim = ylim, xlab = 'Latitudinal Range (Log Transform)', ylab = 'Speciation')",
-            "plot(0, 0, type = 'n', xlim = xlim, ylim = ylim, xlab = 'Latitudinal Range (Log Transform)', ylab = 'Speciation', log = 'x', xaxt = 'n') \n# Define the tick positions (to keep them from defaulting to scientific notation) \nx_ticks <- c(0.001, 0.01, 0.1, 1, 10, 100) \n# Add custom x-axis with decimal format labels \naxis(1, at = x_ticks, labels = format(x_ticks, scientific = FALSE, drop0trailing = TRUE))"),
-        ("plot(0, 0, type = 'n', xlim = xlim, ylim = ylim, xlab = 'Latitudinal Range (Log Transform)', ylab = 'Extinction')",
-            "plot(0, 0, type = 'n', xlim = xlim, ylim = ylim, xlab = 'Latitudinal Range (Log Transform)', ylab = 'Extinction', log = 'x', xaxt = 'n') \n# Add custom x-axis with decimal format labels. x_ticks defined previously \naxis(1, at = x_ticks, labels = format(x_ticks, scientific = FALSE, drop0trailing = TRUE))"),
-        ("plot(0, 0, type = 'n', xlim = xlim, ylim = ylim, xlab = 'Latitudinal Range (Log Transform)', ylab = 'Net Diversification')",
-            "plot(0, 0, type = 'n', xlim = xlim, ylim = ylim, xlab = 'Latitudinal Range (Log Transform)', ylab = 'Net Diversification', log = 'x', xaxt = 'n') \n# Add custom x-axis with decimal format labels. x_ticks defined previously \naxis(1, at = x_ticks, labels = format(x_ticks, scientific = FALSE, drop0trailing = TRUE))")
-    ]
+    #     # Other replacements
+    #     ('speciation', 'Speciation'),
+    #     ('extinction', 'Extinction'),
+    #     ('net diversification', 'Net Diversification'),
+    #     ("'Latitudinal Range'", "'Latitudinal Range (Log Transform)'"),
+    #     ('lat_range_z_trans', 'Latitudinal Range (Log Transform)'),
+    #     ('mat_z_trans', 'Mean Annual AtmT (°C)'),
+    #     ('map_z_trans', 'Mean Annual Precipitation (mm/day)'),
+    #     ('wmm_z_trans', 'Warmest Month AtmT (°C)'),
+    #     ('wetmon_z_trans', 'Wettest Month (mm/day)'),
+    #     ('drymon_z_trans', 'Dryest Month (mm/day)'),
+    #     ('wetdry_z_trans', 'Precipitation Seasonality (mm/day)'),
+    #     ('mean_z_trans', 'Mean Annual SST (°C)'),
+    #     ('Mod_R_deltaTMyr_z_trans', 'Mean SST Shift (°C/myr)'),
+    #     ('mean_pt_1myr_z_trans', 'Mean Annual SST (°C)'),
+    #     ('Mod_R_deltaTMyr_pt_1myr_z_trans', 'Mean SST Shift (°C/myr)'),
+    #     ("plot(0, 0, type = 'n', xlim = xlim, ylim = ylim, xlab = 'Latitudinal Range (Log Transform)', ylab = 'Speciation')",
+    #         "plot(0, 0, type = 'n', xlim = xlim, ylim = ylim, xlab = 'Latitudinal Range (Log Transform)', ylab = 'Speciation', log = 'x', xaxt = 'n') \n# Define the tick positions (to keep them from defaulting to scientific notation) \nx_ticks <- c(0.001, 0.01, 0.1, 1, 10, 100) \n# Add custom x-axis with decimal format labels \naxis(1, at = x_ticks, labels = format(x_ticks, scientific = FALSE, drop0trailing = TRUE))"),
+    #     ("plot(0, 0, type = 'n', xlim = xlim, ylim = ylim, xlab = 'Latitudinal Range (Log Transform)', ylab = 'Extinction')",
+    #         "plot(0, 0, type = 'n', xlim = xlim, ylim = ylim, xlab = 'Latitudinal Range (Log Transform)', ylab = 'Extinction', log = 'x', xaxt = 'n') \n# Add custom x-axis with decimal format labels. x_ticks defined previously \naxis(1, at = x_ticks, labels = format(x_ticks, scientific = FALSE, drop0trailing = TRUE))"),
+    #     ("plot(0, 0, type = 'n', xlim = xlim, ylim = ylim, xlab = 'Latitudinal Range (Log Transform)', ylab = 'Net Diversification')",
+    #         "plot(0, 0, type = 'n', xlim = xlim, ylim = ylim, xlab = 'Latitudinal Range (Log Transform)', ylab = 'Net Diversification', log = 'x', xaxt = 'n') \n# Add custom x-axis with decimal format labels. x_ticks defined previously \naxis(1, at = x_ticks, labels = format(x_ticks, scientific = FALSE, drop0trailing = TRUE))")
+    # ]
     
-    # Perform text replacements
-    original_content = content
-    for old_text, new_text in replacements:
-        content = content.replace(old_text, new_text)
+    # # Perform text replacements
+    # original_content = content
+    # for old_text, new_text in replacements:
+    #     content = content.replace(old_text, new_text)
     
-    # Comment out any title(main = ...) patterns
-    title_pattern = r"title\s*\(\s*main\s*=\s*[^)]+\)"
-    matches = re.findall(title_pattern, content, re.IGNORECASE)
-    if matches:
-        content = re.sub(title_pattern, lambda m: f"# {m.group(0)}", content, flags=re.IGNORECASE)
-        print(f"\nFound and commented out {len(matches)} title(main = ...) statement(s)\n")
+    # # Comment out any title(main = ...) patterns
+    # title_pattern = r"title\s*\(\s*main\s*=\s*[^)]+\)"
+    # matches = re.findall(title_pattern, content, re.IGNORECASE)
+    # if matches:
+    #     content = re.sub(title_pattern, lambda m: f"# {m.group(0)}", content, flags=re.IGNORECASE)
+    #     print(f"\nFound and commented out {len(matches)} title(main = ...) statement(s)\n")
     
-    # Look for plot() functions with empty xlab and add 'Latitudinal Biome'
-    # Strategy: Find empty xlab, then look ahead for commented title(main='biome')
-    plot_pattern = r'(plot\s*\([^)]*xlab\s*=\s*)[\'\"]\s*[\'\"]([^)]*\))'
-    matches = list(re.finditer(plot_pattern, content, re.IGNORECASE))
+    # # Look for plot() functions with empty xlab and add 'Latitudinal Biome'
+    # # Strategy: Find empty xlab, then look ahead for commented title(main='biome')
+    # plot_pattern = r'(plot\s*\([^)]*xlab\s*=\s*)[\'\"]\s*[\'\"]([^)]*\))'
+    # matches = list(re.finditer(plot_pattern, content, re.IGNORECASE))
     
-    replacements_made = 0
-    for match in matches:
-        # Look ahead from the match position for the biome title pattern
-        search_start = match.end()
+    # replacements_made = 0
+    # for match in matches:
+    #     # Look ahead from the match position for the biome title pattern
+    #     search_start = match.end()
         
-        # Find the next 100 lines from the match position
-        remaining_content = content[search_start:]
-        lines_ahead = remaining_content.split('\n', 100)[:100]
-        context_ahead = '\n'.join(lines_ahead)
+    #     # Find the next 100 lines from the match position
+    #     remaining_content = content[search_start:]
+    #     lines_ahead = remaining_content.split('\n', 100)[:100]
+    #     context_ahead = '\n'.join(lines_ahead)
         
-        # Check if there's a commented title(main='biome') ahead
-        # Pattern allows for any number of # symbols
-        biome_title_pattern = r'#+\s*title\s*\(\s*main\s*=\s*[\'"]biome[\'"]\s*\)'
+    #     # Check if there's a commented title(main='biome') ahead
+    #     # Pattern allows for any number of # symbols
+    #     biome_title_pattern = r'#+\s*title\s*\(\s*main\s*=\s*[\'"]biome[\'"]\s*\)'
         
-        if re.search(biome_title_pattern, context_ahead, re.IGNORECASE):
-            replacement = match.group(1) + "'Latitudinal Biome'" + match.group(2)
-            content = content.replace(match.group(0), replacement, 1)  # Replace only first occurrence
-            replacements_made += 1
-            print(f"Added xlab = 'Latitudinal Biome' to plot function (found biome title ahead)")
+    #     if re.search(biome_title_pattern, context_ahead, re.IGNORECASE):
+    #         replacement = match.group(1) + "'Latitudinal Biome'" + match.group(2)
+    #         content = content.replace(match.group(0), replacement, 1)  # Replace only first occurrence
+    #         replacements_made += 1
+    #         print(f"Added xlab = 'Latitudinal Biome' to plot function (found biome title ahead)")
     
-    if replacements_made == 0:
-        print("No empty xlab parameters found near biome title comments")
+    # if replacements_made == 0:
+    #     print("No empty xlab parameters found near biome title comments")
 
     ################################################################################
     # PERFORM YAXIS LABEL DELETIONS
@@ -380,7 +546,7 @@ def replace_text_in_r_file(input_file, output_file=None):
             
             # Count replacements made
             changes_made = []
-            for old_text, new_text in replacements:
+            for old_text, new_text in define_text_replacements():
                 if old_text in original_content:
                     changes_made.append(f"'{old_text}' → '{new_text}'")
             
@@ -423,7 +589,7 @@ Examples:
         print(f"Error: Input file '{args.input_file}' does not exist.")
         sys.exit(1)
     
-    if not input_path.suffix.lower() in ['.r', '.R']:
+    if input_path.suffix.lower() != '.r':
         print(f"Warning: '{args.input_file}' does not appear to be an R file.")
     
     # Process the file
