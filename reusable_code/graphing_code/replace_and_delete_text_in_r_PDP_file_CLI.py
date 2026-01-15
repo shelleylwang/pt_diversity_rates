@@ -338,8 +338,8 @@ def remove_duplicate_ylab_strings(content):
 def insert_after_obs_x(content, verbose=True):
     """
     For specific plot() lines:
-    - Insert xlim and tr fixes BEFORE the plot line
-    - Insert obs_x fix AFTER the obs_x line
+    - Insert negative xlim and tr fixes BEFORE the plot line
+    - Insert negative obs_x fix AFTER the obs_x line
     """
     
     # Lines to insert BEFORE the plot() call
@@ -399,10 +399,10 @@ def insert_after_obs_x(content, verbose=True):
         insertions_made += 1
         
         if verbose:
-            print(f"  ✓ Inserted fixes around plot at index {trigger_idx}")
+            print(f"  ✓ Inserted negative xlim, tr, and obs_x fixes around latitudinal range (log transform) plot at index {trigger_idx}")
     
     if verbose:
-        print(f"Total plot sections modified: {insertions_made}")
+        print(f"Total latitudinal range (log transform) plot sections modified: {insertions_made}")
     
     return '\n'.join(lines)
 
