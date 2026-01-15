@@ -1,4 +1,4 @@
-pdf(file='C:/Users/SimoesLabAdmin/Documents/pt_diversity_rates/updated_occurrence_analyses/model_8/synapsida/PDPs_custom/combined_10_PDP.pdf', width = 16, height = 10, useDingbats = FALSE)
+pdf(file='C:/Users/SimoesLabAdmin/Documents/pt_diversity_rates/updated_occurrence_analyses/model_8/synapsida/PDPs_custom/combined_10_PDP_custom.pdf', width = 16, height = 10, useDingbats = FALSE)
 
 par(mfrow = c(3, 4), mar = c(6.5, 4.5, 0.5, 0.5), cex.lab = 1.5)
 pkgs = c('vioplot')
