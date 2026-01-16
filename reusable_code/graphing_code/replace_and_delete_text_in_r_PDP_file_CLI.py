@@ -290,9 +290,9 @@ def add_biome_xlabels(content, verbose=True):
     
     if verbose:
         if replacements_made == 0:
-            print("No empty xlab plot parameters found near 'biome' titles")
+            print("No empty xlab plot parameters found near 'biome' titles\n")
         else:
-            print(f"Added {replacements_made} Latitudinal Biome xlabel(s)")
+            print(f"Added {replacements_made} Latitudinal Biome xlabel(s)\n")
     
     return content
 
@@ -399,10 +399,10 @@ def insert_after_obs_x(content, verbose=True):
         insertions_made += 1
         
         if verbose:
-            print(f"  ✓ Inserted negative xlim, tr, and obs_x fixes around latitudinal range (log transform) plot at index {trigger_idx}")
+            print(f"Inserted negative xlim, tr, and obs_x fixes around latitudinal range (log transform) plot at index {trigger_idx}")
     
     if verbose:
-        print(f"Total latitudinal range (log transform) plot sections modified: {insertions_made}")
+        print(f"Total latitudinal range (log transform) plot sections modified: {insertions_made}\n")
     
     return '\n'.join(lines)
 
