@@ -1,0 +1,45 @@
+﻿id,occurrence_no,occurrence_no_AF,Rotated latitude,genus,age_max,age_min,Epoch,range,cc,state,county,formation,zone,collection_name,collection_aka
+49,283826,283826,40.08932,Aetosaurus,227.0,208.5,Late Triassic,"(227.0, 208.5)",GL,,,Ørsted Dal,,western Sydkronen,"area VIII, Jameson Land"
+50,283826,283826,40.08932,Aetosaurus,227.0,208.5,Late Triassic,"(227.0, 208.5)",GL,,,Ørsted Dal,,western Sydkronen,"area VIII, Jameson Land"
+51,283828,283828,40.08932,Plateosaurus,227.0,208.5,Late Triassic,"(227.0, 208.5)",GL,,,Ørsted Dal,,western Sydkronen,"area VIII, Jameson Land"
+52,283860,283860,40.08932,Issi,227.0,208.5,Late Triassic,"(227.0, 208.5)",GL,,,Malmros Klint,,"Iron Cake site, northern flank of Macknight Bjerg",area V
+785,1549937,1549937,-25.48265,Kranosaura,227.0,208.5,Late Triassic,"(227.0, 208.5)",IN,,,Maleri,,Kranosaura type locality,
+1280,1561501,1561501,29.81785,Raibliania,237.0,227.0,Late Triassic,"(237.0, 227.0)",IT,,,,Trachyceras aon,"Cave del Predil (Raibl), Fischschiefer",
+1810,1382837,1382837,44.03487,Suchonosaurus,264.28,256.8,Guadalupian,"(264.28, 256.8)",RU,,,Salarevskaya,Scutosaurus karpinskii,Salarevo,
+1891,604143,604143,45.57481,Plateosaurus,208.5,201.4,Late Triassic,"(208.5, 201.4)",,,,Lunde,,Snorre Field well 34/4-9S,
+1892,630027,630027,39.29812,Eudimorphodon,208.5,201.4,Late Triassic,"(208.5, 201.4)",LU,,,,,"Auf dem Heftgen, Syren",SYREN 16561
+1943,1162208,1162208,41.1313,Termatosaurus,208.5,201.4,Late Triassic,"(208.5, 201.4)",DE,,,,,"Apfelstädtgrundes, southeast of Gotha",
+2174,1415674,1415674,29.61478,Apatopus,233.4,227.0,Late Triassic,"(233.4, 227.0)",DE,,,Hassberge,,"Schönbachsmühle quarry, near Ebelsbach",
+2261,1358998,1358998,-47.78411,Pareiasaurus,259.51,254.14,Lopingian,"(259.51, 254.14)",ZM,,,Madumabisa Mudstone,Cistecephalus Assemblage Zone,"Drysdall & Kitching locality 4, Upper Luangwa Valley",
+2271,601699,601699,-9.650311,Tanystropheus,246.7,242.0,Middle Triassic,"(246.7, 242.0)",IL,,,,,"Beneckeia beds, Member B, Wadi Raman, Negev Desert",
+2460,1106822,1106822,26.46257,Thecodontosaurus,246.7,242.0,Middle Triassic,"(246.7, 242.0)",DE,,,,,"Laineck, near Bayreuth, Bavaria (BMNH)",
+2495,1415292,1415292,29.56131,Hemilopas,246.7,242.0,Middle Triassic,"(246.7, 242.0)",PL,,,Wellenkalk,,"Gogoliner Schichten, Muschelkalk, Chorzow",
+2496,1415293,1415293,29.56131,Hemilopas,246.7,242.0,Middle Triassic,"(246.7, 242.0)",PL,,,Gogolin,,"Sacrau, near Goglin",Zakrzów
+2503,1574347,1574347,29.56131,Cladeiodon,246.7,242.0,Middle Triassic,"(246.7, 242.0)",PL,,,Wellenkalk,,"Gogoliner Schichten, Muschelkalk, Chorzow",
+2698,803135,803135,-77.5844,Procolophon,251.902,246.7,Early Triassic,"(251.902, 246.7)",AA,,,Fremouw,,Kitching Ridge (Fremouw Fm.),Cumulus Hills
+2699,803158,803158,-77.5844,Procolophon,251.902,246.7,Early Triassic,"(251.902, 246.7)",AA,,,Fremouw,,"Collinson Ridge (Fremouw Fm., 85 m above base)",Cumulus Hills; Halfmoon Bluff; Sentinel Hill
+2700,803158,803158,-77.5844,Procolophon,251.902,246.7,Early Triassic,"(251.902, 246.7)",AA,,,Fremouw,,"Collinson Ridge (Fremouw Fm., 85 m above base)",Cumulus Hills; Halfmoon Bluff; Sentinel Hill
+2701,803158,803158,-77.5844,Procolophon,251.902,246.7,Early Triassic,"(251.902, 246.7)",AA,,,Fremouw,,"Collinson Ridge (Fremouw Fm., 85 m above base)",Cumulus Hills; Halfmoon Bluff; Sentinel Hill
+2704,807184,807184,-77.5844,Procolophon,251.902,246.7,Early Triassic,"(251.902, 246.7)",AA,,,Fremouw,Lystrosaurus,Thrinaxodon Col (Fremouw Formation),Mount Kenyon; Cumulus Hills
+2716,853631,853631,-77.5844,Palacrodon,251.902,246.7,Early Triassic,"(251.902, 246.7)",AA,,,Fremouw,,Kitching Ridge (Fremouw Fm.),Cumulus Hills
+2727,922693,922693,-77.5844,Prolacerta,251.902,246.7,Early Triassic,"(251.902, 246.7)",AA,,,Fremouw,Lystrosaurus,Thrinaxodon Col (Fremouw Formation),Mount Kenyon; Cumulus Hills
+2728,922694,922694,-76.62466,Prolacerta,251.902,246.7,Early Triassic,"(251.902, 246.7)",AA,,,Fremouw,,Graphite Peak (Fremouw Fm.),
+2729,922695,922695,-77.5844,Prolacerta,251.902,246.7,Early Triassic,"(251.902, 246.7)",AA,,,Fremouw,,"Collinson Ridge (Fremouw Fm., 85 m above base)",Cumulus Hills; Halfmoon Bluff; Sentinel Hill
+2730,922696,922696,-77.5844,Prolacerta,251.902,246.7,Early Triassic,"(251.902, 246.7)",AA,,,Fremouw,,Kitching Ridge (Fremouw Fm.),Cumulus Hills
+2759,1431220,1431220,-76.62466,Antarctanax,251.902,246.7,Early Triassic,"(251.902, 246.7)",AA,,,Fremouw,,Graphite Peak (Fremouw Fm.),
+2763,1587698,1587698,-76.62466,Procolophon,251.902,246.7,Early Triassic,"(251.902, 246.7)",AA,,,Fremouw,,Graphite Peak (Fremouw Fm.),
+2770,1600124,1600124,20.93788,Macrocnemus,246.7,239.7,Middle Triassic,"(246.7, 239.7)",CH,,,Besano,,"Point 902, Monte San Giorgio, unspecified bed",Mirigioli
+2771,1600125,1600125,20.93788,Macrocnemus,246.7,239.7,Middle Triassic,"(246.7, 239.7)",CH,,,Besano,,"Point 902, Monte San Giorgio, unspecified bed",Mirigioli
+2772,1600128,1600128,20.93788,Helveticosaurus,246.7,239.7,Middle Triassic,"(246.7, 239.7)",CH,,,Besano,,"Point 902, Monte San Giorgio, unspecified bed",Mirigioli
+2846,283825,283825,40.08932,Proganochelys,216.7,213.2,Late Triassic,"(216.7, 213.2)",GL,,,Fleming Fjord,,south of base camp II,"Jameson Land, area II"
+2937,219963,219963,41.97247,Rhipaeosaurus,266.9,264.28,Guadalupian,"(266.9, 264.28)",RU,,,,Estemmenosuchus uralensis,Belebei,"ETE Locality 1518, Belebei, "
+2948,1424401,1424401,40.12712,Kinelia,266.9,264.28,Guadalupian,"(266.9, 264.28)",RU,,,'Third',,"Monastery Ravine, Volga River ('Third' Formation)",
+2984,1417908,1417908,25.88766,Eusaurosphargis,242.0,239.7,Middle Triassic,"(242.0, 239.7)",CH,,,Prosanto,,Ducanfurgga 4,
+2998,1285940,1285940,-43.64076,Tangasaurus,254.14,251.902,Lopingian,"(254.14, 251.902)",TZ,,,,,Tanga marine reptiles,
+2999,1285940,1285940,-43.64076,Tangasaurus,254.14,251.902,Lopingian,"(254.14, 251.902)",TZ,,,,,Tanga marine reptiles,
+3000,1285940,1285940,-43.64076,Tangasaurus,254.14,251.902,Lopingian,"(254.14, 251.902)",TZ,,,,,Tanga marine reptiles,
+3065,1162175,1162175,20.93788,Tanystropheus,246.7,242.0,Middle Triassic,"(246.7, 242.0)",IT,,,Besano,,Besano (MCSN Milan collection),
+3066,1445529,1445529,20.93788,Helveticosaurus,246.7,242.0,Middle Triassic,"(246.7, 242.0)",IT,,,San Salvatore,Nevadites secedensis,"SEZ.D, Rasa di Varese",
+3067,1445531,1445531,20.93788,Ticinosuchus,246.7,242.0,Middle Triassic,"(246.7, 242.0)",IT,,,San Salvatore,Nevadites secedensis,"SEZ.I, Rasa di Varese",
+3100,1347595,1347595,-9.650311,Tanystropheus,246.7,243.8,Middle Triassic,"(246.7, 243.8)",IL,,,Gevanim,,"Wadi Ramon, Beneckeia beds",
+3101,1195726,1195726,27.06795,Eusaurosphargis,246.7,244.7,Middle Triassic,"(246.7, 244.7)",NL,,,Vossenveld,,Winterswijk Quarry III,
