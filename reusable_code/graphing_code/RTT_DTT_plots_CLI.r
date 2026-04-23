@@ -245,13 +245,13 @@ DTT_plot <- ggplot(diversity_df, aes(x = time, y = diversity)) +
   labs(x = "Time (Ma)", y = "Number of Genera") +
   theme_classic() + 
   theme(
-    text = element_text(size = 12),
-    axis.text.x = element_text(size = 12),
+    text = element_text(size = 10),
+    axis.text.x = element_text(size = 10),
     axis.ticks.x = element_line(),
-    axis.text.y = element_text(size = 10),
-    axis.title = element_text(size = 12),
-    axis.title.x = element_text(size = 12, margin = margin(t = 15)),
-    axis.title.y = element_text(margin = margin(r = 15)),
+    axis.text.y = element_text(size = 9),
+    axis.title = element_text(size = 10),
+    axis.title.x = element_text(size = 10, margin = margin(t = 15)),
+    axis.title.y = element_text(size = 10, margin = margin(r = 15)),
     plot.title = element_text(size = 14, hjust = 0.5, margin = margin(b = 15)),
     plot.margin = unit(c(0.5, 0.5, 0.5, 0.5), "cm"),
     panel.grid.major = element_blank(),
