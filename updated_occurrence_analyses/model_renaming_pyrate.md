@@ -1,4 +1,4 @@
-The folder pt\_diversity\_rates/updated\_occurrence\_analyses/all\_models\_rates\_tables is named using the right column!
+The folder pt\_diversity\_rates/updated\_occurrence\_analyses/all\_models\_rates\_tables is named using the right column! The outputs are in the local repos as well, I just copy-pasted each csv into the folder all\_models\_rates\_tables and re-named them from the left column numbering to the right
 
 
 
