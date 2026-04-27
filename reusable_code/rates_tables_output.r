@@ -1,87 +1,13 @@
+# Only thing that needs to be changed is the root_path variable and maye the rtt_path variable to point to the correct location of the RTT file and the name of the RTT file
+# The script will read the RTT file, extract the relevant vectors, and output a CSV file with age, mean, lower, and upper values for L, M, and R.
 
-  library(optparse)
-  library(ggplot2)
-  library(scales)
-  library(gridExtra)
-  library(deeptime)
-  library(gtable)
-  library(grid)
-
-
-ltt_path = "ltt_script.R"
-rtt_path = "rtt_script.R"
-
-# Read and parse LTT script
-ltt_text <- readLines(opt$ltt_path, warn = FALSE)
-ts <- grep("^\\s*ts\\s*=", ltt_text, value = TRUE)
-time_events <- grep("^\\s*time_events\\s*=", ltt_text, value = TRUE)
-div_traj <- grep("^\\s*div_traj\\s*=", ltt_text, value = TRUE)
-
-# Execute those lines
-eval(parse(text = ts))
-eval(parse(text = time_events))
-eval(parse(text = div_traj))
-
-# Apply translation if specified
-time_events = time_events + opt$translate
-if (opt$translate != 0) {
-  cat(paste("Applied time back-translation of", opt$translate, "Myr\n"))
-}
-
-# Create diversity dataframe
-diversity_df <- data.frame(time = -time_events, diversity = div_traj)
-
-# Handle DTT ylim
-dtt_ylim_actual <- if (identical(dtt_ylim, "auto")) {
-  c(0, max(diversity_df$diversity[diversity_df$time >= xlim_vals[1] & 
-                                   diversity_df$time <= xlim_vals[2]]) + 1)
-} else {
-  dtt_ylim
-}
-
-# Create DTT plot
-DTT_plot <- ggplot(diversity_df, aes(x = time, y = diversity)) +
-  geom_step() +
-  scale_x_continuous(breaks = x_ticks) +
-  labs(x = "Time (Ma)", y = "Number of Genera") +
-  theme_classic() + 
-  theme(
-    text = element_text(size = 12),
-    axis.text.x = element_text(size = 12),
-    axis.ticks.x = element_line(),
-    axis.text.y = element_text(size = 10),
-    axis.title = element_text(size = 12),
-    axis.title.x = element_text(size = 12, margin = margin(t = 15)),
-    axis.title.y = element_text(margin = margin(r = 15)),
-    plot.title = element_text(size = 14, hjust = 0.5, margin = margin(b = 15)),
-    plot.margin = unit(c(0.5, 0.5, 0.5, 0.5), "cm"),
-    panel.grid.major = element_blank(),
-    panel.grid.minor = element_blank()
-  ) +
-  coord_geo(
-    dat = list("international ages", "international periods"),
-    expand = FALSE,
-    abbrv = list(TRUE, FALSE),
-    pos = list("bottom", "bottom"),
-    alpha = 1,
-    height = unit(1, "line"),
-    neg = TRUE,
-    xlim = xlim_vals,
-    ylim = dtt_ylim_actual
-  )
-
-# Add extinction event lines to DTT plot if specified
-if (length(extinction_events) > 0) {
-  DTT_plot <- DTT_plot + 
-    geom_vline(xintercept = extinction_events, color = "red", linetype = "dashed")
-}
-
-cat("DTT plot created\n")
+root_path = "C:\\Users\\SimoesLabAdmin\\Documents\\pt_diversity_rates\\updated_occurrence_analyses\\model_2_and_5\\200_its_s1k\\reptilia_terr\\RTTs"
+rtt_path = file.path(root_path, "RTT_plots.r")
 
 ########################## RTT ###########################
 
 # Read RTT script
-rtt_text <- readLines(opt$rtt_path, warn = FALSE)
+rtt_text <- readLines(rtt_path, warn = FALSE)
 
 # Search for NON-BDNN, NON-RJMCMC vectors
 L_hpd_m95 <- grep("^\\s*L_hpd_m95\\s*=", rtt_text, value = TRUE)
@@ -249,76 +175,18 @@ L_data <- get_RTT_data(age, L_hpd_M95, L_hpd_m95, L_mean, "#4c4cec")
 M_data <- get_RTT_data(age, M_hpd_M95, M_hpd_m95, M_mean, "#e34a33")
 R_data <- get_RTT_data(age, R_hpd_M95, R_hpd_m95, R_mean, "#504A4B")
 
-# Function to create RTT plots with geological timescale
-create_plot_with_geo <- function(poly_data, mean_data, color, title, ylab, 
-                                ylim, show_x_axis = FALSE) {
-  main_plot <- ggplot() +
-    geom_polygon(data = poly_data, 
-                aes(x = age, y = y, group = group, alpha = alpha), 
-                fill = color, na.rm = TRUE) +
-    geom_line(data = mean_data, 
-             aes(x = age, y = y), 
-             color = color, linewidth = 1.2, lineend = "round") +
-    scale_x_continuous(breaks = x_ticks, 
-                      labels = if(show_x_axis) x_tick_labels else NULL, 
-                      name = if(show_x_axis) "Ma" else NULL) +
-    labs(title = title, y = ylab) +
-    coord_cartesian(ylim = ylim, expand = FALSE) +
-    scale_alpha_continuous(range = c(0.005, 0.05), guide = "none") +
-    theme_classic() +
-    theme(
-      text = element_text(size = 10),
-      axis.text.x = if(show_x_axis) element_text(size = 10) else element_blank(),
-      axis.ticks.x = if(show_x_axis) element_line() else element_blank(),
-      axis.text.y = element_text(size = 9),
-      axis.title = element_text(size = 10),
-      axis.title.x = element_text(size = 10, margin = margin(t = 15)),
-      axis.title.y = element_text(margin = margin(r = 15)),
-      plot.title = element_text(size = 14, hjust = 0.5, margin = margin(b = 15)),
-      plot.margin = unit(c(0.5, 0.5, if(show_x_axis) 0.5 else 0.1, 0.5), "cm"),
-      panel.grid.major = element_blank(),
-      panel.grid.minor = element_blank()
-    )
-  
-  # Add extinction event lines if specified
-  if (length(extinction_events) > 0) {
-    main_plot <- main_plot + 
-      geom_vline(xintercept = extinction_events, color = "red", linetype = "dashed")
-  }
-  
-  # Add zero line for net diversification
-  if (ylab == "Net diversification rate") {
-    main_plot <- main_plot + geom_hline(yintercept = 0, linetype = "dashed", color = "black")
-  }
-  
-  # Add geological timescale
-  main_plot <- main_plot + 
-    coord_geo(
-      dat = list("international ages", "international periods"),
-      expand = FALSE,
-      abbrv = list(TRUE, FALSE),
-      pos = list("bottom", "bottom"),
-      alpha = 1,
-      ylim = ylim,
-      height = unit(1, "line"),
-      neg = TRUE,
-      xlim = xlim_vals
-    )
-  
-  return(main_plot)
-}
 
-cat("Creating RTT plots...\n")
-
-# Open null device to prevent Rplots.pdf creation (random file)
-pdf(NULL)
-
-# Create individual plots
-p1 <- create_plot_with_geo(L_data$poly_data, L_data$mean_data, "#4c4cec", 
-                           opt$title, "Speciation rate", spec_ylim, show_x_axis = TRUE)
-
-p2 <- create_plot_with_geo(M_data$poly_data, M_data$mean_data, "#e34a33", 
-                           "", "Extinction rate", ext_ylim, show_x_axis = TRUE)
-
-p3 <- create_plot_with_geo(R_data$poly_data, R_data$mean_data, "#504A4B", 
-                           "", "Net diversification rate", div_ylim, show_x_axis = TRUE)
+# Output a data table with age as rows, and the mean, lower, and upper values for L, M, and R as columns
+output_df <- data.frame(
+  age = age,
+  L_mean = L_mean,
+  L_hpd_m95 = L_hpd_m95,
+  L_hpd_M95 = L_hpd_M95,
+  M_mean = M_mean,
+  M_hpd_m95 = M_hpd_m95,
+  M_hpd_M95 = M_hpd_M95,
+  R_mean = R_mean,
+  R_hpd_m95 = R_hpd_m95,
+  R_hpd_M95 = R_hpd_M95
+)
+write.csv(output_df, file.path(root_path, "rtt_output_table.csv"), row.names = FALSE)
