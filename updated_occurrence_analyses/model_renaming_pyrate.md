@@ -1,7 +1,10 @@
+The folder pt\_diversity\_rates/updated\_occurrence\_analyses/all\_models\_rates\_tables is named using the right column! The outputs are in the local repos as well, I just copy-pasted each csv into the folder all\_models\_rates\_tables and re-named them from the left column numbering to the right
 
 
-|Model 1: Syn, Rep Terr, MCMC no pred|Model 1|
+
+|Local Repo Names|Final Repo Names|
 |-|-|
+|Model 1: Syn, Rep Terr, MCMC no pred|Model 1|
 |Model 2: Syn, Rep Terr, 1Myr RJMCMC no pred|Model 2|
 |Model 3: Syn, Rep Terr, Stages BDNN BRIDGE --> Model 6|Model 3: Syn, Rep All, 1Myr RJMCMC no pred<br />(Model 5)|
 |Model 5: Syn, Rep All, 1Myr RJMCMC no pred --> Model 3<br /><br />Model 5 name in local workstation repo: 200\_its\_s1k<br /><br />|Model 4: Syn Rep All, Stages BDNN Iso<br />(Model 7)|
