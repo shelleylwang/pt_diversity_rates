@@ -1,7 +1,7 @@
 # Only thing that needs to be changed is the root_path variable and maye the rtt_path variable to point to the correct location of the RTT file and the name of the RTT file
 # The script will read the RTT file, extract the relevant vectors, and output a CSV file with age, mean, lower, and upper values for L, M, and R.
 
-root_path = "C:\\Users\\SimoesLabAdmin\\Documents\\pt_diversity_rates\\updated_occurrence_analyses\\model_3\\reptilia_terr\\RTTs"
+root_path = "C:\\Users\\SimoesLabAdmin\\Documents\\pt_diversity_rates\\updated_occurrence_analyses\\model_9\\synapsida_new_dates\\"
 rtt_path = file.path(root_path, "combined_10_RTT.r")
 
 ########################## RTT ###########################
